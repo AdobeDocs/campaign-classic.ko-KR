@@ -7,7 +7,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: c6dd2709-06e3-4227-bbec-99f3d80144fe
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 192505e1c4d387de55ca18b578b837d237cc0607
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 2%
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 오퍼 대상에 필터를 적용할 수 있습니다.
 
-이렇게 하려면 **[!UICONTROL Edit query]** 링크를 클릭하고 적용할 필터를 선택합니다. ([이 섹션](../../platform/using/steps-to-create-a-query.md#step-4---filter-data)을(를) 참조하세요.)
+이렇게 하려면 **[!UICONTROL Edit query]** 링크를 클릭하고 적용할 필터를 선택합니다. [이 섹션](../../platform/using/about-adobe-campaign-classic.md)을 참조하십시오.
 
 ![](assets/offer_eligibility_create_003.png)
 
@@ -80,7 +80,7 @@ ht-degree: 2%
 
 오퍼에 가중치를 만들려면 다음 단계를 적용합니다.
 
-1. **[!UICONTROL Add]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/offer_weight_create_001.png)
 
