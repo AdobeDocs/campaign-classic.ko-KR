@@ -31,7 +31,6 @@ ht-degree: 2%
 >[!NOTE]
 >
 > * 데이터베이스에 있는 모든 수신자 목록을 표시하려면 뷰를 만들어야 합니다. 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}를 참조하세요.
-
 > * 프로필 관리 방법에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}를 참조하세요.
 
 
