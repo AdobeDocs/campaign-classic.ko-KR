@@ -9,7 +9,7 @@ topic-tags: profile-management
 exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
 hide: true
 hidefromtoc: true
-source-git-commit: 221e2ccdaadf793212fcacdf5e13823f1505f4dc
+source-git-commit: d3a603bbb70dc63e72b6eed87a6503e155aff54e
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 2%
@@ -31,6 +31,7 @@ ht-degree: 2%
 >[!NOTE]
 >
 > * 데이터베이스에 있는 모든 수신자 목록을 표시하려면 뷰를 만들어야 합니다. 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}를 참조하세요.
+>
 > * 프로필 관리 방법에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}를 참조하세요.
 
 
