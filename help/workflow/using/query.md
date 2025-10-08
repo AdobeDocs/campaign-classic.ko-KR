@@ -6,9 +6,9 @@ feature: Workflows, Targeting Activity, Query Editor
 hide: true
 hidefromtoc: true
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1630'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 
    해당 상자를 선택하여 데이터 그룹화 조건을 추가할 수도 있습니다. 이렇게 하려면 필터링 차원이 쿼리의 타겟팅 차원과 달라야 합니다. 그룹화에 대한 자세한 내용은 이 [섹션](querying-using-grouping-management.md)을 참조하세요.
 
-   표현식 빌더를 사용하여 논리 옵션 AND, OR 및 EXCEPT와 결합하여 더 많은 기준을 추가할 수도 있습니다. 그런 다음 기준 조합에 대한 **[!UICONTROL Corresponding SQL query...]**&#x200B;을(를) 미리 볼 수 있습니다. 자세한 정보는 이 [섹션](../../platform/using/defining-filter-conditions.md#building-expressions)을 참조하세요.
+   표현식 빌더를 사용하여 논리 옵션 AND, OR 및 EXCEPT와 결합하여 더 많은 기준을 추가할 수도 있습니다. 그런 다음 기준 조합에 대한 **[!UICONTROL Corresponding SQL query...]**&#x200B;을(를) 미리 볼 수 있습니다. 자세한 정보는 이 [섹션](../../platform/using/about-queries-in-campaign.md)을 참조하세요.
 
    나중에 다시 사용하려면 필터를 저장하십시오.
 
@@ -106,7 +106,7 @@ Adobe Campaign 데이터베이스에서 데이터를 추가하려면 다음을 �
 
 1. 필요한 경우 **[!UICONTROL Data collected]** 필드의 값 중 하나를 선택하여 유지할 컬렉션의 요소 수를 지정합니다. 기본적으로 컬렉션의 모든 행은 복구된 다음 다음 단계에서 지정된 조건에 따라 필터링됩니다.
 
-   * 컬렉션의 단일 요소가 이 컬렉션의 필터링 조건과 일치하는 경우 **[!UICONTROL Data collected]** 필드에서 **[!UICONTROL Single row]**&#x200B;을(를) 선택합니다.
+   * 컬렉션의 단일 요소가 이 컬렉션의 필터링 조건과 일치하는 경우 **[!UICONTROL Single row]** 필드에서 **[!UICONTROL Data collected]**&#x200B;을(를) 선택합니다.
 
      >[!IMPORTANT]
      >
@@ -188,16 +188,16 @@ Adobe Campaign 데이터베이스에서 데이터를 추가하려면 다음을 �
 
   자세한 내용은 Campaign 버전에 따라 다음 섹션을 참조하십시오.
 
-  ![](assets/do-not-localize/v7.jpeg) [Campaign v7 설명서](../../configuration/using/database-mapping.md)
+  ![](assets/do-not-localize/v7.jpeg)[Campaign v7 설명서](../../configuration/using/database-mapping.md)
 
-  ![](assets/do-not-localize/v8.png) [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=ko)
+  ![](assets/do-not-localize/v8.png)[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html)
 
 ### 함수 {#functions}
 
 * `Lower(...)`과(와) 같은 함수를 주의하십시오. Lower 함수를 사용하면 Index가 사용되지 않습니다.
 * &quot;like&quot; 지침 또는 &quot;upper&quot; 또는 &quot;lower&quot; 지침을 사용하여 쿼리를 신중하게 확인합니다. 데이터베이스 필드가 아닌 사용자 입력에 &quot;Upper&quot;를 적용합니다.
 
-  함수에 대한 자세한 정보는 [이 섹션](../../platform/using/defining-filter-conditions.md#list-of-functions)을 참조하세요.
+  함수에 대한 자세한 정보는 [이 섹션](../../platform/using/about-queries-in-campaign.md)을 참조하세요.
 
 ### 차원 필터링 {#filtering-dimensions}
 

@@ -5,9 +5,9 @@ description: 콘텐츠 편집
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1226'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->고급 표현식 편집이 [이 페이지](../../platform/using/defining-filter-conditions.md#list-of-functions)에 표시됩니다.
+>고급 표현식 편집이 [이 페이지](../../platform/using/about-queries-in-campaign.md)에 표시됩니다.
 
 ![](assets/dce_popup_visibilitycondition.png)
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 **필드** 입력 영역을 사용하면 양식 필드에 연결할 데이터베이스 필드를 선택할 수 있습니다.
 
-기본적으로 제공되는 필드는 **nms:recipient** 테이블에 있는 필드입니다.
+기본적으로 제공된 필드는 **nms:recipient** 표에 있는 필드입니다.
 
 ![](assets/dce_field_selection.png)
 
@@ -233,7 +233,7 @@ ht-degree: 0%
 이미지가 포함된 블록을 선택하면 다음 속성에 액세스합니다.
 
 * **캡션**&#x200B;을 사용하면 이미지에 연결된 캡션을 정의할 수 있습니다(**alt** HTML 특성에 해당).
-* **Dimension**&#x200B;을(를) 사용하면 이미지 크기를 픽셀 단위로 지정할 수 있습니다.
+* **차원**&#x200B;을 사용하면 이미지 크기를 픽셀 단위로 지정할 수 있습니다.
 
   ![](assets/dce_popup_imgsize.png)
 

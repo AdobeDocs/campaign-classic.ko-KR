@@ -8,7 +8,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 2%
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 내보내기 작업을 사용하면 연락처, 클라이언트, 목록, 세그먼트 등 데이터베이스에서 데이터를 액세스하고 추출할 수 있습니다.
 
-예를 들어 캠페인 추적 데이터(추적 내역 등)를 사용하는 것이 유용할 수 있습니다. 스프레드시트에서. 출력 데이터는 txt, CSV, TAB 또는 XML 형식일 수 있습니다.
+예를 들어 스프레드시트에서 캠페인 추적 데이터(추적 내역 등)를 사용하는 것이 유용할 수 있습니다. 출력 데이터는 txt, CSV, TAB 또는 XML 형식일 수 있습니다.
 
 내보내기 도우미를 사용하여 내보내기를 구성하고, 해당 옵션을 정의하고, 실행을 시작할 수 있습니다. 수출의 유형(단순 또는 복수)과 운영자의 권리에 따라 그 내용이 달라지는 일련의 화면이다.
 
@@ -85,7 +85,7 @@ ht-degree: 2%
 
    ![](assets/s_ncs_user_export_wizard04.png)
 
-1. 함수를 호출하려면 **[!UICONTROL Add]** 단추를 클릭하십시오. 자세한 내용은 [함수 목록](../../platform/using/defining-filter-conditions.md#list-of-functions)을 참조하세요.
+1. 함수를 호출하려면 **[!UICONTROL Add]** 단추를 클릭하십시오. 자세한 내용은 [함수 목록](../../platform/using/about-queries-in-campaign.md)을 참조하세요.
 
 ## 5단계 - 열 정렬 {#step-5---sorting-columns}
 

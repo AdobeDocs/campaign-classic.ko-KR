@@ -6,10 +6,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: d78fe2e0fd85ba9c23e709a3f30a135cee411230
+source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 5%
+source-wordcount: '963'
+ht-degree: 4%
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Campaign Classic 인스턴스를 설치할 때 언어가 선택됩니다.
 * 독일어
 * 일본어
 
-Adobe Campaign Classic 인스턴스에 대해 선택한 언어는 날짜 및 시간 형식에 영향을 줄 수 있습니다. 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}를 참조하세요.
+Adobe Campaign Classic 인스턴스에 대해 선택한 언어는 날짜 및 시간 형식에 영향을 줄 수 있습니다. 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}를 참조하세요.
 
 인스턴스를 만드는 방법에 대한 자세한 내용은 이 [페이지](../../installation/using/creating-an-instance-and-logging-on.md)를 참조하세요.
 
@@ -110,11 +110,22 @@ Adobe Campaign 탐색기는 도구 모음 아이콘을 통해 액세스할 수 �
 
 Adobe Campaign 탐색기에 대한 자세한 내용은 Campaign v8(콘솔) 설명서에서 다음 페이지를 참조하십시오.
 
-* [Campaign 사용자 인터페이스 개요](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
+* [Campaign 사용자 인터페이스 개요](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
 
 * [Campaign UI 설정](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
 
 * [탐색기에서 폴더 및 보기를 관리합니다](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
+
+
+## 데이터 필터링 {#filters}
+
+데이터 필터링은 데이터 세트를 특정 기준과 일치하는 레코드로만 좁히는 프로세스입니다. 그런 다음 이 하위 집합을 타겟팅된 작업(예: 업데이트 또는 대상 만들기) 또는 분석에 사용할 수 있습니다.
+
+Campaign을 검색할 때 데이터가 목록에 표시됩니다. 기본 제공 필터를 적용하여 격리된 주소, 타깃팅되지 않은 수신자 또는 특정 기간 범위 또는 생성 날짜 내의 레코드와 같은 정의된 하위 집합에 빠르게 액세스할 수 있습니다. 또한 사용자 정의 필터를 만들고 나중에 사용할 수 있도록 저장하고 다른 Campaign 사용자와 공유할 수 있습니다.
+
+>[!NOTE]
+>
+>필터에 액세스, 디자인 및 공유하는 방법에 대해 알아보려면 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}를 참조하세요.
 
 
 ## 목록 작업 {#manage-and-customize-lists}
@@ -123,7 +134,7 @@ Campaign 클라이언트 콘솔에서 데이터가 목록에 표시됩니다. �
 
 >[!NOTE]
 >
->Adobe Campaign에서 목록을 관리하고 사용자 지정하는 방법에 대해 알아보려면 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}를 참조하세요.
+>목록을 관리하고 사용자 지정하는 방법에 대해 알아보려면 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}를 참조하세요.
 
 ## 열거 관리{#managing-enumerations}
 
@@ -131,10 +142,10 @@ Campaign 클라이언트 콘솔에서 데이터가 목록에 표시됩니다. �
 
 정의된 값은 드롭다운 목록에 표시됩니다. 값을 직접 선택하거나 일치하는 항목을 제안하고 완료하는 예측 입력을 사용하여 입력할 수 있습니다. 일부 필드에는 사전 정의된 열거형이 포함되어 있으며, 필요한 경우 추가 열거형을 만들 수 있습니다.
 
-**Adobe Campaign v8(콘솔) 설명서**&#x200B;에서 [열거형으로 작업](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}하는 방법에 대해 자세히 알아보세요.
+**Adobe Campaign v8(콘솔) 설명서**&#x200B;에서 [열거형으로 작업](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}하는 방법에 대해 자세히 알아보세요.
 
 ## 튜토리얼 비디오 {#video}
 
 이 비디오에서는 Campaign Classic 작업 영역에 대해 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/39536?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
