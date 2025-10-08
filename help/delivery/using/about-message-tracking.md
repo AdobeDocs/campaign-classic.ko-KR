@@ -6,10 +6,10 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Monitoring, Email
 role: User
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 9%
+source-wordcount: '684'
+ht-degree: 8%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 9%
 
 추적 기능 덕분에 Adobe Campaign을 사용하면 보낸 메시지를 추적하고 열기, 링크 클릭, 구독 취소 등과 같은 수신자의 동작을 확인할 수 있습니다.
 
-이 정보는 게재 받는 사람 프로필의 **[!UICONTROL Tracking]** 탭에서 검색됩니다. 이 탭에는 목록에서 선택한 수신자가 추적하고 클릭한 모든 URL 링크가 표시됩니다. 게재 화면에 여전히 존재하는 게재에서 추적된 모든 URL의 누적입니다. 목록을 구성할 수 있으며 일반적으로 에는 클릭한 URL, 클릭한 날짜 및 시간, URL이 발견된 문서가 포함됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/editing-a-profile.md#tracking-tab)을 참조하십시오.
+이 정보는 게재 받는 사람 프로필의 **[!UICONTROL Tracking]** 탭에서 검색됩니다. 이 탭에는 목록에서 선택한 수신자가 추적하고 클릭한 모든 URL 링크가 표시됩니다. 게재 화면에 여전히 존재하는 게재에서 추적된 모든 URL의 누적입니다. 목록을 구성할 수 있으며 일반적으로 에는 클릭한 URL, 클릭한 날짜 및 시간, URL이 발견된 문서가 포함됩니다.
 
 **게재 대시보드**&#x200B;는 또한 메시지를 보내는 동안 발생하는 게재 및 최종 문제를 모니터링하는 키입니다. 자세한 정보는 [이 섹션](delivery-dashboard.md)을 참조하세요.
 

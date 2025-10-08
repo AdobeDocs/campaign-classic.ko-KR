@@ -6,10 +6,10 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Monitoring, Deliverability
 role: User
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
 workflow-type: tm+mt
-source-wordcount: '2987'
-ht-degree: 8%
+source-wordcount: '2984'
+ht-degree: 7%
 
 ---
 
@@ -41,8 +41,7 @@ Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리�
 
 * 반면 **차단 목록**&#x200B;을 사용하면 지정된 채널에 대해 구독 취소(옵트아웃) 후와 같이 **프로필**&#x200B;이(가) 더 이상 게재의 타겟이 되지 않습니다. 예를 들어 이메일 채널에 대한 차단 목록에 추가하다의 프로필에 두 개의 이메일 주소가 있는 경우 두 주소 모두 게재에서 제외됩니다.
 
-  프로필이 프로필의 **[!UICONTROL General]** 탭에 있는 **[!UICONTROL No longer contact]** 섹션에서 하나 이상의 채널에 대해 차단 목록에 추가하다에 있는지 확인할 수 있습니다. [이 섹션](../../platform/using/editing-a-profile.md#general-tab)을 참조하십시오.
-
+  프로필이 프로필의 **[!UICONTROL No longer contact]** 탭에 있는 **[!UICONTROL General]** 섹션에서 하나 이상의 채널에 대해 차단 목록에 추가하다에 있는지 확인할 수 있습니다.
 >[!NOTE]
 >
 >격리에는 받는 사람이 메시지를 스팸으로 보고하거나 &quot;STOP&quot;과 같은 키워드를 사용하여 SMS 메시지에 회신할 때 적용되는 **[!UICONTROL Denylisted]** 상태가 포함됩니다. 이 경우 프로필의 관련 주소 또는 전화 번호가 **[!UICONTROL Denylisted]** 상태로 격리됩니다. STOP SMS 메시지 관리에 대한 자세한 내용은 [이 섹션](../../delivery/using/sms-send.md#processing-inbound-messages)을 참조하세요.
@@ -104,7 +103,7 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
 * **하드 오류**: 해당 이메일 주소가 즉시 격리됩니다.
 * **소프트 오류**: 소프트 오류의 경우 주소가 즉시 격리되지는 않지만, 오류 카운터가 증가합니다. 자세한 내용은 [소프트 오류 관리](#soft-error-management)를 참조하십시오.
 
-사용자가 전자 메일을 스팸 처리하면([피드백 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#feedback-loops)) 메시지가 자동으로 Adobe에서 관리하는 기술 사서함으로 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 **[!UICONTROL Denylisted]** 상태로 격리됩니다. 이 상태는 주소만 참조하고, 프로필은 푸시 차단 목록에 있지 않으므로 SMS 메시지와 알림을 계속 수신하게 됩니다.
+사용자가 이메일을 스팸 처리하면([피드백 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)) 메시지가 Adobe에서 관리하는 기술 사서함으로 자동 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 **[!UICONTROL Denylisted]** 상태로 격리됩니다. 이 상태는 주소만 참조하고, 프로필은 푸시 차단 목록에 있지 않으므로 SMS 메시지와 알림을 계속 수신하게 됩니다.
 
 >[!NOTE]
 >
@@ -138,7 +137,7 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
 
 * **[!UICONTROL With errors]** 상태의 주소는 성공적으로 배달되면 격리 목록에서 제거됩니다.
 * 마지막 소프트 바운스가 10일 이상 전에 발생한 경우 **[!UICONTROL With errors]** 상태의 주소가 격리 목록에서 제거됩니다. 소프트 오류 관리에 대한 자세한 내용은 [이 섹션](#soft-error-management)을 참조하세요.
-* **[!UICONTROL Mailbox full]** 오류와 함께 반송된 **[!UICONTROL With errors]** 상태의 주소는 30일 후 격리 목록에서 제거됩니다.
+* **[!UICONTROL With errors]** 오류와 함께 반송된 **[!UICONTROL Mailbox full]** 상태의 주소는 30일 후 격리 목록에서 제거됩니다.
 
 상태가 **[!UICONTROL Valid]**(으)로 변경됩니다.
 
@@ -148,7 +147,7 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
 
 ### 수동 업데이트 {#unquarantine-manual}
 
-주소를 수동으로 격리 해제할 수도 있습니다. 격리 목록에서 주소를 수동으로 제거하려면 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** 노드에서 해당 상태를 **[!UICONTROL Valid]**(으)로 변경하십시오.
+주소를 수동으로 격리 해제할 수도 있습니다. 격리 목록에서 주소를 수동으로 제거하려면 **[!UICONTROL Valid]** 노드에서 해당 상태를 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**(으)로 변경하십시오.
 
 ![](assets/tech_quarant_error_status.png)
 
@@ -164,7 +163,7 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
 
    * **오류 텍스트(격리 텍스트)**&#x200B;에 &quot;Momen_Code10_InvalidRecipient&quot;가 포함되어 있습니다.
    * **전자 메일 도메인(@domain)**&#x200B;이 domain1.com과 같음 또는 **전자 메일 도메인(@domain)**&#x200B;이 domain2.com과 같음 또는 **전자 메일 도메인(@domain)**&#x200B;이 domain3.com과 같음
-   * `MM/DD/YYYY HH:MM:SS AM` 또는 이후 **업데이트 상태(@lastModified)**
+   * **또는 이후**&#x200B;업데이트 상태(@lastModified)`MM/DD/YYYY HH:MM:SS AM`
    * **업데이트 상태(@lastModified)**(`MM/DD/YYYY HH:MM:SS PM` 또는 이전)
 
 * 격리 목록의 **[!UICONTROL Error text]** 필드에 SMTP 바운스 응답 정보가 있는 Campaign Classic v7 인스턴스의 경우:
@@ -173,7 +172,7 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
 
   예를 들어 &quot;support.ISP.com&quot;은 &quot;support.apple.com&quot; 또는 &quot;support.google.com&quot;일 수 있습니다.
 
-   * `MM/DD/YYYY HH:MM:SS AM` 또는 이후 **업데이트 상태(@lastModified)**
+   * **또는 이후**&#x200B;업데이트 상태(@lastModified)`MM/DD/YYYY HH:MM:SS AM`
    * **업데이트 상태(@lastModified)**(`MM/DD/YYYY HH:MM:SS PM` 또는 이전)
 
 영향을 받는 받는 받는 받는 받는 사람 목록이 있으면 **[!UICONTROL Update data]** 활동을 추가하여 전자 메일 주소 상태를 **[!UICONTROL Valid]**(으)로 설정하여 **[!UICONTROL Database cleanup]** 워크플로우에 의해 격리 목록에서 제거됩니다. 격리 테이블에서 삭제할 수도 있습니다.
@@ -279,7 +278,7 @@ HTTP/V2 프로토콜을 통해 각 푸시 게재에 대한 직접 피드백 및 
 
 **Android V1용**
 
-각 알림에 대해 Adobe Campaign은 FCM 서버로부터 직접 동기 오류를 수신합니다. Adobe 캠페인은 즉시 이를 처리하고 오류 심각도에 따라 하드 또는 소프트 오류를 생성하며 재시도를 수행할 수 있습니다.
+각 알림에 대해 Adobe Campaign은 FCM 서버로부터 직접 동기 오류를 수신합니다. Adobe campaign은 이러한 오류를 즉시 처리하고 오류의 심각도에 따라 하드 또는 소프트 오류를 생성하며 재시도를 수행할 수 있습니다.
 
 * 페이로드 길이 초과, 연결 문제, 서비스 가용성 문제: 다시 시도, 소프트 오류, 실패 이유는 **[!UICONTROL Refused]**&#x200B;입니다.
 * 장치 할당량 초과: 다시 시도 없음, 소프트 오류, 실패 이유는 **[!UICONTROL Refused]**&#x200B;입니다.
@@ -604,6 +603,6 @@ SR Generic DELIVRD 000|#MESSAGE#
 
   기본적으로 정규 표현식은 **SMPP 3.4 사양**&#x200B;의 **부록 B** 섹션에서 정의한 **err:** 필드를 추출합니다.
 
-* 파이프 기호(|) 뒤에 오는 모든 항목은 **[!UICONTROL Delivery log qualification]** 테이블의 **[!UICONTROL First text]** 열에만 표시됩니다. 메시지가 표준화된 후 이 콘텐츠는 항상 **#MESSAGE#**(으)로 바뀝니다. 이 프로세스는 유사한 오류에 대해 여러 항목을 포함하지 않으며 이메일과 동일합니다. 자세한 내용은 [반송 메일 조건](understanding-delivery-failures.md#bounce-mail-qualification)을 참조하세요.
+* 파이프 기호(|) 뒤에 오는 모든 항목은 **[!UICONTROL First text]** 테이블의 **[!UICONTROL Delivery log qualification]** 열에만 표시됩니다. 메시지가 표준화된 후 이 콘텐츠는 항상 **#MESSAGE#**(으)로 바뀝니다. 이 프로세스는 유사한 오류에 대해 여러 항목을 포함하지 않으며 이메일과 동일합니다. 자세한 내용은 [반송 메일 조건](understanding-delivery-failures.md#bounce-mail-qualification)을 참조하세요.
 
 확장된 일반 SMPP 커넥터는 추론을 적용하여 합리적인 기본값을 찾습니다. 상태가 **DELIV**&#x200B;로 시작하는 경우 대부분의 공급자가 사용하는 일반적인 상태 **DELIVRD** 또는 **DELIVERED**&#x200B;와(과) 일치하므로 성공한 것으로 간주됩니다. 그 밖의 어떤 상황도 하드 장애로 이어집니다.

@@ -6,9 +6,9 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Subscriptions
 role: User
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1103'
 ht-degree: 2%
 
 ---
@@ -122,8 +122,6 @@ ht-degree: 2%
 정보 서비스에 대한 수신자를 등록하려면 다음을 수행할 수 있습니다.
 
 * 수동으로 서비스 추가: 이 작업을 수행하려면 프로필의 **[!UICONTROL Subscriptions]** 탭에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭하고 관련 정보 서비스를 선택하십시오.
-
-  자세한 내용은 [이 섹션](../../platform/using/editing-a-profile.md)의 프로필 편집 섹션을 참조하세요.
 
 * 수신자 집합을 이 서비스에 자동으로 구독합니다. 수신자 목록은 필터링 작업, 그룹, 폴더, 가져오기 또는 마우스를 사용한 직접 선택에서 가져올 수 있습니다. 이러한 수신자를 구독하려면 프로필을 선택하고 마우스 오른쪽 단추를 클릭합니다. **[!UICONTROL Actions > Subscribe selection to a service...]**&#x200B;을(를) 선택하고 관련 서비스를 선택한 다음 작업을 시작합니다.
 * 수신자를 가져와 정보 서비스에 자동으로 가입합니다. 이렇게 하려면 가져오기 도우미의 마지막 단계에서 관련 서비스를 선택합니다.

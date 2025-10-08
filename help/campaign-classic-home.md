@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
+source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 100%
+source-wordcount: '340'
+ht-degree: 97%
 
 ---
 
@@ -96,7 +96,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
       <br/>
-      <strong>프로필 및 대상자</strong><br/><a href="platform/using/adding-profiles.md">프로필 추가</a> - <a href="platform/using/creating-and-managing-lists.md">목록 만들기</a> - <a href="delivery/using/about-services-and-subscriptions.md">서비스 및 구독</a> - <a href="platform/using/privacy-management.md">개인 정보 및 동의</a>
+      <strong>프로필 및 대상자</strong><br/> <a href="platform/using/creating-and-managing-lists.md">목록 만들기</a> - <a href="delivery/using/about-services-and-subscriptions.md">서비스 및 구독</a> - <a href="platform/using/privacy-management.md">개인 정보 및 동의</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px">

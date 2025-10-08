@@ -4,9 +4,9 @@ title: 데이터 모델 모범 사례
 description: Campaign Classic 데이터 모델을 사용하여 작업하는 방법에 대해 알아봅니다
 feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
 workflow-type: tm+mt
-source-wordcount: '4013'
+source-wordcount: '4005'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Adobe Campaign에서 속성이 필요한지 여부를 결정하려면 다음 범
 * **expr** 특성을 사용하면 스키마 특성을 테이블의 실제 집합 값이 아닌 계산된 필드로 정의할 수 있습니다. 이렇게 하면 두 값을 모두 저장하지 않고도 다른 형식(예: 연령 및 생년월일)으로 정보에 액세스할 수 있습니다. 이는 필드가 중복되지 않도록 하는 좋은 방법입니다. 예를 들어 수신자 테이블은 이메일 필드에 이미 있는 도메인에 대한 표현식을 사용합니다.
 * 그러나 식 계산이 복잡한 경우에는 **expr** 특성을 사용하지 않는 것이 좋습니다. 즉석 계산이 쿼리 성능에 영향을 줄 수 있기 때문입니다.
 * **XML** 형식은 너무 많은 필드를 만들지 않는 좋은 방법입니다. 그러나 데이터베이스의 CLOB 열을 사용하므로 디스크 공간도 차지합니다. 또한 복잡한 SQL 쿼리가 발생할 수 있으며 성능에 영향을 줄 수 있습니다.
-* **문자열** 필드의 길이는 항상 열을 사용하여 정의해야 합니다. 기본적으로 Adobe CampaignAdobe 의 최대 길이는 255이지만, 크기가 더 짧은 길이를 초과하지 않는다는 것을 이미 알고 있는 경우에는 필드를 더 짧게 유지하는 것이 좋습니다.
+* **문자열** 필드의 길이는 항상 열을 사용하여 정의해야 합니다. 기본적으로 Adobe CampaignAdobe 의 최대 길이는 255이지만, 크기가 더 짧은 길이를 초과하지 않도록 이미 알고 있는 경우에는 필드를 더 짧게 유지하는 것이 좋습니다.
 * 소스 시스템의 크기가 과대평가되어 도달하지 않을 것이 확실한 경우 Adobe Campaign에서 소스 시스템보다 더 짧은 필드를 가질 수 있습니다. 이는 Adobe Campaign에서 더 짧은 문자열 또는 더 작은 정수를 의미할 수 있습니다.
 
 ### 필드 선택 {#choice-of-fields}
@@ -103,7 +103,7 @@ Adobe Campaign 리소스에는 세 개의 식별자가 있으며, 식별자를 �
 | 식별자 | 설명 | 모범 사례 |
 |--- |--- |--- |
 | ID | <ul><li>ID는 Adobe Campaign 테이블의 물리적 기본 키입니다. 기본 제공 테이블의 경우 시퀀스에서 생성된 32비트 숫자입니다</li><li>이 식별자는 일반적으로 특정 Adobe Campaign 인스턴스에 대해 고유합니다. </li><li>자동 생성된 ID는 스키마 정의에 표시될 수 있습니다. *autopk=&quot;true&quot;* 특성을 검색합니다.</li></ul> | <ul><li>자동 생성된 식별자는 워크플로우 또는 패키지 정의에서 참조로 사용할 수 없습니다.</li><li>ID가 항상 증가하는 숫자라고 가정해서는 안 됩니다.</li><li>기본 제공 테이블의 ID는 32비트 숫자이며 이 유형은 변경해서는 안 됩니다. 이 번호는 동일한 이름의 섹션에서 다루는 &quot;시퀀스&quot;에서 가져온 것입니다.</li></ul> |
-| 이름(또는 내부 이름) | <ul><li>이 정보는 테이블에 있는 레코드의 고유 식별자입니다. 이 값은 일반적으로 생성된 이름으로 수동으로 업데이트할 수 있습니다.</li><li>이 식별자는 Adobe Campaign의 다른 인스턴스에 배포할 때 값을 유지하며 비워 둘 수 없습니다.</li></ul> | <ul><li>객체가 환경에서 다른 환경으로 배포되는 경우 Adobe Campaign에서 생성된 레코드 이름의 이름을 바꿉니다.</li><li>개체에 네임스페이스 특성(예: *스키마*)이 있으면 이 공통 네임스페이스는 만들어진 모든 사용자 지정 개체에 활용됩니다. 예약된 네임스페이스 중 일부는 사용할 수 없습니다. *nms*, *xtk*, *nl*, *ncl*, *crm*, *xxl*.</li><li>개체에 네임스페이스(*workflow* 또는 *delivery*)가 없으면 이 네임스페이스 개념이 내부 이름 개체 *namespaceMyObjectName*&#x200B;의 접두사로 추가됩니다.</li><li>공백 &quot;, 세미콜론 &quot;:&quot; 또는 하이픈 &quot;-&quot;와 같은 특수 문자는 사용하지 마십시오. 이 모든 문자는 밑줄 &quot;_&quot;(허용된 문자)로 대체됩니다. 예를 들어 &quot;abc-def&quot;와 &quot;abc:def&quot;는 &quot;abc_def&quot;로 저장되고 서로 덮어쓰기됩니다.</li></ul> |
+| 이름(또는 내부 이름) | <ul><li>이 정보는 테이블에 있는 레코드의 고유 식별자입니다. 이 값은 일반적으로 생성된 이름으로 수동으로 업데이트할 수 있습니다.</li><li>이 식별자는 Adobe Campaign의 다른 인스턴스에 배포할 때 값을 유지하며 비워 둘 수 없습니다.</li></ul> | <ul><li>객체가 환경에서 다른 환경으로 배포되는 경우 Adobe Campaign에서 생성된 레코드 이름의 이름을 바꿉니다.</li><li>개체에 네임스페이스 특성(예: *스키마*)이 있으면 이 공통 네임스페이스는 만들어진 모든 사용자 지정 개체에 활용됩니다. 예약된 네임스페이스 중 일부는 사용할 수 없습니다. *nms*, *xtk*, *nl*, *ncl*, *crm*, *xxl*.</li><li>개체에 네임스페이스(*workflow* 또는 *delivery*)가 없으면 이 네임스페이스 개념이 내부 이름 개체 *namespaceMyObjectName*&#x200B;의 접두사로 추가됩니다.</li><li>공백 &quot; &quot;, 세미콜론 &quot;:&quot; 또는 하이픈 &quot;-&quot;와 같은 특수 문자는 사용하지 마십시오. 이 모든 문자는 밑줄 &quot;_&quot;(허용된 문자)로 대체됩니다. 예를 들어 &quot;abc-def&quot;와 &quot;abc:def&quot;은 &quot;abc_def&quot;로 저장되고 서로 덮어쓰기됩니다.</li></ul> |
 | 레이블 | <ul><li>레이블은 Adobe Campaign에 있는 개체 또는 레코드의 비즈니스 식별자입니다.</li><li>이 개체에는 공백과 특수 문자가 허용됩니다.</li><li>그것은 기록의 고유성을 보장하지 않는다.</li></ul> | <ul><li>개체 레이블의 구조를 결정하는 것이 좋습니다.</li><li>이는 Adobe Campaign 사용자의 레코드 또는 개체를 식별하는 가장 사용자 친화적인 솔루션입니다.</li></ul> |
 
 ## 사용자 정의 내부 키 {#custom-internal-keys}
@@ -118,7 +118,7 @@ Adobe Campaign에서 만든 모든 테이블에 기본 키가 필요합니다.
 
 사용자 지정 테이블을 만들 때는 두 가지 옵션이 있습니다.
 * 자동 생성 키(id)와 내부 키(사용자 지정)의 조합입니다. 이 옵션은 시스템 키가 복합 키이거나 정수가 아닌 경우에 유용합니다. 정수는 큰 표에서 더 높은 성능을 제공하고 다른 표와 결합합니다.
-* 기본 키를 외부 시스템 기본 키로 사용. 이 솔루션은 서로 다른 시스템 간에 일관된 키를 사용하여 데이터를 가져오고 내보내는 접근 방식을 단순화하기 때문에 일반적으로 선호됩니다. 키 이름이 &quot;id&quot;이고 외부 값으로 채워져야 하는 경우(자동 생성이 아님) Autopk를 비활성화해야 합니다.
+* 기본 키를 외부 시스템 기본 키로 사용. 이 솔루션은 서로 다른 시스템 간에 일관된 키를 사용하여 데이터를 가져오고 내보내는 접근 방식을 단순화하기 때문에 일반적으로 선호됩니다. 키 이름이 &quot;id&quot;이고 외부 값으로 채워야 하는 경우(자동 생성이 아님) Autopk를 비활성화해야 합니다.
 
 >[!IMPORTANT]
 >
@@ -146,13 +146,13 @@ Adobe Campaign에서 기본 키를 autoPK로 사용하여 사용자 지정 테�
 
 기본적으로 사용자 지정 시퀀스의 값은 +1,000에서 +2.1BB입니다. 기술적으로 음수 ID를 활성화하여 4BB의 전체 범위를 가져올 수 있습니다. 이 변수는 주의하여 사용해야 하며 음수에서 양수로 교차하면 ID 하나가 손실됩니다. 레코드 0은 일반적으로 생성된 SQL 쿼리에서 Adobe Campaign에서 무시됩니다.
 
-시퀀스 소모에 대한 자세한 내용은 [이 비디오](https://helpx.adobe.com/kr/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html)를 시청하세요.
+시퀀스 소모에 대한 자세한 내용은 [이 비디오](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html)를 시청하세요.
 
 ## 색인 {#indexes}
 
-인덱스는 성능에 필수적입니다. 스키마에서 키를 선언하면 Adobe은 키 필드에 자동으로 인덱스를 만듭니다. 키를 사용하지 않는 쿼리에 대해 더 많은 색인을 선언할 수도 있습니다.
+인덱스는 성능에 필수적입니다. 스키마에서 키를 선언하면 Adobe이 키 필드에 자동으로 인덱스를 만듭니다. 키를 사용하지 않는 쿼리에 대해 더 많은 색인을 선언할 수도 있습니다.
 
-Adobe은 성능을 향상시킬 수 있으므로 추가 인덱스를 정의하는 것을 권장합니다.
+Adobe에서는 성능을 향상시킬 수 있으므로 추가 인덱스를 정의하는 것이 좋습니다.
 
 그러나 다음 사항에 유의하십시오.
 
@@ -165,12 +165,13 @@ Adobe은 성능을 향상시킬 수 있으므로 추가 인덱스를 정의하�
 * 정의해야 하는 색인을 신중하게 선택합니다.
 * 기본 제공 테이블에서 네이티브 인덱스를 제거하지 마십시오.
 
-<!--When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you’ve completed this important import, it is possible to enable the index(es).-->
+<!--When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you've completed this important import, it is possible to enable the index(es).-->
 
 ### 예제
 
 색인 관리는 매우 복잡해질 수 있으므로 작동 방식을 이해하는 것이 중요합니다. 이러한 복잡성을 설명하기 위해 이름과 성을 필터링하여 수신자를 검색하는 기본적인 예를 살펴보겠습니다. 방법은 다음과 같습니다.
-1. 데이터베이스의 모든 수신자를 나열하는 폴더로 이동합니다. 자세한 내용은 [프로필 관리](../../platform/using/managing-profiles.md)를 참조하세요.
+
+1. 데이터베이스의 모든 수신자를 나열하는 폴더를 찾습니다.
 1. **[!UICONTROL First name]** 필드를 마우스 오른쪽 단추로 클릭합니다.
 1. **[!UICONTROL Filter on this field]**&#x200B;을(를) 선택합니다.
 
@@ -192,7 +193,7 @@ Adobe은 성능을 향상시킬 수 있으므로 추가 인덱스를 정의하�
 
 다음 표는 첫 번째 열에 표시된 액세스 패턴에 따라 아래에 설명된 세 가지 색인이 사용되거나 사용되지 않는 경우를 보여 줍니다.
 
-| 검색 기준 | 색인 1(이름 + 성) | 색인 2(이름만) | 색인 3(성만) | 댓글 |
+| 검색 기준 | 색인 1(이름 + 성) | 색인 2(이름만) | 색인 3(성만) | 주석 |
 |--- |--- |--- |--- |--- |
 | 이름은 &quot;Johnny&quot;입니다. | 사용됨 | 사용됨 | 사용되지 않음 | 이름은 색인 1의 첫 번째 위치에 있으므로 성(last name)에 기준을 추가할 필요가 없으므로 계속 사용됩니다. |
 | 이름은 &quot;Johnny&quot;이고 성은 &quot;Smith&quot;입니다. | 사용됨 | 사용되지 않음 | 사용되지 않음 | 동일한 쿼리에서 두 속성을 모두 검색하므로 두 속성을 모두 결합한 인덱스만 사용됩니다. |
@@ -210,13 +211,13 @@ Adobe은 성능을 향상시킬 수 있으므로 추가 인덱스를 정의하�
 
 링크를 외부 조인으로 선언하는 것은 성능에 좋지 않습니다. 제로 ID 레코드는 외부 조인 기능을 에뮬레이션합니다. 링크가 autopk를 사용하는 경우에는 외부 조인을 선언할 필요가 없습니다.
 
-Adobe 워크플로우의 모든 테이블을 조인할 수 있지만 데이터 구조 정의에서 직접 리소스 간의 공통 링크를 정의하는 것이 좋습니다.
+워크플로우의 모든 테이블을 조인할 수 있지만 Adobe에서는 데이터 구조 정의에서 직접 리소스 간의 공통 링크를 정의하는 것을 권장합니다.
 
 링크는 표의 실제 데이터에 맞추어 정의해야 합니다. 잘못된 정의는 예기치 않게 레코드를 복제하는 것과 같이 링크를 통해 검색된 데이터에 영향을 줄 수 있습니다.
 
 링크 이름을 테이블 이름으로 일관되게 지정합니다. 링크 이름은 떨어진 테이블이 무엇인지 이해하는 데 도움이 됩니다.
 
-&quot;id&quot;가 접미사 인 링크의 이름을 지정하지 마십시오. 예를 들어 이름을 &quot;transactionId&quot;가 아닌 &quot;transaction&quot;으로 지정합니다.
+&quot;id&quot;가 있는 링크의 이름을 접미사로 지정하지 마십시오. 예를 들어 이름을 &quot;transactionId&quot;가 아닌 &quot;transaction&quot;으로 지정합니다.
 
 기본적으로 Adobe Campaign은 외부 테이블의 기본 키를 사용하여 링크를 만듭니다. 좀 더 명확하게 하기 위해, 링크 정의에서 조인을 명시적으로 정의하는 것이 바람직하다.
 
@@ -265,7 +266,7 @@ Adobe Campaign에서 레코드의 필요성을 최소화하는 몇 가지 솔루
 
 ### 일반 권장 사항 {#general-recommendations}
 
-* 쿼리에 &quot;포함&quot;과 같은 작업을 사용하지 마십시오. 예상되는 항목을 알고 필터링하려는 경우 &quot;EQUAL TO&quot; 또는 다른 특정 필터 연산자를 사용하여 동일한 조건을 적용합니다.
+* 쿼리에 &quot;CONTAINS&quot;와 같은 작업을 사용하지 마십시오. 예상되는 항목을 알고 필터링하려는 경우 &quot;EQUAL TO&quot; 또는 다른 특정 필터 연산자와 함께 동일한 조건을 적용합니다.
 * 워크플로우에서 데이터를 작성하는 동안 인덱싱되지 않은 필드로 가입하지 마십시오.
 * 업무 시간 외에 가져오기 및 내보내기 등의 프로세스가 수행되는지 확인하십시오.
 * 모든 일상 활동에 대한 일정이 있는지 확인하고 일정을 준수합니다.
@@ -301,7 +302,7 @@ Adobe Campaign은 타사 데이터베이스 엔진을 사용합니다. 공급업
 * **큰 크기** 테이블은 Broad 로그 테이블과 유사합니다. 고객당 많은 레코드가 있습니다.
 예를 들어 데이터베이스에 1천만 명의 수신자가 포함되어 있는 경우 브로드 로그 테이블에는 약 1억 ~ 2억 개의 메시지가 포함되어 있으며 게재 테이블에는 수천 개의 레코드가 포함되어 있습니다.
 
-PostgreSQL에서 [TOAST](https://wiki.postgresql.org/wiki/TOAST) 메커니즘을 방지하려면 행이 8KB를 초과할 수 없습니다. 따라서 시스템의 최적의 성능(메모리 및 CPU)을 유지하기 위해 열의 수와 각 행의 크기를 최대한 줄이십시오.
+PostgreSQL에서 [TOAST](https://wiki.postgresql.org/wiki/TOAST) 메커니즘을 방지하려면 행이 8KB를 초과할 수 없습니다. 따라서 시스템(메모리 및 CPU)의 최적의 성능을 유지하기 위해 열의 수와 각 행의 크기를 최대한 줄이십시오.
 
 행 수는 성능에도 영향을 줍니다. Adobe Campaign 데이터베이스는 타기팅 또는 개인화 목적으로 활발하게 사용되지 않는 기록 데이터를 저장하도록 설계되지 않았습니다. 이것은 작업 데이터베이스입니다.
 
