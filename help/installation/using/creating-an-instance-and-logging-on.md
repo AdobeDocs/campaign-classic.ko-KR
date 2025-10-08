@@ -72,7 +72,7 @@ Adobe Campaign 콘솔이 시작되면 로그인 페이지에 액세스합니다.
 
 1. **[!UICONTROL Language]** 드롭다운 목록에서 **인스턴스 언어**: 영어(미국), 영어(영국), 프랑스어 또는 일본어를 선택합니다.
 
-   미국 영어와 영국 영어의 차이점은 [Campaign v8(콘솔) 설명서](.https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#formats)에 설명되어 있습니다.
+   미국 영어와 영국 영어의 차이점은 [Campaign v8(콘솔) 설명서](.https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui#formats)에 설명되어 있습니다.
 
    >[!CAUTION]
    >

@@ -22,7 +22,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->필터 및 사용 방법에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}를 참조하세요.
+>필터 및 사용 방법에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}를 참조하세요.
 
 
 <!--

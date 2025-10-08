@@ -19,5 +19,5 @@ ht-degree: 2%
 
 정의된 값은 드롭다운 목록에 표시됩니다. 값을 직접 선택하거나 일치하는 항목을 제안하고 완료하는 예측 입력을 사용하여 입력할 수 있습니다. 일부 필드에는 사전 정의된 열거형이 포함되어 있으며, 필요한 경우 추가 열거형을 만들 수 있습니다.
 
-**Adobe Campaign v8(콘솔) 설명서**&#x200B;에서 [열거형으로 작업](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}하는 방법에 대해 자세히 알아보세요.
+**Adobe Campaign v8(콘솔) 설명서**&#x200B;에서 [열거형으로 작업](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}하는 방법에 대해 자세히 알아보세요.
 
