@@ -144,4 +144,4 @@ Campaign 클라이언트 콘솔에서 데이터가 목록에 표시됩니다. �
 
 이 비디오에서는 Campaign Classic 작업 영역에 대해 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/39536?quality=12&captions=kor)
