@@ -6,9 +6,9 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Monitoring
 role: User, Developer
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '594'
 ht-degree: 10%
 
 ---
@@ -72,4 +72,4 @@ ht-degree: 10%
    * **[!UICONTROL Opt-out]** : 이 URL을 옵트아웃 또는 구독 취소 URL로 간주합니다.
    * **[!UICONTROL Mirror page]** : 이 URL을 미러 페이지 URL로 간주합니다.
 
-1. 또한 **[!UICONTROL Category]** 열의 드롭다운 목록에서 각 추적된 URL의 범주를 선택할 수 있습니다. 이러한 범주는 **[!UICONTROL URLs and click streams]**&#x200B;과(와) 같이 보고서에 표시될 수 있습니다([이 섹션](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams) 참조). 특정 열거형에 범주가 정의되어 있습니다. **[!UICONTROL urlCategory]**([열거형 관리](../../platform/using/managing-enumerations.md) 참조).
+1. 또한 **[!UICONTROL Category]** 열의 드롭다운 목록에서 각 추적된 URL의 범주를 선택할 수 있습니다. 이러한 범주는 **[!UICONTROL URLs and click streams]**&#x200B;과(와) 같이 보고서에 표시될 수 있습니다([이 섹션](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams) 참조). 범주는 특정 열거형으로 정의됩니다. **Adobe Campaign v8(콘솔) 설명서**&#x200B;에서 [열거형으로 작업](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}하는 방법에 대해 자세히 알아보세요.

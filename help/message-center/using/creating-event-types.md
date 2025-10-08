@@ -7,9 +7,9 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 98b7c827-f31d-46a6-a28d-40a78a4b4248
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '175'
 ht-degree: 3%
 
 ---
@@ -46,6 +46,7 @@ Adobe Campaign에서 처리할 이벤트 유형을 만들려면 아래 단계를
 
 >[!NOTE]
 >
->[열거형 관리](../../platform/using/managing-enumerations.md)의 항목별 목록에 대해 자세히 알아보세요.
+>**Adobe Campaign v8(콘솔) 설명서**&#x200B;에서 [열거형으로 작업](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}하는 방법에 대해 자세히 알아보세요.
+
 
 

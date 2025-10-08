@@ -5,10 +5,10 @@ description: 게재 보고서
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Reporting, Monitoring
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 8%
+source-wordcount: '1467'
+ht-degree: 9%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->이 보고서에 표시되는 도메인 이름은 큐브 수준에서 사용되는 항목별 목록에 정의됩니다. 기본 도메인을 변경, 추가 또는 제거하려면 **[!UICONTROL Domains]** 항목별 목록을 편집하고 값과 별칭을 수정합니다. 자세한 정보는 [이 섹션](../../platform/using/managing-enumerations.md)을 참조하세요. **[!UICONTROL Others]** 범주에 항목별 목록의 값에 속하지 않는 도메인 이름이 포함되어 있습니다.
+>이 보고서에 표시되는 도메인 이름은 큐브 수준에서 사용되는 항목별 목록에 정의됩니다. 기본 도메인을 변경, 추가 또는 제거하려면 **[!UICONTROL Domains]** 항목별 목록을 편집하고 값과 별칭을 수정합니다. **Adobe Campaign v8(콘솔) 설명서**&#x200B;에서 [열거형으로 작업](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}하는 방법에 대해 자세히 알아보세요. **[!UICONTROL Others]** 범주에 항목별 목록의 값에 속하지 않는 도메인 이름이 포함되어 있습니다.
 
 **[!UICONTROL 4. Generated click streams]**
 
@@ -123,7 +123,7 @@ ht-degree: 8%
 
 ![](assets/s_ncs_user_url_report.png)
 
-표시할 점수 차트, 시간 필터(작업 실행 이후, 실행 후 처음 6시간 등)를 선택하여 이 보고서의 내용을 구성할 수 있습니다. 및 데이터 표시 모드(레이블별, URL별, 범주별)입니다. **[!UICONTROL Refresh]**&#x200B;을(를) 클릭하여 선택 내용을 확인합니다.
+표시할 점수 차트, 시간 필터(작업 실행 이후, 실행 후 처음 6시간 등) 및 데이터 표시 모드(레이블별, URL별, 범주별)를 선택하여 이 보고서의 내용을 구성할 수 있습니다. **[!UICONTROL Refresh]**&#x200B;을(를) 클릭하여 선택 내용을 확인합니다.
 
 보고서의 상단 섹션에는 다음 비율이 표시됩니다.
 

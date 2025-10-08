@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '484'
 ht-degree: 5%
 
 ---
@@ -69,7 +69,7 @@ IP 주소를 사용하여 선호도를 통해 아웃바운드 SMTP 트래픽을 
 
 그렇게 하려면 다음 단계를 적용합니다.
 
-1. **serverConf.xml** 파일의 **`<ipaffinity>`** 섹션에 선호도를 입력하십시오.
+1. **`<ipaffinity>`** serverConf.xml **파일의** 섹션에 선호도를 입력하십시오.
 
    하나의 관심도에 여러 가지 이름이 있을 수 있습니다. 이름을 구분하려면 **;** 문자를 사용하십시오.
 
@@ -88,7 +88,8 @@ IP 주소를 사용하여 선호도를 통해 아웃바운드 SMTP 트래픽을 
 
    >[!NOTE]
    >
-   >열거형은 [이 문서](../../platform/using/managing-enumerations.md)에 자세히 설명되어 있습니다.
+   >**Adobe Campaign v8(콘솔) 설명서**&#x200B;에서 [열거형으로 작업](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}하는 방법에 대해 자세히 알아보세요.
+
 
    그런 다음 유형화에 대해 아래에 표시된 대로 사용할 선호도를 선택할 수 있습니다.
 

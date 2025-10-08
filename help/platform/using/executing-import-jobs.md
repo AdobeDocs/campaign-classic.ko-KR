@@ -8,9 +8,9 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
 workflow-type: tm+mt
-source-wordcount: '2973'
+source-wordcount: '2983'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 1. **[!UICONTROL Label]** 필드에 이 가져오기의 이름을 입력하십시오. 설명을 추가할 수 있습니다.
 1. 해당 필드에서 가져오기 유형을 선택합니다. 가져올 수 있는 유형에는 두 가지가 있습니다. **[!UICONTROL Simple import]**&#x200B;은(는) 한 개의 파일만 가져오고 **[!UICONTROL Multiple import]**&#x200B;은(는) 여러 개의 파일을 한 번에 가져옵니다.
 
-   여러 번 가져오려면 가져오기 도우미의 첫 번째 화면에 있는 **[!UICONTROL Import type]** 드롭다운 목록에서 **[!UICONTROL Multiple import]**&#x200B;을(를) 선택하십시오.
+   여러 번 가져오려면 가져오기 도우미의 첫 번째 화면에 있는 **[!UICONTROL Multiple import]** 드롭다운 목록에서 **[!UICONTROL Import type]**&#x200B;을(를) 선택하십시오.
 
    ![](assets/s_ncs_user_import_wizard01_2.png)
 
@@ -87,7 +87,8 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
    * **[!UICONTROL Do not update enumerations]**
 
-     데이터베이스에 열거형 값 목록이 보강되지 않도록 하려면 이 옵션을 선택합니다. [열거형 관리](../../platform/using/managing-enumerations.md)를 참조하십시오.
+     데이터베이스에 열거형 값 목록이 보강되지 않도록 하려면 이 옵션을 선택합니다. **Adobe Campaign v8(콘솔) 설명서**&#x200B;에서 [열거형으로 작업](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}하는 방법에 대해 자세히 알아보세요.
+
 
 * **[!UICONTROL Variables]** 탭
 
@@ -289,7 +290,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
    1. 폴더로 가져오기
 
-      **[!UICONTROL Import into a folder]** 섹션의 **[!UICONTROL Edit...]** 링크를 사용하여 수신자를 가져올 폴더를 선택하거나 만들 수 있습니다. 기본적으로 정의된 파티션이 없으면 데이터를 연산자의 기본 폴더로 가져옵니다.
+      **[!UICONTROL Edit...]** 섹션의 **[!UICONTROL Import into a folder]** 링크를 사용하여 수신자를 가져올 폴더를 선택하거나 만들 수 있습니다. 기본적으로 정의된 파티션이 없으면 데이터를 연산자의 기본 폴더로 가져옵니다.
 
       >[!NOTE]
       >
@@ -309,7 +310,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
    1. 목록과 연결
 
-      **[!UICONTROL Add recipients to a list]** 섹션의 **[!UICONTROL Edit...]** 링크를 사용하여 수신자를 가져올 목록을 선택하거나 만들 수 있습니다.
+      **[!UICONTROL Edit...]** 섹션의 **[!UICONTROL Add recipients to a list]** 링크를 사용하여 수신자를 가져올 목록을 선택하거나 만들 수 있습니다.
 
       ![](assets/s_ncs_user_import_wizard05_5.png)
 
@@ -321,7 +322,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
    1. 서비스 구독
 
-      가져온 모든 수신자를 정보 서비스에 가입하려면 **[!UICONTROL Subscribe recipients to a service]** 섹션의 **[!UICONTROL Edit...]** 링크를 클릭하여 수신자가 가입할 정보 서비스를 선택하거나 만드십시오. **[!UICONTROL Send a confirmation message]** 옵션을 선택할 수 있습니다. 이 메시지의 내용은 구독 서비스와 연결된 게재 템플릿에 정의되어 있습니다.
+      가져온 모든 수신자를 정보 서비스에 가입하려면 **[!UICONTROL Edit...]** 섹션의 **[!UICONTROL Subscribe recipients to a service]** 링크를 클릭하여 수신자가 가입할 정보 서비스를 선택하거나 만드십시오. **[!UICONTROL Send a confirmation message]** 옵션을 선택할 수 있습니다. 이 메시지의 내용은 구독 서비스와 연결된 게재 템플릿에 정의되어 있습니다.
 
       ![](assets/s_ncs_user_import_wizard05_7.png)
 
