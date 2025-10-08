@@ -34,9 +34,9 @@ Adobe Campaign을 사용하면 다양한 연산자에 할당된 권한을 정의
 
 >[!TAB 사용 권한 설명서]
 
-**Adobe Campaign의 권한**&#x200B;에 대한 자세한 내용은 **[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}**&#x200B;를 참조하세요.
+**Adobe Campaign의 권한**&#x200B;에 대한 자세한 내용은 **[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}**&#x200B;를 참조하세요.
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}
 
 
 >[!TAB 폴더에 대한 권한 관리]
@@ -70,8 +70,8 @@ There are two types of permissions you can grant to a user:
 
 >[!NOTE]
 >
-> * Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://helpx.adobe.com/campaign/kb/acc-security.html).
-> * To learn more about permissions, please refer to the detailed explanation on the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}.
+> * Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://helpx.adobe.com/kr/campaign/kb/acc-security.html).
+> * To learn more about permissions, please refer to the detailed explanation on the [Campaign v8 documentation](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}.
 
 Learn how to grant access and set up permissions in these sections:
 
