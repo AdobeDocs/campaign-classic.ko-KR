@@ -2,23 +2,18 @@
 product: campaign
 title: 명명된 권한을 사용하여 사용 권한 설정
 description: 명명된 권한을 사용하여 권한을 설정하는 방법 알아보기
-badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0
-source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
+source-git-commit: 34f875f583dd81c2229b66f3344f23965532e802
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 5%
+source-wordcount: '492'
+ht-degree: 4%
 
 ---
 
 # 명명된 권한을 사용하여 사용 권한 설정{#named-rights}
-
->[!NOTE]
->
->이 페이지는 기본 인증을 사용하여 Campaign에 연결하는 운영자에만 적용됩니다. Adobe IMS 인증의 경우 [이 설명서](https://helpx.adobe.com/kr/enterprise/using/manage-permissions-and-roles.html)를 참조하세요.
 
 기본적으로 Adobe Campaign에서는 연산자 및 연산자 그룹에 할당된 권한을 정의할 수 있는 명명된 권한 집합을 제안합니다. 이러한 권한은 트리의 **[!UICONTROL Administration > Access management > Named rights]** 노드에서 편집할 수 있습니다.
 
@@ -76,4 +71,4 @@ ht-degree: 5%
 
 Adobe Campaign 액세스 권한 매트릭스는 [여기](/help/platform/using/assets/access-rights-matrix.pdf)에서 사용할 수 있습니다.
 
-[![이미지](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=ko)
+[![이미지](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf)

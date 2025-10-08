@@ -7,9 +7,9 @@ feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
-source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
+source-git-commit: 34f875f583dd81c2229b66f3344f23965532e802
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '574'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->이 절차는 기본 인증을 사용하여 Campaign에 연결하는 운영자에만 적용됩니다. Adobe IMS 인증의 경우 [이 설명서](https://helpx.adobe.com/kr/enterprise/using/user-groups.html)를 참조하세요.
+>이 절차는 기존 기본 인증을 사용하여 Campaign에 연결하는 운영자에만 적용됩니다. Campaign Classic v7.3.1부터 모든 연산자는 [Adobe IMS(Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}를 사용하여 Campaign에 연결해야 합니다. [자세히 알아보기](../../technotes/using/migrate-users-to-ims.md)
+>
+>Adobe ID을 사용하여 Campaign에 연결할 때 다음 섹션이 더 이상 적용되지 않습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ko){target="_blank"}에서 Adobe IMS를 사용하여 권한을 설정하는 방법에 대해 알아봅니다.
 
 연산자 그룹은 트리의 **[!UICONTROL Administration > Access management > Operator groups]** 노드를 통해 만들어집니다.
 
@@ -65,7 +67,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL Campaign managers]**
 
-   이 그룹의 운영자는 마케팅 캠페인을 관리할 수 있습니다. 캠페인에 연결된 오브젝트(계획, 프로그램, 워크플로우, 예산 등)에 액세스할 수 있습니다. **[!UICONTROL Campaign]**&#x200B;의 프레임워크 내에 있습니다(선택적 Adobe Campaign 모듈).
+   이 그룹의 운영자는 마케팅 캠페인을 관리할 수 있습니다. **[!UICONTROL Campaign]**(선택 사항 Adobe Campaign 모듈) 프레임워크 내에서 캠페인에 연결된 개체(계획, 프로그램, 워크플로, 예산 등)에 액세스할 수 있습니다.
 
    이 그룹에는 다음과 같은 명명된 권한이 포함되어 있습니다.
 
