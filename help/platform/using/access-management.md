@@ -5,9 +5,9 @@ description: Campaign 기능에 대한 액세스 권한을 부여하는 방법 �
 badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
-source-git-commit: 34f875f583dd81c2229b66f3344f23965532e802
+source-git-commit: a5bbd2e6c102a8afa4cd5931b77b0c83705a7bfa
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '256'
 ht-degree: 8%
 
 ---
@@ -34,9 +34,9 @@ Adobe Campaign을 사용하면 다양한 연산자에 할당된 권한을 정의
 
 >[!TAB 사용 권한 설명서]
 
-**Adobe Campaign의 권한**&#x200B;에 대한 자세한 내용은 **[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}**&#x200B;를 참조하세요.
+**Adobe Campaign의 권한**&#x200B;에 대한 자세한 내용은 **[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}**&#x200B;를 참조하세요.
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}
 
 
 >[!TAB 폴더에 대한 권한 관리]
@@ -48,7 +48,7 @@ Adobe Campaign을 사용하면 다양한 연산자에 할당된 권한을 정의
 
 >[!TAB 기본 인증]
 
-로그인/암호를 사용하는 기본 인증은 Campaign v7에서 계속 사용할 수 있지만, 보안 및 인증 프로세스를 강화하기 위해 Adobe Campaign에서는 로그인/암호 기본 인증에서 Adobe Identity Management System(IMS)으로 [최종 사용자 인증 모드를 마이그레이션](../../technotes/using/ac-ims.md)할 것을 강력히 권장합니다. Campaign v8에서는 사용자/암호(즉, 기본 인증)로 연결할 수 없습니다.
+로그인/암호를 사용하는 기본 인증은 Campaign v7에서 계속 사용할 수 있지만, 보안 및 인증 프로세스를 강화하기 위해 Adobe Campaign에서는 기본 인증에서 Adobe Identity Management System(IMS)으로 [최종 사용자 인증 모드를 마이그레이션](../../technotes/using/ac-ims.md)할 것을 강력히 권장합니다. Campaign v8에서는 기본 인증과의 연결이 허용되지 않습니다.
 
 [![이미지](../../assets/do-not-localize/learn-more-button.svg)](../../technotes/using/ac-ims.md)
 
@@ -70,8 +70,8 @@ There are two types of permissions you can grant to a user:
 
 >[!NOTE]
 >
-> * Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://helpx.adobe.com/kr/campaign/kb/acc-security.html).
-> * To learn more about permissions, please refer to the detailed explanation on the [Campaign v8 documentation](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}.
+> * Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://helpx.adobe.com/campaign/kb/acc-security.html).
+> * To learn more about permissions, please refer to the detailed explanation on the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}.
 
 Learn how to grant access and set up permissions in these sections:
 

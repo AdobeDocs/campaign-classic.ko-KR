@@ -7,7 +7,7 @@ feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
-source-git-commit: 34f875f583dd81c2229b66f3344f23965532e802
+source-git-commit: a5bbd2e6c102a8afa4cd5931b77b0c83705a7bfa
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->이 절차는 기존 기본 인증을 사용하여 Campaign에 연결하는 운영자에만 적용됩니다. Campaign Classic v7.3.1부터 모든 연산자는 [Adobe IMS(Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}를 사용하여 Campaign에 연결해야 합니다. [자세히 알아보기](../../technotes/using/migrate-users-to-ims.md)
+>이 절차는 **기존 기본 인증**&#x200B;을 사용하여 Campaign에 연결하는 연산자에만 적용됩니다. Campaign Classic v7.3.1부터 모든 연산자는 [Adobe IMS(Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}를 사용하여 Campaign에 연결해야 합니다. [자세히 알아보기](../../technotes/using/migrate-users-to-ims.md)
 >
 >Adobe ID을 사용하여 Campaign에 연결할 때 다음 섹션이 더 이상 적용되지 않습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ko){target="_blank"}에서 Adobe IMS를 사용하여 권한을 설정하는 방법에 대해 알아봅니다.
 
