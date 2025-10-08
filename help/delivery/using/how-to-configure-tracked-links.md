@@ -72,4 +72,4 @@ ht-degree: 10%
    * **[!UICONTROL Opt-out]** : 이 URL을 옵트아웃 또는 구독 취소 URL로 간주합니다.
    * **[!UICONTROL Mirror page]** : 이 URL을 미러 페이지 URL로 간주합니다.
 
-1. 또한 **[!UICONTROL Category]** 열의 드롭다운 목록에서 각 추적된 URL의 범주를 선택할 수 있습니다. 이러한 범주는 **[!UICONTROL URLs and click streams]**&#x200B;과(와) 같이 보고서에 표시될 수 있습니다([이 섹션](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams) 참조). 범주는 특정 열거형으로 정의됩니다. **Adobe Campaign v8(콘솔) 설명서**&#x200B;에서 [열거형으로 작업](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}하는 방법에 대해 자세히 알아보세요.
+1. 또한 **[!UICONTROL Category]** 열의 드롭다운 목록에서 각 추적된 URL의 범주를 선택할 수 있습니다. 이러한 범주는 **[!UICONTROL URLs and click streams]**&#x200B;과(와) 같이 보고서에 표시될 수 있습니다([이 섹션](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams) 참조). 범주는 특정 열거형으로 정의됩니다. **Adobe Campaign v8(콘솔) 설명서**&#x200B;에서 [열거형으로 작업](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}하는 방법에 대해 자세히 알아보세요.

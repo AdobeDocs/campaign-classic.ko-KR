@@ -88,7 +88,7 @@ IP 주소를 사용하여 선호도를 통해 아웃바운드 SMTP 트래픽을 
 
    >[!NOTE]
    >
-   >**Adobe Campaign v8(콘솔) 설명서**&#x200B;에서 [열거형으로 작업](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}하는 방법에 대해 자세히 알아보세요.
+   >**Adobe Campaign v8(콘솔) 설명서**&#x200B;에서 [열거형으로 작업](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}하는 방법에 대해 자세히 알아보세요.
 
 
    그런 다음 유형화에 대해 아래에 표시된 대로 사용할 선호도를 선택할 수 있습니다.
