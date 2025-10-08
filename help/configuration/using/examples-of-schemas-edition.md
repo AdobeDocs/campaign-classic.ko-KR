@@ -5,9 +5,9 @@ description: 스키마 편집 사례
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 0db6f107d2c161b07f42dcf7a932d319130b31e0
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '671'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 ## 표 확장 {#extending-a-table}
 
-**nms:recipient** 스키마 수신자 테이블을 확장하려면 다음 절차를 적용하십시오.
+**nms:recipient** 스키마 받는 사람 테이블을 확장하려면 다음 절차를 적용하세요.
 
 1. 다음 데이터를 사용하여 확장 스키마(**cus:extension**)를 만듭니다.
 
@@ -46,7 +46,7 @@ ht-degree: 2%
    >
    >확장 스키마를 참조하려면 **extendedSchema** 특성을 추가해야 합니다.
 
-1. 확장 스키마가 **nms:recipient** 스키마이고 추가 데이터가 있는지 확인합니다.
+1. 확장된 스키마가 **nms:recipient** 스키마이고 추가 데이터가 있는지 확인하십시오.
 
    ```
    <schema dependingSchemas="cus:extension" mappingType="sql" name="recipient" namespace="nms" xtkschema="xtk:schema">
@@ -222,7 +222,7 @@ CREATE INDEX NmsRecipient_featureId ON NmsRecipient(iFeatureId);
 
 >[!NOTE]
 >
->오버플로우 테이블의 기본 키는 확장할 테이블(&quot;nms:recipient&quot; 스키마의 경우)에 대한 링크입니다.
+>오버플로 테이블의 기본 키는 확장할 테이블에 대한 링크입니다(이 예제에서는 &quot;nms:recipient&quot; 스키마).
 
 테이블 생성 SQL 스크립트는 다음과 같습니다.
 
@@ -235,7 +235,7 @@ CREATE UNIQUE INDEX CusOverflow2_id ON CusOverflow2(iRecipientId);
 
 관계 테이블을 사용하면 두 테이블을 카디널리티 N-N으로 연결할 수 있습니다. 이 테이블에는 연결할 테이블의 외래 키만 포함되어 있습니다.
 
-그룹(**nms:group**)과 수신자(**nms:recipient**) 간의 관계 테이블의 예.
+그룹(**nms:group**)과 받는 사람(**nms:recipient**) 간의 관계 테이블의 예입니다.
 
 관계 테이블의 Source 스키마:
 
@@ -335,8 +335,9 @@ xtkschema="xtk:srcSchema">
 
 ## 관련 항목
 
-* [열거형 작업](../../platform/using/managing-enumerations.md)
+* **Adobe Campaign v8(콘솔) 설명서**&#x200B;에서 [열거형으로 작업](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}하는 방법에 대해 자세히 알아보세요.
 
 * [Campaign 스키마 시작](../../configuration/using/about-schema-edition.md)
 
 * [데이터베이스 구조 업데이트](../../configuration/using/updating-the-database-structure.md)
+

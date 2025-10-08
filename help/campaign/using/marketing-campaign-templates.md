@@ -7,9 +7,9 @@ feature: Campaigns, Templates
 hide: true
 hidefromtoc: true
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
+source-git-commit: 0db6f107d2c161b07f42dcf7a932d319130b31e0
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1131'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 3%
 >
 >홈페이지에서 **[!UICONTROL Explorer]** 아이콘을 클릭하면 트리가 표시됩니다.
 
-특정 구성이 정의되지 않은 캠페인을 만들기 위해 내장 템플릿이 제공됩니다. 캠페인 템플릿을 만들고 구성한 다음 그 템플릿에서 캠페인을 만들 수 있습니다.
+특정 구성이 정의되지 않은 캠페인을 만들기 위해 기본 제공 템플릿이 제공됩니다. 캠페인 템플릿을 만들고 구성한 다음 그 템플릿에서 캠페인을 만들 수 있습니다.
 
 ![](assets/do-not-localize/how-to-video.png) 캠페인 만들기에 대한 자세한 내용은 [이 비디오](../../campaign/using/marketing-campaign-deliveries.md#create-email-video)를 참조하세요.
 
@@ -114,7 +114,7 @@ ht-degree: 3%
 
 * **개요**
 
-  이 모듈을 선택하면 **[!UICONTROL Documents]** 탭에 **[!UICONTROL Delivery outlines]** 하위 탭이 추가되어 캠페인에 대한 게재 개요를 정의합니다. [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)에서 게재 개요에 대해 자세히 알아보세요.
+  이 모듈을 선택하면 **[!UICONTROL Delivery outlines]** 탭에 **[!UICONTROL Documents]** 하위 탭이 추가되어 캠페인에 대한 게재 개요를 정의합니다. [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)에서 게재 개요에 대해 자세히 알아보세요.
 
   ![](assets/s_ncs_user_op_template_activate_4.png)
 
@@ -157,7 +157,7 @@ ht-degree: 3%
 
   >[!NOTE]
   >
-  >열거형에 대한 자세한 내용은 [시작하기](../../platform/using/managing-enumerations.md) 섹션을 참조하십시오.
+  >**Adobe Campaign v8(콘솔) 설명서**&#x200B;에서 [열거형으로 작업](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}하는 방법에 대해 자세히 알아보세요.
 
 * **캠페인 유형**(고유, 반복 또는 정기)을 선택하십시오. 기본적으로 캠페인 템플릿은 고유한 캠페인에 적용됩니다. 반복 및 정기 캠페인은 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns)에 자세히 설명되어 있습니다.
 * 캠페인 기간, 즉 캠페인이 진행될 일 수를 지정합니다. 이 템플릿을 기반으로 캠페인을 만들 때 캠페인 시작 및 종료 날짜가 자동으로 채워집니다.
