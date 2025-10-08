@@ -7,8 +7,10 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 audience: platform
 content-type: reference
 topic-tags: creating-queries
+hide: true
+hidefromtoc: true
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 11c81e4f04b978381d3803e2b60e23ed791eee44
 workflow-type: tm+mt
 source-wordcount: '3304'
 ht-degree: 34%
@@ -268,7 +270,7 @@ ht-degree: 34%
 
 ## 계산된 필드 만들기 {#creating-calculated-fields}
 
-필요한 경우 데이터 서식 지정 중에 열을 추가합니다. 계산된 필드는 데이터 미리보기 섹션에 열을 추가합니다. **[!UICONTROL Add a calculated field]**&#x200B;를 클릭합니다.
+필요한 경우 데이터 서식 지정 중에 열을 추가합니다. 계산된 필드는 데이터 미리보기 섹션에 열을 추가합니다. **[!UICONTROL Add a calculated field]**&#x200B;을(를) 클릭합니다.
 
 ![](assets/query_editor_nveau_43.png)
 
@@ -315,11 +317,11 @@ ht-degree: 34%
 
 다음 단계를 적용합니다.
 
-1. **[!UICONTROL Data to extract]** 창에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Formula type]** 창에서 수식 유형을 선택하여 식을 입력합니다.
+1. **[!UICONTROL Add]** 창에서 **[!UICONTROL Data to extract]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Formula type]** 창에서 수식 유형을 선택하여 식을 입력합니다.
 
    사용할 수 있는 수식의 유형은 **[!UICONTROL Field only]**, **[!UICONTROL Aggregate]**, **[!UICONTROL Expression]**&#x200B;입니다.
 
-   **[!UICONTROL Process on an aggregate function]** 및 **[!UICONTROL Count]**&#x200B;을(를) 선택합니다. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
+   **[!UICONTROL Process on an aggregate function]** 및 **[!UICONTROL Count]**&#x200B;을(를) 선택합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/query_editor_nveau_54.png)
 

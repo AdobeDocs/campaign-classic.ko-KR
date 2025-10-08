@@ -1,20 +1,21 @@
 ---
 product: campaign
 title: Campaign Classic에 대한 도움말 및 지원 옵션
-description: Campaign Classic 지원이 필요하십니까? 제대로 찾아오셨습니다.
+description: Campaign Classic에 대한 지원이 필요하십니까? 제대로 찾아오셨습니다.
 feature: Troubleshooting
 hidefromtoc: true
+hide: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: 11c81e4f04b978381d3803e2b60e23ed791eee44
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 63%
+source-wordcount: '653'
+ht-degree: 68%
 
 ---
 
 # Campaign Classic에 대한 도움말 및 지원 옵션 {#help-support-options}
 
-Campaign Classic 지원이 필요하십니까? 제대로 찾아오셨습니다.
+Campaign Classic에 대한 지원이 필요하십니까? 제대로 찾아오셨습니다.
 
 FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 받을 수 있습니다. Campaign 커뮤니티에 가입하여 전문가에게 질문하거나 문제를 기록할 수도 있습니다.
 
@@ -112,7 +113,7 @@ Campaign Campaign 컨트롤 패널을 사용하면 각 인스턴스의 사용량
 
 ### SFTP 관리
 
-컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 허용 목록에 추가하다 저장소 용량을 모니터링하고, IP 주소 및 공개 SSH 키를 관리할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ko)하십시오.
+컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 허용 목록에 추가하다 저장소 용량을 모니터링하고, IP 주소 및 공개 SSH 키를 관리할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)하십시오.
 
 ### 하위 도메인 및 인증서
 
@@ -133,11 +134,11 @@ Campaign 컨트롤 패널에서 Campaign Classic 인스턴스 설정을 관리�
 
 <img src="platform/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-새 티켓 시스템은 [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank}을 통해 시작되었습니다. 새 시스템에서는 올바른 권한을 가진 각 사용자에 대한 새 개인 계정이 필요합니다. Adobe ID로 로그인할 수 없는 경우 Experience League을 통해 액세스를 요청하면 고객 지원 팀에서 가능한 한 빨리 설정을 완료합니다. [자세히 알아보기](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)
+새 티켓 시스템은 [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank}을 통해 시작되었습니다. 새 시스템에서는 올바른 권한을 가진 각 사용자에 대한 새 개인 계정이 필요합니다. Adobe ID로 로그인할 수 없는 경우 Experience League를 통해 액세스를 요청하면 고객 지원 팀에서 가능한 한 빨리 설정을 완료합니다. [자세히 알아보기](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)
 
 ### 전문가에게 물어보세요!
 
-Campaign Classic Community 가입: 기존 질문에서 답변을 검색하거나 커뮤니티에 질문을 할 수 있습니다. [대화에 참여](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ko){_blank}.
+Campaign Classic Community 가입: 기존 질문에서 답변을 검색하거나 커뮤니티에 질문을 할 수 있습니다. [대화에 참여](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}.
 
 ### Campaign 다운로드 센터 액세스
 
@@ -147,4 +148,4 @@ Campaign 관리자는 [이 페이지](https://experience.adobe.com/#/downloads/c
 
 사례를 만들면 Adobe 제품에 발생하는 모든 문제에 대해 Adobe 고객 지원 팀으로 문의할 수 있습니다. 문제를 확인하거나 해결하려면 Adobe Admin Console을 통해 Adobe 고객 지원 센터와 채팅할 수 있습니다.
 
-문제를 기록하거나 새 시스템에서 채팅 세션을 시작하려면 [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank}에 연결하세요. [이 페이지](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html){_blank}에 설명된 세부 절차를 따르십시오.
+문제를 기록하거나 새 시스템에서 채팅 세션을 시작하려면 [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank}에 연결하십시오. [이 페이지](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html){_blank}에 설명된 세부 절차를 따르십시오.

@@ -6,9 +6,9 @@ title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
+source-git-commit: 11c81e4f04b978381d3803e2b60e23ed791eee44
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2567'
 ht-degree: 97%
 
 ---
@@ -87,10 +87,9 @@ ht-degree: 97%
       + [필터링 옵션](platform/using/filtering-options.md)
       + [필터 만들기](platform/using/creating-filters.md)
       + [사용 사례](platform/using/use-case.md)
-   + 쿼리 만들기 {#creating-queries}
-      + [Campaign의 쿼리 정보](platform/using/about-queries-in-campaign.md)
-      + [쿼리를 만드는 단계](platform/using/steps-to-create-a-query.md)
-      + [필터 조건 정의](platform/using/defining-filter-conditions.md)
+   + [Campaign에서 쿼리 만들기](platform/using/about-queries-in-campaign.md)
+   + [쿼리를 만드는 단계 - 숨김](platform/using/steps-to-create-a-query.md)
+   + [필터 조건 정의 - 숨김](platform/using/defining-filter-conditions.md)
    + 권한 {#permissions}
       + [사용 권한 시작](platform/using/access-management.md)
       + [운영자 만들기 및 관리](platform/using/access-management-operators.md)
@@ -102,7 +101,7 @@ ht-degree: 97%
       + [Microsoft Dynamics 365와 연결](platform/using/crm-ms-dynamics.md)
       + [Salesforce.com과 연결](platform/using/crm-sfdc.md)
       + [CRM과 데이터 동기화](platform/using/crm-data-sync.md)
-   + [도움말 및 지원 옵션](support.md)
+   + [도움말 및 지원 옵션 - 숨김](support.md)
 + 메시지 만들기 및 보내기 {#sending-messages}
    + [메시지 시작](delivery/using/communication-channels.md)
    + [게재 설정](delivery/using/delivery-settings.md)
@@ -351,7 +350,7 @@ ht-degree: 97%
    + [Campaign 통합 시작](integrations/using/about-campaign-integrations.md)
    + [Adobe 기술 계정 만들기](integrations/using/oauth-technical-account.md)
    + Adobe Experience Cloud 트리거 {#experience-triggers}
-      + [&#x200B; [!DNL Experience Cloud Triggers]로 작업](integrations/using/about-triggers.md)
+      + [ [!DNL Experience Cloud Triggers]로 작업](integrations/using/about-triggers.md)
       + [파이프라인 구성](integrations/using/configuring-pipeline.md)
       + [사용자 정의 구현을 위한 이벤트 구성](integrations/using/events.md)
       + [파이프라인 모니터링](integrations/using/pipeline-monitoring.md)
@@ -364,29 +363,29 @@ ht-degree: 97%
       + [Adobe Analytics 커넥터 시작](integrations/using/gs-aa.md)
       + [Adobe Analytics 커넥터 프로비전](integrations/using/adobe-analytics-provisioning.md)
    + 대상자 공유 {#audience-sharing}
-      + [&#x200B; [!DNL Adobe Experience Cloud]와 대상자 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+      + [ [!DNL Adobe Experience Cloud]와 대상자 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [Adobe에 요청 제출](integrations/using/submitting-request-to-adobe.md)
-      + [&#x200B; [!DNL Adobe Campaign]에서 공유 대상자 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+      + [ [!DNL Adobe Campaign]에서 공유 대상자 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
       + [문제 해결](integrations/using/troubleshooting.md)
       + [대상자 가져오기 및 내보내기](integrations/using/importing-and-exporting-audiences.md)
    + 자산 공유 {#asset-sharing}
-      + [&#x200B; [!DNL Adobe Experience Cloud]와 에셋 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-      + [&#x200B; [!DNL Assets] 액세스 구성](integrations/using/configuring-access-to-assets.md)
+      + [ [!DNL Adobe Experience Cloud]와 에셋 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+      + [ [!DNL Assets] 액세스 구성](integrations/using/configuring-access-to-assets.md)
       + [공유 에셋 삽입](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
-      + [&#x200B; [!DNL Adobe Experience Manager]로 작업](integrations/using/about-adobe-experience-manager.md)
+      + [ [!DNL Adobe Experience Manager]로 작업](integrations/using/about-adobe-experience-manager.md)
       + [통합 구성](integrations/using/configuring-the-integration.md)
-      + [&#x200B; [!DNL Experience Manager]  뉴스레터 만들기](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [ [!DNL Experience Manager]  뉴스레터 만들기](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [&#x200B; [!DNL Adobe Target]으로 작업](integrations/using/integrating-with-adobe-target.md)
-      + [&#x200B; [!DNL Adobe Target]과의 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
+      + [ [!DNL Adobe Target]으로 작업](integrations/using/integrating-with-adobe-target.md)
+      + [ [!DNL Adobe Target]과의 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [동적 이미지 삽입](integrations/using/inserting-a-dynamic-image.md)
    + ACS 커넥터 {#acs-connector}
-      + [&#x200B; [!DNL ACS Connector]  시작 - 숨김](integrations/using/acs-connector-principles-and-data-cycle.md)
+      + [ [!DNL ACS Connector]  시작 - 숨김](integrations/using/acs-connector-principles-and-data-cycle.md)
       + [프로필 동기화 - 숨김](integrations/using/synchronizing-profiles.md)
       + [대상자 동기화 - 숨김](integrations/using/synchronizing-audiences.md)
       + [웹 애플리케이션 동기화 - 숨김](integrations/using/synchronizing-web-applications.md)
-      + [&#x200B; [!DNL ACS Connector]  문제 해결 - 숨김](integrations/using/troubleshooting-the-acs-connector.md)
+      + [ [!DNL ACS Connector]  문제 해결 - 숨김](integrations/using/troubleshooting-the-acs-connector.md)
 + [워크플로로 자동화](workflow/using/about-workflow-automation.md)
 + 워크플로로 자동화 {#automating-with-workflows}
    + 워크플로 시작 {#introduction}
