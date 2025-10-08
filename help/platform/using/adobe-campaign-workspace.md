@@ -6,16 +6,14 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '858'
 ht-degree: 5%
 
 ---
 
 # Adobe Campaign 작업 영역{#adobe-campaign-workspace}
-
-
 
 ## Adobe Campaign 인터페이스 살펴보기 {#about-adobe-campaign-interface}
 
@@ -61,7 +59,7 @@ Adobe Campaign Classic 인스턴스를 설치할 때 언어가 선택됩니다.
 * 독일어
 * 일본어
 
-Adobe Campaign Classic 인스턴스에 대해 선택한 언어는 날짜 및 시간 형식에 영향을 줄 수 있습니다. 자세한 정보는 이 [섹션](../../platform/using/adobe-campaign-workspace.md#date-and-time)을 참조하십시오.
+Adobe Campaign Classic 인스턴스에 대해 선택한 언어는 날짜 및 시간 형식에 영향을 줄 수 있습니다. 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#formats){target=_blank}를 참조하세요.
 
 인스턴스를 만드는 방법에 대한 자세한 내용은 이 [페이지](../../installation/using/creating-an-instance-and-logging-on.md)를 참조하세요.
 
@@ -81,7 +79,7 @@ Adobe Campaign Classic 인스턴스에 대해 선택한 언어는 날짜 및 시
 
 각 기능에는 작업 관련 요구 사항 및 사용 컨텍스트를 기반으로 하는 기능 세트가 포함되어 있습니다. 예를 들어 **[!UICONTROL Profiles and targets]** 링크를 사용하면 받는 사람 목록, 구독 서비스, 기존 타겟팅 워크플로 및 이러한 요소를 만드는 바로 가기를 볼 수 있습니다.
 
-**[!UICONTROL Profiles and Targets]** 인터페이스의 왼쪽 섹션에 있는 **[!UICONTROL Lists]** 링크를 통해 목록을 사용할 수 있습니다.
+**[!UICONTROL Lists]** 인터페이스의 왼쪽 섹션에 있는 **[!UICONTROL Profiles and Targets]** 링크를 통해 목록을 사용할 수 있습니다.
 
 ![](assets/recipient_list_overview.png)
 
@@ -101,75 +99,42 @@ Adobe Campaign Classic 인스턴스에 대해 선택한 언어는 날짜 및 시
 
 화면 왼쪽의 **[!UICONTROL Create]** 섹션에서 바로 가기를 사용하여 새 요소(게재, 웹 애플리케이션, 워크플로 등)를 만들 수 있습니다. 목록 위에 있는 **[!UICONTROL Create]** 단추를 사용하여 새 요소를 목록에 추가하십시오.
 
-예를 들어 게재 페이지에서 **[!UICONTROL Create]** 단추를 사용하여 새 게재를 만듭니다.
+예를 들어 게재 페이지에서 **[!UICONTROL Create]** 버튼을 사용하여 새 게재를 만듭니다.
 
 ![](assets/d_ncs_user_interface_tab_add_del.png)
 
 
-## 형식 및 단위 {#formats-and-units}
+## Adobe Campaign 탐색기 사용 {#using-adobe-campaign-explorer}
 
-### 일자 및 시간 {#date-and-time}
+Adobe Campaign 탐색기는 도구 모음 아이콘을 통해 액세스할 수 있습니다. Adobe Campaign 모든 Adobe Campaign 기능, 구성 화면 및 일부 플랫폼 요소에 대한 자세한 보기에 액세스할 수 있습니다.
 
-Adobe Campaign Classic 인스턴스의 언어는 날짜 및 시간 형식에 영향을 줍니다.
+Adobe Campaign 탐색기에 대한 자세한 내용은 Campaign v8(콘솔) 설명서에서 다음 페이지를 참조하십시오.
 
-Campaign을 설치할 때 언어가 선택되며 나중에 변경할 수 없습니다. 영어(미국), 영어(영어), 프랑스어, 독일어 또는 일본어를 선택할 수 있습니다. 자세한 정보는 이 [페이지](../../installation/using/creating-an-instance-and-logging-on.md)를 참조하십시오.
+* [Campaign 사용자 인터페이스 개요](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target=_blank}
 
-미국 영어와 영국 영어의 주요 차이점은 다음과 같습니다.
+* [Campaign UI 설정](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
 
-<table> 
- <thead> 
-  <tr> 
-   <th> 형식<br /> </th> 
-   <th> 영어(미국)<br /> </th> 
-   <th> 영어(EN)<br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> 날짜<br /> </td> 
-   <td> 주간이 일요일<br />에 시작 </td> 
-   <td> 주간이 월요일<br />에 시작 </td> 
-  </tr> 
-  <tr> 
-   <td> 간단한 날짜<br /> </td> 
-   <td> <p>%2M/%2D/%4Y</p><p><strong>예: 2018/09/25</strong></p> </td> 
-   <td> <p>%2D/%2M/%4Y</p><p><strong>예: 2018/25/09</strong></p> </td> 
-  </tr> 
-  <tr> 
-   <td> 시간이 <br />인 간단한 날짜 </td> 
-   <td> <p>%2M/%2D/%4Y %I:%2N:%2S %P</p><p><strong>예: 2018/09/25 오후 10:47:25</strong></p> </td> 
-   <td> <p>%2D/%2M/%4Y %2H:%2N:%2S</p><p><strong>예: 2018/25/09 22:47:25</strong></p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [탐색기에서 폴더 및 보기를 관리합니다](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 
-### 열거형에 값 추가 {#add-values-in-an-enumeration}
 
-드롭다운 목록이 있는 입력 필드를 사용하여 열거형 값을 입력할 수 있습니다. 이 값은 저장한 다음 드롭다운 목록에서 옵션으로 제공할 수 있습니다. 예를 들어 수신자 프로필의 **[!UICONTROL General]** 탭에 있는 **[!UICONTROL City]** 필드에서 London을 입력할 수 있습니다. Enter 키를 눌러 이 값을 확인하면 필드와 연결된 열거형에 대해 이 값을 저장할지 묻는 메시지가 나타납니다.
+## 목록 작업 {#manage-and-customize-lists}
 
-![](assets/s_ncs_user_wizard_email_bat_substitute_email.png)
-
-**[!UICONTROL Yes]**&#x200B;을(를) 클릭하면 관련 필드의 콤보 상자에서 이 값을 사용할 수 있습니다(이 경우: **[!UICONTROL London]**).
+Campaign 클라이언트 콘솔에서 데이터가 목록에 표시됩니다. 이러한 목록을 필요에 맞게 조정할 수 있습니다. 예를 들어 열을 추가하고, 데이터를 필터링하고, 레코드를 카운트하고, 설정을 저장하고 공유할 수 있습니다.
 
 >[!NOTE]
 >
->열거형(&#39;항목별 목록&#39;이라고도 함)은 **[!UICONTROL Administration > Platform > Enumerations]** 섹션을 통해 관리자가 관리합니다. 자세한 내용은 [열거형 관리](../../platform/using/managing-enumerations.md)를 참조하세요.
+>Adobe Campaign에서 목록을 관리하고 사용자 지정하는 방법에 대해 알아보려면 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}를 참조하세요.
 
-### 기본 단위 {#default-units}
+## 열거 관리{#managing-enumerations}
 
-기간(예: 게재 리소스의 유효 기간, 작업 승인 마감 등)을 나타내는 필드에서 값은 다음 **단위**(으)로 표시할 수 있습니다.
+열거형(항목별 목록이라고도 함)은 특정 필드를 채우는 데 사용할 수 있는 미리 정의된 값 목록입니다. 열거형을 사용하면 필드 값을 표준화하여 데이터 항목을 보다 일관되게 만들고 쿼리를 단순화할 수 있습니다.
 
-* **[!UICONTROL s]**(초),
-* **[!UICONTROL mn]**&#x200B;분 동안,
-* **[!UICONTROL h]**(시간),
-* **[!UICONTROL d]**&#x200B;일.
+정의된 값은 드롭다운 목록에 표시됩니다. 값을 직접 선택하거나 일치하는 항목을 제안하고 완료하는 예측 입력을 사용하여 입력할 수 있습니다. 일부 필드에는 사전 정의된 열거형이 포함되어 있으며, 필요한 경우 추가 열거형을 만들 수 있습니다.
 
-![](assets/enter_unit_sample.png)
+**Adobe Campaign v8(콘솔) 설명서**&#x200B;에서 [열거형으로 작업](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}하는 방법에 대해 자세히 알아보세요.
 
 ## 튜토리얼 비디오 {#video}
 
-이 비디오에서는 Campaign Classic 작업 영역을 제공합니다.
+이 비디오에서는 Campaign Classic 작업 영역에 대해 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/39536?quality=12&captions=kor)
-
-추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)

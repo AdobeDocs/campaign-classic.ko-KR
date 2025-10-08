@@ -5,11 +5,13 @@ description: 이 페이지에서는 Adobe Campaign Classic 설명서의 새로�
 feature: Release Notes
 role: User
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
-workflow-type: ht
+source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
+workflow-type: tm+mt
 source-wordcount: '3864'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -154,7 +156,7 @@ Microsoft CRM, Salesforce, Oracle CRM On Demand 작업 활동의 사용이 중�
 
 새로운 옵션 **오류 시 중단**&#x200B;을 워크플로 오류 관리 섹션에 추가했습니다. [자세히 표시](../../workflow/using/advanced-parameters.md#in-case-of-errors)
 
-CRM 커넥터 활동에 일괄 업데이트 옵션을 추가했습니다. [자세히 표시](../../workflow/using/crm-connector.md)
+CRM 커넥터 활동에 배치 업데이트 옵션을 추가했습니다. [자세히 표시](../../workflow/using/crm-connector.md)
 
 +++
 
@@ -284,7 +286,7 @@ Campaign Classic에 대한 &quot;도움말 및 지원 옵션&quot; 페이지가 
 
 Adobe Campaign Enhanced MTA 섹션이 [여기](../../delivery/using/sending-with-enhanced-mta.md)로 이동되었습니다.
 
-[!DNL Campaign Classic]의 추적 기능을 개략적으로 알려주는 새 페이지가 추가되었습니다. [자세한 내용](../../delivery/using/about-message-tracking.md)
+[!DNL Campaign Classic]의 추적 기능에 대한 개요를 제공하기 위해 새 페이지가 추가되었습니다. [자세한 내용](../../delivery/using/about-message-tracking.md)
 
 추적과 관련된 일반적인 문제를 해결하는 데 도움이 되는 문제 해결 섹션이 추가되었습니다. [자세한 내용](../../delivery/using/tracking-troubleshooting.md)
 

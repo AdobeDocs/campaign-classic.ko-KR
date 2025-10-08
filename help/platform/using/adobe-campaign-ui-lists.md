@@ -4,7 +4,9 @@ title: 목록 관리 및 사용자 지정
 description: 목록 검색 및 구성 방법 알아보기
 feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
-source-git-commit: f43b15e61fb286a612f057d8d3bf5a1ff6ecb253
+hide: true
+hidefromtoc: true
+source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 0%
@@ -19,7 +21,7 @@ Campaign 클라이언트 콘솔에서 데이터가 목록에 표시됩니다. �
 
 >[!NOTE]
 >
->Adobe Campaign에서 목록을 관리하고 사용자 지정하는 방법에 대해 알아보려면 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}를 참조하세요.
+>Adobe Campaign에서 목록을 관리하고 사용자 지정하는 방법에 대해 알아보려면 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}를 참조하세요.
 
 <!--
 ## Count records {#counting-records}
