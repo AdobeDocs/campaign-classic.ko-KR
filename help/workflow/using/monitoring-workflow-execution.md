@@ -6,9 +6,9 @@ feature: Workflows
 hide: true
 hidefromtoc: true
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
+source-git-commit: 221e2ccdaadf793212fcacdf5e13823f1505f4dc
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2020'
 ht-degree: 2%
 
 ---
@@ -271,7 +271,7 @@ Campaign Classic 인터페이스를 사용하면 사전 정의된 **보기**&#x2
 
 1. 보기를 추가할 폴더를 마우스 오른쪽 단추로 클릭합니다.
 1. **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]**&#x200B;에서 추가할 보기를 선택합니다.
-1. 폴더가 트리에 추가되면 원본 폴더와 관계없이 모든 워크플로가 표시되도록 해당 폴더를 보기로 구성해야 합니다.보기를 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../platform/using/access-management-folders.md)을 참조하세요.
+1. 폴더가 트리에 추가되면 해당 원래 폴더가 무엇이든 간에 모든 워크플로우를 표시할 수 있도록 해당 폴더를 보기로 구성해야 합니다. 보기를 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../platform/using/about-adobe-campaign-classic.md)을 참조하세요.
 
 이러한 보기 외에 필터 폴더를 설정하여 실행 상태에 따라 워크플로 목록을 필터링할 수 있습니다. 방법은 다음과 같습니다.
 

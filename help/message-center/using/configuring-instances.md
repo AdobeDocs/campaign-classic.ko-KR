@@ -7,9 +7,9 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+source-git-commit: 221e2ccdaadf793212fcacdf5e13823f1505f4dc
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1237'
 ht-degree: 1%
 
 ---
@@ -185,7 +185,7 @@ ht-degree: 1%
 
 여러 제어 인스턴스를 사용하려면 모든 실행 인스턴스에서 이 구성을 수행해야 합니다.
 
-1. **[!UICONTROL Administration > Production > Message Center]** 노드의 연산자당 하나의 폴더를 만듭니다. **폴더 1** 및 **폴더 2**. 폴더 및 보기 만들기에 대한 자세한 내용은 [이 페이지](../../platform/using/access-management-folders.md)를 참조하세요.
+1. **[!UICONTROL Administration > Production > Message Center]** 노드의 연산자당 하나의 폴더를 만듭니다. **폴더 1** 및 **폴더 2**. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}에서 폴더 및 보기에 대해 자세히 알아보세요.
 
    ![](assets/messagecenter_multi_control_3.png)
 

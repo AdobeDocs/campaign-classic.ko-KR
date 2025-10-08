@@ -7,9 +7,9 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 221e2ccdaadf793212fcacdf5e13823f1505f4dc
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '697'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->실행 인스턴스에서는 액세스 권한 문제가 발생할 수 있으므로 **[!UICONTROL Real time events]** 또는 **[!UICONTROL Batch events]** 폴더를 보기로 설정하지 않아야 합니다. 폴더를 보기로 설정하는 방법에 대한 자세한 내용은 [이 섹션](../../platform/using/access-management-folders.md)을 참조하세요.
+>실행 인스턴스에서는 액세스 권한 문제가 발생할 수 있으므로 **[!UICONTROL Real time events]** 또는 **[!UICONTROL Batch events]** 폴더를 보기로 설정하지 않아야 합니다. 폴더를 보기로 설정하는 방법에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}를 참조하세요.
 
 ## 템플릿을 향해 라우팅 {#routing-towards-a-template}
 
