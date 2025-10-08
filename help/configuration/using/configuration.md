@@ -5,9 +5,9 @@ feature: Application Settings
 description: Campaign 탐색기 탐색 트리를 구성하는 방법 알아보기
 role: Data Engineer, Developer
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 전문가 사용자는 탐색기 트리에 폴더를 추가하고 사용자 정의할 수 있습니다.
 
-Campaign 탐색기 및 탐색 계층 구조 [에 대한 자세한 내용은 이 섹션](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy)을 참조하세요.
+[Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}에서 Campaign 사용자 인터페이스에 대해 자세히 알아보세요.
 
 탐색 목록에 사용되는 폴더 유형은 **xtk:navtree** 스키마의 문법을 따르는 XML 문서에 설명되어 있습니다.
 
@@ -42,7 +42,7 @@ XML 문서는 다음과 같이 구성됩니다.
 </navtree>
 ```
 
-XML 문서에 문서 이름과 네임스페이스를 지정하는 **name** 및 **namespace** 특성이 있는 **`<navtree>`** 루트 요소가 있습니다. 문서 식별 키는 이름과 네임스페이스로 구성됩니다.
+XML 문서에 문서 이름과 네임스페이스를 지정하는 **`<navtree>`** name **및** namespace **특성이 있는** 루트 요소가 있습니다. 문서 식별 키는 이름과 네임스페이스로 구성됩니다.
 
 응용 프로그램의 전역 명령은 **`<commands>`** 요소의 문서에서 선언됩니다.
 
@@ -98,7 +98,7 @@ XML 문서에 문서 이름과 네임스페이스를 지정하는 **name** 및 *
 
 **예**:
 
-* &quot;xtk:import&quot; 양식을 실행하기 위한 전역 명령 선언:
+* &quot;xtk:import&quot; 양식을 시작하는 전역 명령 선언:
 
   ```
   <command desc="Start the data import assistant" form="xtk:import" label="&amp;Data import..." name="import" rights="import,recipientImport"/>
@@ -167,9 +167,9 @@ XML 문서에 문서 이름과 네임스페이스를 지정하는 **name** 및 *
 * **newFolderShortCuts**: 폴더를 만들 때 모델의 바로 가기 목록(**`<nodemodel>`** 쉼표로 구분)입니다.
 * **insertRight**, **editRight**, **deleteRight**: 폴더 삽입, 편집 및 삭제에 대한 권한입니다.
 
-**`<nodemodel>`** 요소 아래의 **`<view>`** 요소에는 보기와 연결된 목록의 구성이 포함됩니다. 목록의 스키마가 **`<view>`** 요소의 **schema** 특성에 입력되었습니다.
+**`<view>`** 요소 아래의 **`<nodemodel>`** 요소에는 보기와 연결된 목록의 구성이 포함됩니다. 목록의 스키마가 **요소의** schema **`<view>`** 특성에 입력되었습니다.
 
-목록의 레코드를 편집하려면 목록 스키마와 같은 이름의 입력 양식이 암시적으로 사용됩니다. **`<view>`** 요소의 **type** 특성이 양식 표시에 영향을 줍니다. 가능한 값:
+목록의 레코드를 편집하려면 목록 스키마와 같은 이름의 입력 양식이 암시적으로 사용됩니다. **요소의** type **`<view>`** 특성이 양식 표시에 영향을 줍니다. 가능한 값:
 
 * **listdet**: 목록 맨 아래에 양식을 표시합니다.
 * **list**: 목록만 표시합니다. 양식을 두 번 클릭하거나 목록 선택 시 메뉴의 &quot;열기&quot;를 통해 시작합니다.
@@ -178,11 +178,11 @@ XML 문서에 문서 이름과 네임스페이스를 지정하는 **name** 및 *
 
 >[!NOTE]
 >
->**`<view>`** 요소에 **form** 특성을 입력하여 입력 폼의 이름을 오버로드할 수 있습니다.
+>**요소에** form **`<view>`** 특성을 입력하여 입력 폼의 이름을 오버로드할 수 있습니다.
 
-목록 열의 기본 구성은 **`<columns>`** 요소를 통해 입력됩니다. 스키마에서 참조할 필드가 해당 값으로 있는 **xpath** 특성이 포함된 **`<node>`** 요소에 열이 선언되었습니다.
+목록 열의 기본 구성은 **`<columns>`** 요소를 통해 입력됩니다. 스키마에서 참조할 필드가 해당 값으로 있는 **`<node>`** xpath **특성이 포함된** 요소에 열이 선언되었습니다.
 
-**예**: &quot;nms:recipient&quot; 스키마에서 폴더 형식을 선언합니다.
+**예**: &quot;nms:recipient&quot; 스키마에서 폴더 형식을 선언했습니다.
 
 ```
 <model label="Profiles and targets" name="nmsProfiles">
@@ -293,7 +293,7 @@ XML 문서에 문서 이름과 네임스페이스를 지정하는 **name** 및 *
 1. 폴더는 보기입니다. 목록에는 스키마와 연결된 모든 레코드가 표시되며, 폴더 속성에 입력된 시스템 필터링의 가능성이 있습니다.
 1. 폴더가 연결됨: 목록의 레코드는 폴더 링크에서 암시적으로 필터링됩니다.
 
-연결된 폴더의 경우 **`<nodemodel>`** 요소의 **folderLink** 특성을 채워야 합니다. 이 속성에는 데이터 스키마에 구성된 폴더의 링크 이름이 포함됩니다.
+연결된 폴더의 경우 **요소의** folderLink **`<nodemodel>`** 특성을 채워야 합니다. 이 속성에는 데이터 스키마에 구성된 폴더의 링크 이름이 포함됩니다.
 
 데이터 스키마에서 연결된 폴더 선언의 예:
 

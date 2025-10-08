@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 7b71cac6f4c2fc2e8d30683130adb27eff757b73
+source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '894'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ Aligned with this naming, Campaign has 3 types of upgrades:
 
 ## 릴리스 주기 {#rn-cycle}
 
-Adobe Campaign은 정기적으로 업데이트됩니다. 이렇게 정기적으로 업데이트를 제공하는 이유는 사용자가 최신 기능을 바로 사용할 수 있도록 하고 사용자의 환경을 안전하게 지키며 Adobe 제품 관련 경험을 개선하겠다는 목표를 위해서입니다.
+Adobe Campaign은 정기적으로 업데이트됩니다. 이렇게 정기적으로 업데이트를 제공하는 이유는 사용자에게 최신 기능을 제공하고 사용 환경을 안전하게 유지하며 Adobe 제품 관련 경험을 개선하기 위해서입니다.
 
 따라서 Adobe Campaign의 **가장 안정적인 최신 빌드를 실행**&#x200B;하는 것이 매우 중요합니다. 또한 최신 빌드에서는 보통 문제를 식별, 재현, 해결하는 과정이 훨씬 빨라져 지원 경험이 향상됩니다. 이에 더해 최신 빌드에서는 사용자가 접할 수 있는 다양한 문제를 해결합니다.
 
@@ -152,7 +152,6 @@ Adobe 팀이 사용자의 조직에 업그레이드 여정을 안내해 드리�
 * [Campaign 버전을 확인합니다](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 * [도움말 및 지원](../../support.md)
 * [컨트롤 패널 릴리스](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko)
-* [최신 설명서 업데이트](../../rn/using/documentation-updates.md)
 * [사용이 중단되거나 제거된 기능](../../rn/using/deprecated-features.md)
 * [빌드 업그레이드 FAQ](../../platform/using/faq-build-upgrade.md)
 

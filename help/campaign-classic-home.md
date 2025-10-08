@@ -3,9 +3,9 @@ keywords: Campaign Classic;home;popular topics
 product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 961f056ca8bf201e8cedcddb3a2b1f1a4e32b08a
-workflow-type: ht
-source-wordcount: '357'
+source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
+workflow-type: tm+mt
+source-wordcount: '342'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 새로운 기능
 
-Adobe Campaign Classic v7 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항 및 수정 사항에 대한 포괄적인 목록이 필요하면 상세한 [릴리스 정보](rn/using/latest-release.md)를 확인하십시오. [설명서 업데이트 페이지](rn/using/documentation-updates.md)를 방문하여 설명서의 최신 변경 사항을 최신 상태로 유지하십시오.
+Adobe Campaign Classic v7 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항, 수정 사항을 종합한 목록은 상세한 [릴리스 정보](rn/using/latest-release.md)에서 확인할 수 있습니다.
 
 >[!BEGINTABS]
 

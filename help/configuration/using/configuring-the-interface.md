@@ -6,9 +6,9 @@ feature: Application Settings
 role: Data Engineer, Developer
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Adobe Campaign 인터페이스에서 새 수신자 테이블을 보고 대화 �
 * 탐색기 트리의 폴더에 새 유형을 입력합니다.
 * Adobe Campaign 홈 페이지를 통해 사용자 지정 테이블에 액세스할 새 웹 애플리케이션을 만듭니다.
 
-Adobe Campaign은 &quot;Nms_DefaultRcpSchema&quot; 전역 변수를 사용하여 기본 수신자 데이터베이스(nms:recipient)와 대화를 나눕니다. 따라서 이 변수를 변경해야 합니다.
+Adobe Campaign은 &quot;Nms_DefaultRcpSchema&quot; 전역 변수를 사용하여 기본 수신자 데이터베이스(nms:recipient)와 대화 상자를 만듭니다. 따라서 이 변수를 변경해야 합니다.
 
 1. 탐색기의 **[!UICONTROL Administration>Platform>Options]** 노드로 이동합니다.
 1. **Nms_DefaultRcpSchema** 변수의 값을 외부 수신자 테이블과 일치하는 스키마 이름으로 변경합니다(이 경우 cus:individual).
@@ -63,12 +63,8 @@ Adobe Campaign은 &quot;Nms_DefaultRcpSchema&quot; 전역 변수를 사용하여
 ## 탐색 계층에 새 유형의 폴더 만들기 {#creating-a-new-type-of-folder-in-the-navigation-hierarchy}
 
 1. **[!UICONTROL Administration>Configuration>Navigation hierarchies]** 노드로 이동합니다.
-1. 새 **xtk:navtree** 형식 **navtree** 문서를 만드십시오.
+1. 새 **xtk:navtree** 형식 **navtree** 문서를 만듭니다.
 1. 테이블 템플릿에 따라 필요한 모든 모니터링 및 필드를 설명합니다.
-
-   >[!NOTE]
-   >
-   >**navtree** 형식 파일에 대한 자세한 내용은 [이 페이지](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy)를 참조하세요.
 
    현재 예제에서 **navtree** 파일은 **cus:individual** 스키마를 기반으로 해야 하므로 다음 형식을 사용해야 합니다.
 
