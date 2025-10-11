@@ -123,7 +123,7 @@ Adobe Campaign 탐색기에 대한 자세한 내용은 **Campaign v8(콘솔) 설
 
 Campaign을 검색할 때 데이터가 목록에 표시됩니다. 기본 제공 필터를 적용하여 격리된 주소, 타깃팅되지 않은 수신자 또는 특정 기간 범위 또는 생성 날짜 내의 레코드와 같은 정의된 하위 집합에 빠르게 액세스할 수 있습니다. 또한 사용자 정의 필터를 만들고 나중에 사용할 수 있도록 저장하고 다른 Campaign 사용자와 공유할 수 있습니다.
 
-**Campaign v8(콘솔) 설명서**&#x200B;에서 [필터에 액세스, 디자인 및 공유](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}하는 방법에 대해 알아봅니다.
+**Campaign v8(콘솔) 설명서**&#x200B;에서 [필터에 액세스, 디자인 및 공유](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-filters){target=_blank}하는 방법에 대해 알아봅니다.
 
 
 ## 목록 작업 {#manage-and-customize-lists}

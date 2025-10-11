@@ -47,7 +47,7 @@ ht-degree: 2%
 
    ![](assets/s_ncs_user_filter_view_schema.png)
 
-   이러한 필드에 액세스하여 필터 편집기의 본문에 필터 조건을 정의할 수 있습니다. 애플리케이션 필터는 고급 필터와 동일한 방식으로 정의됩니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
+   이러한 필드에 액세스하여 필터 편집기의 본문에 필터 조건을 정의할 수 있습니다. 애플리케이션 필터는 고급 필터와 동일한 방식으로 정의됩니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
 
 
 1. 구독에 대한 새 필터를 만들어 정의되지 않은 이메일 형식의 구독만 표시합니다.

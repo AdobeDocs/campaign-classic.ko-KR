@@ -795,7 +795,7 @@ Personalization 변수는 수신자의 정보에 따라 수신자마다 다른 �
 
 사전 정의된 필터는 다시 사용하기 위해 저장된 쿼리입니다. 사전 정의된 필터를 사용하면 생산성을 높이고(한 번만 만들어지기 때문에), 일관성을 구축하는 데 도움을 주고(모든 마케터가 사용할 수 있기 때문에), 자신을 만들지 못할 수 있는 코드나 논리를 사용할 수 있기 때문에 마케터에게 필요한 기술을 낮출 수 있습니다.
 
-필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
+필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
 +++
 
 <!--
