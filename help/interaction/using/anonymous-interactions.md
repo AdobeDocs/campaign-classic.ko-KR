@@ -18,7 +18,7 @@ ht-degree: 1%
 
 
 
-![](assets/do-not-localize/how-to-video.png) 이 [비디오](https://helpx.adobe.com/campaign/classic/how-to/indetified-and-anonymous-interaction-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com)를 시청하여 확인 및 익명 대상에 오퍼가 전달되는 방식에 대한 개요를 살펴보십시오.
+![](assets/do-not-localize/how-to-video.png) 이 [비디오](https://helpx.adobe.com/campaign/classic/how-to/indetified-and-anonymous-interaction-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com)를 시청하여 확인 및 익명 대상에 오퍼가 전달되는 방식에 대한 개요를 살펴보십시오.
 
 ## 익명 상호 작용을 위한 환경 타겟팅 및 저장 {#targeting-and-storing-an-environment-for-anonymous-interactions}
 

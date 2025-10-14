@@ -29,7 +29,7 @@ Adobe은 2021년 6월 30일 이전의 모든 고객을 위해 IMS 기능을 유�
 
 ## 영향을 받습니까?
 
-Adobe ID을 통해 [IMS(Adobe Identity Management Service)를 통해 ](../../integrations/using/about-adobe-id.md) Campaign에 연결하고 아래 나열된 버전보다 이전 버전의 Campaign을 실행하는 경우 영향을 받습니다.
+Adobe ID을 통해 [IMS(Adobe Identity Management Service)를 통해 &#x200B;](../../integrations/using/about-adobe-id.md) Campaign에 연결하고 아래 나열된 버전보다 이전 버전의 Campaign을 실행하는 경우 영향을 받습니다.
 
 이미 업그레이드했지만 이전 버전의 Microsoft Internet Explorer를 사용하는 경우 Internet Explorer 11로 업그레이드해야 합니다.
 
@@ -55,7 +55,7 @@ Adobe ID을 통해 [IMS(Adobe Identity Management Service)를 통해 ](../../int
 
 **Campaign 버전을 확인하려면 어떻게 해야 합니까?**
 
-이 섹션[에서 사용 중인 버전 ](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)을(를) 확인하는 방법을 알아보세요.
+이 섹션[에서 사용 중인 버전 &#x200B;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)을(를) 확인하는 방법을 알아보세요.
 
 
 **IMS를 사용하는지 어떻게 확인할 수 있습니까?**

@@ -21,7 +21,7 @@ ht-degree: 3%
 
 오퍼를 시뮬레이션하는 방법을 알아보려면 아래 단계를 참조하십시오.
 
-![](assets/do-not-localize/how-to-video.png) 이 [비디오](https://helpx.adobe.com/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&amp;ref=helpx.adobe.com)도 볼 수 있습니다.
+![](assets/do-not-localize/how-to-video.png) 이 [비디오](https://helpx.adobe.com/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&ref=helpx.adobe.com)도 볼 수 있습니다.
 
 ## 시뮬레이션을 만드는 주요 단계 {#main-steps-for-creating-a-simulation}
 

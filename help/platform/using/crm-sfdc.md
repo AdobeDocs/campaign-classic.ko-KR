@@ -40,10 +40,10 @@ Salesforce CRM에 로그인하는 데 사용되는 계정.
 Salesforce CRM 로그인에 사용되는 암호입니다.
 
    * **[!UICONTROL Client identifier]**
-클라이언트 식별자를 찾을 수 있는 위치를 확인하려면 이 [페이지](https://help.salesforce.com/articleView?id=000205876&amp;type=1)를 참조하세요.
+클라이언트 식별자를 찾을 수 있는 위치를 확인하려면 이 [페이지](https://help.salesforce.com/articleView?id=000205876&type=1)를 참조하세요.
 
    * **[!UICONTROL Security token]**
-보안 토큰을 찾을 위치를 확인하려면 이 [페이지](https://help.salesforce.com/articleView?id=000205876&amp;type=1)를 참조하세요.
+보안 토큰을 찾을 위치를 확인하려면 이 [페이지](https://help.salesforce.com/articleView?id=000205876&type=1)를 참조하세요.
 
    * **[!UICONTROL API version]**
 API 버전을 선택합니다.
