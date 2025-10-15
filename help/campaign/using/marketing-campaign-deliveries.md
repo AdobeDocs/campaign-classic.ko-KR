@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ![](assets/campaign_op_add_delivery.png)
 
-제안된 구성은 DM, 이메일, 모바일 채널 등 다양한 유형의 게재에 적합합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}를 참조하세요.
+제안된 구성은 DM, 이메일, 모바일 채널 등 다양한 유형의 게재에 적합합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko){target="_blank"}를 참조하세요.
 
 ## 게재 시작 {#starting-a-delivery}
 

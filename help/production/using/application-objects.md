@@ -40,7 +40,7 @@ Adobe Campaign에서 이에 따라 사용해야 하는 ID 시퀀스를 사용합
 
 ## 게재 {#deliveries}
 
-인스턴스에 언제든지 1000개 미만의 게재가 있어야 합니다. 게재가 많으면 데이터베이스 공간이 소모되고 문제가 발생합니다. 하루에 10개 이상의 게재를 만드는 인스턴스는 비즈니스 요구 사항에 따라 검사해야 합니다. 게재를 줄이기 위해 연속 게재 사용을 고려해 보십시오. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/continuous-delivery.html){target="_blank"}를 참조하세요.
+인스턴스에 언제든지 1000개 미만의 게재가 있어야 합니다. 게재가 많으면 데이터베이스 공간이 소모되고 문제가 발생합니다. 하루에 10개 이상의 게재를 만드는 인스턴스는 비즈니스 요구 사항에 따라 검사해야 합니다. 게재를 줄이기 위해 연속 게재 사용을 고려해 보십시오. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/continuous-delivery.html?lang=ko){target="_blank"}를 참조하세요.
 
 2년 이상 된 게재는 인스턴스에서 제거해야 합니다.
 
@@ -48,14 +48,14 @@ Adobe Campaign에서 이에 따라 사용해야 하는 ID 시퀀스를 사용합
 
 애플리케이션 서버 디스크의 파일 수는 무한히 증가하면 안 됩니다.
 
-가져오기 워크플로는 파일을 만들기 때문에 디스크 확장을 야기합니다. 표준 [파일 수집기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-collector.html){target="_blank"} 활동을 사용하면 이를 방지할 수 있습니다. 파일 컬렉터는 파일을 임시 폴더로 이동하고 자동으로 삭제합니다.
+가져오기 워크플로는 파일을 만들기 때문에 디스크 확장을 야기합니다. 표준 [파일 수집기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-collector.html?lang=ko){target="_blank"} 활동을 사용하면 이를 방지할 수 있습니다. 파일 컬렉터는 파일을 임시 폴더로 이동하고 자동으로 삭제합니다.
 
 워크플로우가 파일을 가져오고 표준 기능을 사용하지 않는 경우 디스크 공간을 최소한으로 유지하려면 파일을 제거해야 합니다.
 
 ## 트랜잭션 데이터 및 로그 {#transactional-data-and-logs}
 
-데이터를 Adobe Campaign으로 가져오는 모든 워크플로우로 인해 데이터베이스 크기가 커집니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html){target="_blank"}를 참조하세요.
+데이터를 Adobe Campaign으로 가져오는 모든 워크플로우로 인해 데이터베이스 크기가 커집니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=ko){target="_blank"}를 참조하세요.
 
-정리 또는 제거 워크플로우가 실행 중인지 확인하고 레코드를 효과적으로 제거합니다. 모든 트랜잭션 데이터 및 로그를 제거해야 합니다. 정리 작업은 표준 테이블인 추적 및 광범위한 로그만 삭제합니다. 특정 테이블은 특정 워크플로우에서 삭제해야 합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}를 참조하세요.
+정리 또는 제거 워크플로우가 실행 중인지 확인하고 레코드를 효과적으로 제거합니다. 모든 트랜잭션 데이터 및 로그를 제거해야 합니다. 정리 작업은 표준 테이블인 추적 및 광범위한 로그만 삭제합니다. 특정 테이블은 특정 워크플로우에서 삭제해야 합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ko){target="_blank"}를 참조하세요.
 
 가장 오래된 레코드 생성 날짜를 확인하여 오래된 트랜잭션 데이터를 확인하십시오.

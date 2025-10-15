@@ -95,7 +95,7 @@ ht-degree: 2%
 
 ## 6단계 - 조건 필터링 {#step-6---filter-conditions-}
 
-모든 데이터를 내보내지 않도록 필터 조건을 추가할 수 있습니다. 이 필터링의 구성은 게재 도우미에서 수신자 타겟팅과 동일합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#target-population){target="_blank"}를 참조하세요.
+모든 데이터를 내보내지 않도록 필터 조건을 추가할 수 있습니다. 이 필터링의 구성은 게재 도우미에서 수신자 타겟팅과 동일합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#target-population){target="_blank"}를 참조하세요.
 
 ![](assets/s_ncs_user_export_wizard05_b.png)
 

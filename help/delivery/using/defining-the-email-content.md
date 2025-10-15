@@ -115,7 +115,7 @@ ht-degree: 1%
 
 Adobe Campaign을 사용하면 특정 조건에서 동적 전자 메일을 전송할 수 있는 새로운 대화형 [AMP for Email](https://amp.dev/about/email/) 형식을 시도할 수 있습니다.
 
-자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html){target="_blank"}를 참조하세요.
+자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html?lang=ko){target="_blank"}를 참조하세요.
 
 ## 콘텐츠 관리 사용 {#using-content-management}
 

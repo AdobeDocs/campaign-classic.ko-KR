@@ -100,7 +100,7 @@ ht-degree: 2%
 
 이전에 만든 시드 주소로 증명을 전송하여 메시지 게재를 테스트할 수 있습니다.
 
-증명 보내기에는 일반 게재와 동일한 프로세스가 포함됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}를 참조하세요. 그러나 트랜잭션 메시지를 보내려면 먼저 다음 작업을 수행해야 합니다.
+증명 보내기에는 일반 게재와 동일한 프로세스가 포함됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ko){target="_blank"}를 참조하세요. 그러나 트랜잭션 메시지를 보내려면 먼저 다음 작업을 수행해야 합니다.
 
 * [개인화 데이터](#managing-seed-addresses-in-transactional-messages)를 사용하여 [시드 주소](#personalization-data)를 하나 이상 만듭니다.
 * [메시지 콘텐츠를 만듭니다](../../message-center/using/creating-the-message-template.md#creating-message-content).
@@ -117,7 +117,7 @@ ht-degree: 2%
 
    ![](assets/messagecenter_send_proof_002.png)
 
-**[!UICONTROL Audit]** 탭을 통해 각 템플릿에서 증명에 액세스할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}를 참조하세요.
+**[!UICONTROL Audit]** 탭을 통해 각 템플릿에서 증명에 액세스할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ko){target="_blank"}를 참조하세요.
 
 ![](assets/messagecenter_send_proof_003.png)
 

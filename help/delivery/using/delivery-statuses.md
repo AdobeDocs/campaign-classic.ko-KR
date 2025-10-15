@@ -93,7 +93,7 @@ Adobe Campaign 이메일의 전달성을 최적화하는 방법에 대해 알아
 
 게재를 확인한 후 게재 상태가 **[!UICONTROL Pending]**&#x200B;임을 확인할 수 있습니다. 이 상태는 실행 프로세스가 일부 리소스의 가용성을 대기 중임을 의미합니다.
 
-**[!UICONTROL Pending]** 상태는 먼저 게재가 예약되어 지정된 날짜까지 보류 중임을 의미할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html#schedule-delivery-sending){target="_blank"}를 참조하세요.
+**[!UICONTROL Pending]** 상태는 먼저 게재가 예약되어 지정된 날짜까지 보류 중임을 의미할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html?lang=ko#schedule-delivery-sending){target="_blank"}를 참조하세요.
 
 게재를 보낼 수 없고 상태가 **[!UICONTROL Pending]**&#x200B;인 경우 다음 결과가 발생할 수 있습니다.
 

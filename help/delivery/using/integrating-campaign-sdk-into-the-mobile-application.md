@@ -64,7 +64,7 @@ Campaign SDK을 모바일 애플리케이션에 통합하려면 기능 관리자
 
   >[!NOTE]
   >
-  >이 통합 키는 모바일 애플리케이션 전용 서비스의 **[!UICONTROL Information]** 탭에 있는 Adobe Campaign 콘솔에 입력됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html){target="_blank"}를 참조하세요.
+  >이 통합 키는 모바일 애플리케이션 전용 서비스의 **[!UICONTROL Information]** 탭에 있는 Adobe Campaign 콘솔에 입력됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html?lang=ko){target="_blank"}를 참조하세요.
 
 * **Adobe Campaign 추적 서버 주소와 일치하는 추적 URL**.
 * **마케팅 URL**: 구독 컬렉션을 사용하도록 설정합니다.

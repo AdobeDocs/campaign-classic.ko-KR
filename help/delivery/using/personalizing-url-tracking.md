@@ -19,7 +19,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->이메일의 이미지 관리도 이 창에서 구성됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}를 참조하세요.
+>이메일의 이미지 관리도 이 창에서 구성됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko#adding-images){target="_blank"}를 참조하세요.
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 

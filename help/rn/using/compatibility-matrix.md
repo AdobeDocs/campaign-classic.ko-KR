@@ -437,7 +437,7 @@ Adobe Campaign [Federated Data Access 모듈](../../installation/using/about-fda
 
 Campaign 클라이언트 콘솔을 사용하려면 Microsoft Edge WebView2 런타임 최신 버전이 필수입니다.
 
-[Microsoft 개발자 사이트](https://www.adobe.com/go/acc-ms-webview2-runtime-download)에서 Microsoft Edge WebView2를 다운로드합니다.
+[Microsoft 개발자 사이트](https://www.adobe.com/go/acc-ms-webview2-runtime-download_kr)에서 Microsoft Edge WebView2를 다운로드합니다.
 
 
 ## 모바일 SDK {#MobileSDK}
@@ -472,7 +472,7 @@ Campaign v7.4부터 Campaign SDK는 [더 이상 사용되지 않습니다](depre
 
 ## 브라우저 {#Browsers}
 
-최신 버전의 다음 브라우저는 웹 액세스용 Campaign과 호환됩니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#use-the-web-interface-){target=_blank}를 참조하세요.
+최신 버전의 다음 브라우저는 웹 액세스용 Campaign과 호환됩니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ko#use-the-web-interface-){target=_blank}를 참조하세요.
 
 * Google Chrome
 * Microsoft Edge

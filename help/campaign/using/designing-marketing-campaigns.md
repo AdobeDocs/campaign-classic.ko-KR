@@ -24,7 +24,7 @@ Adobe Campaign을 사용하면 커뮤니케이션 및 마케팅 캠페인을 정
 >[!NOTE]
 >
 >Adobe Campaign 핵심 기능에 대한 자세한 내용은 [이 섹션](../../platform/using/about-adobe-campaign-classic.md) 섹션을 참조하십시오.\
->다양한 채널에서 모집단 타겟팅, 메시지 개인화 및 메시지 배달과 관련된 기능은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}에 자세히 설명되어 있습니다.
+>다양한 채널에서 모집단 타겟팅, 메시지 개인화 및 메시지 배달과 관련된 기능은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko){target="_blank"}에 자세히 설명되어 있습니다.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 마케팅 캠페인 키 개념 살펴보기](#video)
 

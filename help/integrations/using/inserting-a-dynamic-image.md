@@ -62,7 +62,7 @@ Adobe Campaign에서는 Target의 동적 이미지를 이메일에 삽입하는 
 * **[!UICONTROL Landing Page]**: 기본 이미지를 기본 랜딩 페이지로 리디렉션하려면 이 URL은 기본 이미지가 최종 이메일에 표시되는 경우에만 해당되며 선택 사항입니다.
 * **[!UICONTROL Additional decision parameters]**: Adobe Target 세그먼트에 정의된 필드와 Adobe Campaign 필드 간의 매핑을 지정합니다. 사용된 Adobe Campaign 필드는 rawbox에 지정했어야 합니다. 이 예제에서는 국가 필드를 추가했습니다.
 
-Adobe Target의 설정에서 Enterprise 권한을 사용하는 경우 이 필드에 해당 속성을 추가합니다. [이 페이지](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html)에서 Target Enterprise 권한에 대해 자세히 알아보세요.
+Adobe Target의 설정에서 Enterprise 권한을 사용하는 경우 이 필드에 해당 속성을 추가합니다. [이 페이지](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=ko)에서 Target Enterprise 권한에 대해 자세히 알아보세요.
 
 ![](assets/target_13.png)
 
@@ -82,7 +82,7 @@ Target에서 오퍼의 다른 버전을 만들 수 있습니다. 각 사용자 �
 
    ![](assets/target_6.png)
 
-1. 나머지 리디렉션 오퍼에 대해서도 동일한 절차를 수행합니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html)를 참조하십시오.
+1. 나머지 리디렉션 오퍼에 대해서도 동일한 절차를 수행합니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=ko)를 참조하십시오.
 
 ## 대상자 만들기 {#audiences-target}
 
@@ -154,7 +154,7 @@ Target에서 경험 타깃팅 활동을 만들고, 다양한 경험을 정의하
 
 ## 이메일 미리 보기 및 보내기 {#preview-send-email}
 
-이제 Adobe Campaign에서 이메일을 미리 보고 다른 수신자에서 해당 렌더링을 테스트할 수 있습니다. 생성된 다양한 경험에 따라 이미지가 변경되는 것을 볼 수 있습니다. 전자 메일 만들기에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html){target="_blank"}를 참조하세요.
+이제 Adobe Campaign에서 이메일을 미리 보고 다른 수신자에서 해당 렌더링을 테스트할 수 있습니다. 생성된 다양한 경험에 따라 이미지가 변경되는 것을 볼 수 있습니다. 전자 메일 만들기에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko){target="_blank"}를 참조하세요.
 
 이제 Target의 다이내믹 오퍼를 포함하여 이메일을 보낼 준비가 되었습니다.
 

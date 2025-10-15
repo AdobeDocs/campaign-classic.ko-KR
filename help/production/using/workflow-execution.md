@@ -26,7 +26,7 @@ ht-degree: 3%
 * [워크플로 정보](../../workflow/using/about-workflows.md)
 * [워크플로우 시작](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html?lang=ko){target="_blank"}.
 * [워크플로 수명 주기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"}.
-* [워크플로우 사용 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}.
+* [워크플로우 사용 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ko){target="_blank"}.
 
 ## 캠페인에서 가능한 한 빨리 시작 {#start-as-soon-as-possible-in-campaigns}
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 이 문제의 원인은 여러 가지가 있을 수 있습니다. 아래 단계를 따라 문제를 해결하십시오.
 
-1. [**[!UICONTROL operationMgt]**](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"} 기술 워크플로우 상태를 확인하십시오. 이 워크플로우는 캠페인 내의 작업 또는 워크플로를 관리합니다. 실패하면 워크플로우가 시작/중지되지 않습니다. 캠페인 워크플로우 실행을 재개하려면 재시작합니다.
+1. [**[!UICONTROL operationMgt]**](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ko){target="_blank"} 기술 워크플로우 상태를 확인하십시오. 이 워크플로우는 캠페인 내의 작업 또는 워크플로를 관리합니다. 실패하면 워크플로우가 시작/중지되지 않습니다. 캠페인 워크플로우 실행을 재개하려면 재시작합니다.
 
    기술 워크플로우 모니터링에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=ko){target="_blank"}를 참조하세요.
 
@@ -73,13 +73,13 @@ ht-degree: 3%
 
    이 문제를 해결하려면 원치 않는 워크플로를 중지하고 실패한 게재를 삭제하십시오. 임계값에 도달하면 새 프로세스를 실행할 수 있습니다.
 
-   인스턴스에서 실행 중인 워크플로 수를 확인하려면 **[!UICONTROL Administration]** / **[!UICONTROL Audit]** 폴더에서 기본적으로 액세스할 수 있는 미리 정의된 보기를 사용하는 것이 좋습니다. 자세한 내용은 관련 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}를 참조하십시오.
+   인스턴스에서 실행 중인 워크플로 수를 확인하려면 **[!UICONTROL Administration]** / **[!UICONTROL Audit]** 폴더에서 기본적으로 액세스할 수 있는 미리 정의된 보기를 사용하는 것이 좋습니다. 자세한 내용은 관련 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ko){target="_blank"}를 참조하십시오.
 
    >[!IMPORTANT]
    >
    >**[!UICONTROL NmsOperation_LimitConcurrency]** 옵션 임계값을 늘리면 인스턴스에 성능 문제가 발생할 수 있습니다. 어떤 경우든 이 작업을 직접 수행하지 말고 Adobe Campaign 담당자에게 문의하십시오.
 
-워크플로우를 모니터링하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}를 참조하세요.
+워크플로우를 모니터링하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ko){target="_blank"}를 참조하세요.
 
 ## 시작 진행 중 {#start-in-progress}
 
@@ -118,6 +118,6 @@ ht-degree: 3%
 
 워크플로우가 실패하면 다음 단계를 수행합니다.
 
-1. 워크플로우 분개를 확인합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}를 참조하세요.
+1. 워크플로우 분개를 확인합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ko){target="_blank"}를 참조하세요.
 1. 기술 워크플로우를 모니터링합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=ko){target="_blank"}를 참조하세요.
 1. 개별 워크플로우 활동에서 실패를 찾습니다.

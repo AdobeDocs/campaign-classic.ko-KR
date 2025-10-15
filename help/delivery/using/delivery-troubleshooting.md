@@ -31,7 +31,7 @@ ht-degree: 1%
 
 * 일부 이메일 공급자가 IP 주소를 차단 목록에 추가하다에 추가했을 수 있습니다. 이 경우 브로드로그를 확인하고 [이 섹션](about-deliverability.md)을 참조하세요.
 
-* 게재가 너무 커서 빠르게 처리할 수 없습니다. 이는 높은 JavaScript 개인화를 통해 발생하거나 게재 무게가 60kb 이상인 경우 발생할 수 있습니다. Adobe Campaign v8 [게재 모범 사례](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}를 참조하세요.  콘텐츠 지침에 대해 알아봅니다.
+* 게재가 너무 커서 빠르게 처리할 수 없습니다. 이는 높은 JavaScript 개인화를 통해 발생하거나 게재 무게가 60kb 이상인 경우 발생할 수 있습니다. Adobe Campaign v8 [게재 모범 사례](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ko){target="_blank"}를 참조하세요.  콘텐츠 지침에 대해 알아봅니다.
 
 * Adobe Campaign MTA 내에서 제한이 발생했을 수 있습니다. 이 문제는 다음으로 인해 발생합니다.
 
@@ -73,7 +73,7 @@ ht-degree: 1%
 
   이 문제를 해결하려면 진공을 수행하고 데이터베이스를 다시 인덱싱하는 것이 좋습니다. 데이터베이스 유지 관리에 대한 자세한 내용은 [이 섹션](../../production/using/recommendations.md)을 참조하세요.
 
-  또한 예약된 활동이 있는 모든 워크플로우와 실패 상태에 있는 모든 워크플로우를 다시 시작해야 합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}를 참조하세요.
+  또한 예약된 활동이 있는 모든 워크플로우와 실패 상태에 있는 모든 워크플로우를 다시 시작해야 합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=ko){target="_blank"}를 참조하세요.
 
 * 게재가 실패하면 게재 로그에 다음 오류가 표시될 수 있습니다.
 
@@ -83,7 +83,7 @@ ht-degree: 1%
 
   일반적으로 이 오류는 이메일 내에 수신자에 대한 값이 두 개 이상 있는 개인화 필드 또는 블록이 있음을 의미합니다. 개인화 블록을 사용 중이며 특정 수신자에 대해 두 개 이상의 레코드를 가져오고 있습니다.
 
-  이를 해결하려면 사용된 개인화 데이터를 확인한 다음 해당 필드에 둘 이상의 항목이 있는 수신자의 타겟을 확인합니다. 게재 활동 이전에 타기팅 워크플로우에서 **[!UICONTROL Deduplication]** 활동을 사용하여 한 번에 하나의 개인화 필드만 있는지 확인할 수도 있습니다. 중복 제거에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}를 참조하세요.
+  이를 해결하려면 사용된 개인화 데이터를 확인한 다음 해당 필드에 둘 이상의 항목이 있는 수신자의 타겟을 확인합니다. 게재 활동 이전에 타기팅 워크플로우에서 **[!UICONTROL Deduplication]** 활동을 사용하여 한 번에 하나의 개인화 필드만 있는지 확인할 수도 있습니다. 중복 제거에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ko){target="_blank"}를 참조하세요.
 
 * 일부 게재가 실패하고 다음과 같은 &quot;연결할 수 없음&quot; 오류가 표시될 수 있습니다.
 

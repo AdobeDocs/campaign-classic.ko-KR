@@ -31,7 +31,7 @@ Adobe Campaign에서 **받은 편지함 렌더링**&#x200B;에 사용할 수 있
 
 >[!NOTE]
 >
->받은 편지함 렌더링은 게재에서 개인화를 테스트하는 데 필요하지 않습니다. Personalization은 **[!UICONTROL Preview]** 및 증명과 같은 Adobe Campaign 도구를 사용하여 확인할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}를 참조하세요.
+>받은 편지함 렌더링은 게재에서 개인화를 테스트하는 데 필요하지 않습니다. Personalization은 **[!UICONTROL Preview]** 및 증명과 같은 Adobe Campaign 도구를 사용하여 확인할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ko){target="_blank"}를 참조하세요.
 
 ## 받은 편지함 렌더링 활성화 {#activating-inbox-rendering}
 
@@ -107,7 +107,7 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰으로 알려
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   증명이 전송되었습니다. 이메일을 보낸 후 몇 분 후에 해당 증명에서 렌더링 축소판에 액세스할 수 있습니다. 증명 전송에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}를 참조하세요.
+   증명이 전송되었습니다. 이메일을 보낸 후 몇 분 후에 해당 증명에서 렌더링 축소판에 액세스할 수 있습니다. 증명 전송에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ko){target="_blank"}를 참조하세요.
 
 1. 전송되면 게재 목록에 증명이 표시됩니다. 두 번 클릭합니다.
 

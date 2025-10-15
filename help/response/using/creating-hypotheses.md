@@ -156,7 +156,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >자세한 내용은 관련 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target="_blank"}를 참조하십시오.
+   >자세한 내용은 관련 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ko#add-a-control-group){target="_blank"}를 참조하십시오.
 
 1. **[!UICONTROL Direct mail delivery]**&#x200B;을(를) 열고 **[!UICONTROL Delivery measurement]** 아이콘을 클릭한 다음 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
@@ -178,7 +178,7 @@ ht-degree: 3%
 
    ![](assets/response_hypothesis_delivery_example_008.png)
 
-1. 타겟팅 워크플로우를 시작하고 캠페인이 완료될 때까지 필요한 검사를 실행합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html#start-a-delivery){target=_blank}를 참조하세요.
+1. 타겟팅 워크플로우를 시작하고 캠페인이 완료될 때까지 필요한 검사를 실행합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ko#start-a-delivery){target=_blank}를 참조하세요.
 
    ![](assets/response_hypothesis_delivery_example_009.png)
 

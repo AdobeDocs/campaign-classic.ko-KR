@@ -57,7 +57,7 @@ ht-degree: 1%
   </tr>
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
-   <td><p> 게재 속성에서 게재를 시작하도록 특정 연산자 또는 연산자 그룹이 지정된 경우 게재를 담당하는 운영자가 전송을 확인하도록 할 수 있습니다.</p><p> 이렇게 하려면 "1"을 값으로 입력하여 옵션을 활성화합니다. 이 옵션을 비활성화하려면 "0"을 입력합니다.</p><p> 그러면 전송 확인 프로세스가 기본값으로 작동합니다. 게재 속성에서 전송을 위해 지정된 운영자 또는 운영자 그룹(또는 관리자)만 전송을 확인하고 수행할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html#start-a-delivery" target="_blank">이 섹션</a>을 참조하십시오.</p> </td>
+   <td><p> 게재 속성에서 게재를 시작하도록 특정 연산자 또는 연산자 그룹이 지정된 경우 게재를 담당하는 운영자가 전송을 확인하도록 할 수 있습니다.</p><p> 이렇게 하려면 "1"을 값으로 입력하여 옵션을 활성화합니다. 이 옵션을 비활성화하려면 "0"을 입력합니다.</p><p> 그러면 전송 확인 프로세스가 기본값으로 작동합니다. 게재 속성에서 전송을 위해 지정된 운영자 또는 운영자 그룹(또는 관리자)만 전송을 확인하고 수행할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ko#start-a-delivery" target="_blank">이 섹션</a>을 참조하십시오.</p> </td>
 
 <tr> 
    <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
@@ -209,7 +209,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>실행 중인 게재 수를 계산할 때 <span class="uicontrol"><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html" target="_blank">operationMgt</a></span> 기술 워크플로우에서 이 옵션을 사용합니다.</p>상태가 일관되지 않은 게재가 실행 중인 게재 수에서 제외되는 일 수를 정의할 수 있습니다.</p><p>기본적으로 값은 "7"로 설정되어 있습니다. 즉, 7일이 지난 일관되지 않은 게재는 제외됩니다.</p></td> 
+   <td><p>실행 중인 게재 수를 계산할 때 <span class="uicontrol"><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ko" target="_blank">operationMgt</a></span> 기술 워크플로우에서 이 옵션을 사용합니다.</p>상태가 일관되지 않은 게재가 실행 중인 게재 수에서 제외되는 일 수를 정의할 수 있습니다.</p><p>기본적으로 값은 "7"로 설정되어 있습니다. 즉, 7일이 지난 일관되지 않은 게재는 제외됩니다.</p></td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
@@ -365,7 +365,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_OperationMgtDebug</span> <br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html" target="_blank">operationMgt</a> 기술 워크플로우 실행을 모니터링할 수 있습니다. 활성화되면(값 "1") 실행 정보가 워크플로우 감사 로그에 기록됩니다.<br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ko" target="_blank">operationMgt</a> 기술 워크플로우 실행을 모니터링할 수 있습니다. 활성화되면(값 "1") 실행 정보가 워크플로우 감사 로그에 기록됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_TimeRange</span> <br /> </td> 

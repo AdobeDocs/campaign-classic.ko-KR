@@ -37,7 +37,7 @@ Adobe Campaign 워크플로를 통해 프로세스와 작업을 오케스트레�
 
 데이터베이스의 데이터에 대해 대규모 업데이트, 병합 및 삽입 작업을 수행할 수 있습니다.
 
-자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"}를 참조하세요.
+자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=ko){target="_blank"}를 참조하세요.
 
 ## 데이터 관리 기능을 활용하려면 어떻게 해야 합니까? {#how-can-i-leverage-data-management-capabilities-}
 
@@ -47,7 +47,7 @@ Adobe Campaign에서는 보다 효율적이고 유연한 도구를 제공하여 
 * 특히 타겟 구성 단계 또는 데이터베이스 관리 동안 버퍼 계산 보관 및 전달
 * 외부 베이스 액세스(선택 사항): 타겟팅 프로세스 중에 고려된 다른 유형의 데이터베이스
 
-[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html){target="_blank"}에서 복잡한 대상을 디자인하고 데이터 관리 워크플로우 활동을 결합한 데이터 작업을 하는 방법을 알아봅니다.
+[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ko){target="_blank"}에서 복잡한 대상을 디자인하고 데이터 관리 워크플로우 활동을 결합한 데이터 작업을 하는 방법을 알아봅니다.
 
 ## 개인화된 메시지 전송을 자동화할 수 있습니까? {#can-i-automate-personalized-messages-sending-}
 
@@ -55,7 +55,7 @@ Adobe Campaign에서는 보다 효율적이고 유연한 도구를 제공하여 
 
 ## 워크플로우로 하위 집합에서 대상을 분할하려면 어떻게 해야 합니까? {#how-can-i-split-an-audience-in-subsets-with-a-workflow-}
 
-[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"}에서 대상을 여러 하위 집합으로 분할하는 방법을 알아봅니다.
+[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ko){target="_blank"}에서 대상을 여러 하위 집합으로 분할하는 방법을 알아봅니다.
 
 ## 외부 파일에서 수신자 데이터를 업데이트하려면 어떻게 해야 합니까? {#how-can-i-update-recipient-data-from-an-external-file-}
 
@@ -65,4 +65,4 @@ Adobe Campaign에서는 보다 효율적이고 유연한 도구를 제공하여 
 
 ## 신규 수신자를 식별하고 타겟팅하려면 어떻게 해야 합니까? {#how-can-i-identify-and-target-new-recipients-}
 
-합계를 사용하여 데이터베이스에 추가된 마지막 수신자를 자동으로 식별하고 환영 메시지를 보내는 방법을 알아보려면 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html){target="_blank"}를 확인하십시오.
+합계를 사용하여 데이터베이스에 추가된 마지막 수신자를 자동으로 식별하고 환영 메시지를 보내는 방법을 알아보려면 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html?lang=ko){target="_blank"}를 확인하십시오.

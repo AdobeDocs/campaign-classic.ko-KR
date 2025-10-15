@@ -31,11 +31,11 @@ Campaign Classic에서 S3 또는 Azure Blob 저장소 위치로 데이터를 내
 
 이렇게 하려면 다음을 추가하고 구성합니다.
 
-* 타깃팅된 데이터를 CSV 파일로 추출하는 **[!UICONTROL Data extraction (file)]** 활동입니다. 이 활동을 구성하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"}를 참조하세요.
+* 타깃팅된 데이터를 CSV 파일로 추출하는 **[!UICONTROL Data extraction (file)]** 활동입니다. 이 활동을 구성하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=ko){target="_blank"}를 참조하세요.
 
   ![](assets/rtcdp-extract-file.png)
 
-* CSV 파일을 저장소 위치로 전송하는 **[!UICONTROL File transfer]** 활동입니다. 이 활동을 구성하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}를 참조하세요.
+* CSV 파일을 저장소 위치로 전송하는 **[!UICONTROL File transfer]** 활동입니다. 이 활동을 구성하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ko){target="_blank"}를 참조하세요.
 
   ![](assets/rtcdp-file-transfer.png)
 
@@ -50,7 +50,7 @@ S3 또는 Azure blob 저장소 위치를 Adobe experience Platform의 **Source**
 1. Adobe Experience Platform **[!UICONTROL Sources]** 메뉴에서 저장소 위치에 대한 연결을 만듭니다.
 
    * [Amazon S3 원본 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html)
-   * [Azure Blob 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html)
+   * [Azure Blob 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html?lang=ko)
 
    >[!NOTE]
    >
@@ -60,7 +60,7 @@ S3 또는 Azure blob 저장소 위치를 Adobe experience Platform의 **Source**
 
 1. 클라우드 스토리지 배치 연결에 대한 데이터 흐름을 구성합니다. 데이터 흐름은 저장소 위치에서 Adobe Experience Platform 데이터 세트로 데이터를 검색하고 수집하는 예약된 작업입니다. 이 단계에서는 데이터 선택 및 CSV 필드를 XDM 스키마에 매핑하는 것을 포함하여 스토리지 위치에서 데이터 수집을 구성할 수 있습니다.
 
-   자세한 정보는 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html)에서 확인할 수 있습니다.
+   자세한 정보는 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html?lang=ko)에서 확인할 수 있습니다.
 
    ![](assets/rtcdp-map-xdm.png)
 

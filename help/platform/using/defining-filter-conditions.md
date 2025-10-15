@@ -292,7 +292,7 @@ ht-degree: 34%
 
   열의 소스 값을 사용하고 대상 값을 지정할 수 있습니다. 이 대상 값은 새 출력 열에 표시됩니다.
 
-  계산된 필드 형식 **[!UICONTROL Enumerations]**&#x200B;을(를) 추가하는 예제를 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/adding-enumeration-type-calculated-field.html){target="_blank"}를 참조하세요.
+  계산된 필드 형식 **[!UICONTROL Enumerations]**&#x200B;을(를) 추가하는 예제를 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/adding-enumeration-type-calculated-field.html?lang=ko){target="_blank"}를 참조하세요.
 
   ![](assets/query_editor_nveau_63.png)
 

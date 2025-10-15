@@ -20,12 +20,12 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->게재 만들기에 대한 전체 개념은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}에 나와 있습니다.
+>게재 만들기에 대한 전체 개념은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko){target="_blank"}에 나와 있습니다.
 
 1. 게재 대시보드 등에서 새 게재를 만듭니다.
 1. **전자 메일 게재(메일)** 또는 만든 전자 메일 게재 템플릿을 선택하십시오. 게재 템플릿에 대한 자세한 정보는 [이 섹션](about-templates.md)을 참조하세요.
 
    ![](assets/s_ncs_user_wizard_email01_1.png)
 
-1. 레이블, 코드 및 설명을 사용하여 게재를 식별합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#create-the-delivery){target="_blank"}에서 이 섹션을 참조하세요.
+1. 레이블, 코드 및 설명을 사용하여 게재를 식별합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#create-the-delivery){target="_blank"}에서 이 섹션을 참조하세요.
 1. **계속**&#x200B;을 클릭하여 이 정보를 확인하고 메시지 구성 창을 표시합니다.

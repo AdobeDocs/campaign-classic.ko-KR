@@ -19,7 +19,7 @@ Adobe Campaign Content Manager 모듈은 반복 뉴스레터 또는 웹 사이�
 
 >[!NOTE]
 >
->이 섹션은 콘텐츠 관리 모듈을 참조합니다. 이메일 게재 콘텐츠를 디자인하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html){target="_blank"}를 참조하세요.
+>이 섹션은 콘텐츠 관리 모듈을 참조합니다. 이메일 게재 콘텐츠를 디자인하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko){target="_blank"}를 참조하세요.
 
 컨텐츠 관리 모듈에는 작업 그룹, 워크플로우 및 컨텐츠 집계 기능이 통합되어 있습니다. 이렇게 하면 이메일, 메일, SMS, 웹 등 메시지의 서식을 자동으로 지정할 수 있습니다.
 

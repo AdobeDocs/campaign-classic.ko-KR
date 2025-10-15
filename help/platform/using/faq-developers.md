@@ -55,7 +55,7 @@ Adobe Campaign 쿼리 도구는 대상 모집단, 고객 세그먼트, 추적 �
 
 쿼리는 선택한 테이블의 필드를 사용하거나 공식을 사용하여 만들어집니다. Campaign 데이터베이스에서 쿼리를 만드는 기본 원칙은 [이 페이지](../../platform/using/about-queries-in-campaign.md)에 설명되어 있습니다.
 
-[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}에 대한 쿼리에 대해 알아봅니다.
+[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"}에 대한 쿼리에 대해 알아봅니다.
 
 ## 데이터 패키지를 가져오려면 어떻게 해야 합니까? {#how-can-i-import-a-data-package-}
 

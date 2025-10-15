@@ -23,7 +23,7 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 
 * 암호 만료를 방지하려면 암호 인증 대신 키 기반 인증을 사용하십시오(암호는 유효 기간이 90일입니다). 또한 키 기반 인증을 사용하면 여러 엔티티 관리 등 여러 키를 생성할 수 있습니다. 반대로 암호 인증은 관리하는 모든 엔티티와 암호를 공유해야 합니다.
 
-  지원되는 키 형식은 SSH-2 RSA 2048입니다. Windows용 SSH 키를 생성하는 도구는 PuTTYgen이며 Linux용 ssh-keygen입니다. Campaign Campaign 컨트롤 패널을 통해 공개 SSH 키를 업로드할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/key-management){target="_blank"}
+  지원되는 키 형식은 SSH-2 RSA 2048입니다. Windows용 SSH 키를 생성하는 도구는 PuTTYgen이며 Linux용 ssh-keygen입니다. Campaign Campaign 컨트롤 패널을 통해 공개 SSH 키를 업로드할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/control-panel/using/sftp-management/key-management){target="_blank"}
 
 * 워크플로뿐만 아니라 SFTP 업로드에서도 배치 처리를 사용합니다.
 
@@ -31,7 +31,7 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 
 * 기본적으로 생성하는 모든 폴더는 식별자에 대해서만 읽기/쓰기 모드에 있습니다. Campaign에서 액세스해야 하는 폴더를 만들 때 전체 그룹에 대한 읽기/쓰기 권한으로 구성해야 합니다. 그렇지 않으면 보안상의 이유로 워크플로우가 동일한 그룹 내에서 다른 식별자로 실행되므로 파일을 만들거나 삭제하지 못할 수 있습니다.
 
-* SFTP 연결을 시작하려는 퍼블릭 IP는 Campaign 인스턴스의 허용 목록에 추가하다에 추가해야 합니다. 공개 IP는 Campaign 컨트롤 패널을 통해 추가할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing){target="_blank"}
+* SFTP 연결을 시작하려는 퍼블릭 IP는 Campaign 인스턴스의 허용 목록에 추가하다에 추가해야 합니다. 공개 IP는 Campaign 컨트롤 패널을 통해 추가할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/control-panel/using/sftp-management/ip-range-allow-listing){target="_blank"}
 
 ## SFTP 스토리지 사용 모범 사례 {#sftp-server-best-practices}
 
@@ -43,7 +43,7 @@ SFTP 서버는 파일의 보존 및 삭제를 제어할 수 있는 임시 저장
 
 >[!NOTE]
 >
->* Campaign Classic [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}를 사용하여 SFTP 서버 저장소를 모니터링할 수 있습니다.
+>* Campaign Classic [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ko){target="_blank"}를 사용하여 SFTP 서버 저장소를 모니터링할 수 있습니다.
 >
 >* 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel){target="_blank"}에 자세히 설명되어 있습니다.
 >
@@ -132,7 +132,7 @@ SFTP 서버는 파일의 보존 및 삭제를 제어할 수 있는 임시 저장
 
 1. **세션 로그** 문제 해결:
 
-   1. 워크플로우에서 [파일 전송](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"} 활동을 두 번 클릭합니다.
+   1. 워크플로우에서 [파일 전송](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ko){target="_blank"} 활동을 두 번 클릭합니다.
    1. **[!UICONTROL File Transfer]** 탭으로 이동한 다음 **[!UICONTROL Advanced Parameters]**&#x200B;을(를) 클릭합니다.
    1. **[!UICONTROL Display the session logs]** 옵션을 선택합니다.
 

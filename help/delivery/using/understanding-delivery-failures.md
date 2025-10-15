@@ -203,7 +203,7 @@ ht-degree: 12%
   >
   >바운스 사서함 구성은 [이 섹션](../../installation/using/deploying-an-instance.md#managing-bounced-emails)에 자세히 설명되어 있습니다.
 
-  [피드백 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)은(는) 바운스 전자 메일과 같이 작동합니다. 사용자가 이메일을 스팸 처리하면 Adobe Campaign에서 이메일 규칙을 구성하여 이 사용자에게 모든 게재를 차단할 수 있습니다. 이메일을 스팸으로 인증한 사용자에게 전송된 메시지는 이러한 목적을 위해 특별히 만든 이메일 상자를 향해 자동으로 리디렉션됩니다. 구독 취소 링크를 클릭하지 않았는데도 이 사용자들의 주소가 차단 목록에 추가하다에 있습니다. 주소는 (**NmsRecipient**) 받는 사람 테이블이 아니라 (**NmsRecipient**) 격리 테이블의 차단 목록에 추가하다입니다.
+  [피드백 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#feedback-loops)은(는) 바운스 전자 메일과 같이 작동합니다. 사용자가 이메일을 스팸 처리하면 Adobe Campaign에서 이메일 규칙을 구성하여 이 사용자에게 모든 게재를 차단할 수 있습니다. 이메일을 스팸으로 인증한 사용자에게 전송된 메시지는 이러한 목적을 위해 특별히 만든 이메일 상자를 향해 자동으로 리디렉션됩니다. 구독 취소 링크를 클릭하지 않았는데도 이 사용자들의 주소가 차단 목록에 추가하다에 있습니다. 주소는 (**NmsRecipient**) 받는 사람 테이블이 아니라 (**NmsRecipient**) 격리 테이블의 차단 목록에 추가하다입니다.
 
   >[!NOTE]
   >

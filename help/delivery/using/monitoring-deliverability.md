@@ -54,6 +54,6 @@ Adobe Campaign Classic에서 **게재 가능성 모니터링**&#x200B;은(는) *
 * 게재 템플릿에 [다시 시도](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)가 올바르게 설정되었는지(다시 시도 기간 30분 및 20번 이상 다시 시도) 확인하십시오.
 * [바운스](understanding-delivery-failures.md#bounce-mail-management) 사서함에 액세스할 수 있고 계정이 곧 만료되지 않는지 정기적으로 확인하십시오.
 * [게재 대시보드](delivery-dashboard.md)에서 액세스할 수 있는 각 게재 처리량을 확인하여 게재 콘텐츠의 유효성과 일치하는지 확인합니다(예: &#39;플래시 판매&#39;는 일 수가 아닌 분 단위로 제공되어야 함).
-* 웨이브를 사용할 때 다음 웨이브가 트리거되기 전에 각 웨이브가 완료되기에 충분한 시간이 있는지 확인합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html#sending-using-multiple-waves){target="_blank"}를 참조하세요.
+* 웨이브를 사용할 때 다음 웨이브가 트리거되기 전에 각 웨이브가 완료되기에 충분한 시간이 있는지 확인합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html?lang=ko#sending-using-multiple-waves){target="_blank"}를 참조하세요.
 * 오류 수와 새 [격리](understanding-quarantine-management.md)이(가) 다른 게재와 일치하는지 확인하십시오.
 * 강조 표시된 오류 종류(차단 목록, DNS 문제, 스팸 방지 규칙 등)를 확인하려면 [게재 로그](delivery-dashboard.md#delivery-logs-and-history)를 자세히 참조하세요.

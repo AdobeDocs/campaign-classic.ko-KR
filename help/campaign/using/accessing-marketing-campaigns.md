@@ -41,7 +41,7 @@ Adobe Campaign에 연결되면 탐색 막대의 링크를 사용하여 다양한
 >
 >전체 Adobe Campaign 인체공학, 권한 및 프로필 관리 기능에 대한 자세한 내용은 [이 섹션](../../platform/using/adobe-campaign-workspace.md)을 참조하세요.
 >
->채널 및 게재와 관련된 모든 기능은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}에 자세히 설명되어 있습니다.
+>채널 및 게재와 관련된 모든 기능은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko){target="_blank"}에 자세히 설명되어 있습니다.
 
 ### 캠페인 캘린더 {#campaign-calendar}
 

@@ -55,7 +55,7 @@ ht-degree: 4%
 
 * **[!UICONTROL START DELIVERIES]**: 이전에 분석된 게재를 승인할 수 있는 권한. 게재 분석 후 게재는 다양한 승인 단계에서 일시 중지되며 재개하려면 승인을 받아야 합니다. **[!UICONTROL START DELIVERIES]** 권한이 있는 사용자는 게재를 승인할 수 있습니다.
 
-* **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY]**: 작업 테이블을 만들고 채우기 위해 SQL 데이터 관리 활동을 사용하여 고유한 SQL 스크립트를 작성할 수 있는 권한. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-data-management.html){target="_blank"}를 참조하세요.
+* **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY]**: 작업 테이블을 만들고 채우기 위해 SQL 데이터 관리 활동을 사용하여 고유한 SQL 스크립트를 작성할 수 있는 권한. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-data-management.html?lang=ko){target="_blank"}를 참조하세요.
 
 * **[!UICONTROL WORKFLOW]**: 워크플로우를 실행할 수 있는 권한. 이 권한이 없으면 사용자는 워크플로우를 시작, 중지 또는 다시 시작할 수 없습니다.
 
@@ -71,4 +71,4 @@ ht-degree: 4%
 
 Adobe Campaign 액세스 권한 매트릭스는 [여기](/help/platform/using/assets/access-rights-matrix.pdf)에서 사용할 수 있습니다.
 
-[![이미지](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf)
+[![이미지](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=ko)

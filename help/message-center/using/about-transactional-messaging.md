@@ -88,6 +88,6 @@ Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 
 ## 관련 항목 {#related-topics}
 
 * [소통 채널 시작](../../delivery/using/communication-channels.md)
-* [게재 만들기 키 단계](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}
+* [게재 만들기 키 단계](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko){target="_blank"}
 * [트랜잭션 메시지 아키텍처](../../message-center/using/transactional-messaging-architecture.md)
 * [트랜잭션 메시지 보고서 액세스](../../message-center/using/about-transactional-messaging-reports.md)

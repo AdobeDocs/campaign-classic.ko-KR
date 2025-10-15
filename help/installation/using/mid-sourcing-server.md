@@ -27,7 +27,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->중간 소싱 서버를 설정하고 [동기화 워크플로](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}를 처음 실행한 후에는 중간 소싱 외부 계정의 내부 이름을 업데이트하지 마십시오.
+>중간 소싱 서버를 설정하고 [동기화 워크플로](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ko){target="_blank"}를 처음 실행한 후에는 중간 소싱 외부 계정의 내부 이름을 업데이트하지 마십시오.
 
 ## 인스턴스 설치 및 구성 단계 {#steps-for-installing-and-configuring-an-instance}
 

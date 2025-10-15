@@ -94,7 +94,7 @@ Adobe Campaign 데이터에서 인사이트를 수집하려면 기본 제공 보
 
   ![](assets/identify-email-open-tracking-2.png)
 
-* 사전 정의된 필터를 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}를 참조하세요.
+* 사전 정의된 필터를 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=ko){target="_blank"}를 참조하세요.
 
   ![](assets/identify-email-open-tracking-3.png)
 

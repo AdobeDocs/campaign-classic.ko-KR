@@ -154,7 +154,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [페이지](sms-pr
 
 ## 게재 템플릿 변경 {#changing-the-delivery-template}
 
-Adobe Campaign은 **[!UICONTROL Resources > Templates > Delivery templates]** 노드에 있는 모바일 게재 템플릿을 제공합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}를 참조하세요.
+Adobe Campaign은 **[!UICONTROL Resources > Templates > Delivery templates]** 노드에 있는 모바일 게재 템플릿을 제공합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ko){target="_blank"}를 참조하세요.
 
 SMS 채널을 통해 메시지를 전송하려면 채널 커넥터에 대한 참조를 포함하는 템플릿을 만들어야 합니다.
 

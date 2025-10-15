@@ -59,7 +59,7 @@ ht-degree: 3%
 
 **[!UICONTROL Target extension]**(targetData) 유형 개인화 요소는 타깃팅 워크플로우에 사용할 수 없습니다. 게재 대상은 워크플로우에 빌드되고 게재의 인바운드 전환에서 지정되어야 합니다.
 
-게재 증명을 만들려면 개인화 데이터를 입력할 수 있도록 **[!UICONTROL Address substitution]** 모드를 기반으로 증명 대상을 빌드해야 합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#target-population){target="_blank"}에서 이 섹션을 참조하세요.
+게재 증명을 만들려면 개인화 데이터를 입력할 수 있도록 **[!UICONTROL Address substitution]** 모드를 기반으로 증명 대상을 빌드해야 합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#target-population){target="_blank"}에서 이 섹션을 참조하세요.
 
 다음 예제에서는 개인화된 전자 메일에 사용할 고객에 대한 정보 목록을 수집하려고 합니다.
 

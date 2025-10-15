@@ -21,7 +21,7 @@ ht-degree: 79%
 Campaign Classic을 사용하여 작업하는 동안 도움이 필요하십니까? 아래의 상위 10개 질문과 해당 페이지의 기타 FAQ를 참조하십시오. 다음을 수행할 수도 있습니다.
 
 * [튜토리얼 비디오 보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)
-* 답을 찾을 수 없습니까? [전문가에게 문의](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
+* 답을 찾을 수 없습니까? [전문가에게 문의](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ko)
 * 지원이 필요하십니까? [캠페인 도움말 및 지원 옵션 참조](../../support.md)
 
 ## &#x200B;1. Campaign을 최신 버전으로 업그레이드하려면 어떻게 해야 합니까? {#how-can-i-upgrade-campaign-to-the-latest-version-}

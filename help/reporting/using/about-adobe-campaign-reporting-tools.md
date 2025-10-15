@@ -20,7 +20,7 @@ ht-degree: 16%
 
 Adobe Campaign은 전문 보고 도구가 아닙니다. Adobe Campaign에서 생성된 보고서는 주로 집계된 데이터를 볼 수 있도록 해줍니다. 데이터 분석 및 표시 전용인 Adobe Campaign 보고서는 데이터베이스 내보내기를 위해 설계되지 않았습니다.
 
-Adobe Campaign 데이터베이스에서 데이터를 내보내려면 워크플로우를 만들고 데이터 내보내기 활동을 사용해야 합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"}를 참조하세요.
+Adobe Campaign 데이터베이스에서 데이터를 내보내려면 워크플로우를 만들고 데이터 내보내기 활동을 사용해야 합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html?lang=ko){target="_blank"}를 참조하세요.
 
 Adobe Campaign은 다음과 같은 몇 가지 보고 도구를 제공합니다.
 

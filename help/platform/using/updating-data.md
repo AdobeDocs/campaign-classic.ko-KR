@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 자동 업데이트 설정 {#setting-up-an-automatic-update}
 
-워크플로우를 통해 자동 업데이트를 구성할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"}를 참조하세요.
+워크플로우를 통해 자동 업데이트를 구성할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=ko){target="_blank"}를 참조하세요.
 
 ## 대량 업데이트 수행 {#performing-a-mass-update}
 

@@ -76,13 +76,13 @@ Campaign 컨트롤 패널을 사용하면 인스턴스의 여러 설정을 관�
 
 **워크플로 상태 모니터링**
 
-Heatmap뿐만 아니라 워크플로 세트의 상태를 모니터링하고 감독자에게 반복 메시지를 보낼 수 있는 워크플로를 만들 수도 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html){target="_blank"}를 참조하세요.
+Heatmap뿐만 아니라 워크플로 세트의 상태를 모니터링하고 감독자에게 반복 메시지를 보낼 수 있는 워크플로를 만들 수도 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html?lang=ko){target="_blank"}를 참조하세요.
 
 **일반 지침**
 
 워크플로우를 사용할 때 다음과 같은 지침 및 모범 사례를 통해 성능을 향상시킬 수 있습니다. 자세한 내용은 다음 섹션을 참조하십시오.
-* [워크플로우 사용 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
-* [워크플로 실행 모니터링](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
+* [워크플로우 사용 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ko){target="_blank"}
+* [워크플로 실행 모니터링](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ko){target="_blank"}
 
 ### 게재 모니터링 {#monitoring-deliveries}
 
@@ -94,7 +94,7 @@ SMTP 보고서에는 도메인별 게재 통계 및 SMTP 오류가 표시됩니�
 
 **모범 사례**
 
-성능을 개선하기 위한 게재 전송 및 디자인 모범 사례에 대해 알아보려면 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}를 참조하세요.
+성능을 개선하기 위한 게재 전송 및 디자인 모범 사례에 대해 알아보려면 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ko){target="_blank"}를 참조하세요.
 
 **배달 문제 해결**
 게재와 관련된 문제가 발생할 때 특정 작업을 수행할 수 있습니다.

@@ -169,6 +169,6 @@ Once the control and execution modules are installed on the same instance, you m
 
 1. [실행 인스턴스](#execution-instance)에 정의된 내부 이름과 동일한 외부 계정을 브랜드당 하나씩 만듭니다(1단계).
 
-1. 브랜드별 게재 템플릿을 만듭니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}를 참조하세요.
+1. 브랜드별 게재 템플릿을 만듭니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ko){target="_blank"}를 참조하세요.
 
 1. 게재 템플릿의 **[!UICONTROL Properties]**&#x200B;에서 라우팅을 브랜드의 외부 계정으로 설정합니다.

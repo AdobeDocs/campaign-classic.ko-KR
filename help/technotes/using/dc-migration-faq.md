@@ -21,7 +21,7 @@ Adobe은 기존 데이터 센터를 사용 중단합니다. Campaign Classic 인
 
 다음은 이 프로젝트, Campaign 환경에 미치는 영향 및 기타 유용한 리소스에 대한 일반적인 질문 세트입니다.
 
-기타 문의 사항은 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support)에 문의하십시오.
+기타 문의 사항은 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=Campaign#support)에 문의하십시오.
 
 ## 인프라의 영향
 
@@ -51,7 +51,7 @@ Adobe은 기존 데이터 센터를 사용 중단합니다. Campaign Classic 인
 
 * **마이그레이션 후 문제를 해결하기 위한 계획은 무엇입니까?**
 
-  운영 시스템을 마이그레이션하기 전에 광범위한 테스트를 수행합니다. 그러나 문제가 발생하면 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support)가 기본 연락 창구로 남게 됩니다. Adobe은 필요한 경우 고급 지원을 제공하기 위해 전문가 팀을 구성했습니다.
+  운영 시스템을 마이그레이션하기 전에 광범위한 테스트를 수행합니다. 그러나 문제가 발생하면 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=Campaign#support)가 기본 연락 창구로 남게 됩니다. Adobe은 필요한 경우 고급 지원을 제공하기 위해 전문가 팀을 구성했습니다.
 
 ## 전달성에 미치는 영향
 
@@ -97,7 +97,7 @@ IP, 차단 목록, 하위 도메인 및 URL에 대한 전역 영향은 아래에
 
   먼저 Adobe Deliverability는 플랫폼의 전달성 상태를 평가하고 새 IP로 전환하는 계획을 권장합니다
 
-  마이그레이션 후에는 준비 작업이 필요하지 않습니다. 예외가 있을 수 있으며, 이 경우 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support)가 고객에게 연결됩니다.
+  마이그레이션 후에는 준비 작업이 필요하지 않습니다. 예외가 있을 수 있으며, 이 경우 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=Campaign#support)가 고객에게 연결됩니다.
 
   다만 이 같은 영업은 Go-Live 때 이뤄지는 초기 램프 업과 달리 사업상 투명하다는 방침이다.
 
