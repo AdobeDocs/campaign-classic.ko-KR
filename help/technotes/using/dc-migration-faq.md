@@ -6,9 +6,9 @@ feature: Technote, Upgrade
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '2225'
+source-wordcount: '2226'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 
 
-Adobe은 기존 데이터 센터를 사용 중단합니다. Campaign Classic 인스턴스를 Public Cloud Amazon Web Services(AWS)로 전송해야 합니다. [이 이니셔티브에 대해 자세히 알아보세요](dc-migration.md).
+Adobe은 기존 데이터 센터를 사용 중단합니다. Campaign Classic 인스턴스는 Public Cloud Amazon Web Services(AWS)로 전송해야 합니다. [이 이니셔티브에 대해 자세히 알아보세요](dc-migration.md).
 
 다음은 이 프로젝트, Campaign 환경에 미치는 영향 및 기타 유용한 리소스에 대한 일반적인 질문 세트입니다.
 
-기타 문의 사항은 [고객 지원 Adobe](https://experienceleague.adobe.com/ko?support-solution=Campaign#support)에 문의하십시오.
+기타 문의 사항은 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support)에 문의하십시오.
 
 ## 인프라의 영향
 
@@ -31,9 +31,9 @@ Adobe은 기존 데이터 센터를 사용 중단합니다. Campaign Classic 인
 
 * **데이터베이스가 변경됩니까? 새 데이터베이스의 버전은 무엇입니까? 어떤 운영 체제를 사용합니까?**
 
-  Adobe은 최적의 조건에서 Adobe Campaign 서비스를 제공하기 위해 가장 적합한 데이터베이스 관리 엔진을 선택하고 배포할 수 있는 권한을 보유합니다.
+  Adobe은 최적의 조건에서 Adobe Campaign 서비스를 제공하기 위해 가장 적합한 데이터베이스 관리 엔진을 선택하고 배포할 권리를 보유합니다.
 
-  또한 최상의 보안 수준을 유지하기 위해 Adobe은 인프라와 관련된 세부 정보를 제공하지 않습니다.
+  또한 최상의 보안 수준을 유지하기 위해 Adobe에서는 인프라와 관련된 세부 정보를 제공하지 않습니다.
 
 * **데이터가 손실될 위험이 있습니까?**
 
@@ -45,13 +45,13 @@ Adobe은 기존 데이터 센터를 사용 중단합니다. Campaign Classic 인
 
 * **빌드 번호 또는 Campaign 버전이 변경됩니까?**
 
-  첫 번째 단계로, 마이그레이션과 동일한 Campaign Classic 빌드를 유지할 것입니다.
+  첫 번째 단계로, 마이그레이션과 함께 동일한 Campaign Classic 빌드를 유지합니다.
 
   추가 단계에서는 최신 Campaign Classic GA 빌드로 업그레이드합니다. 자세한 정보는 이 [페이지](../../rn/using/rn-overview.md)를 참조하십시오.
 
 * **마이그레이션 후 문제를 해결하기 위한 계획은 무엇입니까?**
 
-  운영 시스템을 마이그레이션하기 전에 광범위한 테스트를 수행합니다. 그러나 문제가 발생하면 [고객 지원 Adobe](https://experienceleague.adobe.com/ko?support-solution=Campaign#support)이(가) 주 연락 창구로 남게 됩니다. Adobe은 필요한 경우 고급 지원을 제공하기 위해 전문가 팀을 구성했습니다.
+  운영 시스템을 마이그레이션하기 전에 광범위한 테스트를 수행합니다. 그러나 문제가 발생하면 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support)가 기본 연락 창구로 남게 됩니다. Adobe은 필요한 경우 고급 지원을 제공하기 위해 전문가 팀을 구성했습니다.
 
 ## 전달성에 미치는 영향
 
@@ -77,11 +77,11 @@ IP, 차단 목록, 하위 도메인 및 URL에 대한 전역 영향은 아래에
 
 * **하위 도메인 위임은 어떻게 처리됩니까?**
 
-  기존 하위 도메인이 기존 데이터 센터에서 공용 클라우드(AWS)로 이동됩니다. 이 부분은 Adobe 전달성 팀이 마이그레이션 프로세스의 일부로 처리합니다.
+  기존 하위 도메인이 기존 데이터 센터에서 공용 클라우드(AWS)로 이동됩니다. 이 부분은 마이그레이션 프로세스의 일부로 Adobe 전달성 팀이 담당합니다.
 
   >[!NOTE]
   >
-  >전달성 팀의 참여는 계약을 기반으로 하며, 고객은 전달성 참여와 관련된 정보를 Adobe 담당자에게 문의해야 합니다.
+  >전달성 팀의 참여는 계약을 기반으로 하며, 고객은 전달성 참여와 관련된 정보를 얻으려면 Adobe 담당자에게 문의해야 합니다.
 
   Adobe은 마이그레이션 후 새 Public Cloud(AWS) 서버에서 구성이 실행되고 있는지 확인하는 데 필요한 테스트를 안내합니다.
 
@@ -95,9 +95,9 @@ IP, 차단 목록, 하위 도메인 및 URL에 대한 전역 영향은 아래에
 
 * **IP 준비 방법은 무엇입니까?**
 
-  우선 Adobe 전달성 은 플랫폼의 전달성 상태를 평가하고 새 IP로 전환하는 계획을 권장합니다
+  먼저 Adobe Deliverability는 플랫폼의 전달성 상태를 평가하고 새 IP로 전환하는 계획을 권장합니다
 
-  마이그레이션 후에는 준비 작업이 필요하지 않습니다. 예외가 있을 수 있으며, 이 경우 [고객 지원 Adobe](https://experienceleague.adobe.com/ko?support-solution=Campaign#support)이 고객에게 연결됩니다.
+  마이그레이션 후에는 준비 작업이 필요하지 않습니다. 예외가 있을 수 있으며, 이 경우 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support)가 고객에게 연결됩니다.
 
   다만 이 같은 영업은 Go-Live 때 이뤄지는 초기 램프 업과 달리 사업상 투명하다는 방침이다.
 
@@ -110,7 +110,7 @@ IP, 차단 목록, 하위 도메인 및 URL에 대한 전역 영향은 아래에
 * **커뮤니케이션을 브랜딩하는 데 사용하는 위임된 하위 도메인에 어떤 영향을 미칩니까?**
 
   마케팅 통신에 사용되는 하위 도메인은 동일합니다. 단, 구현에 따라 클라이언트 측에서 조치가 필요합니다.
-   * Adobe으로 하위 도메인을 위임하는 경우(기본값) Adobe에서 모든 변경 사항을 처리하여 원활한 전환을 보장합니다.
+   * Adobe으로 하위 도메인을 위임하는 경우(기본값) Adobe에서 모든 변경 사항을 처리하고 원활한 전환을 보장합니다.
    * CNAME 설정(예외)의 경우 클라이언트는 Adobe과 함께 변경 사항을 구현하도록 요청받습니다.
 
 ## 구성 및 연결에 미치는 영향
@@ -125,7 +125,7 @@ Public Cloud로 마이그레이션하면 Adobe Campaign 애플리케이션 서�
 
 다음 두 가지 경우를 살펴보겠습니다.
 
-* 인바운드 트래픽: 시스템 또는 Adobe Campaign 서버에 대한 다른 타사에서 시작된 모든 네트워크 활동입니다. 구성은 Adobe에 의해 처리된 다음 마이그레이션 도중 레거시에서 퍼블릭 클라우드로 복사됩니다. 그런 다음 마이그레이션 후에도 인바운드 트래픽에 대한 연결이 그대로 유지되며 고객 측에서 작업을 수행할 필요가 없습니다
+* 인바운드 트래픽: 시스템 또는 Adobe Campaign 서버에 대한 다른 타사에서 시작된 모든 네트워크 활동입니다. 구성은 Adobe에서 처리된 다음 마이그레이션 중에 레거시에서 공개 클라우드로 복사됩니다. 그런 다음 마이그레이션 후에도 인바운드 트래픽에 대한 연결이 그대로 유지되며 고객 측에서 작업을 수행할 필요가 없습니다
 
 * 아웃바운드 트래픽: Adobe Campaign 서버에서 정보 시스템 또는 다른 타사(예: SMS 공급자)에 대해 시작하는 모든 네트워크 활동. 조직 내 보안 정책에 따라 IP를 변경하는 경우 정보 시스템 또는 기타 제3자의 허용 목록 작업이 필요할 수 있습니다
 
@@ -139,7 +139,7 @@ Public Cloud로 마이그레이션하면 Adobe Campaign 애플리케이션 서�
 
 * **마이그레이션이 Genesis 커넥터를 사용하는 Adobe Analytics 연결에 영향을 줍니까? Adobe Analytics 측의 허용 목록에 추가하다에 Campaign IP 주소를 추가하는 것은 어떻습니까?**
 
-  Adobe Campaign 애플리케이션 서버의 IP 주소가 변경됩니다. 이 단계는 마이그레이션 후 Adobe 고객 지원 센터에서 처리됩니다.
+  Adobe Campaign 애플리케이션 서버의 IP 주소가 변경됩니다. 이 단계는 마이그레이션 후 Adobe 고객 지원 센터에서 처리합니다.
 
 * **마이그레이션이 다른 Adobe 솔루션(AEM, Target 등)과의 연결에 영향을 줍니까?**
 
@@ -173,7 +173,7 @@ Public Cloud로 마이그레이션하면 Adobe Campaign 애플리케이션 서�
 
   새 서버 위치에 따라 변경될 수 있습니다. 그러나 고객은 현재 시간대를 유지할 수 있습니다.
 
-  Adobe Campaign Classic v7의 시간대 관리에 대해 [자세히 알아보기](../../workflow/using/managing-time-zones.md).
+  [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/managing-time-zones.html){target="_blank"}에서 시간대 관리에 대해 자세히 알아보세요.
 
 
 ## 보안 및 권한
@@ -194,7 +194,7 @@ Public Cloud(AWS)로 마이그레이션하면 고객 환경이 필요한 모든 
 
 * **고객에게 새 STP 액세스 키를 요청해야 합니까?**
 
-  아니요. Adobe은 새 서버에서와 마찬가지로 SFTP 액세스 키를 복사합니다.
+  아니요. Adobe은 새 서버에 있는 것처럼 SFTP 액세스 키를 복사합니다.
 
 * **SFTP 권한은 어떻게 처리됩니까?**
 
@@ -227,7 +227,7 @@ Public Cloud(AWS)로 마이그레이션하면 고객 환경이 필요한 모든 
 
 * **마이그레이션하는 동안 마케팅 활동을 중지하도록 계획해야 합니까?**
 
-  Adobe은 기존 데이터 센터에서 애플리케이션이 종료되기 바로 전에 게재 및 워크플로우의 모든 실행을 늦추고 이상적으로 일시 중지할 것을 권장합니다. 따라서 프로세스에 &quot;정상적으로&quot; 일시 중지하고 진행 중인 실행 상태를 저장할 시간이 제공되므로 Cloud Server(AWS)를 쉽게 다시 시작할 수 있습니다.
+  Adobe은 기존 데이터 센터에서 애플리케이션이 종료되기 바로 전에 게재 및 워크플로우의 모든 실행을 늦추고 이상적으로 일시 중지하는 것을 권장합니다. 따라서 프로세스에 &quot;정상적으로&quot; 일시 중지하고 진행 중인 실행 상태를 저장할 시간이 제공되므로 Cloud Server(AWS)를 쉽게 다시 시작할 수 있습니다.
 
 * **Adobe Campaign 서비스의 다운타임이 예상됩니까?**
 
@@ -279,7 +279,7 @@ Public Cloud(AWS)로 마이그레이션하면 고객 환경이 필요한 모든 
 
 * **새 IP를 허용 목록에 추가하다에 추가하는 작업을 누가 처리합니까?**
 
-  Adobe 고객 지원 팀은 새 IP를 허용 목록에 추가하다에 추가하여 고객과 모든 타사가 새 시스템에 액세스할 수 있도록 처리합니다.
+  Adobe 고객 지원 팀은 허용 목록에 추가하다에 새 IP를 추가하여 고객과 모든 서드파티가 새 시스템에 액세스할 수 있도록 합니다.
 
 ## 지원 및 기타 유용한 링크{#support}
 

@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
 source-wordcount: '1211'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 2%
 
 이를 위해 보낸 이메일에 해당하는 .eml 파일을 SMTP 이메일 서버와 같은 원격 서버로 전송합니다. 보관 대상은 지정해야 하는 BCC 이메일 주소(게재 수신자에게는 보이지 않음)입니다.
 
-## Recommendations 및 제한 사항 {#recommendations-and-limitations}
+## 권장 사항 및 제한 사항 {#recommendations-and-limitations}
 
 * 이메일 BCC 기능은 선택 사항입니다. 사용권 계약을 확인하십시오.
-* **호스팅 및 하이브리드 아키텍처**&#x200B;의 경우 계정 관리자에게 문의하여 활성화하십시오. 선택한 BCC 이메일 주소를 구성할 Adobe 팀에 제공해야 합니다.
+* **호스팅 및 하이브리드 아키텍처**&#x200B;의 경우 계정 관리자에게 문의하여 활성화하십시오. 선택한 BCC 이메일 주소를 Adobe 팀에 제공해야 합니다. 이 팀은 사용자를 위해 BCC를 구성합니다.
 * **온-프레미스 설치**&#x200B;의 경우 아래 지침에 따라 활성화하세요. [이메일 BCC 활성화(온-프레미스)](#activating-email-archiving--on-premise-) 및 [BCC 이메일 주소 구성(온-프레미스)](#configuring-the-bcc-email-address--on-premise-) 섹션을 참조하세요.
 * 숨은 참조 이메일 주소는 하나만 사용할 수 있습니다.
-* 이메일 BCC가 구성되면 게재 템플릿 또는 **[!UICONTROL Email BCC]** 옵션을 통한 게재에서 기능이 활성화되어 있는지 확인하십시오. 자세한 내용은 [이 섹션](../../delivery/using/sending-messages.md#archiving-emails)을 참조하십시오.
+* 이메일 BCC가 구성되면 게재 템플릿 또는 **[!UICONTROL Email BCC]** 옵션을 통한 게재에서 기능이 활성화되어 있는지 확인하십시오. [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}를 참조하세요.
 * 성공적으로 전송된 이메일만 고려되며 바운스는 고려되지 않습니다.
 * 전자 메일 보관 시스템이 Adobe Campaign 17.2(빌드 8795)로 변경되었습니다. 이미 전자 메일 보관을 사용하고 있는 경우 수동으로 새 전자 메일 BCC 시스템으로 업그레이드해야 합니다. 자세한 내용은 [새 전자 메일 BCC로 이동](#updated-email-archiving-system--bcc-) 섹션을 참조하십시오.
 
@@ -61,7 +61,7 @@ BCC 이메일 주소로 보낸 이메일을 전송하려면 보낸 이메일의 
 C:\emails\2018-12-02\13h
 ```
 
-전자 메일의 상태가 **[!UICONTROL Sent]**&#x200B;이(가) 아닌 경우 보관 파일 이름은 **`<deliveryid>-<broadlogid>.eml`**&#x200B;입니다. 상태가 **[!UICONTROL Sent]**(으)로 변경되면 파일 이름은 **`<deliveryid>-<broadlogid>-sent.eml`**&#x200B;이(가) 됩니다. 예제:
+전자 메일의 상태가 **`<deliveryid>-<broadlogid>.eml`**&#x200B;이(가) 아닌 경우 보관 파일 이름은 **[!UICONTROL Sent]**&#x200B;입니다. 상태가 **[!UICONTROL Sent]**(으)로 변경되면 파일 이름은 **`<deliveryid>-<broadlogid>-sent.eml`**&#x200B;이(가) 됩니다. 예제:
 
 ```
 C:\emails\2018-12-02\13h\4012-8040-sent.eml
@@ -134,7 +134,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 <!--
 ## Moving to the new Email BCC {#updated-email-archiving-system--bcc-}
 
-[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"}
+[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"}
 
 >[!IMPORTANT]
 >

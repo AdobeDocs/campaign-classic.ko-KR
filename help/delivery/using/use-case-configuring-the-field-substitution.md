@@ -5,9 +5,9 @@ description: '활용 사례: 필드 대체 구성'
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '456'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## 게재 만들기 {#step-1---creating-a-delivery}
 
-게재를 만드는 단계는 [전자 메일 게재 만들기](creating-an-email-delivery.md) 섹션에 자세히 설명되어 있습니다.
+게재를 만드는 단계는 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html){target="_blank"}에 자세히 설명되어 있습니다.
 
 이 예에서는 게재 관리자가 뉴스레터를 생성했습니다.
 

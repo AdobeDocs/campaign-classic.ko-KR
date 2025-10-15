@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '3094'
+source-wordcount: '3096'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->일부 구성은 Adobe이 호스팅하는 배포에 대해 Adobe이 수행할 수 있습니다(예: 서버 및 인스턴스 구성 파일에 액세스). 다른 배포에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 [이 페이지](../../installation/using/capability-matrix.md)를 참조하세요.
+>일부 구성은 Adobe에서 호스팅하는 배포에 대해 Adobe에서만 수행할 수 있습니다(예: 서버 및 인스턴스 구성 파일에 액세스). 다른 배포에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 [이 페이지](../../installation/using/capability-matrix.md)를 참조하세요.
 
 Adobe Campaign의 전달성과 관련된 개념과 모범 사례에 대한 자세한 내용은 이 [섹션](../../delivery/using/about-deliverability.md)을 참조하세요.
 
-Adobe 플랫폼에서 이메일을 효율적으로 보내고 받는 것과 관련된 모든 기술 권장 사항을 포함하여 전달성의 의미에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)를 참조하세요.
+Adobe 플랫폼에서 이메일을 효율적으로 보내고 받는 것과 관련된 모든 기술 권장 사항을 포함하여 전달성의 의미에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)를 참조하십시오.
 
 ## 운영 원칙 {#operating-principle}
 
@@ -192,7 +192,7 @@ user:~ user$ host -t a mta6.am0.yahoodns.net
                 mta6.am0.yahoodns.net has address 66.196.118.33
 ```
 
-이러한 8개의 IP 주소 중 4개는 mta5에서 이미 사용되고 있습니다(98.136.216.26, 98.138.112.38, 63.250.192.46 및 98.136.217.203). 이 레코드를 사용하면 4개의 새 IP 주소를 사용할 수 있습니다. 세 번째 MX 레코드도 같은 작업을 수행합니다.
+이 8개의 IP 주소 중 4개가 이미 mta5에서 사용되고 있습니다(98.136.216.26, 98.138.112.38, 63.250.192.46 및 98.136.217.203). 이 레코드를 사용하면 4개의 새 IP 주소를 사용할 수 있습니다. 세 번째 MX 레코드도 같은 작업을 수행합니다.
 
 총 16개의 원격 IP 주소가 있습니다. 2개의 로컬 공용 IP와 결합하여 yahoo.com 메일 서버에 연결할 수 있는 32개의 경로가 있습니다.
 
@@ -214,7 +214,7 @@ user:~ user$ host -t a mta6.am0.yahoodns.net
 
 ### MX 관리 구성 {#configuring-mx-management}
 
-MX에 대해 준수할 규칙이 트리의 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** 노드에 있는 **[!UICONTROL MX management]** 문서에 정의되어 있습니다.
+MX에 대해 준수할 규칙이 트리의 **[!UICONTROL MX management]** 노드에 있는 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** 문서에 정의되어 있습니다.
 
 **[!UICONTROL MX management]** 문서가 노드에 없으면 수동으로 만들 수 있습니다. 방법은 다음과 같습니다.
 
@@ -223,7 +223,7 @@ MX에 대해 준수할 규칙이 트리의 **[!UICONTROL Administration > Campai
 
    ![](assets/s_ncs_install_mx_mgt_rule.png)
 
-1. **[!UICONTROL Internal name]** 필드에 **defaultMXRules**&#x200B;을(를) 입력하십시오.
+1. **필드에** defaultMXRules **[!UICONTROL Internal name]**&#x200B;을(를) 입력하십시오.
 
 변경 사항을 고려하려면 통계 서버를 다시 시작해야 합니다.
 
@@ -314,9 +314,9 @@ MX에 대해 준수할 규칙이 트리의 **[!UICONTROL Administration > Campai
 
 각 수신자 주소의 도메인에 따라 표시되는 콘텐츠가 자동으로 조정되도록, 보낸 메시지의 형식을 정의할 수 있습니다.
 
-이렇게 하려면 **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Non deliverables management]** > **[!UICONTROL Mail rule sets]**&#x200B;에 있는 **[!UICONTROL Management of email formats]** 문서로 이동하십시오.
+이렇게 하려면 **[!UICONTROL Management of email formats]** > **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Non deliverables management]**&#x200B;에 있는 **[!UICONTROL Mail rule sets]** 문서로 이동하십시오.
 
-이 문서에는 Adobe Campaign에서 관리하는 일본어 형식에 해당하는 사전 정의된 모든 도메인의 목록이 포함되어 있습니다. 자세한 내용은 [이 문서](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles)를 참조하세요.
+이 문서에는 Adobe Campaign에서 관리하는 일본어 형식에 해당하는 사전 정의된 모든 도메인의 목록이 포함되어 있습니다. 자세한 내용은 관련 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html){target="_blank"}를 참조하십시오.
 
 ![](assets/mail_rule_sets.png)
 
@@ -331,7 +331,7 @@ MX에 대해 준수할 규칙이 트리의 **[!UICONTROL Administration > Campai
 
 **[!UICONTROL Image inclusion]** 옵션을 활성화하면 전자 메일의 본문에 바로 표시됩니다. 그런 다음 이미지가 업로드되고 URL 링크가 해당 콘텐츠로 바뀝니다.
 
-이 옵션은 특히 일본 시장에서 **Deco-mail**, **Decore Mail** 또는 **Decoration Mail**&#x200B;에 사용됩니다. 자세한 내용은 [이 문서](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles)를 참조하세요.
+이 옵션은 특히 일본 시장에서 **Deco-mail**, **Decore Mail** 또는 **Decoration Mail**&#x200B;에 사용됩니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html){target="_blank"}를 참조하세요.
 
 >[!IMPORTANT]
 >

@@ -6,9 +6,9 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Monitoring, Deliverability
 role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '2567'
+source-wordcount: '2578'
 ht-degree: 12%
 
 ---
@@ -135,7 +135,7 @@ ht-degree: 12%
    <td> 정의되지 않음 </td> 
    <td> 정의되지 않음 </td> 
    <td> 0 </td> 
-   <td> 오류가 아직 증가하지 않았기 때문에 주소가 유효합니다. 이 유형의 오류는 서버에서 새 오류 메시지를 보낼 때 발생합니다. 이는 격리된 오류일 수 있지만 다시 발생하면 오류 카운터가 증가하여 기술 팀에 알립니다. 그런 다음 트리 구조의 <span class="uicontrol">관리</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">비게재 항목 관리</span> 노드를 통해 메시지 분석을 수행하고 이 오류를 검증할 수 있습니다.<br /> </td> 
+   <td> 오류가 아직 증가하지 않았기 때문에 주소가 유효합니다. 이 유형의 오류는 서버에서 새 오류 메시지를 보낼 때 발생합니다. 이는 격리된 오류일 수 있지만 다시 발생하면 오류 카운터가 증가하여 기술 팀에 알립니다. 그런 다음 트리 구조의 <span class="uicontrol">관리</span> / <span class="uicontrol">캠페인 관리</span> / <span class="uicontrol">비게재 항목 관리</span> 노드를 통해 메시지 분석을 수행하고 이 오류를 검증할 수 있습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 오퍼에 적합하지 않음 </td> 
@@ -188,22 +188,22 @@ ht-degree: 12%
 >
 >호스팅 또는 하이브리드 설치의 경우 [향상된 MTA](sending-with-enhanced-mta.md)(으)로 업그레이드한 경우 게재의 다시 시도 설정은 Campaign에서 더 이상 사용되지 않습니다. 소프트 바운스 재시도 및 재시도 간 시간은 메시지 이메일 도메인에서 돌아오는 바운스 응답의 유형 및 심각도에 따라 고급 MTA에 의해 결정됩니다.
 
-기존 Campaign MTA를 사용하는 온-프레미스 설치 및 호스팅/하이브리드 설치의 경우 게재 기간을 수정하려면 게재 또는 게재 템플릿의 고급 매개 변수로 이동하여 해당 필드에 원하는 기간을 지정합니다. [유효 기간 정의](steps-sending-the-delivery.md#defining-validity-period)를 참조하십시오.
+기존 Campaign MTA를 사용하는 온-프레미스 설치 및 호스팅/하이브리드 설치의 경우 게재 기간을 수정하려면 게재 또는 게재 템플릿의 고급 매개 변수로 이동하여 해당 필드에 원하는 기간을 지정합니다. [게재 보내기](communication-channels.md) > **유효 기간 정의**&#x200B;에서 이 **페이지**&#x200B;를 참조하세요.
 
-기본 구성에서는 1시간 간격으로 5회 재시도한 후 4일 동안 매일 1회 재시도할 수 있습니다. 다시 시도 횟수는 전체적으로(Adobe 기술 관리자에게 문의) 또는 각 게재 또는 게재 템플릿에 대해 변경할 수 있습니다. [다시 시도 구성](steps-sending-the-delivery.md#configuring-retries)을 참조하십시오.
+기본 구성에서는 1시간 간격으로 5회 재시도한 후 4일 동안 매일 1회 재시도할 수 있습니다. 다시 시도 횟수는 전체적으로(Adobe 기술 관리자에게 문의) 또는 각 게재 또는 게재 템플릿에 대해 변경할 수 있습니다. [게재 전송](communication-channels.md) > **다시 시도 구성**&#x200B;에서 이 **페이지**&#x200B;를 참조하세요.
 
 ## 동기 및 비동기 오류 {#synchronous-and-asynchronous-errors}
 
 메시지가 전송된 후 즉시(동기 오류) 또는 나중에(비동기 오류) 실패할 수 있습니다.
 
-* 동기 오류: Adobe Campaign 게재 서버가 접속한 원격 메일 서버에서 즉시 오류 메시지를 반환하여 게재를 프로필 서버로 보낼 수 없습니다. Adobe Campaign은 관련 이메일 주소를 격리해야 하는지 여부를 결정하기 위해 각 오류를 검증합니다. [반송 메일 조건](#bounce-mail-qualification)을 참조하십시오.
+* 동기 오류: Adobe Campaign 게재 서버가 접속한 원격 메일 서버에서 즉시 오류 메시지를 반환하여 게재를 프로필 서버로 보낼 수 없습니다. Adobe Campaign은 관련 이메일 주소를 격리해야 하는지 여부를 결정하기 위해 각 오류를 검증합니다. [바운스 메일 선별](#bounce-mail-qualification)을 참조하십시오.
 * 비동기 오류: 반송 메일 또는 SR이 나중에 수신 서버에 의해 다시 전송되었습니다. 이 메일은 응용 프로그램에서 오류가 있는 메시지에 레이블을 지정하는 데 사용하는 기술 사서함에 로드됩니다. 게재를 보낸 후 1주일까지 비동기 오류가 발생할 수 있습니다.
 
   >[!NOTE]
   >
   >바운스 사서함 구성은 [이 섹션](../../installation/using/deploying-an-instance.md#managing-bounced-emails)에 자세히 설명되어 있습니다.
 
-  [피드백 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#feedback-loops)은(는) 바운스 전자 메일과 같이 작동합니다. 사용자가 이메일을 스팸 처리하면 Adobe Campaign에서 이메일 규칙을 구성하여 이 사용자에게 모든 게재를 차단할 수 있습니다. 이메일을 스팸으로 인증한 사용자에게 전송된 메시지는 이러한 목적을 위해 특별히 만든 이메일 상자를 향해 자동으로 리디렉션됩니다. 구독 취소 링크를 클릭하지 않았는데도 이 사용자들의 주소가 차단 목록에 추가하다에 있습니다. 주소는 (**NmsRecipient**) 받는 사람 테이블이 아니라 (**NmsRecipient**) 격리 테이블의 차단 목록에 추가하다입니다.
+  [피드백 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)은(는) 바운스 전자 메일과 같이 작동합니다. 사용자가 이메일을 스팸 처리하면 Adobe Campaign에서 이메일 규칙을 구성하여 이 사용자에게 모든 게재를 차단할 수 있습니다. 이메일을 스팸으로 인증한 사용자에게 전송된 메시지는 이러한 목적을 위해 특별히 만든 이메일 상자를 향해 자동으로 리디렉션됩니다. 구독 취소 링크를 클릭하지 않았는데도 이 사용자들의 주소가 차단 목록에 추가하다에 있습니다. 주소는 (**NmsRecipient**) 받는 사람 테이블이 아니라 (**NmsRecipient**) 격리 테이블의 차단 목록에 추가하다입니다.
 
   >[!NOTE]
   >
@@ -239,11 +239,11 @@ Adobe Campaign 플랫폼을 사용하면 바운스 메일 기능을 통해 이�
 
 ![](assets/tech_quarant_rules_qualif.png)
 
-이 오류 유형이 처음 발생할 때 원격 서버에서 반환된 메시지가 **[!UICONTROL Delivery log qualification]** 테이블의 **[!UICONTROL First text]** 열에 표시됩니다. 이 열이 표시되지 않으면 목록의 오른쪽 하단에 있는 **[!UICONTROL Configure list]** 단추를 클릭하여 선택하십시오.
+이 오류 유형이 처음 발생할 때 원격 서버에서 반환된 메시지가 **[!UICONTROL First text]** 테이블의 **[!UICONTROL Delivery log qualification]** 열에 표시됩니다. 이 열이 표시되지 않으면 목록의 오른쪽 하단에 있는 **[!UICONTROL Configure list]** 단추를 클릭하여 선택하십시오.
 
 ![](assets/tech_quarant_rules_qualif_text.png)
 
-Adobe Campaign은 이 메시지를 필터링하여 변수 콘텐츠(예: ID, 날짜, 이메일 주소, 전화번호 등)를 삭제합니다. 필터링된 결과를 **[!UICONTROL Text]** 열에 표시합니다. 변수는 **`*`**(으)로 대체된 주소를 제외하고 **`#xxx#`**(으)로 대체됩니다.
+Adobe Campaign은 이 메시지를 필터링하여 변수 콘텐츠(예: ID, 날짜, 이메일 주소, 전화번호 등)를 삭제하고 필터링된 결과를 **[!UICONTROL Text]** 열에 표시합니다. 변수는 **`#xxx#`**(으)로 대체된 주소를 제외하고 **`*`**(으)로 대체됩니다.
 
 이 프로세스를 통해 동일한 유형의 모든 오류를 종합하고 게재 로그 자격 표에서 유사한 오류에 대한 여러 항목을 방지할 수 있습니다.
 
@@ -312,10 +312,10 @@ For on-premise installations and hosted/hybrid installations using the legacy Ca
 
 <!--![](assets/tech_quarant_domain_rules_02.png)-->
 
-* **보낸 사람 ID**, **도메인 키**, **DKIM** 및 **S/MIME**&#x200B;과 같은 도메인 이름을 확인하기 위해 특정 ID 표준 및 암호화 키를 활성화할지 여부를 선택할 수 있습니다.
+* **보낸 사람 ID**, **도메인 키**, **DKIM** 및 **S/MIME**&#x200B;과 같은 특정 ID 표준 및 암호화 키를 활성화할지 여부를 선택할 수 있습니다.
 * **SMTP 릴레이** 매개 변수를 사용하면 특정 도메인에 대한 릴레이 서버의 IP 주소와 포트를 구성할 수 있습니다. 자세한 내용은 [이 섹션](../../installation/using/configuring-campaign-server.md#smtp-relay)을 참조하십시오.
 
-보낸 사람 주소에 **[!UICONTROL on behalf of]**&#x200B;이(가) 있는 Outlook에 메시지가 표시되는 경우 Microsoft의 오래된 독점 전자 메일 인증 표준인 **보낸 사람 ID**&#x200B;로 전자 메일에 서명하지 않는지 확인하십시오. **[!UICONTROL Sender ID]** 옵션이 활성화된 경우 해당 확인란 선택을 취소하고 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오. 전달성은 영향을 받지 않습니다.
+보낸 사람 주소에 **[!UICONTROL on behalf of]**&#x200B;이(가) 있는 Outlook에 메시지가 표시되는 경우 Microsoft의 오래된 독점 전자 메일 인증 표준인 **보낸 사람 ID**&#x200B;로 전자 메일에 서명하지 않는지 확인하십시오. **[!UICONTROL Sender ID]** 옵션이 활성화된 경우 해당 상자를 선택 취소하고 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오. 전달성은 영향을 받지 않습니다.
 
 #### MX 관리 {#mx-management}
 

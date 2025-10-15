@@ -5,10 +5,10 @@ description: Campaign에서 SMS를 보내고, 모니터링하고, 추적하는 �
 feature: SMS
 role: User
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
 source-wordcount: '887'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ The detailed process when validating and sending a delivery is presented in the 
 
 ## 고급 매개 변수 {#advanced-parameters}
 
-**[!UICONTROL Properties]** 단추를 사용하면 고급 배달 매개 변수에 액세스할 수 있습니다. SMS 게재와 관련된 매개 변수는 **[!UICONTROL Delivery]** 탭의 **[!UICONTROL SMS parameters]** 섹션에 있습니다.
+**[!UICONTROL Properties]** 단추를 사용하면 고급 배달 매개 변수에 액세스할 수 있습니다. SMS 게재와 관련된 매개 변수는 **[!UICONTROL SMS parameters]** 탭의 **[!UICONTROL Delivery]** 섹션에 있습니다.
 
 다음 옵션을 사용할 수 있습니다.
 
@@ -81,8 +81,6 @@ After sending messages, you can monitor and track your deliveries. For more on t
   > * SMS 계정은 상태 보고서가 올바른 계정에 귀속되도록 단일 외부 계정에만 연결할 수 있습니다
 
 * **구독 취소**: SMS 게재 수신을 중지하려는 수신자는 STOP이라는 단어가 포함된 메시지를 반환할 수 있습니다. 공급자가 계약 조건에 따라 허용하는 경우 **인바운드 SMS** 워크플로우 활동을 통해 메시지를 검색한 다음 관련 받는 사람에 대해 **이 받는 사람에게 더 이상 연락하지 않음** 옵션을 사용하도록 설정하는 쿼리를 만들 수 있습니다.
-
-  [워크플로](../../workflow/using/architecture.md) 안내서를 참조하세요.
 
 ## InSMS 스키마 {#insms-schema}
 
@@ -142,7 +140,7 @@ InSMS 스키마에는 수신 SMS와 관련된 정보가 포함되어 있습니�
    </autoreply>
    ```
 
-1. **`<shortcode>`** 태그의 **name** 특성에 대해 보낸 사람 이름 대신 표시할 짧은 코드를 지정하십시오.
+1. **태그의** name **`<shortcode>`** 특성에 대해 보낸 사람 이름 대신 표시할 짧은 코드를 지정하십시오.
 
    각 **`<reply>`** 태그에서 키워드가 있는 **keyword** 특성과 이 키워드에 보낼 메시지가 있는 **text** 특성을 입력하십시오.
 
@@ -167,6 +165,6 @@ InSMS 스키마에는 수신 SMS와 관련된 정보가 포함되어 있습니�
 
 >[!IMPORTANT]
 >
->이러한 종류의 자동 메시지는 기록을 보관하지 않습니다. 따라서 게재 대시보드에 표시되지 않습니다. [자세히 알아보기](delivery-dashboard.md).
+>이러한 종류의 자동 메시지는 기록을 보관하지 않습니다. 따라서 게재 대시보드에 표시되지 않습니다. [자세히 알아보기](delivery-dashboard.md)
 >
->상업적 압력 규칙에서는 이러한 메시지가 고려되지 않습니다. [자세히 알아보기](../../campaign-opt/using/pressure-rules.md).
+>상업적 압력 규칙에서는 이러한 메시지가 고려되지 않습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}를 참조하세요.

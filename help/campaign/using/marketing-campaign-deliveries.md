@@ -7,9 +7,9 @@ feature: Campaigns, Resource Management, Cross Channel Orchestration
 hide: true
 hidefromtoc: true
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1491'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 캠페인에서 생성되면 게재는 이 캠페인에 연결되고 캠페인 수준에서 통합됩니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#create-email-video)
+![](assets/do-not-localize/how-to-video.png)[비디오에서 이 기능 살펴보기](#create-email-video)
 
 ## 게재 만들기 {#creating-deliveries}
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ![](assets/campaign_op_add_delivery.png)
 
-제안된 구성은 DM, 이메일, 모바일 채널 등 다양한 유형의 게재에 적합합니다. [자세히 알아보기](../../delivery/using/steps-about-delivery-creation-steps.md).
+제안된 구성은 DM, 이메일, 모바일 채널 등 다양한 유형의 게재에 적합합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}를 참조하세요.
 
 ## 게재 시작 {#starting-a-delivery}
 
@@ -117,13 +117,13 @@ ht-degree: 1%
 
 ## 관련 문서 관리 {#managing-associated-documents}
 
-보고서, 사진, 웹 페이지, 다이어그램 등 다양한 문서를 캠페인에 연결할 수 있습니다. 이러한 문서는 모든 형식(Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF 등)으로 제공됩니다. 문서를 [&#x200B; 캠페인과 연결하는 방법은 이 섹션](../../campaign/using/marketing-campaign-assets.md)에서 알아보세요.
+보고서, 사진, 웹 페이지, 다이어그램 등 다양한 문서를 캠페인에 연결할 수 있습니다. 이러한 문서는 모든 형식(Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF 등)으로 제공됩니다. 문서를 [ 캠페인과 연결하는 방법은 이 섹션](../../campaign/using/marketing-campaign-assets.md)에서 알아보세요.
 
 >[!IMPORTANT]
 >
 >이 모드는 작은 문서용으로 예약되어 있습니다.
 
-캠페인에서 프로모션 쿠폰, 특정 지점 또는 상점과 관련된 특별 오퍼 등과 같은 다른 항목을 참조할 수도 있습니다. 이러한 요소를 아웃라인에 포함하면 DM 게재와 연결할 수 있습니다. [자세히 알아보기](#associating-and-structuring-resources-linked-via-a-delivery-outline).
+캠페인에서 프로모션 쿠폰, 특정 지점 또는 상점과 관련된 특별 오퍼 등과 같은 다른 항목을 참조할 수도 있습니다. 이러한 요소를 아웃라인에 포함하면 DM 게재와 연결할 수 있습니다. [자세히 알아보기](#associating-and-structuring-resources-linked-via-a-delivery-outline)
 
 >[!NOTE]
 >
@@ -170,7 +170,7 @@ ht-degree: 1%
 
 #### 개요 만들기 {#creating-an-outline}
 
-개요를 만들려면 관련 캠페인의 **[!UICONTROL Edit > Documents]** 탭에서 **[!UICONTROL Delivery outlines]** 하위 탭을 클릭하십시오.
+개요를 만들려면 관련 캠페인의 **[!UICONTROL Delivery outlines]** 탭에서 **[!UICONTROL Edit > Documents]** 하위 탭을 클릭하십시오.
 
 >[!NOTE]
 >
@@ -198,7 +198,7 @@ ht-degree: 1%
 
   ![](assets/s_ncs_user_op_add_composition_field_button.png)
 
-* 리소스는 **[!UICONTROL Campaigns]** 탭의 **[!UICONTROL Resources]** 링크를 통해 액세스되는 마케팅 리소스 대시보드에서 생성된 마케팅 리소스입니다.
+* 리소스는 **[!UICONTROL Resources]** 탭의 **[!UICONTROL Campaigns]** 링크를 통해 액세스되는 마케팅 리소스 대시보드에서 생성된 마케팅 리소스입니다.
 
   ![](assets/s_ncs_user_mkg_resource_ovv.png)
 
@@ -238,6 +238,6 @@ ht-degree: 1%
 
 이 비디오에서는 Adobe Campaign에서 캠페인 및 이메일을 만드는 방법을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31872?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

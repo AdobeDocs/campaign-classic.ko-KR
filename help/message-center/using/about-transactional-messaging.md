@@ -4,9 +4,9 @@ title: 트랜잭션 메시지 시작
 description: Adobe Campaign Classic 트랜잭션 메시지 작동 원리 및 주요 단계에 대해 자세히 알아보십시오
 feature: Transactional Messaging, Message Center
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '641'
 ht-degree: 4%
 
 ---
@@ -44,7 +44,7 @@ Adobe Campaign 트랜잭션 메시지 모듈은 변경할 이벤트를 개인화
 
 >[!NOTE]
 >
->Adobe 클라우드에서 호스팅되는 메시지 센터 실행 인스턴스에 대해 새 사용자를 만들려면 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의해야 합니다. 메시지 센터 사용자는 **[!UICONTROL Real time events (nmsRtEvent)]**&#x200B;개 폴더에 액세스하는 데 전용 권한이 필요한 특정 운영자입니다.
+>Adobe Cloud에서 호스팅되는 메시지 센터 실행 인스턴스에 대해 새 사용자를 만들려면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의해야 합니다. 메시지 센터 사용자는 **[!UICONTROL Real time events (nmsRtEvent)]**&#x200B;개 폴더에 액세스하는 데 전용 권한이 필요한 특정 운영자입니다.
 
 트랜잭션 메시지 전체 프로세스는 다음과 같이 설명할 수 있습니다.
 
@@ -71,7 +71,7 @@ Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 
 1. [이벤트 형식을 만듭니다](../../message-center/using/creating-event-types.md).
 1. [메시지 템플릿을 만들고 디자인합니다](../../message-center/using/creating-the-message-template.md). 이 단계에서 메시지에 이벤트를 연결해야 합니다.
 1. [메시지를 테스트합니다](../../message-center/using/testing-message-templates.md).
-1. [메시지 템플릿을 Publish](../../message-center/using/publishing-message-templates.md).
+1. [메시지 템플릿을 게시](../../message-center/using/publishing-message-templates.md)합니다.
 
 >[!NOTE]
 >
@@ -88,6 +88,6 @@ Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 
 ## 관련 항목 {#related-topics}
 
 * [소통 채널 시작](../../delivery/using/communication-channels.md)
-* [게재 만들기 주요 단계](../../delivery/using/steps-about-delivery-creation-steps.md)
+* [게재 만들기 키 단계](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}
 * [트랜잭션 메시지 아키텍처](../../message-center/using/transactional-messaging-architecture.md)
 * [트랜잭션 메시지 보고서 액세스](../../message-center/using/about-transactional-messaging-reports.md)

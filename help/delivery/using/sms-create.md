@@ -7,10 +7,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 3%
+source-wordcount: '446'
+ht-degree: 1%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->게재 만들기에 대한 전체 개념은 [이 섹션](steps-about-delivery-creation-steps.md)에 나와 있습니다.
+>게재 만들기에 대한 전체 개념은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}에 나와 있습니다.
 
 1. 게재 대시보드 등에서 새 게재를 만듭니다.
 1. 이전에 만든 게재 템플릿 **모바일(SMPP)에 전송됨**&#x200B;을(를) 선택합니다. 자세한 내용은 [게재 템플릿 변경](sms-set-up.md#changing-the-delivery-template) 섹션을 참조하세요.
 
    ![](assets/s_user_mobile_wizard.png)
 
-1. 레이블, 코드 및 설명을 사용하여 게재를 식별합니다. 이 작업에 대한 자세한 정보는 [이 섹션](steps-create-and-identify-the-delivery.md#identifying-the-delivery)을 참조하십시오.
+1. 레이블, 코드 및 설명을 사용하여 게재를 식별합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#create-the-delivery){target="_blank"}에서 이 섹션을 참조하세요.
 1. **[!UICONTROL Continue]**&#x200B;을(를) 클릭하여 이 정보를 확인하고 메시지 구성 창을 표시합니다.
 
 ## SMS 콘텐츠 정의 {#defining-the-sms-content}

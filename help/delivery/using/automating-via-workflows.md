@@ -6,14 +6,14 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Workflows
 role: User
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1201'
 ht-degree: 0%
 
 ---
 
-# 워크플로 자동화{#automating-via-workflows}
+# 워크플로로 자동화{#automating-via-workflows}
 
 ## 콘텐츠 관리 활동 {#content-management-activity}
 
@@ -101,7 +101,7 @@ Adobe Campaign 클라이언트 인터페이스를 통해 구성된 워크플로�
 </book>
 ```
 
-데이터 형식이 게시 템플릿(이 예제의 경우 **cus:book**)에 입력한 데이터 스키마와 일치하지 않습니다. **`<section>`** 요소를 **`<chapter>`** 요소로 바꿔야 합니다. 필요한 변경을 수행하려면 &quot;cus:book-workflow.xsl&quot; 스타일시트를 적용해야 합니다.
+데이터 형식이 게시 템플릿(**cus:book**)에 입력한 데이터 스키마와 일치하지 않습니다. **`<section>`** 요소를 **`<chapter>`** 요소로 바꿔야 합니다. 필요한 변경을 수행하려면 &quot;cus:book-workflow.xsl&quot; 스타일시트를 적용해야 합니다.
 
 사용된 XSLT 스타일시트의 Source 코드:
 
@@ -150,7 +150,7 @@ Adobe Campaign 클라이언트 인터페이스를 통해 구성된 워크플로�
 
 템플릿을 기반으로 새 게재 작업이 생성됩니다.
 
-활동의 게재 템플릿은 게시 템플릿의 변형 템플릿을 선택하는 데 사용됩니다. 콘텐츠 생성은 게재 템플릿 없이 모든 HTML 및 텍스트 템플릿을 고려하거나, 활동과 동일한 템플릿을 사용하여 참조되는 템플릿을 고려합니다.
+활동의 게재 템플릿은 게시 템플릿의 변형 템플릿을 선택하는 데 사용됩니다. 콘텐츠 생성은 게재 템플릿이 없는 모든 HTML 및 텍스트 템플릿 또는 활동과 동일한 템플릿을 사용하여 참조되는 템플릿을 고려합니다.
 
 전달할 대상이 들어오는 이벤트를 통해 입력됩니다.
 
@@ -214,11 +214,13 @@ Adobe Campaign 클라이언트 인터페이스를 통해 구성된 워크플로�
 
 ### FTP에서 콘텐츠 가져오기 {#importing-content-from-ftp}
 
-게재 콘텐츠를 FTP 또는 SFTP 서버에 있는 HTML 파일에서 사용할 수 있는 경우 이 콘텐츠를 Adobe Campaign 게재로 쉽게 로드할 수 있습니다. [이 예제](../../workflow/using/loading-delivery-content.md)를 참조하세요.
+게재 콘텐츠를 FTP 또는 SFTP 서버에 있는 HTML 파일에서 사용할 수 있는 경우 이 콘텐츠를 Adobe Campaign 게재에 쉽게 로드할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}를 참조하세요.
+
 
 ### Amazon Simple Storage Service(S3) 커넥터에서 컨텐츠 가져오기 {#importing-content-from-amazon-simple-storage-service--s3--connector}
 
-게재 콘텐츠가 Amazon Simple Storage Service (S3) 버킷에 있는 경우, 이 콘텐츠를 Adobe Campaign 게재에 쉽게 로드할 수 있습니다. [이 예제](../../workflow/using/loading-delivery-content.md)를 참조하세요.
+게재 콘텐츠가 Amazon Simple Storage Service (S3) 버킷에 있는 경우, 이 콘텐츠를 Adobe Campaign 게재에 쉽게 로드할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}를 참조하세요.
+
 
 ## 반자동 업데이트 {#semi-automatic-update}
 
@@ -230,7 +232,7 @@ Adobe Campaign 클라이언트 인터페이스를 통해 구성된 워크플로�
 
 편집 영역을 사용하면 검색할 데이터의 XML 피드의 URL을 구성하는 데 사용되는 변수 데이터를 채울 수 있습니다.
 
-이 단추는 **`<input>`** 태그 아래에 채워진 **GetAndTransform** SOAP 메서드를 실행합니다.
+이 단추는 **태그에 채워진** GetAndTransform **`<input>`** SOAP 메서드를 실행합니다.
 
 양식의 컨트롤 선언은 다음과 같습니다.
 
@@ -246,7 +248,7 @@ Adobe Campaign 클라이언트 인터페이스를 통해 구성된 워크플로�
 </input>
 ```
 
-**GetAndTransform** 메서드는 **`<input>`** 태그의 **`<enter>`** 요소 아래에 선언해야 합니다. 이 태그는 동적으로 구성된 표현식에서 XML 데이터 복구의 URL을 매개 변수로 사용합니다. 함수의 두 번째 매개 변수는 선택 사항이며, 들어오는 XML 데이터가 내용과 같은 형식이 아닐 때 중간 변환에 사용되는 스타일시트를 참조합니다.
+**GetAndTransform** 메서드는 **`<enter>`** 태그의 **`<input>`** 요소 아래에 선언해야 합니다. 이 태그는 동적으로 구성된 표현식에서 XML 데이터 복구의 URL을 매개 변수로 사용합니다. 함수의 두 번째 매개 변수는 선택 사항이며, 들어오는 XML 데이터가 내용과 같은 형식이 아닐 때 중간 변환에 사용되는 스타일시트를 참조합니다.
 
 출력에서는 마지막 매개 변수에 입력된 경로를 기반으로 콘텐츠가 업데이트됩니다.
 

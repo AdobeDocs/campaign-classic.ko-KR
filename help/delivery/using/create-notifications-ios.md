@@ -7,16 +7,16 @@ role: User, Developer, Data Engineer
 hide: true
 hidefromtoc: true
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
-source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 8%
+source-wordcount: '980'
+ht-degree: 7%
 
 ---
 
 # iOS에 대한 알림 만들기{#create-notifications-ios}
 
-이 섹션에서는 iOS 알림 전달과 관련된 요소에 대해 자세히 설명합니다. 게재 만들기에 대한 전체 개념은 [이 섹션](steps-about-delivery-creation-steps.md)에 나와 있습니다.
+이 섹션에서는 iOS 알림 전달과 관련된 요소에 대해 자세히 설명합니다. 게재 만들기에 대한 전체 개념은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}에 나와 있습니다.
 
 새 게재를 만드는 것으로 시작합니다.
 
@@ -34,7 +34,7 @@ iOS 장치에 대한 푸시 알림을 만들려면 아래 단계를 따르십시
 
    >[!NOTE]
    >
-   >게재의 대상 모집단을 선택할 때의 자세한 프로세스는 [이 섹션](steps-defining-the-target-population.md)에 나와 있습니다.
+   >게재의 대상 모집단을 선택할 때의 자세한 프로세스는 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#target-population.){target="_blank"}의 이 섹션에 나와 있습니다.
    >
    >개인화 필드 사용에 대한 자세한 내용은 [이 섹션](about-personalization.md)을 참조하세요.
    >

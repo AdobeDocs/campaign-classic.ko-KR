@@ -5,9 +5,9 @@ description: 친구 양식 참조 를 만드는 단계 알아보기
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Surveys
 exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >게재 템플릿에 대한 자세한 정보는 [이 페이지](../../delivery/using/about-templates.md)를 참조하세요.
+   >게재 템플릿에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}를 참조하세요.
 
 1. 구독 메시지를 게재하는 두 번째 스크립트를 만듭니다.
 
@@ -117,7 +117,7 @@ ht-degree: 0%
     </delivery>)
    ```
 
-1. Publish에서 경쟁 양식을 작성하고 초기 대상의 수신자에게 초대를 보냅니다. 둘 중 한 명이 친구를 초대하면 **추천 오퍼** 템플릿을 기반으로 게재가 만들어집니다.
+1. 경쟁 양식을 게시하고 초기 대상의 수신자에게 초대를 보냅니다. 둘 중 한 명이 친구를 초대하면 **추천 오퍼** 템플릿을 기반으로 게재가 만들어집니다.
 
    ![](assets/s_ncs_admin_survey_viral_sample_8.png)
 

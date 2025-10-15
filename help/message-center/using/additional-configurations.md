@@ -7,9 +7,9 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '798'
 ht-degree: 4%
 
 ---
@@ -131,7 +131,7 @@ Once the control and execution modules are installed on the same instance, you m
    >
    >[스키마 확장](../../configuration/using/extending-a-schema.md) 섹션에서 기존 스키마를 확장하는 방법을 알아보세요.
 
-1. nms:extAccount 양식을 수정합니다.
+1. nms:extAccount 양식 수정:
 
    ```
    <container label="Message domain branding" type="frame">
@@ -169,6 +169,6 @@ Once the control and execution modules are installed on the same instance, you m
 
 1. [실행 인스턴스](#execution-instance)에 정의된 내부 이름과 동일한 외부 계정을 브랜드당 하나씩 만듭니다(1단계).
 
-1. 브랜드당 [게재 템플릿](../../delivery/using/about-templates.md)을(를) 만듭니다.
+1. 브랜드별 게재 템플릿을 만듭니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}를 참조하세요.
 
 1. 게재 템플릿의 **[!UICONTROL Properties]**&#x200B;에서 라우팅을 브랜드의 외부 계정으로 설정합니다.

@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1235'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Adobe은 Campaign Adobe이 호스팅하는 데이터베이스 설정에서 VACUUM FULL을 실행하지 않도록 강력히 제안합니다. 제안된 유지 관리 지침은 온-프레미스 설치에만 해당됩니다. 사용자 지정 테이블 구현 및 스키마의 경우 VACUUM이 모니터링 없이 정지된 쿼리를 발생시키는 테이블만 잠글 수 있으므로 자체 위험이 있는 VACUUM FULL을 사용합니다. 경우에 따라 전체 데이터베이스를 잠글 수 있습니다.
+>Adobe은 Campaign Adobe에서 호스팅하는 데이터베이스 설정에서 VACUUM FULL을 실행하지 않도록 강력히 제안합니다. 제안된 유지 관리 지침은 온-프레미스 설치에만 해당됩니다. 사용자 지정 테이블 구현 및 스키마의 경우 VACUUM이 모니터링 없이 정지된 쿼리를 발생시키는 테이블만 잠글 수 있으므로 자체 위험이 있는 VACUUM FULL을 사용합니다. 경우에 따라 전체 데이터베이스를 잠글 수 있습니다.
 
 PostgreSQL에서는 다음과 같은 일반적인 키워드를 사용할 수 있습니다.
 
@@ -141,11 +141,11 @@ VACUUM (FULL, ANALYZE, VERBOSE) nmsmirrorpageinfo;
 
 >[!NOTE]
 >
->* Adobe은 작은 테이블로 시작하는 것을 권장합니다. 이런 식으로, 프로세스가 큰 테이블(실패 위험이 가장 높은 테이블)에서 실패할 경우 적어도 일부의 유지 관리가 완료되었습니다.
->* Adobe은 중요 업데이트가 발생할 수 있는 데이터 모델에 특정한 테이블을 추가할 것을 권장합니다. 일일 데이터 복제 흐름이 큰 경우 **NmsRecipient**&#x200B;이(가) 이러한 경우일 수 있습니다.
+>* Adobe에서는 작은 테이블부터 시작하는 것이 좋습니다. 이렇게 하면 실패 위험이 가장 높은 큰 테이블에서 프로세스가 실패하는 경우 최소한 일부 유지 관리가 완료된 것입니다.
+>* Adobe에서는 중요한 업데이트가 발생할 수 있는 데이터 모델에 특정한 테이블을 추가할 것을 권장합니다. 일일 데이터 복제 흐름이 큰 경우 **NmsRecipient**&#x200B;이(가) 이러한 경우일 수 있습니다.
 >* VACUUM 문은 유지 관리가 수행되는 동안 일부 프로세스를 일시 중지하는 테이블을 잠급니다.
->* 매우 큰 테이블(일반적으로 5Gb 이상)의 경우 VACUUM FULL 문은 매우 비효율적이며 시간이 오래 걸릴 수 있습니다. Adobe은 **YyyNmsBroadLogXxx** 테이블에 사용하지 않는 것이 좋습니다.
->* 이 유지 관리 작업은 **[!UICONTROL SQL]** 활동을 사용하여 Adobe Campaign 워크플로우로 구현할 수 있습니다. 자세한 정보는 [이 섹션](../../workflow/using/architecture.md)을 참조하세요. 백업 윈도우와 충돌하지 않는 짧은 작업 시간 동안 유지 관리를 예약해야 합니다.
+>* 매우 큰 테이블(일반적으로 5Gb 이상)의 경우 VACUUM FULL 문은 매우 비효율적이며 시간이 오래 걸릴 수 있습니다. Adobe에서는 **YyyNmsBroadLogXxx** 테이블에 사용하지 않는 것이 좋습니다.
+>* 이 유지 관리 작업은 **[!UICONTROL SQL]** 활동을 사용하여 Adobe Campaign 워크플로우로 구현할 수 있습니다. 백업 윈도우와 충돌하지 않는 짧은 작업 시간 동안 유지 관리를 예약해야 합니다.
 >
 
 ### 데이터베이스 재구축 {#rebuilding-a-database}
@@ -157,7 +157,7 @@ PostgreSQL은 VACUUM FULL 문이 테이블을 잠그므로 온라인 테이블 �
 
 다음은 필요한 DDL을 생성하기 위해 특정 함수를 사용하는 테이블 조각 모음의 예입니다. 다음 SQL을 사용하면 두 개의 새 함수 **GenRebuildTablePart1**&#x200B;과(와) **GenRebuildTablePart2**&#x200B;을(를) 만들 수 있습니다. 이 함수는 테이블을 다시 만드는 데 필요한 DDL을 생성하는 데 사용할 수 있습니다.
 
-* 첫 번째 기능을 사용하면 원래 테이블의 복사본인 작업 테이블(**&#x200B; _tmp**&#x200B;을 만들 수 있습니다.
+* 첫 번째 기능을 사용하면 원래 테이블의 복사본인 작업 테이블(** _tmp**을 만들 수 있습니다.
 * 그런 다음 두 번째 함수는 원래 테이블을 삭제하고 작업 테이블과 해당 인덱스의 이름을 바꿉니다.
 * 한 함수 대신 두 함수를 사용한다는 것은 첫 번째 함수가 실패하면 원래 테이블을 삭제할 위험이 없다는 것을 의미합니다.
 

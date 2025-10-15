@@ -6,9 +6,9 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: A/B Testing
 role: User
 exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '236'
 ht-degree: 3%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 3%
 
 이 섹션에서는 A/B 테스트를 수행하는 워크플로우를 구축하는 방법에 대해 자세히 설명합니다.
 
-1. 새 워크플로우를 만든 다음 원하는 모집단을 타겟팅하도록 [쿼리](../../workflow/using/query.md) 활동을 구성합니다.
+1. 새 워크플로우를 만든 다음 원하는 모집단을 타겟팅하도록 쿼리 활동을 구성합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}를 참조하세요.
 
-1. [Split](../../workflow/using/split.md) 활동을 추가하여 타겟팅된 모집단을 여러 하위 집합으로 나눕니다.
+1. 분할 활동을 추가하여 타겟팅된 모집단을 여러 하위 세트로 나눕니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"}를 참조하세요.
 
 1. 활동을 열고 필요에 따라 각 하위 세트를 구성합니다. **[!UICONTROL Split]** 활동을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../workflow/using/split.md)을 참조하세요.
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 
    ![](assets/ab-testing-split.png)
 
-1. 전환을 추가하여 나머지 모집단에 현재 주제가 포함된 뉴스레터를 보냅니다. 이렇게 하려면 **[!UICONTROL General]** 탭에서 **[!UICONTROL Generate complement]** 옵션을 활성화합니다.
+1. 전환을 추가하여 나머지 모집단에 현재 주제가 포함된 뉴스레터를 보냅니다. 이렇게 하려면 **[!UICONTROL Generate complement]** 탭에서 **[!UICONTROL General]** 옵션을 활성화합니다.
 
    ![](assets/ab-testing-complement.png)
 

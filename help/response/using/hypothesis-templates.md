@@ -8,9 +8,9 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1390'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 2%
 
   >[!NOTE]
   >
-  >템플릿이 오퍼에 적용되는 경우 **[!UICONTROL Transactions]** 탭에서 **[!UICONTROL Update offer proposition status]** 옵션을 사용할 수 있습니다.
+  >템플릿이 오퍼에 적용되는 경우 **[!UICONTROL Update offer proposition status]** 탭에서 **[!UICONTROL Transactions]** 옵션을 사용할 수 있습니다.
 
 * **[!UICONTROL Measurement with control group]**: 게재 또는 캠페인에 대해 컨트롤 그룹이 정의되었는지 여부를 표시하고 측정 지표에 포함할 수 있습니다. 게재를 받지 않는 컨트롤 그룹을 사용하면 게재를 받은 대상 모집단과 비교하여 게재 후 캠페인의 영향을 측정할 수 있습니다.
 
@@ -65,7 +65,7 @@ ht-degree: 2%
   >
   >제어 그룹을 고려하도록 템플릿을 구성했지만 가설에 관련된 게재에 그룹이 정의되지 않은 경우 결과는 타겟팅된 수신자만 기반으로 합니다.
 
-  컨트롤 그룹 정의 및 구성에 대한 자세한 내용은 [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)을 참조하세요.
+  컨트롤 그룹 정의 및 구성에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target=_blank}를 참조하세요.
 
 * **[!UICONTROL Channel]**: 드롭다운 목록에서 **[!UICONTROL All channels]**&#x200B;을(를) 선택하여 Adobe Campaign 콘솔의 모든 채널에서 특정 채널을 선택하거나 가설 템플릿을 사용할 수 있도록 할 수 있습니다. 특정 채널에 대해 템플릿을 구성하는 경우 가설을 생성할 때 채널당 게재를 자동으로 필터링할 수 있습니다. [자세히 알아보기](creating-hypotheses.md)
 

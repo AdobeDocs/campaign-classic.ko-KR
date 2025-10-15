@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '3831'
+source-wordcount: '3834'
 ht-degree: 1%
 
 ---
@@ -57,8 +57,9 @@ ht-degree: 1%
   </tr>
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
-   <td><p> 게재 속성에서 게재를 시작하도록 특정 연산자 또는 연산자 그룹이 지정된 경우 게재를 담당하는 운영자가 전송을 확인하도록 할 수 있습니다.</p><p> 이렇게 하려면 "1"을 값으로 입력하여 옵션을 활성화합니다. 이 옵션을 비활성화하려면 "0"을 입력합니다.</p><p> 그러면 전송 확인 프로세스가 기본값으로 작동합니다. 게재 속성에서 전송을 위해 지정된 운영자 또는 운영자 그룹(또는 관리자)만 전송을 확인하고 수행할 수 있습니다. <a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">이 섹션</a>을 참조하십시오.</p> </td> 
-   <tr> 
+   <td><p> 게재 속성에서 게재를 시작하도록 특정 연산자 또는 연산자 그룹이 지정된 경우 게재를 담당하는 운영자가 전송을 확인하도록 할 수 있습니다.</p><p> 이렇게 하려면 "1"을 값으로 입력하여 옵션을 활성화합니다. 이 옵션을 비활성화하려면 "0"을 입력합니다.</p><p> 그러면 전송 확인 프로세스가 기본값으로 작동합니다. 게재 속성에서 전송을 위해 지정된 운영자 또는 운영자 그룹(또는 관리자)만 전송을 확인하고 수행할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html#start-a-delivery" target="_blank">이 섹션</a>을 참조하십시오.</p> </td>
+
+<tr> 
    <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
    <td> Adobe Campaign은 "Nms_DefaultRcpSchema" 전역 변수를 사용하여 기본 수신자 데이터베이스(nms:recipient)와 대화를 나눕니다.<br /> 옵션 값은 외부 수신자 테이블과 일치하는 스키마 이름과 일치해야 합니다.<br /> </td> 
   </tr> 
@@ -208,7 +209,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>실행 중인 게재 수를 계산할 때 <span class="uicontrol"><a href="../../workflow/using/about-technical-workflows.md">operationMgt</a></span> 기술 워크플로우에서 이 옵션을 사용합니다.</p>상태가 일관되지 않은 게재가 실행 중인 게재 수에서 제외되는 일 수를 정의할 수 있습니다.</p><p>기본적으로 값은 "7"로 설정되어 있습니다. 즉, 7일이 지난 일관되지 않은 게재는 제외됩니다.</p></td> 
+   <td><p>실행 중인 게재 수를 계산할 때 <span class="uicontrol"><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html" target="_blank">operationMgt</a></span> 기술 워크플로우에서 이 옵션을 사용합니다.</p>상태가 일관되지 않은 게재가 실행 중인 게재 수에서 제외되는 일 수를 정의할 수 있습니다.</p><p>기본적으로 값은 "7"로 설정되어 있습니다. 즉, 7일이 지난 일관되지 않은 게재는 제외됩니다.</p></td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
@@ -364,7 +365,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_OperationMgtDebug</span> <br /> </td> 
-   <td> <a href="../../workflow/using/about-technical-workflows.md">operationMgt</a> 기술 워크플로우 실행을 모니터링할 수 있습니다. 활성화되면(값 "1") 실행 정보가 워크플로우 감사 로그에 기록됩니다.<br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html" target="_blank">operationMgt</a> 기술 워크플로우 실행을 모니터링할 수 있습니다. 활성화되면(값 "1") 실행 정보가 워크플로우 감사 로그에 기록됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_TimeRange</span> <br /> </td> 
@@ -639,19 +640,19 @@ ht-degree: 1%
   </tr>  
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceUser</span> <br /> </td> 
-   <td> Adobe Campaign ootb 테이블의 데이터를 포함하기 위한 테이블스페이스의 이름입니다.<br />데이터베이스 만들기 및 구성</a>을 참조하세요.<a href="../../installation/using/creating-and-configuring-the-database.md"></td> 
+   <td> Adobe Campaign ootb 테이블의 데이터를 포함하기 위한 테이블스페이스의 이름입니다.<br />데이터베이스 만들기 및 구성<a href="../../installation/using/creating-and-configuring-the-database.md">을 참조하세요.</a></td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceIndex</span> <br /> </td> 
-   <td> Adobe Campaign ootb 테이블의 인덱스를 포함할 테이블스페이스의 이름입니다.<br />데이터베이스 만들기 및 구성</a>을 참조하세요.<a href="../../installation/using/creating-and-configuring-the-database.md"></td> 
+   <td> Adobe Campaign ootb 테이블의 인덱스를 포함할 테이블스페이스의 이름입니다.<br />데이터베이스 만들기 및 구성<a href="../../installation/using/creating-and-configuring-the-database.md">을 참조하세요.</a></td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWork</span> <br /> </td> 
-   <td> Adobe Campaign 작업 테이블의 데이터를 포함하려는 테이블스페이스의 이름입니다.<br />데이터베이스 만들기 및 구성</a>을 참조하세요.<a href="../../installation/using/creating-and-configuring-the-database.md"></td> 
+   <td> Adobe Campaign 작업 테이블의 데이터를 포함하려는 테이블스페이스의 이름입니다.<br />데이터베이스 만들기 및 구성<a href="../../installation/using/creating-and-configuring-the-database.md">을 참조하세요.</a></td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWorkIndex</span> <br /> </td> 
-   <td> Adobe Campaign 작업 테이블의 인덱스를 포함할 테이블스페이스의 이름입니다.<br />데이터베이스 만들기 및 구성</a>을 참조하세요.<a href="../../installation/using/creating-and-configuring-the-database.md"></td> 
+   <td> Adobe Campaign 작업 테이블의 인덱스를 포함할 테이블스페이스의 이름입니다.<br />데이터베이스 만들기 및 구성<a href="../../installation/using/creating-and-configuring-the-database.md">을 참조하세요.</a></td> 
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
@@ -728,7 +729,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">nmsPipeline_config</span> <br /> </td> 
-   <td> Experience Cloud 트리거를 구성할 수 있습니다. 데이터 유형은 "긴 텍스트"이며 JSON 형식이어야 합니다. <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Adobe Campaign Classic에서 Experience Cloud 트리거를 사용하는 방법</a>.<br />을 참조하세요. </td> 
+   <td> Experience Cloud 트리거를 구성할 수 있습니다. 데이터 유형은 "긴 텍스트"이며 JSON 형식이어야 합니다. <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Adobe Campaign Classic에서 Experience Cloud 트리거를 사용하는 방법</a>을 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</span> <br /> </td> 
@@ -912,7 +913,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-## 개인 정보 보호 {#privacy}
+## 개인 정보 {#privacy}
 
 <table> 
  <thead> 

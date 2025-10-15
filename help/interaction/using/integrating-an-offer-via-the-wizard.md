@@ -7,9 +7,9 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 64aea8b9-7f06-4db0-a3e6-6a0e17c3ddcb
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ![](assets/offer_delivery_009.png)
 
-DM 게재에 대한 자세한 내용은 이 섹션[&#128279;](../../delivery/using/about-direct-mail-channel.md)을 참조하세요.  마케팅 캠페인에 대해 자세히 알아보기 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md).
+DM 게재에 대한 자세한 내용은 이 섹션[을 참조하세요. ](../../delivery/using/about-direct-mail-channel.md) [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko){target=_blank}에서 마케팅 캠페인에 대해 자세히 알아보세요.
 
 ### 게재에 오퍼를 삽입하는 주요 단계 {#main-steps-for-inserting-an-offer-into-a-delivery}
 
@@ -90,7 +90,7 @@ DM 게재에 대한 자세한 내용은 이 섹션[&#128279;](../../delivery/usi
 
 게재 개요를 사용하여 게재에 오퍼를 표시할 수도 있습니다.
 
-게재 개요에 대한 자세한 내용은 [Campaign - MRM](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline) 안내서를 참조하세요.
+게재 개요에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets#delivery-outlines.html){target="_blank"}를 참조하세요.
 
 1. 새 캠페인을 만들거나 기존 캠페인에 액세스합니다.
 1. 캠페인의 **[!UICONTROL Edit]** > **[!UICONTROL Documents]** 탭을 통해 게재 개요에 액세스합니다.

@@ -7,9 +7,9 @@ feature: Campaigns, Cross Channel Orchestration
 hide: true
 hidefromtoc: true
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1202'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ Adobe Campaign에 연결되면 탐색 막대의 링크를 사용하여 다양한
 
 캠페인 요소는 **[!UICONTROL Campaigns]** 탭에 있습니다. 여기에서 마케팅 프로그램, 캠페인 및 하위 세트에 대한 개요를 볼 수 있습니다. 마케팅 프로그램은 게재, 작업, 연결된 리소스 등으로 구성되는 캠페인으로 구성됩니다. Campaign을 사용한 마케팅 캠페인 관리의 맥락에서 게재, 예산, 검토자 및 연결된 문서에 대한 정보는 캠페인에서 찾을 수 있습니다.
 
-**[!UICONTROL Campaigns]** 탭의 **[!UICONTROL Browsing]** 블록에서는 인스턴스에 설치된 모듈에 따라 다양한 항목을 제공합니다. 예를 들어 다음 항목에 액세스할 수 있습니다.
+**[!UICONTROL Browsing]** 탭의 **[!UICONTROL Campaigns]** 블록에서는 인스턴스에 설치된 모듈에 따라 다양한 항목을 제공합니다. 예를 들어 다음 항목에 액세스할 수 있습니다.
 
 * **캠페인 일정**: 계획, 마케팅 프로그램, 게재 및 캠페인의 일정입니다. [캠페인 일정](#campaign-calendar)을 참조하세요.
 * **캠페인**: 모든 마케팅 프로그램에 포함된 캠페인에 액세스합니다.
@@ -41,11 +41,11 @@ Adobe Campaign에 연결되면 탐색 막대의 링크를 사용하여 다양한
 >
 >전체 Adobe Campaign 인체공학, 권한 및 프로필 관리 기능에 대한 자세한 내용은 [이 섹션](../../platform/using/adobe-campaign-workspace.md)을 참조하세요.
 >
->채널 및 게재와 관련된 모든 기능은 [이 섹션](../../delivery/using/steps-about-delivery-creation-steps.md)에 자세히 설명되어 있습니다.
+>채널 및 게재와 관련된 모든 기능은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}에 자세히 설명되어 있습니다.
 
 ### 캠페인 캘린더 {#campaign-calendar}
 
-각 캠페인은 프로그램에 속하며, 프로그램에 속하면 계획에 속합니다. 계획, 프로그램 및 캠페인은 **캠페인** 탭의 **[!UICONTROL Campaign calendar]** 메뉴를 통해 액세스할 수 있습니다.
+각 캠페인은 프로그램에 속하며, 프로그램에 속하면 계획에 속합니다. 계획, 프로그램 및 캠페인은 **[!UICONTROL Campaign calendar]**&#x200B;캠페인&#x200B;**탭의** 메뉴를 통해 액세스할 수 있습니다.
 
 플랜, 프로그램, 캠페인 또는 게재를 편집하려면 일정에서 해당 이름을 클릭한 다음 **[!UICONTROL Open...]**&#x200B;을(를) 클릭합니다. 그런 다음 아래와 같이 새 탭에 표시됩니다.
 
@@ -150,7 +150,7 @@ Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등의 다양한 마케
 
 >[!NOTE]
 >
->캠페인 구성에 액세스하여 변경하려면 **[!UICONTROL Edit]** 탭에서 **[!UICONTROL Advanced campaign parameters...]** 링크를 클릭하십시오.
+>캠페인 구성에 액세스하여 변경하려면 **[!UICONTROL Advanced campaign parameters...]** 탭에서 **[!UICONTROL Edit]** 링크를 클릭하십시오.
 
 ## 웹 인터페이스 사용 {#using-the-web-interface-}
 

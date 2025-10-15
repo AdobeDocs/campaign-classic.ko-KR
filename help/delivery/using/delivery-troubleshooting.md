@@ -6,9 +6,9 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Monitoring, Deliverability, Troubleshooting
 role: User
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '809'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 * 일부 이메일 공급자가 IP 주소를 차단 목록에 추가하다에 추가했을 수 있습니다. 이 경우 브로드로그를 확인하고 [이 섹션](about-deliverability.md)을 참조하세요.
 
-* 게재가 너무 커서 빠르게 처리할 수 없습니다. 이는 높은 JavaScript 개인화를 통해 발생하거나 게재 무게가 60kb 이상인 경우 발생할 수 있습니다. 콘텐츠 지침에 대한 자세한 내용은 Adobe Campaign [게재 모범 사례](delivery-best-practices.md)를 참조하세요.
+* 게재가 너무 커서 빠르게 처리할 수 없습니다. 이는 높은 JavaScript 개인화를 통해 발생하거나 게재 무게가 60kb 이상인 경우 발생할 수 있습니다. Adobe Campaign v8 [게재 모범 사례](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}를 참조하세요.  콘텐츠 지침에 대해 알아봅니다.
 
 * Adobe Campaign MTA 내에서 제한이 발생했을 수 있습니다. 이 문제는 다음으로 인해 발생합니다.
 
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 게재가 정확한 예약된 날짜에 실행되지 않는 경우 서버 시간대 간의 차이와 관련될 수 있습니다. 중간 소싱 인스턴스와 프로덕션 인스턴스는 다른 시간대에 있을 수 있습니다.
 
-예를 들어 중간 소싱 인스턴스가 브리즈번 시간대에 있고 프로덕션 인스턴스가 다윈 시간대에 있는 경우 두 시간대가 서로 30분 정도 떨어져 있으며, 감사 로그에서 게재를 11:56에 프로덕션으로 예약한 경우 mid로 예약한 동일한 게재가 12:26에 30분 정도 차이가 난다는 것을 명확하게 확인할 수 있습니다.
+예를 들어 중간 소싱 인스턴스가 브리즈번 시간대에 있고 프로덕션 인스턴스가 다윈 시간대에 있는 경우 두 시간대가 서로 30분 정도 떨어져 있으며, 감사 로그에서 게재가 11:56에 프로덕션으로 예약되어 있는 경우 mid로 예약된 동일한 게재가 12:26에 30분의 차이가 나는지 명확하게 확인할 수 있습니다.
 
 ## 실패 상태 {#failed-status}
 
@@ -59,7 +59,7 @@ ht-degree: 1%
   Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
   ```
 
-  이 문제의 원인은 거의 항상 업스트림 타겟팅 또는 게재 대상 매핑에서 정의되거나 매핑되지 않은 테이블 또는 필드를 호출하려는 HTML 내의 개인화입니다.
+  이 문제의 원인은 거의 항상 HTML 내의 개인화가 업스트림 타겟팅 또는 게재 타겟 매핑에서 정의되거나 매핑되지 않은 테이블 또는 필드를 호출하려고 하기 때문입니다.
 
   이 문제를 해결하려면 워크플로우 및 게재 콘텐츠를 검토하여 해당 테이블을 호출하려고 하는 개인화와 테이블을 매핑할 수 있는지 여부를 구체적으로 결정해야 합니다. 여기에서 HTML에서 이 테이블에 대한 호출을 제거하거나 매핑을 게재에 수정하면 문제 해결 경로가 됩니다.
 
@@ -73,7 +73,7 @@ ht-degree: 1%
 
   이 문제를 해결하려면 진공을 수행하고 데이터베이스를 다시 인덱싱하는 것이 좋습니다. 데이터베이스 유지 관리에 대한 자세한 내용은 [이 섹션](../../production/using/recommendations.md)을 참조하세요.
 
-  또한 예약된 활동이 있는 모든 워크플로우와 실패 상태에 있는 모든 워크플로우를 다시 시작해야 합니다. [이 섹션](../../workflow/using/scheduler.md)을 참조하십시오.
+  또한 예약된 활동이 있는 모든 워크플로우와 실패 상태에 있는 모든 워크플로우를 다시 시작해야 합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}를 참조하세요.
 
 * 게재가 실패하면 게재 로그에 다음 오류가 표시될 수 있습니다.
 
@@ -83,7 +83,7 @@ ht-degree: 1%
 
   일반적으로 이 오류는 이메일 내에 수신자에 대한 값이 두 개 이상 있는 개인화 필드 또는 블록이 있음을 의미합니다. 개인화 블록을 사용 중이며 특정 수신자에 대해 두 개 이상의 레코드를 가져오고 있습니다.
 
-  이를 해결하려면 사용된 개인화 데이터를 확인한 다음 해당 필드에 둘 이상의 항목이 있는 수신자의 타겟을 확인합니다. 게재 활동 이전에 타기팅 워크플로우에서 **[!UICONTROL Deduplication]** 활동을 사용하여 한 번에 하나의 개인화 필드만 있는지 확인할 수도 있습니다. 중복 제거에 대한 자세한 내용은 [이 페이지](../../workflow/using/deduplication.md)를 참조하세요.
+  이를 해결하려면 사용된 개인화 데이터를 확인한 다음 해당 필드에 둘 이상의 항목이 있는 수신자의 타겟을 확인합니다. 게재 활동 이전에 타기팅 워크플로우에서 **[!UICONTROL Deduplication]** 활동을 사용하여 한 번에 하나의 개인화 필드만 있는지 확인할 수도 있습니다. 중복 제거에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}를 참조하세요.
 
 * 일부 게재가 실패하고 다음과 같은 &quot;연결할 수 없음&quot; 오류가 표시될 수 있습니다.
 

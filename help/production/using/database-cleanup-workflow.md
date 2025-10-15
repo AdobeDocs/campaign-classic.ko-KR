@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '2827'
+source-wordcount: '2829'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 소개 {#introduction}
 
-**[!UICONTROL Administration > Production > Technical workflows]** 노드를 통해 액세스할 수 있는 **[!UICONTROL Database cleanup]** 워크플로를 사용하면 데이터베이스의 기하급수적인 증가를 방지하기 위해 오래된 데이터를 삭제할 수 있습니다. 워크플로우는 사용자의 개입 없이 자동으로 트리거됩니다.
+**[!UICONTROL Database cleanup]** 노드를 통해 액세스할 수 있는 **[!UICONTROL Administration > Production > Technical workflows]** 워크플로를 사용하면 데이터베이스의 기하급수적인 증가를 방지하기 위해 오래된 데이터를 삭제할 수 있습니다. 워크플로우는 사용자의 개입 없이 자동으로 트리거됩니다.
 
 ![정리](assets/ncs_cleanup_workflow.png)
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->스케줄러에 대한 자세한 내용은 [이 섹션](../../workflow/using/scheduler.md)을 참조하세요.
+>스케줄러에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}를 참조하세요.
 
 기본적으로 **[!UICONTROL Database cleanup]** 워크플로우는 매일 오전 4시에 시작되도록 구성되어 있습니다. 스케줄러를 사용하여 워크플로우 트리거 빈도를 변경할 수 있습니다. 다음 빈도를 사용할 수 있습니다.
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ### 배포 마법사 {#deployment-assistant}
 
-**[!UICONTROL Tools > Advanced]** 메뉴를 통해 액세스할 수 있는 **[!UICONTROL deployment wizard]**&#x200B;을(를) 사용하면 데이터가 저장되는 기간을 구성할 수 있습니다. 값은 일 단위로 표시됩니다. 이 값을 변경하지 않으면 워크플로우는 기본값을 사용합니다.
+**[!UICONTROL deployment wizard]** 메뉴를 통해 액세스할 수 있는 **[!UICONTROL Tools > Advanced]**&#x200B;을(를) 사용하면 데이터가 저장되는 기간을 구성할 수 있습니다. 값은 일 단위로 표시됩니다. 이 값을 변경하지 않으면 워크플로우는 기본값을 사용합니다.
 
 ![](assets/ncs_cleanup_deployment-wizard.png)
 

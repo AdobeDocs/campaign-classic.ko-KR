@@ -6,9 +6,9 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Deliverability
 role: User, Admin
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '550'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 1%
 ## 게재 기능 모니터링 정보 {#about-deliverability-monitoring}
 
 이 기능은 Adobe Campaign의 전용 패키지를 통해 사용할 수 있습니다. 사용하려면 이 패키지를 설치해야 합니다. 작업이 완료되면 패키지를 고려하기 위해 서버를 다시 시작합니다.
-* 호스팅 및 하이브리드 클라이언트의 경우 Adobe 기술 지원 및 컨설턴트가 인스턴스에 **게재 가능성 모니터링**&#x200B;을 구성합니다. 자세한 내용은 Adobe 계정 담당자에게 문의하십시오.
+* 호스팅 및 하이브리드 클라이언트의 경우 Adobe 기술 지원 및 컨설턴트가 인스턴스에 **게재 가능성 모니터링**&#x200B;을(를) 구성합니다. 자세한 내용은 Adobe 계정 담당자에게 문의하십시오.
 
-* 온-프레미스 설치의 경우 **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** 메뉴를 통해 **[!UICONTROL Deliverability monitoring (Email Deliverability)]** 패키지를 설치해야 합니다. 자세한 내용은 [Campaign Classic 표준 패키지 설치](../../installation/using/installing-campaign-standard-packages.md)를 참조하십시오.
+* 온-프레미스 설치의 경우 **[!UICONTROL Deliverability monitoring (Email Deliverability)]** > **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** 메뉴를 통해 **[!UICONTROL Import package]** 패키지를 설치해야 합니다. 자세한 내용은 [Campaign Classic 표준 패키지 설치](../../installation/using/installing-campaign-standard-packages.md)를 참조하십시오.
 
 Adobe Campaign Classic에서 **게재 가능성 모니터링**&#x200B;은(는) **[!UICONTROL Refresh for deliverability]** 워크플로우에서 관리합니다. 모든 인스턴스에 기본적으로 설치되며 바운스 메일 자격 규칙 목록, 도메인 목록 및 MX 목록을 초기화할 수 있습니다. **[!UICONTROL Deliverability monitoring (Email Deliverability)]** 패키지가 설치되면 이 워크플로가 매일 밤 실행되어 규칙 목록을 정기적으로 업데이트하며 플랫폼 전달성을 능동적으로 관리할 수 있습니다.
 
@@ -54,6 +54,6 @@ Adobe Campaign Classic에서 **게재 가능성 모니터링**&#x200B;은(는) *
 * 게재 템플릿에 [다시 시도](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)가 올바르게 설정되었는지(다시 시도 기간 30분 및 20번 이상 다시 시도) 확인하십시오.
 * [바운스](understanding-delivery-failures.md#bounce-mail-management) 사서함에 액세스할 수 있고 계정이 곧 만료되지 않는지 정기적으로 확인하십시오.
 * [게재 대시보드](delivery-dashboard.md)에서 액세스할 수 있는 각 게재 처리량을 확인하여 게재 콘텐츠의 유효성과 일치하는지 확인합니다(예: &#39;플래시 판매&#39;는 일 수가 아닌 분 단위로 제공되어야 함).
-* [예약된 일괄 처리](steps-sending-the-delivery.md#sending-using-multiple-waves)를 사용하는 경우 다음 예약된 일괄 처리가 트리거되기 전에 각 일괄 처리를 완료할 시간이 충분한지 확인하십시오.
+* 웨이브를 사용할 때 다음 웨이브가 트리거되기 전에 각 웨이브가 완료되기에 충분한 시간이 있는지 확인합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html#sending-using-multiple-waves){target="_blank"}를 참조하세요.
 * 오류 수와 새 [격리](understanding-quarantine-management.md)이(가) 다른 게재와 일치하는지 확인하십시오.
 * 강조 표시된 오류 종류(차단 목록, DNS 문제, 스팸 방지 규칙 등)를 확인하려면 [게재 로그](delivery-dashboard.md#delivery-logs-and-history)를 자세히 참조하세요.

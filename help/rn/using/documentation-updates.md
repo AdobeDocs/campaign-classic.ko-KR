@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '3864'
+source-wordcount: '3865'
 ht-degree: 99%
 
 ---
@@ -30,7 +30,7 @@ Campaign v8 프로모션 이니셔티브의 일환으로 Campaign Classic 설명
 * 마케팅 캠페인 오케스트레이션: 이 안내서는 [랜딩 페이지](../../campaign/using/about-marketing-campaigns.md)로 대체되었습니다.
 * 마케팅 리소스 관리: 이 안내서는 제거되었습니다.
 * 분산 마케팅: 이 안내서는 제거되었습니다.
-* 워크플로 자동화: 이 안내서는 [랜딩 페이지](../../workflow/using/about-workflow-automation.md)로 대체되었습니다.
+* 워크플로 자동화: 이 안내서는 [랜딩 페이지](../../workflow/using/about-workflows.md)로 대체되었습니다.
 
 ## 2024
 
@@ -419,7 +419,7 @@ Campaign 빌드 업그레이드에 대한 FAQ가 Campaign 일반 질문에 추�
 
 * [개인화 필드를 사용하여 이메일을 개인화하는 방법](../../delivery/using/personalization-fields.md)
 
-* [이메일에서 시드 및 교정쇄를 관리하는 방법](../../delivery/using/steps-defining-the-target-population.md)
+* [전자 메일에서 시드 및 증명을 관리하는 방법](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#target-population){target="_blank"}.
 
 * [반복 게재를 설정하는 방법](../../workflow/using/recurring-delivery.md)
 

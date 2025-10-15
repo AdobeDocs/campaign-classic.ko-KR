@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
-source-git-commit: 0db6f107d2c161b07f42dcf7a932d319130b31e0
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 82%
+source-wordcount: '493'
+ht-degree: 79%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 82%
 Campaign Classic을 사용하여 작업하는 동안 도움이 필요하십니까? 아래의 상위 10개 질문과 해당 페이지의 기타 FAQ를 참조하십시오. 다음을 수행할 수도 있습니다.
 
 * [튜토리얼 비디오 보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)
-* 답을 찾을 수 없습니까? [전문가에게 문의](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ko)
+* 답을 찾을 수 없습니까? [전문가에게 문의](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
 * 지원이 필요하십니까? [캠페인 도움말 및 지원 옵션 참조](../../support.md)
 
 ## &#x200B;1. Campaign을 최신 버전으로 업그레이드하려면 어떻게 해야 합니까? {#how-can-i-upgrade-campaign-to-the-latest-version-}
@@ -52,7 +52,8 @@ Adobe Campaign에는 전자 메일 게재를 모니터링하는 대시보드 및
 
 ## &#x200B;5. 워크플로우 실행을 모니터링할 수 있습니까? {#can-i-monitor-workflow-execution}
 
-[이 페이지](../../workflow/using/starting-a-workflow.md)에서 캠페인 워크플로 실행을 모니터링하는 방법을 이해합니다.
+[Campaign v8 설명서]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution)에서 Campaign 워크플로우 실행을 모니터링하는 방법을 이해합니다.
+.html){target="_blank"}.
 
 ## &#x200B;6. Campaign Classic에 연결하는 방법 {#how-can-i-connect-to-campaign-classic-}
 

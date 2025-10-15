@@ -3,9 +3,9 @@ keywords: Campaign Classic;home;popular topics
 product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '341'
 ht-degree: 97%
 
 ---
@@ -60,7 +60,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
     <div><strong>워크플로로 자동화</strong><br/>워크플로를 활용하여 세분화, 캠페인 실행, 파일 처리, 인원 참여 등의 프로세스를 디자인하는 방법을 알아봅니다.
     </div></td>
     <td>
-    <a href="delivery/using/steps-about-delivery-creation-steps.md"><img src="assets/do-not-localize/start-deliveries.jpeg"></a>
+    <a href="delivery/using/communication-channels.md"><img src="assets/do-not-localize/start-deliveries.jpeg"></a>
     <div><strong>게재 만들기</strong><br/>여러 채널(이메일, SMS, 푸시 알림 등)에서 메시지를 보내는 방법을 알아봅니다.</div>
     </td>
   </tr>
@@ -68,7 +68,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
     <td align="center"><a href="platform/using/launching-adobe-campaign.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="platform/using/about-profiles.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="workflow/using/about-workflows.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="delivery/using/steps-about-delivery-creation-steps.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="delivery/using/communication-channels.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
 
@@ -84,7 +84,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>고객 경험</strong><br/><a href="workflow/using/about-workflows.md">워크플로로 자동화</a> - <a href="campaign/using/setting-up-marketing-campaigns.md">마케팅 캠페인</a> - <a href="interaction/using/interaction-and-offer-management.md">상호 작용 및 오퍼 관리</a> - <a href="delivery/using/about-personalization.md">개인화</a> - <a href="reporting/using/about-adobe-campaign-reporting-tools.md">보고</a>
+      <strong>고객 경험</strong><br/><a href="workflow/using/about-workflows.md">워크플로로 자동화</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko" target="_blank">마케팅 캠페인</a> - <a href="interaction/using/interaction-and-offer-management.md">상호 작용 및 오퍼 관리</a> - <a href="delivery/using/about-personalization.md">개인화</a> - <a href="reporting/using/about-adobe-campaign-reporting-tools.md">보고</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">

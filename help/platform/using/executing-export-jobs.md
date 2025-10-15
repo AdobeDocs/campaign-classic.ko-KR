@@ -8,9 +8,9 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
-source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '950'
 ht-degree: 2%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 2%
 
 ## 6단계 - 조건 필터링 {#step-6---filter-conditions-}
 
-모든 데이터를 내보내지 않도록 필터 조건을 추가할 수 있습니다. 이 필터링의 구성은 게재 도우미에서 수신자 타겟팅과 동일합니다. [이 페이지](../../delivery/using/steps-defining-the-target-population.md)를 참조하십시오.
+모든 데이터를 내보내지 않도록 필터 조건을 추가할 수 있습니다. 이 필터링의 구성은 게재 도우미에서 수신자 타겟팅과 동일합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#target-population){target="_blank"}를 참조하세요.
 
 ![](assets/s_ncs_user_export_wizard05_b.png)
 

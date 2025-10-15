@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1784'
-ht-degree: 8%
+source-wordcount: '1791'
+ht-degree: 6%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Campaign에는 미리 정의된 외부 계정 집합이 포함되어 있�
    필요한 정보는 일반적으로 연결 중인 서버 공급자가 제공합니다.
 
 1. 연결을 활성화하려면 **[!UICONTROL Enabled]** 옵션을 선택하십시오.
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 외부 계정이 만들어지고 외부 계정 목록에 추가됩니다.
 
@@ -47,7 +47,7 @@ Adobe Campaign에는 미리 정의된 외부 계정 집합이 포함되어 있�
 
 ### 바운스 메일 {#bounce-mails-external-account}
 
-**바운스 메일** 외부 계정은 전자 메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. 이 외부 계정에 대한 자세한 정보는 이 [페이지](../../workflow/using/inbound-emails.md)를 참조하세요.
+**바운스 메일** 외부 계정은 전자 메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. 이 외부 계정에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}를 참조하세요.
 
 POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는 데 사용할 수 있습니다.
 
@@ -118,9 +118,8 @@ POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는
 * [휴대폰](../../delivery/using/communication-channels.md#other-channels)
 * [DM](../../delivery/using/about-direct-mail-channel.md)
 * [에이전시](../../delivery/using/communication-channels.md#other-channels)
-* [X(이전 명칭: Twitter)](../../social/using/about-social-marketing.md)
-* [iOS 채널](../../delivery/using/configuring-the-mobile-application.md)
-* [Android 채널](../../delivery/using/configuring-the-mobile-application-android.md)
+* [X(이전 Twitter라고 함)](../../social/using/about-social-marketing.md)
+* [iOS 및 Android 채널](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html){target="_blank"}
 
 ### 이메일 라우팅 {#email-routing-external-account}
 
@@ -130,7 +129,7 @@ POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는
 
 * **중간 소싱**, **외부** 라우팅 또는 **대량** 게재 라우팅 유형을 사용할 수 있습니다.
 
-* **일괄** 및 **중간 소싱** 게재 모드의 경우 **브랜딩** 탭에서 브랜딩 매개 변수를 지정할 수 있습니다. 이러한 매개 변수는 **미러 페이지 URL** 및 **오류 주소**&#x200B;에 대한 [기본 매개 변수](../../installation/using/deploying-an-instance.md#email-channel-parameters)을(를) 브랜드 관련 설정으로 재정의하는 데 사용됩니다.
+* **일괄** 및 **중간 소싱** 게재 모드의 경우 **브랜딩** 탭에서 브랜딩 매개 변수를 지정할 수 있습니다. 이러한 매개 변수는 [미러 페이지 URL](../../installation/using/deploying-an-instance.md#email-channel-parameters) 및 **오류 주소**&#x200B;에 대한 **기본 매개 변수**&#x200B;을(를) 브랜드 관련 설정으로 재정의하는 데 사용됩니다.
 
   ![](assets/ext-account-branding.png)
 
@@ -160,7 +159,7 @@ POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는
 
 ### FTP {#ftp-external-account}
 
-FTP 외부 계정을 사용하여 Adobe Campaign 외부의 서버에 대한 액세스를 구성하고 테스트할 수 있습니다. 파일 전송에 사용되는 FTP 서버 898과 같은 외부 시스템과의 연결을 설정하기 위해 자체 외부 계정을 만들 수 있습니다. 자세한 정보는 이 [페이지](../../workflow/using/file-transfer.md)를 참조하십시오.
+FTP 외부 계정을 사용하여 Adobe Campaign 외부의 서버에 대한 액세스를 구성하고 테스트할 수 있습니다. 파일 전송에 사용되는 FTP 서버 898과 같은 외부 시스템과의 연결을 설정하기 위해 자체 외부 계정을 만들 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}를 참조하세요.
 
 이렇게 하려면 이 외부 계정에서 FTP 서버 연결을 설정하는 데 사용되는 주소와 자격 증명을 지정합니다
 
@@ -190,7 +189,7 @@ FTP 외부 계정을 사용하여 Adobe Campaign 외부의 서버에 대한 액�
 
 ### SFTP {#sftp-external-account}
 
-SFTP 외부 계정을 사용하여 Adobe Campaign 외부의 서버에 대한 액세스를 구성하고 테스트할 수 있습니다. 파일 전송에 사용되는 SFTP와 같은 외부 시스템과의 연결을 설정하려면 고유한 외부 계정을 만들 수 있습니다. 자세한 정보는 이 [페이지](../../workflow/using/file-transfer.md)를 참조하십시오.
+SFTP 외부 계정을 사용하여 Adobe Campaign 외부의 서버에 대한 액세스를 구성하고 테스트할 수 있습니다. 파일 전송에 사용되는 SFTP와 같은 외부 시스템과의 연결을 설정하려면 고유한 외부 계정을 만들 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}를 참조하세요.
 
 ![](assets/ext_account_4.png)
 
@@ -229,10 +228,10 @@ Campaign과 호환되는 외부 데이터베이스는 [호환성 매트릭스](.
 
 외부 계정 구성 설정은 데이터베이스 엔진에 따라 다릅니다. 다음 섹션에서 자세히 알아보세요.
 
-* [Vertica analytics](../../installation/using/configure-fda-vertica.md)에 대한 액세스 구성
+* [Vertica Analytics](../../installation/using/configure-fda-vertica.md)에 대한 액세스 구성
 * [Snowflake](../../installation/using/configure-fda-snowflake.md)에 대한 액세스 구성
 * [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)에 대한 액세스 구성
-* [Azure synapse](../../installation/using/configure-fda-synapse.md)에 대한 액세스 구성
+* [Azure Synapse](../../installation/using/configure-fda-synapse.md)에 대한 액세스 구성
 * [Hadoop](../../installation/using/configure-fda-hadoop.md)에 대한 액세스 구성
 * [Oracle](../../installation/using/configure-fda-oracle.md)에 대한 액세스 구성
 * [Netezza](../../installation/using/configure-fda-netezza.md)에 대한 액세스 구성
@@ -322,7 +321,7 @@ Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하려면 **[!UICONTROL 
 
 >[!NOTE]
 >
-> **[!UICONTROL On-premise]** 및 **[!UICONTROL Office 365]** 배포 유형이 이제 더 이상 사용되지 않습니다. [자세히 알아보기](../../rn/using/deprecated-features.md).
+> **[!UICONTROL On-premise]** 및 **[!UICONTROL Office 365]** 배포 유형이 이제 더 이상 사용되지 않습니다. [자세히 알아보기](../../rn/using/deprecated-features.md)
 
 **[!UICONTROL Microsoft Dynamics CRM]** 외부 계정을 사용하면 Microsoft Dynamics 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다.
 
@@ -416,7 +415,7 @@ Adobe Campaign에서 작동하도록 Salesforce CRM 외부 계정을 구성하�
 
 ### Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. 워크플로우 활동에서 설정할 수 있습니다. 자세한 정보는 이 [페이지](../../workflow/using/file-transfer.md)를 참조하십시오.
+Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. 워크플로우 활동에서 설정할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}를 참조하세요.
 
 ![](assets/ext_account_3.png)
 
@@ -448,7 +447,7 @@ Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe 
 
 ### Azure Blob 스토리지 {#azure-blob-external-account}
 
-**Azure Blob 저장소** 외부 계정을 사용하여 **[!UICONTROL Transfer file]** 워크플로우 활동을 통해 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. 자세한 정보는 이 [섹션](../../workflow/using/file-transfer.md)을 참조하십시오.
+**Azure Blob 저장소** 외부 계정을 사용하여 **[!UICONTROL Transfer file]** 워크플로우 활동을 통해 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}를 참조하세요.
 
 ![](assets/ext_account_23.png)
 

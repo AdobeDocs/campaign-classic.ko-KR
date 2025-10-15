@@ -6,9 +6,9 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: 9b93603a076b007d66aad52b05e560e17e316eeb
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '863'
 ht-degree: 7%
 
 ---
@@ -31,7 +31,7 @@ Adobe Campaign에서 **받은 편지함 렌더링**&#x200B;에 사용할 수 있
 
 >[!NOTE]
 >
->받은 편지함 렌더링은 게재에서 개인화를 테스트하는 데 필요하지 않습니다. Personalization은 **[!UICONTROL Preview]** 및 [증명](steps-validating-the-delivery.md#sending-a-proof)과 같은 Adobe Campaign 도구로 확인할 수 있습니다.
+>받은 편지함 렌더링은 게재에서 개인화를 테스트하는 데 필요하지 않습니다. Personalization은 **[!UICONTROL Preview]** 및 증명과 같은 Adobe Campaign 도구를 사용하여 확인할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}를 참조하세요.
 
 ## 받은 편지함 렌더링 활성화 {#activating-inbox-rendering}
 
@@ -41,7 +41,7 @@ Adobe Campaign에서 **받은 편지함 렌더링**&#x200B;에 사용할 수 있
 
 온-프레미스 설치의 경우 아래 단계에 따라 받은 편지함 렌더링을 구성합니다.
 
-1. **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** 메뉴를 통해 **[!UICONTROL Inbox rendering (IR)]** 패키지를 설치하십시오. 자세한 내용은 [Campaign Classic 표준 패키지 설치](../../installation/using/installing-campaign-standard-packages.md)를 참조하십시오.
+1. **[!UICONTROL Inbox rendering (IR)]** > **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** 메뉴를 통해 **[!UICONTROL Import package]** 패키지를 설치하십시오. 자세한 내용은 [Campaign Classic 표준 패키지 설치](../../installation/using/installing-campaign-standard-packages.md)를 참조하십시오.
 1. **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** 노드를 통해 HTTP 유형의 외부 계정을 구성합니다. 자세한 내용은 [외부 계정 만들기](../../installation/using/external-accounts.md#creating-an-external-account)를 참조하세요.
 1. 외부 계정 매개 변수를 다음과 같이 설정합니다.
    * **[!UICONTROL Label]**: 게재 가능성 서버 정보
@@ -107,7 +107,7 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰으로 알려
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   증명이 전송되었습니다. 이메일을 보낸 후 몇 분 후에 해당 증명에서 렌더링 축소판에 액세스할 수 있습니다. 증명 전송에 대한 자세한 내용은 [이 섹션](steps-validating-the-delivery.md#sending-a-proof)을 참조하세요.
+   증명이 전송되었습니다. 이메일을 보낸 후 몇 분 후에 해당 증명에서 렌더링 축소판에 액세스할 수 있습니다. 증명 전송에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}를 참조하세요.
 
 1. 전송되면 게재 목록에 증명이 표시됩니다. 두 번 클릭합니다.
 

@@ -8,9 +8,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1958'
+source-wordcount: '1961'
 ht-degree: 1%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 1%
 
 Adobe Campaign을 사용하면 특정 조건에서 동적 전자 메일을 전송할 수 있는 새로운 대화형 [AMP for Email](https://amp.dev/about/email/) 형식을 시도할 수 있습니다.
 
-자세한 내용은 [이 섹션](defining-interactive-content.md)을 참조하십시오.
+자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html){target="_blank"}를 참조하세요.
 
 ## 콘텐츠 관리 사용 {#using-content-management}
 
@@ -181,7 +181,7 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 1. 도구 모음에서 **[!UICONTROL Tracking & Images]** 아이콘을 클릭합니다.
    ![](assets/s_ncs_user_email_del_img_param.png)
 
-1. **[!UICONTROL Images]** 탭에서 **[!UICONTROL Upload images]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Upload images]** 탭에서 **[!UICONTROL Images]**&#x200B;을(를) 선택합니다.
 1. 그런 다음 이메일 메시지에 이미지를 포함할지 여부를 선택할 수 있습니다.
    ![](assets/s_ncs_user_email_del_img_upload.png)
 

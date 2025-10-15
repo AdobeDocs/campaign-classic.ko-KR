@@ -3,78 +3,103 @@ product: campaign
 title: 워크플로 정보
 description: 워크플로를 통해 프로세스를 자동화하고 데이터 및 대상자를 관리하며 메시지 전송 등을 수행할 수 있습니다
 feature: Workflows, Data Management
-hide: true
-hidefromtoc: true
-exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+exl-id: 024a7344-9376-4ff3-926a-003148229f9f
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 37%
+source-wordcount: '232'
+ht-degree: 9%
 
 ---
 
-# 워크플로 시작{#gs-workflows}
+# 워크플로로 자동화 {#gs-workflows}
+
+Adobe Campaign의 워크플로를 통해 팀은 플랫폼 전체에서 엔드 투 엔드 비즈니스 프로세스를 간소화하고 자동화할 수 있습니다. 직관적인 그래픽 인터페이스를 통해 데이터 세분화, 캠페인 실행, 파일 처리 및 사용자 승인과 같은 작업을 조정하는 워크플로우를 한 곳에서 디자인하고 관리할 수 있습니다.
+
+예를 들어, 원격 서버에서 파일을 검색하고, 컨텐츠를 추출하고, 데이터를 Adobe Campaign 서버로 원활하게 로드하는 프로세스를 자동화할 수 있으므로 수작업이 줄어들고 운영 효율성이 향상됩니다. 워크플로우 엔진은 모든 단계가 안정적으로 실행되고 가시성 및 제어를 위해 추적되도록 합니다.
+
+>[!BEGINTABS]
+
+>[!TAB 워크플로 설명서]
+
+워크플로우 관리에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target=_blank}를 참조하세요.
+
+
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target=_blank}
+
+
+>[!TAB 유용한 링크]
+
+워크플로우 관리와 관련된 주요 단계는 Campaign v8 설명서에서 확인할 수 있습니다.
+
+* [워크플로우 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=ko){target=_blank}: 활동은 작업 템플릿입니다. 워크플로우에는 타겟팅, 흐름 제어, 작업 및 이벤트 활동이 포함됩니다.
+
+* [워크플로우 구축](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target=_blank}: 타깃팅, 캠페인 및 기술 워크플로우를 만들고 실행하는 방법을 알아봅니다.
+
+* [모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target=_blank}: Campaign 워크플로 성능을 최적화하고, 워크플로 디자인을 개선하고, 올바른 설정을 정의하는 지침을 알아봅니다.
+
+* [워크플로우 모니터링](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target=_blank}: 모든 것이 올바르게 실행되고 있는지 확인하기 위해 워크플로우 실행을 모니터링하는 방법을 알아봅니다.
+
+* [워크플로우 사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/workflow-use-cases.html){target=_blank}: 워크플로우를 사용할 수 있는 컨텍스트와 엔드 투 엔드 사용 사례를 통해 워크플로를 구현하는 방법을 알아봅니다.
+
+
+>[!ENDTABS]
 
 
 
-## 워크플로 정보{#about-workflows}
 
-Adobe Campaign에는 애플리케이션 서버의 여러 모듈에 걸쳐 전체 프로세스 및 작업을 오케스트레이션할 수 있는 워크플로 모듈이 포함되어 있습니다. 이 포괄적인 그래픽 환경을 사용하면 세분화, 캠페인 실행, 파일 처리, 인력 참여 등의 프로세스를 디자인할 수 있습니다. 워크플로 엔진은 이러한 프로세스를 실행하고 추적합니다.
 
-예를 들어 워크플로에서 서버에서 파일을 다운로드하고 압축을 해제한 다음 Adobe Campaign 데이터베이스에 포함된 레코드를 가져올 수 있습니다.
+<!--
 
-워크플로에는 알림을 받거나 프로세스를 선택하고 승인할 수 있는 운영자가 한 명 이상 포함될 수도 있습니다. 이러한 방식으로 게재 작업을 만들고, 콘텐츠를 사용하여 작업하도록 한 명 이상의 운영자에게 작업을 할당하고, 대상을 지정하고, 게재를 시작하기 전에 교정쇄를 승인할 수 있습니다.
+Adobe Campaign uses workflows to:
 
-워크플로는 캠페인 관리 프로세스의 다양한 컨텍스트 및 단계 내에서 발생합니다.
+* Carry out targeting campaigns. [Learn more](building-a-workflow.md#implementation-steps-)
+* Build campaigns: for each campaign, the **[!UICONTROL Workflow]** tab lets you build the target and create the deliveries. [Learn more](building-a-workflow.md#campaign-workflows)
+* Perform technical processes: cleanup, collecting tracking information or provisional calculations. [Learn more](building-a-workflow.md#technical-workflows)
 
-Adobe Campaign은 워크플로를 사용하여 다음과 같은 작업을 수행합니다.
+A workflow can mean both a process definition (the workflow model, which is a representation of what is supposed to happen) and an instance of this process (a workflow instance, which is a representation of what is actually happening).
 
-* 타겟팅 캠페인을 수행합니다. [자세히 알아보기](building-a-workflow.md#implementation-steps-)
-* 캠페인 빌드: 각 캠페인에 대해 **[!UICONTROL Workflow]** 탭에서 대상을 빌드하고 게재를 만들 수 있습니다. [자세히 알아보기](building-a-workflow.md#campaign-workflows)
-* 기술 프로세스 수행: 정리, 추적 정보 수집 또는 임시 계산. [자세히 알아보기](building-a-workflow.md#technical-workflows)
-
-워크플로는 프로세스 정의(일어나도록 되어 있는 것을 나타내는 워크플로 모델)와 이 프로세스의 인스턴스(실제로 일어나는 것을 나타내는 워크플로 인스턴스)를 모두 의미할 수 있습니다.
-
-워크플로 템플릿은 앞으로 수행할 다양한 작업과 이러한 작업이 어떻게 서로 연결되어 있는지 설명합니다. 작업 템플릿은 활동이라고 하며 아이콘으로 표시됩니다. 서로 전환으로 연결되어 있습니다.
+The workflow template describes the various tasks to be performed and how they are linked together. The task templates are called activities and are represented by icons. They are linked together by transitions.
 
 ![](assets/example1.png)
 
-각 워크플로에는 다음이 포함됩니다.
+Each workflow contains:
 
 * **[!UICONTROL Activities]**
 
-  활동은 작업 템플릿을 설명합니다. 사용 가능한 다양한 활동이 다이어그램에 아이콘으로 표시됩니다. 각 유형에는 공통 속성과 특정 속성이 있습니다. 예를 들어 모든 활동에는 이름과 레이블이 있지만 **[!UICONTROL Approval]** 활동에만 할당이 있습니다.
+  An activity describes a task template. The various activities available are represented on the diagram by icons. Each type has common properties and specific properties. For example, while all activities have a name and label, only the **[!UICONTROL Approval]** activity has an assignment.
 
-  워크플로우 다이어그램에서 주어진 활동은 여러 작업, 특히 루프 또는 반복적인(주기적) 작업이 있는 경우 여러 작업을 생성할 수 있습니다.
+  In a workflow diagram, a given activity can produce multiple tasks, in particular when there is a loop or recurrent (periodic) actions.
 
-  사용 사례 및 샘플을 포함하여 모든 워크플로우 활동이 [이 섹션](about-activities.md)에 나열됩니다.
+  All workflow activities are listed in [this section](about-activities.md), including use cases and samples.
 
 * **[!UICONTROL Transitions]**
 
-  전환을 사용하면 활동을 연결하고 해당 시퀀스를 정의할 수 있습니다. 전환은 소스 활동을 대상 활동에 연결합니다. 소스 활동에 따라 달라지는 몇 가지 종류의 전환이 있습니다. 일부 전환에는 기간, 조건 또는 필터와 같은 추가 매개 변수가 있습니다.
+  Transitions enable you to link activities and to define their sequence. A transition links a source activity to a destination activity. There are several sorts of transitions, which depend on the source activity. Some transitions have additional parameters such as a duration, a condition or a filter.
 
-  대상 활동에 연결되지 않은 전환은 주황색으로 표시되고 화살표 머리글은 다이아몬드로 표시됩니다.
+  A transition which is not linked to a destination activity is colored orange and the arrow head is shown as a diamond.
 
   >[!NOTE]
   >
-  >종료되지 않은 전환이 포함된 워크플로우는 계속 실행할 수 있습니다. 경고 메시지가 생성되며 워크플로우는 전환에 도달하면 일시 중지되지만 오류가 생성되지 않습니다. 따라서 완료하지 않고 워크플로우를 시작하고 진행할 때 워크플로우에 를 추가할 수 있습니다.
+  >A workflow containing unterminated transitions can still be executed: a warning message will be generated and the workflow will pause once it reaches the transition but it will not generate an error. It is thus possible to start a workflow without it being finished and to add to it as you go along.
 
-  워크플로우 빌드 방법에 대한 자세한 내용은 [이 섹션](building-a-workflow.md)을 참조하세요.
+  For more information about how to build a workflow, refer to [this section](building-a-workflow.md).
 
 * **[!UICONTROL Worktables]**
 
-  작업테이블에는 전환에서 전달하는 모든 정보가 포함됩니다. 각 워크플로는 여러 작업 테이블을 사용합니다. 이러한 테이블에 전달된 데이터는 삭제되지 않는 한 워크플로우의 수명 주기 전체에서 가속화되고 사용될 수 있습니다. 실제로 불필요한 테이블은 워크플로가 비활성화될 때마다 삭제되며, 서버 과부하를 방지하기 위해 가장 큰 워크플로의 실행 중에도 삭제될 수 있습니다.
+  The worktable contains all the information carried by the transition. Each workflow uses several worktables. The data conveyed in these tables can be accelerated and used throughout the workflow's life cycle, as long as it is not purged. Indeed, unneeded tables are purged each time the workflow is passivated, and possibly during the execution of the largest workflows to avoid overloading the server.
 
-  [이 섹션](how-to-use-workflow-data.md)에서 워크플로 데이터 및 표에 대해 자세히 알아보세요.
+  Learn more on workflow data and tables in [this section](how-to-use-workflow-data.md).
 
-## 주요 원칙 및 모범 사례{#principles-workflows}
+## Key principles and best practices{#principles-workflows}
 
-워크플로우를 통해 프로세스를 자동화하는 지침 및 모범 사례를 찾으려면 다음 섹션을 참조하십시오.
+Refer to these sections to find guidance and best practices to automate processes with workflows:
 
-* [이 페이지](how-to-use-workflow-data.md)에서 워크플로우 활동에 대해 자세히 알아보세요.
-* [이 섹션](building-a-workflow.md)에서 워크플로우를 빌드하는 방법을 알아봅니다.
-* [이 섹션](../../platform/using/import-export-workflows.md)에서 워크플로우를 사용하여 Campaign에서 데이터를 가져오는 방법을 알아봅니다.
-* 워크플로우 모범 사례는 [이 페이지](workflow-best-practices.md)에 자세히 설명되어 있습니다.
-* [이 섹션](starting-a-workflow.md)에서 워크플로우 실행에 대한 지침을 찾으십시오.
-* [이 페이지](monitoring-workflow-execution.md)에서 워크플로를 모니터링하는 방법을 알아보세요.
-* [이 페이지](managing-rights.md)에서 사용자에게 워크플로를 사용할 수 있는 액세스 권한을 부여하는 방법을 알아보세요.
+* Learn more about workflow activities in [this page](how-to-use-workflow-data.md).
+* Learn how to build a workflow in [this section](building-a-workflow.md).
+* Discover how to use workflows to import data in Campaign in [this section](../../platform/using/import-export-workflows.md).
+* Workflow best practices are detailed in [this page](workflow-best-practices.md).
+* Find guidance about workflow execution in [this section](starting-a-workflow.md).
+* Learn how to monitor workflows in [this page](monitoring-workflow-execution.md).
+* Learn how to grant access to users to use workflows in [this page](managing-rights.md).
+
+-->

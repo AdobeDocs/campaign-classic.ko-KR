@@ -5,9 +5,9 @@ description: 이 문서에서는 Adobe Campaign 데이터 모델에 대해 설�
 feature: Data Model
 role: Data Engineer, Developer
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2354'
 ht-degree: 1%
 
 ---
@@ -113,7 +113,7 @@ sInternalName 게재 또는 시나리오의 내부 이름을 나타내는 고유
 
 ## 캠페인 관리 {#campaign-management}
 
-이 테이블 집합은 **마케팅 캠페인** 모듈에 연결되어 통신 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다. 자세한 내용은 [마케팅 캠페인 정보](../../campaign/using/designing-marketing-campaigns.md)를 참조하세요.
+이 테이블 집합은 **마케팅 캠페인** 모듈에 연결되어 통신 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}를 참조하세요.
 
 ![](assets/data-model_campaign.png)
 
@@ -129,7 +129,8 @@ sInternalName 게재 또는 시나리오의 내부 이름을 나타내는 고유
 
 ## 커뮤니케이션 일관성 {#communication-consistency}
 
-이 테이블 집합은 게재 전송을 제어, 필터링 및 모니터링할 수 있는 **캠페인 최적화** 모듈에 연결되어 있습니다. 자세한 내용은 [캠페인 유형화 정보](../../campaign-opt/using/about-campaign-typologies.md)를 참조하세요.
+이 테이블 집합은 게재 전송을 제어, 필터링 및 모니터링할 수 있는 **캠페인 최적화** 모듈에 연결되어 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ko){target="_blank"}를 참조하세요.
+
 
 ![](assets/data-model_typology.png)
 
@@ -137,7 +138,7 @@ sInternalName 게재 또는 시나리오의 내부 이름을 나타내는 고유
 * **NmsTypology**: 이 테이블은 **nms:typology** 스키마와 일치합니다. 여기에는 유형화와 일치하는 게재에 적용할 규칙 세트가 포함되어 있습니다.
 * **NmsTypologyRuleRel**: 이 테이블은 **nms:typologyRuleRel** 스키마와 일치합니다. 여기에는 유형화와 해당 규칙 간의 관계가 포함되어 있습니다.
 * **NmsVolumeLine**: 이 테이블은 **nms:volumeLine** 스키마와 일치합니다. 여기에는 능력 규칙의 가용성 라인 세트가 포함됩니다.
-* **NmsVolumeSumested**: 이 테이블은 **nms:volumeSumested** 스키마와 일치합니다. 여기에는 능력 규칙의 모든 소비 라인이 포함됩니다.
+* **NmsVolumeSumested**: 이 테이블은 **nms:volumeConsumed** 스키마와 일치합니다. 여기에는 능력 규칙의 모든 소비 라인이 포함됩니다.
 
 ## 응답 관리 {#response-management}
 
@@ -154,7 +155,7 @@ sInternalName 게재 또는 시나리오의 내부 이름을 나타내는 고유
 **실행 컨텍스트(XML에 저장된 정보)**
 
 실행 컨텍스트는 측정 계산에 고려할 테이블 및 필드를 채웁니다. 즉,
-* nms:remaMatchRcp 반응 로그 저장 스키마.
+* nms:remaMatchRcp 반응 로그 저장 스키마입니다.
 * 트랜잭션 테이블 스키마(예: 구매).
 * 가설 조건의 시작 테이블을 정의할 수 있는 쿼리 스키마.
 * 쿼리 스키마를 기반으로 개인을 식별할 수 있는 개인 링크.
@@ -218,8 +219,8 @@ sInternalName 게재 또는 시나리오의 내부 이름을 나타내는 고유
 * **NmsOfferSpace**: 이 테이블은 **nms:offerSpace** 스키마와 일치합니다. 여기에는 제안되는 위치에 대한 정의가 포함되어 있습니다.
 * **NmsOfferContext**: 이 테이블은 **nms:offerContext** 스키마와 일치합니다. 가중치 계산 공식의 정의 뿐만 아니라 명제의 적용 가능성에 대한 추가적인 기준을 포함하고 있다.
 * **NmsOfferView**: 이 테이블은 **nms:offerView**&#x200B;과(와) 일치합니다. 여기에는 오퍼 표현이 포함됩니다.
-* **NmsOfferCategory**: 이 테이블은 **nms:offerCategory**&#x200B;와(과) 일치합니다. 오퍼 카테고리를 포함합니다.
-* **NmsOfferEnv**: 이 테이블은 **nms:offerEnv**&#x200B;와(과) 일치합니다. 오퍼 환경이 포함되어 있습니다.
+* **NmsOfferCategory**: 이 테이블은 **nms:offerCategory**&#x200B;과(와) 일치합니다. 오퍼 카테고리를 포함합니다.
+* **NmsOfferEnv**: 이 테이블은 **nms:offerEnv**&#x200B;과(와) 일치합니다. 오퍼 환경이 포함되어 있습니다.
 
 ## 메시지 센터 모듈 {#message-center-module}
 
@@ -260,12 +261,12 @@ This set of tables is linked to the **Web applications** functionality, which al
 
 ## 소셜 마케팅 모듈 {#social-marketing-module}
 
-이 테이블 집합은 **소셜 네트워크 관리** 모듈에 연결되어 있으며, 이를 통해 Facebook 및 X(이전 Twitter)를 통해 고객 및 잠재 고객과 상호 작용할 수 있습니다. 자세한 내용은 [소셜 마케팅 정보](../../social/using/about-social-marketing.md)를 참조하세요.
+이 테이블 집합은 **소셜 네트워크 관리** 모듈에 연결되어 Facebook 및 X(이전 Twitter)를 통해 고객 및 잠재 고객과 상호 작용할 수 있습니다. 자세한 내용은 [소셜 마케팅 정보](../../social/using/about-social-marketing.md)를 참조하세요.
 
 ![](assets/data-model_social.png)
 
 * **NmsVisitor**: 이 테이블은 **nms:visitor** 스키마와 일치합니다. 여기에는 방문자에 대한 정보가 포함되어 있습니다.
 * **NmsVisitorSub**: 이 테이블은 **nms:visitorSub** 스키마와 일치합니다. 방문자가 가입한 서비스(X 또는 Facebook)에 방문자를 연결할 수 있습니다.
-* **NmsFriendShipRel**: 이 테이블은 **nms:friendshipRel** 스키마와 일치합니다. facebook 서비스의 컨텍스트 내에서 방문자를 친구와 연결할 수 있습니다.
+* **NmsFriendShipRel**: 이 테이블은 **nms:friendshipRel** 스키마와 일치합니다. Facebook 서비스의 컨텍스트 내에서 방문자를 친구와 연결할 수 있습니다.
 * **NmsVisitorInterestRel**: 이 테이블은 **nms:visitorInterestRel** 스키마와 일치합니다. 방문자와 방문자의 관심사를 연결할 수 있습니다.
 * **NmsInterest**: 이 테이블은 **nms:interest** 스키마와 일치합니다. 여기에는 각 방문자의 관심 목록이 포함되어 있습니다.

@@ -7,9 +7,9 @@ feature: Campaigns
 hide: true
 hidefromtoc: true
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '441'
 ht-degree: 22%
 
 ---
@@ -24,7 +24,7 @@ Adobe Campaign을 사용하면 커뮤니케이션 및 마케팅 캠페인을 정
 >[!NOTE]
 >
 >Adobe Campaign 핵심 기능에 대한 자세한 내용은 [이 섹션](../../platform/using/about-adobe-campaign-classic.md) 섹션을 참조하십시오.\
->다양한 채널에서 모집단 타겟팅, 메시지 개인화 및 메시지 배달과 관련된 기능은 [이 섹션](../../delivery/using/steps-about-delivery-creation-steps.md)에 자세히 설명되어 있습니다.
+>다양한 채널에서 모집단 타겟팅, 메시지 개인화 및 메시지 배달과 관련된 기능은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}에 자세히 설명되어 있습니다.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 마케팅 캠페인 키 개념 살펴보기](#video)
 
@@ -68,6 +68,6 @@ Campaign의 컨텍스트에서 다음 개념을 알고 있어야 합니다.
 
 이 비디오에서는 마케팅 캠페인의 주요 개념을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/326577?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

@@ -6,10 +6,10 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Monitoring, Email Design, Personalization
 role: User
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 9%
+source-wordcount: '179'
+ht-degree: 8%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->이메일의 이미지 관리도 이 창에서 구성됩니다. [이미지 추가](defining-the-email-content.md#adding-images)를 참조하세요.
+>이메일의 이미지 관리도 이 창에서 구성됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}를 참조하세요.
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 

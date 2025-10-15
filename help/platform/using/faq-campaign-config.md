@@ -8,10 +8,10 @@ content-type: reference
 level: Beginner, Intermediate, Experienced
 topic-tags: starting-with-adobe-campaign
 exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 70%
+source-wordcount: '750'
+ht-degree: 68%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Campaign의 게재 기능 및 고급 캠페인 관리 기능과 사용자 
 
 Campaign을 사용하면 마케팅 캠페인의 주요 단계에 대한 승인 프로세스를 공동 작업 모드로 설정할 수 있습니다. 각 캠페인에 대해 게재 대상, 콘텐츠 및 비용을 승인할 수 있습니다. 승인을 담당하는 Adobe Campaign 운영자는 이메일로 통보를 받을 수 있으며 콘솔 또는 웹 연결을 통해 승인을 수락하거나 거부할 수 있습니다.
 
-[여기를 클릭하여 자세한 내용을 살펴보고](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries) Campaign에서 게재 콘텐츠 승인을 구현하는 단계를 알아봅니다.
+[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html#review-and-approve-deliveries){target="_blank"}에서 게재 콘텐츠 승인을 구현하는 방법을 알아봅니다.
 
 ## 외부 데이터베이스에 저장된 데이터에 액세스하려면 어떻게 해야 합니까? {#how-can-i-access-data-stored-in-an-external-database-}
 

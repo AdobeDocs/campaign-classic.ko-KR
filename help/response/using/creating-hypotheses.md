@@ -8,9 +8,9 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: e0b3bc9f-5e81-463f-a59e-cd972a47109b
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1025'
 ht-degree: 3%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 3%
 
 시작하기 전에 마케팅 캠페인에서 가설을 참조할 수 있습니다. 이 경우, 게재가 전송되면 가설 템플릿에 정의된 실행 설정을 기반으로 가설이 자동으로 실행됩니다. 게재에서 가설을 생성하려면 다음 프로세스를 적용합니다.
 
-1. 필요에 따라 [이 섹션](hypothesis-templates.md#creating-a-hypothesis-model)에 설명된 대로 **[!UICONTROL Delivery]** 형식 템플릿을 하나 이상 만들 수 있습니다.
+1. 필요에 따라 **[!UICONTROL Delivery]**&#x200B;이 섹션[에 설명된 대로 ](hypothesis-templates.md#creating-a-hypothesis-model) 형식 템플릿을 하나 이상 만들 수 있습니다.
 1. 마케팅 캠페인 및 타기팅 워크플로우를 만듭니다.
 1. 게재 창에서 **[!UICONTROL Delivery measurement]** 아이콘을 클릭합니다.
 1. 가설 템플릿을 선택합니다(모델에 구성된 쿼리가 가설 창에 표시됨).
@@ -116,7 +116,7 @@ ht-degree: 3%
 
 오퍼 제안에 대한 가설을 생성하는 것은 즉석 전달 가설을 생성하는 것과 유사하다. 오퍼가 활성화된 경우 가설을 실행할 수 있습니다. 계산 기간은 오퍼 제안 일자를 기반으로 합니다. 가설을 통해 수신자를 구매에 연결할 수 있는 경우 수락될 가능성이 있는 오퍼 제안의 상태는 자동으로 변경될 수 있습니다. [자세히 알아보기](hypothesis-templates.md#transactions)
 
-1. [이 섹션](hypothesis-templates.md#creating-a-hypothesis-model)에 설명된 대로 **[!UICONTROL Offer]** 형식 모델을 하나 이상 만듭니다.
+1. **[!UICONTROL Offer]**&#x200B;이 섹션[에 설명된 대로 ](hypothesis-templates.md#creating-a-hypothesis-model) 형식 모델을 하나 이상 만듭니다.
 1. **[!UICONTROL Campaign management > Measurement hypotheses]** 노드로 이동합니다.
 1. 이전에 만든 모델을 선택하여 **[!UICONTROL Offers]** 형식 가설을 만듭니다.
 
@@ -146,7 +146,7 @@ ht-degree: 3%
 
 그런 다음 모델에서 상속된 쿼리를 세분화하여 구매 테이블의 특정 기사에 대해 가설을 세웁니다.
 
-1. 캠페인 및 게재를 만듭니다. [자세히 알아보기](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)
+1. 캠페인 및 게재를 만듭니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko){target=_blank}를 참조하세요.
 
    이 예제에서는 DM 유형 게재를 사용합니다.
 
@@ -156,7 +156,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >자세한 정보는 [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)을 참조하십시오.
+   >자세한 내용은 관련 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target="_blank"}를 참조하십시오.
 
 1. **[!UICONTROL Direct mail delivery]**&#x200B;을(를) 열고 **[!UICONTROL Delivery measurement]** 아이콘을 클릭한 다음 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
@@ -178,7 +178,7 @@ ht-degree: 3%
 
    ![](assets/response_hypothesis_delivery_example_008.png)
 
-1. 타겟팅 워크플로우를 시작하고 캠페인이 완료될 때까지 필요한 검사를 실행합니다. [자세히 알아보기](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)
+1. 타겟팅 워크플로우를 시작하고 캠페인이 완료될 때까지 필요한 검사를 실행합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html#start-a-delivery){target=_blank}를 참조하세요.
 
    ![](assets/response_hypothesis_delivery_example_009.png)
 

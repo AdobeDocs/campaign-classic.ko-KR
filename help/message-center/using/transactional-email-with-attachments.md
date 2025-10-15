@@ -4,10 +4,10 @@ title: 첨부 파일이 있는 트랜잭션 이메일 보내기
 description: Adobe Campaign을 사용하여 개별 및/또는 개인화된 첨부 파일이 있는 트랜잭션 이메일을 보내는 방법을 알아봅니다
 feature: Transactional Messaging, Message Center
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 2%
+source-wordcount: '667'
+ht-degree: 1%
 
 ---
 
@@ -37,13 +37,13 @@ ht-degree: 2%
 * 위에서 설명한 예제 시나리오와 같이 첨부 파일이 트랜잭션과 연결된 경우 고객 프로세스 중에 생성된 동적 데이터가 포함될 수 있습니다.
 * PDF 파일을 첨부하면 암호화하여 HTTPS를 통해 전송할 수 있으므로 보안이 최적화됩니다.
 
-## Recommendations 및 보호 기능 {#important-notes}
+## 권장 사항 및 보호 기능 {#important-notes}
 
-성능 문제를 방지하기 위해 이메일에 포함된 이미지는 100KB를 초과할 수 없습니다. 기본적으로 설정된 이 제한은 `NmsDelivery_MaxDownloadedImageSize` 옵션에서 변경할 수 있습니다. 그러나 Adobe은 이메일 게재에서 큰 이미지를 피하는 것을 강력히 권장합니다.
+성능 문제를 방지하기 위해 이메일에 포함된 이미지는 100KB를 초과할 수 없습니다. 기본적으로 설정된 이 제한은 `NmsDelivery_MaxDownloadedImageSize` 옵션에서 변경할 수 있습니다. 그러나 Adobe에서는 이메일 게재에 큰 이미지를 사용하지 않는 것이 좋습니다.
 
-Adobe은 또한 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 기본적으로 하나의 파일만 전자 메일에 첨부 파일로 추가할 수 있습니다. 이 임계값은 `NmsDelivery_MaxRecommendedAttachments` 옵션에서 구성할 수 있습니다.
+Adobe은 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 기본적으로 하나의 파일만 전자 메일에 첨부 파일로 추가할 수 있습니다. 이 임계값은 `NmsDelivery_MaxRecommendedAttachments` 옵션에서 구성할 수 있습니다.
 
-[Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery)에서 자세히 알아보세요.
+자세한 내용은 [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery)을 참조하세요.
 
 이 시나리오를 구현하기 전에 아래 지침을 주의 깊게 읽어 보십시오.
 
@@ -54,7 +54,7 @@ Adobe은 또한 첨부 파일의 크기와 수를 제한하는 것을 권장합�
 
 >[!NOTE]
 >
->성능 문제를 방지하려면 이메일당 두 개 이상의 첨부 파일을 포함하지 않는 것이 좋습니다. [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery)에서 권장 임계값을 구성할 수 있습니다.
+>성능 문제를 방지하려면 이메일당 두 개 이상의 첨부 파일을 포함하지 않는 것이 좋습니다. 권장 임계값은 [Campaign Classic 옵션 목록](../../installation/using/configuring-campaign-options.md#delivery)에서 구성할 수 있습니다.
 
 ## 구현 {#implementation}
 
@@ -64,7 +64,7 @@ Adobe은 또한 첨부 파일의 크기와 수를 제한하는 것을 권장합�
 
 트랜잭션 메시지에 이메일 첨부 파일을 즉시 추가하려면 아래 단계를 따르십시오.
 
-1. 먼저 첨부 파일을 디자인합니다. 자세한 내용은 [이 섹션](../../delivery/using/attaching-files.md#attach-a-personalized-file)을 참조하십시오.
+1. 먼저 첨부 파일을 디자인합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html#attach-a-personalized-file){target="_blank"}를 참조하세요.
 
    이렇게 하면 실행 인스턴스에서 호스팅되지 않는 파일도 이메일에 첨부할 수 있습니다.
 

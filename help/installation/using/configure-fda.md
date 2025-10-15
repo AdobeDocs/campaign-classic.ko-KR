@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 4%
+source-wordcount: '346'
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ FDA를 사용하여 외부 데이터베이스에 대한 액세스를 설정하�
 1. Adobe Campaign에서 외부 데이터베이스의 스키마를 만듭니다. 이렇게 하면 외부 데이터베이스의 데이터 구조를 식별할 수 있습니다. [자세히 알아보기](../../installation/using/creating-data-schema.md)
 1. 필요한 경우 이전에 만든 스키마에서 새 대상 매핑을 만듭니다. 게재 수신자가 외부 데이터베이스에서 온 경우 필요합니다. 이 구현에는 메시지 개인화와 관련된 제한 사항이 있습니다. [자세히 알아보기](../../installation/using/defining-data-mapping.md)
 
-데이터 스키마가 만들어지면 Adobe Campaign 워크플로우에서 데이터를 처리할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/accessing-an-external-database-fda.md)을 참조하십시오.
+데이터 스키마가 만들어지면 Adobe Campaign 워크플로우에서 데이터를 처리할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ko){target="_blank"}를 참조하세요.
 
 ## 데이터베이스별 구성 {#fda-specific-configuration}
 
@@ -45,7 +45,7 @@ Adobe Campaign에서 액세스할 수 있게 하려는 외부 데이터베이스
 자세한 내용은 아래 링크를 참조하십시오.
 
 * Campaign과 [Amazon Redshift](../../installation/using/configure-fda-redshift.md) 연결
-* Campaign과 [Azure synapse](../../installation/using/configure-fda-synapse.md) 연결
+* Campaign과 [Azure Synapse](../../installation/using/configure-fda-synapse.md) 연결
 * Campaign과 [Google BigQuery](../../installation/using/configure-fda-google-big-query.md) 연결
 * Campaign과 [Hadoop](../../installation/using/configure-fda-hadoop.md) 연결
 * Campaign과 [Microsoft SQL Server 연결](../../installation/using/configure-fda-sql.md)
@@ -56,4 +56,4 @@ Adobe Campaign에서 액세스할 수 있게 하려는 외부 데이터베이스
 * Campaign과 [Snowflake](../../installation/using/configure-fda-snowflake.md) 연결
 * Campaign과 [Sybase IQ](../../installation/using/configure-fda-sybase.md) 연결
 * Campaign과 [Teradata](../../installation/using/configure-fda-teradata.md) 연결
-* Campaign과 [Vertica analytics](../../installation/using/configure-fda-vertica.md) 연결
+* Campaign과 [Vertica Analytics](../../installation/using/configure-fda-vertica.md) 연결

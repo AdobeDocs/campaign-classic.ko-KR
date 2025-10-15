@@ -8,10 +8,10 @@ content-type: reference
 level: Intermediate, Experienced
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 84%
+source-wordcount: '511'
+ht-degree: 82%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 84%
 
 ## Campaign 데이터 모델은 무엇입니까? {#what-is-the-campaign-data-model}
 
-Adobe Campaign 데이터베이스의 개념적 데이터 모델은 내장된 테이블과 상호 작용으로 구성됩니다. 애플리케이션에 포함된 데이터의 물리적 및 논리적 구조는 XML에 설명되어 있습니다. 스키마라고 하는 Adobe Campaign에 특정된 문법을 따릅니다. Adobe Campaign 스키마에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../configuration/using/about-schema-edition.md).
+Adobe Campaign 데이터베이스의 개념적 데이터 모델은 기본 제공 테이블과 상호 작용으로 구성됩니다. 애플리케이션에 포함된 데이터의 물리적 및 논리적 구조는 XML에 설명되어 있습니다. 스키마라고 하는 Adobe Campaign에 특정된 문법을 따릅니다. Adobe Campaign 스키마에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../configuration/using/about-schema-edition.md).
 
 [Campaign 데이터 모델에 대한 자세한 내용을 보려면 여기를 클릭하세요](https://helpx.adobe.com/kr/campaign/kb/acc-datamodel.html).
 
@@ -55,7 +55,7 @@ Adobe Campaign 쿼리 도구는 대상 모집단, 고객 세그먼트, 추적 �
 
 쿼리는 선택한 테이블의 필드를 사용하거나 공식을 사용하여 만들어집니다. Campaign 데이터베이스에서 쿼리를 만드는 기본 원칙은 [이 페이지](../../platform/using/about-queries-in-campaign.md)에 설명되어 있습니다.
 
-Campaign 쿼리 편집기를 검색하려면 [여기를 클릭](../../workflow/using/query.md)하십시오.
+[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}에 대한 쿼리에 대해 알아봅니다.
 
 ## 데이터 패키지를 가져오려면 어떻게 해야 합니까? {#how-can-i-import-a-data-package-}
 

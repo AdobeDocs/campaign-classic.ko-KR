@@ -6,9 +6,9 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Monitoring
 role: User, Data Engineer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1193'
 ht-degree: 4%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 * [게재 실패 이해](understanding-delivery-failures.md)
 * [격리 관리 이해](understanding-quarantine-management.md)
-* [게재 모범 사례](delivery-best-practices.md)
+* [게재 모범 사례](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}
 * [게재 기능 관리](about-deliverability.md)
 
 ## 게재 요약 {#delivery-summary}
@@ -44,7 +44,7 @@ ht-degree: 4%
 
 ## 게재 보고서 {#delivery-reports}
 
-**[!UICONTROL Summary]** 탭에서 액세스할 수 있는 **[!UICONTROL Reports]** 링크를 사용하면 게재 작업과 관련된 보고서 세트(일반 게재 보고서, 자세한 보고서, 게재 보고서, 실패한 메시지 배포, 열람률, 클릭 수 및 트랜잭션 등)를 볼 수 있습니다.
+**[!UICONTROL Reports]** 탭에서 액세스할 수 있는 **[!UICONTROL Summary]** 링크를 사용하면 게재 작업과 관련된 보고서 세트(일반 게재 보고서, 자세한 보고서, 게재 보고서, 실패한 메시지 배포, 열람률, 클릭 수 및 트랜잭션 등)를 볼 수 있습니다.
 
 이 탭의 내용은 요구 사항에 따라 구성할 수 있습니다. 게재 보고서에 대한 자세한 정보는 [이 섹션](../../reporting/using/delivery-reports.md)을 참조하세요.
 
@@ -64,7 +64,7 @@ ht-degree: 4%
 
 **[!UICONTROL Display the mirror page for this message...]** 링크를 사용하면 새 창의 목록에서 선택한 게재 내용에 대한 미러 페이지를 볼 수 있습니다.
 
-미러 페이지는 HTML 콘텐츠가 정의된 게재에 대해서만 사용할 수 있습니다. 자세한 내용은 [미러 페이지 생성](sending-messages.md#generating-the-mirror-page)을 참조하세요.
+미러 페이지는 HTML 콘텐츠가 정의된 게재에 대해서만 사용할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html){target="_blank"}를 참조하세요.
 
 ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
@@ -98,7 +98,7 @@ ht-degree: 4%
 
 **[!UICONTROL Refresh]** 단추를 사용하여 데이터를 업데이트할 수 있습니다. **[!UICONTROL Filters]** 단추를 사용하여 데이터에 대한 필터를 정의합니다.
 
-특수 아이콘을 사용하면 오류나 경고를 식별할 수 있습니다. [게재 분석](steps-validating-the-delivery.md#analyzing-the-delivery)을 참조하세요.
+특수 아이콘을 사용하면 오류나 경고를 식별할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}에서 이 섹션을 참조하십시오.
 
 **[!UICONTROL Proofs]** 하위 탭에서는 보낸 증명 목록을 볼 수 있습니다.
 

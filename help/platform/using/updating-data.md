@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 1%
+source-wordcount: '720'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## 자동 업데이트 설정 {#setting-up-an-automatic-update}
 
-워크플로우를 통해 자동 업데이트를 구성할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/update-data.md)을 참조하십시오.
+워크플로우를 통해 자동 업데이트를 구성할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"}를 참조하세요.
 
 ## 대량 업데이트 수행 {#performing-a-mass-update}
 
@@ -123,7 +123,7 @@ ht-degree: 1%
 
 **[!UICONTROL Do not keep a trace of this job in the database]** 옵션의 선택을 취소하면 이 프로세스에 대한 정보가 저장될 실행 폴더를 선택하거나 만들 수 있습니다.
 
-프로세스를 확인하려면 이 작업과 관련된 받는 사람의 프로필의 **[!UICONTROL Subscriptions]** 탭이나 **[!UICONTROL Profiles and Targets > Services and Subscriptions]** 노드를 통해 액세스되는 **[!UICONTROL Subscriptions]** 탭으로 이동합니다.
+프로세스를 확인하려면 이 작업과 관련된 받는 사람의 프로필의 **[!UICONTROL Subscriptions]** 탭이나 **[!UICONTROL Subscriptions]** 노드를 통해 액세스되는 **[!UICONTROL Profiles and Targets > Services and Subscriptions]** 탭으로 이동합니다.
 
 ![](assets/s_ncs_user_selection_subscribe_service_4.png)
 

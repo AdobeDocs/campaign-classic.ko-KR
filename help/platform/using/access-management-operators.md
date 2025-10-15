@@ -7,9 +7,9 @@ feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
-source-git-commit: a5bbd2e6c102a8afa4cd5931b77b0c83705a7bfa
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1237'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이 절차는 기본 인증을 사용하여 Campaign에 연결하는 운영자에만 적용됩니다. Adobe IMS 인증의 경우 [이 설명서](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html#_blank)를 참조하세요.
+>이 절차는 기본 인증을 사용하여 Campaign에 연결하는 운영자에만 적용됩니다. Adobe IMS 인증의 경우 [이 설명서](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#_blank)를 참조하세요.
 
 운영자는 로그인하고 작업을 수행할 수 있는 권한이 있는 Adobe Campaign 사용자입니다.
 
@@ -56,7 +56,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
 
 1. 사용자의 **[!UICONTROL Identification parameters]**(로그인, 암호 및 이름)을 지정하십시오. 운영자는 로그인 및 암호를 사용하여 Adobe Campaign에 로그온합니다. 사용자가 로그온하면 **[!UICONTROL Tools > Change password]** 메뉴를 통해 암호를 변경할 수 있습니다. 운영자의 이메일은 운영자가 예를 들어 승인을 처리할 때 알림을 받을 수 있도록 하기 때문에 필수적입니다.
 
-   또한 이 섹션에서는 연산자를 조직 엔티티에 연결할 수도 있습니다. 자세한 정보는 [이 페이지](../../distributed/using/about-distributed-marketing.md)를 참조하세요.
+   또한 이 섹션에서는 연산자를 조직 엔티티에 연결할 수도 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ko){target="_blank"}를 참조하세요.
 
 1. **[!UICONTROL Operator access rights]** 섹션에서 연산자에게 부여된 권한을 선택하십시오.
 

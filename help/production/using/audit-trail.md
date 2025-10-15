@@ -4,9 +4,9 @@ title: 감사 추적
 description: Campaign 감사 추적을 사용하여 인스턴스를 모니터링하는 방법 알아보기
 feature: Audit Trail, Monitoring, Workflows
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
-source-git-commit: 3d1ed85dcafc5afc4088db98c09d78fb7e9c0a39
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '423'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 >[!INFO]
 >
->[Adobe Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/audit-trail)에서 감사 추적 기능에 대해 자세히 알아보세요.
+>[Adobe Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail)에서 감사 추적 기능에 대해 자세히 알아보세요.
 
 Adobe Campaign에서 **[!UICONTROL Audit trail]**&#x200B;을(를) 사용하면 인스턴스 내에서 수행한 변경 내용의 전체 기록에 액세스할 수 있습니다.
 
@@ -47,7 +47,8 @@ Adobe Campaign에서 **[!UICONTROL Audit trail]**&#x200B;을(를) 사용하면 �
 
   워크플로우에 대한 자세한 내용은 이 [페이지](../../workflow/using/about-workflows.md)를 참조하세요.
 
-  워크플로우를 모니터링하는 방법에 대한 자세한 내용은 [전용 섹션](../../workflow/using/monitoring-workflow-execution.md)을 참조하세요.
+  워크플로우를 모니터링하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}를 참조하세요.
+
 
 * **옵션 감사 추적**&#x200B;을 통해 활동 및 옵션에 대한 마지막 수정 사항을 확인할 수 있습니다.
 

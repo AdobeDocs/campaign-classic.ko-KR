@@ -6,9 +6,9 @@ feature: SMS
 role: User, Developer, Admin
 level: Experienced
 exl-id: 6987cb5e-8821-4619-b0e4-f0fad3355bfb
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '982'
 ht-degree: 8%
 
 ---
@@ -71,13 +71,13 @@ ht-degree: 8%
 
 1. **[!UICONTROL Mid-Sourcing]** 탭에서 중간 소싱 서버 연결 매개 변수를 지정합니다.
 
-   **[!UICONTROL Account]** 및 **[!UICONTROL Password]** 필드에 [이전에 만든 SMS 커넥터](#create-sms-operator)의 세부 정보를 입력하십시오.
+   [ 및 ](#create-sms-operator) 필드에 **[!UICONTROL Account]**&#x200B;이전에 만든 SMS 커넥터&#x200B;**[!UICONTROL Password]**&#x200B;의 세부 정보를 입력하십시오.
 
    ![](assets/mid_external_account_7.png)
 
 1. **[!UICONTROL Test the connection]**&#x200B;을(를) 클릭하여 구성을 확인합니다.
 
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 중간 서버에서 SMPP 외부 계정 만들기 {#creating-smpp-mid}
 
@@ -97,7 +97,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [페이지](sms-pr
 
    >[!WARNING]
    >
-   >**[!UICONTROL Internal name]**&#x200B;을(를) 할당할 때 지정된 명명 규칙을 따라야 합니다.
+   >**[!UICONTROL Internal name]**을(를) 할당할 때 지정된 명명 규칙을 따라야 합니다.
    > </br>`SMS Operator Name_Internal Name of the Marketing SMS external account`
 
    ![](assets/mid_external_account_6.png)
@@ -108,7 +108,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [페이지](sms-pr
 
 1. **[!UICONTROL Enabled]** 상자를 선택합니다.
 
-1. **[!UICONTROL Mobile]** 탭의 **[!UICONTROL Connector]** 드롭다운 목록에서 **[!UICONTROL Extended generic SMPP]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Mobile]** 탭의 **[!UICONTROL Extended generic SMPP]** 드롭다운 목록에서 **[!UICONTROL Connector]**&#x200B;을(를) 선택합니다.
 
    ![](assets/mid_external_account_4.png)
 
@@ -154,7 +154,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [페이지](sms-pr
 
 ## 게재 템플릿 변경 {#changing-the-delivery-template}
 
-Adobe Campaign은 **[!UICONTROL Resources > Templates > Delivery templates]** 노드에 있는 모바일 게재 템플릿을 제공합니다. 자세한 내용은 [템플릿 정보](about-templates.md) 섹션을 참조하세요.
+Adobe Campaign은 **[!UICONTROL Resources > Templates > Delivery templates]** 노드에 있는 모바일 게재 템플릿을 제공합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}를 참조하세요.
 
 SMS 채널을 통해 메시지를 전송하려면 채널 커넥터에 대한 참조를 포함하는 템플릿을 만들어야 합니다.
 
@@ -170,7 +170,7 @@ SMS 채널을 통해 메시지를 전송하려면 채널 커넥터에 대한 참
 
    ![](assets/delivery_template_mid_2.png)
 
-1. **[!UICONTROL Properties]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Properties]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL General]** 탭에서 [마케팅 서버에서 SMS 외부 계정 만들기](#create-accound-mkt) 섹션에서 만든 외부 계정에 해당하는 라우팅 모드를 선택합니다.
 

@@ -5,10 +5,10 @@ description: Campaign 기본 제공 패키지를 설치하는 방법 알아보�
 feature: Installation, Application Settings
 badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 2%
+source-wordcount: '1270'
+ht-degree: 3%
 
 ---
 
@@ -66,12 +66,12 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> 마케팅 캠페인(캠페인)<br /> </td> 
-   <td> 커뮤니케이션 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석합니다. <a href="../../campaign/using/designing-marketing-campaigns.md">자세히 알아보기</a><br /> </td> 
+   <td> 커뮤니케이션 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석합니다. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html" target="_blank">자세히 알아보기</a><br /> </td> 
    <td> 마케팅</td>
   </tr> 
   <tr> 
    <td> 마케팅 리소스(MRM)<br /> </td> 
-   <td> 작업, 예산 및 마케팅 리소스에 대한 관리 및 추적을 제공하여 공동 작업 모드에서 마케팅 작업을 제어합니다. <a href="../../mrm/using/about-marketing-resource-management.md">자세히 알아보기</a> <br /> </td> 
+   <td> 작업, 예산 및 마케팅 리소스에 대한 관리 및 추적을 제공하여 공동 작업 모드에서 마케팅 작업을 제어합니다. <a href="https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=ko" target="_blank">자세히 알아보기</a> <br /> </td> 
    <td> 마케팅</td> 
   </tr> 
   <tr> 
@@ -157,12 +157,12 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> 외부 데이터에 액세스(페더레이션 데이터 액세스)<br /> </td> 
-   <td> Adobe Campaign 데이터의 구조를 변경하지 않고 외부 데이터에 액세스할 수 있도록 하나 이상의 외부 데이터베이스에 저장된 정보를 처리하기 위한 FDA(Federated Data Access) 옵션을 제공합니다.  선택 사항입니다. <a href="../../workflow/using/accessing-an-external-database-fda.md">자세히 알아보기</a> <br /> </td> 
+   <td> Adobe Campaign 데이터의 구조를 변경하지 않고 외부 데이터에 액세스할 수 있도록 하나 이상의 외부 데이터베이스에 저장된 정보를 처리하기 위한 FDA(Federated Data Access) 옵션을 제공합니다.  선택 사항입니다. <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html" target="_blank">자세히 알아보기</a> <br /> </td> 
    <td> 모두<br /> </td> 
   </tr> 
   <tr> 
    <td> 캠페인 최적화<br /> </td> 
-   <td> 회사 커뮤니케이션 정책을 준수하면서 고객의 요구 사항과 기대치에 가장 적합한 메시지를 보낼 수 있도록 게재 전송을 제어, 필터링 및 모니터링합니다. 선택 사항입니다. <a href="../../campaign-opt/using/about-campaign-typologies.md">자세히 알아보기</a> <br /> </td> 
+   <td> 회사 커뮤니케이션 정책을 준수하면서 고객의 요구 사항과 기대치에 가장 적합한 메시지를 보낼 수 있도록 게재 전송을 제어, 필터링 및 모니터링합니다. 선택 사항입니다. <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ko" target="_blank">자세히 알아보기</a> <br /> </td> 
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 
@@ -182,7 +182,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> 중앙/로컬 마케팅(분산 마케팅)<br /> </td> 
-   <td> 중앙 엔터티(본사, 마케팅 부서 등)와 지역 엔터티(영업 지점, 지역 에이전시 등) 간의 협력 캠페인을 구현합니다. 선택 사항입니다. <a href="../../distributed/using/about-distributed-marketing.md">자세히 알아보기</a><br /> </td> 
+   <td> 중앙 엔터티(본사, 마케팅 부서 등)와 지역 엔터티(영업 지점, 지역 에이전시 등) 간의 협력 캠페인을 구현합니다. 선택 사항입니다. <a href="https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ko" target="_blank">자세히 알아보기</a><br /> </td> 
    <td> 마케팅 </td> 
   </tr> 
   <tr> 
@@ -212,7 +212,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> 개인 정보 보호 규정<br /> </td> 
-   <td> Campaign Classic에서의 개인 정보 보호 규정을 준수하는 데 도움이 되는 추가 기능이 포함되어 있습니다. <a href="https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html">자세히 알아보기</a> <br /> </td> 
+   <td> Campaign Classic에서 개인 정보 보호 규정을 준수하는 데 도움이 되는 추가 기능이 포함되어 있습니다. <a href="https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html">자세히 알아보기</a> <br /> </td> 
    <td> 모두</td> 
   </tr> 
   <tr> 
@@ -227,12 +227,12 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> AMP 지원<br /> </td> 
-   <td> 이메일 형식에 새로운 대화형 AMP를 사용하고 다이내믹 이메일을 보낼 수 있습니다. 선택 사항입니다. <a href="../../delivery/using/defining-interactive-content.md">자세히 알아보기</a> <br /> </td> 
+   <td> 이메일 형식에 새로운 대화형 AMP를 사용하고 다이내믹 이메일을 보낼 수 있습니다. 선택 사항입니다. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html" target="_blank">자세히 알아보기</a> <br /> </td> 
    <td> 모두 </td> 
   </tr> 
   <tr> 
    <td> ACS 커넥터(더 이상 사용되지 않음)<br /> </td> 
-   <td> Adobe Campaign v7 및 Adobe Campaign Standard의 브리지입니다. 이 기능은 데이터를 자동으로 Campaign Standard에 복제하여 두 애플리케이션의 최고를 결합하는 Campaign v7의 통합 기능입니다. 선택 사항입니다.<br /> </td> 
+   <td> Adobe Campaign v7 및 Adobe Campaign Standard의 브리지입니다. 이 기능은 Campaign Standard에 데이터를 자동으로 복제하여 두 애플리케이션의 최고를 결합하는 Campaign v7의 통합 기능입니다. 선택 사항입니다.<br /> </td> 
    <td> 마케팅 </td> 
   </tr> 
  </tbody> 
@@ -242,14 +242,14 @@ ht-degree: 2%
 
 트랜잭션 메시지(메시지 센터 패키지)를 설치하기 전에 게재 채널(이메일, 모바일 채널, 모바일 앱 채널, LINE 등)을 설치해야 합니다. 이메일 전용 메시지 센터 프로젝트를 시작했으며 나중에 새 채널을 추가해야 하는 경우 다음 단계를 따라야 합니다.
 
-1. 패키지 가져오기 도우미(**[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**)를 사용하여 새 채널(예: **모바일 채널**)을 설치합니다.
+1. 패키지 가져오기 도우미(**)를 사용하여 새 채널(예:**&#x200B;모바일 채널&#x200B;**[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**)을 설치합니다.
 1. 파일(**[!UICONTROL Tools > Advanced > Import package > File]**)을 가져온 다음 다음을 선택합니다.
 
    ```
    \datakit\nms\[Your language]\package\messageCenter.xml
    ```
 
-1. **[!UICONTROL XML data content to import]**&#x200B;에서 관련 채널에 해당하는 메시지 센터 게재 템플릿만 유지합니다. 예를 들어 **Mobile 채널**&#x200B;을 추가한 경우 **[!UICONTROL Mobile transactional message]**(smsTriggerMessage) 템플릿에 해당하는 **entities** 요소만 유지합니다. **모바일 앱 채널**&#x200B;을 추가한 경우 **iOS 트랜잭션 메시지** 템플릿(iosTriggerMessage) 및 **Android 트랜잭션 메시지**(androidTriggerMessage)만 유지합니다.
+1. **[!UICONTROL XML data content to import]**&#x200B;에서 관련 채널에 해당하는 메시지 센터 게재 템플릿만 유지합니다. 예를 들어 **Mobile 채널**&#x200B;을 추가한 경우 **(smsTriggerMessage) 템플릿에 해당하는** entities **[!UICONTROL Mobile transactional message]** 요소만 유지합니다. **모바일 앱 채널**&#x200B;을 추가한 경우 **iOS 트랜잭션 메시지** 템플릿(iosTriggerMessage) 및 **Android 트랜잭션 메시지**(androidTriggerMessage)만 유지합니다.
 
    ![](assets/messagecenter_install_channel.png)
 

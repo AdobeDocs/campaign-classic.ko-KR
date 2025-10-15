@@ -5,9 +5,9 @@ description: 보고서 목록
 badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Reporting, Monitoring
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1020'
 ht-degree: 2%
 
 ---
@@ -123,7 +123,7 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 �
 
 Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 확인할 수 있습니다.
 
-이 보고서의 내용에 대한 자세한 정보는 [이 섹션](../../campaign/using/designing-marketing-campaigns.md)을 참조하세요.
+이러한 보고서의 내용에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}를 참조하세요.
 
 <table> 
  <tbody> 
@@ -219,7 +219,7 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 �
 
 Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 확인할 수 있습니다.
 
-이 보고서의 내용에 대한 자세한 정보는 [이 섹션](../../campaign/using/designing-marketing-campaigns.md)을 참조하세요.
+이러한 보고서의 내용에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}를 참조하세요.
 
 <table> 
  <tbody> 
@@ -360,7 +360,7 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 �
   </tr> 
   <tr> 
    <td> 소셜 잠재 고객 확보 기록(socialVisitorStatistics)<br /> </td> 
-   <td> X(이전의 Twitter) 및 Facebook 잠재 고객 확보 기록은 소셜 마케팅 추가 기능에 따라 다릅니다.<br /> </td> 
+   <td> X(이전 Twitter) 및 Facebook 잠재 고객 확보 기록은 소셜 마케팅 추가 기능에 따라 다릅니다.<br /> </td> 
    <td> nms:visitor<br /> </td> 
   </tr> 
   <tr> 

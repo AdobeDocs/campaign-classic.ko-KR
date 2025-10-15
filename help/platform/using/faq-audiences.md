@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ba8bf610-cbac-41e9-8b6e-130deb8b97e2
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 75%
+source-wordcount: '262'
+ht-degree: 59%
 
 ---
 
@@ -28,12 +28,11 @@ Adobe Campaign 내에서 모집단을 타기팅하고 대상자를 관리하는 
 
 데이터베이스에서 [프로필을 가져오기](../../platform/using/import-operations-samples.md) 위해 쉬운 사용 사례를 살펴봅니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/importing-profiles.html?lang=ko)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/importing-profiles.html)
 
 ## 마케팅 캠페인의 대상 모집단을 정의하려면 어떻게 해야 합니까? {#how-can-i-define-the-target-population-of-a-marketing-campaign-}
 
-[워크플로를 사용하여 마케팅 캠페인의 대상 모집단을 만들 수](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) 있습니다.
-
+워크플로우를 사용하여 마케팅 캠페인의 대상 모집단을 만들 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#build-the-main-target-in-a-workflow.html){target="_blank"}를 참조하세요.
 
 ## 프로필 목록을 만들려면 어떻게 해야 합니까? {#how-can-i-create-a-list-of-profiles-}
 
@@ -41,13 +40,13 @@ Adobe Campaign 내에서 모집단을 타기팅하고 대상자를 관리하는 
 
 [자세한 내용을 보려면 여기를 클릭하십시오](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group).
 
-![](assets/do-not-localize/how-to-video.png)이 비디오 [및 다른 비디오](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients-with-a-workflow.html?lang=ko)에서 [이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html?lang=ko)
+![](assets/do-not-localize/how-to-video.png)이 비디오 [및 다른 비디오](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients-with-a-workflow.html)에서 [이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html)
 
 ## 메시지를 보내기 전에 모집단 중복을 제거하려면 어떻게 해야 합니까? {#how-can-i-deduplicate-a-population-before-sending-a-message-}
 
 동일한 메시지를 수신자에게 여러 번 보내지 않도록 워크플로를 사용하여 게재의 대상에서 중복을 제외할 수 있습니다.
 
-예제를 통해 [자세한 내용을 보려면 여기를 클릭하십시오](../../workflow/using/deduplication.md#example--identify-the-duplicates-before-a-delivery).
+자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}를 참조하세요.
 
 ## 뉴스레터 가입자를 식별하고 타겟팅하는 방법 {#how-to-identify-and-target-subscribers-to-a-newsletter-}
 
@@ -55,4 +54,4 @@ Campaign에서 구독 관리를 살펴보고 [구독자에게 메시지를 보�
 
 ## 대상 모집단에서 프로필을 제외하는 가장 좋은 방법은 무엇입니까? {#what-is-the-best-practice-to-exclude-profiles-from-a-target-population-}
 
-대상 모집단에서 프로필 목록을 제외하는 방법을 배우려면 [이 페이지를](../../workflow/using/read-list.md) 참조하십시오.
+[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html){target="_blank"}에서 대상 모집단에서 프로필 목록을 제외하는 방법을 알아봅니다.

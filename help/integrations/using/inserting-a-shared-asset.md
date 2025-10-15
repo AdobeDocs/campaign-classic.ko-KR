@@ -7,9 +7,9 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: 30a94bce-6d96-4a6d-a62f-7451c822f0e3
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '220'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Adobe Experience Cloud에서 공유한 Assets을 이메일 및 랜딩 페이지�
 
 1. 편집 창에서 이미지를 추가할 옵션을 선택합니다.
 
-   * [표준 편집 모드](../../delivery/using/defining-the-email-content.md#adding-images)를 사용하는 경우 **[!UICONTROL Image]** > **[!UICONTROL Select a shared asset]**&#x200B;을(를) 선택하십시오.
+   * [표준 편집 모드](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}를 사용하는 경우 **[!UICONTROL Image]** > **[!UICONTROL Select a shared asset]**&#x200B;을(를) 선택하십시오.
 
      ![](assets/dam_insert_image_standard.png)
 

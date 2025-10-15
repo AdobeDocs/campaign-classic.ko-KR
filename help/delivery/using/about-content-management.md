@@ -6,9 +6,9 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Landing Pages, Email Design
 role: User
 exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '261'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ Adobe Campaign Content Manager 모듈은 반복 뉴스레터 또는 웹 사이�
 
 >[!NOTE]
 >
->이 섹션은 콘텐츠 관리 모듈을 참조합니다. 전자 메일 게재 콘텐츠를 디자인하는 방법에 대한 자세한 내용은 [이 섹션](defining-the-email-content.md)을 참조하세요.
+>이 섹션은 콘텐츠 관리 모듈을 참조합니다. 이메일 게재 콘텐츠를 디자인하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html){target="_blank"}를 참조하세요.
 
 컨텐츠 관리 모듈에는 작업 그룹, 워크플로우 및 컨텐츠 집계 기능이 통합되어 있습니다. 이렇게 하면 이메일, 메일, SMS, 웹 등 메시지의 서식을 자동으로 지정할 수 있습니다.
 
@@ -35,7 +35,7 @@ Adobe Campaign Content Manager 모듈은 반복 뉴스레터 또는 웹 사이�
 
 * 입력 인터페이스를 통한 구조화된 메시지 편집,
 * 데이터 콘텐츠 분리 및 표시 방법(XML 형식으로 생성),
-* 다양한 형식의 문서 생성(html, txt, XML 등) 그래픽 문자 규정 준수를 보장하기 위해 스타일시트를 기반으로 합니다.
+* 그래픽 문자 규정 준수를 보장하기 위해 스타일시트를 기반으로 다양한 형식(html, txt, XML 등)으로 문서를 생성합니다.
 * 외부 컨텐츠 흐름의 복구 및 자동 집계,
 * 데이터 유효성 검사 및 검사를 위한 워크플로가 포함된 Collaboration.
 

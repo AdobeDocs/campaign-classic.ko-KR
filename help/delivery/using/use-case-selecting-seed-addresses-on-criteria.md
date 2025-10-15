@@ -5,9 +5,9 @@ description: '활용 사례: 기준 시드 주소 선택'
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '850'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 ## 1단계 - 게재 만들기 {#step-1---creating-a-delivery}
 
-게재를 만드는 단계는 [전자 메일 게재 만들기](creating-an-email-delivery.md) 섹션에 자세히 설명되어 있습니다.
+게재를 만드는 단계는 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html){target="_blank"}에 자세히 설명되어 있습니다.
 
 이 예에서 게재 관리자는 뉴스레터를 생성하고 수신자를 선택했습니다.
 
@@ -53,7 +53,7 @@ ht-degree: 3%
 
    ![](assets/dlv_seeds_usecase_10.png)
 
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 1. 스키마 편집 창에서 아래 줄을 복사하여 스크린샷에 표시된 영역에 붙여넣습니다.
 
    ```
@@ -78,7 +78,7 @@ ht-degree: 3%
 
    이 경우 시드 주소 테이블에 **[!UICONTROL Department]**(이)라는 새 열거형이 만들어지고 표준 **[!UICONTROL @company]** 열거형 템플릿(시드 주소 양식의 이름 **Company** 아래에 레이블이 지정됨)을 기반으로 하도록 지정합니다.
 
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Tools > Advanced]** 메뉴에서 **[!UICONTROL Update database structure]** 옵션을 선택합니다.
 
    ![](assets/dlv_seeds_usecase_12.png)
@@ -99,7 +99,7 @@ ht-degree: 3%
 
 시드 주소 데이터 스키마는 수신자 데이터 스키마 - 수신자 (nms)에 연결된 테이블의 값을 사용할 수 있습니다.
 
-예를 들어 사용자는 수신자 스키마에 연결된 **[!UICONTROL Country]** 테이블에 있는 **[!UICONTROL Internet Extension]**&#x200B;을(를) 통합하려고 합니다.
+예를 들어 사용자는 수신자 스키마에 연결된 **[!UICONTROL Internet Extension]** 테이블에 있는 **[!UICONTROL Country]**&#x200B;을(를) 통합하려고 합니다.
 
 ![](assets/dlv_seeds_usecase_06.png)
 
@@ -150,7 +150,7 @@ ht-degree: 3%
 
    ![](assets/dlv_seeds_usecase_22.png)
 
-1. 게재에 사용할 시드 주소를 편집하고 **[!UICONTROL Department]** 필드에 값으로 **구매**&#x200B;를 입력하십시오.
+1. 게재에 사용할 시드 주소를 편집하고 **필드에 값으로**&#x200B;구매&#x200B;**[!UICONTROL Department]**&#x200B;를 입력하십시오.
 
 ## 3단계 - 조건 정의 {#step-3---defining-the-condition}
 
@@ -176,7 +176,7 @@ ht-degree: 3%
    >
    >이전에 만든 스키마 확장은 **recipient** 스키마에서 가져온 것입니다. 위의 화면에 표시된 값은 **recipient** 스키마의 열거형에서 가져온 것입니다.
 
-1. **[!UICONTROL Ok]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다.
 
    쿼리가 **[!UICONTROL Select target]** 창에 표시됩니다.
 

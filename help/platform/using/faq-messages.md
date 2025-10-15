@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 83%
+source-wordcount: '761'
+ht-degree: 72%
 
 ---
 
@@ -26,13 +26,13 @@ Adobe Campaign 내에서 메시지를 보내기 전에 테스트 및 유효성 �
 
 게재 분석은 대상 모집단을 계산하고 게재 콘텐츠가 준비되는 단계입니다. 완료되면 게재를 보낼 수 있습니다. 모든 것이 올바른지 확인하려면 로그를 참조하십시오.
 
-[자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/steps-validating-the-delivery.md).
+자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}를 참조하세요.
 
 ### 증명을 만들어야 하는 이유는 무엇입니까? {#why-should-i-create-proofs-}
 
 Adobe에서는 주요 대상으로 보내기 전에 승인 그룹에서 전달을 테스트하기 위하여 교정쇄 메시지를 만드는 것을 강력히 권장합니다. 그런 다음 메시지 콘텐츠, 개인화 및 게재 매개 변수의 유효성을 검사할 수 있습니다.
 
-[자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}를 참조하세요.
 
 ### Adobe Campaign에서 시드 주소를 사용하는 방법 {#how-to-use-seed-addresses-in-adobe-campaign-}
 
@@ -49,13 +49,13 @@ Adobe에서는 주요 대상으로 보내기 전에 승인 그룹에서 전달�
 
 메시지 구성에서 발생할 수 있는 오류를 탐지하기 위해 Adobe에서는 게재 유효성 검사 주기를 설정할 것을 강력히 권장합니다. 필요한 만큼 자주 테스트 내용을 수신자에게 보내서 콘텐츠가 승인되었는지 확인합니다. 콘텐츠를 승인하려면 변경 사항이 있을 때마다 교정쇄를 보내야 합니다.
 
-[자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}를 참조하세요.
 
 ### 유형화 규칙이란 무엇입니까? {#what-is-a-typology-rule-}
 
 캠페인 간의 충돌을 방지하기 위해 Adobe Campaign은 특정 제한 조건을 적용하여 다양한 조합을 테스트할 수 있습니다. 따라서 전송된 메시지는 회사 커뮤니케이션 정책을 준수하면서 고객의 요구 사항과 기대치에 가장 적합한 메시지를 제공합니다.
 
-[자세한 내용을 보려면 여기를 클릭하십시오](../../campaign-opt/using/about-campaign-typologies.md).
+[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ko){target="_blank"}를 참조하세요.
 
 ## 메시지 보내기 {#send-your-messages}
 
@@ -63,25 +63,25 @@ Adobe Campaign을 사용하여 다양한 채널에서 메시지를 보내는 방
 
 ### 전자 메일을 웨이브로 보내려면 어떻게 해야 합니까? {#how-can-i-send-emails-in-waves-}
 
-게재를 큰 모집단으로 보내기 전에 [웨이브를 구성](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves)하여 여러 개의 배치로 메시지를 나누어 부하의 균형을 맞출 수 있습니다.
+게재를 큰 모집단으로 보내기 전에 웨이브를 구성하여 여러 개의 배치로 메시지를 나누어 부하의 균형을 맞출 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html#sending-using-multiple-waves){target="_blank"}를 참조하세요.
 
 ### Campaign에서 전자 메일을 만드는 주요 단계는 무엇입니까? {#which-are-the-key-steps-to-create-an-email-in-campaign-}
 
 전자 메일 게재가 만들어지고 유효성이 확인되면 해당 전자 메일을 보낼 수 있습니다. 전자 메일을 주요 대상으로 즉시 보내거나 나중에 게재되도록 예약할 수 있습니다. 필요한 경우 그 전에 대상 모집단을 예측할 수도 있습니다.
 
-[자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}를 참조하세요.
 
 ### 게재를 예약하는 방법 {#how-to-schedule-a-delivery-}
 
 게재 예약이나 판매 압력을 관리하고 모집단을 지나치게 모집하지 않기 위해 메시지 게재를 연기할 수 있습니다.
 
-[자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/steps-sending-the-delivery.md#scheduling-the-delivery-sending).
+자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html#schedule-delivery-sending){target="_blank"}를 참조하세요.
 
 ### 전자 메일에 첨부 파일을 추가할 수 있습니까? {#can-i-add-an-attachment-to-emails-}
 
 Campaign Classic을 통해 개인화된 첨부 파일을 전자 메일에 추가할 수 있습니다.
 
-[전자 메일 첨부 파일에 대한 자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/attaching-files.md).
+[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html){target="_blank"}에서 전자 메일 첨부 파일에 대해 자세히 알아보세요.
 
 ## 메시지 추적 및 효과 측정 {#track-your-messages-and-measure-their-impact}
 

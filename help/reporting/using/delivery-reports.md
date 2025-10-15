@@ -5,9 +5,9 @@ description: 게재 보고서
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Reporting, Monitoring
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
-source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1470'
 ht-degree: 9%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->이 보고서에 표시되는 도메인 이름은 큐브 수준에서 사용되는 항목별 목록에 정의됩니다. 기본 도메인을 변경, 추가 또는 제거하려면 **[!UICONTROL Domains]** 항목별 목록을 편집하고 값과 별칭을 수정합니다. **Adobe Campaign v8(콘솔) 설명서**&#x200B;에서 [열거형으로 작업](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}하는 방법에 대해 자세히 알아보세요. **[!UICONTROL Others]** 범주에 항목별 목록의 값에 속하지 않는 도메인 이름이 포함되어 있습니다.
+>이 보고서에 표시되는 도메인 이름은 큐브 수준에서 사용되는 항목별 목록에 정의됩니다. 기본 도메인을 변경, 추가 또는 제거하려면 **[!UICONTROL Domains]** 항목별 목록을 편집하고 값과 별칭을 수정합니다. **Adobe Campaign v8(콘솔) 설명서**&#x200B;에서 [열거형으로 작업](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}하는 방법에 대해 자세히 알아보세요. **[!UICONTROL Others]** 범주에 항목별 목록의 값에 속하지 않는 도메인 이름이 포함되어 있습니다.
 
 **[!UICONTROL 4. Generated click streams]**
 
@@ -158,7 +158,7 @@ ht-degree: 9%
 이 섹션에는 두 개의 표시기가 있습니다.
 
 * **[!UICONTROL Initial population]** : 게재를 대상으로 하는 총 수신자 수입니다.
-* **[!UICONTROL Messages rejected by the rule]** : 유형화 규칙을 적용할 때 분석 중에 무시된 주소 수: 주소 누락, 격리됨, 차단 목록 등 유형화 규칙에 대한 자세한 내용은 이 [페이지](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies)를 참조하세요.
+* **[!UICONTROL Messages rejected by the rule]** : 유형화 규칙을 적용할 때 분석 중에 무시된 주소 수: 주소 누락, 격리됨, 차단 목록 등 유형화 규칙에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}를 참조하세요.
 
 **[!UICONTROL Causes of exclusion]**
 
