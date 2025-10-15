@@ -68,6 +68,6 @@ Campaign의 컨텍스트에서 다음 개념을 알고 있어야 합니다.
 
 이 비디오에서는 마케팅 캠페인의 주요 개념을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/326577?captions=kor&quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.
