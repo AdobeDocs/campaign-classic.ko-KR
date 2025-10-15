@@ -53,7 +53,7 @@ Adobe Campaign이 전달하는 메시지는 콘텐츠 또는 메시지 모양을
 * 메시지 형식을 개인화합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#message-content){target="_blank"}를 참조하세요.
 * 동적 개인화 필드를 삽입합니다. [자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/personalization-fields.md).
 * 사전 정의된 개인화 블록을 삽입하거나 직접 블록을 만듭니다. [자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/personalization-blocks.md).
-* 조건부 콘텐츠 만들기 [자세한 내용을 살펴보고 [이 섹션](../../delivery/using/conditional-content.md)을 읽으려면 여기를 클릭하십시오](../../delivery/using/conditional-content.md).
+* 조건부 콘텐츠 만들기 [&#128279;](../../delivery/using/conditional-content.md)자세한 내용을 살펴보고 [이 섹션](../../delivery/using/conditional-content.md)을 읽으려면 여기를 클릭하십시오.
 
 ## 다국어 메시지를 보낼 수 있습니까? {#can-i-send-multilingual-messages-}
 

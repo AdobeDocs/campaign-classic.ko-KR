@@ -24,7 +24,7 @@ Adobe Campaign으로 시작하는 주요 단계를 배웁니다.
 
 IMS(Adobe Identity Management 시스템)와의 통합 덕분에 사용자는 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결할 수 있습니다. 이 통합은 다음과 같은 이점을 제공합니다.
 
-*  모든 Experience Cloud 솔루션에 동일한 ID를 사용할 수 있습니다.
+* 모든 Experience Cloud 솔루션에 동일한 ID를 사용할 수 있습니다.
 * 서로 다른 통합으로 Adobe Campaign을 사용하는 경우 연결이 기억됩니다.
 * 보안 암호 관리 정책.
 * 페더레이션 ID 계정 사용(외부 ID 공급자).
@@ -33,7 +33,7 @@ Adobe ID을 사용하여 Campaign Classic에 액세스하는 방법에 대한 [�
 
 ## Campaign의 버전은 무엇입니까? {#what-is-my-version-of-campaign-}
 
-Campaign 클라이언트 콘솔의 **도움말 > 정보...[ 메뉴에서 버전 및 빌드 번호](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)를** 확인합니다.
+Campaign 클라이언트 콘솔의 **도움말 > 정보...[&#x200B; 메뉴에서 버전 및 빌드 번호](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)를** 확인합니다.
 
 ## 온프레미스 및 호스팅 환경에서 작업하는 경우의 차이점은 무엇입니까? {#what-are-the-differences-when-working-on-premise-vs--in-a-hosted-environment-}
 

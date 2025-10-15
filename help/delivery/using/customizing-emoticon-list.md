@@ -48,7 +48,7 @@ ht-degree: 3%
 
    ![](assets/emoticon_5.png)
 
-1. 구성이 완료되면 **[!UICONTROL Ok]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**을(를) 클릭합니다.
+1. 구성이 완료되면 **[!UICONTROL Ok]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 새 이모티콘이 스토어에 자동으로 삽입됩니다.
 
 1. 게재의 **[!UICONTROL Insert emoticon]** 창에 표시하려면 새로 만든 이모티콘을 두 번 클릭하여 선택합니다.

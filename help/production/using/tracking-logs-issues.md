@@ -20,7 +20,7 @@ ht-degree: 14%
 
 추적 로그가 전달되지 않는 이유는 여러 가지가 있을 수 있습니다. 다음 정보를 확인하는 것이 좋습니다.
 
-* ****&#x200B;추적&#x200B;**워크플로에 오류가 있습니까?**
+* **&#x200B;**&#x200B;추적&#x200B;**워크플로에 오류가 있습니까?**
 
 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=ko){target="_blank"}를 참조하세요.
 

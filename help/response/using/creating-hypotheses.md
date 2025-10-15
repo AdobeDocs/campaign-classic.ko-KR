@@ -82,7 +82,7 @@ ht-degree: 3%
 
 시작하기 전에 마케팅 캠페인에서 가설을 참조할 수 있습니다. 이 경우, 게재가 전송되면 가설 템플릿에 정의된 실행 설정을 기반으로 가설이 자동으로 실행됩니다. 게재에서 가설을 생성하려면 다음 프로세스를 적용합니다.
 
-1. 필요에 따라 **[!UICONTROL Delivery]**&#x200B;이 섹션[에 설명된 대로 ](hypothesis-templates.md#creating-a-hypothesis-model) 형식 템플릿을 하나 이상 만들 수 있습니다.
+1. 필요에 따라 **[!UICONTROL Delivery]**&#x200B;이 섹션[에 설명된 대로 &#x200B;](hypothesis-templates.md#creating-a-hypothesis-model) 형식 템플릿을 하나 이상 만들 수 있습니다.
 1. 마케팅 캠페인 및 타기팅 워크플로우를 만듭니다.
 1. 게재 창에서 **[!UICONTROL Delivery measurement]** 아이콘을 클릭합니다.
 1. 가설 템플릿을 선택합니다(모델에 구성된 쿼리가 가설 창에 표시됨).
@@ -116,7 +116,7 @@ ht-degree: 3%
 
 오퍼 제안에 대한 가설을 생성하는 것은 즉석 전달 가설을 생성하는 것과 유사하다. 오퍼가 활성화된 경우 가설을 실행할 수 있습니다. 계산 기간은 오퍼 제안 일자를 기반으로 합니다. 가설을 통해 수신자를 구매에 연결할 수 있는 경우 수락될 가능성이 있는 오퍼 제안의 상태는 자동으로 변경될 수 있습니다. [자세히 알아보기](hypothesis-templates.md#transactions)
 
-1. **[!UICONTROL Offer]**&#x200B;이 섹션[에 설명된 대로 ](hypothesis-templates.md#creating-a-hypothesis-model) 형식 모델을 하나 이상 만듭니다.
+1. **[!UICONTROL Offer]**&#x200B;이 섹션[에 설명된 대로 &#x200B;](hypothesis-templates.md#creating-a-hypothesis-model) 형식 모델을 하나 이상 만듭니다.
 1. **[!UICONTROL Campaign management > Measurement hypotheses]** 노드로 이동합니다.
 1. 이전에 만든 모델을 선택하여 **[!UICONTROL Offers]** 형식 가설을 만듭니다.
 

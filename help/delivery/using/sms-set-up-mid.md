@@ -71,7 +71,7 @@ ht-degree: 8%
 
 1. **[!UICONTROL Mid-Sourcing]** 탭에서 중간 소싱 서버 연결 매개 변수를 지정합니다.
 
-   [ 및 ](#create-sms-operator) 필드에 **[!UICONTROL Account]**&#x200B;이전에 만든 SMS 커넥터&#x200B;**[!UICONTROL Password]**&#x200B;의 세부 정보를 입력하십시오.
+   [&#x200B; 및 &#x200B;](#create-sms-operator) 필드에 **[!UICONTROL Account]**&#x200B;이전에 만든 SMS 커넥터&#x200B;**[!UICONTROL Password]**&#x200B;의 세부 정보를 입력하십시오.
 
    ![](assets/mid_external_account_7.png)
 
@@ -97,7 +97,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [페이지](sms-pr
 
    >[!WARNING]
    >
-   >**[!UICONTROL Internal name]**을(를) 할당할 때 지정된 명명 규칙을 따라야 합니다.
+   >**[!UICONTROL Internal name]**&#x200B;을(를) 할당할 때 지정된 명명 규칙을 따라야 합니다.
    > </br>`SMS Operator Name_Internal Name of the Marketing SMS external account`
 
    ![](assets/mid_external_account_6.png)
