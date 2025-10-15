@@ -49,7 +49,7 @@ S3 또는 Azure blob 저장소 위치를 Adobe experience Platform의 **Source**
 
 1. Adobe Experience Platform **[!UICONTROL Sources]** 메뉴에서 저장소 위치에 대한 연결을 만듭니다.
 
-   * [Amazon S3 원본 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html)
+   * [Amazon S3 원본 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html?lang=ko)
    * [Azure Blob 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html?lang=ko)
 
    >[!NOTE]

@@ -38,7 +38,7 @@ Campaign v8 설명서에서 전자 메일 게재 만들기와 관련된 주요 �
 * [전자 메일 콘텐츠 정의](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko){target="_blank"}: 보낸 사람, 제목, 콘텐츠, 이미지 등 전자 메일에 포함될 내용을 정의합니다.
 * [대화형 콘텐츠 정의](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html?lang=ko){target="_blank"}: 대화형 AMP for Email 형식을 사용하여 다이내믹 전자 메일을 보냅니다.
 * [일본어 모바일에서 전자 메일 보내기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=ko){target="_blank"}: 모바일에서 전자 메일에 세 가지 특정 일본어 형식 중 하나를 사용합니다.
-* [전자 메일에 파일 첨부](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html){target="_blank"}: 전자 메일에 하나 이상의 파일을 첨부하는 다양한 방법을 알아봅니다.
+* [전자 메일에 파일 첨부](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html?lang=ko){target="_blank"}: 전자 메일에 하나 이상의 파일을 첨부하는 다양한 방법을 알아봅니다.
 
 
 >[!TAB 이메일 매개 변수]

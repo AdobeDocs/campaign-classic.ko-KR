@@ -37,7 +37,7 @@ Campaign v8 설명서에서 전자 메일 게재 만들기 및 대상 정의 **�
 
 * [DM 게재 만들기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html?lang=ko#creating-a-direct-mail-delivery){target="_blank"}: DM 게재를 만드는 데 필요한 여러 단계에 대해 알아봅니다.
 * [DM 대상자 정의](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html?lang=ko#creating-a-direct-mail-delivery?lang=ko#defining-the-direct-mail-audience){target="_blank"}: 타겟팅된 프로필을 식별하여 DM 게재 대상자를 정의하는 방법을 알아봅니다.
-* [DM 콘텐츠 정의](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html#creating-a-direct-mail-delivery#defining-the-direct-mail-content){target="_blank"}: 개인화 요소 및 데이터 필드를 포함하여 DM 게재 콘텐츠를 정의하는 방법을 알아봅니다.
+* [DM 콘텐츠 정의](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html?lang=ko#creating-a-direct-mail-delivery?lang=ko#defining-the-direct-mail-content){target="_blank"}: 개인화 요소 및 데이터 필드를 포함하여 DM 게재 콘텐츠를 정의하는 방법을 알아봅니다.
 
 >[!TAB DM 유효성 검사 및 보내기]
 

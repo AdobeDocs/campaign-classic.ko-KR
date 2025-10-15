@@ -58,7 +58,7 @@ Personalization 기본 사항은 [이 섹션](personalization-fields.md)에 나�
 
 ### 제목 줄
 
-열람률을 개선하기 위한 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#sender){target="_blank"}의 제목 줄에 대해 알아봅니다.
+열람률을 개선하기 위한 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko#sender){target="_blank"}의 제목 줄에 대해 알아봅니다.
 
 * 너무 긴 과목은 피하세요. 최대 50자 사용
 

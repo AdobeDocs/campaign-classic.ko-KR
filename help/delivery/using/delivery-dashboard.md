@@ -98,7 +98,7 @@ ht-degree: 4%
 
 **[!UICONTROL Refresh]** 단추를 사용하여 데이터를 업데이트할 수 있습니다. **[!UICONTROL Filters]** 단추를 사용하여 데이터에 대한 필터를 정의합니다.
 
-특수 아이콘을 사용하면 오류나 경고를 식별할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}에서 이 섹션을 참조하십시오.
+특수 아이콘을 사용하면 오류나 경고를 식별할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=ko){target="_blank"}에서 이 섹션을 참조하십시오.
 
 **[!UICONTROL Proofs]** 하위 탭에서는 보낸 증명 목록을 볼 수 있습니다.
 

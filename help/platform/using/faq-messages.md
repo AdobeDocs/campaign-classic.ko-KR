@@ -75,7 +75,7 @@ Adobe Campaign을 사용하여 다양한 채널에서 메시지를 보내는 방
 
 게재 예약이나 판매 압력을 관리하고 모집단을 지나치게 모집하지 않기 위해 메시지 게재를 연기할 수 있습니다.
 
-자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html#schedule-delivery-sending){target="_blank"}를 참조하세요.
+자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html?lang=ko#schedule-delivery-sending){target="_blank"}를 참조하세요.
 
 ### 전자 메일에 첨부 파일을 추가할 수 있습니까? {#can-i-add-an-attachment-to-emails-}
 

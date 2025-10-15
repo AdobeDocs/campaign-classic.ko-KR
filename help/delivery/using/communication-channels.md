@@ -37,7 +37,7 @@ Campaign v8 설명서&#x200B;**에서 게재 만들기, 콘텐츠 및 대상**&#
 * [게재 만들기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#create-the-delivery){target="_blank"}: 일회성 단일 게재를 만드는 방법을 알아봅니다.
 * [콘텐츠 정의](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#content-of-the-delivery){target="_blank"}: 각 채널별로 게재 콘텐츠를 구성합니다.
 * [대상 지정](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#target-population){target="_blank"}: 주 대상, 증명 대상, 시드 주소 및 컨트롤 그룹 등 여러 유형의 대상을 정의합니다.
-* [게재 템플릿 작업](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}: 게재를 쉽게 만들 수 있도록 템플릿을 정의하는 방법을 알아봅니다.
+* [게재 템플릿 작업](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ko){target="_blank"}: 게재를 쉽게 만들 수 있도록 템플릿을 정의하는 방법을 알아봅니다.
 
 
 

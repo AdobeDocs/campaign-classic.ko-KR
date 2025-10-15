@@ -173,7 +173,7 @@ Public Cloud로 마이그레이션하면 Adobe Campaign 애플리케이션 서�
 
   새 서버 위치에 따라 변경될 수 있습니다. 그러나 고객은 현재 시간대를 유지할 수 있습니다.
 
-  [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/managing-time-zones.html){target="_blank"}에서 시간대 관리에 대해 자세히 알아보세요.
+  [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/managing-time-zones.html?lang=ko){target="_blank"}에서 시간대 관리에 대해 자세히 알아보세요.
 
 
 ## 보안 및 권한

@@ -69,7 +69,7 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
         <li><a href="platform/using/import-export-workflows.md">워크플로로 데이터 가져오기</a></li>
         <li><a href="delivery/using/steps-sending-the-delivery.md">여러 번의 웨이브로 메시지 보내기</a></li>
         <li><a href="delivery/using/defining-the-email-content.md">이메일 콘텐츠 디자인</a></li>
-        <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html" target="_blank">게재 모범 사례</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ko" target="_blank">게재 모범 사례</a></li>
         </ul>
     </td>
     <td valign="top">

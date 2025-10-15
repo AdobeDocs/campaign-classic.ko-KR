@@ -50,7 +50,7 @@ Audience Manager에서 직접 세그먼트를 가져오는 경우 가져오기 �
 >
 >Adobe Analytics에서 Adobe Campaign으로 대상을 가져오는 경우 이러한 대상을 Audience Manager에서 먼저 공유해야 합니다. 이 프로세스는 12~24시간 걸리며, Campaign과의 24~36시간 동기화에 추가해야 합니다.
 >
->이 경우 대상 공유 기간은 최대 60시간일 수 있습니다. Audience Manager의 Adobe Analytics 대상 공유에 대한 자세한 내용은 [Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html){target="_blank"}를 참조하세요.
+>이 경우 대상 공유 기간은 최대 60시간일 수 있습니다. Audience Manager의 Adobe Analytics 대상 공유에 대한 자세한 내용은 [Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ko){target="_blank"}를 참조하세요.
 
 대상 데이터는 동기화될 때마다 완전히 대체됩니다. 세그먼트만 가져올 수 있습니다. 키-값 쌍, 트레이트 및 규칙을 포함한 세분화된 데이터는 지원되지 않습니다.
 

@@ -119,7 +119,7 @@ POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는
 * [DM](../../delivery/using/about-direct-mail-channel.md)
 * [에이전시](../../delivery/using/communication-channels.md#other-channels)
 * [X(이전 Twitter라고 함)](../../social/using/about-social-marketing.md)
-* [iOS 및 Android 채널](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html){target="_blank"}
+* [iOS 및 Android 채널](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html?lang=ko){target="_blank"}
 
 ### 이메일 라우팅 {#email-routing-external-account}
 
