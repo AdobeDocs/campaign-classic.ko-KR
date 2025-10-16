@@ -17,7 +17,7 @@ ht-degree: 2%
 
 Adobe Campaign을 통해 각 수신자의 프로필과 관심사에 맞는 메시지를 전송할 수 있도록 게재를 개인화할 수 있습니다.
 
-Personalization을 사용하면 보다 관련성이 높고 매력적인 메시지를 만들 수 있습니다. 수신자 데이터를 사용하여 콘텐츠를 조정하거나, 동적 필드를 추가하거나, 조건에 따라 다른 정보를 표시할 수 있습니다. 게재에서 개인화 기능을 설정하고 사용하는 방법은 [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html){target=_blank}를 참조하세요.
+Personalization을 사용하면 보다 관련성이 높고 매력적인 메시지를 만들 수 있습니다. 수신자 데이터를 사용하여 콘텐츠를 조정하거나, 동적 필드를 추가하거나, 조건에 따라 다른 정보를 표시할 수 있습니다. 게재에서 개인화 기능을 설정하고 사용하는 방법은 [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html?lang=ko){target=_blank}를 참조하세요.
 
 Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다.
 
@@ -25,20 +25,20 @@ Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명
 
 >[!TAB 콘텐츠 개인화 설명서]
 
-콘텐츠 개인화에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html){target=_blank}를 참조하세요.
+콘텐츠 개인화에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html?lang=ko){target=_blank}를 참조하세요.
 
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html?lang=ko){target=_blank}
 
 
 >[!TAB Personalization 및 조건부 콘텐츠]
 
 조건부 콘텐츠 및 개인화 **와(과) 관련된 주요 단계에 대해 Campaign v8 설명서**&#x200B;에서 알아보세요.
 
-* [Personalization 데이터](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-data.html){target="_blank"}: 개인화에 다양한 데이터 소스를 사용하여 게재를 사용자 지정하는 방법을 알아봅니다.
-* [개인화 필드](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-fields.html){target="_blank"}: 각 수신자가 메시지 제목이나 본문에서 자신의 데이터를 볼 수 있도록 개인화 필드를 삽입하고 사용하는 방법을 알아봅니다.
-* [개인화 블록](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}: 개인화 블록을 사용하여 수신자 데이터를 기반으로 메시지에 동적 조건부 콘텐츠를 삽입하는 방법을 알아봅니다.
-* [조건부 콘텐츠](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/conditions.html){target="_blank"}: 수신자 필드 값을 기반으로 조건부 콘텐츠를 삽입하는 방법을 알아봅니다.
+* [Personalization 데이터](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-data.html?lang=ko){target="_blank"}: 개인화에 다양한 데이터 소스를 사용하여 게재를 사용자 지정하는 방법을 알아봅니다.
+* [개인화 필드](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-fields.html?lang=ko){target="_blank"}: 각 수신자가 메시지 제목이나 본문에서 자신의 데이터를 볼 수 있도록 개인화 필드를 삽입하고 사용하는 방법을 알아봅니다.
+* [개인화 블록](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ko){target="_blank"}: 개인화 블록을 사용하여 수신자 데이터를 기반으로 메시지에 동적 조건부 콘텐츠를 삽입하는 방법을 알아봅니다.
+* [조건부 콘텐츠](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/conditions.html?lang=ko){target="_blank"}: 수신자 필드 값을 기반으로 조건부 콘텐츠를 삽입하는 방법을 알아봅니다.
 
 >[!TAB 쿠폰, PDF 문서 및 이모티콘]
 
@@ -61,7 +61,7 @@ Before starting sending emails:
 
 * Make sure recipient profiles contain at least an email address.
 * Learn more about the Adobe Campaign [Delivery best practices](delivery-best-practices.md).
-* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko).
 
 The key steps to send an email are as follows:
 
