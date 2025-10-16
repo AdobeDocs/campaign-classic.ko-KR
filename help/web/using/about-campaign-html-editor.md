@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->서버측 JavaScript 코드를 추가해야 하는 경우 개인화 블록을 사용합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}를 참조하세요.
+>서버측 JavaScript 코드를 추가해야 하는 경우 개인화 블록을 사용합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ko){target="_blank"}를 참조하세요.
 
 >[!CAUTION]
 >
@@ -52,7 +52,7 @@ ht-degree: 0%
 1. DCE 템플릿에서 게재 만들기 - [자세히 알아보기](use-case-creating-an-email-delivery.md)
 1. 기존 콘텐츠를 선택하거나 [표준 템플릿](template-management.md)에서 콘텐츠를 만드십시오.
 1. 온라인 콘텐츠 편집 및 구성
-1. 게재 보내기 - [Campaign v8 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}
+1. 게재 보내기 - [Campaign v8 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko){target="_blank"}
 
 >[!NOTE]
 >

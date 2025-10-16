@@ -25,11 +25,11 @@ ht-degree: 5%
 * [구독 취소 링크](#opt-out) 및 랜딩 페이지: 구독 취소 링크는 필수입니다. 표시 및 유효해야 하며 양식이 제대로 작동해야 합니다.
 * 미리 보기: Adobe Campaign에서 제공하는 도구를 사용하여 전자 메일 콘텐츠를 확인하고 최적화합니다([받은 편지함 렌더링](#message-responsiveness), [SpamAssassin](#spamassassin)).
 
-콘텐츠를 디자인할 때 게재 능력을 최적화하는 추가 팁은 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html)를 참조하세요.
+콘텐츠를 디자인할 때 게재 능력을 최적화하는 추가 팁은 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=ko)를 참조하세요.
 
 >[!NOTE]
 >
->전자 메일 콘텐츠 편집에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html){target="_blank"}를 참조하세요.
+>전자 메일 콘텐츠 편집에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko){target="_blank"}를 참조하세요.
 
 ## 보낸 사람 주소 {#sender-address}
 
@@ -37,21 +37,21 @@ ht-degree: 5%
 
 인스턴스 수준(메뉴 **[!UICONTROL Tools > Advanced > deployment wizard...]**) 또는 가장 자주 사용하는 시나리오에서 올바른 주소가 지정되었는지 확인해야 합니다.
 
-자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html){target="_blank"}를 참조하세요.
+자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko){target="_blank"}를 참조하세요.
 
 ## 개인화 {#personalization}
 
 Adobe Campaign을 사용하면 수신자의 경험을 개선하여 이메일을 열 수 있으므로 메시지를 개인화할 수 있습니다.
 
-Adobe Campaign에서 개인화 필드를 사용하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalization-fields){target="_blank"}를 참조하십시오.
+Adobe Campaign에서 개인화 필드를 사용하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/personalize/personalization-fields){target="_blank"}를 참조하십시오.
 
 ## 옵트아웃 링크 및 양식 {#opt-out}
 
-기본적으로 메시지를 분석할 때 유형화 규칙이 옵트아웃 링크가 포함되어 있는지 확인하고 누락된 경우 경고를 생성합니다. 단순 경고가 아닌 오류가 발생하도록 이 규칙을 변경하고 이 링크 없이 게재가 종료되지 않도록 할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}를 참조하세요.
+기본적으로 메시지를 분석할 때 유형화 규칙이 옵트아웃 링크가 포함되어 있는지 확인하고 누락된 경우 경고를 생성합니다. 단순 경고가 아닌 오류가 발생하도록 이 규칙을 변경하고 이 링크 없이 게재가 종료되지 않도록 할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=ko){target="_blank"}를 참조하세요.
 
 보낼 때마다 옵트아웃 링크가 제대로 작동하는지 확인해야 합니다. 예를 들어 증명을 보낼 때 링크가 유효한지, 양식이 온라인 상태인지, 그리고 유효성을 검사하면 **[!UICONTROL No longer contact this recipient]** 필드의 값이 **[!UICONTROL Yes]**(으)로 변경되는지 확인하십시오. 링크를 입력하거나 양식을 변경할 때 사람의 오류가 항상 발생할 수 있으므로 이 검사를 체계적으로 수행해야 합니다.
 
-[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}에서 옵트아웃을 삽입하는 방법을 알아봅니다.
+[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ko){target="_blank"}에서 옵트아웃을 삽입하는 방법을 알아봅니다.
 
 게재를 시작한 후 구독 취소와 관련하여 문제가 감지되면, 선택 사항을 확인할 수 없는 경우에도 옵트아웃 링크를 클릭하는 수신자에 대해 수동으로 구독 취소를 수행할 수 있습니다(예: 대량 업데이트 기능 사용).
 

@@ -22,13 +22,13 @@ Adobe Campaign을 사용하면 쿠키 또는 웹 비콘을 통해 행동 추적�
 
 >[!NOTE]
 >
->스크립팅할 때는 항상 [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/campaign/kb/acc-security.html#dev)에 설명된 지침을 따릅니다.
+>스크립팅할 때는 항상 [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html#dev)에 설명된 지침을 따릅니다.
 
 ## 배너 구성 {#configuring-the-banner-}
 
 웹 애플리케이션이나 랜딩 페이지 내에 표시하려면 배너를 구성해야 합니다.
 
-Adobe Campaign에는 요구 사항에 맞게 조정해야 하는 샘플 배너가 포함되어 있습니다. 이 배너 버전은 콘텐츠 모델 폴더에 있는 개인화 블록으로 표시됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}를 참조하세요.
+Adobe Campaign에는 요구 사항에 맞게 조정해야 하는 샘플 배너가 포함되어 있습니다. 이 배너 버전은 콘텐츠 모델 폴더에 있는 개인화 블록으로 표시됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ko){target="_blank"}를 참조하세요.
 
 >[!IMPORTANT]
 >
