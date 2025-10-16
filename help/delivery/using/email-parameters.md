@@ -7,9 +7,9 @@ role: User, Developer, Data Engineer
 hide: true
 hidefromtoc: true
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
+source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '905'
 ht-degree: 10%
 
 ---
@@ -82,9 +82,9 @@ Adobe Campaign을 사용하면 메시지 타겟에 BCC 이메일 주소를 추�
 
 미러 페이지는 웹 브라우저를 통해 온라인으로 액세스할 수 있는 HTML 페이지입니다. 콘텐츠는 이메일과 동일합니다.
 
-기본적으로 링크가 메일 콘텐츠에 삽입되면 미러 페이지가 생성됩니다. 개인화 블록 삽입에 대한 자세한 내용은 [개인화 블록](personalization-blocks.md)을 참조하세요.
+기본적으로 링크가 메일 콘텐츠에 삽입되면 미러 페이지가 생성됩니다. 개인화 블록 삽입에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}를 참조하세요.
 
-게재 속성에서 **[!UICONTROL Validity]** 탭의 **[!UICONTROL Mode]** 필드를 사용하면 이 페이지의 생성 모드를 수정할 수 있습니다.
+게재 속성에서 **[!UICONTROL Mode]** 탭의 **[!UICONTROL Validity]** 필드를 사용하면 이 페이지의 생성 모드를 수정할 수 있습니다.
 
 ![](assets/s_ncs_user_wizard_miror_page_mode.png)
 
@@ -108,7 +108,7 @@ Adobe Campaign을 사용하면 메시지 타겟에 BCC 이메일 주소를 추�
 
 예를 들어 일본어 문자가 포함된 이메일을 보내려고 합니다. 모든 문자가 일본에 있는 수신자에게 올바르게 표시되도록 하려면 표준 UTF-8이 아닌 일본어 문자를 지원하는 인코딩을 사용할 수 있습니다.
 
-이렇게 하려면 **[!UICONTROL Character encoding]** 섹션에서 **[!UICONTROL Force the encoding used for messages]** 옵션을 선택하고 표시되는 드롭다운 목록에서 인코딩을 선택합니다.
+이렇게 하려면 **[!UICONTROL Force the encoding used for messages]** 섹션에서 **[!UICONTROL Character encoding]** 옵션을 선택하고 표시되는 드롭다운 목록에서 인코딩을 선택합니다.
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab_encoding.png)
 
@@ -128,7 +128,7 @@ Adobe Campaign을 사용하면 메시지 타겟에 BCC 이메일 주소를 추�
 
 게재에 SMTP 헤더를 추가할 수 있습니다. 이렇게 하려면 게재에서 **[!UICONTROL SMTP]** 탭의 관련 섹션을 사용합니다.
 
-이 창에 입력한 스크립트는 **name:value** 형식의 한 줄에 하나의 헤더를 참조해야 합니다.
+이 창에 입력한 스크립트는 **name:value** 형식의 줄당 하나의 헤더를 참조해야 합니다.
 
 필요한 경우 값이 자동으로 인코딩됩니다.
 

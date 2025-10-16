@@ -5,9 +5,9 @@ description: 콘텐츠 편집
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
-source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -259,4 +259,4 @@ ht-degree: 0%
 
 삽입되면 개인화 블록 이름이 편집기에 노란색으로 강조 표시됩니다. 개인화가 생성되면 수신자 프로필에 자동으로 조정됩니다.
 
-기본 제공 개인화 블록과 사용자 지정 개인화 블록을 정의하는 방법에 대한 자세한 내용은 [이 페이지](../../delivery/using/personalization-blocks.md)를 참조하세요.
+기본 제공 개인화 블록과 사용자 지정 개인화 블록을 정의하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}를 참조하세요.

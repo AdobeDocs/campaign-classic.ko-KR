@@ -5,7 +5,7 @@ description: 웹 애플리케이션 추적 옵트아웃
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Web Apps
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 2%
@@ -22,13 +22,13 @@ Adobe Campaign을 사용하면 쿠키 또는 웹 비콘을 통해 행동 추적�
 
 >[!NOTE]
 >
->스크립팅할 때는 항상 [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html#dev)에 설명된 지침을 따릅니다.
+>스크립팅할 때는 항상 [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/campaign/kb/acc-security.html#dev)에 설명된 지침을 따릅니다.
 
 ## 배너 구성 {#configuring-the-banner-}
 
 웹 애플리케이션이나 랜딩 페이지 내에 표시하려면 배너를 구성해야 합니다.
 
-Adobe Campaign에는 요구 사항에 맞게 조정해야 하는 샘플 배너가 포함되어 있습니다. 이 배너 버전은 콘텐츠 모델 폴더에 있는 개인화 블록으로 표시됩니다. [이 페이지](../../delivery/using/personalization-blocks.md)를 참조하십시오.
+Adobe Campaign에는 요구 사항에 맞게 조정해야 하는 샘플 배너가 포함되어 있습니다. 이 배너 버전은 콘텐츠 모델 폴더에 있는 개인화 블록으로 표시됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}를 참조하세요.
 
 >[!IMPORTANT]
 >
@@ -92,7 +92,7 @@ JSSP를 작성해야 하는 경우 서버측 API를 사용할 수 있습니다.
 
 * **NL.ServerWebTracking.generateOptOutBanner(escapeJs)**: JSSP 페이지에 삽입할 옵트아웃 배너에 대한 태그를 생성합니다
 
-  **escapeJs {Boolean}**: JavaScript 내에서 사용하려면 생성된 태그를 이스케이프해야 하는 경우 true입니다.
+  **escapeJs{Boolean}**: JavaScript 내에서 사용하려면 생성된 태그를 이스케이프해야 하는 경우 true입니다.
 
   페이지에 인쇄해야 하는 옵트아웃 배너 마크업의 HTML을 반환합니다.
 
@@ -108,7 +108,7 @@ JSSP를 작성해야 하는 경우 서버측 API를 사용할 수 있습니다.
 
   옵트아웃 배너를 JSSP 페이지에 삽입하여 마크업을 렌더링합니다. Jssp에서 &lt;% %> 사이의 그대로 호출됩니다.
 
-  **escapeJs {Boolean}**: JavaScript 내에서 사용하려면 생성된 태그를 이스케이프해야 하는 경우 true
+  **escapeJs{Boolean}**: JavaScript 내에서 사용하려면 생성된 태그를 이스케이프해야 하는 경우 true
 
 JSSP 예:
 

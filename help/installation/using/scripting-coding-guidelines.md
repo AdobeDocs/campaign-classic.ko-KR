@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '743'
 ht-degree: 4%
 
 ---
@@ -119,7 +119,7 @@ DCE에서 captcha를 추가하는 일반적인 방법은 페이지 콘텐츠 내
 
 1. **[!UICONTROL Web application]** 콘텐츠 형식을 사용하고 **[!UICONTROL Visible in the customization menus]**&#x200B;을(를) 확인하십시오.
 
-   자세한 정보는 [이 페이지](../../delivery/using/personalization-blocks.md)를 참조하십시오.
+   자세한 내용은 관련 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}를 참조하십시오.
 
    다음은 **Campaign captcha**&#x200B;의 예입니다.
 
@@ -148,7 +148,7 @@ DCE에서 captcha를 추가하는 일반적인 방법은 페이지 콘텐츠 내
 
      `<div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>`
 
-   유효성 검사 단추를 비활성화할 수 있어야 하지만 표준 단추/링크가 없으므로 HTML 자체에서 수행하는 것이 좋습니다. 방법을 알아보려면 [이 페이지](https://developers.google.com/recaptcha/)를 참조하세요.
+   유효성 검사 버튼을 비활성화할 수 있어야 하지만 표준 버튼/링크가 없으므로 HTML 자체에서 수행하는 것이 좋습니다. 방법을 알아보려면 [이 페이지](https://developers.google.com/recaptcha/)를 참조하세요.
 
 ### 웹 애플리케이션 업데이트
 
@@ -176,7 +176,7 @@ DCE에서 captcha를 추가하는 일반적인 방법은 페이지 콘텐츠 내
 
 >[!IMPORTANT]
 >
->reCAPTCHA 통합의 경우 HTML(`<head>...</head>`의)에 클라이언트측 JavaScript을 추가해야 합니다.
+>reCAPTCHA 통합의 경우 HTML(`<head>...</head>`의)에서 클라이언트측 JavaScript을 추가해야 합니다.
 >
 >`<script src="https://www.google.com/recaptcha/api.js" async defer></script>`
 

@@ -5,8 +5,10 @@ description: 개인화된 PDF 문서를 생성하는 방법 알아보기
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Personalization
 role: User
+hide: true
+hidefromtoc: true
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 1%
@@ -23,7 +25,7 @@ Adobe Campaign을 사용하면 LibreOffice 또는 Microsoft Word 문서의 이�
 
 문서를 개인화하기 위해 이메일 개인화와 동일한 JavaScript 기능을 사용할 수 있습니다.
 
-**[!UICONTROL "The content of the file is personalized and converted to PDF during the delivery of each message"]** 옵션을 활성화합니다. 이 옵션은 게재 이메일에 파일을 첨부할 때 액세스할 수 있습니다. 계산된 파일을 첨부하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html?lang=ko){target="_blank"}를 참조하세요.
+**[!UICONTROL "The content of the file is personalized and converted to PDF during the delivery of each message"]** 옵션을 활성화합니다. 이 옵션은 게재 이메일에 파일을 첨부할 때 액세스할 수 있습니다. 계산된 파일을 첨부하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html){target="_blank"}를 참조하세요.
 
 송장 헤더 개인화의 예:
 

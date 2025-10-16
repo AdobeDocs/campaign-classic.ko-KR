@@ -5,10 +5,12 @@ description: 개인화된 쿠폰을 만들고 삽입하는 방법을 알아봅�
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Personalization
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: 8e5a328bee7701adfedec6a533cc21b4ce548187
+source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '910'
 ht-degree: 1%
 
 ---
@@ -19,11 +21,11 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->엔터프라이즈(FFDA) 배포의 컨텍스트에서는 Campaign v8에서 쿠폰 관리를 사용할 수 없습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}를 참조하세요.
+>엔터프라이즈(FFDA) 배포의 컨텍스트에서는 Campaign v8에서 쿠폰 관리를 사용할 수 없습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}를 참조하세요.
 
 쿠폰 관리는 설치해야 하는 패키지를 사용합니다. 쿠폰 관리 기능이 있는지 확인하려면 **[!UICONTROL Administration > Configuration > Package management > Installed packages.]**&#x200B;을(를) 확인하세요.
 
-쿠폰 데이터는 CSV 및 XML 포맷을 사용하여 가져오고 내보낼 수 있습니다. [자세히 알아보기](../../platform/using/get-started-data-import-export.md).
+쿠폰 데이터는 CSV 및 XML 포맷을 사용하여 가져오고 내보낼 수 있습니다. [자세히 알아보기](../../platform/using/get-started-data-import-export.md)
 
 ## 쿠폰 만들기 {#creating-a-coupon}
 
@@ -48,7 +50,7 @@ ht-degree: 1%
 
    **[!UICONTROL Anonymous coupons]** : 익명 쿠폰은 모든 받는 사람에게 동일합니다. **쿠폰 유형** 메뉴에서 익명이 선택되었는지 확인하고 **저장**&#x200B;을 클릭하여 쿠폰을 생성합니다.
 
-   **[!UICONTROL Individual coupons]** : 추가 쿠폰 코드를 사용하여 개별 쿠폰을 추가로 개인화할 수 있습니다. 예를 들어 스포츠 장비 매장에서 판매할 수 있도록 개별 쿠폰이 생성됩니다. 하지만, 수령자 명단이 길고 하나의 스포츠에 대한 동일한 열정을 공유하지 않는다. 스포츠(예: 축구, 축구, 야구 등)에 따라 개별 쿠폰에 대한 코드 이름을 추가할 수 있습니다. 해당하는 수신자에게 각 코드를 전송합니다.
+   **[!UICONTROL Individual coupons]** : 추가 쿠폰 코드를 사용하여 개별 쿠폰을 추가로 개인화할 수 있습니다. 예를 들어 스포츠 장비 매장에서 판매할 수 있도록 개별 쿠폰이 생성됩니다. 하지만, 수령자 명단이 길고 하나의 스포츠에 대한 동일한 열정을 공유하지 않는다. 스포츠(예: 축구, 축구, 야구 등)에 따라 개별 쿠폰에 대한 코드 이름을 추가하고 해당하는 수신자에게 각 코드를 보낼 수 있습니다.
 
    1. 개인을 선택하면 새 탭인 쿠폰이 왼쪽 하단에 나타납니다. **[!UICONTROL Coupons]** 탭으로 이동하여 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
    1. 팝업 창에서 메시지가 표시되면 개별 쿠폰에 대한 고유 코드를 입력합니다.
@@ -78,7 +80,7 @@ ht-degree: 1%
 아래 예에서는 게재가 홈 페이지에서 생성됩니다. 게재를 만드는 방법에 대한 자세한 지침은 [이 섹션](about-email-channel.md)을 참조하세요. 워크플로우에서 게재에 쿠폰을 추가할 수도 있습니다.
 
 1. **[!UICONTROL Campaigns]**(으)로 이동하여 **[!UICONTROL Deliveries]**&#x200B;을(를) 선택합니다.
-1. **[!UICONTROL Create]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/deliv_coup_04.png)
 
@@ -150,16 +152,16 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->기본적으로 쿠폰 관리 모듈은 **nms:recipient** 테이블을 사용합니다. [자세히 알아보기](../../configuration/using/about-data-model.md#default-recipient-table).
+>기본적으로 쿠폰 관리 모듈은 **nms:recipient** 테이블을 사용합니다. [자세히 알아보기](../../configuration/using/about-data-model.md#default-recipient-table)
 >
->이 페이지[&#128279;](../../configuration/using/about-custom-recipient-table.md)에서 사용자 지정 받는 사람 테이블 을(를) 사용하는 방법을 알아보세요.
+>이 페이지[에서 사용자 지정 받는 사람 테이블 ](../../configuration/using/about-custom-recipient-table.md)을(를) 사용하는 방법을 알아보세요.
 
 ## 부족한 쿠폰 관리 {#managing-insufficient-coupons}
 
 메시지보다 쿠폰이 적으면 게재 분석이 중지됩니다. 이러한 경우 더 많은 쿠폰을 가져오거나 메시지 수를 제한할 수 있습니다. 메시지 수를 제한하려면 아래 지침을 따르십시오.
 
 1. 이메일 게재 창으로 이동합니다.
-1. **[!UICONTROL To]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL To]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Select target]**&#x200B;에서 **[!UICONTROL Exclusions]** 탭으로 이동합니다.
 
    ![](assets/deliv_coup_18.png)
