@@ -353,7 +353,7 @@ SMS 메시지를 보낼 때 Adobe Campaign에서는 하나 또는 여러 개의 
 
 ## 게재 템플릿 변경 {#changing-the-delivery-template}
 
-Adobe Campaign provides you with a template for delivering to mobiles. 이 템플릿은 **[!UICONTROL Resources > Templates > Delivery templates]** 노드에서 사용할 수 있습니다. [&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}
+Adobe Campaign provides you with a template for delivering to mobiles. 이 템플릿은 **[!UICONTROL Resources > Templates > Delivery templates]** 노드에서 사용할 수 있습니다. [&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ko){target="_blank"}
 
 SMS 채널을 통해 게재하려면 채널 커넥터가 참조되는 템플릿을 만들어야 합니다.
 
