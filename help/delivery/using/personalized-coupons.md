@@ -154,7 +154,7 @@ ht-degree: 1%
 >
 >기본적으로 쿠폰 관리 모듈은 **nms:recipient** 테이블을 사용합니다. [자세히 알아보기](../../configuration/using/about-data-model.md#default-recipient-table)
 >
->이 페이지[에서 사용자 지정 받는 사람 테이블 ](../../configuration/using/about-custom-recipient-table.md)을(를) 사용하는 방법을 알아보세요.
+>이 페이지[에서 사용자 지정 받는 사람 테이블 &#x200B;](../../configuration/using/about-custom-recipient-table.md)을(를) 사용하는 방법을 알아보세요.
 
 ## 부족한 쿠폰 관리 {#managing-insufficient-coupons}
 
