@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 48926e87-03d9-4aa0-89cb-e3fb4f99c1f5
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 435314fa5907c16166cf7ff6741ff7ad0412d04b
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 66%
+source-wordcount: '362'
+ht-degree: 60%
 
 ---
 
@@ -24,19 +24,19 @@ Adobe Campaign으로 옴니채널 메시지를 디자인하는 주요 단계를 
 
 전자 메일 디자인을 시작하기 전에 게재 디자인 및 Adobe Campaign을 사용한 전송과 관련된 개념과 모범 사례를 살펴보십시오.
 
-자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ko){target="_blank"}를 참조하세요.
+자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}를 참조하세요.
 
 ## 게재 템플릿이란 무엇입니까? {#what-is-a-delivery-template-}
 
 게재 구성 및 매개 변수를 재사용하기 위해 게재 템플릿에 저장할 수 있습니다.
 
-자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ko){target="_blank"}를 참조하세요.
+자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}를 참조하세요.
 
 ## Campaign에서 전자 메일을 만들기 위해 기존 HTML을 쉽게 가져올 수 있습니까? {#can-i-easily-import-an-existing-html-to-create-an-email-in-campaign-}
 
 한 번의 클릭으로 Adobe Campaign에서 전자 메일을 만들고 전송하기 위해 기존 HTML을 가져오는 방법을 알아봅니다.
 
-자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko#message-content){target="_blank"}를 참조하세요.
+자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#message-content){target="_blank"}를 참조하세요.
 
 ## Campaign DCE를 사용하여 이메일 콘텐츠를 만드는 방법 {#how-to-use-campaign-dce-to-create-an-email-content-}
 
@@ -50,16 +50,16 @@ Adobe Campaign으로 옴니채널 메시지를 디자인하는 주요 단계를 
 
 Adobe Campaign이 전달하는 메시지는 콘텐츠 또는 메시지 모양을 고려하여 여러 가지 방법으로 개인화할 수 있습니다. 이러한 방법은 특히 수신자 프로필에서 가져온 기준에 따라 결합할 수 있습니다. 일반적으로 Adobe Campaign을 통해 다음을 수행할 수 있습니다.
 
-* 메시지 형식을 개인화합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko#message-content){target="_blank"}를 참조하세요.
-* 동적 개인화 필드를 삽입합니다. [자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/personalization-fields.md).
-* 사전 정의된 개인화 블록을 삽입하거나 직접 블록을 만듭니다. [자세한 내용을 보려면 여기를 클릭하십시오](../../delivery/using/personalization-blocks.md).
-* 조건부 콘텐츠 만들기 [&#128279;](../../delivery/using/conditional-content.md)자세한 내용을 살펴보고 [이 섹션](../../delivery/using/conditional-content.md)을 읽으려면 여기를 클릭하십시오.
+* 메시지 형식을 개인화합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#message-content){target="_blank"}를 참조하세요.
+* 동적 개인화 필드를 삽입합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-fields.html){target="_blank"}를 참조하세요.
+* 사전 정의된 개인화 블록을 삽입하거나 직접 블록을 만듭니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}를 참조하세요.
+* 조건부 콘텐츠 만들기 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/conditional-content.html){target="_blank"}를 참조하세요.
 
 ## 다국어 메시지를 보낼 수 있습니까? {#can-i-send-multilingual-messages-}
 
 수신자의 선호도 또는 국가에 따라 다국어 메시지를 보낼 수 있습니다.
 
-이렇게 하려면 메시지 콘텐츠를 현지화하고 [조건](../../delivery/using/conditional-content.md)을 사용하여 수신자의 프로필에 따라 개인화할 수 있습니다. 또한 워크플로우를 사용하여 기본 언어 테스트에 따라 전송할 메시지 버전을 선택할 수도 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ko){target="_blank"}를 참조하세요.
+이렇게 하려면 메시지 콘텐츠를 현지화하고 [조건](../../delivery/using/conditional-content.md)을 사용하여 수신자의 프로필에 따라 개인화할 수 있습니다. 또한 워크플로우를 사용하여 기본 언어 테스트에 따라 전송할 메시지 버전을 선택할 수도 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"}를 참조하세요.
 
 ## 웹 양식을 현지화하려면 어떻게 해야 합니까? {#how-can-i-localize-a-webform-}
 
