@@ -172,7 +172,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> 쿠폰 관리<br /> </td> 
-   <td> 예정된 마케팅 오퍼에 추가할 쿠폰 세트를 만듭니다. 선택 사항입니다. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html" target="_blank">자세히 알아보기</a> <br /> </td> 
+   <td> 예정된 마케팅 오퍼에 추가할 쿠폰 세트를 만듭니다. 선택 사항입니다. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html?lang=ko" target="_blank">자세히 알아보기</a> <br /> </td> 
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 

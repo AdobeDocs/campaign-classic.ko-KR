@@ -45,8 +45,8 @@ Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명
 다음 페이지를 참조하여 개인화된 쿠폰, PDF 문서 및 이모티콘 사용자 지정에 대해 알아보십시오. **Campaign v8 설명서**:
 
 * [개인화된 쿠폰](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/ppersonalized-coupons.html){target="_blank"}: 전자 메일 게재에서 개인화된 또는 익명 쿠폰을 만들고 할당하는 방법을 알아봅니다.
-* [개인화된 PDF 문서 생성](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/generating-personalized-pdf-documents.html){target="_blank"}: 각 수신자에 대해 개인화된 콘텐츠를 사용하여 PDF 첨부 파일을 생성하는 방법에 대해 알아봅니다.
-* [이모티콘 목록 사용자 지정](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/customizing-emoticon-list.html){target="_blank"}: 이메일 메시지를 개선하기 위해 이모티콘을 추가하고 관리하는 방법에 대해 알아봅니다.
+* [개인화된 PDF 문서 생성](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/generating-personalized-pdf-documents.html?lang=ko){target="_blank"}: 각 수신자에 대해 개인화된 콘텐츠를 사용하여 PDF 첨부 파일을 생성하는 방법에 대해 알아봅니다.
+* [이모티콘 목록 사용자 지정](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/customizing-emoticon-list.html?lang=ko){target="_blank"}: 이메일 메시지를 개선하기 위해 이모티콘을 추가하고 관리하는 방법에 대해 알아봅니다.
 
 >[!ENDTABS]
 
