@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
 ht-degree: 100%
 
@@ -152,7 +152,7 @@ Adobe 팀이 사용자의 조직에 업그레이드 여정을 안내해 드리�
 * [Campaign 버전을 확인합니다](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 * [도움말 및 지원](../../support.md)
 * [컨트롤 패널 릴리스](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko)
-* [사용이 중단되거나 제거된 기능](../../rn/using/deprecated-features.md)
+* [사용되지 않거나 제거된 기능](../../rn/using/deprecated-features.md)
 * [빌드 업그레이드 FAQ](../../platform/using/faq-build-upgrade.md)
 
 새로운 Experience Cloud 솔루션 릴리스에 대한 정보를 받으려면 [Adobe 주요 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html)를 구독하세요.
