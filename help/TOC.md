@@ -8,8 +8,8 @@ sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
-source-wordcount: '2744'
-ht-degree: 72%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 72%
       + [2024](rn/using/release-2024.md)
       + [2023](rn/using/release-2023.md)
       + [2022 - 숨김](rn/using/release-2022.md)
-      + [2021년 - 숨김](rn/using/release-2021.md)
+      + [2021 - 숨김](rn/using/release-2021.md)
       + [[!DNL Gold Standard - HIDDEN]](rn/using/gold-standard.md)
    + [사용되지 않는 기능](rn/using/deprecated-features.md)
    + [호환성 매트릭스](rn/using/compatibility-matrix.md)
@@ -32,9 +32,9 @@ ht-degree: 72%
 + 시작 {#getting-started}
    + [Adobe Campaign Classic 시작](platform/using/about-adobe-campaign-classic.md)
    + [Adobe Campaign 시작](platform/using/launching-adobe-campaign.md)
-   + [캠페인 UI 살펴보기](platform/using/adobe-campaign-workspace.md)
-   + [캠페인 탐색기 사용 - 숨김](platform/using/adobe-campaign-explorer.md)
-   + [목록 검색 및 사용자 지정 - 숨김](platform/using/adobe-campaign-ui-lists.md)
+   + [Campaign UI 살펴보기](platform/using/adobe-campaign-workspace.md)
+   + [Campaign 탐색기 사용 - 숨김](platform/using/adobe-campaign-explorer.md)
+   + [목록 찾아보기 및 사용자 정의 - 숨김](platform/using/adobe-campaign-ui-lists.md)
    + [열거형 - 숨김](platform/using/managing-enumerations.md)
    + [Campaign 커넥터](platform/using/about-connectors.md)
    + [Campaign에서 쿼리 만들기](platform/using/about-queries-in-campaign.md)
@@ -60,7 +60,7 @@ ht-degree: 72%
          + [자동 개인 정보 보호 요청 프로세스](platform/using/privacy-requests-api.md)
       + [개인 정보 판매 옵트아웃](platform/using/privacy-requests-ccpa.md)
    + 프로필 관리 {#profile-management}
-      + [프로필 기본 정보](platform/using/about-profiles.md)
+      + [프로필 정보](platform/using/about-profiles.md)
       + [프로필 편집 - 숨김](platform/using/editing-a-profile.md)
       + [프로필 추가 - 숨김](platform/using/adding-profiles.md)
       + [프로필 관리 - 숨김](platform/using/managing-profiles.md)
@@ -92,7 +92,7 @@ ht-degree: 72%
    + [필터 조건 정의 - 숨김](platform/using/defining-filter-conditions.md)
    + 권한 {#permissions}
       + [사용 권한 시작](platform/using/access-management.md)
-      + 기본 인증(기존) {#native}
+      + 기본 인증(이전) {#native}
          + [운영자 만들기 및 관리](platform/using/access-management-operators.md)
          + [그룹 만들기 및 관리](platform/using/access-management-groups.md)
       + [명명된 권한을 사용하여 사용 권한 설정](platform/using/access-management-named-rights.md)
@@ -152,7 +152,7 @@ ht-degree: 72%
          + [iOS용 푸시 메시지 만들기 - 숨김](delivery/using/create-notifications-ios.md)
          + [Android용 푸시 메시지 만들기 - 숨김](delivery/using/create-notifications-android.md)
       + [문제 해결 - 숨김](delivery/using/troubleshooting.md)
-   + [DM 보내기](delivery/using/about-direct-mail-channel.md)
+   + [다이렉트 메일 보내기](delivery/using/about-direct-mail-channel.md)
    + 다이렉트 메일 보내기 {#sending-direct-mail}
       + [DM 게재 만들기 - 숨김](delivery/using/creating-a-direct-mail-delivery.md)
       + [DM 콘텐츠 정의 - 숨김](delivery/using/defining-the-direct-mail-content.md)
@@ -351,7 +351,7 @@ ht-degree: 72%
    + [Campaign 통합 시작](integrations/using/about-campaign-integrations.md)
    + [Adobe 기술 계정 만들기](integrations/using/oauth-technical-account.md)
    + Adobe Experience Cloud 트리거 {#experience-triggers}
-      + [&#x200B; [!DNL Experience Cloud Triggers]로 작업](integrations/using/about-triggers.md)
+      + [ [!DNL Experience Cloud Triggers]로 작업](integrations/using/about-triggers.md)
       + [파이프라인 구성](integrations/using/configuring-pipeline.md)
       + [사용자 정의 구현을 위한 이벤트 구성](integrations/using/events.md)
       + [파이프라인 모니터링](integrations/using/pipeline-monitoring.md)
@@ -364,29 +364,29 @@ ht-degree: 72%
       + [Adobe Analytics 커넥터 시작](integrations/using/gs-aa.md)
       + [Adobe Analytics 커넥터 프로비전](integrations/using/adobe-analytics-provisioning.md)
    + 대상자 공유 {#audience-sharing}
-      + [&#x200B; [!DNL Adobe Experience Cloud]와 대상자 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+      + [ [!DNL Adobe Experience Cloud]와 대상자 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [Adobe에 요청 제출](integrations/using/submitting-request-to-adobe.md)
-      + [&#x200B; [!DNL Adobe Campaign]에서 공유 대상자 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+      + [ [!DNL Adobe Campaign]에서 공유 대상자 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
       + [문제 해결](integrations/using/troubleshooting.md)
       + [대상자 가져오기 및 내보내기](integrations/using/importing-and-exporting-audiences.md)
    + 자산 공유 {#asset-sharing}
-      + [&#x200B; [!DNL Adobe Experience Cloud]와 에셋 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-      + [&#x200B; [!DNL Assets] 액세스 구성](integrations/using/configuring-access-to-assets.md)
+      + [ [!DNL Adobe Experience Cloud]와 에셋 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+      + [ [!DNL Assets] 액세스 구성](integrations/using/configuring-access-to-assets.md)
       + [공유 에셋 삽입](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
-      + [&#x200B; [!DNL Adobe Experience Manager]로 작업](integrations/using/about-adobe-experience-manager.md)
+      + [ [!DNL Adobe Experience Manager]로 작업](integrations/using/about-adobe-experience-manager.md)
       + [통합 구성](integrations/using/configuring-the-integration.md)
-      + [&#x200B; [!DNL Experience Manager]  뉴스레터 만들기](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [ [!DNL Experience Manager]  뉴스레터 만들기](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [&#x200B; [!DNL Adobe Target]으로 작업](integrations/using/integrating-with-adobe-target.md)
-      + [&#x200B; [!DNL Adobe Target]과의 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
+      + [ [!DNL Adobe Target]으로 작업](integrations/using/integrating-with-adobe-target.md)
+      + [ [!DNL Adobe Target]과의 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [동적 이미지 삽입](integrations/using/inserting-a-dynamic-image.md)
    + ACS 커넥터 {#acs-connector}
-      + [&#x200B; [!DNL ACS Connector]  시작 - 숨김](integrations/using/acs-connector-principles-and-data-cycle.md)
+      + [ [!DNL ACS Connector]  시작 - 숨김](integrations/using/acs-connector-principles-and-data-cycle.md)
       + [프로필 동기화 - 숨김](integrations/using/synchronizing-profiles.md)
       + [대상자 동기화 - 숨김](integrations/using/synchronizing-audiences.md)
       + [웹 애플리케이션 동기화 - 숨김](integrations/using/synchronizing-web-applications.md)
-      + [&#x200B; [!DNL ACS Connector]  문제 해결 - 숨김](integrations/using/troubleshooting-the-acs-connector.md)
+      + [ [!DNL ACS Connector]  문제 해결 - 숨김](integrations/using/troubleshooting-the-acs-connector.md)
 + [워크플로로 자동화](workflow/using/about-workflows.md)
 + 워크플로로 자동화 {#automating-with-workflows}
    + 워크플로 시작 {#introduction}
