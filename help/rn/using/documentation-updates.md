@@ -419,7 +419,7 @@ Campaign 빌드 업그레이드에 대한 FAQ가 Campaign 일반 질문에 추�
 
 * [개인화 필드를 사용하여 이메일을 개인화하는 방법](../../delivery/using/personalization-fields.md)
 
-* [전자 메일에서 시드 및 증명을 관리하는 방법](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#target-population){target="_blank"}.
+* [전자 메일에서 시드 및 증명을 관리하는 방법](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#target-population){target="_blank"}.
 
 * [반복 게재를 설정하는 방법](../../workflow/using/recurring-delivery.md)
 
