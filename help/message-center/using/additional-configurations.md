@@ -104,7 +104,7 @@ Once the control and execution modules are installed on the same instance, you m
 
 ### 호환성 정보 {#compatibility-note}
 
-이 레거시 브랜딩 구성은 Campaign v8에 도입된 새 [중앙 브랜딩](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"} 모델과 호환되지 않습니다.
+이 레거시 브랜딩 구성은 Campaign v8에 도입된 새 [중앙 브랜딩](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=ko){target="_blank"} 모델과 호환되지 않습니다.
 
 기존 환경에서 이 레거시 구성을 사용하는 경우 이를 새 중앙 집중식 브랜딩 모델로 직접 마이그레이션할 수 없습니다. 새 시스템을 채택하려면 브랜딩 설정을 완전히 다시 구현해야 합니다.
 
@@ -175,6 +175,6 @@ Once the control and execution modules are installed on the same instance, you m
 
 1. [실행 인스턴스](#execution-instance)에 정의된 내부 이름과 동일한 외부 계정을 브랜드당 하나씩 만듭니다(1단계).
 
-1. 브랜드별 게재 템플릿을 만듭니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}를 참조하세요.
+1. 브랜드별 게재 템플릿을 만듭니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ko){target="_blank"}를 참조하세요.
 
 1. 게재 템플릿의 **[!UICONTROL Properties]**&#x200B;에서 라우팅을 브랜드의 외부 계정으로 설정합니다.
