@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2744'
+ht-degree: 100%
 
 ---
 
@@ -117,14 +117,14 @@ ht-degree: 0%
       + [게재 최적화 - 숨김](delivery/using/optimize-delivery.md)
       + [템플릿 사용 - 숨김](delivery/using/use-templates.md)
       + [개인화된 콘텐츠 작성 - 숨김](delivery/using/design-and-personalize.md)
-      + [적합한 대상 정의 - 숨김](delivery/using/define-the-right-audience.md)
+      + [적합한 대상자 정의 - 숨김](delivery/using/define-the-right-audience.md)
       + [보내기 전 확인 - 숨김](delivery/using/check-before-sending.md)
       + [추적 및 모니터링 - 숨김](delivery/using/track-and-monitor.md)
    + [이메일 보내기](delivery/using/about-email-channel.md)
    + 이메일 보내기 {#sending-emails}
       + [이메일 게재 만들기 - 숨김](delivery/using/creating-an-email-delivery.md)
       + [이메일 콘텐츠 정의 - 숨김](delivery/using/defining-the-email-content.md)
-      + [대화형 콘텐츠 정의 - 숨김](delivery/using/defining-interactive-content.md)
+      + [인터랙티브한 콘텐츠 정의 - 숨김](delivery/using/defining-interactive-content.md)
       + 이메일 게재 보내기 {#sending-an-email}
          + [이메일을 보내는 주요 단계 - 숨김](delivery/using/sending-messages.md)
          + [이메일 매개 변수 - 숨김](delivery/using/email-parameters.md)
@@ -138,7 +138,7 @@ ht-degree: 0%
          + [SMS 커넥터 프로토콜 및 설정](delivery/using/sms-protocol.md)
          + [추가 구성](delivery/using/sms-send.md)
          + [SMS 문제 해결](delivery/using/troubleshooting-sms.md)
-      + [SMS 만들기 - 숨김](delivery/using/sms-create.md)
+      + [SMS 게재 만들기 - 숨김](delivery/using/sms-create.md)
       + [Extended Generic SMPP 커넥터로 마이그레이션](delivery/using/unsupported-connector-migration.md)
    + [LINE 메시지 보내기](delivery/using/line-channel.md)
    + [푸시 알림 보내기](delivery/using/about-mobile-app-channel.md)
@@ -146,8 +146,8 @@ ht-degree: 0%
       + [모바일 애플리케이션에 Campaign SDK 통합](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + 모바일 애플리케이션 구성{#configure-the-mobile-app}
          + [앱 구성 시작 - 숨김](delivery/using/get-started-app-config.md)
-         + [iOS 구성 단계 - 숨김](delivery/using/configuring-the-mobile-application.md)
-         + [Android 구성 단계 - 숨김](delivery/using/configuring-the-mobile-application-android.md)
+         + [iOS용 구성 단계 - 숨김](delivery/using/configuring-the-mobile-application.md)
+         + [Android용 구성 단계 - 숨김](delivery/using/configuring-the-mobile-application-android.md)
       + 푸시 알림 만들기{#create-a-push-msg}
          + [iOS용 푸시 메시지 만들기 - 숨김](delivery/using/create-notifications-ios.md)
          + [Android용 푸시 메시지 만들기 - 숨김](delivery/using/create-notifications-android.md)
@@ -234,7 +234,7 @@ ht-degree: 0%
       + [워크플로를 통한 자동화](delivery/using/automating-via-workflows.md)
 + [마케팅 캠페인 오케스트레이션](campaign/using/about-marketing-campaigns.md)
 + 마케팅 캠페인 오케스트레이션 {#orchestrating-campaigns}
-   + [Campaign 최적화 정보 - 숨김](campaign-opt/using/about-campaign-optimization.md)
+   + [캠페인 최적화 정보 - 숨김](campaign-opt/using/about-campaign-optimization.md)
    + 마케팅 캠페인 정보 {#about-marketing-campaigns}
       + [마케팅 캠페인 디자인 - 숨김](campaign/using/designing-marketing-campaigns.md)
       + [마케팅 캠페인 액세스 - 숨김](campaign/using/accessing-marketing-campaigns.md)
@@ -243,16 +243,16 @@ ht-degree: 0%
       + [템플릿 만들기 및 구성 - 숨김](campaign/using/marketing-campaign-templates.md)
       + [게재 추가 - 숨김](campaign/using/marketing-campaign-deliveries.md)
       + [대상자 선택 - 숨김](campaign/using/marketing-campaign-target.md)
-      + [문서 및 에셋 관리 - 숨김](campaign/using/marketing-campaign-assets.md)
+      + [문서 및 자산 관리 - 숨김](campaign/using/marketing-campaign-assets.md)
       + [승인 설정 및 관리 - 숨김](campaign/using/marketing-campaign-approval.md)
       + [캠페인 모니터링 - 숨김](campaign/using/marketing-campaign-monitoring.md)
-      + [공급자, 재고 및 예산 - 숨김](campaign/using/providers-stocks-and-budgets.md)
+      + [공급자, 스톡 및 예산 - 숨김](campaign/using/providers-stocks-and-budgets.md)
    + 캠페인 최적화 {#campaign-optimization}
-      + [캠페인 유형화 기본 정보 - 숨김](campaign-opt/using/about-campaign-typologies.md)
-      + [압력 규칙 - 숨김](campaign-opt/using/pressure-rules.md)
+      + [캠페인 유형 분류 정보 - 숨김](campaign-opt/using/about-campaign-typologies.md)
+      + [부담 규칙 - 숨김](campaign-opt/using/pressure-rules.md)
       + [일관성 규칙 - 숨김](campaign-opt/using/consistency-rules.md)
       + [제어 규칙 - 숨김](campaign-opt/using/control-rules.md)
-      + [필터링 규칙 - 숨김](campaign-opt/using/filtering-rules.md)
+      + [규칙 필터링 - 숨김](campaign-opt/using/filtering-rules.md)
       + [규칙 적용 - 숨김](campaign-opt/using/applying-rules.md)
       + [캠페인 시뮬레이션 - 숨김](campaign-opt/using/campaign-simulations.md)
 + 마케팅 리소스 관리 {#mrm}
@@ -351,7 +351,7 @@ ht-degree: 0%
    + [Campaign 통합 시작](integrations/using/about-campaign-integrations.md)
    + [Adobe 기술 계정 만들기](integrations/using/oauth-technical-account.md)
    + Adobe Experience Cloud 트리거 {#experience-triggers}
-      + [&#x200B; [!DNL Experience Cloud Triggers]로 작업](integrations/using/about-triggers.md)
+      + [ [!DNL Experience Cloud Triggers]로 작업](integrations/using/about-triggers.md)
       + [파이프라인 구성](integrations/using/configuring-pipeline.md)
       + [사용자 정의 구현을 위한 이벤트 구성](integrations/using/events.md)
       + [파이프라인 모니터링](integrations/using/pipeline-monitoring.md)
@@ -364,50 +364,50 @@ ht-degree: 0%
       + [Adobe Analytics 커넥터 시작](integrations/using/gs-aa.md)
       + [Adobe Analytics 커넥터 프로비전](integrations/using/adobe-analytics-provisioning.md)
    + 대상자 공유 {#audience-sharing}
-      + [&#x200B; [!DNL Adobe Experience Cloud]와 대상자 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+      + [ [!DNL Adobe Experience Cloud]와 대상자 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [Adobe에 요청 제출](integrations/using/submitting-request-to-adobe.md)
-      + [&#x200B; [!DNL Adobe Campaign]에서 공유 대상자 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+      + [ [!DNL Adobe Campaign]에서 공유 대상자 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
       + [문제 해결](integrations/using/troubleshooting.md)
       + [대상자 가져오기 및 내보내기](integrations/using/importing-and-exporting-audiences.md)
    + 자산 공유 {#asset-sharing}
-      + [&#x200B; [!DNL Adobe Experience Cloud]와 에셋 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-      + [&#x200B; [!DNL Assets] 액세스 구성](integrations/using/configuring-access-to-assets.md)
+      + [ [!DNL Adobe Experience Cloud]와 에셋 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+      + [ [!DNL Assets] 액세스 구성](integrations/using/configuring-access-to-assets.md)
       + [공유 에셋 삽입](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
-      + [&#x200B; [!DNL Adobe Experience Manager]로 작업](integrations/using/about-adobe-experience-manager.md)
+      + [ [!DNL Adobe Experience Manager]로 작업](integrations/using/about-adobe-experience-manager.md)
       + [통합 구성](integrations/using/configuring-the-integration.md)
-      + [&#x200B; [!DNL Experience Manager]  뉴스레터 만들기](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [ [!DNL Experience Manager]  뉴스레터 만들기](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [&#x200B; [!DNL Adobe Target]으로 작업](integrations/using/integrating-with-adobe-target.md)
-      + [&#x200B; [!DNL Adobe Target]과의 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
+      + [ [!DNL Adobe Target]으로 작업](integrations/using/integrating-with-adobe-target.md)
+      + [ [!DNL Adobe Target]과의 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [동적 이미지 삽입](integrations/using/inserting-a-dynamic-image.md)
    + ACS 커넥터 {#acs-connector}
-      + [&#x200B; [!DNL ACS Connector]  시작 - 숨김](integrations/using/acs-connector-principles-and-data-cycle.md)
+      + [ [!DNL ACS Connector]  시작 - 숨김](integrations/using/acs-connector-principles-and-data-cycle.md)
       + [프로필 동기화 - 숨김](integrations/using/synchronizing-profiles.md)
       + [대상자 동기화 - 숨김](integrations/using/synchronizing-audiences.md)
       + [웹 애플리케이션 동기화 - 숨김](integrations/using/synchronizing-web-applications.md)
-      + [&#x200B; [!DNL ACS Connector]  문제 해결 - 숨김](integrations/using/troubleshooting-the-acs-connector.md)
+      + [ [!DNL ACS Connector]  문제 해결 - 숨김](integrations/using/troubleshooting-the-acs-connector.md)
 + [워크플로로 자동화](workflow/using/about-workflows.md)
 + 워크플로로 자동화 {#automating-with-workflows}
    + 워크플로 시작 {#introduction}
       + [활동 정보 - 숨김](workflow/using/about-activities.md)
-      + [워크플로우 구축 - 숨김](workflow/using/building-a-workflow.md)
+      + [워크플로 작성 - 숨김](workflow/using/building-a-workflow.md)
       + [대상 데이터 - 숨김](workflow/using/targeting-data.md)
-      + [워크플로우 데이터 사용 - 숨김](workflow/using/how-to-use-workflow-data.md)
-      + [워크플로우 모범 사례 - 숨김](workflow/using/workflow-best-practices.md)
+      + [워크플로 데이터 사용 - 숨김](workflow/using/how-to-use-workflow-data.md)
+      + [워크플로 모범 사례 - 숨김](workflow/using/workflow-best-practices.md)
    + 워크플로 실행 {#executing-a-workflow}
-      + [워크플로우 시작 - 숨김](workflow/using/starting-a-workflow.md)
-      + [워크플로우 라이프 사이클 - 숨김](workflow/using/workflow-life-cycle.md)
-      + [데이터 수명 주기 - 숨김](workflow/using/data-life-cycle.md)
+      + [워크플로 시작 - 숨김](workflow/using/starting-a-workflow.md)
+      + [워크플로 라이프사이클 - 숨김](workflow/using/workflow-life-cycle.md)
+      + [데이터 라이프사이클 - 숨김](workflow/using/data-life-cycle.md)
       + [승인 정의 - 숨김](workflow/using/defining-approvals.md)
       + [아키텍처 - 숨김](workflow/using/architecture.md)
    + 타겟팅 활동 {#targeting-activities}
-      + [타겟팅 활동 정보 - 숨김](workflow/using/about-targeting-activities.md)
+      + [타기팅 활동 정보 - 숨김](workflow/using/about-targeting-activities.md)
       + [쿼리 - 숨김](workflow/using/query.md)
       + [증분 쿼리 - 숨김](workflow/using/incremental-query.md)
-      + [목록 읽기 - 숨김](workflow/using/read-list.md)
-      + [결합 - 숨김](workflow/using/union.md)
-      + [교차 - 숨김](workflow/using/intersection.md)
+      + [읽기 목록 - 숨김](workflow/using/read-list.md)
+      + [합집합 - 숨김](workflow/using/union.md)
+      + [교집합 - 숨김](workflow/using/intersection.md)
       + [제외 - 숨김](workflow/using/exclusion.md)
       + [분할 - 숨김](workflow/using/split.md)
       + [셀 - 숨김](workflow/using/cells.md)
@@ -427,13 +427,13 @@ ht-degree: 0%
       + [흐름 제어 활동 정보 - 숨김](workflow/using/about-flow-control-activities.md)
       + [시작 및 종료 - 숨김](workflow/using/start-and-end.md)
       + [포크 - 숨김](workflow/using/fork.md)
-      + [AND-결합 - 숨김](workflow/using/and-join.md)
+      + [AND 결합 - 숨김](workflow/using/and-join.md)
       + [스케줄러 - 숨김](workflow/using/scheduler.md)
       + [테스트 - 숨김](workflow/using/test.md)
       + [대기 - 숨김](workflow/using/wait.md)
       + [시간 제한 - 숨김](workflow/using/time-constraint.md)
-      + [하위 워크플로우 - 숨김](workflow/using/sub-workflow.md)
-      + [이동(시작점 및 끝점 - 숨김)](workflow/using/jump-start-point-and-end-point.md)
+      + [하위 워크플로 - 숨김](workflow/using/sub-workflow.md)
+      + [이동(시작 지점 및 종료 지점) - 숨김](workflow/using/jump-start-point-and-end-point.md)
       + [외부 신호 - 숨김](workflow/using/external-signal.md)
       + [승인 - 숨김](workflow/using/approval.md)
       + [경고 - 숨김](workflow/using/alert.md)
@@ -446,9 +446,9 @@ ht-degree: 0%
       + [반복 게재 - 숨김](workflow/using/recurring-delivery.md)
       + [크로스 채널 게재 - 숨김](workflow/using/cross-channel-deliveries.md)
       + [로컬 승인 - 숨김](workflow/using/local-approval.md)
-      + [데이터 로드(RDBMS) - 숨김](workflow/using/data-loading-rdbms.md)
-      + [로드 중(SOAP) - 숨김](workflow/using/loading-soap.md)
-      + [데이터 로드(파일) - 숨김](workflow/using/data-loading-file.md)
+      + [데이터 로딩(RDBMS) - 숨김](workflow/using/data-loading-rdbms.md)
+      + [로딩(SOAP) - 숨김](workflow/using/loading-soap.md)
+      + [데이터 로딩(파일) - 숨김](workflow/using/data-loading-file.md)
       + [콘텐츠 관리 - 숨김](workflow/using/content-management.md)
       + [데이터 추출(파일) - 숨김](workflow/using/extraction-file.md)
       + [SQL 코드 및 JavaScript 코드 - 숨김](workflow/using/sql-code-and-javascript-code.md)
@@ -463,16 +463,16 @@ ht-degree: 0%
       + [인바운드 이메일 - 숨김](workflow/using/inbound-emails.md)
       + [인바운드 SMS - 숨김](workflow/using/inbound-sms.md)
    + 사용 사례 {#use-cases}
-      + [워크플로우 사용 사례 기본 정보 - 숨김](workflow/using/about-workflow-use-cases.md)
+      + [워크플로 사용 사례 정보 - 숨김](workflow/using/about-workflow-use-cases.md)
       + 게재 {#deliveries}
          + [로컬 승인 활동 사용 - 숨김](workflow/using/using-the-local-approval-activity.md)
          + [생일 이메일 보내기 - 숨김](workflow/using/sending-a-birthday-email.md)
          + [게재 콘텐츠 로드 - 숨김](workflow/using/loading-delivery-content.md)
-         + [크로스 채널 게재 워크플로우 - 숨김](workflow/using/cross-channel-delivery-workflow.md)
-         + [사용자 지정 날짜 필드를 사용한 전자 메일 강화 - 숨김](workflow/using/email-enrichment-with-custom-date-fields.md)
+         + [크로스 채널 게재 워크플로 - 숨김](workflow/using/cross-channel-delivery-workflow.md)
+         + [사용자 정의 날짜 필드를 통한 이메일 보강 - 숨김](workflow/using/email-enrichment-with-custom-date-fields.md)
    + 모니터링 {#monitoring}
       + [목록으로 보고서 보내기 - 숨김](workflow/using/sending-a-report-to-a-list.md)
-      + [워크플로우 관리 - 숨김](workflow/using/supervising-workflows.md)
+      + [워크플로 감독 - 숨김](workflow/using/supervising-workflows.md)
       + [운영자에게 개인화된 경고 보내기 - 숨김](workflow/using/sending-personalized-alerts-to-operators.md)
    + 데이터 관리 {#data-management}
       + [데이터 업데이트 조정 - 숨김](workflow/using/coordinating-data-updates.md)
@@ -480,32 +480,32 @@ ht-degree: 0%
       + [데이터 보강 - 숨김](workflow/using/enriching-data.md)
       + [집계 사용 - 숨김](workflow/using/using-aggregates.md)
       + [중복 제거 활동의 병합 기능 사용 - 숨김](workflow/using/deduplication-merge.md)
-      + [반복 가져오기 워크플로우 설정 - 숨김](workflow/using/recurring-import-workflow.md)
+      + [가져오기 반복 워크플로 설정 - 숨김](workflow/using/recurring-import-workflow.md)
    + 쿼리 디자인 {#designing-queries}
       + [증분 쿼리를 사용한 분기별 목록 업데이트 - 숨김](workflow/using/quarterly-list-update.md)
    + 쿼리 및 필터 {#designing-queries}
       + [수신자 테이블 쿼리 - 숨김](workflow/using/querying-recipient-table.md)
-      + [쿼리 게재 정보 - 숨김](workflow/using/querying-delivery-information.md)
+      + [게재 정보 쿼리 - 숨김](workflow/using/querying-delivery-information.md)
       + [집계 컴퓨팅 수행 - 숨김](workflow/using/performing-aggregate-computing.md)
-      + [그룹 관리를 사용하여 쿼리 - 숨김](workflow/using/querying-using-grouping-management.md)
+      + [그룹화 관리를 사용한 쿼리 - 숨김](workflow/using/querying-using-grouping-management.md)
       + [다대다 관계를 사용한 쿼리 - 숨김](workflow/using/querying-using-many-to-many-relationship.md)
-      + [열거형 유형 계산 필드 추가 - 숨김](workflow/using/adding-enumeration-type-calculated-field.md)
+      + [열거형 계산 필드 추가 - 숨김](workflow/using/adding-enumeration-type-calculated-field.md)
       + [필터 만들기 - 숨김](workflow/using/creating-a-filter.md)
       + [중복 수신자 필터링 - 숨김](workflow/using/filtering-duplicated-recipients.md)
    + 워크플로 모니터링 {#monitoring-workflows}
-      + [워크플로우 실행 모니터링 - 숨김](workflow/using/monitoring-workflow-execution.md)
-      + [기술 워크플로우 모니터링 - 숨김](workflow/using/monitoring-technical-workflows.md)
-      + [워크플로우 열 지도 - 숨김](workflow/using/heatmap.md)
+      + [워크플로 실행 모니터링 - 숨김](workflow/using/monitoring-workflow-execution.md)
+      + [기술 워크플로 모니터링 - 숨김](workflow/using/monitoring-technical-workflows.md)
+      + [워크플로 히트맵 - 숨김](workflow/using/heatmap.md)
    + 고급 관리 {#advanced-management}
       + [워크플로 속성 - 숨김](workflow/using/workflow-properties.md)
       + [고급 매개 변수 - 숨김](workflow/using/advanced-parameters.md)
       + [JavaScript 스크립트 및 템플릿 - 숨김](workflow/using/javascript-scripts-and-templates.md)
-      + [워크플로우의 JavaScript 코드 예 - 숨김](workflow/using/javascript-in-workflows.md)
+      + [워크플로의 JavaScript 코드 예 - 숨김](workflow/using/javascript-in-workflows.md)
       + [외부 데이터베이스 액세스 - 숨김](workflow/using/accessing-an-external-database-fda.md)
       + [권한 관리 - 숨김](workflow/using/managing-rights.md)
       + [활동 이미지 변경 - 숨김](workflow/using/managing-activity-images.md)
       + [표준 시간대 관리 - 숨김](workflow/using/managing-time-zones.md)
-      + [기술 워크플로우 - 숨김](workflow/using/about-technical-workflows.md)
+      + [기술 워크플로 - 숨김](workflow/using/about-technical-workflows.md)
 + 오퍼 관리 {#managing-offers}
    + 상호 작용 시작 {#interaction-overview}
       + [상호 작용 및 오퍼 관리](interaction/using/interaction-and-offer-management.md)
