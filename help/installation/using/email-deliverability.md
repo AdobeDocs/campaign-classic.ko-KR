@@ -316,7 +316,7 @@ MX에 대해 준수할 규칙이 트리의 **[!UICONTROL MX management]** 노드
 
 이렇게 하려면 **[!UICONTROL Management of email formats]** > **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Non deliverables management]**&#x200B;에 있는 **[!UICONTROL Mail rule sets]** 문서로 이동하십시오.
 
-이 문서에는 Adobe Campaign에서 관리하는 일본어 형식에 해당하는 사전 정의된 모든 도메인의 목록이 포함되어 있습니다. 자세한 내용은 관련 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html){target="_blank"}를 참조하십시오.
+이 문서에는 Adobe Campaign에서 관리하는 일본어 형식에 해당하는 사전 정의된 모든 도메인의 목록이 포함되어 있습니다. 자세한 내용은 관련 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=ko){target="_blank"}를 참조하십시오.
 
 ![](assets/mail_rule_sets.png)
 
@@ -331,7 +331,7 @@ MX에 대해 준수할 규칙이 트리의 **[!UICONTROL MX management]** 노드
 
 **[!UICONTROL Image inclusion]** 옵션을 활성화하면 전자 메일의 본문에 바로 표시됩니다. 그런 다음 이미지가 업로드되고 URL 링크가 해당 콘텐츠로 바뀝니다.
 
-이 옵션은 특히 일본 시장에서 **Deco-mail**, **Decore Mail** 또는 **Decoration Mail**&#x200B;에 사용됩니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html){target="_blank"}를 참조하세요.
+이 옵션은 특히 일본 시장에서 **Deco-mail**, **Decore Mail** 또는 **Decoration Mail**&#x200B;에 사용됩니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=ko){target="_blank"}를 참조하세요.
 
 >[!IMPORTANT]
 >
