@@ -108,17 +108,17 @@ ht-degree: 2%
 
 * 비즈니스 볼륨 데이터 수집
 
-  **https://myserver.adobe.com/r/4567?tagid=command&amp;amount=100&amp;article=2l**
+  **https://myserver.adobe.com/r/4567?tagid=command&amount=100&article=2l**
 
 * 수신자를 찾기 위한 필드 지정
 
-  **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
+  **https://myserver.adobe.com/r/2353?tagid=home&rcpid=saccount%3D10**
 
   계정 번호가 10인 수신자는 홈 페이지로 전송됩니다.
 
 * 기본 게재 사용
 
-  **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
+  **https://myserver.adobe.com/r/2456?tagid=home&jobid=e6**
 
   수신자가 홈 페이지로 전송됩니다. 이 쿼리와 함께 게재 식별자가 포함된 세션 쿠키가 전송되지 않는 한 이 정보는 식별자 230(데이터베이스 16의 e6)이 있는 게재에 저장됩니다.
 

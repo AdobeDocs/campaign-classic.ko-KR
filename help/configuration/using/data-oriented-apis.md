@@ -44,7 +44,7 @@ XML 문서는 데이터베이스의 메모 유형 필드에 저장됩니다.
 
 이렇게 하면 기본 SQL을 격리할 수 있습니다. 쿼리 언어는 기본 엔진에 따라 달라지지 않습니다. 일부 함수는 다시 매핑되어 여러 SELECT SQL 주문을 생성할 수 있습니다.
 
-자세한 내용은 스키마 &#39;xtk[&#39;:queryDef의 &#39;ExecuteQuery&#39; 메서드에 대한 ](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-)예제를 참조하십시오.
+자세한 내용은 스키마 &#39;xtk[&#39;:queryDef의 &#39;ExecuteQuery&#39; 메서드에 대한 &#x200B;](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-)예제를 참조하십시오.
 
 **ExecuteQuery** 메서드가 [ExecuteQuery(xtk:queryDef)](#executequery--xtk-querydef-)에 있습니다.
 

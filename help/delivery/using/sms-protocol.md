@@ -245,7 +245,7 @@ Adobe Campaign Classic은 SR 및 MO가 데이터베이스에 삽입되면 이를
 
 * **message_payload**: 전체 긴 메시지를 단일 `SUBMIT_SM PDU`에 보내는 방법입니다. 공급자는 이를 분할해야 할 것인데, Adobe Campaign이 정확히 몇 개의 부품이 전송됐는지 알 수 없다는 의미다. 일부 공급자는 이 모드를 필요로 하지만 UDH를 지원하지 않는 경우에만 사용하는 것이 좋습니다.
 
-프로토콜 및 형식에 대한 자세한 내용은 `esm_class`SUBMIT_SM PDU`short_message`의 `message_payload`, [ 및 ](sms-protocol.md#information-pdu) 필드에 대한 설명을 참조하십시오.
+프로토콜 및 형식에 대한 자세한 내용은 `esm_class`SUBMIT_SM PDU`short_message`의 `message_payload`, [&#x200B; 및 &#x200B;](sms-protocol.md#information-pdu) 필드에 대한 설명을 참조하십시오.
 
 ### 처리량 제한 및 창 {#throughput-capping}
 
@@ -661,7 +661,7 @@ SR 형식은 SMPP 프로토콜 사양에 의해 엄격히 적용되지 않습니
 
 알 수 없는 stat/err 필드 조합이 있는 메시지가 발생하면 이 정규 표현식이 stat 필드에 적용되어 SR이 성공인지 아니면 오류인지 파악합니다. 이 정규 표현식과 일치하지 않는 통계 값이 있는 SR은 무시됩니다.
 
-기본적으로 `DELIV`부록 B`DELIVRD`에서 [(예: ](sms-protocol.md#sr-error-management))으로 시작하는 통계 값은 성공적으로 전달된 것으로 간주되며 `REJECTED`, `UNDELIV` 같은 오류와 일치하는 모든 통계 값은 오류로 간주됩니다.
+기본적으로 `DELIV`부록 B`DELIVRD`에서 [(예: &#x200B;](sms-protocol.md#sr-error-management))으로 시작하는 통계 값은 성공적으로 전달된 것으로 간주되며 `REJECTED`, `UNDELIV` 같은 오류와 일치하는 모든 통계 값은 오류로 간주됩니다.
 
 #### MT 승인의 ID 형식 {#id-format-mt}
 
