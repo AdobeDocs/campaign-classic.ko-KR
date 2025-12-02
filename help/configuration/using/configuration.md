@@ -3,9 +3,9 @@ product: campaign
 title: Campaign 탐색기 탐색 트리 구성
 feature: Application Settings
 description: Campaign 탐색기 탐색 트리를 구성하는 방법 알아보기
-role: Data Engineer, Developer
+role: Developer
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
-source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 전문가 사용자는 탐색기 트리에 폴더를 추가하고 사용자 정의할 수 있습니다.
 
-[Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}에서 Campaign 사용자 인터페이스에 대해 자세히 알아보세요.
+[Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}에서 Campaign 사용자 인터페이스에 대해 자세히 알아보세요.
 
 탐색 목록에 사용되는 폴더 유형은 **xtk:navtree** 스키마의 문법을 따르는 XML 문서에 설명되어 있습니다.
 

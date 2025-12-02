@@ -3,11 +3,11 @@ product: campaign
 title: 데이터 스키마의 키 관리
 description: 데이터 스키마의 키 관리 이해
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: faf63c8f-9d10-43c1-a990-91361594af9f
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '617'
 ht-degree: 2%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 2%
 
 증분 키의 장점은 테이블 간의 조인에 수정할 수 없는 기술 키를 제공한다는 것입니다. 또한 이 키는 2바이트 정수를 사용하므로 메모리를 많이 차지하지 않습니다.
 
-소스 스키마에서 **pkSequence** 특성과 함께 사용할 시퀀스의 이름을 지정할 수 있습니다. 이 특성이 원본 스키마에 지정되어 있지 않으면 **XtkNewId** 기본 시퀀스가 사용됩니다. **nms:broadLog** 및 **nms:trackingLog** 스키마(**NmsBroadLogId** 및 **NmsTrackingLogId**)에 대해 전용 시퀀스를 사용합니다. 이 스키마는 가장 많은 레코드를 포함하는 테이블이기 때문입니다.
+소스 스키마에서 **pkSequence** 특성과 함께 사용할 시퀀스의 이름을 지정할 수 있습니다. 이 특성이 원본 스키마에 지정되어 있지 않으면 **XtkNewId** 기본 시퀀스가 사용됩니다. 가장 많은 레코드가 포함된 테이블이므로 응용 프로그램에서 **nms:broadLog** 및 **nms:trackingLog** 스키마(**NmsBroadLogId** 및 **NmsTrackingLogId**)에 대해 전용 시퀀스를 사용합니다.
 
 ACC 18.10에서 **XtkNewId**&#x200B;은(는) 기본 제공 스키마에서 시퀀스에 대한 기본값이 아닙니다. 이제 전용 시퀀스로 스키마를 빌드하거나 기존 스키마를 확장할 수 있습니다.
 

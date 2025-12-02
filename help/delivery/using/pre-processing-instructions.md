@@ -4,11 +4,11 @@ title: 추적된 URL에 대한 전처리 지침
 description: 이메일의 URL을 스크립팅하고 계속 추적하는 데 사용하는 전처리 지침에 대해 자세히 알아보십시오
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Monitoring
-role: User, Data Engineer, Developer
+role: User, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '651'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 1%
 * **[!DNL object]**: 개체 이름(예: 게재, 공급자 등)입니다.
 객체는 다음과 같을 수 있습니다.
    * **[!DNL delivery]**: 현재 게재용(아래 하위 섹션에서 세부 정보 및 제한 사항 참조).
-   * **[!DNL provider]**: 현재 게재 공급자/라우팅(nms:externalAccount)에 사용됩니다.
+   * **[!DNL provider]**: 현재 배달 공급자/라우팅(nms:externalAccount)에 대해.
    * 추가 스크립트 개체: **속성** > **Personalization** > **실행 컨텍스트에 개체 추가**&#x200B;를 통해 컨텍스트에 개체가 로드된 경우.
    * foreach 루프 항목: 아래의 [Foreach](#foreach) 섹션을 참조하십시오.
 * **[!DNL xpath]**: 필드의 xpath.

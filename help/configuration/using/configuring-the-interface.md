@@ -3,10 +3,10 @@ product: campaign
 title: 인터페이스 구성
 description: Campaign 인터페이스를 구성하는 방법 알아보기
 feature: Application Settings
-role: Data Engineer, Developer
+role: Developer
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
-source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%

@@ -3,9 +3,9 @@ product: campaign
 title: 웹 추적 태그 정의
 description: 웹 추적 태그 정의
 feature: Application Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 2%
@@ -108,17 +108,17 @@ ht-degree: 2%
 
 * 비즈니스 볼륨 데이터 수집
 
-  **https://myserver.adobe.com/r/4567?tagid=command&amount=100&article=2l**
+  **https://myserver.adobe.com/r/4567?tagid=command&amp;amount=100&amp;article=2l**
 
 * 수신자를 찾기 위한 필드 지정
 
-  **https://myserver.adobe.com/r/2353?tagid=home&rcpid=saccount%3D10**
+  **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
 
   계정 번호가 10인 수신자는 홈 페이지로 전송됩니다.
 
 * 기본 게재 사용
 
-  **https://myserver.adobe.com/r/2456?tagid=home&jobid=e6**
+  **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
 
   수신자가 홈 페이지로 전송됩니다. 이 쿼리와 함께 게재 식별자가 포함된 세션 쿠키가 전송되지 않는 한 이 정보는 식별자 230(데이터베이스 16의 e6)이 있는 게재에 저장됩니다.
 
@@ -130,5 +130,5 @@ ht-degree: 2%
 
 다음과 같은 방법을 사용할 수 있습니다.
 
-* 추적하려는 웹 페이지에 통합된 HTML **`<img>`** 태그의 **&quot;src&quot;** 특성에 URL을 삽입합니다.
+* 추적하려는 웹 페이지에 통합된 HTML **태그의**&quot;src&quot;**`<img>`** 특성에 URL을 삽입합니다.
 * 추적할 웹 페이지가 생성되면 리디렉션 서버에 직접 호출합니다.

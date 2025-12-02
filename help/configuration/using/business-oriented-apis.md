@@ -3,11 +3,11 @@ product: campaign
 title: 비즈니스 지향 API
 description: 비즈니스 지향 API
 feature: API
-role: Data Engineer, Developer
+role: Developer
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '618'
 ht-degree: 2%
 
 ---
@@ -30,14 +30,14 @@ ht-degree: 2%
      JavaScript의 [SOAP 메서드](../../configuration/using/soap-methods-in-javascript.md)를 참조하세요.
 
 * 콘텐츠 관리
-* 구독 관리는 [구독(nms:subscription)](#subscribe--nms-subscription-) 및 [구독 취소(nms:subscription)](#unsubscribe--nms-subscription-)를 참조하십시오.
+* 구독 관리입니다. [구독(nms:subscription)](#subscribe--nms-subscription-) 및 [구독 취소(nms:subscription)](#unsubscribe--nms-subscription-)를 참조하세요.
 * 데이터 프로세스: 가져오기, 내보내기.
 
 이 섹션에서는 &quot;Subscribe&quot;, &quot;Unsubscribe&quot; 및 &quot;SubmitDelivery&quot; 서비스 사용에 대해 자세히 설명합니다.
 
 >[!IMPORTANT]
 >
->[Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko)에는 SOAP 호출 및 Adobe Campaign에서의 Javascript 사용에 대한 추가 정보와 응용 프로그램에 사용되는 모든 메서드 및 함수에 대한 전체 참조가 포함되어 있습니다.
+>[Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko)에는 SOAP 호출 및 Adobe Campaign에서의 Javascript 사용에 대한 추가 정보와 애플리케이션에 사용되는 모든 메서드 및 함수에 대한 전체 참조가 포함되어 있습니다.
 
 ## 구독(nms:subscription) {#subscribe--nms-subscription-}
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 
 * 인증,
 * 구독 서비스의 내부 이름,
-* 수신자 정보가 포함된 XML 문서(&quot;nms:recipient&quot; 스키마의)
+* 받는 사람 정보가 포함된 XML 문서(&quot;nms:recipient&quot; 스키마의)
 * 수신자 생성을 위한 부울이 아직 없는 경우 입니다.
 
 &quot;nms:subscription&quot; 스키마의 &quot;subscribe&quot; 메서드에 대한 설명:
@@ -62,7 +62,7 @@ ht-degree: 2%
 </method>
 ```
 
-조정 키의 정의는 XML 문서의 `<recipient>` 요소에 있는 _&#x200B;**key** 특성을 통해 입력해야 합니다. 이 속성의 콘텐츠는 쉼표로 구분된 XPath 목록입니다.
+조정 키의 정의는 XML 문서의 **요소에 있는 _** key`<recipient>` 특성을 통해 입력해야 합니다. 이 속성의 콘텐츠는 쉼표로 구분된 XPath 목록입니다.
 
 이 호출은 오류를 제외하고 데이터를 반환하지 않습니다.
 
@@ -80,7 +80,7 @@ ht-degree: 2%
 <recipient _key="email, [folder-id]" email= "john.doe@adobe.com" folder-id="1305" firstName="John" lastName="Doe"/>
 ```
 
-### SOAP 메시지의 예 {#example-of-soap-messages}
+### SOAP 메시지 예 {#example-of-soap-messages}
 
 * 쿼리:
 
@@ -120,9 +120,9 @@ ht-degree: 2%
 
 * 인증,
 * 구독을 취소할 서비스의 내부 이름,
-* 수신자 정보가 포함된 XML 문서(&quot;nms:recipient&quot; 스키마의)
+* 받는 사람 정보가 포함된 XML 문서(&quot;nms:recipient&quot; 스키마의)
 
-&quot;nms:subscription&quot; 스키마의 &quot;Unsubscribe&quot; 메서드에 대한 설명:
+&quot;nms:subscription&quot; 스키마의 &quot;구독 취소&quot; 메서드에 대한 설명:
 
 ```
 <method name="Unsubscribe" static="true">
@@ -143,7 +143,7 @@ ht-degree: 2%
 
 이 호출은 오류를 제외하고 데이터를 반환하지 않습니다.
 
-### SOAP 메시지의 예 {#example-of-soap-messages-1}
+### SOAP 메시지 예 {#example-of-soap-messages-1}
 
 쿼리:
 
@@ -173,7 +173,7 @@ ht-degree: 2%
 </SOAP-ENV:Envelope>
 ```
 
-## SubmitDelivery (nms:delivery) {#submitdelivery--nms-delivery-}
+## SubmitDelivery(nms:delivery) {#submitdelivery--nms-delivery-}
 
 이 서비스를 사용하면 게재 작업을 만들고 제출할 수 있습니다.
 

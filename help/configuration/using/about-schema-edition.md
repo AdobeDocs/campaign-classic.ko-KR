@@ -3,11 +3,11 @@ product: campaign
 title: 스키마 편집 정보
 description: 스키마 에디션 시작
 feature: Schema Extension
-role: Data Engineer, Developer
+role: Developer
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1005'
 ht-degree: 6%
 
 ---
@@ -24,7 +24,7 @@ Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 
 
 ## 스키마 확장 또는 생성 {#extending-or-creating-schemas}
 
-필드, 인덱스 또는 기타 요소를 Campaign의 핵심 데이터 스키마 중 하나(예: 수신자 테이블(nms:recipient)에 추가하려면 해당 스키마를 확장해야 합니다. 자세한 내용은 [스키마 확장](../../configuration/using/extending-a-schema.md) 섹션을 참조하십시오.
+필드, 인덱스 또는 기타 요소를 Campaign의 핵심 데이터 스키마 중 하나(예: 수신자 테이블(nms:recipient))에 추가하려면 해당 스키마를 확장해야 합니다. 자세한 내용은 [스키마 확장](../../configuration/using/extending-a-schema.md) 섹션을 참조하십시오.
 
 Adobe Campaign에 즉시 존재하지 않는 완전히 새로운 유형의 데이터(예: 계약 테이블)를 추가하려면 사용자 지정 스키마를 직접 만들 수 있습니다. 자세한 내용은 [데이터 스키마](../../configuration/using/data-schemas.md) 섹션을 참조하십시오.
 

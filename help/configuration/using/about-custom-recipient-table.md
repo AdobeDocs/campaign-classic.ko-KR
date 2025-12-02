@@ -3,10 +3,10 @@ product: campaign
 title: 사용자 정의 수신자 테이블 정보
 description: 사용자 정의 수신자 테이블 정보
 feature: Configuration, Custom Resources
-role: User, Data Engineer, Developer
+role: User, Developer
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 2%
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 이 섹션에서는 Adobe Campaign의 기존 테이블을 매핑할 수 있는 주요 사항과 테이블을 기반으로 게재를 실행하는 데 적용할 구성에 대해 설명합니다. 마지막으로, 기본 제공 수신자 테이블에서 사용할 수 있는 것과 같은 실용적인 쿼리 인터페이스를 사용자에게 제공하는 방법을 설명합니다. 이 절에서 제시하는 자료를 이해하기 위해서는 화면과 스키마 디자인의 원리에 대한 숙지가 필요하다.
 
-## Recommendations 및 제한 사항 {#recommendations-and-limitations}
+## 권장 사항 및 제한 사항 {#recommendations-and-limitations}
 
 사용자 지정 수신자 테이블을 사용하는 데에는 다음과 같은 제한 사항이 있습니다.
 

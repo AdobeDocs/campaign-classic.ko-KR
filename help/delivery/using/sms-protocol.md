@@ -3,9 +3,9 @@ product: campaign
 title: SMS 커넥터 프로토콜 및 설정
 description: SMS 커넥터에 대한 자세한 내용 및 구성 방법 알아보기
 feature: SMS
-role: Developer, Data Engineer
+role: Developer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '8457'
 ht-degree: 1%
@@ -101,7 +101,7 @@ SMPP 전송 단위(&quot;패킷&quot;)를 PDU라고 합니다. **PDU**&#x200B;�
 
 ![](assets/do-not-localize/sms_protocol_1.png)
 
-Adobe Campaign Classic에서 SR을 해당 MT와 연결하기 위해 SMSC에서 `SUBMIT_SM_RESP` 및 `DELIVER_SM` 단계를 통해 ID가 반환됩니다. 식별자가 `nms::providerMsgId` 테이블의 `providerId` 필드에 저장되고 `broadLogId` 및 `deliveryId`에 연결됩니다. 이 일치 작업은 데이터베이스에 쓸 때 SMS 프로세스에 의해 수행됩니다.
+Adobe Campaign Classic에서 SR을 해당 MT와 연결하기 위해 SMSC에서 `SUBMIT_SM_RESP` 및 `DELIVER_SM` 단계를 통해 ID가 반환됩니다. 식별자가 `providerId` 테이블의 `nms::providerMsgId` 필드에 저장되고 `broadLogId` 및 `deliveryId`에 연결됩니다. 이 일치 작업은 데이터베이스에 쓸 때 SMS 프로세스에 의해 수행됩니다.
 
 성공한 `SUBMIT_SM_RESP PDU`은(는) 전송 로그에서 &quot;보낸&quot; 메시지 상태를 트리거하고 성공한 `DELIVER_SM (SR) PDU`은(는) &quot;받은&quot; 메시지 상태를 트리거합니다.
 
@@ -245,13 +245,13 @@ Adobe Campaign Classic은 SR 및 MO가 데이터베이스에 삽입되면 이를
 
 * **message_payload**: 전체 긴 메시지를 단일 `SUBMIT_SM PDU`에 보내는 방법입니다. 공급자는 이를 분할해야 할 것인데, Adobe Campaign이 정확히 몇 개의 부품이 전송됐는지 알 수 없다는 의미다. 일부 공급자는 이 모드를 필요로 하지만 UDH를 지원하지 않는 경우에만 사용하는 것이 좋습니다.
 
-프로토콜 및 형식에 대한 자세한 내용은 [SUBMIT_SM PDU](sms-protocol.md#information-pdu)의 `esm_class`, `short_message` 및 `message_payload` 필드에 대한 설명을 참조하십시오.
+프로토콜 및 형식에 대한 자세한 내용은 `esm_class`SUBMIT_SM PDU`short_message`의 `message_payload`, [ 및 ](sms-protocol.md#information-pdu) 필드에 대한 설명을 참조하십시오.
 
 ### 처리량 제한 및 창 {#throughput-capping}
 
 대부분의 공급업체는 각 SMPP 연결에 대해 처리량 제한을 필요로 합니다. 이 작업은 외부 계정에서 SMS 수를 설정하여 수행할 수 있습니다. 처리량 제한은 접속당 발생하며, 총 유효 처리량은 접속당 한도에 총 접속 수를 곱한 값입니다. 자세한 내용은 [동시 연결](sms-protocol.md#connection-settings) 섹션을 참조하십시오.
 
-가능한 최대 처리량에 도달하려면 최대 전송 창을 미세 조정해야 합니다. 전송 기간은 `SUBMIT_SM_RESP`을(를) 기다리지 않고 보낼 수 있는 `SUBMIT_SM PDU`의 수입니다. 자세한 내용은 [전송 창 설정](sms-protocol.md#throughput-timeouts) 섹션을 참조하십시오.
+가능한 최대 처리량에 도달하려면 최대 전송 창을 미세 조정해야 합니다. 전송 기간은 `SUBMIT_SM PDU`을(를) 기다리지 않고 보낼 수 있는 `SUBMIT_SM_RESP`의 수입니다. 자세한 내용은 [전송 창 설정](sms-protocol.md#throughput-timeouts) 섹션을 참조하십시오.
 
 ### SR 및 오류 관리 (&quot;부록 B&quot;) {#sr-error-management}
 
@@ -384,7 +384,7 @@ SMSC 구현의 이름을 설정합니다. 공급자 이름으로 설정해야 �
 
 >[!NOTE]
 >
->전달성 팀의 참여는 계약을 기반으로 하며, 고객은 전달성 참여와 관련된 정보를 Adobe 담당자에게 문의해야 합니다.
+>전달성 팀의 참여는 계약을 기반으로 하며, 고객은 전달성 참여와 관련된 정보를 얻으려면 Adobe 담당자에게 문의해야 합니다.
 
 #### 서버 {#server}
 
@@ -492,13 +492,13 @@ Adobe Campaign Classic에는 KPI에 대해 완전히 다른 메커니즘이 있�
 
 #### Source TON/NPI, 대상 TON/NPI {#ton-npi}
 
-TON(숫자 유형) 및 NPI(번호 매기기 계획 표시기)는 [SMPP 3.4 사양](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(페이지 117)의 섹션 5.2.5에 설명되어 있습니다. 이러한 값은 공급자의 필요에 맞게 설정해야 합니다.
+TON(숫자 유형) 및 NPI(번호 매기기 계획 표시기)는 [SMPP 3.4 사양](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)&#x200B;(페이지 117)의 섹션 5.2.5에 설명되어 있습니다. 이러한 값은 공급자의 필요에 맞게 설정해야 합니다.
 
-`SUBMIT_SM PDU`의 `source_addr_ton`, `source_addr_npi`, `dest_addr_ton` 및 `dest_addr_npi` 필드에 있는 그대로 전송됩니다.
+`source_addr_ton`의 `source_addr_npi`, `dest_addr_ton`, `dest_addr_npi` 및 `SUBMIT_SM PDU` 필드에 있는 그대로 전송됩니다.
 
 #### 서비스 유형 {#service-type}
 
-이 필드는 `SUBMIT_SM PDU`의 `service_type` 필드에 있는 그대로 전송됩니다. 공급자의 필요에 맞게 설정합니다.
+이 필드는 `service_type`의 `SUBMIT_SM PDU` 필드에 있는 그대로 전송됩니다. 공급자의 필요에 맞게 설정합니다.
 
 ### 처리량 및 시간 초과 {#throughput-timeouts}
 
@@ -506,7 +506,7 @@ TON(숫자 유형) 및 NPI(번호 매기기 계획 표시기)는 [SMPP 3.4 사�
 
 #### 전송 기간 {#sending-window}
 
-창은 일치하는 `SUBMIT_SM_RESP`을(를) 기다리지 않고 보낼 수 있는 `SUBMIT_SM PDU`의 수입니다.
+창은 일치하는 `SUBMIT_SM PDU`을(를) 기다리지 않고 보낼 수 있는 `SUBMIT_SM_RESP`의 수입니다.
 
 최대 4개의 창을 사용하는 전송의 예:
 
@@ -534,7 +534,7 @@ TON(숫자 유형) 및 NPI(번호 매기기 계획 표시기)는 [SMPP 3.4 사�
 
 최종 아키텍처 및 특별히 요청한 SMPP 공급자에서 올바르게 벤치마킹하지 않으면 이 숫자 이상의 정확한 처리량을 보장할 수 없으므로 일반적으로 이 설정을 1000 미만으로 유지하는 것이 좋습니다. 1000 MT/s 이상으로 연결하는 연결 수를 늘리는 것이 더 나을 수 있습니다.
 
-#### 다시 연결 이전 시간 {#time-reconnection}
+#### 재연결 전 대기 시간 {#time-reconnection}
 
 TCP 연결이 끊기면 커넥터는 연결을 시도하기 전에 이 시간(초)을 기다립니다.
 
@@ -589,7 +589,7 @@ Adobe Campaign에서 지원되는 모든 문자를 인코딩할 수 있고 UCS-2
 
 #### 전체 전화 번호 보내기 {#send-full-phone-number}
 
-이 확인란을 선택하지 않으면 전화번호의 숫자만 공급자에게 전송됩니다(`SUBMIT_SM` 필드의 `destination_addr` 필드). 국제 번호 표시기(일반적으로 + 접두사)가 SMPP의 TON 및 NPI 필드로 대체되므로 이 작업이 기본 동작입니다.
+이 확인란을 선택하지 않으면 전화번호의 숫자만 공급자에게 전송됩니다(`destination_addr` 필드의 `SUBMIT_SM` 필드). 국제 번호 표시기(일반적으로 + 접두사)가 SMPP의 TON 및 NPI 필드로 대체되므로 이 작업이 기본 동작입니다.
 
 확인란을 선택하면 사전 처리 및 잠재적 공백, + 접두사 또는 파운드/해시/별 기호 없이 전화 번호가 있는 그대로 전송됩니다.
 
@@ -611,7 +611,7 @@ TLS가 활성화되면 모든 인증서 검사를 건너뜁니다.
 
 #### 바인딩 TON/NPI {#bind-ton-npi}
 
-[SMPP 3.4 사양](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(페이지 117)의 섹션 5.2.5에 설명된 TON(숫자 유형) 및 NPI(번호 매기기 계획 표시기). 이러한 값은 공급자에게 필요한 값으로 설정해야 합니다.
+[SMPP 3.4 사양](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)&#x200B;(페이지 117)의 섹션 5.2.5에 설명된 TON(숫자 유형) 및 NPI(번호 매기기 계획 표시기). 이러한 값은 공급자에게 필요한 값으로 설정해야 합니다.
 
 BIND PDU의 `addr_ton` 및 `addr_npi` 필드에서 그대로 전송됩니다.
 
@@ -661,11 +661,11 @@ SR 형식은 SMPP 프로토콜 사양에 의해 엄격히 적용되지 않습니
 
 알 수 없는 stat/err 필드 조합이 있는 메시지가 발생하면 이 정규 표현식이 stat 필드에 적용되어 SR이 성공인지 아니면 오류인지 파악합니다. 이 정규 표현식과 일치하지 않는 통계 값이 있는 SR은 무시됩니다.
 
-기본적으로 [부록 B](sms-protocol.md#sr-error-management)에서 `DELIV`(예: `DELIVRD`)으로 시작하는 통계 값은 성공적으로 전달된 것으로 간주되며 `REJECTED`, `UNDELIV` 같은 오류와 일치하는 모든 통계 값은 오류로 간주됩니다.
+기본적으로 `DELIV`부록 B`DELIVRD`에서 [(예: ](sms-protocol.md#sr-error-management))으로 시작하는 통계 값은 성공적으로 전달된 것으로 간주되며 `REJECTED`, `UNDELIV` 같은 오류와 일치하는 모든 통계 값은 오류로 간주됩니다.
 
 #### MT 승인의 ID 형식 {#id-format-mt}
 
-`SUBMIT_SM_RESP PDU`의 `message_id` 필드에서 반환된 ID의 형식을 나타냅니다.
+`message_id`의 `SUBMIT_SM_RESP PDU` 필드에서 반환된 ID의 형식을 나타냅니다.
 
 * **수정하지 않음**: ID가 데이터베이스에 있는 그대로 ASCII로 인코딩된 텍스트로 저장됩니다. 사전 처리나 필터링이 발생하지 않습니다.
 
@@ -747,7 +747,7 @@ SR에서 ID의 `Extraction` 정규식에 의해 캡처된 ID의 형식을 나타
 
 ### 발신 필드 {#from-field}
 
-이 필드는 선택 사항입니다. 이를 통해 발신자 주소(oADC)를 재정의할 수 있습니다. 이 필드의 내용이 `SUBMIT_SM PDU`의 `source_addr` 필드에 배치됩니다.
+이 필드는 선택 사항입니다. 이를 통해 발신자 주소(oADC)를 재정의할 수 있습니다. 이 필드의 내용이 `source_addr`의 `SUBMIT_SM PDU` 필드에 배치됩니다.
 
 필드는 SMPP 사양에 따라 21자로 제한되지만 일부 공급자는 더 긴 값을 허용할 수 있습니다. 일부 국가에서는 길이, 내용, 허용되는 문자 등 매우 엄격한 제한이 적용될 수 있습니다.
 
@@ -765,7 +765,7 @@ Adobe Campaign에서 개인화된 메시지가 작동하는 방식으로 인해 
 
 이 필드는 전송할 SMS 종류를 나타냅니다(모바일 또는 SIM 카드에 저장된 일반 또는 플래시 메시지).
 
-이 설정은 `SUBMIT_SM PDU`의 `dest_addr_subunit` 선택적 필드에서 전송됩니다.
+이 설정은 `dest_addr_subunit`의 `SUBMIT_SM PDU` 선택적 필드에서 전송됩니다.
 
 * **지정되지 않음**&#x200B;에서 PDU에 선택적 필드를 보내지 않습니다.
 
@@ -779,7 +779,7 @@ Adobe Campaign에서 개인화된 메시지가 작동하는 방식으로 인해 
 
 #### 유효 기간 {#validity-period}
 
-유효 기간이 `SUBMIT_SM PDU`의 `validity_period` 필드에서 전송됩니다. 날짜는 항상 절대 UTC 시간 형식으로 지정되며 날짜 필드는 &quot;00+&quot;로 끝납니다.
+유효 기간이 `validity_period`의 `SUBMIT_SM PDU` 필드에서 전송됩니다. 날짜는 항상 절대 UTC 시간 형식으로 지정되며 날짜 필드는 &quot;00+&quot;로 끝납니다.
 
 ## 확장된 일반 SMPP 커넥터 {#acc-extended-connector}
 
@@ -830,7 +830,7 @@ SMS 프로세스는 매분마다 전체 줄을 확인한 다음 비동기적으�
 ### 확인하는 동안 자세한 SMPP 추적 활성화 {#enable-verbose}
 
 검사 중에 항상 자세한 SMPP 추적을 활성화해야 합니다.
-로그를 직접 확인할 수 없어도 [고객 지원 센터 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)이 더 쉬워집니다.
+로그를 직접 확인할 수 없어도 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에서 더 쉽게 도움을 받을 수 있습니다.
 
 ### SMS 테스트 {#test}
 

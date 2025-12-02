@@ -4,11 +4,11 @@ title: 양식화
 description: 양식화
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Email Design
-role: User, Developer, Data Engineer
+role: User, Developer
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1446'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ JavaScript 템플릿은 스키마 및 양식과 마찬가지로 이름 및 네�
 
 ### JavaScript 템플릿의 구조 {#structure-of-a-javascript-template}
 
-&quot;cus:book&quot; 스키마를 기반으로 하는 JavaScript HTML 서식 템플릿의 예입니다.
+&quot;cus:book&quot; 스키마를 기반으로 하는 JavaScript HTML 서식 템플릿의 예:
 
 ```
 <html>
@@ -79,7 +79,7 @@ JavaScript 템플릿은 스키마 및 양식과 마찬가지로 이름 및 네�
 >
 >예: `content.@['offer-id']`.
 
-프로그래밍 언어의 모든 기능 (변수, 루프, 조건부 테스트, 함수 등). )를 사용하여 출력 문서를 구성할 수 있습니다. SOAP API는 출력 문서를 보강하는 데 액세스할 수 있습니다.
+프로그래밍 언어의 모든 기능 (변수, 루프, 조건부 테스트, 함수 등). )를 사용하여 출력 문서를 구성할 수 있습니다. SOAP API를 사용하여 출력 문서를 보강할 수 있습니다.
 
 예:
 
@@ -191,7 +191,7 @@ JavaScript 템플릿은 스키마 및 양식과 마찬가지로 이름 및 네�
 
 이 예에는 다음 단계가 포함됩니다.
 
-1. 다음 스키마를 만듭니다(이 경우: **neo:news**).
+1. 다음 스키마를 만듭니다(이 경우 **neo:news**).
 
    ```
    <srcSchema _cs="Invitation (neo)"   entitySchema="xtk:srcSchema" img="xtk:schema.png" label="Invitation" mappingType="sql" name="news" namespace="neo" xtkschema="xtk:srcSchema">
@@ -264,7 +264,7 @@ JavaScript 템플릿은 스키마 및 양식과 마찬가지로 이름 및 네�
 
 1. HTML 및 텍스트 형식에 대한 메시지 콘텐츠로 JavaScript 템플릿을 만듭니다.
 
-   * 이 예에서 HTML은
+   * 이 예에서 HTML의 경우:
 
      ```
      <html>     
@@ -354,7 +354,7 @@ JavaScript 템플릿은 스키마 및 양식과 마찬가지로 이름 및 네�
 
 1. 이제 두 형식 모두에 사용되는 게시 템플릿을 만듭니다.
 
-   * HTML:
+   * HTML의 경우
 
      ![](assets/d_ncs_content_sample_2.png)
 
@@ -368,7 +368,7 @@ JavaScript 템플릿은 스키마 및 양식과 마찬가지로 이름 및 네�
 
 ## XSL 스타일시트 {#xsl-stylesheets}
 
-XSLT 언어를 사용하면 XML 문서를 출력 문서로 변경할 수 있습니다. 스타일시트의 출력 방법에 따라 HTML, 일반 텍스트 또는 다른 XML 트리에서 결과 문서를 생성할 수 있습니다.
+XSLT 언어를 사용하면 XML 문서를 출력 문서로 변경할 수 있습니다. 스타일시트의 출력 방법에 따라 결과 문서는 HTML, 일반 텍스트 또는 다른 XML 트리에서 생성될 수 있습니다.
 
 이 변환은 스타일시트라고 하는 문서에서 XML에 자세히 설명되어 있습니다.
 
@@ -380,7 +380,7 @@ XSLT 언어를 사용하면 XML 문서를 출력 문서로 변경할 수 있습�
 
 ### 스타일시트 구조 {#structure-of-a-stylesheet}
 
-예제 스키마 &quot;cus:book&quot;을 기반으로 한 HTML 서식 스타일시트의 예:
+예제 스키마 &quot;cus:book&quot;을(를) 기반으로 하는 HTML 서식 스타일시트의 예:
 
 ```
 <?xml version="1.0" encoding="ISO-8859-1" ?>
@@ -444,7 +444,7 @@ XSLT 언어를 사용하면 XML 문서를 출력 문서로 변경할 수 있습�
 
 기본적으로 XSLT 프로세서는 입력 XML 문서의 루트 또는 주 노드에 적용되는 **template**&#x200B;을(를) 찾습니다. 출력 문서의 구성은 이 **템플릿**(으)로 시작됩니다.
 
-이 예제에서 HTML 페이지는 책 이름과 챕터 목록을 표시하여 &quot;cus:book&quot; 스키마에서 생성됩니다.
+이 예제에서는 책 이름과 챕터 목록을 표시하여 &quot;cus:book&quot; 스키마에서 HTML 페이지가 생성됩니다.
 
 >[!NOTE]
 >
@@ -452,9 +452,9 @@ XSLT 언어를 사용하면 XML 문서를 출력 문서로 변경할 수 있습�
 
 ### HTML/XML 표시 {#displaying-html-xml}
 
-**html** 필드를 표시하려면 **`<xsl:value-of>`** 지시문에서 **disable-output-escaping=&quot;yes&quot;** 옵션을 사용하십시오. 이렇게 하면 문자를 XML 엔티티로 바꾸지 않을 수 있습니다(예: &lt; 를 &lt; 로 바꾸기).
+**html** 필드를 표시하려면 **지시문에서** disable-output-escaping=&quot;yes&quot;**`<xsl:value-of>`** 옵션을 사용하십시오. 이렇게 하면 문자를 XML 엔티티로 바꾸지 않을 수 있습니다(예: &lt; 를 &lt; 로 바꾸기).
 
-**disable-output-escaping=&quot;yes&quot;** 옵션이 있는 **`<xsl:text>`** 지시문을 사용하면 개인화 필드 또는 조건부 테스트를 위해 JavaScript 태그를 삽입할 수 있습니다.
+**`<xsl:text>`** disable-output-escaping=&quot;yes&quot;**옵션이 있는** 지시문을 사용하면 개인화 필드 또는 조건부 테스트를 위해 JavaScript 태그를 삽입할 수 있습니다.
 
 예:
 

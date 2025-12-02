@@ -3,9 +3,9 @@ product: campaign
 title: 추적 URL 감지
 description: URL 추적을 위한 권장 패턴에 대해 자세히 알아보기
 feature: Monitoring
-role: User, Developer, Data Engineer
+role: User, Developer
 exl-id: 7611d6a1-6c55-4ba3-b905-58426c944991
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 2%
@@ -39,7 +39,7 @@ ht-degree: 2%
 예를 들어 `<a href="http://<%=myURL%>">` 구문은 **안전하지 않음**&#x200B;이므로 사용하지 않아야 합니다.
 
 * 이 구문을 사용하면 Adobe Campaign에서 생성한 링크에 하나 이상의 매개 변수가 포함된 경우 보안 문제가 발생할 수 있습니다.
-* Tidy가 일부 링크를 잘못 패치할 수 있으며 임의로 발생할 수 있습니다. 일반적인 증상은 이메일 증명에는 표시되지만 미리보기에는 표시되지 않는 HTML 부분입니다.
+* Tidy가 일부 링크를 잘못 패치할 수 있으며 임의로 발생할 수 있습니다. 일반적인 증상은 이메일 증명에는 표시되지만 미리보기에는 표시되지 않는 HTML 조각입니다.
 * URL을 이스케이프 처리하는 것은 문제가 있습니다. URL의 일부 문자로 인해 문제가 발생할 수 있습니다.
 * 리디렉션 URL의 매개 변수와 충돌하는 ID라는 매개 변수를 사용할 수 없습니다.
 * Adobe Campaign이 &quot;myURL&quot;의 가능한 모든 값을 무의미하게 추적하므로 추적의 관심은 게재 통계로 제한됩니다.

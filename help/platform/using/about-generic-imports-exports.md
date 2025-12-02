@@ -4,10 +4,10 @@ title: 일반 가져오기 및 내보내기 정보
 description: 일반 가져오기 및 내보내기에 대해 자세히 알아보기
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 9ac13db3-552f-43cc-ab67-3aea82e0519e
-source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%

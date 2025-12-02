@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '3096'
 ht-degree: 0%
@@ -316,7 +316,7 @@ MX에 대해 준수할 규칙이 트리의 **[!UICONTROL MX management]** 노드
 
 이렇게 하려면 **[!UICONTROL Management of email formats]** > **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Non deliverables management]**&#x200B;에 있는 **[!UICONTROL Mail rule sets]** 문서로 이동하십시오.
 
-이 문서에는 Adobe Campaign에서 관리하는 일본어 형식에 해당하는 사전 정의된 모든 도메인의 목록이 포함되어 있습니다. 자세한 내용은 관련 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=ko){target="_blank"}를 참조하십시오.
+이 문서에는 Adobe Campaign에서 관리하는 일본어 형식에 해당하는 사전 정의된 모든 도메인의 목록이 포함되어 있습니다. 자세한 내용은 관련 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html){target="_blank"}를 참조하십시오.
 
 ![](assets/mail_rule_sets.png)
 
@@ -331,7 +331,7 @@ MX에 대해 준수할 규칙이 트리의 **[!UICONTROL MX management]** 노드
 
 **[!UICONTROL Image inclusion]** 옵션을 활성화하면 전자 메일의 본문에 바로 표시됩니다. 그런 다음 이미지가 업로드되고 URL 링크가 해당 콘텐츠로 바뀝니다.
 
-이 옵션은 특히 일본 시장에서 **Deco-mail**, **Decore Mail** 또는 **Decoration Mail**&#x200B;에 사용됩니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=ko){target="_blank"}를 참조하세요.
+이 옵션은 특히 일본 시장에서 **Deco-mail**, **Decore Mail** 또는 **Decoration Mail**&#x200B;에 사용됩니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html){target="_blank"}를 참조하세요.
 
 >[!IMPORTANT]
 >
@@ -395,14 +395,14 @@ Adobe Campaign 플랫폼(데이터베이스 포함)을 구성하는 모든 서�
 
 이전 예에서 정상 상태인 경우 주소는 다음과 같이 분산됩니다.
 
-    * &quot;1&quot;: 5 / (5+5+1) = 45%
-    * &quot;2&quot;: 5 / (5+5+1) = 45%
-    * &quot;3&quot;: 1 / (5+5+1) = 10%
+* &quot;1&quot;: 5 / (5+5+1) = 45%
+* &quot;2&quot;: 5 / (5+5+1) = 45%
+* &quot;3&quot;: 1 / (5+5+1) = 10%
 
 예를 들어 첫 번째 주소를 지정된 MX에 사용할 수 없는 경우 다음과 같이 메시지가 전송됩니다.
 
-    * &quot;2&quot;: 5 / (5+1) = 83%
-    * &quot;3&quot;: 1 / (5+1) = 17%
+* &quot;2&quot;: 5 / (5+1) = 83%
+* &quot;3&quot;: 1 / (5+1) = 17%
 
 * **includeDomains**: 특정 도메인에 속한 전자 메일에 대해 이 IP 주소를 예약할 수 있도록 해줍니다. 하나 이상의 와일드카드(&#39;&#42;&#39;)를 포함할 수 있는 마스크 목록입니다. 속성을 지정하지 않으면 모든 도메인이 이 IP 주소를 사용할 수 있습니다.
 

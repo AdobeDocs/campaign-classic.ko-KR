@@ -4,11 +4,11 @@ title: 시드 주소 만들기
 description: 시드 주소를 만들고 사용하는 방법 알아보기
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Seed Address
-role: User, Data Engineer
+role: User, Developer
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 시드 주소를 만들려면 아래 단계를 수행합니다.
 
 1. 시드 주소 목록 위에 있는 **[!UICONTROL New]** 단추를 클릭합니다.
-1. **[!UICONTROL Recipient]** 탭의 일치하는 필드에 주소에 연결된 데이터를 입력합니다. 사용 가능한 필드는 게재 수신자 프로필의 표준 필드(nms:recipient table)(이름, 이름, 이메일 등)에 해당합니다.
+1. **[!UICONTROL Recipient]** 탭의 일치하는 필드에 주소에 연결된 데이터를 입력합니다. 사용 가능한 필드는 게재 수신자의 프로필(nms:recipient 테이블)에 있는 표준 필드(이름, 이름, 이메일 등)에 해당합니다.
 
    >[!NOTE]
    >

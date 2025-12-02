@@ -2,15 +2,15 @@
 product: campaign
 title: 시드 주소
 description: 시드 주소
-role: Data Engineer, Developer
-badge-v8: label="다음 대상에도 적용 v8" type="Positive" tooltip="다음 대상에도 적용 Campaign v8"
+role: Developer
+badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Seed Address
 level: Intermediate, Experienced
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 6%
+source-wordcount: '326'
+ht-degree: 7%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 6%
 
 
 
-수신자 테이블이 사용자 지정 테이블인 경우 추가 구성이 필요합니다. 스키마를 **[!UICONTROL nms:seedMember]** 확장해야 합니다. 적절한 필드를 정의하기 위해 아래와 같이 시드 주소에 추가 탭이 추가됩니다.
+수신자 테이블이 사용자 지정 테이블인 경우 추가 구성이 필요합니다. **[!UICONTROL nms:seedMember]** 스키마를 확장해야 합니다. 아래에서 보듯이 적절한 필드를 정의하기 위해 시드 주소에 탭이 더 추가됩니다.
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
-시드 주소 사용에 대한 자세한 내용은 이 섹션을[&#128279;](../../delivery/using/about-seed-addresses.md) 참조하십시오.
+시드 주소 사용에 대한 자세한 내용은 [이 섹션](../../delivery/using/about-seed-addresses.md)을 참조하세요.
 
-## 이행 {#implementation}
+## 구현 {#implementation}
 
-**nms:seedMember** 즉시 제공되는 스키마 및 연결된 양식은 필요한 모든 필드를 참조하기 위해 고객 구성을 위해 확장되어야 합니다. 스키마 정의에는 구성 모드를 자세히 설명하는 댓글 등이 들어 있습니다.
+기본 제공되는 **nms:seedMember** 스키마와 연결된 양식은 필요한 모든 필드를 참조하기 위해 고객 구성을 위해 확장되어야 합니다. 스키마 정의에는 구성 모드를 자세히 설명하는 주석이 포함되어 있습니다.
 
 수신자 테이블 확장 스키마의 정의:
 
@@ -43,16 +43,16 @@ ht-degree: 6%
 </srcSchema>
 ```
 
-다음 단계를 적용 합니다.
+다음 단계를 적용합니다.
 
-1. nms:seedMember **스키마의 확장을**&#x200B;만들기. 이 작업에 대한 자세한 정보는 [이 섹션](../../configuration/using/extending-a-schema.md)을 참조하십시오.
-1. 이 새 확장에서 다음 매개 변수를 사용하여 루트 **[!UICONTROL seedMember]** 에 새 요소를 추가합니다.
+1. **nms:seedMember** 스키마의 확장을 만듭니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../configuration/using/extending-a-schema.md)을 참조하십시오.
+1. 이 새 확장에서 다음 매개 변수를 사용하여 **[!UICONTROL seedMember]**&#x200B;의 루트에 새 요소를 추가합니다.
 
    ```
    name="custom_customNamespace_customSchema"
    ```
 
-   이 요소에는 캠페인을 내보내는 데 필요한 필드가 포함되어야 합니다. 이러한 필드는 외부 스키마의 해당 필드와 이름이 같아야 합니다. 예를 들어 스키마가 **[!UICONTROL cus:person]** 인 경우 스키마를 **[!UICONTROL nms:seedMember]** 다음과 같이 확장해야 합니다.
+   이 요소에는 캠페인을 내보내는 데 필요한 필드가 포함되어야 합니다. 이러한 필드의 이름은 외부 스키마의 해당 필드와 동일해야 합니다. 예를 들어 스키마가 **[!UICONTROL cus:person]**&#x200B;인 경우 **[!UICONTROL nms:seedMember]** 스키마를 다음과 같이 확장해야 합니다.
 
    ```
      <srcSchema extendedSchema="nms:seedMember" label="Seed addresses" labelSingular="Seed address" name="seedMember" namespace="cus">
@@ -71,20 +71,20 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >nms:seedMember **스키마의**&#x200B;확장은 Adobe Campaign의 캠페인 및 게재 구조를 준수해야 합니다.
+   >**nms:seedMember** 스키마 확장은 Adobe Campaign의 캠페인 및 게재 구조를 준수해야 합니다.
 
    >[!IMPORTANT]
    >
    >
    >    
    >    
-   >    * 확장 중에 &#39;이메일&#39; 필드에 SQL 이름(@sqlname)**을 지정**&#x200B;해야 합니다. SQL 이름은 받는 사람 스키마에 예약된 &#39;sEmail&#39;과 달라야 합니다.
-   >    * nms:seedMember **를 확장할**&#x200B;때 생성된 스키마로 데이터베이스 구조를 업데이트해야 합니다.
-   >    * nms:seedMember 확장에서 **이메일 주소가 포함된 필드에는 속성으로 name=&quot;email&quot;**&#x200B;이 있어야 합니다&#x200B;**.** SQL 이름은 받는 사람 스키마에 이미 사용된 &#39;sEmail&#39;과 달라야 합니다. 이 특성은 요소 아래에 **`<element name="custom_cus_person" />`** 즉시 선언되어야 합니다.
+   >    * 확장 중에 &#39;전자 메일&#39; 필드에 **SQL 이름(@sqlname)**&#x200B;을 지정해야 합니다. SQL 이름은 수신자 스키마에 대해 예약된 &#39;sEmail&#39;과 달라야 합니다.
+   >    * **nms:seedMember**&#x200B;을(를) 확장할 때 만들어진 스키마로 데이터베이스 구조를 업데이트해야 합니다.
+   >    * **nms:seedMember** 확장에서 전자 메일 주소가 포함된 필드는 특성으로 **name=&quot;email&quot;**&#x200B;을(를) 포함해야 합니다. SQL 이름은 수신자 스키마에 이미 사용된 &#39;sEmail&#39;과 달라야 합니다. 이 특성은 **`<element name="custom_cus_person" />`** 요소 아래에 즉시 선언해야 합니다.
    >    
    >
 
-1. 그에 따라 양식을 수정 **[!UICONTROL seedMember]** 하여 창에서 새 &quot;내부 수신자&quot; 탭 **[!UICONTROL Seed addresses]** 정의를 수행합니다. 자세한 정보는 이 [페이지](../../configuration/using/form-structure.md)를 참조하십시오.
+1. **[!UICONTROL seedMember]** 창에서 새 &quot;내부 수신자&quot; 탭을 정의하도록 **[!UICONTROL Seed addresses]** 양식을 적절하게 수정하십시오. 자세한 정보는 이 [페이지](../../configuration/using/form-structure.md)를 참조하십시오.
 
    ```
    <container colcount="2" label="Internal recipient" name="internal"
@@ -99,4 +99,4 @@ ht-degree: 6%
      </container>
    ```
 
-시드 주소의 모든 속성이 입력되지 않은 경우 Adobe Campaign은 자동으로 프로필을 대체합니다. 기존 프로필의 데이터를 사용하여 개인화 중에 자동으로 입력됩니다.
+시드 주소의 모든 속성을 입력하지 않으면 Adobe Campaign은 프로필을 자동으로 대체합니다. 기존 프로필의 데이터를 사용하여 개인화하는 동안 이 속성을 자동으로 입력합니다.

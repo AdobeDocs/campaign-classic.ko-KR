@@ -4,11 +4,11 @@ title: 콘텐츠 강화
 description: 콘텐츠 강화
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Data Management
-role: User, Developer, Data Engineer
+role: User, Developer
 exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -142,7 +142,7 @@ targeted 요소의 콘텐츠는 각 수집 요소를 강화합니다.
 
 **계산 문자열**&#x200B;과(와) 대상 요소의 키가 기본 요소에서 **`<name>-id`** 및 **`<name>-cs`** 특성을 보강합니다.
 
-이 예제에서 링크는 &quot;cus:book&quot; 스키마에 채워지고 링크 데이터의 콘텐츠는 &quot;mainContact-id&quot; 및 &quot;mainContact-cs&quot; 속성에 포함됩니다.
+이 예제에서 링크는 &quot;cus:book&quot; 스키마에 채워지고, 링크 데이터의 콘텐츠는 &quot;mainContact-id&quot; 및 &quot;mainContact-cs&quot; 속성에 포함됩니다.
 
 ```
 <book computeString="Content management" date="2006/06/08" id="6106" language="en" mainContact-cs="John Doe (john.doe@adobe.com)" mainContact-id="3012" name="Content management" xtkschema="cus:book">

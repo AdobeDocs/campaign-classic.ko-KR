@@ -5,9 +5,9 @@ description: Adobe Campaign Enhanced MTA로 이메일 전송 범위 및 특성�
 feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1379'
 ht-degree: 1%
 
 ---
@@ -136,13 +136,13 @@ Campaign 게재의 유효 기간 설정은 **3.5일 이하**(으)로 설정된 �
 ### DKIM 서명
 
 DKIM(DomainKeys Identified Mail) 전자 메일 인증 서명은 Enhanced MTA에서 수행합니다. 기본 Campaign MTA에 의한 DKIM 서명은 Enhanced MTA 업그레이드의 일부로 도메인 관리 테이블 내에서 꺼집니다.
-DKIM에 대한 자세한 내용은 [Adobe 게재 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#authentication)를 참조하세요.
+DKIM에 대한 자세한 내용은 [Adobe 게재 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)를 참조하세요.
 
 ### 게재 성공 보고
 
-이메일 게재 **[!UICONTROL Summary]**&#x200B;대시보드[의 &#x200B;](delivery-dashboard.md) 보기에서 **[!UICONTROL Success]** 백분율은 100%에서 시작되며 게재 [유효 기간](communication-channels.md) 동안 점진적으로 낮아집니다. 이때 소프트 및 하드 바운스가 Enhanced MTA에서 Campaign으로 다시 보고됩니다.
+이메일 게재 **[!UICONTROL Summary]**&#x200B;대시보드[의 ](delivery-dashboard.md) 보기에서 **[!UICONTROL Success]** 백분율은 100%에서 시작되며 게재 [유효 기간](communication-channels.md) 동안 점진적으로 낮아집니다. 이때 소프트 및 하드 바운스가 Enhanced MTA에서 Campaign으로 다시 보고됩니다.
 
-실제로 모든 메시지는 Campaign에서 Enhanced MTA로 성공적으로 릴레이되는 즉시 **[!UICONTROL Sent]**&#x200B;전송 로그[에 &#x200B;](delivery-dashboard.md#delivery-logs-and-history)(으)로 표시됩니다. 해당 메시지에 대한 [바운스](understanding-delivery-failures.md#delivery-failure-types-and-reasons)가 Enhanced MTA에서 Campaign으로 다시 통신되지 않는 한 또는 통신될 때까지 이 상태는 유지됩니다.
+실제로 모든 메시지는 Campaign에서 Enhanced MTA로 성공적으로 릴레이되는 즉시 **[!UICONTROL Sent]**&#x200B;전송 로그[에 ](delivery-dashboard.md#delivery-logs-and-history)(으)로 표시됩니다. 해당 메시지에 대한 [바운스](understanding-delivery-failures.md#delivery-failure-types-and-reasons)가 Enhanced MTA에서 Campaign으로 다시 통신되지 않는 한 또는 통신될 때까지 이 상태는 유지됩니다.
 
 하드 바운스 메시지가 Enhanced MTA에서 다시 보고되면 상태가 **[!UICONTROL Sent]**&#x200B;에서 **[!UICONTROL Failed]**(으)로 변경되고 **[!UICONTROL Success]** 비율이 그에 따라 감소합니다.
 
@@ -161,6 +161,5 @@ DKIM에 대한 자세한 내용은 [Adobe 게재 모범 사례 안내서](https:
 | 메시지가 Campaign에서 Enhanced MTA로 성공적으로 릴레이 | **[!UICONTROL Success]** 백분율이 100%에서 시작 | 전송됨 |
 | 하드 바운싱 메시지가 Enhanced MTA에서 다시 보고됨 | **[!UICONTROL Success]** 비율이 이에 따라 감소함 | 실패 |
 | 소프트 바운싱 메시지는 Enhanced MTA에서 다시 보고됨 | **[!UICONTROL Success]** 백분율 변경 없음 | 전송됨 |
-| 소프트 바운싱 메시지 다시 시도 성공 | **[!UICONTROL Success]** 백분율 변경 없음 | 전송됨 | **[!UICONTROL Success]** 비율이 이에 따라 증가함 | 전송됨 |
+| 소프트 바운싱 메시지 다시 시도 성공 | **[!UICONTROL Success]** 백분율 \| 변경 없음  **[!UICONTROL Success]** 비율이 이에 따라 증가함 | 전송됨 |
 | 소프트 바운싱 메시지 다시 시도 실패 | **[!UICONTROL Success]** 비율이 이에 따라 감소함 | 실패 |
-

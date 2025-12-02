@@ -3,11 +3,11 @@ product: campaign
 title: 스키마 필터링
 description: 스키마 필터링
 feature: Custom Resources
-role: Data Engineer, Developer
+role: Developer
 exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -60,11 +60,11 @@ ht-degree: 1%
 >
 >필터를 지정하지 않으면 모든 연산자는 스키마에 대한 읽기 및 쓰기 권한을 갖게 됩니다.
 
-## Protect 기본 스키마 {#protecting-built-in-schemas}
+## 기본 제공 스키마 보호 {#protecting-built-in-schemas}
 
 기본적으로 기본 제공 스키마는 관리 권한이 있는 연산자에 대한 쓰기 권한으로만 액세스할 수 있습니다.
 
-* ncm:게시
+* ncm:publishing
 * nl:monitoring
 * nms:calendar
 * xtk:builder
@@ -105,7 +105,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Adobe 그러나 최적의 보안을 보장하기 위해 기본 매개 변수를 수정하지 않는 것이 좋습니다.
+>그러나 Adobe에서는 최적의 보안을 보장하기 위해 기본 매개 변수를 수정하지 않는 것이 좋습니다.
 
 1. 관련 스키마에 대한 확장을 만들거나 기존 확장을 엽니다.
 1. 원본 스키마의 동일한 아래에 있는 필터의 응용 프로그램을 삭제하려면 기본 요소에 자식 요소 **`<sysfilter name="<filter name>" _operation="delete"/>`**&#x200B;을(를) 추가하십시오.

@@ -3,11 +3,11 @@ product: campaign
 title: SOAP 메서드 구현
 description: SOAP 메서드 구현
 feature: Configuration
-role: Data Engineer, Developer
+role: Developer
 exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '417'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ JavaScript에서 SOAP 메서드를 만들 수 있습니다. 이 함수는 응용
 
 메서드 라이브러리를 만들려면 다음 두 단계가 필요합니다.
 
-* SOAP 메서드 선언,
+* SOAP 메서드 선언
 * JavaScript의 정의(또는 구현).
 
 ### 선언 {#declaration}
@@ -39,7 +39,7 @@ JavaScript에서 SOAP 메서드를 만들 수 있습니다. 이 함수는 응용
 
 예:
 
-testLog(msg) 메서드는 nms:recipient 확장에서 선언됩니다.
+testLog(msg) 메서드가 nms:recipient 확장에서 선언되었습니다.
 
 ```
 <method name="testLog" static="true" library="cus:test">
@@ -73,7 +73,7 @@ SOAP 메서드는 라이브러리를 나타내는 스크립트로 그룹화된 J
 
 예:
 
-다음 JavaScript 함수는 위에서 설명한 메서드를 구현한 것입니다. &#39;cus:test&#39; 이름을 사용하여 &#39;JavaScript 코드&#39; 유형 엔터티에 정의해야 합니다.
+다음 JavaScript 함수는 위에서 설명한 메서드를 구현한 것입니다. &#39;cus:test&#39; 이름을 사용하여 &#39;JavaScript 코드&#39; 형식 엔터티에 정의해야 합니다.
 
 ```
 function nms_recipient_testLog(message)

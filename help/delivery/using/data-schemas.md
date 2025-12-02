@@ -4,11 +4,11 @@ title: Campaign에서 데이터 스키마 사용
 description: Campaign에서 데이터 스키마를 사용하는 방법 알아보기
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Data Model
-role: User, Developer, Data Engineer
+role: User, Developer
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '566'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Adobe Campaign에서 데이터 스키마를 만들고 구성하는 방법에 대
 
 ## 스키마 구조 {#schema-structure}
 
-데이터 스키마의 XML 문서에는 스키마 이름과 해당 네임스페이스를 채우려면 **이름** 및 **네임스페이스** 특성이 있는 **`<srcschema>`** 루트 요소가 있어야 합니다.
+데이터 스키마의 XML 문서에는 스키마 이름과 해당 네임스페이스를 채우려면 **`<srcschema>`**&#x200B;이름&#x200B;**및**&#x200B;네임스페이스&#x200B;**특성이 있는** 루트 요소가 있어야 합니다.
 
 ```
 <srcSchema name="schema_name" namespace="namespace">
@@ -128,7 +128,7 @@ Adobe Campaign에서 데이터 스키마를 만들고 구성하는 방법에 대
 
 참조 요소의 경로(XPath)를 사용하여 참조할 요소의 **ref** 특성을 완료해야 합니다.
 
-**예제**: 예제 스키마의 **`<chapter>`** 요소와 구조가 같은 **부록** 섹션 추가.
+**예제**: 예제 스키마의 **요소와 구조가 같은**&#x200B;부록&#x200B;**`<chapter>`** 섹션 추가.
 
 ```
 <srcSchema name="book" namespace="cus">

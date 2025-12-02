@@ -3,11 +3,11 @@ product: campaign
 title: 웹 서비스 호출
 description: 웹 서비스 호출
 feature: API
-role: Data Engineer, Developer
+role: Developer
 exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '918'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ Adobe Campaign 애플리케이션 서버에 구현된 웹 서비스의 정의는
 
 다음은 **GenerateForm** 메서드의 정의에 대한 예입니다.
 
-서비스 설명은 `<method>` 요소로 시작합니다. `<parameters>` 요소에서 메서드의 매개 변수 목록이 완료되었습니다. 각 매개 변수는 이름, 유형(부울, 문자열, DOMElement 등)으로 지정됩니다. 설명. &quot;out&quot; 값이 있는 &quot;inout&quot; 속성을 사용하면 &quot;result&quot; 매개 변수가 SOAP 호출 출력에 있다고 지정할 수 있습니다.
+서비스 설명은 `<method>` 요소로 시작합니다. `<parameters>` 요소에서 메서드의 매개 변수 목록이 완료되었습니다. 각 매개 변수는 이름, 유형(부울, 문자열, DOMElement 등) 및 설명으로 지정됩니다. &quot;out&quot; 값이 있는 &quot;inout&quot; 속성을 사용하면 &quot;result&quot; 매개 변수가 SOAP 호출 출력에 있다고 지정할 수 있습니다.
 
 &quot;static&quot; 속성(값 &quot;true&quot;가 있음)은 이 메서드를 static으로 설명하므로 메서드의 모든 매개 변수를 선언해야 합니다.
 
@@ -53,7 +53,7 @@ Adobe Campaign 애플리케이션 서버에 구현된 웹 서비스의 정의는
 
 Adobe Campaign 스키마의 `<method>` 요소에 대한 전체 설명은 [메서드](../../configuration/using/schema/method.md)의 &quot;스키마 참조&quot; 장에서 확인할 수 있습니다.
 
-&quot;xtk:queryDef&quot; 스키마의 &quot;const&quot; 유형 &quot;ExecuteQuery&quot; 메소드의 예:
+&quot;xtk:queryDef&quot; 스키마의 &quot;const&quot; 유형 &quot;ExecuteQuery&quot; 메서드의 예:
 
 ```
 <method name="ExecuteQuery" const="true">
@@ -79,9 +79,9 @@ https://`<server>`/nl/jsp/schemawsdl.jsp?schema=`<schema>`
 포함:
 
 * **`<server>`**: Adobe Campaign 응용 프로그램 서버(nlserver 웹)
-* **`<schema>`**: 스키마 식별 키(namespace:schema_name)
+* **`<schema>`**: 스키마 식별 키(네임스페이스:schema_name)
 
-### 스키마 &quot;xtk:queryDef&quot;의 &quot;ExecuteQuery&quot; 메서드에 대한 예 {#example-on-the--executequery--method-of-schema--xtk-querydef-}
+### 스키마 &#39;xtk:queryDef&#39;의 &#39;ExecuteQuery&#39; 메서드에 대한 예 {#example-on-the--executequery--method-of-schema--xtk-querydef-}
 
 WSDL 파일은 URL에서 생성됩니다.
 
@@ -154,7 +154,7 @@ WSDL 설명은 웹 서비스를 구성하는 &quot;바인딩&quot;에 의해 프
 
 #### 바인딩 {#binding}
 
-`<binding>` 부분은 SOAP 통신 프로토콜( `<soap:binding>` ), HTTP의 데이터 전송(&quot;전송&quot; 특성 값) 및 &quot;ExecuteQuery&quot; 작업의 데이터 형식을 지정합니다. SOAP Envelope의 본문에는 변형 없이 메시지 세그먼트가 직접 포함됩니다.
+`<binding>` 부분은 SOAP 통신 프로토콜( `<soap:binding>` ), HTTP의 데이터 전송(&quot;전송&quot; 특성 값) 및 &quot;ExecuteQuery&quot; 작업의 데이터 형식을 지정합니다. SOAP 봉투 본문에는 변형 없이 메시지 세그먼트가 직접 포함됩니다.
 
 ```
 <binding name="queryDefMethodsSoap" type="tns:queryDefMethodsSoap">

@@ -3,11 +3,11 @@ product: campaign
 title: 웹 서비스 정보
 description: 웹 서비스 정보
 feature: API
-role: Data Engineer, Developer
+role: Developer
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
-source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '644'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ Adobe Campaign API는 애플리케이션 내의 JavaScript 및 애플리케이�
 >[!IMPORTANT]
 >
 >하루에 인증된 엔진 호출 수는 라이선스 계약에 따라 다릅니다. 자세한 정보는 이 [페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-classic---product-description.html)를 참조하십시오.\
->전체 설명을 포함한 모든 API 목록은 [이 전용 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko)에서 확인할 수 있습니다.
+>전체 설명을 포함한 모든 API 목록은 [이 전용 설명서]&#x200B;(https://experienceleague.adobe.com/developer/campaign-api/api/index.html)에서 확인할 수 있습니다.
 
 ## 필수 구성 요소 {#prerequisites}
 
@@ -44,7 +44,7 @@ API를 개발하고 Adobe Campaign과 상호 작용하려면 데이터 모델에
 
 ## SOAP 호출 {#soap-calls}
 
-SOAP 프로토콜을 사용하면 리치 클라이언트를 통해 API 메서드를 호출하거나 웹 서비스를 사용하는 서드파티 애플리케이션 또는 기본적으로 이러한 메서드를 사용하는 JSP를 호출할 수 있습니다.
+SOAP 프로토콜을 사용하면 리치 클라이언트를 통해 API 메서드를 호출하거나 웹 서비스를 사용하는 서드파티 애플리케이션 또는 이러한 메서드를 기본적으로 사용하는 JSP를 호출할 수 있습니다.
 
 ![](assets/s_ncs_configuration_architecture.png)
 
@@ -63,9 +63,9 @@ SOAP 메시지 구조는 다음과 같습니다.
 
 ## &#39;ExecuteQuery&#39; 메서드에 대한 SOAP 메시지의 예 {#example-of-a-soap-message-on-the--executequery--method--}
 
-이 예에서 SOAP 쿼리는 &quot;ExecuteQuery&quot; 메서드를 호출합니다. 이 메서드는 문자열을 인증을 위한 매개 변수(세션 토큰)로 사용하고 실행할 쿼리 설명에 대한 XML 콘텐츠를 사용합니다.
+이 예에서 SOAP 쿼리는 &quot;ExecuteQuery&quot; 메서드를 호출합니다. 이 메서드는 인증을 위한 매개 변수(세션 토큰)로 문자열을 사용하고, 실행할 쿼리 설명에 대한 XML 콘텐츠를 사용합니다.
 
-자세한 내용은 [ExecuteQuery(xtk:queryDef)](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-)을 참조하세요.
+자세한 내용은 [ExecuteQuery(xtk:queryDef)](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-)을(를) 참조하십시오.
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ SOAP 메시지 구조는 다음과 같습니다.
 </SOAP-ENV:Envelope>
 ```
 
-`<soap-env:envelope>` 요소는 SOAP Envelope을 나타내는 메시지의 첫 번째 요소입니다.
+`<soap-env:envelope>` 요소는 SOAP 봉투(envelope)를 나타내는 메시지의 첫 번째 요소입니다.
 
 `<soap-env:body>` 요소는 봉투의 첫 번째 자식 요소입니다. 여기에는 메시지에 대한 설명, 즉 쿼리 또는 응답의 콘텐츠가 포함됩니다.
 
@@ -116,7 +116,7 @@ SOAP에서 매개 변수는 표시 순서에 따라 인식됩니다. 첫 번째 
 
 ## 오류 관리 {#error-management}
 
-예제 SOAP 오류 응답:
+SOAP 오류 응답 예:
 
 ```
 <?xml version='1.0' encoding='ISO-8859-1'?>

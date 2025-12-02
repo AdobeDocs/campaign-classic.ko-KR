@@ -2,12 +2,12 @@
 product: campaign
 title: 유형화 규칙 적용
 description: 유형화 규칙을 적용하는 방법 알아보기
-role: User, Data Engineer
+role: User, Developer
 feature: Typology Rules, Campaigns
 hide: true
 hidefromtoc: true
 exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 8%
@@ -45,7 +45,7 @@ ht-degree: 8%
 
 연결된 특정 게재 또는 게재 대상 중 특정 수신자만 관련되도록 유형화 규칙을 구성할 수 있습니다.
 
-규칙의 응용 프로그램 조건을 정의하려면 **[!UICONTROL General]** 탭에서 **[!UICONTROL Edit the rule application conditions...]** 링크를 클릭합니다.
+규칙의 응용 프로그램 조건을 정의하려면 **[!UICONTROL Edit the rule application conditions...]** 탭에서 **[!UICONTROL General]** 링크를 클릭합니다.
 
 그런 다음 쿼리 편집기를 사용하여 필터링 조건을 정의합니다. 다음 예에서 용량 규칙은 레이블에 &#39;offer&#39;라는 단어가 포함된 게재 또는 2013년 4월 1일 전에 생성된 게재에만 관련됩니다.
 
@@ -61,7 +61,7 @@ ht-degree: 8%
 
 실제로, 어떤 계산은 매일 변하지 않는 값을 사용한다. 따라서 매일 데이터를 다시 계산하고 데이터베이스를 무의미하게 오버로드하는 것은 관련이 없습니다. 예를 들어 프로세스가 고객 성향 점수와 주별 구매 정보로 마케팅 데이터베이스를 보강하는 경우 이러한 값을 기반으로 하는 데이터를 매일 다시 계산할 필요가 없습니다.
 
-이를 위해 **[!UICONTROL General]** 탭의 **[!UICONTROL Frequency]** 필드를 사용하면 타깃팅을 저장하는 최대 기간을 정의할 수 있습니다. 기본적으로 값 **0**&#x200B;은(는) 일별 재중재를 다음에 실행할 때까지 계산이 유효함을 나타냅니다.
+이를 위해 **[!UICONTROL Frequency]** 탭의 **[!UICONTROL General]** 필드를 사용하면 타깃팅을 저장하는 최대 기간을 정의할 수 있습니다. 기본적으로 값 **0**&#x200B;은(는) 일별 재중재를 다음에 실행할 때까지 계산이 유효함을 나타냅니다.
 
 이 기간 이후의 결과를 저장하려면 **[!UICONTROL Frequency]** 필드에 12보다 큰 값을 입력하십시오. 이 기간이 만료되면 모든 규칙이 다시 적용됩니다.
 
@@ -98,7 +98,7 @@ ht-degree: 8%
 
 ### 제어 규칙 {#control-rules}
 
-**[!UICONTROL Control]** 규칙의 경우 규칙이 적용되는 게재 수명 주기의 시점을 결정할 수 있습니다(타겟팅 전 또는 후, 개인화 시작 시, 분석 종료 시). 유형화 규칙의 **[!UICONTROL General]** 탭에 있는 **[!UICONTROL Phase]** 필드의 드롭다운 목록에서 적용할 값을 선택합니다.
+**[!UICONTROL Control]** 규칙의 경우 규칙이 적용되는 게재 수명 주기의 시점을 결정할 수 있습니다(타겟팅 전 또는 후, 개인화 시작 시, 분석 종료 시). 유형화 규칙의 **[!UICONTROL Phase]** 탭에 있는 **[!UICONTROL General]** 필드의 드롭다운 목록에서 적용할 값을 선택합니다.
 
 ![](assets/campaign_opt_define_control_phase.png)
 

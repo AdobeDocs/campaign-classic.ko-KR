@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
-source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >oracle에서 **:base** 부분은 선택 사항입니다.
+     >Oracle에서 **:base** 부분은 선택 사항입니다.
 
 1. 명명된 권한을 저장한 다음 Adobe Campaign 탐색기의 **[!UICONTROL Administration > Access Management > Operators]** 노드에서 선택한 사용자에게 연결합니다.
 
@@ -75,5 +75,5 @@ ht-degree: 0%
 | **실행 모니터링** | EXPLAIN 문을 사용하는 데 필요한 권한이 없습니다. | 권한 선택 | 시스템 관리자만 sp_showplan을 실행할 수 있습니다. | EXPLAIN 문을 사용하는 데 필요한 권한이 없습니다. | EXPLAIN 문을 사용하는 데 필요한 권한이 없습니다. |
 | **데이터를 쓰는 중** | INSERT 및 UPDATE 권한 | INSERT 및 UPDATE 권한 | 권한 삽입 및 업데이트 | INSERT 및 UPDATE 권한 | INSERT 및 UPDATE 권한 |
 | **테이블에 데이터 로드** | SELECT 및 INSERT 권한을 사용하여 COPY TO 문과 COPY FROM 문을 각각 사용합니다. | 파일 권한 | 테이블 또는 ALTER 권한의 소유자여야 합니다. -gl 옵션에 따라 사용자에게 DBA 권한이 있는 경우에만 LOAD TABLE이 수행될 수 있습니다 | SELECT 및 INSERT 권한 | SELECT 및 INSERT 권한 |
-| **클라이언트 데이터에 액세스** | 권한 선택 | 권한 선택 | 권한 선택 | 권한 선택 |
+| **클라이언트 데이터에 액세스** | 권한 선택 | 권한 선택 | 권한 선택 | 권한 선택 |  |
 | **메타데이터에 액세스** | 권한 표시 | 권한 선택 | DESCRIBE 문을 사용하는 데 필요한 권한이 없습니다. | &quot;\d table&quot; 명령을 사용하는 데 필요한 권한이 없습니다. | SHOW 명령을 사용하는 데 필요한 권한이 없습니다. |

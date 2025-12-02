@@ -3,13 +3,13 @@ product: campaign
 title: Adobe Campaign에서 스키마 시작
 description: 스키마로 작업하고 Adobe Campaign 데이터베이스의 개념적 데이터 모델을 확장하는 방법을 알아봅니다
 feature: Schema Extension
-role: Data Engineer, Developer
+role: Developer
 level: Intermediate, Experienced
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 1%
+source-wordcount: '368'
+ht-degree: 2%
 
 ---
 
@@ -74,7 +74,7 @@ Adobe Campaign에서 애플리케이션에 포함된 데이터의 물리적 및 
 
 네임스페이스를 사용하면 관심 영역별로 스키마 세트를 그룹화할 수 있습니다. 예를 들어 **cus** 네임스페이스는 고객별 구성(**customers**)에 사용됩니다.
 
-스키마의 식별 키는 네임스페이스와 콜론으로 구분된 이름을 사용하여 만든 문자열입니다(예: **cus:recipient**).
+스키마의 식별 키는 네임스페이스와 콜론으로 구분된 이름을 사용하여 만들어진 문자열입니다(예: **cus:recipient**).
 
 >[!IMPORTANT]
 >

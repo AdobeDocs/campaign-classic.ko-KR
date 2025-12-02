@@ -3,9 +3,9 @@ product: campaign
 title: 웹 추적 태그 만들기
 description: 웹 추적 태그를 만드는 방법 알아보기
 feature: Application Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: 160df6e1-43e5-4eb9-ad2f-5db444e314ea
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%

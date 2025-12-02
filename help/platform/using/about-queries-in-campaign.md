@@ -3,10 +3,10 @@ product: campaign
 title: Campaign의 쿼리 정보
 description: Campaign의 쿼리 정보
 feature: Query Editor
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
-source-git-commit: 0bbe3bd199c664d30513a0c50203248d703451cd
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 5%
@@ -28,23 +28,23 @@ ht-degree: 5%
 
 >[!TAB 데이터베이스 쿼리]
 
-쿼리를 만드는 단계는 **[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}**&#x200B;에 자세히 설명되어 있습니다.
+쿼리를 만드는 단계는 **[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}**&#x200B;에 자세히 설명되어 있습니다.
 
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}
 
 
 >[!TAB 워크플로우에 쿼리 추가]
 
-**[Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}**&#x200B;에서 워크플로우 컨텍스트에서 쿼리 만들기와 관련된 주요 단계를 알아봅니다
+**[Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}**&#x200B;에서 워크플로우 컨텍스트에서 쿼리 만들기와 관련된 주요 단계를 알아봅니다
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
 
 >[!TAB 필터 조건]
 
-쿼리를 디자인하려면 쿼리 편집기에서 필터링 조건을 선택해야 합니다. 사용 가능한 기능 및 사용 사례는 **[Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}**&#x200B;에 자세히 설명되어 있습니다.
+쿼리를 디자인하려면 쿼리 편집기에서 필터링 조건을 선택해야 합니다. 사용 가능한 기능 및 사용 사례는 **[Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}**&#x200B;에 자세히 설명되어 있습니다.
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
 
 >[!ENDTABS]
 

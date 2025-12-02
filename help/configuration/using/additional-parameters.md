@@ -3,11 +3,11 @@ product: campaign
 title: 추가 웹 추적 매개 변수
 description: 웹 추적을 위한 매개 변수에 대해 자세히 알아보기
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---

@@ -3,11 +3,11 @@ product: campaign
 title: 데이터 지향 API
 description: 데이터 지향 API
 feature: API
-role: Data Engineer, Developer
+role: Developer
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
-source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1796'
 ht-degree: 0%
 
 ---
@@ -44,9 +44,9 @@ XML 문서는 데이터베이스의 메모 유형 필드에 저장됩니다.
 
 이렇게 하면 기본 SQL을 격리할 수 있습니다. 쿼리 언어는 기본 엔진에 따라 달라지지 않습니다. 일부 함수는 다시 매핑되어 여러 SELECT SQL 주문을 생성할 수 있습니다.
 
-자세한 내용은 스키마 &#39;xtk:queryDef&#39;[&#128279;](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-)의 &#39;ExecuteQuery&#39; 메서드에 대한 예제를 참조하십시오.
+자세한 내용은 스키마 &#39;xtk[&#39;:queryDef의 &#39;ExecuteQuery&#39; 메서드에 대한 ](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-)예제를 참조하십시오.
 
-**ExecuteQuery** 메서드가 [ExecuteQuery(xtk:queryDef)](#executequery--xtk-querydef-)에 표시됩니다.
+**ExecuteQuery** 메서드가 [ExecuteQuery(xtk:queryDef)](#executequery--xtk-querydef-)에 있습니다.
 
 ### 쓰기 {#write}
 
@@ -56,7 +56,7 @@ XML 문서는 데이터베이스의 메모 유형 필드에 저장됩니다.
 
 XML 구조는 데이터의 논리적 뷰를 제공하며 SQL 테이블의 물리적 구조를 면할 수 있도록 합니다.
 
-Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection--xtk-session-)에 표시됩니다.
+Write 메서드가 [Write/WriteCollection(xtk:session)](#write---writecollection--xtk-session-)에 있습니다.
 
 ## ExecuteQuery(xtk:queryDef) {#executequery--xtk-querydef-}
 
@@ -74,11 +74,11 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 >[!NOTE]
 >
->&quot;const&quot; 메서드입니다. 입력 매개 변수는 &quot;xtk:queryDef&quot; 스키마 형식으로 XML 문서에 포함됩니다.
+>&quot;const&quot; 메서드입니다. 입력 매개 변수는 XML 문서에 &quot;xtk:queryDef&quot; 스키마 형식으로 포함되어 있습니다.
 
 ### 입력 쿼리의 XML 문서 형식 {#format-of-the-xml-document-of-the-input-query}
 
-쿼리의 XML 문서 구조는 &quot;xtk:queryDef &quot; 스키마에 설명되어 있습니다. 이 문서에서는 SQL 쿼리의 &quot;select&quot;, &quot;where&quot;, &quot;order by&quot;, &quot;group by&quot;, &quot;having&quot; 절에 대해 설명합니다.
+쿼리의 XML 문서 구조는 &quot;xtk:queryDef&quot; 스키마에 설명되어 있습니다. 이 문서에서는 SQL 쿼리의 &quot;select&quot;, &quot;where&quot;, &quot;order by&quot;, &quot;group by&quot;, &quot;having&quot; 절에 대해 설명합니다.
 
 ```xml
 <queryDef schema="schema_key" operation="operation_type">
@@ -141,7 +141,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 #### &#39;get&#39; 작업의 예 {#example-with-the--get--operation}
 
-이메일에 대한 필터를 사용하여 수신자의 성(&quot;nms:recipient&quot; 스키마)과 이름을 검색합니다.
+이메일에 필터를 사용하여 수신자의 성(&quot;nms:recipient&quot; 스키마)과 이름을 검색합니다.
 
 ```xml
 <queryDef schema="nms:recipient" operation="get">
@@ -391,7 +391,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 반환 매개 변수는 쿼리와 연결된 스키마 형식의 XML 문서입니다.
 
-&quot;get&quot; 작업 시 &quot;nms:recipient&quot; 스키마에서 반환되는 반환의 예:
+&quot;get&quot; 작업의 &quot;nms:recipient&quot; 스키마에서 반환되는 예입니다.
 
 ```
 <recipient email="john.doe@adobe.com" lastName"Doe" firstName="John"/>
@@ -442,7 +442,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 </recipient>
 ```
 
-### SOAP 메시지의 예 {#example-of-soap-messages}
+### SOAP 메시지 예 {#example-of-soap-messages}
 
 * 쿼리:
 
@@ -494,7 +494,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 이 호출은 오류를 제외하고 데이터를 반환하지 않습니다.
 
-&quot;xtk:session&quot; 스키마의 &quot;Write&quot; 및 &quot;WriteCollection&quot; 메서드에 대한 정의:
+&quot;xtk:session&quot; 스키마의 &quot;Write&quot; 및 &quot;WriteCollection&quot; 메서드 정의:
 
 ```xml
 <method name="Write" static="true">
@@ -583,7 +583,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 #### 예제 2 {#example-2}
 
-수신자로부터 회사(&quot;cus:company&quot; 스키마의 연결된 테이블) 업데이트:
+받는 사람으로부터 회사(&quot;cus:company&quot; 스키마의 연결된 테이블)를 업데이트하는 중:
 
 ```xml
 <recipient _key="[folder/@name], @email" email="john.doe@adobe.net" lastName="Doe" firstName="John" xtkschema="nms:recipient">
@@ -593,7 +593,7 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 #### 예제 3 {#example-3}
 
-그룹 관계 테이블(&quot;nms:rcpGrpRel&quot;)을 사용하여 그룹에 수신자 추가:
+그룹 관계 테이블(&quot;nms:rcpGrpRel&quot;)이 있는 그룹에 받는 사람 추가:
 
 ```xml
 <recipient _key="@email" email="martin.ledger@adobe.net" xtkschema="nms:recipient">
@@ -605,13 +605,13 @@ Write 메서드는 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 >[!NOTE]
 >
->그룹 이름을 기반으로 하는 암시적 키가 &quot;nms:group&quot; 스키마에 정의되어 있으므로 키의 정의가 `<rcpgroup>` 요소에 입력되지 않았습니다.
+>그룹 이름을 기반으로 하는 암시적 키가 &quot;nms`<rcpgroup>`&quot; 스키마에 정의되어 있으므로 키의 정의가 :group 요소에 입력되지 않았습니다.
 
 ### XML 컬렉션 요소 {#xml-collection-elements}
 
 기본적으로 XML 컬렉션 요소를 업데이트하려면 모든 컬렉션 요소를 채워야 합니다. 데이터베이스의 데이터가 입력 문서의 데이터로 바뀝니다. 문서에 업데이트할 요소만 있는 경우 데이터베이스의 XML 데이터로 병합을 강제하려면 업데이트할 모든 컬렉션 요소에 &quot;_operation&quot; 속성을 채워야 합니다.
 
-### SOAP 메시지의 예 {#example-of-soap-messages-1}
+### SOAP 메시지 예 {#example-of-soap-messages-1}
 
 * 쿼리:
 

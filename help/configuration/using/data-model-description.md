@@ -3,12 +3,12 @@ product: campaign
 title: Adobe Campaign Classic 데이터 모델 설명
 description: 이 문서에서는 Adobe Campaign 데이터 모델에 대해 설명합니다
 feature: Data Model
-role: Data Engineer, Developer
+role: Developer
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '2354'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -113,7 +113,7 @@ sInternalName 게재 또는 시나리오의 내부 이름을 나타내는 고유
 
 ## 캠페인 관리 {#campaign-management}
 
-이 테이블 집합은 **마케팅 캠페인** 모듈에 연결되어 통신 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ko){target=_blank}를 참조하세요.
+이 테이블 집합은 **마케팅 캠페인** 모듈에 연결되어 통신 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}를 참조하십시오.
 
 ![](assets/data-model_campaign.png)
 

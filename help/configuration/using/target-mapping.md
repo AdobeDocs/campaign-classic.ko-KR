@@ -3,12 +3,12 @@ product: campaign
 title: 대상 매핑
 description: 대상 매핑을 만드는 방법 알아보기
 feature: Application Settings
-role: Data Engineer, Developer
+role: Developer
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: 38333669-5598-4811-a121-b677c1413f56
-source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '497'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 1. 사용하려는 사용자 지정 테이블의 필드를 통합하는 새 데이터 스키마를 만듭니다.
 
-   자세한 내용은 [스키마 참조(xtk:srcSchema)](../../configuration/using/about-schema-reference.md)를 참조하십시오.
+   자세한 내용은 [스키마 참조(xtk:srcSchema)](../../configuration/using/about-schema-reference.md)를 참조하세요.
 
    이 예제에서는 ID, 이름, 성, 이메일 주소, 휴대폰 번호 필드를 포함하는 매우 간단한 표인 고객 스키마를 만듭니다. 목표는 이 표에 저장된 개인에게 이메일 또는 SMS 경고를 보낼 수 있습니다.
 

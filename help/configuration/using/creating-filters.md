@@ -3,10 +3,10 @@ product: campaign
 title: 필터 만들기
 description: 사용자 지정 테이블에 대한 필터를 만드는 방법을 알아봅니다
 feature: Profiles, Custom Resources
-role: Data Engineer, Developer
+role: Developer
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: 6fad3dac-9af0-4796-adcf-d1de4b255aca
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 3%

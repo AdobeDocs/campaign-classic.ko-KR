@@ -2,12 +2,12 @@
 product: campaign
 title: 일관성 규칙
 description: Adobe Campaign에서 일관성 규칙을 사용하여 작업하는 방법을 알아봅니다.
-role: User, Data Engineer
+role: User, Developer
 feature: Typology Rules, Campaigns
 hide: true
 hidefromtoc: true
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 3%
@@ -116,7 +116,7 @@ Adobe Campaign은 캠페인 유형화에 포함된 규칙 세트를 통해 일�
 
 기본적으로 용량 규칙은 표시 용도로만 사용됩니다. 정의된 로드가 초과되지 않도록 하려면 **[!UICONTROL Exclude messages in excess of capacity from the target]** 옵션을 선택하십시오. 이 경우 초과 메시지는 이 유형화 규칙을 사용하여 게재에서 자동으로 제외됩니다.
 
-소비를 모니터링하려면 유형화 규칙에서 **[!UICONTROL Capacity]** 탭의 **[!UICONTROL Consumed]** 열에 표시된 값을 확인합니다.
+소비를 모니터링하려면 유형화 규칙에서 **[!UICONTROL Consumed]** 탭의 **[!UICONTROL Capacity]** 열에 표시된 값을 확인합니다.
 
 ![](assets/campaign_opt_create_capacity_04.png)
 

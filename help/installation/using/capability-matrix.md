@@ -4,7 +4,7 @@ title: Campaign On-Premise, 하이브리드 및 호스팅 기능 매트릭스
 description: 호스팅 배포와 온-프레미스 배포 간의 주요 차이점 알아보기
 feature: Installation, Architecture
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 26%
@@ -17,7 +17,7 @@ ht-degree: 26%
 
 Adobe Campaign Classic에는 모듈 및 옵션 세트가 포함되어 있습니다. 이러한 모듈의 사용 가능 여부 및 사용은 설치 배포 유형에 따라 달라질 수 있습니다. 이 문서에서는 완전 호스팅(Managed Services)과 온프레미스 배포 간의 특정 기능에 대한 주요 차이점에 대한 몇 가지 세부 정보를 공유합니다.
 
-이 페이지에는 호스팅(Managed Services)과 온프레미스 배포 간의 주요 차이점이 표시됩니다. 하이브리드 배포 특성은 Adobe에서 호스팅하고 구내에서 호스팅하는 요소에 따라 다릅니다.
+이 페이지에는 호스팅(Managed Services)과 온프레미스 배포 간의 주요 차이점이 표시됩니다. 하이브리드 배포 특성은 Adobe에서 호스팅하고 사용자 프레미스에서 호스팅하는 요소에 따라 다릅니다.
 
 다른 호스팅 모델은 [이 섹션](../../installation/using/hosting-models.md)에 도입되었습니다.
 
@@ -52,6 +52,6 @@ Adobe Campaign은 하나 이상의 외부 데이터베이스에 저장된 정보
 
 * [호환성 매트릭스](../../rn/using/compatibility-matrix.md)
 * [릴리스 정보](../../rn/using/latest-release.md)
-* [업그레이드 Campaign Classic](../../rn/using/rn-overview.md)
-* [사용이 중단되거나 제거된 기능](../../rn/using/deprecated-features.md)
+* [Campaign Classic 업그레이드](../../rn/using/rn-overview.md)
+* [사용되지 않거나 제거된 기능](../../rn/using/deprecated-features.md)
 * [[!DNL Gold Standard] 릴리스](../../rn/using/gold-standard.md)

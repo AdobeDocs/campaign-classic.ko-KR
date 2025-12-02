@@ -3,9 +3,9 @@ product: campaign
 title: 데이터베이스 매핑
 description: 데이터베이스 매핑
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
-source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # 데이터베이스 매핑{#database-mapping}
 
-[이 페이지에서 &#x200B;](schema-structure.md)에 설명된 샘플 스키마의 SQL 매핑은 다음 XML 문서를 생성합니다.
+[이 페이지에서 ](schema-structure.md)에 설명된 샘플 스키마의 SQL 매핑은 다음 XML 문서를 생성합니다.
 
 ```sql
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">
@@ -53,7 +53,7 @@ SQL 이름 지정 규칙은 다음과 같습니다.
 
 * **필드**: 유형에 따라 정의된 접두사가 앞에 오는 요소의 이름: 정수는 &#39;i&#39;, 복수는 &#39;d&#39;, 문자열은 &#39;s&#39;, 날짜는 &#39;ts&#39; 등.
 
-  입력한 각 **`<attribute>`** 및 **`<element>`**&#x200B;에 대해 **sqlname** 특성을 통해 필드 이름을 입력합니다.
+  입력한 각 **및**&#x200B;에 대해 **`<attribute>`** sqlname **`<element>`** 특성을 통해 필드 이름을 입력합니다.
 
   ```sql
   <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
@@ -98,7 +98,7 @@ XML의 필드를 채우려면 값이 &quot;true&quot;인 **xml** 특성을 관�
   <element name="description" xml="true" type="html" label="Description"/>
   ```
 
-  html 유형을 사용하면 HTML 콘텐츠를 CDATA 태그에 저장하고 Adobe Campaign 클라이언트 인터페이스에 특수 HTML 편집 검사를 표시할 수 있습니다.
+  html 유형을 사용하면 HTML 콘텐츠를 CDATA 태그에 저장하고 Adobe Campaign 클라이언트 인터페이스에 특별한 HTML 편집 확인을 표시할 수 있습니다.
 
 데이터베이스의 실제 구조를 수정하지 않고 새 필드를 추가하려면 XML 필드를 사용합니다. 또 다른 장점은 리소스(SQL 필드에 할당된 크기, 테이블당 필드 수 제한 등)를 적게 사용한다는 것입니다. 그러나 XML 필드는 인덱싱하거나 필터링할 수 없습니다.
 

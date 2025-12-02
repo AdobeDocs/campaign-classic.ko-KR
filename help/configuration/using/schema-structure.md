@@ -3,13 +3,13 @@ product: campaign
 title: Adobe Campaign의 스키마 구조 이해
 description: 스키마 구조
 feature: Custom Resources
-role: Data Engineer, Developer
+role: Developer
 audience: configuration
 content-type: reference
 level: Intermediate, Experienced
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '1511'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 아래에 스키마의 기본 구조가 설명되어 있습니다.
 
-## 데이터 스키마 {#data-schema}
+## 데이터 스키마  {#data-schema}
 
 `<srcschema>`의 구조는 다음과 같습니다.
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 </srcSchema>
 ```
 
-데이터 스키마의 XML 문서에는 스키마 이름과 해당 네임스페이스를 채우려면 **이름** 및 **네임스페이스** 특성이 있는 **`<srcschema>`** 루트 요소가 있어야 합니다.
+데이터 스키마의 XML 문서에는 스키마 이름과 해당 네임스페이스를 채우려면 **`<srcschema>`**&#x200B;이름&#x200B;**및**&#x200B;네임스페이스&#x200B;**특성이 있는** 루트 요소가 있어야 합니다.
 
 ```sql
 <srcSchema name="schema_name" namespace="namespace">
@@ -133,7 +133,7 @@ ht-degree: 1%
 
 ## 데이터 유형 {#data-types}
 
-데이터 형식은 **`<attribute>`** 및 **`<element>`** 요소의 **type** 특성을 통해 입력됩니다.
+데이터 형식은 **및** 요소의 **`<attribute>`** type **`<element>`** 특성을 통해 입력됩니다.
 
 자세한 목록은 [`<attribute>` 요소](../../configuration/using/schema/attribute.md) 및 [`<element>` 요소](../../configuration/using/schema/element.md)의 설명에서 사용할 수 있습니다.
 

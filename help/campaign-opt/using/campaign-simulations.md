@@ -2,12 +2,12 @@
 product: campaign
 title: 캠페인 시뮬레이션
 description: Campaign 시뮬레이션 시작
-role: User, Data Engineer
+role: User, Developer
 feature: Campaigns
 hide: true
 hidefromtoc: true
 exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '1245'
 ht-degree: 1%
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 시뮬레이션을 만들려면 다음 단계를 적용합니다.
 
-1. **[!UICONTROL Campaigns]** 탭을 열고 **[!UICONTROL Create]** 섹션 내에서 **[!UICONTROL More]** 링크를 클릭한 다음 **[!UICONTROL Simulation]** 옵션을 선택합니다.
+1. **[!UICONTROL Campaigns]** 탭을 열고 **[!UICONTROL More]** 섹션 내에서 **[!UICONTROL Create]** 링크를 클릭한 다음 **[!UICONTROL Simulation]** 옵션을 선택합니다.
 
    ![](assets/simu_campaign_opti_01.png)
 
@@ -94,7 +94,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Schedule execution for down-time]** 옵션은 선택한 우선 순위 수준에 따라 덜 바쁜 기간으로 시뮬레이션 시작을 연기합니다. 시뮬레이션은 상당한 데이터베이스 리소스를 사용하므로 급하지 않은 시뮬레이션을 야간에 실행하도록 예약해야 합니다.
 * **[!UICONTROL Priority]**&#x200B;은(는) 트리거를 지연하기 위해 시뮬레이션에 적용되는 수준입니다.
-* **[!UICONTROL Save SQL queries in the log]**. SQL 로그를 사용하면 시뮬레이션이 오류로 끝나는 경우 진단할 수 있습니다. 또한 시뮬레이션이 너무 느린 이유를 찾는 데 도움이 될 수 있습니다. 이 메시지는 시뮬레이션 후 **[!UICONTROL Audit]** 탭의 **[!UICONTROL SQL logs]** 하위 탭에 표시됩니다.
+* **[!UICONTROL Save SQL queries in the log]**. SQL 로그를 사용하면 시뮬레이션이 오류로 끝나는 경우 진단할 수 있습니다. 또한 시뮬레이션이 너무 느린 이유를 찾는 데 도움이 될 수 있습니다. 이 메시지는 시뮬레이션 후 **[!UICONTROL SQL logs]** 탭의 **[!UICONTROL Audit]** 하위 탭에 표시됩니다.
 
 ## 시뮬레이션 실행 {#executing-a-simulation}
 
@@ -132,7 +132,7 @@ ht-degree: 1%
 
 #### 감사 {#audit}
 
-**[!UICONTROL Audit]** 탭에서는 시뮬레이션 실행을 모니터링할 수 있습니다. **[!UICONTROL SQL Logs]** 하위 탭은 전문가 사용자에게 유용합니다. 실행 로그를 SQL 형식으로 나열합니다. 이러한 로그는 시뮬레이션 실행 전에 **[!UICONTROL General]** 탭에서 **[!UICONTROL Save SQL queries in the log]** 옵션을 선택한 경우에만 표시됩니다.
+**[!UICONTROL Audit]** 탭에서는 시뮬레이션 실행을 모니터링할 수 있습니다. **[!UICONTROL SQL Logs]** 하위 탭은 전문가 사용자에게 유용합니다. 실행 로그를 SQL 형식으로 나열합니다. 이러한 로그는 시뮬레이션 실행 전에 **[!UICONTROL Save SQL queries in the log]** 탭에서 **[!UICONTROL General]** 옵션을 선택한 경우에만 표시됩니다.
 
 ![](assets/simu_campaign_opti_11.png)
 
