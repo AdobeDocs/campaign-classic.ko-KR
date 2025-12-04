@@ -5,7 +5,7 @@ description: 전반적 보고서
 badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: 2186b8a30449cb023cb07305ba64d53f2c8adab1
 workflow-type: tm+mt
 source-wordcount: '2292'
 ht-degree: 6%
@@ -52,7 +52,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->인스턴스가 AWS에서 호스팅되는 경우 [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ko) Campaign Classic을 사용하여 시간당 전송된 게재 수를 모니터링할 수도 있습니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ko)에 설명된 단계를 수행합니다.
+>인스턴스가 AWS에서 호스팅되는 경우 Campaign Classic [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html)을(를) 사용하여 시간당 전송된 게재 수를 모니터링할 수도 있습니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ko)에 설명된 단계를 수행합니다.
 >
 >컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
 >
@@ -70,7 +70,7 @@ ht-degree: 6%
 * **[!UICONTROL Clicks]** : 게재의 총 링크 클릭 수입니다. 구독 취소 링크 및 미러 페이지에 대한 클릭은 고려되지 않습니다.
 * **[!UICONTROL Transactions]** : 메시지를 받은 후 총 트랜잭션 수 트랜잭션을 고려하려면 트랜잭션 유형 웹 추적 태그를 일치하는 웹 페이지에 삽입해야 합니다. 웹 추적 구성이 [이 섹션](../../configuration/using/about-web-tracking.md)에 표시됩니다.
 
-## 게재 불가 및 이탈 {#non-deliverables-and-bounces}
+## 비게재 항목 및 바운스 {#non-deliverables-and-bounces}
 
 이 보고서는 비게재 항목 분류와 인터넷 도메인별 바운스 수 분류를 보여줍니다.
 
@@ -82,7 +82,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->이 보고서에 표시된 오류는 격리 프로세스를 트리거합니다. 격리 관리에 대한 자세한 내용은 [격리 관리](../../delivery/using/understanding-quarantine-management.md)를 참조하세요.
+>이 보고서에 표시된 오류는 격리 프로세스를 트리거합니다. 격리 관리에 대한 자세한 내용은 [격리 관리](../../delivery/using/delivery-failures-quarantine.md)를 참조하세요.
 
 이 보고서의 첫 번째 섹션은 게재 불가 분류를 값 테이블 및 차트 형태로 보여줍니다.
 
@@ -167,9 +167,9 @@ ht-degree: 6%
 
 ### 소셜 네트워크에 공유 {#sharing-to-social-networks}
 
-바이럴 마케팅을 통해 게재 수신자는 연락처 네트워크와 정보를 공유할 수 있습니다. 프로필에 링크를 추가할 수 있습니다(Facebook, X - 이전 명칭: Twitter 등) 또는 친구에게 메시지를 보냅니다. 각 공유 및 공유 정보에 대한 각 액세스는 게재 내에서 추적됩니다. 바이럴 마케팅에 대한 자세한 내용은 [이 섹션](../../delivery/using/viral-and-social-marketing.md)을 참조하세요.
+바이럴 마케팅을 통해 게재 수신자는 연락처 네트워크와 정보를 공유할 수 있습니다. 프로필(Facebook, X - 이전 Twitter 등)에 링크를 추가하거나 친구에게 메시지를 보낼 수 있습니다. 각 공유 및 공유 정보에 대한 각 액세스는 게재 내에서 추적됩니다. 바이럴 마케팅에 대한 자세한 내용은 [이 섹션](../../delivery/using/viral-and-social-marketing.md)을 참조하세요.
 
-이 보고서는 소셜 네트워크(Facebook, X 등)당 공유 및 열린 메시지의 분류를 보여줍니다. 및/또는 이메일당.
+이 보고서는 소셜 네트워크(Facebook, X 등) 및/또는 이메일별로 공유 및 열린 메시지의 분류를 보여줍니다.
 
 ![](assets/s_ncs_user_social_report.png)
 
@@ -202,7 +202,7 @@ ht-degree: 6%
 
 ## 공유 활동에 대한 통계 {#statistics-on-sharing-activities}
 
-이 보고서는 소셜 네트워크(Facebook, X - 이전에는 Twitter, 이메일 등으로 알려짐)에 대한 공유를 발전시킨 모습을 보여줍니다. 늦지 않게
+이 보고서는 소셜 네트워크(Facebook, X - 이전에는 Twitter, 이메일 등으로 알려짐)로의 공유 변화를 적시에 보여줍니다.
 
 바이럴 마케팅에 대한 자세한 내용은 [이 섹션](../../delivery/using/viral-and-social-marketing.md)을 참조하세요.
 
@@ -294,7 +294,7 @@ ht-degree: 6%
 
   >[!NOTE]
   >
-  >하드 및 소프트 바운스에 대한 자세한 내용은 [격리 관리](../../delivery/using/understanding-quarantine-management.md)를 참조하세요.
+  >하드 및 소프트 바운스에 대한 자세한 내용은 [격리 관리](../../delivery/using/delivery-failures-quarantine.md)를 참조하세요.
 
 * **[!UICONTROL Opens]** : 처리된 메시지 수와 비교하여 메시지를 한 번 이상 연 대상 받는 사람 수의 비율입니다.
 * **[!UICONTROL Clicks]** : 배달을 한 번 이상 클릭한 사람 수와 성공적으로 처리된 메시지 수의 비율입니다.

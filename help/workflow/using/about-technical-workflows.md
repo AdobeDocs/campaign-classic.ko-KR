@@ -6,7 +6,7 @@ feature: Workflows
 hide: true
 hidefromtoc: true
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 2186b8a30449cb023cb07305ba64d53f2c8adab1
 workflow-type: tm+mt
 source-wordcount: '1704'
 ht-degree: 1%
@@ -63,7 +63,7 @@ ht-degree: 1%
 | **MessageCenter 전체 집계 계산**(agg_messageCenter_full) | 트랜잭션 메시지 제어(메시지 센터 - 제어) | 이 워크플로우는 메시지 센터 큐브에 대한 전체 집계를 업데이트합니다. 기본적으로 매일 오전 3시에 트리거됩니다. 이 집계는 채널, 날짜, 상태 및 이벤트 유형과 같은 차원을 캡처합니다. 그런 다음 메시지 센터 큐브를 사용하여 이벤트를 기반으로 보고서를 생성합니다. 큐브에 대한 자세한 내용은 [이 섹션](../../reporting/using/ac-cubes.md)을 참조하세요. |
 | **중간 소싱(게재 카운터)**(defaultMidSourcingDlv) | 중간 소싱으로 전송 | 이 워크플로우는 중간 소싱 서버의 게재에 대한 카운트 정보를 수집합니다. 카운트 정보에는 전송된 게재 수 등과 같은 일반 게재 지표가 포함됩니다. 열림 등의 추적 정보는 포함되지 않습니다. 기본적으로 10분마다 트리거됩니다. |
 | **중간 소싱(게재 로그)**(defaultMidSourcingLog) | 중간 소싱으로 전송 | 이 워크플로우는 중간 소싱 서버에서 게재 로그를 수집합니다. 기본적으로 매시간 트리거됩니다. |
-| **NMAC 옵트아웃 관리**(mobileAppOptOutMgt) | 모바일 앱 채널 | 이 워크플로우는 모바일 장치에 대한 구독 취소 알림을 업데이트합니다. 오전 1시부터 자정까지 6시간마다 트리거됩니다. 자세한 내용은 [이 섹션](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)을 참조하세요. |
+| **NMAC 옵트아웃 관리**(mobileAppOptOutMgt) | 모바일 앱 채널 | 이 워크플로우는 모바일 장치에 대한 구독 취소 알림을 업데이트합니다. 오전 1시부터 자정까지 6시간마다 트리거됩니다. 자세한 내용은 [이 섹션](../../delivery/using/delivery-failures-quarantine.md#push-notification-quarantines)을 참조하세요. |
 | **오퍼 알림**(offerMgt) | 게재 | 이 워크플로는 승인된 오퍼를 오퍼 카탈로그에 포함된 모든 범주와 온라인 환경에 배포합니다. |
 | **일시 중지된 워크플로 정리**(cleanupPausedWorkflows) | 게재 | 이 워크플로우는 심각도가 정상으로 설정된 일시 중지된 워크플로우를 분석하고, 너무 오랫동안 일시 중지된 경우 경고 및 알림을 트리거합니다. 한 달 후 일시 중지된 기술 워크플로우는 무조건 중지됩니다. 기본적으로 매주 월요일 오전 5시에 트리거됩니다. 자세한 내용은 [일시 중지된 워크플로 처리](monitoring-workflow-execution.md#handling-of-paused-workflows)를 참조하십시오. |
 | **개인 정보 보호 요청 정리**(cleanupPrivacyRequests) | 개인 정보 보호 규정 | 이 워크플로우는 90일 이전의 액세스 요청 파일을 삭제합니다. |
