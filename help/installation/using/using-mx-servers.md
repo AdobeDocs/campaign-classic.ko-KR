@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: additional-configurations
 hidefromtoc: true
 exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '823'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Adobe Campaign은 오류 유형과 원인 간에 일치하는 항목을 사용�
 
 >[!NOTE]
 >
->게재 실패 유형 및 이유에 대한 자세한 내용은 이 [섹션](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)을 참조하세요.
+>게재 실패 유형 및 이유에 대한 자세한 내용은 이 [섹션](../../delivery/using/delivery-failures-quarantine.md#delivery-failure-types-and-reasons)을 참조하세요.
 
 ## 게재 가능성 인스턴스 {#deliveratbility-env}
 
@@ -80,7 +80,7 @@ MX 규칙에는 램프 업 프로세스 중에 주로 사용되는 6개의 서�
 
 ## 바운스 예
 
-* **사용자 알 수 없음**(하드 바운스): 550 5.1.1 ... 사용자를 알 수 없습니다. {mx003}
+* **사용자 알 수 없음**(하드 바운스): 550 5.1.1 ... 사용자를 알 수 없음 {mx003}
 * **사서함 가득 참**(소프트 바운스): 550 5.2.2 사용자 할당량 초과
 * **비활성 사서함**(소프트 바운스): 550 5.7.1 : 받는 사람 주소 거부됨: 비활성 사서함, 6개월 이상 사용되지 않음
 * **잘못된 도메인**(소프트 바운스): &#39;ourdan.com&#39;에 대한 DNS 쿼리가 실패했습니다.
@@ -90,5 +90,5 @@ MX 규칙에는 램프 업 프로세스 중에 주로 사용되는 6개의 서�
 **관련 항목:**
 * [MX 구성](../../installation/using/email-deliverability.md#mx-configuration)
 * [기술 이메일 구성](../../installation/using/email-deliverability.md)
-* [게재 실패 이해](../../delivery/using/understanding-delivery-failures.md)
-* [Campaign Classic - 기술 Recommendations](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ko)
+* [게재 실패 이해](../../delivery/using/delivery-failures-quarantine.md)
+* [Campaign Classic - 기술 추천](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html)

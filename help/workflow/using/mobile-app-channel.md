@@ -5,7 +5,7 @@ description: 모바일 앱 채널
 hide: true
 hidefromtoc: true
 feature: Workflows
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 4%
@@ -29,7 +29,7 @@ ht-degree: 4%
   <tr> 
    <td> <span class="uicontrol">NMAC 옵트아웃 관리</span> <br /> </td> 
    <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> 이 워크플로우는 모바일 장치에 대한 구독 취소 알림을 업데이트합니다. 오전 1시부터 자정까지 6시간마다 트리거됩니다. 자세한 내용은 이 <a href="../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines">섹션</a>.<br />을 참조하세요. </td> 
+   <td> 이 워크플로우는 모바일 장치에 대한 구독 취소 알림을 업데이트합니다. 오전 1시부터 자정까지 6시간마다 트리거됩니다. 자세한 내용은 이 <a href="../../delivery/using/delivery-failures-quarantine.md#push-notification-quarantines">섹션</a>.<br />을 참조하세요. </td> 
   </tr> 
  </tbody> 
 </table>

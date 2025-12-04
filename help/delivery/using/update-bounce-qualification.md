@@ -5,7 +5,7 @@ description: Apple 2021 중단 후 바운스 자격을 업데이트하는 방법
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -53,8 +53,8 @@ ISP가 중단되는 경우 Campaign을 통해 보낸 이메일이 수신자에�
    * **업데이트 상태(@lastModified)**(2021년 4월 26일 오전 또는 이후):00:00
    * **업데이트 상태(@lastModified)** 2021년 4월 26일 또는 그 이전:00:
 
-영향을 받는 받는 받는 받는 받는 사람 목록을 가지고 있으면 **[!UICONTROL Database cleanup]** 워크플로에 의해 격리 목록에서 제거될 수 있도록 해당 받는 사람을 **[!UICONTROL Valid]** 상태로 설정하거나 표에서 삭제할 수 있습니다.
+영향을 받는 받는 받는 받는 받는 사람 목록을 가지고 있으면 **[!UICONTROL Valid]** 워크플로에 의해 격리 목록에서 제거될 수 있도록 해당 받는 사람을 **[!UICONTROL Database cleanup]** 상태로 설정하거나 표에서 삭제할 수 있습니다.
 
 **관련 항목:**
-* [게재 실패 이해](understanding-delivery-failures.md)
-* [반송 메일 조건](understanding-delivery-failures.md#bounce-mail-qualification)
+* [게재 실패 이해](delivery-failures-quarantine.md)
+* [반송 메일 조건](delivery-failures-quarantine.md#bounce-mail-qualification)

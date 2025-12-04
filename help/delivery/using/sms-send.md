@@ -5,7 +5,7 @@ description: Campaign에서 SMS를 보내고, 모니터링하고, 추적하는 �
 feature: SMS
 role: User
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
-source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 1%
@@ -63,7 +63,7 @@ The detailed process when validating and sending a delivery is presented in the 
 After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
 
 * [Monitor a delivery](about-delivery-monitoring.md)
-* [Understand delivery failures](understanding-delivery-failures.md)
+* [Understand delivery failures](delivery-failures-quarantine.md)
 * [About message tracking](about-message-tracking.md)
 -->
 
@@ -167,4 +167,4 @@ InSMS 스키마에는 수신 SMS와 관련된 정보가 포함되어 있습니�
 >
 >이러한 종류의 자동 메시지는 기록을 보관하지 않습니다. 따라서 게재 대시보드에 표시되지 않습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}
 >
->상업적 압력 규칙에서는 이러한 메시지가 고려되지 않습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ko){target="_blank"}를 참조하세요.
+>상업적 압력 규칙에서는 이러한 메시지가 고려되지 않습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}를 참조하세요.

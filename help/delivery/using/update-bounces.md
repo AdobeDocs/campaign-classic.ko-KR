@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: ISP 중단 후 바운스 자격 업데이트
+title: ISP 중단 후 바운스 선별 업데이트
 description: ISP 중단 후 바운스 자격을 업데이트하는 방법을 알아봅니다
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Deliverability
 hide: true
 hidefromtoc: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '490'
 ht-degree: 3%
 
 ---
@@ -34,7 +34,7 @@ ISP가 중단되는 경우 Campaign을 통해 보낸 이메일이 수신자에�
 >
 >[이 페이지](https://www.apple.com/support/systemstatus/){_blank}에서 Apple 시스템 상태 대시보드를 확인할 수 있습니다.
 >
->[이 페이지](https://www.google.com/appsstatus#hl=en&amp;v=status){_blank}에서 Google Workspace 상태 대시보드를 확인할 수 있습니다.
+>[이 페이지](https://www.google.com/appsstatus#hl=en&v=status){_blank}에서 Google Workspace 상태 대시보드를 확인할 수 있습니다.
 >
 
 ## 영향{#update-bounce-impact}
@@ -55,7 +55,7 @@ Apple 격리 테이블에서 쿼리를 실행하여 중단의 영향을 받을 �
 
    * **오류 텍스트(격리 텍스트)**&#x200B;에 &quot;Momen_Code10_InvalidRecipient&quot;가 포함되어 있습니다.
    * **전자 메일 도메인(@domain)**&#x200B;이 domain1.com과 같음 또는 **전자 메일 도메인(@domain)**&#x200B;이 domain2.com과 같음 또는 **전자 메일 도메인(@domain)**&#x200B;이 domain3.com과 같음
-   * `MM/DD/YYYY HH:MM:SS AM` 또는 이후 **업데이트 상태(@lastModified)**
+   * **또는 이후**&#x200B;업데이트 상태(@lastModified)`MM/DD/YYYY HH:MM:SS AM`
    * **업데이트 상태(@lastModified)**(`MM/DD/YYYY HH:MM:SS PM` 또는 이전)
 
 * 격리 목록의 **[!UICONTROL Error text]** 필드에 SMTP 바운스 응답 정보가 있는 캠페인 환경의 경우:
@@ -64,12 +64,12 @@ Apple 격리 테이블에서 쿼리를 실행하여 중단의 영향을 받을 �
 
      예를 들어 &quot;support.ISP.com&quot;은 &quot;support.apple.com&quot; 또는 &quot;support.google.com&quot;일 수 있습니다.
 
-   * `MM/DD/YYYY HH:MM:SS AM` 또는 이후 **업데이트 상태(@lastModified)**
+   * **또는 이후**&#x200B;업데이트 상태(@lastModified)`MM/DD/YYYY HH:MM:SS AM`
    * **업데이트 상태(@lastModified)**(`MM/DD/YYYY HH:MM:SS PM` 또는 이전)
 
 
-영향을 받는 받는 받는 받는 받는 사람 목록을 가지고 있으면 **[!UICONTROL Database cleanup]** 워크플로에 의해 격리 목록에서 제거될 수 있도록 해당 받는 사람을 **[!UICONTROL Valid]** 상태로 설정하거나 표에서 삭제할 수 있습니다.
+영향을 받는 받는 받는 받는 받는 사람 목록을 가지고 있으면 **[!UICONTROL Valid]** 워크플로에 의해 격리 목록에서 제거될 수 있도록 해당 받는 사람을 **[!UICONTROL Database cleanup]** 상태로 설정하거나 표에서 삭제할 수 있습니다.
 
 **관련 항목:**
-* [게재 실패 이해](understanding-delivery-failures.md)
-* [반송 메일 조건](understanding-delivery-failures.md#bounce-mail-qualification)
+* [게재 실패 이해](delivery-failures-quarantine.md)
+* [반송 메일 조건](delivery-failures-quarantine.md#bounce-mail-qualification)

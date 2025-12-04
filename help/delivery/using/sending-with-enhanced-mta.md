@@ -5,7 +5,7 @@ description: Adobe Campaign Enhanced MTA로 이메일 전송 범위 및 특성�
 feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 1%
@@ -105,7 +105,7 @@ Campaign **[!UICONTROL Delivery log qualification]** 테이블의 반송 조건�
 >
 >Enhanced MTA는 SMTP 바운스를 인증하고 해당 인증을 캠페인 바운스 사유 및 자격에 매핑된 바운스 코드 형태로 Campaign에 다시 전송합니다.
 
-바운스 자격에 대한 자세한 내용은 [이 섹션](understanding-delivery-failures.md#bounce-mail-qualification)을 참조하세요.
+바운스 자격에 대한 자세한 내용은 [이 섹션](delivery-failures-quarantine.md#bounce-mail-qualification)을 참조하세요.
 
 ### 게재
 
@@ -136,17 +136,17 @@ Campaign 게재의 유효 기간 설정은 **3.5일 이하**(으)로 설정된 �
 ### DKIM 서명
 
 DKIM(DomainKeys Identified Mail) 전자 메일 인증 서명은 Enhanced MTA에서 수행합니다. 기본 Campaign MTA에 의한 DKIM 서명은 Enhanced MTA 업그레이드의 일부로 도메인 관리 테이블 내에서 꺼집니다.
-DKIM에 대한 자세한 내용은 [Adobe 게재 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#authentication)를 참조하세요.
+DKIM에 대한 자세한 내용은 [Adobe 게재 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)를 참조하세요.
 
 ### 게재 성공 보고
 
-이메일 게재 **[!UICONTROL Summary]**&#x200B;대시보드[의 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} 보기에서 **[!UICONTROL Success]** 백분율은 100%에서 시작되며 게재 [유효 기간](communication-channels.md) 동안 점진적으로 낮아집니다. 이때 소프트 및 하드 바운스가 Enhanced MTA에서 Campaign으로 다시 보고됩니다.
+이메일 게재 **[!UICONTROL Summary]**&#x200B;대시보드[의 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} 보기에서 **[!UICONTROL Success]** 백분율은 100%에서 시작되며 게재 [유효 기간](communication-channels.md) 동안 점진적으로 낮아집니다. 이때 소프트 및 하드 바운스가 Enhanced MTA에서 Campaign으로 다시 보고됩니다.
 
-실제로 모든 메시지는 Campaign에서 Enhanced MTA로 성공적으로 릴레이되는 즉시 **[!UICONTROL Sent]**&#x200B;전송 로그[에 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}(으)로 표시됩니다. 해당 메시지에 대한 [바운스](understanding-delivery-failures.md#delivery-failure-types-and-reasons)가 Enhanced MTA에서 Campaign으로 다시 통신되지 않는 한 또는 통신될 때까지 이 상태는 유지됩니다.
+실제로 모든 메시지는 Campaign에서 Enhanced MTA로 성공적으로 릴레이되는 즉시 **[!UICONTROL Sent]**&#x200B;전송 로그[에 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}(으)로 표시됩니다. 해당 메시지에 대한 [바운스](delivery-failures-quarantine.md#delivery-failure-types-and-reasons)가 Enhanced MTA에서 Campaign으로 다시 통신되지 않는 한 또는 통신될 때까지 이 상태는 유지됩니다.
 
 하드 바운스 메시지가 Enhanced MTA에서 다시 보고되면 상태가 **[!UICONTROL Sent]**&#x200B;에서 **[!UICONTROL Failed]**(으)로 변경되고 **[!UICONTROL Success]** 비율이 그에 따라 감소합니다.
 
-소프트 바운싱 메시지가 Enhanced MTA에서 다시 보고되는 경우에도 **[!UICONTROL Sent]**(으)로 표시되고 **[!UICONTROL Success]** 비율이 아직 업데이트되지 않았습니다. 그러면 소프트 바운싱 메시지는 게재 유효 기간 동안 [다시 시도](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)됩니다.
+소프트 바운싱 메시지가 Enhanced MTA에서 다시 보고되는 경우에도 **[!UICONTROL Sent]**(으)로 표시되고 **[!UICONTROL Success]** 비율이 아직 업데이트되지 않았습니다. 그러면 소프트 바운싱 메시지는 게재 유효 기간 동안 [다시 시도](delivery-failures-quarantine.md#retries-after-a-delivery-temporary-failure)됩니다.
 
 * 유효 기간이 끝나기 전에 다시 시도하면 메시지 상태는 **[!UICONTROL Sent]**(으)로 유지되며 **[!UICONTROL Success]** 비율은 변경되지 않습니다.
 

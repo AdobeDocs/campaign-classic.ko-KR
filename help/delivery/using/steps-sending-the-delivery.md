@@ -7,7 +7,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '1518'
 ht-degree: 11%
@@ -61,7 +61,7 @@ ht-degree: 11%
 메시지를 보낸 후 게재를 모니터링하고 추적할 수 있습니다. 자세한 정보는 다음 섹션을 참조하십시오.
 
 * [게재 모니터링](about-delivery-monitoring.md)
-* [게재 실패 이해](understanding-delivery-failures.md)
+* [게재 실패 이해](delivery-failures-quarantine.md)
 * [메시지 추적 정보](about-message-tracking.md)
 
 ## 게재 전송 예약 {#scheduling-the-delivery-sending}
@@ -171,7 +171,7 @@ ht-degree: 11%
 
 ## 다시 시도 구성 {#configuring-retries}
 
-**소프트** 또는 **무시됨** 오류로 인해 일시적으로 게재되지 않은 메시지는 자동 다시 시도될 수 있습니다. 게재 실패 유형 및 이유는 이 [섹션](understanding-delivery-failures.md#delivery-failure-types-and-reasons)에 나와 있습니다.
+**소프트** 또는 **무시됨** 오류로 인해 일시적으로 게재되지 않은 메시지는 자동 다시 시도될 수 있습니다. 게재 실패 유형 및 이유는 이 [섹션](delivery-failures-quarantine.md#delivery-failure-types-and-reasons)에 나와 있습니다.
 
 >[!IMPORTANT]
 >

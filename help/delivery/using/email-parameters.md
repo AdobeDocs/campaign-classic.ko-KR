@@ -7,7 +7,7 @@ role: User, Developer
 hide: true
 hidefromtoc: true
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 10%
@@ -82,7 +82,7 @@ Adobe Campaign을 사용하면 메시지 타겟에 BCC 이메일 주소를 추�
 
 미러 페이지는 웹 브라우저를 통해 온라인으로 액세스할 수 있는 HTML 페이지입니다. 콘텐츠는 이메일과 동일합니다.
 
-기본적으로 링크가 메일 콘텐츠에 삽입되면 미러 페이지가 생성됩니다. 개인화 블록 삽입에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ko){target="_blank"}를 참조하세요.
+기본적으로 링크가 메일 콘텐츠에 삽입되면 미러 페이지가 생성됩니다. 개인화 블록 삽입에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}를 참조하세요.
 
 게재 속성에서 **[!UICONTROL Mode]** 탭의 **[!UICONTROL Validity]** 필드를 사용하면 이 페이지의 생성 모드를 수정할 수 있습니다.
 
@@ -122,7 +122,7 @@ Adobe Campaign을 사용하면 메시지 타겟에 BCC 이메일 주소를 추�
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab.png)
 
-바운스 메일 관리에 대한 자세한 내용은 [이 섹션](understanding-delivery-failures.md#bounce-mail-management)을 참조하세요.
+바운스 메일 관리에 대한 자세한 내용은 [이 섹션](delivery-failures-quarantine.md#bounce-mail-management)을 참조하세요.
 
 ## SMTP 헤더 추가 {#adding-smtp-headers}
 

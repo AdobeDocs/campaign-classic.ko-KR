@@ -7,7 +7,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '1730'
 ht-degree: 22%
@@ -48,7 +48,7 @@ ht-degree: 22%
 
    기본적으로 제공되는 타겟 유형은 다음과 같습니다.
 
-   * **[!UICONTROL Filtering conditions]** : 이 옵션을 사용하면 쿼리를 정의하고 결과를 표시할 수 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
+   * **[!UICONTROL Filtering conditions]** : 이 옵션을 사용하면 쿼리를 정의하고 결과를 표시할 수 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
    * **[!UICONTROL Subscribers of an information service]** : 이 옵션을 사용하면 수신자가 구독해야 하는 특정 뉴스레터가 만드는 게재에서 타기팅되도록 선택할 수 있습니다.
 
      ![](assets/s_ncs_user_wizard_email02c.png)
@@ -72,7 +72,7 @@ ht-degree: 22%
    * **[!UICONTROL Recipients included in a folder]** : 이 옵션을 사용하면 트리의 특정 폴더에 포함된 프로필을 타겟팅할 수 있습니다.
    * **[!UICONTROL A recipient]** : 이 옵션을 사용하면 데이터베이스의 프로필에서 특정 받는 사람을 선택할 수 있습니다.
    * **[!UICONTROL A list of recipients]** : 이 옵션을 사용하면 받는 사람 목록을 타깃팅할 수 있습니다. 목록은 [이 섹션](../../platform/using/creating-and-managing-lists.md)에 표시됩니다.
-   * **[!UICONTROL User filters]** : 이 옵션을 사용하면 사전 구성된 필터에 액세스하여 데이터베이스의 프로필에 대한 필터링 기준으로 사용할 수 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
+   * **[!UICONTROL User filters]** : 이 옵션을 사용하면 사전 구성된 필터에 액세스하여 데이터베이스의 프로필에 대한 필터링 기준으로 사용할 수 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
    * **[!UICONTROL Exclude recipients corresponding to this segment]** 옵션을 사용하면 정의된 대상 기준을 충족하지 않는 수신자를 타깃팅할 수 있습니다. 이 옵션을 사용하려면 적절한 상자를 선택한 다음 앞에서 정의한 대로 타기팅을 적용하여 결과 프로필을 제외합니다.
 
      ![](assets/s_ncs_user_wizard_email02g.png)
@@ -149,7 +149,7 @@ ht-degree: 22%
 
   >[!NOTE]
   >
-  >격리 관리에 대한 자세한 내용은 [격리 관리 이해](understanding-quarantine-management.md)를 참조하십시오.
+  >격리 관리에 대한 자세한 내용은 [격리 관리 이해](delivery-failures-quarantine.md)를 참조하십시오.
 
 * **[!UICONTROL Limit delivery]** 옵션은 게재를 지정한 메시지 수로 제한합니다. 이 옵션에서는 전송할 최대 메시지 수를 입력할 수 있습니다. 타겟의 콘텐츠가 표시된 메시지의 수를 초과하는 경우, 타겟에 무작위 선택이 적용된다.
 
@@ -251,6 +251,6 @@ ht-degree: 22%
 
 이 비디오에서는 기존 이메일에 시드 및 증명을 추가하는 방법과 이를 보내는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/35559?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

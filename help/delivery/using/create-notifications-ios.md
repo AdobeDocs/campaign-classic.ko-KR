@@ -7,7 +7,7 @@ role: User, Developer
 hide: true
 hidefromtoc: true
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 8%
@@ -34,7 +34,7 @@ iOS 장치에 대한 푸시 알림을 만들려면 아래 단계를 따르십시
 
    >[!NOTE]
    >
-   >게재의 대상 모집단을 선택할 때의 자세한 프로세스는 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#target-population.){target="_blank"}의 이 섹션에 나와 있습니다.
+   >게재의 대상 모집단을 선택할 때의 자세한 프로세스는 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#target-population.){target="_blank"}의 이 섹션에 나와 있습니다.
    >
    >개인화 필드 사용에 대한 자세한 내용은 [이 섹션](about-personalization.md)을 참조하세요.
    >
@@ -130,9 +130,9 @@ iOS 장치에 대한 푸시 알림을 만들려면 아래 단계를 따르십시
 
 메시지를 보낸 후 게재를 모니터링하고 추적할 수 있습니다. 자세한 정보는 다음 섹션을 참조하십시오.
 
-* [푸시 알림 격리](understanding-quarantine-management.md#push-notification-quarantines)
+* [푸시 알림 격리](delivery-failures-quarantine.md#push-notification-quarantines)
 * [게재 모니터링](about-delivery-monitoring.md)
-* [게재 실패 이해](understanding-delivery-failures.md)
+* [게재 실패 이해](delivery-failures-quarantine.md)
 
 ## iOS 리치 알림 만들기 {#creating-ios-delivery}
 

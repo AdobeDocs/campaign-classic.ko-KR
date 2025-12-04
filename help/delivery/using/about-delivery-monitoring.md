@@ -5,7 +5,7 @@ description: Campaign Classic 게재 모니터링 기능에 대해 자세히 알
 feature: Monitoring, Deliverability
 role: User
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
-source-git-commit: e60a8391416bc9899548971bddb61705467a80e5
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 1%
@@ -73,12 +73,12 @@ Adobe Campaign Classic에서 **게재 가능성 모니터링**&#x200B;은(는) *
 **온-프레미스 설치**&#x200B;의 경우 게재 가능성 모니터링에 대한 몇 가지 추가 지침을 참조하세요.
 
 * 전체 플랫폼에 대한 [게재 처리량](../../reporting/using/global-reports.md#delivery-throughput)을(를) 정기적으로 확인하여 원본 설정과 일치하는지 확인하십시오.
-* 게재 템플릿에 [다시 시도](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)가 올바르게 설정되었는지(다시 시도 기간 30분 및 20번 이상 다시 시도) 확인하십시오.
-* [바운스](understanding-delivery-failures.md#bounce-mail-management) 사서함에 액세스할 수 있고 계정이 곧 만료되지 않는지 정기적으로 확인하십시오.
-* [게재 대시보드](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}에서 액세스할 수 있는 각 게재 처리량을 확인하여 게재 콘텐츠의 유효성과 일치하는지 확인합니다(예: &#39;플래시 판매&#39;는 일 수가 아닌 분 단위로 제공되어야 함).
+* 게재 템플릿에 [다시 시도](delivery-failures-quarantine.md#retries-after-a-delivery-temporary-failure)가 올바르게 설정되었는지(다시 시도 기간 30분 및 20번 이상 다시 시도) 확인하십시오.
+* [바운스](delivery-failures-quarantine.md#bounce-mail-management) 사서함에 액세스할 수 있고 계정이 곧 만료되지 않는지 정기적으로 확인하십시오.
+* [게재 대시보드](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}에서 액세스할 수 있는 각 게재 처리량을 확인하여 게재 콘텐츠의 유효성과 일치하는지 확인합니다(예: &#39;플래시 판매&#39;는 일 수가 아닌 분 단위로 제공되어야 함).
 * 웨이브를 사용할 때 다음 웨이브가 트리거되기 전에 각 웨이브가 완료되기에 충분한 시간이 있는지 확인합니다.
-* 오류 수와 새 [격리](understanding-quarantine-management.md)이(가) 다른 게재와 일치하는지 확인하십시오.
-* 강조 표시된 오류 종류(차단 목록, DNS 문제, 스팸 방지 규칙 등)를 확인하려면 [게재 로그](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}를 자세히 참조하세요.
+* 오류 수와 새 [격리](delivery-failures-quarantine.md)이(가) 다른 게재와 일치하는지 확인하십시오.
+* 강조 표시된 오류 종류(차단 목록, DNS 문제, 스팸 방지 규칙 등)를 확인하려면 [게재 로그](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}를 자세히 참조하세요.
 
 ### 문제 해결 {#delivery-troubleshooting}
 
@@ -97,17 +97,17 @@ Adobe Campaign Classic에서 **게재 가능성 모니터링**&#x200B;은(는) *
 
 게재 목록에 액세스하고 게재 대시보드를 사용하여 전송 활동을 모니터링하는 방법에 대해 알아봅니다.
 
-* [Campaign UI에서 게재 모니터링](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}(Campaign v8 설명서 - v7 및 v8 모두에 적용)
-* [게재 상태](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"}(Campaign v8 설명서)
+* [Campaign UI에서 게재 모니터링](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}(Campaign v8 설명서 - v7 및 v8 모두에 적용)
+* [게재 상태](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"}(Campaign v8 설명서)
 * [고급: 게재 로그 사용자 지정](customize-delivery-logs.md)(v7 하이브리드/온-프레미스 전용 - 스키마 확장)
 
 ### 메시지 상호 작용 추적
 
 게재 열기, 클릭 수 및 수신자 상호 작용을 추적합니다.
 
-* [메시지 추적 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"}(Campaign v8 설명서 - v7 및 v8 모두에 적용)
-* [추적된 링크 구성](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"}(Campaign v8 설명서)
-* [액세스 추적 로그](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"}(Campaign v8 설명서)
+* [메시지 추적 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"}(Campaign v8 설명서 - v7 및 v8 모두에 적용)
+* [추적된 링크 구성](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"}(Campaign v8 설명서)
+* [액세스 추적 로그](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"}(Campaign v8 설명서)
 
 ### 게재 성능 최적화
 
@@ -120,6 +120,6 @@ Adobe Campaign Classic에서 **게재 가능성 모니터링**&#x200B;은(는) *
 
 게재 실패, 반송 메일 및 격리된 주소 관리:
 
-* [게재 오류 이해](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}(Campaign v8 설명서 - v7 및 v8에 대한 포괄적인 안내서)
-* [격리 관리](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}(Campaign v8 설명서 - v7 및 v8에 대한 포괄적인 안내서)
+* [게재 오류 이해](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}(Campaign v8 설명서 - v7 및 v8에 대한 포괄적인 안내서)
+* [격리 관리](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}(Campaign v8 설명서 - v7 및 v8에 대한 포괄적인 안내서)
 * [게재 실패 및 격리 구성](delivery-failures-quarantine.md)(v7 하이브리드/온-프레미스 특정 구성)

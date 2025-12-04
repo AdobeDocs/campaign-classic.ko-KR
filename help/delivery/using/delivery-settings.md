@@ -7,7 +7,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 66250817-f829-4b8b-92dd-2daa92a97fe0
-source-git-commit: d3d731c64cb5a430de6adac3aeb326f74134c436
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 12%
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 # 게재 설정 {#about-delivery-settings}
 
-다음 설정은 Campaign Classic에만 적용됩니다. 다른 게재 설정은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=ko){target="_blank"}를 참조하세요.
+다음 설정은 Campaign Classic에만 적용됩니다. 다른 게재 설정은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html){target="_blank"}를 참조하세요.
 
 ## 게재 분석 {#delivery-analysis}
 
@@ -29,8 +29,8 @@ ht-degree: 12%
 현재 이 옵션은 다음 조건이 충족될 때만 사용할 수 있습니다.
 
 * 게재는 이메일이어야 합니다. 다른 채널은 현재 지원되지 않습니다.
-* 중간 소싱 또는 외부 공정순서를 사용하지 말고 일괄 게재 공정순서 유형만 사용해야 합니다. **[!UICONTROL Delivery properties]**&#x200B;의 **[!UICONTROL General]** 탭에서 사용되는 라우팅을 확인할 수 있습니다.
-* 외부 파일에서 가져온 모집단을 타깃팅할 수 없습니다. 단일 게재의 경우 **[!UICONTROL Email parameters]**&#x200B;에서 **[!UICONTROL To]** 링크를 클릭하고 **[!UICONTROL Defined in the database]** 옵션이 선택되어 있는지 확인하십시오. 워크플로우에서 사용되는 게재의 경우 **[!UICONTROL Delivery]** 탭에서 받는 사람이 **[!UICONTROL Specified by the inbound event(s)]**&#x200B;인지 확인하십시오.
+* 중간 소싱 또는 외부 공정순서를 사용하지 말고 일괄 게재 공정순서 유형만 사용해야 합니다. **[!UICONTROL General]**&#x200B;의 **[!UICONTROL Delivery properties]** 탭에서 사용되는 라우팅을 확인할 수 있습니다.
+* 외부 파일에서 가져온 모집단을 타깃팅할 수 없습니다. 단일 게재의 경우 **[!UICONTROL To]**&#x200B;에서 **[!UICONTROL Email parameters]** 링크를 클릭하고 **[!UICONTROL Defined in the database]** 옵션이 선택되어 있는지 확인하십시오. 워크플로우에서 사용되는 게재의 경우 **[!UICONTROL Specified by the inbound event(s)]** 탭에서 받는 사람이 **[!UICONTROL Delivery]**&#x200B;인지 확인하십시오.
 * PostgreSQL 데이터베이스를 사용하고 있어야 합니다.
 
 ### 분석 우선 순위 구성 {#analysis-priority-}
@@ -53,7 +53,7 @@ ht-degree: 12%
 
 ### 다시 시도 구성 {#configuring-retries}
 
-**소프트** 또는 **무시됨** 오류로 인해 일시적으로 게재되지 않은 메시지는 자동 다시 시도될 수 있습니다. 게재 실패 유형 및 이유는 이 [섹션](understanding-delivery-failures.md#delivery-failure-types-and-reasons)에 나와 있습니다.
+**소프트** 또는 **무시됨** 오류로 인해 일시적으로 게재되지 않은 메시지는 자동 다시 시도될 수 있습니다. 게재 실패 유형 및 이유는 이 [섹션](delivery-failures-quarantine.md#delivery-failure-types-and-reasons)에 나와 있습니다.
 
 >[!IMPORTANT]
 >
