@@ -7,10 +7,10 @@ user-guide-title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 3fc803ba8b7e367e199ba47ef05ba64d5f801506
+source-git-commit: 93f32cda33acc53fb0e497f619be35c1c76ff85e
 workflow-type: tm+mt
-source-wordcount: '2748'
-ht-degree: 100%
+source-wordcount: '2692'
+ht-degree: 99%
 
 ---
 
@@ -40,17 +40,8 @@ ht-degree: 100%
    + [Campaign 커넥터](platform/using/about-connectors.md)
    + [Campaign에서 쿼리 만들기](platform/using/about-queries-in-campaign.md)
    + 자주 묻는 질문 {#faq}
-      + [주요 질문](platform/using/common-questions.md)
-      + [전반적 개념](platform/using/faq-key-concepts.md)
+      + [Campaign Classic FAQ](platform/using/faq-campaign-classic-v7.md)
       + [빌드 업그레이드](platform/using/faq-build-upgrade.md)
-      + [개인 정보](platform/using/privacy-faq.md)
-      + [대상자](platform/using/faq-audiences.md)
-      + [메시지 디자인](platform/using/faq-designing.md)
-      + [메시지 보내기](platform/using/faq-messages.md)
-      + [워크플로](platform/using/faq-workflows.md)
-      + [구성](platform/using/faq-campaign-config.md)
-      + [보고서](platform/using/faq-reporting.md)
-      + [개발](platform/using/faq-developers.md)
    + [용어집](platform/using/ac-glossary.md)
    + 개인 정보 {#privacy}
       + [개인 정보 보호 및 동의](platform/using/privacy-and-recommendations.md)
@@ -120,7 +111,6 @@ ht-degree: 100%
       + [개인화된 콘텐츠 작성 - 숨김](delivery/using/design-and-personalize.md)
       + [적합한 대상자 정의 - 숨김](delivery/using/define-the-right-audience.md)
       + [보내기 전 확인 - 숨김](delivery/using/check-before-sending.md)
-      + [추적 및 모니터링 - 숨김](delivery/using/track-and-monitor.md)
    + [이메일 보내기](delivery/using/about-email-channel.md)
    + 이메일 보내기 {#sending-emails}
       + [이메일 게재 만들기 - 숨김](delivery/using/creating-an-email-delivery.md)
@@ -197,28 +187,15 @@ ht-degree: 100%
       + [바이럴 및 소셜 마케팅](delivery/using/viral-and-social-marketing.md)
    + 게재 모니터링 {#monitoring-deliveries}
       + [게재 모니터링 시작](delivery/using/about-delivery-monitoring.md)
-      + [게재 목록 액세스](delivery/using/list-of-deliveries.md)
-      + [게재 대시보드](delivery/using/delivery-dashboard.md)
+      + [Campaign UI에서 게재 모니터링](delivery/using/delivery-dashboard.md)
       + [게재 성능 모범 사례](delivery/using/delivery-performances.md)
       + [게재 문제 해결](delivery/using/delivery-troubleshooting.md)
-      + [게재 상태](delivery/using/delivery-statuses.md)
       + [게재 실패 이해](delivery/using/understanding-delivery-failures.md)
       + [격리 관리 이해](delivery/using/understanding-quarantine-management.md)
-      + 메시지 추적 {#tracking-messages}
-         + [메시지 추적 정보](delivery/using/about-message-tracking.md)
-         + [추적되는 링크를 구성하는 방법](delivery/using/how-to-configure-tracked-links.md)
-      + 개인화된 링크 추적 {#tracking-personalized-links}
-         + [개인화된 링크 추적 시작](delivery/using/tracking-personalized-links.md)
-         + [추적 URL 감지](delivery/using/detecting-tracking-urls.md)
-         + [추적을 위한 전처리 지침](delivery/using/pre-processing-instructions.md)
-      + [URL 추적 옵션 구성](delivery/using/personalizing-url-tracking.md)
-      + [추적 로그 액세스](delivery/using/accessing-the-tracking-logs.md)
-      + [추적 테스트](delivery/using/testing-tracking.md)
-      + [추적 문제 해결](delivery/using/tracking-troubleshooting.md)
+      + [메시지 추적](delivery/using/about-message-tracking.md)
    + 전달성 관리 {#deliverability-management}
       + [전달성의 정의](delivery/using/about-deliverability.md)
       + [메시지 콘텐츠 제어](delivery/using/control-message-content.md)
-      + [전달성 모니터링](delivery/using/monitoring-deliverability.md)
       + [받은 편지함 렌더링](delivery/using/inbox-rendering.md)
       + [SpamAssassin](delivery/using/spamassassin.md)
       + [문제 해결](delivery/using/deliverability-faq.md)

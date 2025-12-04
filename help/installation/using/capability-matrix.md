@@ -4,7 +4,7 @@ title: Campaign On-Premise, 하이브리드 및 호스팅 기능 매트릭스
 description: 호스팅 배포와 온-프레미스 배포 간의 주요 차이점 알아보기
 feature: Installation, Architecture
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+source-git-commit: 8b38d825aa9b0595226a444e0e463362468d51b3
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 26%
@@ -35,7 +35,7 @@ Adobe Campaign Classic에는 모듈 및 옵션 세트가 포함되어 있습니�
 | 파일 압축/압축 해제 | 온디맨드 | 사용 가능 | 사용 가능 | [자세히 알아보기](../../platform/using/unzip-decrypt.md) |
 | 도메인 이름 위임 | 온디맨드 | 온디맨드 | 사용 불가 | [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko) |
 | SpamAssassin 설치 | 온디맨드 | 사용 가능 | 사용 가능 | [자세히 알아보기](../../delivery/using/spamassassin.md) |
-| 게재 가능성 보고서 액세스 | 사용 가능 | 온디맨드 | 사용 가능 | [자세히 알아보기](../../delivery/using/monitoring-deliverability.md) |
+| 게재 가능성 보고서 액세스 | 사용 가능 | 온디맨드 | 사용 가능 | [자세히 알아보기](../../delivery/using/about-delivery-monitoring.md#deliverability-monitoring) |
 | LDAP 인증 구성 | 사용할 수 없음 | 사용 가능 | 사용 가능 | [자세히 알아보기](../../installation/using/connecting-through-ldap.md) |
 
 

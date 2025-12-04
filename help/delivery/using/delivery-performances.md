@@ -2,55 +2,61 @@
 product: campaign
 title: 게재 성능 모범 사례
 description: 게재 성능 및 모범 사례에 대해 자세히 알아보기
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Deliverability
 role: User, Developer
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+source-git-commit: eac670cd4e7371ca386cee5f1735dc201bf5410a
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 5%
+source-wordcount: '362'
+ht-degree: 3%
 
 ---
 
 # 게재 성능 모범 사례 {#delivery-performances}
 
-게재 문제가 발생할 경우 게재가 제대로 수행되고 수행되는지 확인하려면 아래 지침을 따르는 것이 좋습니다.
+>[!NOTE]
+>
+>게재 성능 및 모범 사례에 대한 포괄적인 지침은 [Campaign v8 게재 모범 사례](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices) 페이지에 설명되어 있습니다. 이 콘텐츠는 Campaign Classic v7 및 Campaign v8 사용자 모두에게 적용됩니다.
+>
+>이 페이지는 하이브리드 및 온-프레미스 배포를 위한 **Campaign Classic v7 전용 성능 구성**&#x200B;을 설명합니다.
 
-**관련 항목:**
+게재 성능, 플랫폼 최적화, 격리 관리, 데이터베이스 유지 관리 및 예약 권장 사항에 대한 포괄적인 모범 사례는 [Campaign v8 게재 모범 사례 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}를 참조하세요.
 
-* [게재 대시보드](delivery-dashboard.md)
-* [게재 문제 해결](delivery-troubleshooting.md)
-* [게재 기능 기본 정보](about-deliverability.md)
+## 성능 조정 {#best-practices-performance}
 
-## 성능 모범 사례 {#best-practices-performance}
+**Campaign Classic v7 하이브리드/온-프레미스 배포**&#x200B;의 경우 다음 데이터베이스 및 인프라 최적화를 통해 게재 성능을 향상시킬 수 있습니다.
 
-* 임시 테이블을 유지하고 성능에 영향을 주므로 인스턴스에서 게재를 실패 상태로 유지하지 마십시오.
+### 데이터베이스 최적화
 
-* 더 이상 필요하지 않은 게재를 제거합니다.
+응용 프로그램에서 사용되는 SQL 쿼리의 성능을 최적화하려면 **주소를 인덱싱하십시오**. 인덱스는 데이터 스키마의 기본 요소에서 선언할 수 있습니다. 이 최적화를 사용하려면 온-프레미스 배포에서 사용할 수 있는 직접 데이터베이스 액세스 및 스키마 사용자 지정이 필요합니다.
 
-* 지난 12개월 동안 주소 품질을 유지하기 위해 데이터베이스에서 제거할 비활성 수신자입니다.
+### 인프라 조정
 
-* 큰 게재를 함께 예약하지 마십시오. 시스템 전체에 균등하게 부하를 분산시키기 위해서는 5-10분의 간격이 있다. 최상의 성능을 보장하려면 팀의 다른 멤버와 게재 일정을 조정하십시오. 마케팅 서버가 동시에 많은 다른 작업을 처리할 때 성능이 저하될 수 있습니다.
-
-* 이메일 크기를 최대한 작게 유지하십시오. 이메일의 권장 최대 크기는 약 35KB입니다. 이메일 게재 크기는 전송 서버에서 특정 양의 볼륨을 생성합니다.
-
-* 백만 명이 넘는 수신자에게 게재하는 것과 같은 대용량 게재는 전송 큐에 공간이 필요합니다. 이 방법만으로 서버에 문제가 되지는 않지만 수십 개의 다른 대형 게재가 동시에 나가는 경우 전송 지연이 발생할 수 있습니다.
-
-* 이메일의 Personalization은 각 수신자에 대해 데이터베이스에서 데이터를 가져옵니다. 개인화 요소가 많으면 게재를 준비하는 데 필요한 데이터의 양이 증가합니다.
-
-* 색인 주소. 응용 프로그램에서 사용되는 SQL 쿼리의 성능을 최적화하기 위해 데이터 스키마의 주 요소에서 인덱스를 선언할 수 있습니다.
+**대규모 게재 구성**: 백만 명 이상의 수신자에게 게재하려면 전송 큐에 공간이 있어야 합니다. 온-프레미스 설치의 경우 MTA 하위 항목을 사용자 지정 배치 크기를 처리하도록 구성할 수 있습니다. 인프라 용량에 따라 이러한 설정을 조정하려면 시스템 관리자에게 문의하십시오.
 
 >[!NOTE]
 >
->ISP는 일정 기간 동안 활동이 없으면 주소를 비활성화합니다. 반송된 메시지는 보낸 사람에게 이 새로운 상태에 대해 알리기 위해 전송됩니다.
+>Campaign v8 Managed Cloud Services 사용자의 경우 인프라 최적화 및 MTA 구성은 Adobe에서 관리합니다. 배포에 적용할 수 있는 성능 권장 사항은 [Campaign v8 게재 모범 사례](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}를 참조하세요.
 
-## 성능 문제 검사 목록 {#performance-issues}
+## 데이터베이스 유지 관리 {#performance-issues}
 
-게재 성능이 나쁜 경우 다음을 확인할 수 있습니다.
+**Campaign Classic v7 하이브리드/온-프레미스 배포**&#x200B;의 경우 플랫폼 및 데이터베이스 유지 관리가 게재 전송 성능에 직접적인 영향을 줍니다.
 
-* **게재 크기**: 큰 게재를 완료하는 데 더 오래 걸릴 수 있습니다. MTA 하위 항목은 대부분의 인스턴스에 작동하는 기본 배치 크기를 처리하도록 구성되지만 게재가 지속적으로 느려질 때 확인해야 합니다.
-* **게재 대상**: 다시 시도 구성에 따라 처리되는 소프트 바운스 오류의 영향을 받는 게재 성능 금지. 오류 수가 많을수록 더 많은 재시도가 필요합니다.
-* **전체 플랫폼 로드**: 여러 개의 큰 게재를 보낼 때 전체 플랫폼이 영향을 받을 수 있습니다. IP 신뢰도 및 전달성 문제도 확인할 수 있습니다. 자세한 내용은 [이 섹션](about-deliverability.md) 및 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)를 참조하세요.
+정기적인 유지 관리 작업은 다음과 같습니다.
 
-플랫폼 및 데이터베이스 유지 관리는 게재 전송 성능에도 영향을 줄 수 있습니다. 자세한 정보는 이 [페이지](../../production/using/database-performances.md)를 참조하십시오.
+**데이터베이스 정리**: 데이터베이스 정리 워크플로우를 사용하여 이전 게재 로그, 추적 데이터 및 임시 테이블을 제거합니다. 데이터베이스 유지 관리가 잘못되면 게재 준비 및 전송 속도가 느려질 수 있습니다.
+
+**데이터베이스 성능 모니터링**: 쿼리 성능, 인덱스 단편화 및 테이블 통계를 모니터링합니다. 자세한 지침은 [이 페이지](../../production/using/database-performances.md)를 참조하세요.
+
+**기술 워크플로우 모니터링**: 모든 기술 워크플로우(특히 정리, 추적 및 게재 기능 업데이트 워크플로우)가 오류 없이 올바르게 실행되고 있는지 확인하십시오.
+
+>[!NOTE]
+>
+>Campaign v8 Managed Cloud Services 사용자의 경우 데이터베이스 유지 관리 및 기술 워크플로우는 Adobe에서 모니터링 및 관리됩니다. [Campaign v8 모니터 게재 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitoring-deliverability){target="_blank"}에 설명된 대로 게재별 모니터링에 집중합니다.
+
+## 관련 항목
+
+* [게재 모범 사례](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}(Campaign v8 설명서)
+* [게재 기능 모니터링](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitoring-deliverability){target="_blank"}(Campaign v8 설명서)
+* [게재 문제 해결](delivery-troubleshooting.md)
+* [데이터베이스 성능](../../production/using/database-performances.md)(v7 하이브리드/온-프레미스)

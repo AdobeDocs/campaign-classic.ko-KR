@@ -2,55 +2,111 @@
 product: campaign
 title: 게재 모니터링 시작
 description: Campaign Classic 게재 모니터링 기능에 대해 자세히 알아보기
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Monitoring, Deliverability
 role: User
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: eac670cd4e7371ca386cee5f1735dc201bf5410a
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 5%
+source-wordcount: '698'
+ht-degree: 2%
 
 ---
 
 # 게재 모니터링 시작 {#about-delivery-monitoring}
 
-게재가 전송된 후 게재를 모니터링하는 것은 마케팅 캠페인이 효율적이고 고객에게 도달하는지 확인하는 중요한 단계입니다.
+>[!IMPORTANT]
+>
+>이 페이지에서는 하이브리드 및 온-프레미스 배포에 대한 **Campaign Classic v7 관련 모니터링 기능**&#x200B;을 설명합니다.
 
-이 섹션에서는 게재를 보낸 후 모니터링할 수 있는 정보에 대해 자세히 알아보고 게재 실패 및 격리가 관리되는 방법에 대해 알아봅니다.
+## 모니터링 기능
 
-<img src="assets/do-not-localize/icon_monitor.svg" width="60px">
+### 게재 모니터링 {#monitoring-deliveries}
 
-**게재 모니터링**
+**Campaign Classic v7 하이브리드/온-프레미스 배포의 경우**&#x200B;서버 리소스 및 MTA(메일 전송 에이전트) 구성에 대한 추가 모니터링이 필요합니다.
 
-게재 목록을 사용하면 만든 모든 게재를 하나의 위치로 볼 수 있습니다.
+#### 보류 중인 게재 문제 해결 {#pending-deliveries}
 
-각 게재에 대해 전용 대시보드를 사용할 수 있습니다. 보고서, 미러 페이지, 제외, 추적 로그, 렌더링 등 전달과 관련된 다양한 유형의 정보와 전송 중에 발생하는 최종 문제를 모니터링할 수 있습니다.
+게재가 전송되지 않고 상태가 **보류 중**&#x200B;인 경우 어떻게 합니까?
 
-* [게재 목록 액세스](list-of-deliveries.md)
-* [게재 대시보드](delivery-dashboard.md)
+* 실행 프로세스에서 일부 리소스를 사용할 수 있을 때까지 기다리고 있습니다. MTA가 시작되지 않았을 수 있습니다.
+mta@instance 모듈이 MTA 서버에서 시작되었는지 확인하고 필요한 경우 MTA 모듈을 시작합니다. [자세히 알아보기](../../production/using/administration.md)
 
-<img src="assets/do-not-localize/icon_guidelines.svg" width="60px">
+* 게재는 전송 인스턴스에 구성되지 않은 선호도를 사용하고 있을 수 있습니다.
+팁: 트래픽 관리(IP 선호도) 구성을 확인하십시오. 자세한 내용은 발신 SMTP 트래픽 제어 를 참조하십시오.
 
-**보안 게재 성능**
+>[!NOTE]
+>
+>이러한 단계는 전문가 사용자의 온-프레미스 설치에서만 수행할 수 있습니다.
 
-게재 성능을 보장하기 위해서는 몇 가지 지침을 따라야 합니다. 게재를 전송할 때 발생할 수 있는 일반적인 문제는 게재를 효율적으로 전송하는 데 도움이 될 수도 있습니다.
+### 게재 가능성 모니터링 {#deliverability-monitoring}
 
+#### 게재 기능 패키지 설치 {#deliverability-package}
+
+이 기능은 Adobe Campaign의 전용 패키지를 통해 사용할 수 있습니다. 사용하려면 이 패키지를 설치해야 합니다. 작업이 완료되면 패키지를 고려하기 위해 서버를 다시 시작합니다.
+
+* 호스팅 및 하이브리드 클라이언트의 경우 Adobe 기술 지원 및 컨설턴트가 인스턴스에 **게재 가능성 모니터링**&#x200B;을(를) 구성합니다. 자세한 내용은 Adobe 계정 담당자에게 문의하십시오.
+
+* 온-프레미스 설치의 경우 **[!UICONTROL Deliverability monitoring (Email Deliverability)]** > **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** 메뉴를 통해 **[!UICONTROL Import package]** 패키지를 설치해야 합니다. 자세한 내용은 [Campaign Classic 표준 패키지 설치](../../installation/using/installing-campaign-standard-packages.md)를 참조하십시오.
+
+#### 게재 기능 워크플로 {#deliverability-workflow}
+
+Adobe Campaign Classic에서 **게재 가능성 모니터링**&#x200B;은(는) **[!UICONTROL Refresh for deliverability]** 워크플로우에서 관리합니다. 모든 인스턴스에 기본적으로 설치되며 바운스 메일 자격 규칙 목록, 도메인 목록 및 MX 목록을 초기화할 수 있습니다. **[!UICONTROL Deliverability monitoring (Email Deliverability)]** 패키지가 설치되면 이 워크플로가 매일 밤 실행되어 규칙 목록을 정기적으로 업데이트하며 플랫폼 전달성을 능동적으로 관리할 수 있습니다.
+
+**게재 기능 패키지를 통해 다음에 액세스할 수 있습니다.**
+
+* [받은 편지함 렌더링 보고서](inbox-rendering.md)로, 콘텐츠와 평판을 검사하기 위해 주요 전자 메일 클라이언트에서 메시지를 미리 볼 수 있습니다.
+* 메시지 품질 개요(받은 편지함, 스팸).
+
+#### 모니터링 도구 {#monitoring-tools}
+
+**온-프레미스 설치**&#x200B;의 경우 다음 모니터링 도구를 사용할 수 있습니다.
+
+* **[!UICONTROL Delivery throughput]** 보고서는 지정된 기간 동안 전체 플랫폼의 처리량에 대한 개요를 제공합니다. 자세한 내용은 [이 섹션](../../reporting/using/global-reports.md#delivery-throughput)을 참조하십시오.
+* 각 게재는 다른 인터넷 서비스 공급자(ISP)에 대한 브로드캐스트 통계 보고서를 생성합니다. 다음 숫자를 포함하여 전달성에 영향을 줄 수 있는 일부 데이터 품질 및 신뢰도 지표를 표시합니다.
+   * **[!UICONTROL Hard bounces]**&#x200B;은(는) 데이터 품질을 나타냅니다. 이 숫자는 2% 미만이어야 합니다.
+   * **[!UICONTROL Soft bounces]**&#x200B;은(는) 평판을 나타냅니다. 이 숫자는 특정 ISP의 경우 10%보다 커서는 안 됩니다.
+
+  자세한 내용은 [게재 통계](../../reporting/using/global-reports.md#delivery-statistics) 섹션을 참조하십시오.
+
+#### 모니터링 지침 {#monitoring-guidelines}
+
+**온-프레미스 설치**&#x200B;의 경우 게재 가능성 모니터링에 대한 몇 가지 추가 지침을 참조하세요.
+
+* 전체 플랫폼에 대한 [게재 처리량](../../reporting/using/global-reports.md#delivery-throughput)을(를) 정기적으로 확인하여 원본 설정과 일치하는지 확인하십시오.
+* 게재 템플릿에 [다시 시도](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)가 올바르게 설정되었는지(다시 시도 기간 30분 및 20번 이상 다시 시도) 확인하십시오.
+* [바운스](understanding-delivery-failures.md#bounce-mail-management) 사서함에 액세스할 수 있고 계정이 곧 만료되지 않는지 정기적으로 확인하십시오.
+* [게재 대시보드](delivery-dashboard.md)에서 액세스할 수 있는 각 게재 처리량을 확인하여 게재 콘텐츠의 유효성과 일치하는지 확인합니다(예: &#39;플래시 판매&#39;는 일 수가 아닌 분 단위로 제공되어야 함).
+* 웨이브를 사용할 때 다음 웨이브가 트리거되기 전에 각 웨이브가 완료되기에 충분한 시간이 있는지 확인합니다.
+* 오류 수와 새 [격리](understanding-quarantine-management.md)이(가) 다른 게재와 일치하는지 확인하십시오.
+* 강조 표시된 오류 종류(차단 목록, DNS 문제, 스팸 방지 규칙 등)를 확인하려면 [게재 로그](delivery-dashboard.md#delivery-logs-and-history)를 자세히 참조하세요.
+
+### 문제 해결 {#delivery-troubleshooting}
+
+**하이브리드/온-프레미스 배포**&#x200B;에서 게재 문제가 발생하면 특정 작업을 수행할 수 있습니다.
+
+* [전달성 문제](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
+* [이미지 표시 문제](../../production/using/image-display-issues.md)
+* [게재 성능 문제](delivery-performances.md)
+* [임시 파일 문제](../../production/using/temporary-files.md) - *온-프레미스 고객 전용*
+
+## 일반 모니터링 주제
+
+**게재 모니터링:**
+
+* [Campaign UI에서 게재 모니터링](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}(Campaign v8 설명서)
 * [게재 성능 및 모범 사례](delivery-performances.md)
-* [게재 전송 문제 해결](delivery-troubleshooting.md)
+* [게재 오류 이해](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}(Campaign v8 설명서 - v7 및 v8에 대한 포괄적인 안내서)
 
-<img src="assets/do-not-localize/icon_failure.svg" width="60px">
+**v7별 구성:**
 
-**게재 오류 이해**
+* [바운스 메일 관리 구성](understanding-delivery-failures.md)(v7 하이브리드/온-프레미스)
+* [격리 관리](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}(Campaign v8 설명서 - v7 및 v8에 대한 포괄적인 안내서)
+* [격리 구성](understanding-quarantine-management.md)(v7 하이브리드/온-프레미스)
 
-프로필에 메시지를 보낼 수 없는 경우 원격 서버는 오류 메시지를 자동으로 전송합니다. 오류 메시지는 Adobe Campaign 플랫폼에서 선택하며 이메일 주소 또는 전화 번호 격리 여부를 결정할 수 있습니다.
+**메시지 추적:**
 
-[게재 실패 이해](understanding-delivery-failures.md)는 마케팅 캠페인을 개선하는 데 도움이 되는 주요 단계입니다.
+* [메시지 추적 시작](about-message-tracking.md)
 
-<img src="assets/do-not-localize/icon_quarantine.svg" width="60px">
+## 관련 항목
 
-**격리 관리 이해**
-
-Adobe Campaign은 격리된 주소 목록을 관리합니다. 주소가 격리된 수신자는 기본적으로 게재 분석 중에 제외되며 타겟팅되지 않습니다.
-
-[이 섹션](understanding-quarantine-management.md)에서는 격리된 주소를 식별하고 관리하는 방법에 대한 정보를 확인할 수 있으며 주소를 격리하는 조건에 대해 자세히 알아봅니다.
+* [게재 상태](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"}(Campaign v8 설명서)

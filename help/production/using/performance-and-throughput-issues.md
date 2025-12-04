@@ -8,10 +8,10 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: fe69efda-a052-4f67-9c13-665f011d0a2b
-source-git-commit: 6803b6628313db9108a191fd143dac68ee799149
+source-git-commit: 8b38d825aa9b0595226a444e0e463362468d51b3
 workflow-type: tm+mt
 source-wordcount: '738'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 2%
 
 온-프레미스 Campaign Classic에 대한 하드웨어 요구 사항에 대한 일반 지침은 이 [페이지](https://helpx.adobe.com/kr/campaign/kb/hardware-sizing-guide.html)에 자세히 설명되어 있습니다.
 
-컨설팅 팀은 데이터베이스의 다양한 유형의 테이블에서 사용되는 공간의 양과 SFTP 사이트에서 사용되는 공간을 쉽게 볼 수 있는 도구를 호스트된 고객에게 제공할 수 있습니다. 불필요한 데이터를 정리할 수 있는 도구를 추가로 제공합니다. 이 도구를 구현해야 하는 경우 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오. 이 도구를 사용하여 확인해야 할 몇 가지 중요한 사항은 다음과 같습니다.
+컨설팅 팀은 데이터베이스의 다양한 유형의 테이블에서 사용되는 공간의 양과 SFTP 사이트에서 사용되는 공간을 쉽게 볼 수 있는 도구를 호스트된 고객에게 제공할 수 있습니다. 불필요한 데이터를 정리할 수 있는 도구를 추가로 제공합니다. 이 도구를 구현해야 하는 경우 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오. 이 도구를 사용하여 확인해야 할 몇 가지 중요한 사항은 다음과 같습니다.
 
 * 인덱스 크기가 테이블 크기보다 큰 경우 진공이 필요합니다.
 * 최대 열이 있는 테이블을 확인합니다. 이러한 테이블을 자주 사용하는 경우 진공 청소기로 청소해야 합니다.
 * 데이터베이스 차단으로 인해 이메일 전송이 중지될 수 있습니다.
 
-Adobe Campaign은 CPU 및 RAM 사용량을 확인하는 [도구](../../production/using/monitoring-processes.md#manual-monitoring)도 제공합니다. 이 도구를 사용하여 **메모리**, **메모리 교체**, **디스크**, **활성 프로세스**&#x200B;와 같은 특정 지표를 확인합니다. 값이 너무 높으면 워크플로우 수를 줄이거나 다른 시간에 시작하도록 워크플로우를 예약할 수 있습니다.
+Adobe Campaign은 또한 CPU 및 RAM 사용을 확인하는 [tool](../../production/using/monitoring-processes.md#manual-monitoring)을 제공합니다. 이 도구를 사용하여 **메모리**, **메모리 교체**, **디스크**, **활성 프로세스**&#x200B;와 같은 특정 지표를 확인합니다. 값이 너무 높으면 워크플로우 수를 줄이거나 다른 시간에 시작하도록 워크플로우를 예약할 수 있습니다.
 
 ## 데이터베이스 검사 {#database-performances}
 
@@ -55,23 +55,23 @@ Adobe Campaign은 CPU 및 RAM 사용량을 확인하는 [도구](../../productio
 
   >[!NOTE]
   >
-  >전달성 팀의 참여는 계약을 기반으로 하며, 고객은 전달성 참여와 관련된 정보를 Adobe 담당자에게 문의해야 합니다.
+  >전달성 팀의 참여는 계약을 기반으로 하며, 고객은 전달성 참여와 관련된 정보를 얻으려면 Adobe 담당자에게 문의해야 합니다.
 
-* DKIM: DKIM의 보안 수준을 보장하기 위해 권장되는 암호화 크기로 1024b를 사용하는 것이 좋습니다. 낮은 DKIM 키는 대부분의 액세스 공급자에서 유효한 것으로 간주되지 않습니다. [이 페이지](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#authentication)를 참조하십시오.
+* DKIM: DKIM의 보안 수준을 보장하기 위해 권장되는 암호화 크기로 1024b를 사용하는 것이 좋습니다. 대부분의 액세스 공급자는 낮은 DKIM 키를 유효한 것으로 간주하지 않습니다. [이 페이지](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)를 참조하십시오.
 
 ## 전달성 문제 {#deliverability-issues}
 
 다음은 전달성과 관련된 모범 사례 및 문서 목록입니다.
 
-* IP 신뢰도: IP 신뢰도가 충분하지 않으면 성능에 영향을 줍니다. **게재 가능성 모니터링** 모듈은 플랫폼의 게재 가능성 성능을 추적하는 다양한 도구를 제공합니다. 이 [페이지](../../delivery/using/monitoring-deliverability.md)를 참조하세요.
+* IP 신뢰도: IP 신뢰도가 충분하지 않으면 성능에 영향을 줍니다. **게재 가능성 모니터링** 모듈은 플랫폼의 게재 가능성 성능을 추적하는 다양한 도구를 제공합니다. 이 [페이지](../../delivery/using/about-delivery-monitoring.md#deliverability-monitoring)를 참조하세요.
 * IP 준비: IP 준비는 게재 가능성 팀이 수행합니다. 여기에는 몇 주 동안 새 IP를 통해 이메일 수가 점차적으로 증가합니다.
 
   >[!NOTE]
   >
-  >전달성 팀의 참여는 계약을 기반으로 하며, 고객은 전달성 참여와 관련된 정보를 Adobe 담당자에게 문의해야 합니다.
+  >전달성 팀의 참여는 계약을 기반으로 하며, 고객은 전달성 참여와 관련된 정보를 얻으려면 Adobe 담당자에게 문의해야 합니다.
 
 * IP 선호도 설정: 잘못된 IP 선호도 설정은 이메일을 모두 중지하거나(구성에서 잘못된 연산자/선호도 이름) 처리량을 줄일 수 있습니다(선호도에 있는 적은 수의 IP). 이 [페이지](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)를 참조하세요.
-* 이메일 크기: 이메일 크기는 처리량에 중요한 역할을 합니다. 권장되는 최대 이메일 크기는 60KB입니다. 이 [페이지](https://helpx.adobe.com/kr/legal/product-descriptions/campaign.html)를 참조하세요. [게재 처리량](../../reporting/using/global-reports.md#delivery-throughput) 보고서에서 시간별로 전송된 바이트 수를 확인합니다.
+* 이메일 크기: 이메일 크기는 처리량에 중요한 역할을 합니다. 권장되는 최대 이메일 크기는 60KB입니다. 이 [페이지](https://helpx.adobe.com/legal/product-descriptions/campaign.html)를 참조하세요. [게재 처리량](../../reporting/using/global-reports.md#delivery-throughput) 보고서에서 시간별로 전송된 바이트 수를 확인합니다.
 * 부적합한 수신자 많음: 부적합한 수신자가 많으면 처리량에 영향을 줄 수 있습니다. MTA가 잘못된 수신자에게 이메일 전송을 계속 재시도합니다. 데이터베이스가 잘 관리되고 있는지 확인하십시오.
 * 개인화 양: 게재가 &quot;Personalization 진행 중&quot;에 머무르는 경우 개인화 블록에 사용된 JavaScript을 확인하십시오.
 

@@ -6,9 +6,9 @@ feature: Troubleshooting
 hidefromtoc: true
 hide: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 85bafbac26b5f127499f35f373e96ecfd12b1db8
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '631'
 ht-degree: 67%
 
 ---
@@ -31,30 +31,24 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
 
 <img src="platform/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
-### FAQ
-
-새 빌드로 업그레이드하는 방법 워크플로 실행을 모니터링하는 방법 데이터베이스 정리 워크플로란?.. [상위 10개 질문 읽기](platform/using/common-questions.md).
+### 자주 묻는 질문
 
 <table>
     <tr><td><strong>주제 질문 및 답변</strong></td><td><strong>일반적인 문제</strong></td><td><strong>모범 사례</strong></td><td><strong>방법</strong></td></tr>
     <tr>
     <td valign="top">
         <ul>
-        <li><a href="platform/using/faq-key-concepts.md">주요 개념</a></li>
-        <li><a href="platform/using/faq-campaign-config.md">캠페인 설정</a></li>
-        <li><a href="platform/using/faq-reporting.md">보고</a></li>
+        <li><a href="platform/using/faq-campaign-classic-v7.md">Campaign Classic v7 FAQ</a></li>
         <li><a href="platform/using/faq-build-upgrade.md">빌드 업그레이드</a></li>
-        <li><a href="platform/using/faq-messages.md">메시지 테스트, 보내기 및 추적</a></li>
-        <li><a href="platform/using/faq-workflows.md">워크플로</a></li>
-        <li><a href="platform/using/faq-developers.md">개발자</a></li>
-        <li><a href="delivery/using/monitoring-deliverability.md">전달성</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html" target="_blank">Campaign v8 포괄적인 FAQ</a></li>
+        <li><a href="delivery/using/about-delivery-monitoring.md">게재 모니터링</a></li>
         </ul>
     </td>
     <td valign="top">
         <ul>
         <li><a href="production/using/performance-and-throughput-issues.md">성능 및 처리량 문제</a></li>
         <li><a href="delivery/using/delivery-performances.md">게재 성능</a></li>
-        <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ko" target="_blank">워크플로우 성능 최적화</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html" target="_blank">워크플로우 성능 최적화</a></li>
         <li><a href="workflow/using/monitoring-workflow-execution.md">워크플로우 실행 문제 해결</a></li>
         <li><a href="platform/using/sftp-server-usage.md">SFTP 서버 사용</a></li>
         <li><a href="delivery/using/understanding-delivery-failures.md">게재 실패 이해</a></li>
@@ -62,14 +56,14 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
     </td>
    <td valign="top">
         <ul>
-        <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ko" target="_blank">워크플로우 모범 사례</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html" target="_blank">워크플로우 모범 사례</a></li>
         <li><a href="workflow/using/monitoring-technical-workflows.md">기술 워크플로우 모니터링</a></li>
         <li><a href="delivery/using/about-message-tracking.md">추적 관리 이해</a></li>
         <li><a href="production/using/monitoring-guidelines.md">모니터링 도구 살펴보기</a></li>
         <li><a href="platform/using/import-export-workflows.md">워크플로로 데이터 가져오기</a></li>
         <li><a href="delivery/using/steps-sending-the-delivery.md">여러 번의 웨이브로 메시지 보내기</a></li>
         <li><a href="delivery/using/defining-the-email-content.md">이메일 콘텐츠 디자인</a></li>
-        <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ko" target="_blank">게재 모범 사례</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html" target="_blank">게재 모범 사례</a></li>
         </ul>
     </td>
     <td valign="top">
@@ -113,7 +107,7 @@ Campaign Campaign 컨트롤 패널을 사용하면 각 인스턴스의 사용량
 
 ### SFTP 관리
 
-컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 허용 목록에 추가하다 저장소 용량을 모니터링하고, IP 주소 및 공개 SSH 키를 관리할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ko)하십시오.
+컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 허용 목록에 추가하다 저장소 용량을 모니터링하고, IP 주소 및 공개 SSH 키를 관리할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)하십시오.
 
 ### 하위 도메인 및 인증서
 
@@ -138,7 +132,7 @@ Campaign 컨트롤 패널에서 Campaign Classic 인스턴스 설정을 관리�
 
 ### 전문가에게 물어보세요!
 
-Campaign Classic Community 가입: 기존 질문에서 답변을 검색하거나 커뮤니티에 질문을 할 수 있습니다. [대화에 참여](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ko){_blank}.
+Campaign Classic Community 가입: 기존 질문에서 답변을 검색하거나 커뮤니티에 질문을 할 수 있습니다. [대화에 참여](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}.
 
 ### Campaign 다운로드 센터 액세스
 
