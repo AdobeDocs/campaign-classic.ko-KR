@@ -7,9 +7,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1518'
 ht-degree: 11%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 11%
 
 ## 권한{#delivery-permissions}
 
-게재 소유자만 게재를 시작할 수 있습니다. 다른 연산자(또는 연산자 그룹)가 게재를 시작하려면 **[!UICONTROL Delivery start:]** 필드에 검토자로 추가하십시오. [자세히 알아보기](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
+게재 소유자만 게재를 시작할 수 있습니다. 다른 연산자(또는 연산자 그룹)가 게재를 시작하려면 **[!UICONTROL Delivery start:]** 필드에 검토자로 추가하십시오. [자세히 알아보기](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers)
 
 ## 게재 추가 매개 변수 {#delivery-additiona-parameters}
 
@@ -34,7 +34,7 @@ ht-degree: 11%
   >
   >기존 게재를 복제하여 게재를 만들 때 이 매개 변수는 재설정됩니다.
 
-* **[!UICONTROL Send using multiple waves]**: 이 옵션을 사용하여 한 번에 전체 대상자에게 메시지를 보내는 대신 일괄로 메시지를 보냅니다. [자세히 알아보기](#sending-using-multiple-waves).
+* **[!UICONTROL Send using multiple waves]**: 이 옵션을 사용하여 한 번에 전체 대상자에게 메시지를 보내는 대신 일괄로 메시지를 보냅니다. [자세히 알아보기](#sending-using-multiple-waves)
 
 * **[!UICONTROL Test SMTP delivery]**: SMTP를 통한 전송을 테스트하려면 이 옵션을 사용하십시오. 게재는 SMTP 서버에 연결될 때까지 처리되지만 전송되지는 않습니다. 게재의 모든 수신자에 대해 Campaign은 SMTP 공급자 서버에 연결하고 SMTP RCPT TO 명령을 실행한 다음 SMTP DATA 명령 전에 연결을 종료합니다.
 
@@ -44,13 +44,13 @@ ht-degree: 11%
   >
   >* [이 섹션](../../installation/using/configure-delivery-settings.md)에서 SMTP 서버 구성에 대해 자세히 알아보세요.
 
-* **[!UICONTROL Email BCC]**: 메시지 대상에 BCC 이메일 주소를 추가하여 BCC를 통해 외부 시스템에 이메일을 저장하려면 이 옵션을 사용합니다. [자세히 알아보기](sending-messages.md#archiving-emails).
+* **[!UICONTROL Email BCC]**: 메시지 대상에 BCC 이메일 주소를 추가하여 BCC를 통해 외부 시스템에 이메일을 저장하려면 이 옵션을 사용합니다. [자세히 알아보기](sending-messages.md#archiving-emails)
 
 ## 게재 확인 {#confirming-delivery}
 
 게재가 구성되어 전송할 준비가 되면 게재 분석을 실행합니다.
 
-이렇게 하려면 **[!UICONTROL Send]**&#x200B;을(를) 클릭하고 원하는 작업을 선택한 다음 **[!UICONTROL Analyze]**&#x200B;을(를) 클릭합니다. [자세히 알아보기](steps-validating-the-delivery.md#analyzing-the-delivery).
+이렇게 하려면 **[!UICONTROL Send]**&#x200B;을(를) 클릭하고 원하는 작업을 선택한 다음 **[!UICONTROL Analyze]**&#x200B;을(를) 클릭합니다. [자세히 알아보기](steps-validating-the-delivery.md#analyzing-the-delivery)
 
 ![](assets/s_ncs_user_email_del_send.png)
 
@@ -143,7 +143,7 @@ ht-degree: 11%
    >
    >마지막 웨이브를 구성할 때 재시도 시간도 충분히 허용해야 합니다. [이 섹션](steps-sending-the-delivery.md#configuring-retries)을 참조하십시오.
 
-1. 전송을 모니터링하려면 게재 로그로 이동합니다. [이 페이지](delivery-dashboard.md#delivery-logs-and-history)를 참조하십시오.
+1. 전송을 모니터링하려면 게재 로그로 이동합니다. [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}를 참조하십시오.
 
    이미 처리된 웨이브에서 전송된 게재(**[!UICONTROL Sent]** 상태)와 나머지 웨이브에서 전송할 게재(**[!UICONTROL Pending]** 상태)를 볼 수 있습니다.
 
@@ -165,7 +165,7 @@ ht-degree: 11%
 
   예를 들어, 콜센터의 일일 처리 용량을 고려하여 웨이브를 사용하여 메시지 수를 하루에 20개로 제한할 수 있습니다.
 
-  이렇게 하려면 **[!UICONTROL Schedule multiple waves of the same size]** 옵션을 선택하십시오. **[!UICONTROL Period]** 필드에 웨이브의 크기로 **[!UICONTROL 20]**&#x200B;을(를) 입력하고 **[!UICONTROL 1d]**&#x200B;을(를) 입력합니다.
+  이렇게 하려면 **[!UICONTROL Schedule multiple waves of the same size]** 옵션을 선택하십시오. **[!UICONTROL 20]** 필드에 웨이브의 크기로 **[!UICONTROL 1d]**&#x200B;을(를) 입력하고 **[!UICONTROL Period]**&#x200B;을(를) 입력합니다.
 
   ![](assets/s_ncs_user_wizard_waves_call_center.png)
 

@@ -5,9 +5,9 @@ description: Campaign Classic 게재 모니터링 기능에 대해 자세히 알
 feature: Monitoring, Deliverability
 role: User
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
-source-git-commit: 2ebae2b84741bf26dd44c872702dbf3b0ebfc453
+source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '814'
 ht-degree: 1%
 
 ---
@@ -75,10 +75,10 @@ Adobe Campaign Classic에서 **게재 가능성 모니터링**&#x200B;은(는) *
 * 전체 플랫폼에 대한 [게재 처리량](../../reporting/using/global-reports.md#delivery-throughput)을(를) 정기적으로 확인하여 원본 설정과 일치하는지 확인하십시오.
 * 게재 템플릿에 [다시 시도](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)가 올바르게 설정되었는지(다시 시도 기간 30분 및 20번 이상 다시 시도) 확인하십시오.
 * [바운스](understanding-delivery-failures.md#bounce-mail-management) 사서함에 액세스할 수 있고 계정이 곧 만료되지 않는지 정기적으로 확인하십시오.
-* [게재 대시보드](delivery-dashboard.md)에서 액세스할 수 있는 각 게재 처리량을 확인하여 게재 콘텐츠의 유효성과 일치하는지 확인합니다(예: &#39;플래시 판매&#39;는 일 수가 아닌 분 단위로 제공되어야 함).
+* [게재 대시보드](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}에서 액세스할 수 있는 각 게재 처리량을 확인하여 게재 콘텐츠의 유효성과 일치하는지 확인합니다(예: &#39;플래시 판매&#39;는 일 수가 아닌 분 단위로 제공되어야 함).
 * 웨이브를 사용할 때 다음 웨이브가 트리거되기 전에 각 웨이브가 완료되기에 충분한 시간이 있는지 확인합니다.
 * 오류 수와 새 [격리](understanding-quarantine-management.md)이(가) 다른 게재와 일치하는지 확인하십시오.
-* 강조 표시된 오류 종류(차단 목록, DNS 문제, 스팸 방지 규칙 등)를 확인하려면 [게재 로그](delivery-dashboard.md#delivery-logs-and-history)를 자세히 참조하세요.
+* 강조 표시된 오류 종류(차단 목록, DNS 문제, 스팸 방지 규칙 등)를 확인하려면 [게재 로그](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}를 자세히 참조하세요.
 
 ### 문제 해결 {#delivery-troubleshooting}
 
