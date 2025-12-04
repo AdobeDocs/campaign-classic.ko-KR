@@ -5,7 +5,7 @@ description: Campaign Classic 게재 모니터링 기능에 대해 자세히 알
 feature: Monitoring, Deliverability
 role: User
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
-source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
+source-git-commit: e60a8391416bc9899548971bddb61705467a80e5
 workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 1%
@@ -86,7 +86,7 @@ Adobe Campaign Classic에서 **게재 가능성 모니터링**&#x200B;은(는) *
 
 * [전달성 문제](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [이미지 표시 문제](../../production/using/image-display-issues.md)
-* [게재 성능 문제](delivery-performances.md)
+* [게재 성능 문제](delivery-performance-troubleshooting.md)
 * [임시 파일 문제](../../production/using/temporary-files.md) - *온-프레미스 고객 전용*
 
 ## 게재 모니터링
