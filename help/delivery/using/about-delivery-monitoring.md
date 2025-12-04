@@ -5,10 +5,10 @@ description: Campaign Classic 게재 모니터링 기능에 대해 자세히 알
 feature: Monitoring, Deliverability
 role: User
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
-source-git-commit: eac670cd4e7371ca386cee5f1735dc201bf5410a
+source-git-commit: 2ebae2b84741bf26dd44c872702dbf3b0ebfc453
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 2%
+source-wordcount: '812'
+ht-degree: 1%
 
 ---
 
@@ -89,24 +89,37 @@ Adobe Campaign Classic에서 **게재 가능성 모니터링**&#x200B;은(는) *
 * [게재 성능 문제](delivery-performances.md)
 * [임시 파일 문제](../../production/using/temporary-files.md) - *온-프레미스 고객 전용*
 
-## 일반 모니터링 주제
+## 게재 모니터링
 
-**게재 모니터링:**
+다음 리소스는 Campaign Classic v7에서 게재 성능을 모니터링하고 추적하는 데 도움이 됩니다.
 
-* [Campaign UI에서 게재 모니터링](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}(Campaign v8 설명서)
-* [게재 성능 및 모범 사례](delivery-performances.md)
-* [게재 오류 이해](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}(Campaign v8 설명서 - v7 및 v8에 대한 포괄적인 안내서)
+### 게재 대시보드 액세스
 
-**v7별 구성:**
+게재 목록에 액세스하고 게재 대시보드를 사용하여 전송 활동을 모니터링하는 방법에 대해 알아봅니다.
 
-* [바운스 메일 관리 구성](understanding-delivery-failures.md)(v7 하이브리드/온-프레미스)
-* [격리 관리](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}(Campaign v8 설명서 - v7 및 v8에 대한 포괄적인 안내서)
-* [격리 구성](understanding-quarantine-management.md)(v7 하이브리드/온-프레미스)
-
-**메시지 추적:**
-
-* [메시지 추적 시작](about-message-tracking.md)
-
-## 관련 항목
-
+* [Campaign UI에서 게재 모니터링](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}(Campaign v8 설명서 - v7 및 v8 모두에 적용)
 * [게재 상태](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"}(Campaign v8 설명서)
+* [고급: 게재 로그 사용자 지정](customize-delivery-logs.md)(v7 하이브리드/온-프레미스 전용 - 스키마 확장)
+
+### 메시지 상호 작용 추적
+
+게재 열기, 클릭 수 및 수신자 상호 작용을 추적합니다.
+
+* [메시지 추적 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"}(Campaign v8 설명서 - v7 및 v8 모두에 적용)
+* [추적된 링크 구성](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"}(Campaign v8 설명서)
+* [액세스 추적 로그](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"}(Campaign v8 설명서)
+
+### 게재 성능 최적화
+
+게재 성능 문제에 대한 우수 사례 및 문제 해결:
+
+* [게재 모범 사례](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}(Campaign v8 설명서 - v7 및 v8에 모두 적용)
+* [게재 성능 및 문제 해결](delivery-performance-troubleshooting.md)(v7 하이브리드/온-프레미스 특정 구성)
+
+### 실패 및 격리 이해
+
+게재 실패, 반송 메일 및 격리된 주소 관리:
+
+* [게재 오류 이해](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}(Campaign v8 설명서 - v7 및 v8에 대한 포괄적인 안내서)
+* [격리 관리](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}(Campaign v8 설명서 - v7 및 v8에 대한 포괄적인 안내서)
+* [게재 실패 및 격리 구성](delivery-failures-quarantine.md)(v7 하이브리드/온-프레미스 특정 구성)
