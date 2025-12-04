@@ -57,7 +57,7 @@ Adobe Campaign은 또한 CPU 및 RAM 사용을 확인하는 [tool](../../product
   >
   >전달성 팀의 참여는 계약을 기반으로 하며, 고객은 전달성 참여와 관련된 정보를 얻으려면 Adobe 담당자에게 문의해야 합니다.
 
-* DKIM: DKIM의 보안 수준을 보장하기 위해 권장되는 암호화 크기로 1024b를 사용하는 것이 좋습니다. 대부분의 액세스 공급자는 낮은 DKIM 키를 유효한 것으로 간주하지 않습니다. [이 페이지](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)를 참조하십시오.
+* DKIM: DKIM의 보안 수준을 보장하기 위해 권장되는 암호화 크기로 1024b를 사용하는 것이 좋습니다. 대부분의 액세스 공급자는 낮은 DKIM 키를 유효한 것으로 간주하지 않습니다. [이 페이지](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#authentication)를 참조하십시오.
 
 ## 전달성 문제 {#deliverability-issues}
 
@@ -71,7 +71,7 @@ Adobe Campaign은 또한 CPU 및 RAM 사용을 확인하는 [tool](../../product
   >전달성 팀의 참여는 계약을 기반으로 하며, 고객은 전달성 참여와 관련된 정보를 얻으려면 Adobe 담당자에게 문의해야 합니다.
 
 * IP 선호도 설정: 잘못된 IP 선호도 설정은 이메일을 모두 중지하거나(구성에서 잘못된 연산자/선호도 이름) 처리량을 줄일 수 있습니다(선호도에 있는 적은 수의 IP). 이 [페이지](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)를 참조하세요.
-* 이메일 크기: 이메일 크기는 처리량에 중요한 역할을 합니다. 권장되는 최대 이메일 크기는 60KB입니다. 이 [페이지](https://helpx.adobe.com/legal/product-descriptions/campaign.html)를 참조하세요. [게재 처리량](../../reporting/using/global-reports.md#delivery-throughput) 보고서에서 시간별로 전송된 바이트 수를 확인합니다.
+* 이메일 크기: 이메일 크기는 처리량에 중요한 역할을 합니다. 권장되는 최대 이메일 크기는 60KB입니다. 이 [페이지](https://helpx.adobe.com/kr/legal/product-descriptions/campaign.html)를 참조하세요. [게재 처리량](../../reporting/using/global-reports.md#delivery-throughput) 보고서에서 시간별로 전송된 바이트 수를 확인합니다.
 * 부적합한 수신자 많음: 부적합한 수신자가 많으면 처리량에 영향을 줄 수 있습니다. MTA가 잘못된 수신자에게 이메일 전송을 계속 재시도합니다. 데이터베이스가 잘 관리되고 있는지 확인하십시오.
 * 개인화 양: 게재가 &quot;Personalization 진행 중&quot;에 머무르는 경우 개인화 블록에 사용된 JavaScript을 확인하십시오.
 
