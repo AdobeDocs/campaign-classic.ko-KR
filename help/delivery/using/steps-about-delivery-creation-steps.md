@@ -18,7 +18,7 @@ ht-degree: 17%
 
 게재를 만들 때 주요 단계는 다음과 같습니다.
 
-1. **게재를 만들고 식별**. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#create-the-delivery){target="_blank"}를 참조하세요.
+1. **게재를 만들고 식별**. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#create-the-delivery){target="_blank"}를 참조하세요.
 
 1. **게재 콘텐츠를 정의합니다**.  게재 콘텐츠 정의는 각 채널에 따라 다릅니다. 자세한 내용은 해당 섹션을 참조하십시오.
 
@@ -35,4 +35,4 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->이 장에 설명된 단계는 모든 대상 수신자와 해당 프로필이 데이터베이스에 저장되어 있다고 가정합니다(외부 게재의 경우 제외)([Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#selecting-external-recipients){target="_blank"} 참조).
+>이 장에 설명된 단계는 모든 대상 수신자와 해당 프로필이 데이터베이스에 저장되어 있다고 가정합니다(외부 게재의 경우 제외)([Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#selecting-external-recipients){target="_blank"} 참조).
