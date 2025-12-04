@@ -5,7 +5,7 @@ description: Adobe Campaign에서 게재 능력을 관리할 때 확인할 주�
 feature: Deliverability, Troubleshooting
 role: User
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
-source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
+source-git-commit: 0c639cc8b9636c190c868980ab5182a0eccb5f74
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 1%
@@ -49,13 +49,13 @@ ISP에 대해 항상 동일한 오류 메시지가 표시되는 경우 ISP에서
 
    * 상태 **[!UICONTROL Quarantined]**&#x200B;은(는) 소프트 또는 하드 바운스의 결과입니다.
 
-  자세한 내용은 [이 섹션](understanding-quarantine-management.md#quarantine-vs-denylist)을 참조하십시오.
+  자세한 내용은 [이 섹션](delivery-failures-quarantine.md#quarantine-vs-denylist)을 참조하십시오.
 
 * **다른 격리 오류 이유는 무엇을 의미합니까?**
 
   차단 목록에 추가하다 정의되지 않음, 잘못된 도메인, 알 수 없는 사용자, 거부, 오류 무시, 연결할 수 없음, 계정 비활성화, 사서함 가득 참, 연결되지 않음 등 10가지 가능한 이유가 있습니다.
 
-  자세한 내용은 [격리 관리 이해](understanding-quarantine-management.md)를 참조하십시오.
+  자세한 내용은 [격리 관리 이해](delivery-failures-quarantine.md)를 참조하십시오.
 
 ## 차단 목록 제거 {#remove-from-denylist}
 

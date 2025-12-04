@@ -8,7 +8,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
-source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
+source-git-commit: 0c639cc8b9636c190c868980ab5182a0eccb5f74
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 4%
@@ -67,7 +67,7 @@ ht-degree: 4%
 
 * 주소가 격리된 수신자는 기본적으로 게재 분석 중에 제외됩니다. 이 수신자는 타겟팅되지 않습니다. 이렇게 하면 오류율이 게재 속도에 중요한 영향을 미치므로 게재 속도가 빨라집니다. 예를 들어 받은 편지함이 가득 찼거나 주소가 없는 경우 이메일 주소를 격리할 수 있습니다. [자세히 알아보기](#identifying-quarantined-addresses-for-a-delivery)
 
-* Adobe Campaign은 반환된 오류 유형에 따라 잘못된 주소를 관리합니다. 이 작업에 대한 자세한 정보는 [이 섹션](understanding-quarantine-management.md)을 참조하십시오.
+* Adobe Campaign은 반환된 오류 유형에 따라 잘못된 주소를 관리합니다. 이 작업에 대한 자세한 정보는 [이 섹션](delivery-failures-quarantine.md)을 참조하십시오.
 
 
 * 일부 인터넷 액세스 제공 업체는 잘못된 주소의 비율이 너무 높은 경우 이메일을 자동으로 스팸으로 간주합니다. 따라서 이러한 공급자에 의해 차단 목록에 추가하다에 추가되는 것을 피할 수 있습니다.
@@ -76,6 +76,6 @@ ht-degree: 4%
 
 ## 이중 옵트인 메커니즘 {#double-opt-in}
 
-잘못된 주소로 메시지를 보내지 않도록 하고 부적절한 통신을 제한하며 보낸 사람의 평판을 향상시키기 위해 Adobe은 구독 후 확인을 위해 이중 옵트인 메커니즘을 구현하는 것을 권장합니다. 이렇게 하면 수신자가 의도적으로 가입했는지 확인하는 데 도움이 됩니다.
+Adobe은 잘못된 주소로 메시지를 보내지 않도록 하고 부적절한 커뮤니케이션을 제한하며 보낸 사람의 평판을 향상시키기 위해 구독 후 확인을 위한 이중 옵트인 메커니즘을 구현하는 것을 권장합니다. 이렇게 하면 수신자가 의도적으로 가입했는지 확인하는 데 도움이 됩니다.
 
 이 메커니즘을 구현하기 위한 자세한 내용은 [이 섹션](../../web/using/use-cases-web-forms.md)에 요약되어 있습니다.

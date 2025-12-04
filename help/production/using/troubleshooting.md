@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 78c65b31-e3d9-4a46-a101-26f35d00a4ee
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 0c639cc8b9636c190c868980ab5182a0eccb5f74
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 12%
+ht-degree: 18%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 12%
 
 **관련 항목**:
 
-[게재 성능 문제](../../delivery/using/delivery-performances.md)
+[게재 성능 문제](../../delivery/using/delivery-performance-troubleshooting.md)
 
 ## 로그 작업 {#working-with-logs}
 
