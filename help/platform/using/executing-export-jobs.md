@@ -8,7 +8,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 2%
@@ -85,7 +85,7 @@ ht-degree: 2%
 
    ![](assets/s_ncs_user_export_wizard04.png)
 
-1. 함수를 호출하려면 **[!UICONTROL Add]** 단추를 클릭하십시오. 자세한 내용은 [함수 목록](../../platform/using/about-queries-in-campaign.md)을 참조하세요.
+1. 함수를 호출하려면 **[!UICONTROL Add]** 단추를 클릭하십시오. 자세한 내용은 [함수 목록](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)을 참조하세요.
 
 ## 5단계 - 열 정렬 {#step-5---sorting-columns}
 

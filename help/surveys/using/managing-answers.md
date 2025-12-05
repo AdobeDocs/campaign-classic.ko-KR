@@ -5,7 +5,7 @@ description: 설문 조사 답변을 관리하는 방법 알아보기
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
 source-wordcount: '848'
 ht-degree: 1%
@@ -96,7 +96,7 @@ Adobe Campaign의 모든 웹 양식에 공통되는 표준 저장소 모드(데�
 
 >[!NOTE]
 >
->다른 필드 형식의 경우 구문은 [이 섹션](../../platform/using/about-queries-in-campaign.md)에 자세히 설명되어 있습니다.
+>다른 필드 형식의 경우 구문은 [이 섹션](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)에 자세히 설명되어 있습니다.
 
 ### 저장소 설정 {#storage-settings}
 
@@ -108,7 +108,7 @@ Adobe Campaign의 모든 웹 양식에 공통되는 표준 저장소 모드(데�
 
 방법은 다음과 같습니다.
 
-* **[!UICONTROL Edit]** 탭의 **[!UICONTROL Properties]** 단추를 통해 설문 조사 속성을 편집합니다.
+* **[!UICONTROL Properties]** 탭의 **[!UICONTROL Edit]** 단추를 통해 설문 조사 속성을 편집합니다.
 * **[!UICONTROL Advanced parameters]** 링크를 클릭하고 **[!UICONTROL Save a copy of raw answers]** 옵션을 선택합니다.
 
 ![](assets/s_ncs_admin_survey_xml_archive_option.png)

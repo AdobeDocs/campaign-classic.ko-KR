@@ -6,7 +6,7 @@ feature: Workflows, Targeting Activity, Data Management
 hide: true
 hidefromtoc: true
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
-source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 4%
@@ -102,7 +102,7 @@ Adobe Campaign에서 업데이트할 필드를 자동으로 식별하려면 **[!
 
 1. 기본 레코드로 이동할 컬렉션과 업데이트할 필드를 선택합니다.
 
-   하나 또는 여러 개의 보조 레코드가 식별되면 여기에 적용되는 규칙을 입력합니다. 이를 위해 표현식 빌더를 사용할 수 있습니다. 자세한 정보는 이 [섹션](../../platform/using/about-queries-in-campaign.md)을 참조하세요. 예를 들어, 보관해야 하는 모든 레코드 중에서 가장 최근에 업데이트된 값임을 지정하여 를 들 수 있습니다.
+   하나 또는 여러 개의 보조 레코드가 식별되면 여기에 적용되는 규칙을 입력합니다. 이를 위해 표현식 빌더를 사용할 수 있습니다. 자세한 정보는 이 [섹션](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)을 참조하세요. 예를 들어, 보관해야 하는 모든 레코드 중에서 가장 최근에 업데이트된 값임을 지정하여 를 들 수 있습니다.
 
    그런 다음 규칙에 고려할 조건을 입력합니다.
 

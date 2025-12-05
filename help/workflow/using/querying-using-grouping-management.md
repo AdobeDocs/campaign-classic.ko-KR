@@ -6,7 +6,7 @@ feature: Query Editor, Workflows
 hide: true
 hidefromtoc: true
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
-source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 3%
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 1. **[!UICONTROL Data to extract]** 창에서 **[!UICONTROL Email domain]** 및 **[!UICONTROL Primary key]** 필드를 선택합니다. **[!UICONTROL Primary key]** 필드에서 개수를 실행합니다.
 
-   기본 키 수에 대한 자세한 정보는 [이 섹션](../../platform/using/about-queries-in-campaign.md)을 참조하세요.
+   기본 키 수에 대한 자세한 정보는 [이 섹션](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)을 참조하세요.
 
 1. **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** 상자를 선택합니다.
 

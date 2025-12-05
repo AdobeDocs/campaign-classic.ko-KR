@@ -9,7 +9,7 @@ level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 hide: true
 hidefromtoc: true
-source-git-commit: b27b85b126e002c0ea8b5d71da1ed60e1e817980
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 2%
@@ -35,7 +35,7 @@ Explorer 탐색 트리의 각 폴더에는 읽기, 쓰기 및 삭제 액세스 �
 
 ![](assets/s_ncs_user_add_folder_in_tree.png)
 
-Explorer 탐색 트리를 사용자 지정할 수 있습니다. 구성 단계 및 모범 사례를 이 섹션[&#128279;](adobe-campaign-workspace.md)에서 알아봅니다.
+Explorer 탐색 트리를 사용자 지정할 수 있습니다. 구성 단계 및 모범 사례를 이 섹션[에서 ](adobe-campaign-workspace.md)알아봅니다.
 
 ### 보기란 무엇입니까? {#about-views}
 
@@ -77,7 +77,7 @@ Explorer 탐색 트리를 사용자 지정할 수 있습니다. 구성 단계 �
 
    >[!NOTE]
    >
-   >쿼리 편집기가 [이 섹션](../../platform/using/about-queries-in-campaign.md)에 표시됩니다.
+   >쿼리 편집기가 [이 섹션](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)에 표시됩니다.
 
    다음 필터 조건 사용:
 

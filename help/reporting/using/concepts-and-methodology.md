@@ -7,7 +7,7 @@ badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 hide: true
 hidefromtoc: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 1%
@@ -50,9 +50,9 @@ Adobe Campaign은 자동 비닝을 위한 도우미도 제공합니다. 값은 N
 
 ![](assets/s_advuser_cube_class_03.png)
 
-SQL 마스크를 사용하여 여러 값을 필터로 결합할 수 있습니다. 이렇게 하려면 **[!UICONTROL Use an SQL mask]** 열에서 **[!UICONTROL Yes]**&#x200B;을(를) 확인하고 **[!UICONTROL Value or expression]** 열에 적용할 SQL 필터를 입력하십시오.
+SQL 마스크를 사용하여 여러 값을 필터로 결합할 수 있습니다. 이렇게 하려면 **[!UICONTROL Yes]** 열에서 **[!UICONTROL Use an SQL mask]**&#x200B;을(를) 확인하고 **[!UICONTROL Value or expression]** 열에 적용할 SQL 필터를 입력하십시오.
 
-아래 예에서는 **yahoo**(yahoo.fr, yahoo.com, yahoo.be 등)으로 시작되거나 **ymail**(ymail.com, ymail.eu 등)로 시작하는 모든 전자 메일 도메인입니다. **YAHOO! 레이블 아래에 그룹화됩니다.** 및 **rocketmail.com** 도메인의 주소입니다.
+아래 예에서는 **yahoo**(yahoo.fr, yahoo.com, yahoo.be 등) 또는 **ymail**(ymail.com, ymail.eu 등)로 시작하는 모든 전자 메일 도메인이 **YAHOO! 레이블 아래에 그룹화됩니다.** 및 **rocketmail.com** 도메인의 주소입니다.
 
 ![](assets/s_advuser_cube_class_03b.png)
 
@@ -171,7 +171,7 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 
 1. 필요한 경우 연산자에 따라 연산에 관련된 표현식을 선택합니다.
 
-   **[!UICONTROL Advanced selection]** 단추를 사용하면 복잡한 계산 공식을 만들 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/about-queries-in-campaign.md)을 참조하십시오.
+   **[!UICONTROL Advanced selection]** 단추를 사용하면 복잡한 계산 공식을 만들 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)을 참조하십시오.
 
    ![](assets/s_advuser_cube_create_a_measure_01.png)
 

@@ -8,7 +8,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 8e308a9f-14a4-4a25-9fd0-8d4bdbcf74ce
-source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 94%
@@ -83,11 +83,11 @@ Adobe Campaign이 제공하는 [동의 관리](privacy-management.md#consent-man
 
    ![](assets/privacy-ccpa-5.png)
 
-1. 옵트아웃 열이 표시되도록 수신자 목록을 구성합니다. 목록을 구성하는 방법을 알아보려면 [자세한 설명서](../../platform/using/adobe-campaign-workspace.md#configuring-lists)를 참조하십시오.
+1. 옵트아웃 열이 표시되도록 수신자 목록을 구성합니다. 목록을 구성하는 방법을 알아보려면 [자세한 설명서](../../platform/using/adobe-campaign-ui-lists.md#configuring-lists)를 참조하십시오.
 
    ![](assets/privacy-ccpa-6.png)
 
-1. 이 열을 클릭하여 옵트아웃 정보에 따라 수신자를 정렬할 수 있습니다. 옵트아웃한 수신자만 표시하는 필터를 만들 수도 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
+1. 이 열을 클릭하여 옵트아웃 정보에 따라 수신자를 정렬할 수 있습니다. 옵트아웃한 수신자만 표시하는 필터를 만들 수도 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
 
 
    ![](assets/privacy-ccpa-7.png)

@@ -5,7 +5,7 @@ description: 보고서에서 컨텍스트를 사용하는 방법을 알아봅니
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Reporting, Monitoring
 exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 이렇게 하면 보고서의 **[!UICONTROL Page]** 활동을 통해 보고서에 직접 표시할 데이터를 선택할 수 있습니다.
 
-이렇게 하려면 **[!UICONTROL Data]** 탭에서 **[!UICONTROL Filter data...]** 링크를 클릭합니다. 이 링크를 사용하면 표현식 편집기에 액세스하여 분석할 데이터에 대한 쿼리를 정의할 수 있습니다.
+이렇게 하려면 **[!UICONTROL Filter data...]** 탭에서 **[!UICONTROL Data]** 링크를 클릭합니다. 이 링크를 사용하면 표현식 편집기에 액세스하여 분석할 데이터에 대한 쿼리를 정의할 수 있습니다.
 
 ![](assets/reporting_filter_data_from_page.png)
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 다음 예제에서는 프랑스에 거주하고 해당 연도 동안 구매한 수신자 프로필만 차트에 표시하도록 하려고 합니다.
 
-이 필터를 정의하려면 차트에 페이지를 배치한 다음 편집합니다. **[!UICONTROL Filter data]** 링크를 클릭하고 표시할 데이터와 일치하는 필터를 만듭니다. Adobe Campaign에서 쿼리를 작성하는 방법에 대한 자세한 내용은 [이 섹션](../../platform/using/about-queries-in-campaign.md)을 참조하세요.
+이 필터를 정의하려면 차트에 페이지를 배치한 다음 편집합니다. **[!UICONTROL Filter data]** 링크를 클릭하고 표시할 데이터와 일치하는 필터를 만듭니다. Adobe Campaign에서 쿼리를 작성하는 방법에 대한 자세한 내용은 [이 섹션](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)을 참조하세요.
 
 ![](assets/s_ncs_advuser_report_wizard_029.png)
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 1. 차트에 페이지를 배치한 다음 편집합니다.
 1. 피벗 테이블을 만듭니다.
 1. **[!UICONTROL Data]** 탭으로 이동하여 사용할 큐브를 선택하십시오.
-1. 회사 목록에서 Adobe을 제거하려면 **[!UICONTROL Filter data...]** 링크를 클릭하고 다음 쿼리를 정의하십시오.
+1. **[!UICONTROL Filter data...]** 링크를 클릭하고 다음 쿼리를 정의하여 회사 목록에서 Adobe을 제거합니다.
 
    ![](assets/s_ncs_advuser_report_display_03.png)
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 ![](assets/s_ncs_advuser_report_datasource_3.png)
 
 * **[!UICONTROL New query]** 옵션을 사용하면 데이터를 수집하기 위한 쿼리를 작성할 수 있습니다. 자세한 내용은 [데이터에 대한 직접 필터 정의](#defining-a-direct-filter-on-data)를 참조하세요.
-* **[!UICONTROL Context data]** 옵션을 사용하면 입력 데이터를 사용할 수 있습니다. 보고서의 컨텍스트는 차트 또는 표를 포함하는 페이지의 인바운드 전환에 포함된 정보와 일치합니다. 예를 들어, 이 컨텍스트에는 **[!UICONTROL Page]** 활동 전에 배치된 **[!UICONTROL Query]** 활동을 통해 수집된 데이터를 포함할 수 있으며, 이에 대해 보고서와 관련된 테이블 및 필드를 지정해야 합니다.
+* **[!UICONTROL Context data]** 옵션을 사용하면 입력 데이터를 사용할 수 있습니다. 보고서의 컨텍스트는 차트 또는 표를 포함하는 페이지의 인바운드 전환에 포함된 정보와 일치합니다. 예를 들어, 이 컨텍스트에는 **[!UICONTROL Query]** 활동 전에 배치된 **[!UICONTROL Page]** 활동을 통해 수집된 데이터를 포함할 수 있으며, 이에 대해 보고서와 관련된 테이블 및 필드를 지정해야 합니다.
 
 예를 들어 쿼리 상자에서 수신자에 대해 다음 쿼리를 작성합니다.
 
