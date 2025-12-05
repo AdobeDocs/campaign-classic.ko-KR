@@ -25,11 +25,11 @@ ht-degree: 2%
 
 ### 추천
 
-위의 항목을 사용하고 있지 않은지 확인하고 확인하려면 [Campaign 일반 쿼리 편집기](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)를 통해 URL 추적 테이블에서 쿼리를 실행하거나 쿼리 활동에서 필터 조건을 사용하는 워크플로우를 만드십시오. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}를 참조하세요.
+위의 항목을 사용하고 있지 않은지 확인하고 확인하려면 [Campaign 일반 쿼리 편집기](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)를 통해 URL 추적 테이블에서 쿼리를 실행하거나 쿼리 활동에서 필터 조건을 사용하는 워크플로우를 만드십시오. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"}를 참조하세요.
 
 예:
 
-1. 워크플로우를 만들고 **쿼리** 활동을 추가합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}를 참조하세요.
+1. 워크플로우를 만들고 **쿼리** 활동을 추가합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"}를 참조하세요.
 
 1. **Query** 활동을 열고 `nmsTrackingUrl` 테이블에 다음과 같이 필터를 만듭니다.
 
