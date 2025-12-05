@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 8a2a3239c08521765592491a6fe88c94d9db0640
+source-git-commit: 7b3d34ddde08f0bfc8d35f4e17e9eef4eb640483
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 99%
+source-wordcount: '341'
+ht-degree: 96%
 
 ---
 
@@ -79,7 +79,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>시작</strong><br/><a href="platform/using/adobe-campaign-workspace.md">사용자 인터페이스</a> - <a href="platform/using/ac-glossary.md">용어집</a> - <a href="platform/using/launching-adobe-campaign.md">Campaign에 연결</a> - <a href="platform/using/get-started-data-import-export.md">데이터 가져오기 및 내보내기</a> - <a href="platform/using/access-management.md">권한</a>
+      <strong>시작</strong><br/><a href="platform/using/adobe-campaign-workspace.md">사용자 인터페이스</a> - <a href="platform/using/launching-adobe-campaign.md">Campaign에 연결</a> - <a href="platform/using/get-started-data-import-export.md">데이터 가져오기 및 내보내기</a> - <a href="platform/using/access-management.md">권한</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
