@@ -24,20 +24,20 @@ Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명
 
 >[!TAB 통신 채널 설명서]
 
-통신 채널에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html){target=_blank}를 참조하세요.
+통신 채널에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=ko){target=_blank}를 참조하세요.
 
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=ko){target=_blank}
 
 
 >[!TAB 게재 콘텐츠 및 대상자]
 
 Campaign v8 설명서&#x200B;**에서 게재 만들기, 콘텐츠 및 대상**&#x200B;과(와) 관련된 주요 단계를 알아보세요.
 
-* [게재 만들기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#create-the-delivery){target="_blank"}: 일회성 단일 게재를 만드는 방법을 알아봅니다.
-* [콘텐츠 정의](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#content-of-the-delivery){target="_blank"}: 각 채널별로 게재 콘텐츠를 구성합니다.
+* [게재 만들기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#create-the-delivery){target="_blank"}: 일회성 단일 게재를 만드는 방법을 알아봅니다.
+* [콘텐츠 정의](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#content-of-the-delivery){target="_blank"}: 각 채널별로 게재 콘텐츠를 구성합니다.
 * [대상 지정](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#target-population){target="_blank"}: 주 대상, 증명 대상, 시드 주소 및 컨트롤 그룹 등 여러 유형의 대상을 정의합니다.
-* [게재 템플릿 작업](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}: 게재를 쉽게 만들 수 있도록 템플릿을 정의하는 방법을 알아봅니다.
+* [게재 템플릿 작업](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ko){target="_blank"}: 게재를 쉽게 만들 수 있도록 템플릿을 정의하는 방법을 알아봅니다.
 
 
 
@@ -47,13 +47,13 @@ Campaign v8 설명서&#x200B;**에서 게재 만들기, 콘텐츠 및 대상**&#
 
 다음 페이지를 참조하여 게재 유효성 검사, 전송 및 모범 사례 **Campaign v8 설명서**&#x200B;에 대해 알아보십시오.
 
-* [게재 유효성 검사](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#validate-the-delivery){target="_blank"}: 기본 대상으로 보내기 전에 게재의 유효성을 검사하는 방법을 알아봅니다.
-* [게재 보내기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#configuring-and-sending-the-delivery){target="_blank"}: 게재 설정을 구성하고 메시지를 보내는 방법을 정의합니다.
-* [게재 모범 사례](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}: Campaign 게재 기능 관련 모범 사례를 참조하세요.
+* [게재 유효성 검사](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#validate-the-delivery){target="_blank"}: 기본 대상으로 보내기 전에 게재의 유효성을 검사하는 방법을 알아봅니다.
+* [게재 보내기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#configuring-and-sending-the-delivery){target="_blank"}: 게재 설정을 구성하고 메시지를 보내는 방법을 정의합니다.
+* [게재 모범 사례](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ko){target="_blank"}: Campaign 게재 기능 관련 모범 사례를 참조하세요.
 
 >[!ENDTABS]
 
-다음 설정은 Campaign Classic에만 적용됩니다. 다른 게재 설정은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html){target="_blank"}를 참조하세요.
+다음 설정은 Campaign Classic에만 적용됩니다. 다른 게재 설정은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=ko){target="_blank"}를 참조하세요.
 
 +++ **게재 분석**
 
@@ -128,7 +128,7 @@ Campaign v8 설명서&#x200B;**에서 게재 만들기, 콘텐츠 및 대상**&#
 
    Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
 
-For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko){target="_blank"}. 
 
 >[!NOTE]
 >
