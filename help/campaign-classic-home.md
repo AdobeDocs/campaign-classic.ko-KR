@@ -89,7 +89,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>메시지 보내기</strong><br/><a href="delivery/using/communication-channels.md">커뮤니케이션 채널</a> - <a href="delivery/using/steps-about-delivery-creation-steps.md#sending-a-proof">교정쇄 보내기</a> - <a href="delivery/using/get-started-a-b-testing.md">A/B 테스트</a> - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">메시지 추적</a> - <a href="delivery/using/about-deliverability.md">전달성</a> - <a href="message-center/using/about-transactional-messaging.md">트랜잭션 메시지</a>
+      <strong>메시지 보내기</strong><br/><a href="delivery/using/communication-channels.md">커뮤니케이션 채널</a> - <a href="delivery/using/steps-about-delivery-creation-steps.md#sending-a-proof">교정쇄 보내기</a> - <a href="delivery/using/get-started-a-b-testing.md">A/B 테스트</a> - <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">메시지 추적</a> - <a href="delivery/using/about-deliverability.md">전달성</a> - <a href="message-center/using/about-transactional-messaging.md">트랜잭션 메시지</a>
     </td>
   </tr>
   <tr style="border: 0;">
