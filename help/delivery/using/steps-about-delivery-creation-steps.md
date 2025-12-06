@@ -31,7 +31,7 @@ ht-degree: 17%
 
 1. **게재를 보냅니다**. [자세히 보기](steps-sending-the-delivery.md)
 
-1. **게재를 모니터링**(추적, 격리, 보고서 등). 자세한 내용은 [게재 모니터링](about-delivery-monitoring.md) 및 [메시지 추적](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"} 섹션을 참조하세요.
+1. **게재를 모니터링**(추적, 격리, 보고서 등). 자세한 내용은 [게재 모니터링](about-delivery-monitoring.md) 및 [메시지 추적](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"} 섹션을 참조하세요.
 
 >[!NOTE]
 >

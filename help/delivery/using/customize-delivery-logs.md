@@ -16,11 +16,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->게재 목록 액세스 및 게재 대시보드 사용에 대한 포괄적인 지침은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard)에 설명되어 있습니다. 이 콘텐츠는 Campaign Classic v7 및 Campaign v8 사용자 모두에게 적용됩니다.
+>게재 목록 액세스 및 게재 대시보드 사용에 대한 포괄적인 지침은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard)에 설명되어 있습니다. 이 콘텐츠는 Campaign Classic v7 및 Campaign v8 사용자 모두에게 적용됩니다.
 >
 >이 페이지는 하이브리드 및 온-프레미스 배포를 위한 **Campaign Classic v7별 고급 사용자 지정**&#x200B;을 문서화합니다.
 
-Campaign UI에서 게재를 모니터링하려면 [Campaign v8 Campaign UI 설명서에서 게재 모니터링](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}을 참조하세요.
+Campaign UI에서 게재를 모니터링하려면 [Campaign v8 Campaign UI 설명서에서 게재 모니터링](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}을 참조하세요.
 
 ## 게재 로그 사용자 지정 {#use-case}
 
@@ -113,9 +113,9 @@ Campaign UI에서 게재를 모니터링하려면 [Campaign v8 Campaign UI 설�
 
 ## 관련 항목
 
-* [Campaign UI에서 게재 모니터링](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}(Campaign v8 설명서)
-* [게재 상태](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"}(Campaign v8 설명서)
-* [게재 실패 이해](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}(Campaign v8 설명서)
-* [격리 관리](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}(Campaign v8 설명서)
+* [Campaign UI에서 게재 모니터링](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}(Campaign v8 설명서)
+* [게재 상태](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"}(Campaign v8 설명서)
+* [게재 실패 이해](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}(Campaign v8 설명서)
+* [격리 관리](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}(Campaign v8 설명서)
 * [스키마 확장](../../configuration/using/extending-a-schema.md)(v7 하이브리드/온-프레미스)
 

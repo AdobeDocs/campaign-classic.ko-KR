@@ -79,8 +79,8 @@ Adobe Campaign은 지속적으로 발생하는 스팸 불만, 하드 바운스 �
 
 자세한 내용은 다음 섹션을 참조하십시오.
 
-* [게재 실패 이해](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}(Campaign v8 설명서 - 종합 안내서)
-* [격리 관리 이해](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}(Campaign v8 설명서 - 포괄적인 안내서)
+* [게재 실패 이해](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}(Campaign v8 설명서 - 종합 안내서)
+* [격리 관리 이해](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}(Campaign v8 설명서 - 포괄적인 안내서)
 
 ### 모니터링 및 보고 도구 사용
 

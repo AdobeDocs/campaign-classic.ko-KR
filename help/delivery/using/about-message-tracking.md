@@ -16,12 +16,12 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Campaign Classic v7 및 Campaign v8에 모두 적용되는 **일반 추적 지침**&#x200B;에 대해서는 [Campaign v8 메시지 추적 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"}를 참조하세요.
+>Campaign Classic v7 및 Campaign v8에 모두 적용되는 **일반 추적 지침**&#x200B;에 대해서는 [Campaign v8 메시지 추적 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"}를 참조하세요.
 >
->* [추적된 링크 구성](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"}
->* [URL 추적 옵션 구성](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"}
->* [개인화된 링크 추적](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/personalized-links){target="_blank"}
->* [추적 로그 액세스](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"}
+>* [추적된 링크 구성](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"}
+>* [URL 추적 옵션 구성](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"}
+>* [개인화된 링크 추적](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/personalized-links){target="_blank"}
+>* [추적 로그 액세스](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"}
 >* [테스트 추적](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/testing-tracking){target="_blank"}
 >* [보고서 추적](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/reporting/delivery-reports#tracking-indicators){target="_blank"}
 >
@@ -82,7 +82,7 @@ Campaign에는 두 가지 유형의 추적이 있습니다.
 
 다음 문제 해결 팁은 **Campaign Classic v7 하이브리드/온-프레미스 배포**&#x200B;에 적용됩니다. 일부 정보는 Campaign v8 온-프레미스 배포에도 적용될 수 있습니다. Campaign v8 관리 클라우드 서비스의 경우 Adobe 담당자에게 지원을 요청하십시오.
 
-Campaign v8의 기본 추적 문제 해결 단계는 Campaign v8 설명서의 [추적 문제 해결](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking-logs#troubleshooting){target="_blank"}을 참조하십시오.
+Campaign v8의 기본 추적 문제 해결 단계는 Campaign v8 설명서의 [추적 문제 해결](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracking-logs#troubleshooting){target="_blank"}을 참조하십시오.
 
 ### 기본 검사 {#basic-checks}
 
