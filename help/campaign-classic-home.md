@@ -4,9 +4,9 @@ product: campaign
 title: Adobe Campaign Classic v7 제품 설명서
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: 7b3d34ddde08f0bfc8d35f4e17e9eef4eb640483
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
