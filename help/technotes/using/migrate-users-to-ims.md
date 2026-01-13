@@ -41,7 +41,7 @@ Adobe은 이러한 마이그레이션 작업을 지원합니다. 아래 문서�
 >
 >사용자를 IMS로 마이그레이션한 후에는 Adobe Admin Console의 제품 프로필 이름에 &quot;admin&quot;이라는 단어가 포함된 경우(&quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot; 등)가 자동으로 Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 부여한다는 것을 알고 있어야 합니다. Campaign 컨트롤 패널은 Campaign 인스턴스를 크게 변경할 수 있는 셀프서비스 도구입니다.
 >
->제품 프로필 이름 지정 규칙을 주의 깊게 검토하여 승인된 사용자만 Campaign 컨트롤 패널에 액세스할 수 있도록 합니다. [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}에서 Campaign 컨트롤 패널 권한 관리에 대해 자세히 알아보세요.
+>제품 프로필 이름 지정 규칙을 주의 깊게 검토하여 승인된 사용자만 Campaign 컨트롤 패널에 액세스할 수 있도록 합니다. [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko){target="_blank"}에서 Campaign 컨트롤 패널 권한 관리에 대해 자세히 알아보세요.
 
 
 ## 호스팅 및 Managed Services 환경을 마이그레이션하는 방법 {#ims-migration-procedure}
