@@ -35,11 +35,11 @@ ht-degree: 6%
 |---|---------|----------|---------|-------|--------|
 | 1 | `about-email-channel.md` | [campaign-web/v8/email](https://experienceleague.adobe.com/en/docs/campaign-web/v8/email) | 95% | v8의 이메일 기본 사항 | 🗑️ DELETE |
 | 2 | `communication-channels.md` | [campaign-web/v8/msg](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg) | 85% | v8의 채널 개요 | 🗑️ DELETE |
-| 3 | `steps-about-delivery-creation-steps.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/gs-deliveries) | 90% | v8의 게재 프로세스 | 🗑️ DELETE |
-| 4 | `key-steps-when-creating-a-delivery.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/gs-deliveries) | 90% | 위와 동일 | 🗑️ DELETE |
+| 3 | `steps-about-delivery-creation-steps.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/msg/gs-deliveries) | 90% | v8의 게재 프로세스 | 🗑️ DELETE |
+| 4 | `key-steps-when-creating-a-delivery.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/msg/gs-deliveries) | 90% | 위와 동일 | 🗑️ DELETE |
 | 5 | `delivery-best-practices.md` | [campaign/v8/send/best-practices](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/best-practices) | 85% | v8의 우수 사례 | 🗑️ DELETE |
-| 6 | `steps-validating-the-delivery.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/gs-deliveries) | 80% | v8에서의 유효성 검사 | 🗑️ DELETE |
-| 7 | `steps-sending-the-delivery.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/gs-deliveries) | 85% | v8에서 보내기 | 🗑️ DELETE |
+| 6 | `steps-validating-the-delivery.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/msg/gs-deliveries) | 80% | v8에서의 유효성 검사 | 🗑️ DELETE |
+| 7 | `steps-sending-the-delivery.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/msg/gs-deliveries) | 85% | v8에서 보내기 | 🗑️ DELETE |
 | 8 | `deliveries-with-recurring-dates.md` | [campaign-web/v8/workflow](https://experienceleague.adobe.com/en/docs/campaign-web/v8/workflows) | 70% | v8에서 워크플로우 스케줄러 확인 | 🔍 검토 |
 
 **요약**: 7 DELETE, 0 유지, 0 이동, 1 검토
@@ -53,7 +53,7 @@ ht-degree: 6%
 | 9 | `creating-an-email-delivery.md` | [campaign-web/v8/email/create-email](https://experienceleague.adobe.com/en/docs/campaign-web/v8/email/create-email) | 95% | 이메일 생성이 완전히 문서화됨 | 🗑️ DELETE |
 | 10 | `email-parameters.md` | [campaign-web/v8/email/configure-and-send](https://experienceleague.adobe.com/en/docs/campaign-web/v8/email/configure-and-send) | 85% | v8의 설정 | 🗑️ DELETE |
 | 11 | `defining-the-email-content.md` | [campaign-web/v8/email/edit-content](https://experienceleague.adobe.com/en/docs/campaign-web/v8/email/edit-content) | 90% | v8에서 콘텐츠 편집 | 🗑️ DELETE |
-| 12 | `email-content-templates.md` | [campaign-web/v8/msg/delivery-template](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-template) | 85% | v8의 템플릿 | 🗑️ DELETE |
+| 12 | `email-content-templates.md` | [campaign-web/v8/msg/delivery-template](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/msg/delivery-template) | 85% | v8의 템플릿 | 🗑️ DELETE |
 | 13 | `formatting.md` | [campaign-web/v8/email/edit-content](https://experienceleague.adobe.com/en/docs/campaign-web/v8/email/edit-content) | 80% | v8의 이메일 디자이너 | 🗑️ DELETE |
 | 14 | `inserting-images.md` | [campaign-web/v8/email/edit-content](https://experienceleague.adobe.com/en/docs/campaign-web/v8/email/edit-content) | 85% | v8의 이미지 처리 | 🗑️ DELETE |
 | 15 | `attaching-files.md` | [campaign-web/v8/email](https://experienceleague.adobe.com/en/docs/campaign-web/v8/email) | 90% | v8의 첨부 파일 | 🗑️ DELETE |
@@ -73,7 +73,7 @@ ht-degree: 6%
 | 27 | `sms-channel.md` | [campaign-web/v8/msg/send-sms](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-sms) | 90% | v8의 SMS 기본 사항 | 🗑️ DELETE |
 | 28 | `sms-send.md` | [campaign-web/v8/msg/send-sms](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-sms) | 95% | v8에서 SMS 보내기 | 🗑️ DELETE |
 | 29 | **`sms-set-up-mid.md`** | 없음 | **0%** | **중간 소싱 설정(온-프레미스 전용)** | ✅ **유지** |
-| 30 | `sms-protocol.md` | [campaign/v8/send/sms/smpp](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms) | 60% | 고급 SMPP, v8 깊이 확인 | 🔍 검토 |
+| 30 | `sms-protocol.md` | [campaign/v8/send/sms/smpp](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/sms) | 60% | 고급 SMPP, v8 깊이 확인 | 🔍 검토 |
 | 31 | `sms-create.md` | [campaign-web/v8/msg/send-sms](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-sms) | 90% | v8에서 SMS 만들기 | 🗑️ DELETE |
 | 32 | `line-channel.md` | [campaign/v8/send/line](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/line) | 85% | v8의 LINE 채널 | 🗑️ DELETE |
 | 33 | `sms-content.md` | [campaign-web/v8/msg/send-sms](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-sms) | 90% | v8의 SMS 콘텐츠 | 🗑️ DELETE |
@@ -129,8 +129,8 @@ ht-degree: 6%
 
 | # | v7 파일 | v8 일치 | 일치 % | 참고 | 작업 |
 |---|---------|----------|---------|-------|--------|
-| 55 | `about-templates.md` | [campaign-web/v8/msg/delivery-template](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-template) | 90% | v8의 템플릿 | 🗑️ DELETE |
-| 56 | `creating-a-delivery-template.md` | [campaign-web/v8/msg/delivery-template](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-template) | 95% | v8에서 템플릿 만들기 | 🗑️ DELETE |
+| 55 | `about-templates.md` | [campaign-web/v8/msg/delivery-template](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/msg/delivery-template) | 90% | v8의 템플릿 | 🗑️ DELETE |
+| 56 | `creating-a-delivery-template.md` | [campaign-web/v8/msg/delivery-template](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/msg/delivery-template) | 95% | v8에서 템플릿 만들기 | 🗑️ DELETE |
 | 57 | `about-seed-addresses.md` | [campaign/v8/send/test-and-send](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/test-and-send) | 95% | v8의 시드 완전 | 🗑️ DELETE |
 | 58-60 | *(템플릿 파일 3개 더 있음)* | 다양한 v8 | 85-95% | v8의 모든 항목 | 🗑️ DELETE |
 
@@ -157,7 +157,7 @@ ht-degree: 6%
 |---|---------|----------|---------|-------|--------|
 | 75 | `understanding-delivery-failures.md` | [campaign/v8/send/delivery-failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-failures) | 85% | v8에 기록된 장애 | 🗑️ DELETE |
 | 76 | `delivery-troubleshooting.md` | [campaign/v8/send/delivery-failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-failures) | 70% | 유용한 팁: **누락된 콘텐츠 마이그레이션** | ➡️ 이동 |
-| 77 | `troubleshooting-sms.md` | [campaign/v8/send/sms](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms) | 65% | SMS별 문제, **마이그레이션** | ➡️ 이동 |
+| 77 | `troubleshooting-sms.md` | [campaign/v8/send/sms](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/sms) | 65% | SMS별 문제, **마이그레이션** | ➡️ 이동 |
 | 78 | **`monitoring-deliverability.md`** | 없음 | **0%** | **온-프레미스 모니터링 도구** | ✅ **유지** |
 | 79-83 | *(문제 해결 파일 5개 더 있음)* | 다양한 v8 | 60-85% | 혼합형, 사안별 검토 | 🗑️ DELETE / ➡️ 이동 |
 
