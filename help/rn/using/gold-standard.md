@@ -28,7 +28,7 @@ ht-degree: 100%
 
 [!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
-_2021년 9월 7일_
+_2021년 9월 7일 수요일_
 
 빌드 9032@554dbcd에는 다음 수정 사항이 포함되어 있습니다.
 
@@ -45,7 +45,7 @@ _2021년 8월 27일_
 
 [!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
-_2021년 4월 14일_
+_2021년 4월 14일 목요일_
 
 빌드 9032@d030c36에는 다음 수정 사항을 포함합니다.
 
@@ -62,7 +62,7 @@ _2021년 4월 14일_
 >
 >이 [[!DNL Gold Standard] 섹션](../../rn/using/gold-standard.md)에서 자세히 알아보기
 
-_2021년 3월 2일_
+_2021년 3월 2일 수요일_
 
 빌드 9032@10c2709에는 다음 수정 사항을 포함합니다.
 
@@ -72,9 +72,9 @@ _2021년 3월 2일_
 
 >[!NOTE]
 >
-> [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html)에 연결하여 새 버전을 다운로드합니다. [이 페이지에서](../../installation/using/client-console-availability-for-windows.md) 모든 최종 사용자에게 콘솔 업데이트를 제안하는 방법을 알아봅니다.
+> [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에 연결하여 새 버전을 다운로드합니다. [이 페이지에서](../../installation/using/client-console-availability-for-windows.md) 모든 최종 사용자에게 콘솔 업데이트를 제안하는 방법을 알아봅니다.
 
-_2020년 12월 22일_
+_2020년 12월 22일 수요일_
 
 빌드 9032@d3b452f는 다음과 같은 개선 사항 및 수정 사항을 포함합니다.
 
@@ -92,7 +92,7 @@ _2020년 12월 22일_
 
 [!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
-_2020년 7월 7일_
+_2020년 7월 7일 수요일_
 
 빌드 9032@efd8a94에는 다음 수정 사항이 포함되어 있습니다.
 
@@ -124,7 +124,7 @@ _2020년 6월 22일_
 
 [!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
-_2020년 4월 29일_
+_2020년 4월 29일 목요일_
 
 빌드 9032@3a9dc9c에는 다음 수정 사항이 포함되어 있습니다.
 
@@ -151,7 +151,7 @@ _2020년 4월 29일_
 
 [!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
-_2020년 3월 9일_
+_2020년 3월 9일 화요일_
 
 빌드 9032@19f73c5에는 다음 수정 사항이 포함되어 있습니다.
 
@@ -161,7 +161,7 @@ _2020년 3월 9일_
 
 [!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
-_2019년 12월 17일_
+_2019년 12월 17일 수요일_
 
 빌드 9032@d6b8062에는 다음 수정 사항이 포함되어 있습니다.
 
@@ -171,7 +171,7 @@ _2019년 12월 17일_
 
 [!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
-_2019년 12월 11일_
+_2019년 12월 11일 목요일_
 
 빌드 9032@bc4a935에는 다음 수정 사항이 포함되어 있습니다.
 
@@ -181,7 +181,7 @@ _2019년 12월 11일_
 
 [!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
-_2019년 11월 20일_
+_2019년 11월 20일 목요일_
 
 빌드 9032@3468c7b에는 다음 수정 사항이 포함되어 있습니다.
 
@@ -193,7 +193,7 @@ _2019년 11월 20일_
 
 [!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
-_2019년 9월 19일_
+_2019년 9월 19일 금요일_
 
 빌드 9032@cee805c에는 다음 수정 사항이 포함되어 있습니다.
 
@@ -211,7 +211,7 @@ _2019년 8월 13일_
 * 도우미 구성 중 스케줄러 활동이 원치 않는 오류 메시지를 생성하는 문제를 해결했습니다. NEO-11662에서 업데이트를 되돌립니다. (NEO-17097)
 * 테스트 활동이 두 번 실행될 때 워크플로를 중지할 수 있는 NEO-12727에 의해 발생하는 회귀 문제를 해결했습니다. (NEO-16835)
 * API 호출에서 유효하지 않거나 만료된 세션 토큰이 사용된 경우 잘못된 HTTP 코드(HTTP 403 대신 HTTP 200 OK)가 반환되는 문제를 해결했습니다. (NEO-16826)
-* DKIM 키가 더 이상 전자 메일에 포함되지 않아 게재 문제가 발생하는 문제를 해결했습니다. (NEO-16804)
+* DKIM 키가 더 이상 전자 메일에 임베딩되지 않아 게재 문제가 발생하는 문제를 해결했습니다. (NEO-16804)
 * 워크플로 예약과 관련된 다양한 문제를 해결했습니다. 워크플로는 스케줄러 구성을 고려하지 않고 하루에 한 번 실행되도록 예약되었습니다. (NEO-16619, NEO-16426)
 
 
