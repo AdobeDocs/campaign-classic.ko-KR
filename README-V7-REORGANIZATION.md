@@ -9,7 +9,7 @@ ht-degree: 0%
 
 **2 프롬프트 pour analyzer et réorganizer la doc v7 → v8**
 
----
+&#x200B;---
 
 ## 📁개의 Fichiers
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 | `PROMPT-1-OVERVIEW-ALL-FOLDERS.md` | Vue d&#39;ensemble de TOUS les folders v7 | `v7-reorganization-overview.md` |
 | `PROMPT-2-DETAILED-FOLDER.md` | DÉTAILLÉE d&#39;UN 폴더 비교 % 일치 분석 | `[folder]-detailed-analysis.md` |
 
----
+&#x200B;---
 
 ## 🚀 사용률
 
@@ -45,7 +45,7 @@ open PROMPT-1-OVERVIEW-ALL-FOLDERS.md
 
 **맞춤** : ~50~60페이지 Markdown
 
----
+&#x200B;---
 
 ### ⃣ 2️ Détaillée d&#39;un 폴더 분석
 
@@ -78,7 +78,7 @@ open PROMPT-2-DETAILED-FOLDER.md
 
 **맞춤** : ~30~40페이지 Markdown
 
----
+&#x200B;---
 
 ## 📊 Example d&#39;Output
 
@@ -117,66 +117,35 @@ open PROMPT-2-DETAILED-FOLDER.md
 ...
 ```
 
----
+&#x200B;---
 
 ## 🎯 워크플로 재명령
 
-### 세메인 1 : 뷰 디&#39;앙상블
-1. **프롬프트 1** → 옵테니어 `v7-reorganization-overview.md` 실행
-2. 식별자 및 폴더 우선 순위
-3. Partager avec 이해 당사자
+### 세메인 1 : 뷰 디&#39;앙상블1. **프롬프트 1** → 옵테니어 `v7-reorganization-overview.md` 실행2. 식별자 및 폴더 우선 순위3. Partager avec 이해 당사자
 
-### Semine 2-4 : 분석 détaillée
-1. Chaque 폴더 우선 순위 게시 :
-   - **프롬프트 2** 실행
-   - 개체 `[folder]-detailed-analysis.md`
-   - 발리데르 레 데시옹
-   - 시작자 작업
+### Semine 2-4 : 분석 détaillée1. Chaque 폴더 우선 순위 게시 :   - **프롬프트 2** 실행   - 개체 `[folder]-detailed-analysis.md`   - 발리데르 레 데시옹   - 시작자 작업
 
-### Semine 5+ : Execution
-1. Supprimer les fichiers identifiés (DELETE)
-2. Badger les fichiers v7-only (KEEP)
-3. Migrer le contenu manquant (MOVE)
-4. 검토자 les cas ambigus (REVIEW)
+### Semine 5+ : Execution1. Supprimer les fichiers identifiés (DELETE)2. Badger les fichiers v7-only (KEEP)3. Migrer le contenu manquant (MOVE)4. 검토자 les cas ambigus (REVIEW)
 
----
+&#x200B;---
 
 ## 💡개 팁
 
-### 프롬프트 쏟기
-- ✅ 복사기/복사기 l&#39;intégralité du 프롬프트
-- ✅ 새 pas 수정자 le 형식
-- ✅ 어댑터 도구 모음 스키마 du 폴더(프롬프트 2)
+### 프롬프트 쏟기- ✅ 복사기/복사기 l&#39;intégralité du 프롬프트- ✅ 새 pas 수정자 le 형식- ✅ 어댑터 도구 모음 스키마 du 폴더(프롬프트 2)
 
-### 출력 쏟기
-- 📝 출력 en Markdown(pas HTML)
-- 🔗 Liens cliquables automatiques
-- ✅개의 확인란에 추적 추가
-- 📊 통계 및 시간 제한
-- 🎨 이모티콘 항목
+### 출력 쏟기- 📝 출력 en Markdown(pas HTML)- 🔗 Liens cliquables automatiques- ✅개의 확인란에 추적 추가- 📊 통계 및 시간 제한- 🎨 이모티콘 항목
 
-### 분석 후
-- 🎯 Commencer par les gros 폴더(게재, 워크플로)
-- ⚡ Prioriser les quick wins(95-100% 일치)
-- 🔍 검토자 설명서 les cas ambigus(&lt;70% 일치)
-- ✅ 유효성 검사기 SME 상대 억제 대량
+### 분석 후- 🎯 Commencer par les gros 폴더(게재, 워크플로)- ⚡ Prioriser les quick wins(95-100% 일치)- 🔍 검토자 설명서 les cas ambigus(&lt;70% 일치)- ✅ 유효성 검사기 SME 상대 억제 대량
 
----
+&#x200B;---
 
 ## ⚠️ 중요
 
-### 아방트 드 수프라페르
-1. ✅ Vérifier l&#39;equivalid v8
-2. ✅ Vérifier qu&#39;il n&#39;y a pas de contenu v7별
-3. ✅ 메타트르 `redirects.csv`
-4. ✅ 유효성 검사기 AVEC UN 전문가(푸어 레 프리미어)
+### 아방트 드 수프라페르1. ✅ Vérifier l&#39;equivalid v82. ✅ Vérifier qu&#39;il n&#39;y a pas de contenu v7별3. ✅ 메타트르 `redirects.csv`4. ✅ 유효성 검사기 AVEC UN 전문가(푸어 레 프리미어)
 
-### Pour les fichiers v7-only
-1. ✅ Ajouter un badge au début du fichier
-2. ✅ Expliquer pourqui c&#39;est v7 전용
-3. ✅ 제한 기간 제한 없음 v8
+### Pour les fichiers v7-only1. ✅ Ajouter un badge au début du fichier2. ✅ Expliquer pourqui c&#39;est v7 전용3. ✅ 제한 기간 제한 없음 v8
 
----
+&#x200B;---
 
 ## 🆘 지원
 
@@ -185,7 +154,7 @@ open PROMPT-2-DETAILED-FOLDER.md
 - Output trop long → Demander un 이력서
 - 베소인데비르 → 핑레퀴페 독
 
----
+&#x200B;---
 
 **Dernière mise à jour** : 2026-01-13
 

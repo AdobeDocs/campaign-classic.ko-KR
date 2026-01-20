@@ -9,7 +9,7 @@ ht-degree: 0%
 
 **Génère un rapport Markdown détailé pour UN folder avec % de match**
 
----
+&#x200B;---
 
 ## 📋 복사기 CE 프롬프트
 
@@ -465,7 +465,7 @@ Include:
 Make all links clickable (v7 files + Experience League URLs).
 ```
 
----
+&#x200B;---
 
 ## 사용
 
@@ -475,12 +475,13 @@ Make all links clickable (v7 files + Experience League URLs).
    ```
    📁 **Analyze**: /Users/.../help/[YOUR-FOLDER]/using/
    ```
+
 3. **커서에 붙여넣기**
 4. **분석 실행**
 5. **전체 Markdown 보고서 가져오기**
 6. **다른 이름으로 저장**: `[folder]-detailed-analysis.md`
 
----
+&#x200B;---
 
 ## 폴더 예
 
@@ -490,7 +491,7 @@ Make all links clickable (v7 files + Experience League URLs).
 - `/help/platform/using/`(61개 파일)
 - `/help/web/using/`(26개 파일)
 
----
+&#x200B;---
 
 ## 출력 미리 보기
 

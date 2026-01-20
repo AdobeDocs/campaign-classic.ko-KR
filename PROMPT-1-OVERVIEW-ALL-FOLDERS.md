@@ -9,7 +9,7 @@ ht-degree: 4%
 
 **Génère un rapport Markdown avec vue d&#39;ensemble de tous les dossiers v7**
 
----
+&#x200B;---
 
 ## 📋 복사기 CE 프롬프트
 
@@ -483,7 +483,7 @@ Make it:
 - ✅ Ready to present to stakeholders
 ```
 
----
+&#x200B;---
 
 ## 사용
 
@@ -493,7 +493,7 @@ Make it:
 4. **전체 Markdown 보고서 가져오기**
 5. **다른 이름으로 저장**: `v7-reorganization-overview.md`
 
----
+&#x200B;---
 
 ## 출력 미리 보기
 
