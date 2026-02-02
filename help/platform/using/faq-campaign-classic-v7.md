@@ -19,7 +19,7 @@ ht-degree: 3%
 >
 >이 FAQ는 Adobe Campaign Classic v7 아키텍처, 배포 모델 및 v7 관련 기능과 관련된 질문을 해결합니다.
 >
->**일반적인 Campaign 질문에 대한 포괄적인 답변**(워크플로우, 게재, 대상, 보고, 개인화 등)은 주제별로 구성된 자세한 답변을 제공하는 [**Campaign v8 포괄적인 FAQ**](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-faq-comprehensive){target="_blank"}를 참조하십시오.
+>**일반적인 Campaign 질문에 대한 포괄적인 답변**(워크플로우, 게재, 대상, 보고, 개인화 등)은 주제별로 구성된 자세한 답변을 제공하는 [**Campaign v8 포괄적인 FAQ**](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-faq-comprehensive){target="_blank"}를 참조하십시오.
 
 ## Campaign Classic v7 아키텍처 및 배포 {#v7-architecture}
 
@@ -37,7 +37,7 @@ Adobe Campaign Classic v7은 다음 세 가지 배포 모델을 제공합니다.
 
 호스팅 모델 및 차이점에 대해 [자세히 알아보려면 여기를 클릭하세요](../../installation/using/hosting-models.md).
 
-**참고:** Campaign v8은 관리 클라우드 서비스로만 사용할 수 있습니다. [Campaign v8에 대해 알아봅니다](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html){target="_blank"}.
+**참고:** Campaign v8은 관리 클라우드 서비스로만 사용할 수 있습니다. [Campaign v8에 대해 알아봅니다](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html?lang=ko){target="_blank"}.
 
 +++
 
@@ -68,7 +68,7 @@ Adobe Managed Services으로 마이그레이션하면 확장성, 보안이 향�
 
 **시작하기:** Adobe 담당자에게 문의하여 환경을 평가하고 Adobe Professional Services을 통한 자세한 마이그레이션 계획을 개발하십시오.
 
-[Managed Services으로 마이그레이션](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605){target="_blank"}에 대해 자세히 알아보세요.
+[Managed Services으로 마이그레이션](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605?profile.language=ko){target="_blank"}에 대해 자세히 알아보세요.
 
 +++
 
@@ -94,7 +94,7 @@ Campaign v8은 Adobe의 전략 플랫폼으로, 대용량 캠페인, 최신 웹 
 
 자세히 알아보기:
 
-* [Campaign v8 개요](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html){target="_blank"}
+* [Campaign v8 개요](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html?lang=ko){target="_blank"}
 * [Campaign Classic v7에서 v8로 전환](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/v7-to-v8.html){target="_blank"}
 * [Campaign v8 전체 FAQ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html){target="_blank"}
 
@@ -252,7 +252,7 @@ Campaign 클라이언트 콘솔 캐시를 지우면 많은 일반적인 표시 �
 
 **커뮤니티 및 지원:**
 
-* [캠페인 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
+* [캠페인 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ko){target="_blank"}
 * [Adobe 지원](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
 
 +++
