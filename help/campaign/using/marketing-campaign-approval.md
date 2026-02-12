@@ -1,22 +1,22 @@
 ---
-source-git-commit: 4a7ecd170bd27f43d515da71c212bbdaa306d602
+product: campaign
+title: 승인 프로세스 설정 및 관리
+description: 마케팅 캠페인 승인 관리 방법 알아보기
+language: en
+role: User
+feature: Approvals, Campaigns
+hide: true
+hidefromtoc: true
+exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
+source-git-commit: df014d3f3029a61176e5117e27f3d2e8228fc407
 workflow-type: tm+mt
-source-wordcount: '2684'
+source-wordcount: '2665'
 ht-degree: 0%
 
 ---
-—product: campaign
-제목: 승인 프로세스 설정 및 관리
-설명: 마케팅 캠페인 승인을 관리하는 방법을 알아봅니다
-언어: en
-역할: 사용자
-기능: 승인, 캠페인
-숨기기: 예
-hidefromtoc: 예
-exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
----
-# 승인 프로세스 설정 및 관리 {#approving-marketing-campaigns}
 
+
+# 승인 프로세스 설정 및 관리 {#approving-marketing-campaigns}
 
 게재의 각 단계는 캠페인 프로세스를 완전히 모니터링하고 제어할 수 있도록 승인 대상이 될 수 있습니다. 여기에는 타겟팅, 콘텐츠, 예산, 추출 및 증명 보내기가 포함됩니다.
 
