@@ -1,32 +1,32 @@
 ---
 product: campaign
 title: 마케팅 캠페인 디자인 및 실행
-description: 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다.
+description: 마케팅 캠페인 정의, 최적화, 실행 및 분석
 role: User
 feature: Campaigns
 hide: true
 hidefromtoc: true
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 4a7ecd170bd27f43d515da71c212bbdaa306d602
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 22%
+source-wordcount: '431'
+ht-degree: 19%
 
 ---
 
 # 마케팅 캠페인 디자인 및 실행{#designing-marketing-campaigns}
 
 
-Adobe Campaign을 사용하면 커뮤니케이션 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다. Adobe Campaign은 마케팅 전략을 위한 통합 주문 및 실행 센터 역할을 합니다. 자세한 내용은 [캠페인 액세스](../../distributed/using/accessing-campaigns.md) 및 [마케팅 캠페인 만들기](../../campaign/using/setting-up-marketing-campaigns.md)를 참조하세요.
+[!DNL Adobe Campaign]을(를) 통해 통신 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다. [!DNL Adobe Campaign]은(는) 마케팅 전략을 위한 통합 주문 및 실행 센터 역할을 합니다. 자세한 내용은 [캠페인 액세스](../../distributed/using/accessing-campaigns.md) 및 [마케팅 캠페인 만들기](../../campaign/using/setting-up-marketing-campaigns.md)를 참조하세요.
 
-또한 **마케팅 리소스 관리(MRM)** 모듈을 사용하면 관련된 작업, 예산 및 마케팅 리소스에 대한 완전한 관리 및 실시간 추적을 제공하여 공동 작업 모드에서 마케팅 작업을 제어할 수 있습니다. 마케팅 리소스 관리를 사용하면 내부 및 외부 프로세스, 리소스 및 마케팅 캠페인과 타사 관계(에이전시, 프린터 등)의 관리를 최적화하고 규제할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../mrm/using/about-marketing-resource-management.md)을 참조하십시오.
+또한 **마케팅 리소스 관리(MRM)** 모듈을 사용하면 관련된 작업, 예산 및 마케팅 리소스에 대한 완전한 관리 및 실시간 추적을 제공하여 공동 작업 모드에서 마케팅 작업을 제어할 수 있습니다. 마케팅 리소스 관리를 사용하면 내부 및 외부 프로세스, 리소스 및 마케팅 캠페인 관리를 최적화하고 조정할 수 있습니다. 또한 타사 관계(에이전시, 프린터 등)도 지원합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../mrm/using/about-marketing-resource-management.md)을 참조하십시오.
 
 >[!NOTE]
 >
->Adobe Campaign 핵심 기능에 대한 자세한 내용은 [이 섹션](../../platform/using/about-adobe-campaign-classic.md) 섹션을 참조하십시오.\
->다양한 채널에서 모집단 타겟팅, 메시지 개인화 및 메시지 배달과 관련된 기능은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko){target="_blank"}에 자세히 설명되어 있습니다.
+>[!DNL Adobe Campaign] 핵심 기능에 대한 자세한 내용은 [이 섹션](../../platform/using/about-adobe-campaign-classic.md)을 참조하세요.\
+>다양한 채널에서 모집단 타겟팅, 메시지 개인화 및 메시지 배달과 관련된 기능은 [!DNL Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko){target="_blank"}에 자세히 설명되어 있습니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 마케팅 캠페인 키 개념 살펴보기](#video)
+![방법 비디오 썸네일](assets/do-not-localize/how-to-video.png) [비디오에서 마케팅 캠페인 주요 개념 살펴보기](#video)
 
 ## 핵심 개념 {#core-concepts}
 
@@ -68,6 +68,6 @@ Campaign의 컨텍스트에서 다음 개념을 알고 있어야 합니다.
 
 이 비디오에서는 마케팅 캠페인의 주요 개념을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/326577?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
-추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.
+추가 [!DNL Campaign Classic]개의 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
