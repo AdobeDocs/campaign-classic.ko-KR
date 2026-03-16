@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: b10055781ff32fb30280adbea281ad9fbddb79e8
+source-git-commit: 66387e2e008051901fe3385f571d7fe798829100
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '281'
 ht-degree: 28%
 
 ---
@@ -29,7 +29,7 @@ _2026년 3월 16일 화요일_
 
 ### 보안 개선 사항 {#security-7-4-3}
 
-* 최적의 보안, 안정성 및 규정 준수를 유지하기 위해 Debian은 버전 13으로, PostgreSQL은 버전 17로 업그레이드되었습니다.
+* 최적의 보안, 안정성 및 규정 준수를 유지하기 위해 Debian은 버전 13으로, PostgreSQL은 버전 17로 업그레이드되었습니다. [호환성 매트릭스](compatibility-matrix.md)를 참조하세요.
 
 ### 수정 사항 {#fixes-7-4-3}
 

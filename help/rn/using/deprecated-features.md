@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '1658'
-ht-degree: 100%
+source-git-commit: 66387e2e008051901fe3385f571d7fe798829100
+workflow-type: tm+mt
+source-wordcount: '1675'
+ht-degree: 98%
 
 ---
 
@@ -83,7 +83,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
     <tr>
   <td>기술 게재성 모니터링 보고서<br></td>
    <td><p>기술 게재 가능성 모니터링 보고서를 더 이상 사용할 수 없습니다. Campaign 21.1.3 릴리스에서 더 이상 사용되지 않습니다.</p>
-   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
+   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
   </td>
  </tr>
   <tr>
@@ -137,7 +137,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   <tr> 
    <td>decryptString API</td>
    <td><p>보안상의 이유로 Campaign 18.6 릴리스부터는 <em>decryptString</em> API는 기본적으로 더 이상 새로 설치할 수 없습니다.</p> 
-   <p>18.6 또는 그 이상으로 업그레이드 후 컨텍스트에서 이 API는 더 이상 활성화되지 않으며 <em>decryptPassword</em> 함수로 대체되었습니다. <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?lang=ko&hl=decrypt">자세히 알아보기</a></p></td>
+   <p>18.6 또는 그 이상으로 업그레이드 후 컨텍스트에서 이 API는 더 이상 활성화되지 않으며 <em>decryptPassword</em> 함수로 대체되었습니다. <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?hl=decrypt">자세히 알아보기</a></p></td>
   </tr> 
    <tr> 
    <td>모바일 채널 - MMS 및 WAP 푸시 메시지</td>
@@ -171,6 +171,8 @@ The following systems are deprecated for Campaign Classic. Please refer to the [
 >Campaign 20.1 릴리스부터 Campaign Classic 클라이언트 콘솔 32비트는 더 이상 Campaign 최신 버전과 호환되지 않습니다. 64비트 클라이언트 콘솔을 사용해야 합니다.
 
 ### 운영 체제 {#o-s-eol}
+
+* 7.3.4 릴리스부터 Adobe Campaign은 더 이상 RHEL(Red Hat Enterprise Linux) 7과 호환되지 않습니다.
 
 * 7.3.1 릴리스부터 Adobe Campaign은 더 이상 Windows 8 및 Windows Server 2012와 호환되지 않습니다.
 
