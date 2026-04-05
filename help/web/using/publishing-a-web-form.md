@@ -184,7 +184,7 @@ ht-degree: 1%
 
    * 웹 양식이 새 인스턴스에 이미 있으면 새 버전의 양식으로 대체되며 이전 버전의 양식이 **[!UICONTROL Pending publication]**&#x200B;인 경우에도 **[!UICONTROL Online]** 상태를 사용합니다.
 
-   * 양식의 존재 여부에 관계없이 새 인스턴스에서 [이(가) 되고 브라우저에서 웹 양식 URL을 통해 액세스할 수 있도록 하려면 양식이 ](#publishing-a-form)게시됨&#x200B;**[!UICONTROL Online]**&#x200B;이어야 합니다.
+   * 양식의 존재 여부에 관계없이 새 인스턴스에서 [이(가) 되고 브라우저에서 웹 양식 URL을 통해 액세스할 수 있도록 하려면 양식이 &#x200B;](#publishing-a-form)게시됨&#x200B;**[!UICONTROL Online]**&#x200B;이어야 합니다.
 
 * 내보낼 때 웹 양식 상태가 **[!UICONTROL Being edited]**&#x200B;인 경우:
 

@@ -66,7 +66,7 @@ if( ctx.@_historyId.toString().length == 0 )
 
 ## URL 매개 변수 추가 {#defining-additional-settings}
 
-**[!UICONTROL Parameters]**&#x200B;보고서 속성[의 ](../../reporting/using/properties-of-the-report.md) 탭에서 보고서에 대한 추가 설정을 정의할 수 있습니다. 이러한 설정은 호출 중에 URL로 전달됩니다.
+**[!UICONTROL Parameters]**&#x200B;보고서 속성[의 &#x200B;](../../reporting/using/properties-of-the-report.md) 탭에서 보고서에 대한 추가 설정을 정의할 수 있습니다. 이러한 설정은 호출 중에 URL로 전달됩니다.
 
 >[!CAUTION]
 >

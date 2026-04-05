@@ -540,7 +540,7 @@ Adobe Campaign의 전체 구성은 설치 디렉터리의 **conf** 디렉터리�
 
 >[!NOTE]
 >
->**nameServers**에 대한 참고 사항: 기본적으로 네트워크를 사용합니다.
+>**nameServers**&#x200B;에 대한 참고 사항: 기본적으로 네트워크를 사용합니다.
 >Windows에서 선언된 첫 번째 네트워크 인터페이스의 매개 변수
 >UNIX에서 정의되지 않았습니다. 도메인 이름 서버(DNS)를 정의합니다.
 >MTA에서 다음에 대해 선언된 메일 교환기를 가져오는 데 사용됨
@@ -1625,9 +1625,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> statServerAddress<br /> </td> 
    <td> 다음으로 지정된 게재 통계 서버 주소 
     &lt;dns 또는 ip&gt; 
-      <code>[</code>: 
+      <code>&lbrack;</code>: 
      &lt;포트&gt; 
-       <code>]</code>. 다음을 참조하십시오 
+       <code>&rbrack;</code>. 다음을 참조하십시오 
       <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">통계 서버의 좌표</a>. 
       <br /> 
      </td> 
