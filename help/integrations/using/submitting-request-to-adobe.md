@@ -8,7 +8,7 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
-source-git-commit: 7b4fbefe0f6bd26ee9260d15e8303f716af7ac96
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 2%
@@ -19,9 +19,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->v7 사용자로서 계속 진행하려면 시스템에 IMS(Identity Management System) Adobe 가 활성화되어 있는지 확인하십시오. [자세히 알아보기](../../integrations/using/about-adobe-id.md).
+>v7 사용자로서 계속 진행하려면 시스템에 Adobe IMS(Identity Management System)가 활성화되어 있는지 확인하십시오. [자세히 알아보기](../../integrations/using/about-adobe-id.md).
 
-조직에 대해 IMS(Adobe Identity Management 서비스)를 사용하도록 설정하면 Campaign과의 [Experience Cloud 대상](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/audiences/overview){target="_blank"} 통합의 프로비저닝을 요청할 수 있습니다. 이렇게 하려면 Adobe 담당자에게 연락하여 다음 정보를 제공하십시오.
+조직에 대해 Adobe IMS(Identity Management Service)가 활성화되면 Campaign과의 [Experience Cloud 대상](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/overview){target="_blank"} 통합 프로비저닝을 요청할 수 있습니다. 이렇게 하려면 Adobe 담당자에게 연락하여 다음 정보를 제공하십시오.
 
 <table> 
  <tbody> 
@@ -41,10 +41,12 @@ ht-degree: 2%
    <td> <strong>환경</strong><br /> </td> 
    <td> 예: 프로덕션 </td> 
   </tr> 
-  <!--tr> 
+  <!--
+  tr> 
    <td> <strong>AAM or People Service</strong><br /> </td> 
    <td> Example: Adobe Audience Manager. Make sure to mention whether or not you own Audience Manager license.</td> 
-  </tr--> 
+  </tr
+  --> 
   <tr> 
    <td> <strong>선언된 ID 또는 방문자 ID</strong><br /> </td> 
    <td> 예: 선언된 ID </td> 

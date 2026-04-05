@@ -7,7 +7,7 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
-source-git-commit: e60a8391416bc9899548971bddb61705467a80e5
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 1%
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 ## 트랜잭션 메시지 모니터링 {#transactional-message-monitoring}
 
-트랜잭션 메시지를 모니터링하려면 [게재 로그](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}를 확인하세요.
+트랜잭션 메시지를 모니터링하려면 [게재 로그](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}를 확인하세요.
 
 실행 인스턴스에서 보낸 트랜잭션 게재는 매시간 실행되는 기술 워크플로우(**[!UICONTROL Message Center execution instance]**)를 통해 컨트롤 인스턴스로 다시 동기화됩니다.
 
@@ -48,7 +48,8 @@ ht-degree: 1%
 >
 >매주 게재는 이벤트 생성 날짜가 아닌 최신 이벤트 업데이트를 기준으로 이벤트를 누적합니다. 따라서 제어 인스턴스에서 트랜잭션 메시지 게재 로그를 추출할 때 로그가 업데이트되면 각 게재 로그 ID와 연관된 게재 ID가 시간에 따라 변경될 수 있습니다(예: 이벤트에 대한 인바운드 바운스가 수신되면).
 
-<!--The transactional deliveries sent from the execution instance are synchronized back to the control instance as follows.
+<!--
+The transactional deliveries sent from the execution instance are synchronized back to the control instance as follows.
 
 Let's take a [delivery template](../../message-center/using/introduction.md) labelled *Template_1*.
 
@@ -73,6 +74,8 @@ Let's take a [delivery template](../../message-center/using/introduction.md) lab
 
 To summarize, the deliveries weekly accumulate the events based on the latest event update, and not on the event creation date.
 
-Therefore, when extracting transactional messaging delivery logs from the control instance, the delivery ID associated with each delivery log ID changes every week.-->
+Therefore, when extracting transactional messaging delivery logs from the control instance, the delivery ID associated with each delivery log ID changes every week.
+
+-->
 
 실행 인스턴스의 활동 및 실행을 모니터링하려면 [트랜잭션 메시지 보고서](../../message-center/using/about-transactional-messaging-reports.md)를 참조하세요.

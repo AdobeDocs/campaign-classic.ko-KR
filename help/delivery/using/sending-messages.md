@@ -8,10 +8,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: c75a5ea2-8d62-4f98-bccd-7116a4d404fd
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -33,8 +33,10 @@ ht-degree: 0%
 >게재의 유효성을 검사하는 전체 프로세스는 [이 섹션](steps-validating-the-delivery.md)에 설명되어 있습니다. 게재를 구성하고 보내는 자세한 전체 단계는 [이 섹션](steps-sending-the-delivery.md)에 나와 있습니다.
 
 다음 섹션에서는 전자 메일 게재와 관련된 설정 및 구성에 대해 자세히 설명합니다.
-<!--* [Generating the mirror page](generating-mirror-page.md)
-* [Email BCC](email-bcc.md)-->
+<!--
+* [Generating the mirror page](generating-mirror-page.md)
+* [Email BCC](email-bcc.md)
+-->
 * [이메일 매개변수](email-parameters.md)
 * [Enhanced MTA로 이메일 보내기](sending-with-enhanced-mta.md)
 * [일본어 모바일에서 이메일 보내기](sending-emails-on-japanese-mobiles.md)

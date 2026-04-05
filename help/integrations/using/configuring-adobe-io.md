@@ -1,24 +1,24 @@
 ---
 product: campaign
-title: Adobe Experience Cloud Triggers용 Developer Console 구성
-description: Developer Console Adobe Experience Cloud Triggers 구성 방법 알아보기
+title: Adobe Experience Cloud 트리거에 대한 Developer Console 구성
+description: Developer Console Adobe Experience Cloud 트리거 구성 방법 알아보기
 feature: Triggers
 audience: integrations
 content-type: reference
-index: y
+index: true
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 hide: true
 hidefromtoc: true
-source-git-commit: 8d15a5666b5768bc0f17a4391061c4fcb9f76811
+source-git-commit: d38e4e32bbbfc11d4cc6f985608b6bdf6ff53e92
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 1%
 
 ---
 
-# Adobe Experience Cloud Triggers용 Developer Console 구성 {#configuring-adobe-io}
+# Adobe Experience Cloud 트리거에 대한 Developer Console 구성 {#configuring-adobe-io}
 
 <!--
 >[!CAUTION]
@@ -38,7 +38,7 @@ This integration only applies starting **Campaign Classic 20.2.4 and above, 19.1
 이 구현을 시작하기 전에 다음을 확인하십시오.
 
 * 올바른 **조직 식별자**: 조직 ID는 Adobe Experience Cloud 내의 고유 식별자이며, 예를 들어 VisitorID 서비스 및 IMS SSO(Single Sign-On)에 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)
-* 조직에 대한 **개발자 액세스**. 조직의 시스템 관리자는 트리거와 연결된 Adobe Analytics 제품의 `Analytics - {tenantID}` 제품 프로필에 대한 개발자 액세스 권한을 제공하려면 **단일 제품 프로필에 개발자 추가** 절차(이 페이지의 [설명](https://helpx.adobe.com/kr/enterprise/using/manage-developers.html))를 따라야 합니다.
+* 조직에 대한 **개발자 액세스**. 조직의 시스템 관리자는 트리거와 연결된 Adobe Analytics 제품의 **제품 프로필에 대한 개발자 액세스 권한을 제공하려면**&#x200B;단일 제품 프로필에 개발자 추가[ 절차(이 페이지의 ](https://helpx.adobe.com/enterprise/using/manage-developers.html)설명`Analytics - {tenantID}`)를 따라야 합니다.
 
 ## 1단계: OAuth 프로젝트 만들기/업데이트 {#creating-adobe-io-project}
 

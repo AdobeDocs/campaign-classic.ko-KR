@@ -5,7 +5,7 @@ description: 보고서 작업 시 고급 기능에 대해 자세히 알아보기
 feature: Reporting, Monitoring
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 4%
@@ -66,7 +66,7 @@ if( ctx.@_historyId.toString().length == 0 )
 
 ## URL 매개 변수 추가 {#defining-additional-settings}
 
-[보고서 속성](../../reporting/using/properties-of-the-report.md)의 **[!UICONTROL Parameters]** 탭에서 보고서에 대한 추가 설정을 정의할 수 있습니다. 이러한 설정은 호출 중에 URL로 전달됩니다.
+**[!UICONTROL Parameters]**&#x200B;보고서 속성[의 ](../../reporting/using/properties-of-the-report.md) 탭에서 보고서에 대한 추가 설정을 정의할 수 있습니다. 이러한 설정은 호출 중에 URL로 전달됩니다.
 
 >[!CAUTION]
 >
@@ -90,7 +90,7 @@ if( ctx.@_historyId.toString().length == 0 )
 
    **[!UICONTROL Variable]** 옵션을 사용하면 URL의 매개 변수로 전달되고 필터에서 사용할 수 있는 변수를 만들거나 선택할 수 있습니다.
 
-**[!UICONTROL Response HTTP headers]**&#x200B;을(를) 사용하면 iframe을 사용하여 보고서 페이지를 HTML 페이지에 포함할 때 클릭재킹을 방지할 수 있습니다. 클릭재킹을 방지하려면 **[!UICONTROL X-Frame-options header]** 동작을 선택할 수 있습니다.
+**[!UICONTROL Response HTTP headers]**&#x200B;을(를) 사용하면 iframe을 사용하여 보고서의 페이지를 HTML 페이지에 포함할 때 클릭재킹을 방지할 수 있습니다. 클릭재킹을 방지하려면 **[!UICONTROL X-Frame-options header]** 동작을 선택할 수 있습니다.
 
 * **[!UICONTROL None]**: 보고서에 **[!UICONTROL X-Frame-options header]**&#x200B;이(가) 없습니다.
 * **[!UICONTROL Same as origin]**: 새 보고서 및 다시 게시된 보고서에 대해 기본적으로 설정됩니다. 호스트 이름은 보고서의 URL과 동일합니다.
@@ -113,7 +113,8 @@ if( ctx.@_historyId.toString().length == 0 )
 아래 비디오 예제에서는 이 속성의 값을 기반으로 다른 보고서 보기를 만들기 위해 &quot;_type&quot; 매개 변수를 추가하는 방법을 배웁니다.
 
 <!--
-![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](https://helpx.adobe.com/campaign/classic/how-to/add-url-parameter-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/business-practitioners/explevel/intermediate/applaunch/how-to-4/collection.ccx.js&ref=helpx.adobe.com)-->
+![](assets/do-not-localize/how-to-video.png) [Discover this feature in video](https://helpx.adobe.com/campaign/classic/how-to/add-url-parameter-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/business-practitioners/explevel/intermediate/applaunch/how-to-4/collection.ccx.js&ref=helpx.adobe.com)
+-->
 
 
 ## 다른 보고서 호출 {#calling-up-another-report}

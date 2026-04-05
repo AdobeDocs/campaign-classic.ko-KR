@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
-source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 1%
@@ -95,7 +95,8 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 * **archivingType**: 사용할 보관 전략 가능한 값은 **1**&#x200B;뿐입니다. 보낸 전자 메일의 원본 복사본은 .eml 형식으로 **dataLogPath** 폴더에 저장되며 SMTP를 통해 BCC 전자 메일 주소로 전송됩니다. BCC 주소로 전자 메일 복사본이 전송되면 보관 파일 이름이 **`<deliveryid>-<broadlogid>-sent-archived.eml`**&#x200B;이(가) 되고 파일이 **dataLogPath/archives** 폴더로 이동됩니다. 전송 및 BCC 보관된 전자 메일 파일 경로는 **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**&#x200B;입니다.
 
   <!--
-  **0**: raw copies of sent emails are saved in .eml format to the **dataLogPath** folder (default value). An archiving copy of the **`<deliveryid>-<broadlogid>-sent.eml`** file is saved to the **dataLogPath/archives** folder. The sent email file path becomes **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.-->
+  **0**: raw copies of sent emails are saved in .eml format to the **dataLogPath** folder (default value). An archiving copy of the **`<deliveryid>-<broadlogid>-sent.eml`** file is saved to the **dataLogPath/archives** folder. The sent email file path becomes **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.
+  -->
 
 * **expirationDelay**: 보관을 위해 .eml 파일을 보관하는 일 수입니다. 이 지연 후에는 압축을 위해 **dataLogPath/archives** 폴더로 자동으로 이동됩니다. 기본적으로 .eml 파일은 2일 후에 만료됩니다.
 * **purgeArchivesDelay**: 보관함이 **dataLogPath/`<archives>`** 폴더에 보관되는 일 수입니다. 해당 기간이 지나면 영구적으로 삭제됩니다. MTA가 시작되면 제거가 시작됩니다. 기본적으로 7일마다 수행됩니다.
@@ -134,7 +135,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 <!--
 ## Moving to the new Email BCC {#updated-email-archiving-system--bcc-}
 
-[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"}
+[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"}
 
 >[!IMPORTANT]
 >
@@ -160,7 +161,8 @@ Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]*
 * **연결당 전자 메일**: BCC 전자 메일 보관은 연결을 열고 해당 연결을 통해 모든 전자 메일을 보내려고 하여 작동합니다. Adobe은 내부 기술 담당자에게 주어진 연결에서 허용되는 이메일 수를 확인하는 것을 권장합니다. 이 수를 늘리면 BCC 처리량에 큰 영향을 미칠 수 있습니다.
 * **BCC 전송 IP**: 현재 BCC 이메일은 일반 MTA 프록시를 통해 전송되지 않습니다. 대신 MTA 서버에서 대상 이메일 서버로 직접 연결이 열립니다. 즉, 이메일 서버 구성에 따라 네트워크의 허용 목록에 추가하다에 추가 IP를 추가해야 할 수 있습니다.
 
-<!--## Email BCC with Enhanced MTA {#email-bcc-with-enhanced-mta}
+<!--
+## Email BCC with Enhanced MTA {#email-bcc-with-enhanced-mta}
 
 For **hosted and hybrid architectures**, if you have the latest instance of Adobe Campaign, or if you have upgraded to the Enhanced MTA and using Adobe Campaign 19.2 or later, you can use Email BCC with Enhanced MTA, which is more reliable, efficient, and has lower latency.
 
@@ -186,4 +188,6 @@ Consequently, make sure:
 
 * Email BCC with Enhanced MTA delivers to the BCC email address before delivering to the recipients, which can result in BCC messages being sent even though the original deliveries may have bounced. For more on bounces, see [Understanding delivery failures](../../delivery/using/delivery-failures-quarantine.md).
 
-* There is no reporting available on the delivery status of the emails sent to the BCC email address.-->
+* There is no reporting available on the delivery status of the emails sent to the BCC email address.
+
+-->
