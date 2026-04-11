@@ -71,7 +71,7 @@ ht-degree: 3%
 
    ![](assets/uc_enrichment_10.png)
 
-1. 먼저 생년월일 이전 주를 ****&#x200B;유효성 시작일&#x200B;**[!UICONTROL Expression]**(으)로 타깃팅해야 합니다. `SubDays([target/@birthDate], 7)`.
+1. 먼저 생년월일 이전 주를 **&#x200B;**&#x200B;유효성 시작일&#x200B;**[!UICONTROL Expression]**(으)로 타깃팅해야 합니다. `SubDays([target/@birthDate], 7)`.
 
    ![](assets/uc_enrichment_11.png)
 

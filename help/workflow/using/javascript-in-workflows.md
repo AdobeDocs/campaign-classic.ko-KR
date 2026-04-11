@@ -275,7 +275,7 @@ for each (var rcp in res:recipient)
     logInfo(rcp.@email)
 ```
 
-루프에 로컬 수신자 변수가 포함되어 있습니다. 수신자 컬렉션에서 반환되는 각 수신자에 대해 수신자 이메일이 인쇄됩니다. [ 함수에 대해 ](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html)자세히 알아보기`logInfo`.
+루프에 로컬 수신자 변수가 포함되어 있습니다. 수신자 컬렉션에서 반환되는 각 수신자에 대해 수신자 이메일이 인쇄됩니다. [&#x200B; 함수에 대해 &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html)자세히 알아보기`logInfo`.
 
 #### `getIfExists` 작업 결과
 
