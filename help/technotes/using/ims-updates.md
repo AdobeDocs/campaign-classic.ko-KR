@@ -4,9 +4,8 @@ title: 기술 정보 - IMS를 사용하여 Adobe Campaign에 연결하도록 환
 description: Campaign - IMS 업데이트
 feature: Technote, Upgrade
 hide: true
-hidefromtoc: true
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: 62fc46e45078fce56eadda3518251e61244bf5d0
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 5%
@@ -96,4 +95,4 @@ Internet Explorer 버전을 업데이트하지 않으면 다음 메시지가 표
 * [사용자가 새 클라이언트 콘솔을 사용할 수 있도록 설정](../../installation/using/client-console-availability-for-windows.md)
 * [Campaign 클라이언트 콘솔 설치](../../installation/using/installing-the-client-console.md)
 * [Adobe 소프트웨어 배포 액세스](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko)
-* [Campaign Classic 빌드 다운로드](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html)
+* [Campaign Classic 빌드 다운로드](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)

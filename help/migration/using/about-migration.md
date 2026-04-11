@@ -1,15 +1,14 @@
 ---
 product: campaign
 title: Campaign Classic으로 마이그레이션
-description: 이전 Campaign 버전에서 Campaign Classic으로 마이그레이션하는 방법에 대해 알아봅니다.
+description: 이전 Campaign 버전에서 Campaign Classic으로 마이그레이션하는 방법을 알아봅니다.
 feature: Upgrade
 audience: migration
 content-type: reference
 topic-tags: migration-overview
 hide: true
-hidefromtoc: true
 exl-id: 3050238d-6f77-4ffa-9aef-677ab8009388
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 2%
@@ -22,7 +21,7 @@ ht-degree: 2%
 
 이 문서에서는 마이그레이션에 대한 사전 요구 사항 및 Adobe Campaign Classic v7으로 마이그레이션하는 단계에 대해 자세히 설명합니다. 단계 및 옵션 설정은 구성에 따라 다릅니다.
 
-이주 과정은 신중하게 수행되어야 하며, 그 영향은 사전에 충분히 고려되어야 하고 절차는 엄격하게 수행되어야 한다. 전문가 사용자만 수행해야 합니다. 마이그레이션 절차를 시작하기 전에 [고객 지원 센터 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 연락하는 것이 좋습니다.
+이주 과정은 신중하게 수행되어야 하며, 그 영향은 사전에 충분히 고려되어야 하고 절차는 엄격하게 수행되어야 한다. 전문가 사용자만 수행해야 합니다. 마이그레이션 절차를 시작하기 전에 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 연락하는 것이 좋습니다.
 
 마이그레이션이 오류 없이 원활하게 실행되는지 확인하기 위해 테스트/스테이징 환경에서 미리 테스트해야 합니다. 프로덕션 환경 마이그레이션은 마이그레이션된 테스트 환경의 유효성을 완전히 검사한 후에만 수행해야 합니다.
 

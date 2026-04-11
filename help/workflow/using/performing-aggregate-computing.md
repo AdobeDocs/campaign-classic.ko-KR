@@ -4,11 +4,10 @@ title: 집계 컴퓨팅 수행
 description: 쿼리에서 집계 컴퓨팅을 수행하는 방법에 대해 알아봅니다
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -33,7 +32,7 @@ ht-degree: 0%
 
 이 예제를 만들려면 다음 단계를 적용합니다.
 
-1. **[!UICONTROL Data to extract]**&#x200B;에서 기본 키의 개수를 정의합니다(이전 예제와 같이). 출력 열에 **[!UICONTROL Gender]** 필드를 추가합니다. **[!UICONTROL Gender]** 열에서 **[!UICONTROL Group]** 옵션을 선택하십시오. 이렇게 하면 수신자를 성별에 따라 그룹화합니다.
+1. **[!UICONTROL Data to extract]**&#x200B;에서 기본 키의 개수를 정의합니다(이전 예제와 같이). 출력 열에 **[!UICONTROL Gender]** 필드를 추가합니다. **[!UICONTROL Group]** 열에서 **[!UICONTROL Gender]** 옵션을 선택하십시오. 이렇게 하면 수신자를 성별에 따라 그룹화합니다.
 
    ![](assets/query_editor_nveau_27.png)
 

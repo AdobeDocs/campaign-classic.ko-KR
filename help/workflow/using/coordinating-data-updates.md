@@ -4,9 +4,8 @@ title: 데이터 업데이트 조정
 description: 데이터 업데이트 조정
 feature: Workflows, Data Management
 hide: true
-hidefromtoc: true
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 4%
@@ -43,11 +42,11 @@ ht-degree: 4%
 
 1. **End** 활동을 **No** 포크에 추가하십시오. 이 방법에서는 워크플로우가 이미 실행 중인 경우 아무것도 실행되지 않습니다.
 1. **예** 포크에 원하는 활동을 추가합니다. 이 예제에서는 **쿼리** 및 **데이터 업데이트** 활동을 수행합니다.
-1. 첫 번째 활동을 연 다음 **[!UICONTROL Advanced]** 탭에서 **instance.vars.isRunning = true** 명령을 추가합니다. 이 방법으로 인스턴스 변수는 실행 중으로 설정됩니다.
+1. 첫 번째 활동을 연 다음 **탭에서** instance.vars.isRunning = true **[!UICONTROL Advanced]** 명령을 추가합니다. 이 방법으로 인스턴스 변수는 실행 중으로 설정됩니다.
 
    ![](assets/uc_dataupdate_query.png)
 
-1. **[!UICONTROL Yes]** 포크의 끝에 **End** 활동을 추가한 다음 **[!UICONTROL Advanced]** 탭에서 **instance.vars.isRunning = false** 명령을 추가합니다.
+1. **포크의 끝에** End **[!UICONTROL Yes]** 활동을 추가한 다음 **탭에서** instance.vars.isRunning = false **[!UICONTROL Advanced]** 명령을 추가합니다.
 
    이 방법을 사용하면 워크플로우가 실행되는 동안에는 작업이 실행되지 않습니다.
 

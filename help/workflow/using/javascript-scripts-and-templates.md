@@ -4,11 +4,10 @@ title: JavaScript 스크립트 및 템플릿
 description: JavaScript 스크립트 및 템플릿
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1243'
 ht-degree: 2%
 
 ---
@@ -87,7 +86,7 @@ logInfo("Start date: " + task.creationDate)
 
 특정 이벤트 변수는 다양한 활동에서 수정하거나 읽습니다. 이러한 변수는 모두 문자열 유형 변수입니다. 예를 들어 내보내기는 방금 내보낸 파일의 전체 이름으로 **[!UICONTROL vars.filename]** 변수를 설정합니다. 이러한 읽기 또는 수정된 모든 변수는 [활동 정보](about-activities.md), 활동의 **입력 매개 변수** 및 **출력 매개 변수** 섹션에 설명되어 있습니다.
 
-### 활용 사례 {#example}
+### 사용 사례 {#example}
 
 >[!NOTE]
 >

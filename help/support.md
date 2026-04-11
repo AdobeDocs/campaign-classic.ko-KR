@@ -3,13 +3,12 @@ product: campaign
 title: Campaign Classic에 대한 도움말 및 지원 옵션
 description: Campaign Classic에 대한 지원이 필요하십니까? 제대로 찾아오셨습니다.
 feature: Troubleshooting
-hidefromtoc: true
 hide: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
@@ -107,7 +106,7 @@ Campaign Campaign 컨트롤 패널을 사용하면 각 인스턴스의 사용량
 
 ### SFTP 관리
 
-컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 허용 목록에 추가하다 저장소 용량을 모니터링하고, IP 주소 및 공개 SSH 키를 관리할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ko)하십시오.
+컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 저장소 용량을 모니터링하고, IP 주소 및 공개 SSH 키를 관리할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ko)하십시오.
 
 ### 하위 도메인 및 인증서
 

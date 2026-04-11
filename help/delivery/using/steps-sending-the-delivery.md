@@ -5,9 +5,8 @@ description: 게재를 구성하고 보내는 방법 알아보기
 feature: Channel Configuration
 role: User
 hide: true
-hidefromtoc: true
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: 2e3a14c97706a873f0791ef83708d704d2eed6c3
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 11%
@@ -18,7 +17,7 @@ ht-degree: 11%
 
 ## 권한{#delivery-permissions}
 
-게재 소유자만 게재를 시작할 수 있습니다. 다른 연산자(또는 연산자 그룹)가 게재를 시작하려면 **[!UICONTROL Delivery start:]** 필드에 검토자로 추가하십시오. [자세히 알아보기](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers)
+게재 소유자만 게재를 시작할 수 있습니다. 다른 연산자(또는 연산자 그룹)가 게재를 시작하려면 **[!UICONTROL Delivery start:]** 필드에 검토자로 추가하십시오. [자세히 알아보기](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
 
 ## 게재 추가 매개 변수 {#delivery-additiona-parameters}
 
@@ -34,7 +33,7 @@ ht-degree: 11%
   >
   >기존 게재를 복제하여 게재를 만들 때 이 매개 변수는 재설정됩니다.
 
-* **[!UICONTROL Send using multiple waves]**: 이 옵션을 사용하여 한 번에 전체 대상자에게 메시지를 보내는 대신 일괄로 메시지를 보냅니다. [자세히 알아보기](#sending-using-multiple-waves)
+* **[!UICONTROL Send using multiple waves]**: 이 옵션을 사용하여 한 번에 전체 대상자에게 메시지를 보내는 대신 일괄로 메시지를 보냅니다. [자세히 알아보기](#sending-using-multiple-waves).
 
 * **[!UICONTROL Test SMTP delivery]**: SMTP를 통한 전송을 테스트하려면 이 옵션을 사용하십시오. 게재는 SMTP 서버에 연결될 때까지 처리되지만 전송되지는 않습니다. 게재의 모든 수신자에 대해 Campaign은 SMTP 공급자 서버에 연결하고 SMTP RCPT TO 명령을 실행한 다음 SMTP DATA 명령 전에 연결을 종료합니다.
 
@@ -44,13 +43,13 @@ ht-degree: 11%
   >
   >* [이 섹션](../../installation/using/configure-delivery-settings.md)에서 SMTP 서버 구성에 대해 자세히 알아보세요.
 
-* **[!UICONTROL Email BCC]**: 메시지 대상에 BCC 이메일 주소를 추가하여 BCC를 통해 외부 시스템에 이메일을 저장하려면 이 옵션을 사용합니다. [자세히 알아보기](sending-messages.md#archiving-emails)
+* **[!UICONTROL Email BCC]**: 메시지 대상에 BCC 이메일 주소를 추가하여 BCC를 통해 외부 시스템에 이메일을 저장하려면 이 옵션을 사용합니다. [자세히 알아보기](sending-messages.md#archiving-emails).
 
 ## 게재 확인 {#confirming-delivery}
 
 게재가 구성되어 전송할 준비가 되면 게재 분석을 실행합니다.
 
-이렇게 하려면 **[!UICONTROL Send]**&#x200B;을(를) 클릭하고 원하는 작업을 선택한 다음 **[!UICONTROL Analyze]**&#x200B;을(를) 클릭합니다. [자세히 알아보기](steps-validating-the-delivery.md#analyzing-the-delivery)
+이렇게 하려면 **[!UICONTROL Send]**&#x200B;을(를) 클릭하고 원하는 작업을 선택한 다음 **[!UICONTROL Analyze]**&#x200B;을(를) 클릭합니다. [자세히 알아보기](steps-validating-the-delivery.md#analyzing-the-delivery).
 
 ![](assets/s_ncs_user_email_del_send.png)
 

@@ -4,9 +4,8 @@ title: 캠페인 패키지 게시
 description: 캠페인 패키지 게시
 feature: Distributed Marketing
 hide: true
-hidefromtoc: true
 exl-id: e96add16-cbc8-43af-acff-06a95d5b7749
-source-git-commit: 36fe54cf6d4d762d96205bd637311a426c741427
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 2%
@@ -41,7 +40,7 @@ ht-degree: 2%
 
 ## 다른 검토자 추가 {#adding-other-reviewers}
 
-캠페인 패키지의 **[!UICONTROL Approval parameters...]** 탭에 있는 **[!UICONTROL Edit...]** 링크에서 다른 검토자를 추가할 수 있습니다.
+캠페인 패키지의 **[!UICONTROL Edit...]** 탭에 있는 **[!UICONTROL Approval parameters...]** 링크에서 다른 검토자를 추가할 수 있습니다.
 
 ![](assets/s_advuser_mkg_dist_select_op_valid.png)
 

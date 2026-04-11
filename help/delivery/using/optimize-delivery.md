@@ -6,9 +6,8 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Deliverability
 role: User
 hide: true
-hidefromtoc: true
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
-source-git-commit: 0c639cc8b9636c190c868980ab5182a0eccb5f74
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 4%
@@ -63,7 +62,7 @@ ht-degree: 4%
 
 **팁**
 
-* Adobe 잘못된 주소 목록이 있는 경우 **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Non deliverables and addresses]**&#x200B;을(를) 통해 격리 테이블로 가져오는 것이 좋습니다.
+* 잘못된 주소 목록이 있는 경우 **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Non deliverables and addresses]**&#x200B;을(를) 통해 격리 테이블로 가져오는 것이 좋습니다.
 
 * 주소가 격리된 수신자는 기본적으로 게재 분석 중에 제외됩니다. 이 수신자는 타겟팅되지 않습니다. 이렇게 하면 오류율이 게재 속도에 중요한 영향을 미치므로 게재 속도가 빨라집니다. 예를 들어 받은 편지함이 가득 찼거나 주소가 없는 경우 이메일 주소를 격리할 수 있습니다. [자세히 알아보기](#identifying-quarantined-addresses-for-a-delivery)
 

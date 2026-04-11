@@ -5,9 +5,8 @@ description: 마케팅 캠페인 게재에 대해 자세히 알아보기
 role: User
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 hide: true
-hidefromtoc: true
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 1%
@@ -123,7 +122,7 @@ ht-degree: 1%
 >
 >이 모드는 작은 문서용으로 예약되어 있습니다.
 
-캠페인에서 프로모션 쿠폰, 특정 지점 또는 상점과 관련된 특별 오퍼 등과 같은 다른 항목을 참조할 수도 있습니다. 이러한 요소를 아웃라인에 포함하면 DM 게재와 연결할 수 있습니다. [자세히 알아보기](#associating-and-structuring-resources-linked-via-a-delivery-outline)
+캠페인에서 프로모션 쿠폰, 특정 지점 또는 상점과 관련된 특별 오퍼 등과 같은 다른 항목을 참조할 수도 있습니다. 이러한 요소를 아웃라인에 포함하면 DM 게재와 연결할 수 있습니다. [자세히 알아보기](#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 >[!NOTE]
 >

@@ -4,9 +4,8 @@ title: 워크플로 구축
 description: 워크플로우 구축 방법 알아보기
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 4%
@@ -35,7 +34,7 @@ ht-degree: 4%
 
 ![](assets/create_a_wf_icon.png)
 
-또는 워크플로 개요(**[!UICONTROL Monitoring]** > **[!UICONTROL Workflow]** 링크)에서 **[!UICONTROL Create]** 단추를 사용할 수도 있습니다.
+또는 워크플로 개요(**[!UICONTROL Create]** > **[!UICONTROL Monitoring]** 링크)에서 **[!UICONTROL Workflow]** 단추를 사용할 수도 있습니다.
 
 ![](assets/create_a_wf.png)
 
@@ -153,7 +152,7 @@ ht-degree: 4%
 
 타겟팅 중에 수행되는 모든 보강 및 모든 처리의 결과는 개인화 필드에 저장되고 액세스할 수 있습니다. 특히 개인화된 메시지를 만들 때 사용할 수 있습니다. 자세한 내용은 [대상 데이터](data-life-cycle.md#target-data)를 참조하세요.
 
-### 차원 타겟팅 및 필터링 {#targeting-and-filtering-dimensions}
+### 타기팅 및 필터링 차원 {#targeting-and-filtering-dimensions}
 
 데이터 세분화 작업 중에 타겟팅 키는 필터링 차원에 매핑됩니다. 타기팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타기팅하는 집단을 정의할 수 있습니다. 필터링 차원을 사용하면 약정 소유자, 뉴스레터 구독자 등 특정 기준에 따라 모집단을 선택할 수 있습니다.
 

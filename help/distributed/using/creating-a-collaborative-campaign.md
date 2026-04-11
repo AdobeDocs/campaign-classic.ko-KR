@@ -4,9 +4,8 @@ title: 공동 캠페인 만들기
 description: 공동 작업 캠페인을 만드는 방법 알아보기
 feature: Distributed Marketing
 hide: true
-hidefromtoc: true
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
-source-git-commit: 36fe54cf6d4d762d96205bd637311a426c741427
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 3%
@@ -39,7 +38,7 @@ ht-degree: 3%
 
 **양식별** 웹 인터페이스를 선택하십시오. 이 유형의 인터페이스를 사용하면 캠페인 주문 시 로컬 엔티티에서 사용할 개인화 필드를 만들 수 있습니다. [로컬 캠페인 만들기(양식으로)](examples.md#creating-a-local-campaign--by-form-)를 참조하세요.
 
-캠페인을 저장합니다. 이제 **[!UICONTROL Create]** 단추를 클릭하여 **Campaign** 탭의 **Campaign 패키지** 보기에서 사용할 수 있습니다.
+캠페인을 저장합니다. 이제 **단추를 클릭하여** Campaign **탭의** Campaign 패키지&#x200B;**[!UICONTROL Create]** 보기에서 사용할 수 있습니다.
 
 **[!UICONTROL Campaign Package]** 보기를 사용하면 다른 조직 엔터티를 위한 캠페인을 만들 목적으로 로컬 캠페인 템플릿(기본 제공 또는 중복된 항목)을 사용할 수 있으며 공동 작업 캠페인을 위한 참조 캠페인을 사용할 수 있습니다.
 
@@ -61,7 +60,7 @@ ht-degree: 3%
 
 로컬 엔티티는 하위 캠페인을 실행합니다. 중앙 엔티티는 상위 캠페인을 실행합니다.
 
-중앙 엔터티는 **[!UICONTROL List of associated campaigns]** 링크를 통해 이 대시보드에서 **공동 작업 캠페인(캠페인별)**&#x200B;과(와) 연결된 모든 하위 캠페인을 볼 수 있습니다.
+중앙 엔터티는 **링크를 통해 이 대시보드에서**&#x200B;공동 작업 캠페인(캠페인별)**[!UICONTROL List of associated campaigns]**&#x200B;과(와) 연결된 모든 하위 캠페인을 볼 수 있습니다.
 
 ![](assets/mkg_dist_mutual_op_by_op.png)
 
@@ -111,7 +110,7 @@ ht-degree: 3%
 
 다음 단계를 적용합니다.
 
-1. **캠페인** 페이지의 **[!UICONTROL Navigation]** 섹션에서 **[!UICONTROL Campaign packages]** 링크를 클릭합니다.
+1. **[!UICONTROL Navigation]**&#x200B;캠페인&#x200B;**페이지의** 섹션에서 **[!UICONTROL Campaign packages]** 링크를 클릭합니다.
 1. **[!UICONTROL Create]** 버튼을 클릭합니다.
 1. 창 맨 위의 섹션에서 **[!UICONTROL New collaborative package (mutualizedEmpty)]** 템플릿을 선택할 수 있습니다.
 1. 참조 캠페인을 선택합니다.

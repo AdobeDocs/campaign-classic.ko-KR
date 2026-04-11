@@ -1,16 +1,15 @@
 ---
 product: campaign
 title: Campaign Classic 2021 릴리스
-description: Campaign Classic 2021 릴리스에 대해 자세히 알아보기
+description: 'Campaign Classic 2021 릴리스에 대해 자세히 알아보기 '
 feature: Release Notes
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
-source-git-commit: a1dbef3e1feca1e3347de013db8bd7809d315016
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
-source-wordcount: '2584'
-ht-degree: 100%
+source-wordcount: '2579'
+ht-degree: 97%
 
 ---
 
@@ -40,7 +39,7 @@ _2021년 10월 8일_
 
 [!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
-_2021년 9월 7일_
+_2021년 9월 7일 수요일_
 
 **보안 개선**
 
@@ -50,15 +49,15 @@ _2021년 9월 7일_
 
 * 수명 종료에 따라 Flash를 Campaign의 기능과 구성 요소에서 제거하고 HTML5로 대체했습니다. 차트의 **측정** 유형이 제거되었습니다. (NEO-30330) [자세히 보기](../../reporting/using/creating-a-chart.md)
 * 이제 Windows에 클라이언트 콘솔을 설치할 때 설치 관리자에서 상위 레지스트리 노드가 있는지 확인하고 누락된 경우 클라이언트 콘솔을 만듭니다. 따라서 콘솔을 시작할 때 발생할 수 있는 문제를 방지할 수 있습니다. (NEO-34854)
-* 서드파티 도구(이메일 클라이언트, 인터넷 브라우저 등)의 특수문자 처리 방식과 관련된 오류를 방지하기 위해 추적 서명 기능이  개선되었습니다. 이제 URL 매개 변수가 인코딩됩니다.
+* 서드파티 도구(이메일 클라이언트, 인터넷 브라우저 등)에서 특수 문자를 처리하는 방식과 관련된 오류를 방지하기 위해 추적 서명 기능을 개선했습니다. 이제 URL 매개 변수가 인코딩됩니다.
 
 **기타 변경 사항**
 
 * 과금 워크플로의 새 가드레일로 21.1.3부터 나타난 회귀 문제를 해결했습니다. 기존에는 과금 워크플로가 잘못된 인스턴스에서 실행되어 생성되지 않은 과금 보고서를 전송하려고 시도하는 중에 충돌하는 현상이 있었습니다. 이 문제 해결을 적용하려면 워크플로를 수동으로 다시 시작해야 합니다.
-* 사용 종료된 Microsoft CRM 커넥터(Office 365 및 온프레미스 배포)를 인터페이스에서 제거했습니다. [자세히 알아보기](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
+* 사용 종료된 Microsoft CRM 커넥터(Office 365 및 온프레미스 배포)를 인터페이스에서 제거했습니다. [자세히 보기](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
 * Tomcat 8로 마이그레이션한 후 IIS 설정 스크립트를 업데이트하여 IIS 통합 문제를 해결했습니다. (NEO-31019)
 * 워크플로 전환의 **모집단 보기** 창에서 데이터 및 스키마 탭에서 데이터 소스 식별이 개선되었습니다.
-* 데이터베이스 업데이트 문제를 방지하기 위해 누락된 데이터베이스 인덱스가 xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl 스키마에 추가되었습니다. 
+* 데이터베이스 업데이트 문제를 방지하기 위해 누락된 데이터베이스 인덱스가 다음 스키마에 추가되었습니다. xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
 
 **패치**
 
@@ -195,7 +194,7 @@ _2021년 6월 5일_
 
 * 워크플로를 저장할 때 활동 이름이 고유하고 전환 뒤에 활동이 표시되는지 확인하기 위한 추가 검사가 추가되었습니다.
 * 이제 **청구(billing)** 기술 워크플로에는 이전에 제거되었던 **활성 청구 프로필 수**(billingActiveContactCount) 워크플로에서 원래 수행한 작업이 포함됩니다. 워크플로가 매월 보내는 이메일 보고서는 이제 인스턴스의 활성 프로필 수에 대한 정보를 제공합니다. [자세한 내용](../../workflow/using/about-technical-workflows.md).
-* 메모 데이터 작업에 키를 사용할 수 있도록 새 **_keyOnMData** 특성이 추가되었습니다.
+* 메모 데이터 작업에 키를 사용할 수 있도록 새 **_keyOnMData** 속성이 추가되었습니다.
 
 **기타 변경 사항**
 
@@ -219,21 +218,21 @@ _2021년 6월 5일_
 * SAP HANA FDA 색인 작성에 실패하는 문제를 해결했습니다. (NEO-29664)
 * 헤더가 포함된 SOAP 호출을 수행할 때 트랜잭션 메시지를 **대기 중** 상태에 남겨 놓을 수 있는 문제를 해결했습니다. (NEO-28737)
 * Teradata FDA 커넥터를 사용할 때, 모든 임시 테이블이 클러스터의 한 노드에서만 생성되고, 이로 인해 전체 스풀 공간이 소모되며 Teradata 충돌이 발생할 수 있는 문제를 해결했습니다. 이제 임시 테이블이 여러 노드에서 생성됩니다. (NEO-28230)
-* 추적 태그가 **nms:trackingURL** 스키마에 잘못된 기본 키를 생성하는 웹 애플리케이션을 사용할 때 발생하는 문제를 수정했습니다. (NEO-27931)
+* 추적 태그가 **nms:trackingURL** 스키마에 잘못된 기본 키를 생성하는 웹 응용 프로그램을 사용할 때 발생하는 문제를 해결했습니다. (NEO-27931)
 * 오류 메시지의 정확성을 보장하기 위해 ODBC 3.x와의 호환성이 향상되었습니다.
 * 사용자 지정 콘텐츠 템플릿을 이메일 게재에서 사용할 때 콘솔 충돌이 발생하는 문제를 수정했습니다. (NEO-31547)
 * 느린 연결 또는 큰 응답 크기로 인해 Tomcat에서 유효한 응답을 보내지 못하는 문제를 해결했습니다. (NEO-30858)
 * PostgreSQL 데이터베이스에서 UUID를 읽을 때 발생할 수 있는 문제를 수정했습니다.
 * 오퍼에 연결된 제안 데이터를 검색할 때 성능 문제가 발생하는 문제를 해결했습니다. (NEO-27554)
 * IMS 서비스가 활성화되었으나 응답이 없는 경우 웹 프로세스가 응답하지 않는 문제를 해결했습니다.
-* 게재 개인화에 실패한 특정 조인 메커니즘으로 인해 증명 그룹과 함께 게재를 보낼 수 없는 문제를 수정했습니다. (NEO-14391)
+* 게재 개인화에 실패한 특정 조인 메커니즘으로 인해 교정 그룹과 함께 게재를 보낼 수 없는 문제를 수정했습니다. (NEO-14391)
 * 쿼리 및 데이터 보강 활동이 게재 테이블을 타겟팅한 경우 경고 활동으로 경고를 보내지 못하는 문제를 해결했습니다. (NEO-25157)
 
 ### 릴리스 21.1.2 - 빌드 9282 {#release-21-1-2-build-9282}
 
 [!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
-_2021년 4월 15일_
+_2021년 4월 15일 금요일_
 
 * 암호 관리가 보안을 최적화하기 위해 개선되었습니다.
 * MTA 작동 중단을 발생시킬 수 있는 문제를 수정했습니다.

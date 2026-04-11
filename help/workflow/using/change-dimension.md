@@ -4,9 +4,8 @@ title: 차원 변경
 description: 차원 변경
 feature: Workflows, Targeting Activity
 hide: true
-hidefromtoc: true
 exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 2%
@@ -59,7 +58,7 @@ ht-degree: 2%
      >
      >추가 열을 만들고 관리하는 방법에 대한 자세한 내용은 [데이터 추가](query.md#adding-data)를 참조하세요.
 
-   * 이전 타겟팅 차원(축 전환 전)을 선택하고 받는 사람의 **[!UICONTROL Location]** 하위 트리에서 **[!UICONTROL Zip Code]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Edit expression]**&#x200B;을(를) 클릭합니다.
+   * 이전 타겟팅 차원(축 전환 전)을 선택하고 받는 사람의 **[!UICONTROL Zip Code]** 하위 트리에서 **[!UICONTROL Location]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Edit expression]**&#x200B;을(를) 클릭합니다.
 
      ![](assets/wf_change-dimension_sample_02.png)
 

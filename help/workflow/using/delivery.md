@@ -4,11 +4,10 @@ title: 게재
 description: 게재 유형 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Channels Activity
 hide: true
-hidefromtoc: true
 exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '916'
 ht-degree: 1%
 
 ---
@@ -78,10 +77,10 @@ ht-degree: 1%
    수행할 작업 유형을 선택합니다.
 
    * **[!UICONTROL Save]**: 이 옵션을 사용하면 게재를 만들고 저장할 수 있습니다. 분석하거나 전달하지 않습니다.
-   * **[!UICONTROL Estimate the target]**: 이 옵션을 사용하면 게재 대상을 계산하여 잠재적(첫 번째 분석 단계)을 평가할 수 있습니다. 이 작업은 **배달**&#x200B;을 통해 기본 대상으로 게재를 보낼 때 **[!UICONTROL Estimate the population to be targeted]** 옵션을 선택하고 **[!UICONTROL Analyze]**&#x200B;을(를) 클릭하는 것과 같습니다.
-   * **[!UICONTROL Prepare]**: 이 옵션을 사용하면 전체 분석 프로세스(대상 계산 및 콘텐츠 준비)를 실행할 수 있습니다. 게재가 전송되지 않았습니다. 이 작업은 **배달**&#x200B;을 사용하여 게재를 기본 대상으로 보낼 때 **[!UICONTROL Deliver as soon as possible]** 옵션을 선택하고 **[!UICONTROL Analyze]**&#x200B;을(를) 클릭하는 것과 같습니다.
-   * **[!UICONTROL Send a proof]**: 이 옵션을 사용하면 게재 증명을 보낼 수 있습니다. 이 작업은 **배달**&#x200B;이 있는 게재의 도구 모음에서 **[!UICONTROL Send a proof]** 단추를 클릭하는 것과 같습니다
-   * **[!UICONTROL Prepare and start]**: 이 옵션은 전체 분석 프로세스(대상 계산 및 콘텐츠 준비)를 시작하고 게재를 보냅니다. 이 작업은 **배달**&#x200B;을 사용하여 기본 대상으로 게재를 보낼 때 **[!UICONTROL Deliver as soon as possible]**, **[!UICONTROL Analyze]** 및 **[!UICONTROL Confirm delivery]** 옵션을 클릭하는 것과 같습니다.
+   * **[!UICONTROL Estimate the target]**: 이 옵션을 사용하면 게재 대상을 계산하여 잠재적(첫 번째 분석 단계)을 평가할 수 있습니다. 이 작업은 **[!UICONTROL Estimate the population to be targeted]**&#x200B;배달&#x200B;**[!UICONTROL Analyze]**&#x200B;을 통해 기본 대상으로 게재를 보낼 때 **옵션을 선택하고**&#x200B;을(를) 클릭하는 것과 같습니다.
+   * **[!UICONTROL Prepare]**: 이 옵션을 사용하면 전체 분석 프로세스(대상 계산 및 콘텐츠 준비)를 실행할 수 있습니다. 게재가 전송되지 않았습니다. 이 작업은 **[!UICONTROL Deliver as soon as possible]**&#x200B;배달&#x200B;**[!UICONTROL Analyze]**&#x200B;을 사용하여 게재를 기본 대상으로 보낼 때 **옵션을 선택하고**&#x200B;을(를) 클릭하는 것과 같습니다.
+   * **[!UICONTROL Send a proof]**: 이 옵션을 사용하면 게재 증명을 보낼 수 있습니다. 이 작업은 **[!UICONTROL Send a proof]**&#x200B;배달&#x200B;**이 있는 게재의 도구 모음에서** 단추를 클릭하는 것과 같습니다
+   * **[!UICONTROL Prepare and start]**: 이 옵션은 전체 분석 프로세스(대상 계산 및 콘텐츠 준비)를 시작하고 게재를 보냅니다. 이 작업은 **[!UICONTROL Deliver as soon as possible]**&#x200B;배달&#x200B;**[!UICONTROL Analyze]**&#x200B;을 사용하여 기본 대상으로 게재를 보낼 때 **[!UICONTROL Confirm delivery]**, **및** 옵션을 클릭하는 것과 같습니다.
 
    워크플로우에서 추가로 사용되는 **[!UICONTROL Act on a delivery]** 활동을 통해 게재를 시작하는 데 필요한 나머지 모든 단계(대상 계산, 콘텐츠 준비, 게재)를 시작할 수 있습니다. 자세한 내용은 [게재 제어](delivery-control.md)를 참조하세요.
 
@@ -136,7 +135,7 @@ ht-degree: 1%
 
 ## 입력 매개 변수 {#input-parameters}
 
-**[!UICONTROL Delivery]** 섹션에서 **[!UICONTROL Specified in the transition]** 옵션을 선택한 경우 게재 식별자.
+**[!UICONTROL Specified in the transition]** 섹션에서 **[!UICONTROL Delivery]** 옵션을 선택한 경우 게재 식별자.
 
 * deliveryId
 * tableName
@@ -146,15 +145,15 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->이 매개 변수는 **[!UICONTROL Recipients]** 섹션에서 **[!UICONTROL Specified by inbound event(s)]** 옵션을 선택한 경우에만 나타납니다.
+>이 매개 변수는 **[!UICONTROL Specified by inbound event(s)]** 섹션에서 **[!UICONTROL Recipients]** 옵션을 선택한 경우에만 나타납니다.
 
 * 파일 이름
 
-  **[!UICONTROL Recipients]** 섹션에서 **[!UICONTROL File(s) specified by inbound event(s)]** 옵션을 선택한 경우 생성된 파일의 전체 이름.
+  **[!UICONTROL File(s) specified by inbound event(s)]** 섹션에서 **[!UICONTROL Recipients]** 옵션을 선택한 경우 생성된 파일의 전체 이름.
 
 * contentId
 
-  **[!UICONTROL Content]** 섹션에서 **[!UICONTROL Specified by inbound events]** 옵션을 선택한 경우 콘텐츠 식별자.
+  **[!UICONTROL Specified by inbound events]** 섹션에서 **[!UICONTROL Content]** 옵션을 선택한 경우 콘텐츠 식별자.
 
 ## 출력 매개 변수 {#output-parameters}
 
@@ -162,7 +161,7 @@ ht-degree: 1%
 * 스키마
 * recCount
 
-이 세 값 세트는 게재 결과 대상을 식별합니다. **[!UICONTROL tableName]**&#x200B;은(는) 대상 식별자를 기억시키는 테이블 이름이고, **[!UICONTROL schema]**&#x200B;은(는) 모집단 스키마(일반적으로 nms:recipient)이며, **[!UICONTROL recCount]**&#x200B;은(는) 테이블의 요소 수입니다.
+이 세 값 세트는 게재 결과 대상을 식별합니다. **[!UICONTROL tableName]**&#x200B;은(는) 대상 식별자를 기억시키는 테이블 이름이고, **[!UICONTROL schema]**&#x200B;은(는) 모집단 스키마(일반적으로 nms:recipient)이며 **[!UICONTROL recCount]**&#x200B;은(는) 테이블의 요소 수입니다.
 
 보체와 관련된 전환은 동일한 매개 변수를 갖는다.
 

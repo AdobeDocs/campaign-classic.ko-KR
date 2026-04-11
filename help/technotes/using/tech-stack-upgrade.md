@@ -4,9 +4,8 @@ title: 기술 노트 - Adobe Campaign 시스템 업그레이드
 description: Adobe Campaign 시스템 업그레이드
 feature: Technote, Upgrade
 hide: true
-hidefromtoc: true
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
-source-git-commit: 62fc46e45078fce56eadda3518251e61244bf5d0
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 4%
@@ -70,5 +69,5 @@ Campaign용 데이터베이스 시스템이 PostgreSQL인 경우 최신 PostgreS
 
 * [환경 업그레이드](../../production/using/build-upgrade.md)
 * [빌드 업그레이드 FAQ](../../platform/using/faq-build-upgrade.md)
-* [최신 Campaign Classic 빌드 다운로드](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html)
+* [최신 Campaign Classic 빌드 다운로드](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 * [사용자가 새 클라이언트 콘솔을 사용할 수 있도록 설정](../../installation/using/client-console-availability-for-windows.md)

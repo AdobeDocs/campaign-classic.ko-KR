@@ -7,9 +7,8 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 hide: true
-hidefromtoc: true
 exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 2%
@@ -84,7 +83,7 @@ Adobe Campaign v7로 마이그레이션할 때 다음 요소를 구성해야 합
 
   미러 페이지 개인화 블록이 v6.x에서 변경되었습니다. 이 새 버전은 이러한 페이지에 액세스할 때 보안을 향상합니다.
 
-  메시지에서 v5 개인화 블록을 사용한 경우 미러 페이지 표시에 실패합니다. Adobe은 메시지에 미러 페이지를 삽입할 때 새 개인화 블록을 사용하는 것을 권장합니다.
+  메시지에서 v5 개인화 블록을 사용한 경우 미러 페이지 표시에 실패합니다. Adobe은 메시지에 미러 페이지를 삽입할 때 새 개인화 블록을 사용하는 것을 적극 권장합니다.
 
   그러나 임시 해결 방법으로(미러 페이지가 아직 사용 중이므로) **[!UICONTROL XtkAcceptOldPasswords]** 옵션을 변경하여 이 문제를 방지하기 위해 이전 개인화 블록으로 돌아가서 **[!UICONTROL 1]**(으)로 설정할 수 있습니다. 이 경우 새 v6.x 개인화 블록의 사용에는 영향을 주지 않습니다.
 

@@ -4,9 +4,8 @@ title: 목록 읽기
 description: 목록 읽기 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Targeting Activity
 hide: true
-hidefromtoc: true
 exl-id: 99f82e91-45cd-4dff-b8a4-3ad87f2f9639
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
@@ -65,7 +64,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Exclusion set]** 필드에서 **[!UICONTROL Read list]** 활동을 선택합니다. 이 활동의 데이터는 기본 집합에서 제외됩니다.
 
-   이 예제에서는 조인에 대한 제외가 있습니다. 목록에 포함된 데이터는 이메일 주소가 포함된 필드를 통해 기본 세트의 데이터와 조정됩니다. 조인을 구성하려면 **[!UICONTROL Change dimension]** 필드에서 **[!UICONTROL Joins]**&#x200B;을(를) 선택합니다.
+   이 예제에서는 조인에 대한 제외가 있습니다. 목록에 포함된 데이터는 이메일 주소가 포함된 필드를 통해 기본 세트의 데이터와 조정됩니다. 조인을 구성하려면 **[!UICONTROL Joins]** 필드에서 **[!UICONTROL Change dimension]**&#x200B;을(를) 선택합니다.
 
    ![](assets/s_advuser_list_read_sample_4.png)
 

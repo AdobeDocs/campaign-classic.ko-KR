@@ -5,9 +5,8 @@ description: 마케팅 캠페인을 만들고 실행하는 방법 알아보기
 role: User
 feature: Campaigns, Cross Channel Orchestration, Programs
 hide: true
-hidefromtoc: true
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '1248'
 ht-degree: 5%
@@ -68,7 +67,7 @@ ht-degree: 5%
 
 ![](assets/s_ncs_user_new_op_wz_a.png)
 
-프로그램을 통해 캠페인을 만들 수도 있습니다. 이렇게 하려면 관련 프로그램의 **[!UICONTROL Schedule]** 탭에서 **[!UICONTROL Add]** 단추를 클릭하십시오.
+프로그램을 통해 캠페인을 만들 수도 있습니다. 이렇게 하려면 관련 프로그램의 **[!UICONTROL Add]** 탭에서 **[!UICONTROL Schedule]** 단추를 클릭하십시오.
 
 ![](assets/s_ncs_user_add_an_op.png)
 
@@ -137,7 +136,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >이 워크플로는 반복 워크플로 템플릿으로 저장해야 합니다. 이렇게 하려면 워크플로 속성을 편집하고 **[!UICONTROL Execution]** 탭에서 **[!UICONTROL Recurring workflow template]** 옵션을 선택합니다.
+   >이 워크플로는 반복 워크플로 템플릿으로 저장해야 합니다. 이렇게 하려면 워크플로 속성을 편집하고 **[!UICONTROL Recurring workflow template]** 탭에서 **[!UICONTROL Execution]** 옵션을 선택합니다.
 
    ![](assets/s_ncs_user_op_template_recur_wf_option.png)
 
@@ -167,7 +166,7 @@ ht-degree: 5%
 
    반복 워크플로우 인스턴스의 레이블은 템플릿 레이블과 워크플로우 번호로 구성되며 # 문자는 그 사이에 있습니다.
 
-   일정에서 만든 워크플로는 **[!UICONTROL Schedule]** 탭의 **[!UICONTROL Workflow]** 열에서 워크플로와 자동으로 연결됩니다.
+   일정에서 만든 워크플로는 **[!UICONTROL Workflow]** 탭의 **[!UICONTROL Schedule]** 열에서 워크플로와 자동으로 연결됩니다.
 
    ![](assets/s_ncs_user_op_recur_planning_wfs_1.png)
 
@@ -224,6 +223,6 @@ ht-degree: 5%
 
 이 비디오에서는 마케팅 계획, 프로그램 및 캠페인을 만드는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/326561?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/326561?captions=kor&quality=12)
 
 추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

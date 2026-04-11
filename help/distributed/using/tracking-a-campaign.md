@@ -4,9 +4,8 @@ title: 캠페인 추적
 description: Campaign Distributed Marketing으로 캠페인을 추적하는 방법에 대해 알아보기
 feature: Distributed Marketing
 hide: true
-hidefromtoc: true
 exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
-source-git-commit: 36fe54cf6d4d762d96205bd637311a426c741427
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 1%
@@ -62,7 +61,7 @@ ht-degree: 1%
 
 중앙 엔티티는 언제든지 캠페인 패키지를 취소할 수 있습니다.
 
-캠페인 패키지 **[!UICONTROL Dashboard]**&#x200B;에서 **[!UICONTROL Cancel]**&#x200B;을(를) 클릭합니다.
+캠페인 패키지 **[!UICONTROL Cancel]**&#x200B;에서 **[!UICONTROL Dashboard]**&#x200B;을(를) 클릭합니다.
 
 ![](assets/mkg_dist_cancel_op_from_dashboard.png)
 

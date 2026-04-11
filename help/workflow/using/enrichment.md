@@ -4,9 +4,8 @@ title: 보강
 description: 데이터 보강 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Enrichment Activity, Targeting Activity
 hide: true
-hidefromtoc: true
 exl-id: 4c7bc0f3-5877-47dc-bd72-dc94fb7bd479
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 1%
@@ -44,11 +43,11 @@ ht-degree: 1%
 * **[!UICONTROL Define a link whose target is still available]**: 테이블 간에 1-1 카디널리티가 있는 링크를 정의할 수 있습니다. 조인 조건은 대상 테이블의 단일 레코드로 정의해야 합니다.
 * **[!UICONTROL Define a link whose target does not necessarily exist in the base]**: 테이블 간에 0-1 카디널리티가 있는 링크를 정의할 수 있습니다. 조인 조건은 대상 테이블에서 0 또는 1(최대) 레코드로 정의해야 합니다.
 
-  이 옵션은 **[!UICONTROL Enrichment]** 활동의 **[!UICONTROL Edit additional data]** 링크를 통해 액세스할 수 있는 **[!UICONTROL Simple Join]** 탭에서 구성되었습니다.
+  이 옵션은 **[!UICONTROL Simple Join]** 활동의 **[!UICONTROL Edit additional data]** 링크를 통해 액세스할 수 있는 **[!UICONTROL Enrichment]** 탭에서 구성되었습니다.
 
 * **[!UICONTROL Define a link by searching for a reference among several options]**: 이 유형의 링크는 고유 레코드에 대한 조정을 정의합니다. Adobe Campaign은 고유 레코드에 대한 참조를 저장하기 위해 대상 테이블에 외래 키를 추가하여 대상 테이블에 대한 링크를 만듭니다.
 
-  이 옵션은 **[!UICONTROL Enrichment]** 활동의 **[!UICONTROL Edit additional data]** 링크를 통해 액세스할 수 있는 **[!UICONTROL Reconciliation and deduplication]** 탭에서 구성되었습니다.
+  이 옵션은 **[!UICONTROL Reconciliation and deduplication]** 활동의 **[!UICONTROL Edit additional data]** 링크를 통해 액세스할 수 있는 **[!UICONTROL Enrichment]** 탭에서 구성되었습니다.
 
 해당 컨텍스트에서 데이터 보강 활동의 운영에 대해 자세히 설명하는 사용 사례는 다음 섹션에서도 사용할 수 있습니다.
 
@@ -190,7 +189,7 @@ ht-degree: 1%
 
 방법은 다음과 같습니다.
 
-1. 활동의 **[!UICONTROL Enrichment]** 탭에서 **[!UICONTROL Add data]**&#x200B;을(를) 선택합니다.
+1. 활동의 **[!UICONTROL Add data]** 탭에서 **[!UICONTROL Enrichment]**&#x200B;을(를) 선택합니다.
 1. 추가할 데이터 형식을 선택하는 창에서 **[!UICONTROL A link]**&#x200B;을(를) 선택합니다.
 1. 설정하려는 링크 유형과 대상을 선택합니다. 이 경우 타겟은 오퍼 스키마입니다.
 

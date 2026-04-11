@@ -4,9 +4,8 @@ title: 집계 사용
 description: 집계 사용 방법 알아보기
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 12b173e9-5068-4d45-9e1e-2aecc9866e9c
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 1%
@@ -35,7 +34,7 @@ ht-degree: 1%
 1. 쿼리를 만듭니다. 여기서 목표는 데이터베이스의 모든 수신자로부터 마지막으로 알려진 생성 날짜를 계산하는 것입니다. 따라서 쿼리에 필터가 없습니다.
 1. **[!UICONTROL Add data]**&#x200B;을(를) 선택합니다.
 1. 열려 있는 창에서 **[!UICONTROL Data linked to the filtering dimension]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Filtering dimension data]**&#x200B;을(를) 선택합니다.
-1. **[!UICONTROL Data to add]** 창에서 수신자 테이블의 **생성 날짜** 필드에 대한 최대값을 계산하는 열을 추가합니다. 표현식 편집기를 사용하거나 **[!UICONTROL Expression]** 열의 필드에 직접 **max(@created)**&#x200B;을(를) 입력할 수 있습니다. **[!UICONTROL Finish]** 단추를 클릭합니다.
+1. **[!UICONTROL Data to add]** 창에서 수신자 테이블의 **생성 날짜** 필드에 대한 최대값을 계산하는 열을 추가합니다. 표현식 편집기를 사용하거나 **열의 필드에 직접** max(@created)**[!UICONTROL Expression]**&#x200B;을(를) 입력할 수 있습니다. **[!UICONTROL Finish]** 단추를 클릭합니다.
 
    ![](assets/datamanagement_usecase_2.png)
 

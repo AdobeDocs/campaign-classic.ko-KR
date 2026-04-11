@@ -5,9 +5,8 @@ description: 마케팅 캠페인 대상을 정의하는 방법 알아보기
 role: User
 feature: Campaigns, Audiences
 hide: true
-hidefromtoc: true
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 1%
@@ -184,7 +183,7 @@ ht-degree: 1%
 캠페인 수준에서 컨트롤 그룹을 정의할 수 있습니다. 이 경우 컨트롤 그룹은 해당 캠페인의 각 게재에 적용됩니다.
 
 1. 관련 캠페인을 편집하고 **[!UICONTROL Edit]** 탭을 클릭합니다.
-1. **[!UICONTROL Advanced campaign settings]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Advanced campaign settings]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/s_ncs_user_edit_op_target.png)
 
@@ -205,7 +204,7 @@ ht-degree: 1%
 >
 >캠페인에 대한 컨트롤 그룹을 정의했으며 이 캠페인에 연결된 게재에도 구성한 경우 게재에 대해 정의된 컨트롤 그룹만 적용됩니다.
 
-1. 관련 게재를 편집한 다음 **[!UICONTROL Email parameters]** 섹션에서 **[!UICONTROL To]** 링크를 클릭합니다.
+1. 관련 게재를 편집한 다음 **[!UICONTROL To]** 섹션에서 **[!UICONTROL Email parameters]** 링크를 클릭합니다.
 
    ![](assets/s_ncs_user_edit_op_target_del.png)
 
@@ -246,6 +245,6 @@ ht-degree: 1%
 
 이 비디오에서는 Adobe Campaign에서 캠페인 및 이메일을 만드는 방법을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31872?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/31872?captions=kor&quality=12)
 
 추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

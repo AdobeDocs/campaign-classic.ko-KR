@@ -4,9 +4,8 @@ title: 데이터 강화
 description: 데이터 보강 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Enrichment Activity
 hide: true
-hidefromtoc: true
 exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 0%
@@ -62,7 +61,7 @@ ht-degree: 0%
 
 ## 2단계: 데이터 보강 {#step-2--enrichment}
 
-이 예제에서는 **[!UICONTROL Competition results]** 테이블에 저장된 **[!UICONTROL Score]** 필드에 따라 게재를 개인화하려고 합니다. 이 테이블은 수신자 테이블과 1-n 유형 관계입니다. **[!UICONTROL Enrichment]** 활동을 사용하면 필터링 차원에 연결된 테이블의 데이터를 워크플로우의 작업 테이블에 추가할 수 있습니다.
+이 예제에서는 **[!UICONTROL Score]** 테이블에 저장된 **[!UICONTROL Competition results]** 필드에 따라 게재를 개인화하려고 합니다. 이 테이블은 수신자 테이블과 1-n 유형 관계입니다. **[!UICONTROL Enrichment]** 활동을 사용하면 필터링 차원에 연결된 테이블의 데이터를 워크플로우의 작업 테이블에 추가할 수 있습니다.
 
 1. 데이터 보강 활동의 편집 화면에서 **[!UICONTROL Add data]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Data linked to the filtering dimension]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
@@ -72,19 +71,19 @@ ht-degree: 0%
 
    ![](assets/uc1_enrich_7.png)
 
-1. ID와 레이블을 입력하고 **[!UICONTROL Data collected]** 필드에서 **[!UICONTROL Limit the line count]** 옵션을 선택합니다. **[!UICONTROL Lines to retrieve]** 필드에서 &#39;1&#39;을 값으로 선택합니다. 데이터 보강 활동은 각 받는 사람에 대해 **[!UICONTROL Competition results]** 테이블의 한 줄을 워크플로의 작업 테이블에 추가합니다. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
+1. ID와 레이블을 입력하고 **[!UICONTROL Limit the line count]** 필드에서 **[!UICONTROL Data collected]** 옵션을 선택합니다. **[!UICONTROL Lines to retrieve]** 필드에서 &#39;1&#39;을 값으로 선택합니다. 데이터 보강 활동은 각 받는 사람에 대해 **[!UICONTROL Competition results]** 테이블의 한 줄을 워크플로의 작업 테이블에 추가합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/uc1_enrich_8.png)
 
-1. 이 예제에서는 수신자의 가장 높은 점수를 복구하려고 하지만, 마지막 대회에서만 복구하려고 합니다. 이렇게 하려면 **[!UICONTROL Competition name]** 필드에 필터를 추가하여 이전 대회와 관련된 모든 줄을 제외합니다. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
+1. 이 예제에서는 수신자의 가장 높은 점수를 복구하려고 하지만, 마지막 대회에서만 복구하려고 합니다. 이렇게 하려면 **[!UICONTROL Competition name]** 필드에 필터를 추가하여 이전 대회와 관련된 모든 줄을 제외합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/uc1_enrich_9.png)
 
-1. **[!UICONTROL Sort]** 화면으로 이동하여 **[!UICONTROL Add]** 단추를 클릭하고 **[!UICONTROL Score]** 필드를 선택한 다음 **[!UICONTROL descending]** 열의 확인란을 선택하여 **[!UICONTROL Score]** 필드의 항목을 내림차순으로 정렬합니다. 각 수신자에 대해 데이터 보강 활동은 마지막 게임의 가장 높은 점수와 일치하는 라인을 추가합니다. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Sort]** 화면으로 이동하여 **[!UICONTROL Add]** 단추를 클릭하고 **[!UICONTROL Score]** 필드를 선택한 다음 **[!UICONTROL descending]** 열의 확인란을 선택하여 **[!UICONTROL Score]** 필드의 항목을 내림차순으로 정렬합니다. 각 수신자에 대해 데이터 보강 활동은 마지막 게임의 가장 높은 점수와 일치하는 라인을 추가합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/uc1_enrich_10.png)
 
-1. **[!UICONTROL Data to add]** 창에서 **[!UICONTROL Score]** 필드를 두 번 클릭합니다. 데이터 보강 활동은 각 받는 사람에 대해 **[!UICONTROL Score]** 필드만 추가합니다. **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Data to add]** 창에서 **[!UICONTROL Score]** 필드를 두 번 클릭합니다. 데이터 보강 활동은 각 받는 사람에 대해 **[!UICONTROL Score]** 필드만 추가합니다. **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/uc1_enrich_11.png)
 

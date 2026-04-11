@@ -6,9 +6,8 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Email Design
 role: User
 hide: true
-hidefromtoc: true
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '1961'
 ht-degree: 1%
@@ -17,7 +16,7 @@ ht-degree: 1%
 
 # 이메일 콘텐츠 정의 {#defining-the-email-content}
 
-## 보낸 사람 {#sender}
+## 발신자 {#sender}
 
 보낸 메시지의 머리글에 표시할 보낸 사람의 이름과 주소를 정의하려면 **[!UICONTROL From]** 링크를 클릭하십시오.
 

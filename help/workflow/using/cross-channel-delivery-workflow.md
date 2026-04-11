@@ -4,9 +4,8 @@ title: 크로스 채널 게재 워크플로
 description: 크로스 채널 게재 워크플로우에 대해 자세히 알아보기
 feature: Workflows, Channels Activity
 hide: true
-hidefromtoc: true
 exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 3%
@@ -84,16 +83,16 @@ ht-degree: 3%
 
    ![](assets/wkf_cross-channel_9.png)
 
-1. 필터 설정의 **[!UICONTROL Behavior]** 드롭다운 목록에서 **[!UICONTROL Recipients who have not opened or clicked (email)]**&#x200B;을(를) 선택하고 게재 목록에서 보낼 오퍼가 포함된 이메일을 선택합니다. **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
+1. 필터 설정의 **[!UICONTROL Recipients who have not opened or clicked (email)]** 드롭다운 목록에서 **[!UICONTROL Behavior]**&#x200B;을(를) 선택하고 게재 목록에서 보낼 오퍼가 포함된 이메일을 선택합니다. **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/wkf_cross-channel_10.png)
 
-1. 두 번째 하위 집합도 유사하게 진행하고 **[!UICONTROL Behavior]** 드롭다운 목록에서 **[!UICONTROL Recipients who have not clicked (email)]**&#x200B;을(를) 선택하십시오.
+1. 두 번째 하위 집합도 유사하게 진행하고 **[!UICONTROL Recipients who have not clicked (email)]** 드롭다운 목록에서 **[!UICONTROL Behavior]**&#x200B;을(를) 선택하십시오.
 
    ![](assets/wkf_cross-channel_11.png)
 
 1. 세 번째 하위 집합의 경우 **[!UICONTROL Add a filtering condition on the inbound population]**&#x200B;을(를) 선택하고 **[!UICONTROL Edit]**&#x200B;을(를) 클릭한 후 **[!UICONTROL Use a specific filtering dimension]** 옵션을 선택하십시오.
-1. **[!UICONTROL Filtering dimension]** 드롭다운 목록에서 **[!UICONTROL Recipient tracking log]**&#x200B;을(를) 선택하고 **[!UICONTROL List of restriction filters]**&#x200B;에서 **[!UICONTROL Filtering conditions]**&#x200B;을(를) 강조 표시한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Recipient tracking log]** 드롭다운 목록에서 **[!UICONTROL Filtering dimension]**&#x200B;을(를) 선택하고 **[!UICONTROL Filtering conditions]**&#x200B;에서 **[!UICONTROL List of restriction filters]**&#x200B;을(를) 강조 표시한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/wkf_cross-channel_12.png)
 

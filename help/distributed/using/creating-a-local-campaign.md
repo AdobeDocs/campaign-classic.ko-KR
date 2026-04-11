@@ -4,9 +4,8 @@ title: 로컬 캠페인 만들기
 description: 로컬 캠페인 만들기
 feature: Distributed Marketing
 hide: true
-hidefromtoc: true
 exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
-source-git-commit: 36fe54cf6d4d762d96205bd637311a426c741427
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 1%
@@ -17,7 +16,7 @@ ht-degree: 1%
 
 
 
-로컬 캠페인은 **특정 실행 일정**&#x200B;을(를) 사용하여 **[!UICONTROL campaign packages]** 목록에서 참조된 템플릿에서 만든 인스턴스입니다. 중앙 엔티티에 의해 설정 및 구성된 캠페인 템플릿을 사용하여 로컬 통신 요구 사항을 충족하는 것이 목표입니다. 로컬 작업을 구현하는 주요 단계는 다음과 같습니다.
+로컬 캠페인은 **[!UICONTROL campaign packages]**&#x200B;특정 실행 일정&#x200B;**을(를) 사용하여** 목록에서 참조된 템플릿에서 만든 인스턴스입니다. 중앙 엔티티에 의해 설정 및 구성된 캠페인 템플릿을 사용하여 로컬 통신 요구 사항을 충족하는 것이 목표입니다. 로컬 작업을 구현하는 주요 단계는 다음과 같습니다.
 
 **중앙 엔터티의 경우**
 
@@ -33,7 +32,7 @@ ht-degree: 1%
 
 ## 로컬 캠페인 템플릿 만들기 {#creating-a-local-campaign-template}
 
-캠페인 패키지를 만들려면 먼저 **[!UICONTROL Resources > Templates]** 노드를 통해 **캠페인 템플릿**&#x200B;을 만들어야 합니다.
+캠페인 패키지를 만들려면 먼저 **노드를 통해**&#x200B;캠페인 템플릿&#x200B;**[!UICONTROL Resources > Templates]**&#x200B;을 만들어야 합니다.
 
 새 로컬 템플릿을 만들려면 기본 **[!UICONTROL Local campaign (opLocal)]** 템플릿을 복제하십시오.
 
@@ -67,7 +66,7 @@ ht-degree: 1%
 
   ![](assets/mkt_distr_8.png)
 
-  제공된 양식이 템플릿의 **[!UICONTROL Advanced campaign settings...]** 링크에 있는 **[!UICONTROL web Interface]** 필드의 드롭다운 목록에서 선택해야 하는 웹 응용 프로그램에 지정되었습니다. [로컬 캠페인 만들기(양식으로)](examples.md#creating-a-local-campaign--by-form-)를 참조하세요.
+  제공된 양식이 템플릿의 **[!UICONTROL web Interface]** 링크에 있는 **[!UICONTROL Advanced campaign settings...]** 필드의 드롭다운 목록에서 선택해야 하는 웹 응용 프로그램에 지정되었습니다. [로컬 캠페인 만들기(양식으로)](examples.md#creating-a-local-campaign--by-form-)를 참조하세요.
 
   >[!NOTE]
   >
@@ -115,17 +114,17 @@ ht-degree: 1%
 
 ![](assets/s_advuser_mkg_dist_add_docs.png)
 
-문서 업로드 필드를 표시하지 않으려면 **[!UICONTROL Number of documents]** 필드에 **[!UICONTROL 0]**&#x200B;을(를) 입력하십시오.
+문서 업로드 필드를 표시하지 않으려면 **[!UICONTROL 0]** 필드에 **[!UICONTROL Number of documents]**&#x200B;을(를) 입력하십시오.
 
 >[!NOTE]
 >
->**[!UICONTROL Do not display the page used to enter the campaign parameters]**&#x200B;을(를) 확인하여 **[!UICONTROL Advanced parameters for campaign entry]**&#x200B;을(를) 비활성화할 수 있습니다.
+>**[!UICONTROL Advanced parameters for campaign entry]**&#x200B;을(를) 확인하여 **[!UICONTROL Do not display the page used to enter the campaign parameters]**&#x200B;을(를) 비활성화할 수 있습니다.
 
 ![](assets/s_advuser_mkg_dist_disable_op_parameters.png)
 
 ### 워크플로 {#workflow}
 
-**[!UICONTROL Targeting and workflows]** 탭에서 **[!UICONTROL Advanced campaign settings...]**&#x200B;에 지정된 **[!UICONTROL Default values]**&#x200B;을(를) 수집하고 게재를 만드는 캠페인 워크플로우를 만듭니다.
+**[!UICONTROL Targeting and workflows]** 탭에서 **[!UICONTROL Default values]**&#x200B;에 지정된 **[!UICONTROL Advanced campaign settings...]**&#x200B;을(를) 수집하고 게재를 만드는 캠페인 워크플로우를 만듭니다.
 
 ![](assets/mkg_dist_local_op_creation4b.png)
 
@@ -151,7 +150,7 @@ ht-degree: 1%
 
 ![](assets/mkt_dist_local_campaign_localize_html.png)
 
-캠페인 템플릿을 저장합니다. 이제 **[!UICONTROL Create]** 단추를 클릭하여 **[!UICONTROL Campaigns]** 탭의 **[!UICONTROL Campaign packages]** 보기에서 사용할 수 있습니다.
+캠페인 템플릿을 저장합니다. 이제 **[!UICONTROL Campaign packages]** 단추를 클릭하여 **[!UICONTROL Campaigns]** 탭의 **[!UICONTROL Create]** 보기에서 사용할 수 있습니다.
 
 ![](assets/mkt_distr_9.png)
 
@@ -165,7 +164,7 @@ ht-degree: 1%
 
 다음 단계를 적용합니다.
 
-1. **캠페인** 페이지의 **[!UICONTROL Navigation]** 섹션에서 **[!UICONTROL Campaign packages]** 링크를 클릭합니다.
+1. **[!UICONTROL Navigation]**&#x200B;캠페인&#x200B;**페이지의** 섹션에서 **[!UICONTROL Campaign packages]** 링크를 클릭합니다.
 1. **[!UICONTROL Create]** 버튼을 클릭합니다.
 
    ![](assets/mkg_dist_add_an_entry.png)
@@ -280,7 +279,7 @@ ht-degree: 1%
 
 캠페인 주문을 확인하려면 중앙 엔티티가 승인해야 합니다.
 
-**캠페인** 탭을 통해 액세스할 수 있는 **[!UICONTROL Campaign orders]** 개요를 사용하면 캠페인 주문 상태를 보고 승인할 수 있습니다.
+**[!UICONTROL Campaign orders]**&#x200B;캠페인&#x200B;**탭을 통해 액세스할 수 있는** 개요를 사용하면 캠페인 주문 상태를 보고 승인할 수 있습니다.
 
 >[!NOTE]
 >

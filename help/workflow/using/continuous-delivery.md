@@ -4,11 +4,10 @@ title: 지속적인 게재
 description: 지속적인 게재
 feature: Workflows, Channels Activity
 hide: true
-hidefromtoc: true
 exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '358'
 ht-degree: 12%
 
 ---
@@ -46,7 +45,7 @@ ht-degree: 12%
 * 스키마
 * recCount
 
-이 세 값 세트는 즉시 게재 시 발생하는 대상을 식별합니다. **[!UICONTROL tableName]**&#x200B;은(는) 대상 식별자를 기억시키는 테이블 이름이고, **[!UICONTROL schema]**&#x200B;은(는) 모집단 스키마(일반적으로 nms:recipient)이며, **[!UICONTROL recCount]**&#x200B;은(는) 테이블의 요소 수입니다.
+이 세 값 세트는 즉시 게재 시 발생하는 대상을 식별합니다. **[!UICONTROL tableName]**&#x200B;은(는) 대상 식별자를 기억시키는 테이블 이름이고, **[!UICONTROL schema]**&#x200B;은(는) 모집단의 스키마(일반적으로 nms:recipient)이며 **[!UICONTROL recCount]**&#x200B;은(는) 테이블의 요소 수입니다.
 
 보체와 관련된 전환은 동일한 매개 변수를 갖는다.
 
@@ -64,6 +63,6 @@ ht-degree: 12%
 
 이 비디오에서는 증분 쿼리를 사용하여 연속 게재를 구성하는 방법을 보여줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31881?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/31881?captions=kor&quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

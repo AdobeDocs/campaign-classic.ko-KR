@@ -5,9 +5,8 @@ description: 게재 디자인 및 전송 모범 사례 알아보기
 feature: Deliverability
 role: User
 hide: true
-hidefromtoc: true
 exl-id: eb5ad5a4-f640-4b26-b04f-b5567761d996
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '34'
 ht-degree: 8%

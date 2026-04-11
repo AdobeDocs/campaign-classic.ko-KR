@@ -5,9 +5,8 @@ description: 대상 모집단을 정의하는 방법 알아보기
 feature: Audiences, Proofs
 role: User
 hide: true
-hidefromtoc: true
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '1730'
 ht-degree: 22%
@@ -36,7 +35,7 @@ ht-degree: 22%
 
 1. **[!UICONTROL Target mapping]** 드롭다운 목록에서 대상 매핑을 선택합니다. Adobe Campaign 기본 대상 매핑은 **[!UICONTROL Recipients]** nms **스키마를 기반으로 하는:recipient**&#x200B;입니다.
 
-   다른 대상 매핑을 사용할 수 있으며, 일부는 특정 구성과 관련될 수 있습니다.[자세히 알아보기](#select-a-target-mapping)
+   다른 대상 매핑을 사용할 수 있으며, 일부는 특정 구성과 관련될 수 있습니다.[자세히 알아보기](#select-a-target-mapping).
 
 1. **[!UICONTROL Add]** 버튼을 클릭하여 제한 필터를 정의합니다.
 

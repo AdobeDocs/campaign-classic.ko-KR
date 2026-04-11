@@ -4,9 +4,8 @@ title: 데이터 타겟팅
 description: 워크플로우의 데이터 타겟팅에 대해 자세히 알아보기
 feature: Query Editor, Data Management, Workflows
 hide: true
-hidefromtoc: true
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '1919'
 ht-degree: 5%

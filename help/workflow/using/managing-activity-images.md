@@ -4,9 +4,8 @@ title: 활동 이미지 변경
 description: 활동 이미지를 변경하는 방법 알아보기
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 3%
@@ -23,7 +22,7 @@ ht-degree: 3%
 
   ![](assets/s_user_segmentation_properties_tab.png)
 
-  사용할 이미지를 선택하려면 **[!UICONTROL Background image]** 필드 오른쪽에 있는 **[!UICONTROL Select link]** 아이콘을 클릭합니다.
+  사용할 이미지를 선택하려면 **[!UICONTROL Select link]** 필드 오른쪽에 있는 **[!UICONTROL Background image]** 아이콘을 클릭합니다.
 
   >[!NOTE]
   >
@@ -35,7 +34,7 @@ ht-degree: 3%
 
 * 활동과 연결된 이미지를 변경하려면 개체를 두 번 클릭한 다음 **[!UICONTROL Advanced]** 탭을 클릭합니다.
 
-  사용할 이미지를 선택하려면 **[!UICONTROL Image]** 필드 오른쪽에 있는 **[!UICONTROL Select link]** 아이콘을 클릭합니다.
+  사용할 이미지를 선택하려면 **[!UICONTROL Select link]** 필드 오른쪽에 있는 **[!UICONTROL Image]** 아이콘을 클릭합니다.
 
   ![](assets/s_user_segmentation_activity_image.png)
 
