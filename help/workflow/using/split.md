@@ -4,11 +4,10 @@ title: 분할
 description: 분할 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Targeting Activity
 hide: true
-hidefromtoc: true
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '1970'
 ht-degree: 3%
 
 ---
@@ -50,7 +49,7 @@ ht-degree: 3%
 
    ![](assets/s_user_segmentation_partage4.png)
 
-1. 원하는 경우 **[!UICONTROL Add]** 단추를 사용하여 **다른 하위 집합을 추가**&#x200B;할 수 있습니다.
+1. 원하는 경우 **단추를 사용하여**&#x200B;다른 하위 집합을 추가&#x200B;**[!UICONTROL Add]**&#x200B;할 수 있습니다.
 
    ![](assets/s_user_segmentation_partage_add.png)
 
@@ -62,7 +61,7 @@ ht-degree: 3%
 
    ![](assets/s_user_segmentation_partage_add2.png)
 
-   단일 아웃바운드 전환을 생성하도록 선택하고(예: 세그먼트 코드를 사용하여 집합 식별), 이렇게 하려면 **[!UICONTROL General]** 탭에서 **[!UICONTROL Generate subsets in the same table]** 옵션을 선택합니다.
+   단일 아웃바운드 전환을 생성하도록 선택하고(예: 세그먼트 코드를 사용하여 집합 식별), 이렇게 하려면 **[!UICONTROL Generate subsets in the same table]** 탭에서 **[!UICONTROL General]** 옵션을 선택합니다.
 
    완료되면, 각 서브셋의 세그먼트 코드는 자동으로 추가 열에 저장된다. 이 열은 게재 수준의 개인화 필드에서 액세스할 수 있습니다.
 
@@ -189,7 +188,7 @@ ht-degree: 3%
    * **[!UICONTROL Value]**: 배포 값을 입력하십시오.
    * **[!UICONTROL Percentage / Set]**: 각 값에 연결된 레코드 제한(고정 또는 백분율)을 입력하십시오.
 
-     이 열은 **[!UICONTROL General]** 탭의 **[!UICONTROL Distribution type]** 필드에 의해 정의됩니다.
+     이 열은 **[!UICONTROL Distribution type]** 탭의 **[!UICONTROL General]** 필드에 의해 정의됩니다.
 
    * **[!UICONTROL Label]**: 각 값에 연결된 레이블을 입력합니다.
    * **[!UICONTROL Group or operator]**: **[!UICONTROL Local approval]** 활동을 사용하는 경우([로컬 승인](local-approval.md) 참조) 각 배포 값에 할당된 연산자 또는 연산자 그룹을 선택하십시오.

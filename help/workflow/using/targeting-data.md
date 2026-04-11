@@ -4,9 +4,8 @@ title: 데이터 타겟팅
 description: 워크플로우의 데이터 타겟팅에 대해 자세히 알아보기
 feature: Query Editor, Data Management, Workflows
 hide: true
-hidefromtoc: true
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '1919'
 ht-degree: 5%
@@ -135,7 +134,7 @@ ht-degree: 5%
 
 필요한 경우 인바운드 테이블을 조작할 수 있습니다. 다른 차원에서 대상을 제외하려면 이 대상을 기본 대상과 동일한 타겟팅 차원으로 반환해야 합니다. 이렇게 하려면 **[!UICONTROL Add]** 단추를 클릭하고 차원 변경 조건을 지정합니다.
 
-데이터 조정은 식별자, 축 변경 또는 조인을 통해 수행됩니다. [목록의 데이터를 사용하는 경우 &#x200B;](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list) 목록을 읽을 수 있습니다.
+데이터 조정은 식별자, 축 변경 또는 조인을 통해 수행됩니다. [목록의 데이터를 사용하는 경우 ](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list) 목록을 읽을 수 있습니다.
 
 ![](assets/exclusion_edit_add_rule_01.png)
 
@@ -179,9 +178,9 @@ ht-degree: 5%
 
    자세한 내용은 Campaign 버전에 따라 다음 섹션을 참조하십시오.
 
-   ![](assets/do-not-localize/v7.jpeg) [Campaign v7 설명서](../../installation/using/about-fda.md)
+   ![](assets/do-not-localize/v7.jpeg)[Campaign v7 설명서](../../installation/using/about-fda.md)
 
-   ![](assets/do-not-localize/v8.png) [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ko)
+   ![](assets/do-not-localize/v8.png)[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ko)
 
 그런 다음 새 하위 집합을 추가해야 합니다.
 

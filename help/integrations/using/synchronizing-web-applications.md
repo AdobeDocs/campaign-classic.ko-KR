@@ -4,9 +4,8 @@ title: 웹 애플리케이션 동기화
 description: 웹 애플리케이션을 ACS 커넥터와 동기화하는 방법 알아보기
 feature: ACS Connector
 hide: true
-hidefromtoc: true
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 1%
@@ -17,7 +16,7 @@ ht-degree: 1%
 
 
 
-이 사용 사례에서는 Campaign v7 웹 애플리케이션에 대한 링크가 포함된 커뮤니케이션을 Campaign Standard을 사용하여 보냅니다. 수신자가 이메일에 있는 링크를 클릭하면 웹 애플리케이션에 수신자의 데이터가 미리 로드된 여러 필드가 포함된 양식과 뉴스레터에 대한 구독 링크가 표시됩니다. 수신자는 자신의 데이터를 업데이트하고 서비스를 구독할 수 있습니다. 이 프로필은 Campaign v7에서 업데이트되고 정보는 Campaign Standard에서 복제됩니다.
+이 사용 사례에서는 Campaign Standard을 사용하여 Campaign v7 웹 애플리케이션에 대한 링크가 포함된 커뮤니케이션을 보냅니다. 수신자가 이메일에 있는 링크를 클릭하면 웹 애플리케이션에 수신자의 데이터가 미리 로드된 여러 필드가 포함된 양식과 뉴스레터에 대한 구독 링크가 표시됩니다. 수신자는 자신의 데이터를 업데이트하고 서비스를 구독할 수 있습니다. 이 프로필은 Campaign v7에서 업데이트되고 정보는 Campaign Standard에서 복제됩니다.
 
 Campaign v7에 많은 서비스와 웹 애플리케이션이 있는 경우 Campaign Standard에서 모두 다시 만들지 않도록 선택할 수 있습니다. ACS 커넥터를 사용하면 기존의 모든 Campaign v7 웹 애플리케이션 및 서비스를 사용하고, 이를 Campaign Standard이 보낸 게재에 연결할 수 있습니다.
 
@@ -27,11 +26,11 @@ Campaign v7에 많은 서비스와 웹 애플리케이션이 있는 경우 Campa
 
 * Campaign v7 데이터베이스에 저장되고 Campaign Standard과 동기화된 수신자입니다. [프로필 동기화](../../integrations/using/synchronizing-profiles.md) 섹션을 참조하십시오.
 * campaign v7에서 만들고 게시하는 서비스 및 웹 애플리케이션입니다.
-* 웹 응용 프로그램에는 **[!UICONTROL Adobe Campaign encryption]** 식별 메서드를 사용하는 **[!UICONTROL Pre-loading]** 활동이 있어야 합니다.
+* 웹 응용 프로그램에는 **[!UICONTROL Pre-loading]** 식별 메서드를 사용하는 **[!UICONTROL Adobe Campaign encryption]** 활동이 있어야 합니다.
 
 ## 웹 애플리케이션 및 서비스 만들기 {#creating-the-web-application-and-service}
 
-Campaign v7에서 수신자가 서비스에 가입할 수 있도록 하는 웹 애플리케이션을 만들 수 있습니다. 웹 애플리케이션과 서비스는 Campaign v7에서 디자인 및 저장되며 Campaign Standard 통신을 통해 이 서비스를 업데이트할 수 있습니다. Campaign v7의 웹 응용 프로그램에 대한 자세한 내용은 [이 섹션](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)을 참조하세요.
+Campaign v7에서 수신자가 서비스에 가입할 수 있도록 하는 웹 애플리케이션을 만들 수 있습니다. 웹 애플리케이션 및 서비스는 Campaign v7에서 디자인 및 저장되며 Campaign Standard 통신을 통해 이 서비스를 업데이트할 수 있습니다. Campaign v7의 웹 응용 프로그램에 대한 자세한 내용은 [이 섹션](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)을 참조하세요.
 
 Campaign v7에서 다음 개체가 생성되었습니다.
 
@@ -50,7 +49,7 @@ Campaign v7에서 다음 개체가 생성되었습니다.
 
    ![](assets/acs_connect_lp_3.png)
 
-1. **[!UICONTROL Profiles and Target > Services and subscriptions]**(으)로 이동하여 **[!UICONTROL Newsletter]** 서비스를 엽니다. Campaign Standard 통신에서 업데이트할 서비스입니다. 아직 이 서비스를 구독한 수신자가 없음을 확인할 수 있습니다.
+1. **[!UICONTROL Profiles and Target > Services and subscriptions]**(으)로 이동하여 **[!UICONTROL Newsletter]** 서비스를 엽니다. Campaign Standard 통신에서 업데이트되는 서비스입니다. 아직 이 서비스를 구독한 수신자가 없음을 확인할 수 있습니다.
 
    ![](assets/acs_connect_lp_5.png)
 
@@ -60,11 +59,11 @@ Campaign v7에서 다음 개체가 생성되었습니다.
 
 ## 데이터 복제 {#replicating-the-data}
 
-Campaign v7과 Campaign Standard 간에 필요한 데이터를 복제하기 위해 몇 가지 복제 워크플로우 템플릿을 사용할 수 있습니다. **[!UICONTROL Profiles replication]** 워크플로는 모든 Campaign v7 수신자를 자동으로 Campaign Standard에 복제합니다. [기술 및 복제 워크플로](../../integrations/using/acs-connector-principles-and-data-cycle.md#technical-and-replication-workflows)를 참조하세요. **[!UICONTROL Landing pages replication]** 워크플로를 사용하면 Campaign Standard에서 사용할 웹 응용 프로그램을 복제할 수 있습니다.
+Campaign v7과 Campaign Standard 간에 필요한 데이터를 복제하기 위해 몇 가지 복제 워크플로우 템플릿을 사용할 수 있습니다. **[!UICONTROL Profiles replication]** 워크플로는 모든 Campaign v7 수신자를 Campaign Standard에 자동으로 복제합니다. [기술 및 복제 워크플로](../../integrations/using/acs-connector-principles-and-data-cycle.md#technical-and-replication-workflows)를 참조하세요. **[!UICONTROL Landing pages replication]** 워크플로를 사용하면 Campaign Standard에서 사용할 웹 응용 프로그램을 복제할 수 있습니다.
 
 ![](assets/acs_connect_lp_1.png)
 
-데이터가 올바르게 복제되었는지 확인하려면 Campaign Standard에서 다음 단계를 수행합니다.
+데이터가 올바르게 복제되었는지 확인하려면 Campaign Standard에서 다음 단계를 수행하십시오.
 
 1. 홈 화면에서 **[!UICONTROL Customer profiles]**&#x200B;을(를) 클릭합니다.
 

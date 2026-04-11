@@ -5,9 +5,8 @@ description: 큐브로 데이터 탐색
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Reporting, Monitoring
 hide: true
-hidefromtoc: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 2%
@@ -32,7 +31,7 @@ Marketing Analytics를 사용하면 보고서를 더 쉽게 만들고 큐브를 
 
 ### 1단계 - 큐브를 기반으로 보고서 만들기 {#step-1---creating-a-report-based-on-a-cube}
 
-큐브를 기반으로 보고서를 만들려면 **[!UICONTROL Reports]** 탭에서 **[!UICONTROL Create]** 단추를 클릭하고 사용할 큐브를 선택합니다.
+큐브를 기반으로 보고서를 만들려면 **[!UICONTROL Create]** 탭에서 **[!UICONTROL Reports]** 단추를 클릭하고 사용할 큐브를 선택합니다.
 
 프로세스는 다음에서 자세히 설명합니다. [큐브를 기반으로 보고서를 만듭니다](../../reporting/using/creating-indicators.md#creating-a-report-based-on-a-cube).
 

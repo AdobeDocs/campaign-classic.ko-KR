@@ -4,9 +4,8 @@ title: 운영자에게 개인화된 경고 보내기
 description: 운영자에게 개인화된 경고를 보내는 방법 알아보기
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 2%
@@ -26,7 +25,7 @@ ht-degree: 2%
 1. 데이터를 타깃팅하려면 **[!UICONTROL Query]** 활동을 사용하십시오.
 1. 워크플로우에 **[!UICONTROL JavaScript code]** 활동을 추가하여 쿼리의 모집단을 인스턴스 변수에 저장합니다.
 1. **[!UICONTROL Test]** 활동을 사용하여 모집단 수를 확인합니다.
-1. **[!UICONTROL Test]** 활동 결과에 따라 **[!UICONTROL Alert]** 활동을 사용하여 운영자에게 경고를 보냅니다.
+1. **[!UICONTROL Alert]** 활동 결과에 따라 **[!UICONTROL Test]** 활동을 사용하여 운영자에게 경고를 보냅니다.
 
 ![](assets/uc_operator_1.png)
 

@@ -4,9 +4,8 @@ title: 워크플로 속성
 description: Campaign 워크플로우 속성에 대해 자세히 알아보기
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 38%
@@ -19,11 +18,11 @@ ht-degree: 38%
 
 ## 실행 탭 {#execution-tab}
 
-워크플로우에서 **[!UICONTROL Properties]** 창의 **[!UICONTROL Execution]** 탭은 세 개의 섹션으로 분류됩니다.
+워크플로우에서 **[!UICONTROL Execution]** 창의 **[!UICONTROL Properties]** 탭은 세 개의 섹션으로 분류됩니다.
 
 ![](assets/wf_execution_tab.png)
 
-### 예약 {#scheduler}
+### 스케줄러 {#scheduler}
 
 이 섹션은 캠페인 워크플로우에만 표시됩니다.
 
@@ -51,7 +50,7 @@ ht-degree: 38%
 
   이 기능은 고급 사용자용으로 예약되어 있습니다. 타겟팅 활동(쿼리, 통합, 교차 등)을 포함하는 워크플로와 연계되어 있습니다. 이 옵션을 선택하면 워크플로 실행 중에 데이터베이스로 전송된 SQL 쿼리가 Adobe Campaign에 표시됩니다. 즉, 이를 분석하여 쿼리를 최적화하거나 문제를 진단할 수 있습니다.
 
-  쿼리는 옵션이 활성화된 경우 워크플로우(캠페인 워크플로우 제외) 및 **[!UICONTROL Properties]** 활동에 추가된 **[!UICONTROL SQL logs]** 탭에 표시됩니다. **[!UICONTROL Audit]** 탭에는 SQL 쿼리도 포함됩니다.
+  쿼리는 옵션이 활성화된 경우 워크플로우(캠페인 워크플로우 제외) 및 **[!UICONTROL SQL logs]** 활동에 추가된 **[!UICONTROL Properties]** 탭에 표시됩니다. **[!UICONTROL Audit]** 탭에는 SQL 쿼리도 포함됩니다.
 
   ![](assets/wf_tab_log_sql.png)
 
@@ -70,7 +69,7 @@ ht-degree: 38%
 
 * **[!UICONTROL Consecutive errors]**
 
-  **[!UICONTROL In case of errors]** 필드에서 **[!UICONTROL Ignore]** 값을 선택하면 이 필드를 사용할 수 있습니다. 프로세스가 중지되기 전에 무시할 수 있는 오류 수를 지정할 수 있습니다. 이 수에 도달하면 워크플로 상태가 **[!UICONTROL Failed]**(으)로 변경됩니다. 이 필드의 값이 0인 경우 오류 수에 관계없이 워크플로가 중지되지 않습니다.
+  **[!UICONTROL Ignore]** 필드에서 **[!UICONTROL In case of errors]** 값을 선택하면 이 필드를 사용할 수 있습니다. 프로세스가 중지되기 전에 무시할 수 있는 오류 수를 지정할 수 있습니다. 이 수에 도달하면 워크플로 상태가 **[!UICONTROL Failed]**(으)로 변경됩니다. 이 필드의 값이 0인 경우 오류 수에 관계없이 워크플로가 중지되지 않습니다.
 
 * **[!UICONTROL Template]**
 

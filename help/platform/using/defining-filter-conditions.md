@@ -8,9 +8,8 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 hide: true
-hidefromtoc: true
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '3307'
 ht-degree: 34%
@@ -292,7 +291,7 @@ ht-degree: 34%
 
   열의 소스 값을 사용하고 대상 값을 지정할 수 있습니다. 이 대상 값은 새 출력 열에 표시됩니다.
 
-  계산된 필드 형식 **[!UICONTROL Enumerations]**&#x200B;을(를) 추가하는 예제를 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/adding-enumeration-type-calculated-field.html?lang=ko){target="_blank"}를 참조하세요.
+  계산된 필드 형식 **[!UICONTROL Enumerations]**&#x200B;을(를) 추가하는 예제를 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/adding-enumeration-type-calculated-field.html){target="_blank"}를 참조하세요.
 
   ![](assets/query_editor_nveau_63.png)
 

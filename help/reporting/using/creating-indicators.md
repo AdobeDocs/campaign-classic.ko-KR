@@ -4,9 +4,8 @@ title: 표시기 만들기
 description: 표시기 만들기
 feature: Reporting, Monitoring
 hide: true
-hidefromtoc: true
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 2%
@@ -48,7 +47,7 @@ ht-degree: 2%
 
 ## 차원 정의 {#defining-dimensions}
 
-Dimension은 관련 팩트 스키마를 기반으로 각 큐브에 대해 정의된 분석 축과 일치합니다. 시간(연도, 월, 날짜 등), 제품 또는 계약의 분류(가족, 참조 등), 인구 세그먼트(도시, 연령 그룹, 상태 등)와 같이 분석에서 탐색한 차원입니다.
+차원은 관련 팩트 스키마를 기반으로 각 큐브에 대해 정의된 분석 축과 일치합니다. 시간(연도, 월, 날짜 등), 제품 또는 계약의 분류(가족, 참조 등), 인구 세그먼트(도시, 연령 그룹, 상태 등)와 같이 분석에서 탐색한 차원입니다.
 
 이 분석 축은 큐브의 **[!UICONTROL Dimension]** 탭에서 정의됩니다.
 
@@ -121,7 +120,7 @@ Dimension은 관련 팩트 스키마를 기반으로 각 큐브에 대해 정의
 
 방법은 다음과 같습니다.
 
-1. **[!UICONTROL Reports]** 탭의 **[!UICONTROL Create]** 단추를 클릭하고 방금 만든 큐브를 선택합니다.
+1. **[!UICONTROL Create]** 탭의 **[!UICONTROL Reports]** 단추를 클릭하고 방금 만든 큐브를 선택합니다.
 
    ![](assets/s_advuser_cube_wz_14.png)
 

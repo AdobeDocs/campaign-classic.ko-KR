@@ -4,9 +4,8 @@ title: 로컬 승인 활동 사용
 description: 로컬 승인 활동을 사용하는 방법 알아보기
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 2%
@@ -120,7 +119,7 @@ ht-degree: 2%
 
    ![](assets/local_validation_split_1bis.png)
 
-1. **[!UICONTROL Sort columns]** 섹션에서 정렬이 적용되는 필드를 추가합니다. 여기에서 **[!UICONTROL Email]** 필드를 선택했습니다. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Sort columns]** 섹션에서 정렬이 적용되는 필드를 추가합니다. 여기에서 **[!UICONTROL Email]** 필드를 선택했습니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/local_validation_split_2.png)
 

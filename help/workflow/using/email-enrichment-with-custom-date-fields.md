@@ -4,9 +4,8 @@ title: 사용자 정의 날짜 필드를 통한 이메일 강화
 description: 사용자 지정 날짜 필드를 사용하여 이메일을 보강하는 방법 알아보기
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 85e0ec2a-b7cb-4d0b-a281-9ad72594403a
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 3%
@@ -47,7 +46,7 @@ ht-degree: 3%
 
    ![](assets/uc_enrichment_4.png)
 
-1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다. 그런 다음 **[!UICONTROL Split]** 활동의 **[!UICONTROL General]** 탭에서 **[!UICONTROL Results]** 범주의 **[!UICONTROL Generate complement]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다. 그런 다음 **[!UICONTROL General]** 활동의 **[!UICONTROL Split]** 탭에서 **[!UICONTROL Generate complement]** 범주의 **[!UICONTROL Results]**&#x200B;을(를) 클릭합니다.
 
    **[!UICONTROL Complement]** 결과를 사용하여 게재 활동을 추가하거나 목록을 업데이트할 수 있습니다. 여기에 **[!UICONTROL End]** 활동이 방금 추가되었습니다.
 
@@ -72,7 +71,7 @@ ht-degree: 3%
 
    ![](assets/uc_enrichment_10.png)
 
-1. 먼저 생년월일 이전 주를 **[!UICONTROL Expression]** **유효성 시작일**(으)로 타깃팅해야 합니다. `SubDays([target/@birthDate], 7)`.
+1. 먼저 생년월일 이전 주를 ****&#x200B;유효성 시작일&#x200B;**[!UICONTROL Expression]**(으)로 타깃팅해야 합니다. `SubDays([target/@birthDate], 7)`.
 
    ![](assets/uc_enrichment_11.png)
 
@@ -86,14 +85,14 @@ ht-degree: 3%
 
 **[!UICONTROL Enrichment]** 활동 후에 게재를 추가할 수 있습니다. 이 경우 이달 생일을 축하하는 고객에게 유효일이 포함된 특별 오퍼를 수신자에게 보내도록 이메일 게재를 추가했습니다.
 
-1. **[!UICONTROL Enrichment]** 활동 뒤에 **[!UICONTROL Email delivery]** 활동을 끌어다 놓습니다.
+1. **[!UICONTROL Email delivery]** 활동 뒤에 **[!UICONTROL Enrichment]** 활동을 끌어다 놓습니다.
 
    ![](assets/uc_enrichment_15.png)
 
 1. 게재 개인화를 시작하려면 **[!UICONTROL Email delivery]** 활동을 두 번 클릭하세요.
 1. 게재에 **[!UICONTROL Label]**&#x200B;을(를) 추가하고 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 1. 전자 메일 게재를 만들려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-1. **[!UICONTROL Confirm delivery before sending option]**&#x200B;이(가) 선택된 전자 메일 게재 **[!UICONTROL Properties]**&#x200B;의 **[!UICONTROL Approval]** 탭을 확인합니다.
+1. **[!UICONTROL Approval]**&#x200B;이(가) 선택된 전자 메일 게재 **[!UICONTROL Properties]**&#x200B;의 **[!UICONTROL Confirm delivery before sending option]** 탭을 확인합니다.
 
    그런 다음 워크플로우를 시작하여 타겟팅된 정보로 아웃바운드 전환을 강화합니다.
 

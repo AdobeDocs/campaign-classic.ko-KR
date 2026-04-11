@@ -8,8 +8,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f91d69a4-b794-40f0-b450-de862d7333e2
 hide: true
-hidefromtoc: true
-source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 1%
@@ -19,11 +18,11 @@ ht-degree: 1%
 # Adobe Campaign 탐색기 사용
 
 
-Adobe Campaign 탐색기는 도구 모음 아이콘을 통해 액세스할 수 있습니다. Adobe Campaign 모든 Adobe Campaign 기능, 구성 화면 및 일부 플랫폼 요소에 대한 자세한 보기에 액세스할 수 있습니다.
+Adobe Campaign 탐색기는 도구 모음 아이콘을 통해 액세스할 수 있습니다. 모든 Adobe Campaign 기능, 구성 화면 및 일부 플랫폼 요소에 대한 자세한 보기에 액세스할 수 있습니다.
 
 >[!NOTE]
 >
->Adobe Campaign 탐색기에 대한 자세한 내용은 Campaign v8 설명서의 다음 페이지를 참조하십시오. [사용자 인터페이스에 대해](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target=_blank}, [설정](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank} 또는 [탐색기에서 폴더 및 보기를 관리하는 방법](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}에 대해 자세히 알아보십시오.
+>Adobe Campaign 탐색기에 대한 자세한 내용은 Campaign v8 설명서의 다음 페이지를 참조하십시오. [사용자 인터페이스에 대해](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target=_blank}, [설정](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank} 또는 [탐색기에서 폴더 및 보기를 관리하는 방법](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}에 대해 자세히 알아보십시오.
 
 
 <!--

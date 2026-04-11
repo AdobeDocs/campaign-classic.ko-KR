@@ -1,12 +1,11 @@
 ---
 product: campaign
-title: 워크플로 사용 사례 기본 정보
+title: 워크플로 사용 사례 정보
 description: Campaign Classic 워크플로우를 사용하여 수행할 수 있는 사용 사례에 대해 자세히 알아보십시오
 feature: Workflows, Data Management
 hide: true
-hidefromtoc: true
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 28%

@@ -6,12 +6,11 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Email, Email Design
 role: User
 hide: true
-hidefromtoc: true
 exl-id: 44634227-2340-49c4-b330-740c739ea551
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '733'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

@@ -4,9 +4,8 @@ title: 승인
 description: 승인
 feature: Workflows, Approvals
 hide: true
-hidefromtoc: true
 exl-id: 7ff5da71-ef82-48a2-a608-06a4ca188bb9
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
@@ -25,7 +24,7 @@ ht-degree: 0%
 
 필요한 경우 단일 연산자 또는 필터로 정의된 연산자 세트에 승인 작업을 할당할 수 있습니다.
 
-* 단일 연산자를 선택하려면 **[!UICONTROL Assignment type]** 필드에서 **[!UICONTROL Operator]** 값을 선택하고 **[!UICONTROL Assignee]** 필드의 드롭다운 목록에서 관련 연산자를 선택합니다.
+* 단일 연산자를 선택하려면 **[!UICONTROL Operator]** 필드에서 **[!UICONTROL Assignment type]** 값을 선택하고 **[!UICONTROL Assignee]** 필드의 드롭다운 목록에서 관련 연산자를 선택합니다.
 
   ![](assets/s_advuser_validation_box_assign.png)
 
@@ -33,7 +32,7 @@ ht-degree: 0%
   >
   >선택한 운영자만 작업을 승인할 수 있습니다.
 
-* 승인 연산자를 필터링할 쿼리를 정의할 수 있습니다. 이렇게 하려면 **[!UICONTROL Assignment type]** 필드에서 **[!UICONTROL Filter]** 값을 선택하고 **[!UICONTROL Advanced parameters...]** 링크를 클릭하여 다음 예제와 같이 필터링 조건을 정의합니다.
+* 승인 연산자를 필터링할 쿼리를 정의할 수 있습니다. 이렇게 하려면 **[!UICONTROL Filter]** 필드에서 **[!UICONTROL Assignment type]** 값을 선택하고 **[!UICONTROL Advanced parameters...]** 링크를 클릭하여 다음 예제와 같이 필터링 조건을 정의합니다.
 
   ![](assets/s_advuser_validation_box_filter.png)
 

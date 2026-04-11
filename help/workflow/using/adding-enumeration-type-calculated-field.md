@@ -7,11 +7,10 @@ content-type: reference
 topic-tags: use-cases
 feature: Workflows, Data Management
 hide: true
-hidefromtoc: true
 exl-id: 3f606d3a-0af5-4315-bb08-1b21a71f1721
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -24,7 +23,7 @@ ht-degree: 0%
 
 * 어떤 테이블을 선택해야 합니까?
 
-  수신자 테이블(nms:recipient)
+  받는 사람 테이블(nms:recipient)
 
 * 출력 열에서 선택할 필드입니까?
 
@@ -51,15 +50,15 @@ ht-degree: 0%
 
    ![](assets/query_editor_nveau_75.png)
 
-1. **[!UICONTROL Export calculated field definition]** 창의 **[!UICONTROL Type]** 창으로 이동하여 **[!UICONTROL Enumerations]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Type]** 창의 **[!UICONTROL Export calculated field definition]** 창으로 이동하여 **[!UICONTROL Enumerations]**&#x200B;을(를) 선택합니다.
 
-   새 계산된 필드가 참조해야 하는 열을 정의합니다. 이렇게 하려면 **[!UICONTROL Source column]** 필드의 드롭다운 메뉴에서 **[!UICONTROL Gender]** 열을 선택합니다. 대상 값은 **[!UICONTROL Gender]** 열과 일치합니다.
+   새 계산된 필드가 참조해야 하는 열을 정의합니다. 이렇게 하려면 **[!UICONTROL Gender]** 필드의 드롭다운 메뉴에서 **[!UICONTROL Source column]** 열을 선택합니다. 대상 값은 **[!UICONTROL Gender]** 열과 일치합니다.
 
    ![](assets/query_editor_nveau_76.png)
 
    **Source** 및 **대상** 값을 정의합니다. 대상 값을 사용하면 쿼리 결과를 더 쉽게 읽을 수 있습니다. 이 쿼리는 수신자 성별을 반환해야 하며 결과는 0, 1 또는 2가 됩니다.
 
-   입력할 각 &quot;source-destination&quot; 줄에 대해 **[!UICONTROL List of enumeration values]**&#x200B;에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
+   입력할 각 &quot;source-destination&quot; 줄에 대해 **[!UICONTROL Add]**&#x200B;에서 **[!UICONTROL List of enumeration values]**&#x200B;을(를) 클릭합니다.
 
    * **[!UICONTROL Source]** 열에서 각 성별(0,1,2)의 원본 값을 새 줄에 입력하십시오.
    * **[!UICONTROL Destination]** 열에 줄 &quot;0&quot;에 &quot;Not indicated&quot;, 줄 &quot;1&quot;에 &quot;Male&quot;, 줄 &quot;2&quot;에 &quot;Female&quot; 값을 입력합니다.
@@ -81,7 +80,7 @@ ht-degree: 0%
 
    ![](assets/query_editor_nveau_78.png)
 
-   예를 들어 **[!UICONTROL List of enumeration values]**&#x200B;에 성별 &quot;2&quot;를 입력하지 않고 **[!UICONTROL In other cases]** 필드의 **[!UICONTROL Generate a warning and continue]** 함수를 선택하면 경고 로그가 표시됩니다. 이 로그는 성별 &quot;2&quot;(여성)가 입력되지 않았음을 나타냅니다. 데이터 미리 보기 창의 **[!UICONTROL Logs generated during export]** 필드에 표시됩니다.
+   예를 들어 **[!UICONTROL List of enumeration values]**&#x200B;에 성별 &quot;2&quot;를 입력하지 않고 **[!UICONTROL Generate a warning and continue]** 필드의 **[!UICONTROL In other cases]** 함수를 선택하면 경고 로그가 표시됩니다. 이 로그는 성별 &quot;2&quot;(여성)가 입력되지 않았음을 나타냅니다. 데이터 미리 보기 창의 **[!UICONTROL Logs generated during export]** 필드에 표시됩니다.
 
    ![](assets/query_editor_nveau_79.png)
 

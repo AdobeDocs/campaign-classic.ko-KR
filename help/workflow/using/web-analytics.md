@@ -3,9 +3,8 @@ product: campaign
 title: 웹 분석
 description: 웹 분석 패키지에 대해 자세히 알아보기
 hide: true
-hidefromtoc: true
 feature: Workflows, Analytics Integration
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 3%
@@ -29,7 +28,7 @@ ht-degree: 3%
   <tr> 
    <td> <span class="uicontrol">지표 및 캠페인 특성 전송</span> <br /> </td> 
    <td> <span class="uicontrol">webAnalyticsSendMetrics</span> <br /> </td> 
-   <td> 이 워크플로우를 사용하면 Adobe® Analytics 커넥터를 통해 Adobe Campaign에서 Adobe Experience Cloud Suite로 이메일 캠페인 지표를 보낼 수 있습니다. 관련 지표는 다음과 같습니다. <strong>전송됨</strong>(iSent), <strong>총 열람 수</strong>(iTotalRecipientOpen), <strong>클릭한 총 수신자 수</strong>(iTotalRecipientClick), <strong>오류</strong>(iError), <strong>옵트아웃</strong>(옵트아웃)(iOptOut).<br /> </td> 
+   <td> 이 워크플로우를 사용하면 ® Analytics 커넥터를 통해 Adobe Campaign에서 Adobe Experience Cloud Suite로 이메일 캠페인 지표를 보낼 수 있습니다. 관련 지표는 다음과 같습니다. <strong>전송됨</strong>(iSent), <strong>총 열람 수</strong>(iTotalRecipientOpen), <strong>클릭한 총 수신자 수</strong>(iTotalRecipientClick), <strong>오류</strong>(iError), <strong>옵트아웃</strong>(옵트아웃)(iOptOut).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">전환된 연락처 식별</span> <br /> </td> 

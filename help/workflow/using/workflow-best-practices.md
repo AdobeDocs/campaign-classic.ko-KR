@@ -4,9 +4,8 @@ title: 워크플로 모범 사례
 description: 캠페인 워크플로우 모범 사례 학습
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 11%
@@ -138,7 +137,7 @@ Adobe에서는 전용 폴더에 워크플로우를 만들 것을 권장합니다
 
 ### 신호 {#signal}
 
-대부분의 경우 신호가 어디에서 호출되는지 알 수 없습니다. 이 문제를 방지하려면 신호 활동의 **[!UICONTROL Advanced]** 탭에 있는 **[!UICONTROL Comment]** 필드를 사용하여 이 활동에 대해 예상되는 신호 출처를 문서화합니다.
+대부분의 경우 신호가 어디에서 호출되는지 알 수 없습니다. 이 문제를 방지하려면 신호 활동의 **[!UICONTROL Comment]** 탭에 있는 **[!UICONTROL Advanced]** 필드를 사용하여 이 활동에 대해 예상되는 신호 출처를 문서화합니다.
 
 ![](assets/workflow-signal-bp.png)
 

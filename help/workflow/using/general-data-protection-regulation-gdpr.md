@@ -3,9 +3,8 @@ product: campaign
 title: 개인 정보 보호 규정 워크플로
 description: 개인 정보 보호 규정 워크플로우에 대해 자세히 알아보십시오
 hide: true
-hidefromtoc: true
 feature: Workflows, Privacy
-source-git-commit: 0d8cef312371192ee97f88eb33276df9d7fb11f6
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 2%

@@ -4,9 +4,8 @@ title: 포크
 description: 포크 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 7a38653b-c15d-4ed8-85dc-f7214409f42b
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 1%

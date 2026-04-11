@@ -3,9 +3,8 @@ product: campaign
 title: 지원되지 않는 SMS 커넥터 마이그레이션
 description: 지원되지 않는 SMS 커넥터를 Extended Generic SMPP 커넥터로 마이그레이션
 feature: SMS, Upgrade
-hidefromtoc: true
 exl-id: 60acf80c-8506-410b-ab2c-4f67a5677b43
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 1%
@@ -20,7 +19,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->이 마이그레이션은 필수는 아니지만 Adobe이 권장하며 지원되는 최신 소프트웨어 버전에서 실행 중인지 확인합니다.
+>이 마이그레이션은 필수가 아니지만 Adobe에서 권장하며 지원되는 최신 소프트웨어 버전에서 실행 중인지 확인합니다.
 
 ## SMS 커넥터 정보 {#about-sms-connectors}
 
@@ -47,7 +46,7 @@ ht-degree: 1%
 
 먼저 새 **[!UICONTROL Extended Generic SMPP]** 외부 계정을 만들어야 매개 변수 일부를 바꿀 수 있습니다. 자세한 단계는 이 [페이지](sms-set-up.md#creating-an-smpp-external-account)에서 확인할 수 있습니다.
 
-이제 이전 커넥터에 따라 새로 만든 **[!UICONTROL Extended Generic SMPP]** 외부 계정의 **[!UICONTROL Mobile]** 탭에서 매개 변수를 입력해야 합니다.
+이제 이전 커넥터에 따라 새로 만든 **[!UICONTROL Mobile]** 외부 계정의 **[!UICONTROL Extended Generic SMPP]** 탭에서 매개 변수를 입력해야 합니다.
 
 ### 원본 커넥터에서 {#from-generic-connector}
 

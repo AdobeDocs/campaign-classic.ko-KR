@@ -4,9 +4,8 @@ title: 반복 게재
 description: 반복 게재 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 11%
@@ -55,6 +54,6 @@ ht-degree: 11%
 
 이 비디오에서는 반복 게재 및 예약 활동을 구성하는 방법을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/27507?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

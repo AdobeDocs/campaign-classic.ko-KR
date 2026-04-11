@@ -3,9 +3,8 @@ product: campaign
 title: 중간 소싱으로 전송
 description: 중간 소싱 워크플로우로 전송에 대해 자세히 알아보기
 hide: true
-hidefromtoc: true
 feature: Workflows
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 1%

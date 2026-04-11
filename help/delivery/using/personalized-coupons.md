@@ -6,9 +6,8 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Personalization
 role: User
 hide: true
-hidefromtoc: true
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 1%
@@ -25,7 +24,7 @@ ht-degree: 1%
 
 쿠폰 관리는 설치해야 하는 패키지를 사용합니다. 쿠폰 관리 기능이 있는지 확인하려면 **[!UICONTROL Administration > Configuration > Package management > Installed packages.]**&#x200B;을(를) 확인하세요.
 
-쿠폰 데이터는 CSV 및 XML 포맷을 사용하여 가져오고 내보낼 수 있습니다. [자세히 알아보기](../../platform/using/get-started-data-import-export.md)
+쿠폰 데이터는 CSV 및 XML 포맷을 사용하여 가져오고 내보낼 수 있습니다. [자세히 알아보기](../../platform/using/get-started-data-import-export.md).
 
 ## 쿠폰 만들기 {#creating-a-coupon}
 
@@ -152,9 +151,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->기본적으로 쿠폰 관리 모듈은 **nms:recipient** 테이블을 사용합니다. [자세히 알아보기](../../configuration/using/about-data-model.md#default-recipient-table)
+>기본적으로 쿠폰 관리 모듈은 **nms:recipient** 테이블을 사용합니다. [자세히 알아보기](../../configuration/using/about-data-model.md#default-recipient-table).
 >
->이 페이지[에서 사용자 지정 받는 사람 테이블 &#x200B;](../../configuration/using/about-custom-recipient-table.md)을(를) 사용하는 방법을 알아보세요.
+>이 페이지[에서 사용자 지정 받는 사람 테이블 ](../../configuration/using/about-custom-recipient-table.md)을(를) 사용하는 방법을 알아보세요.
 
 ## 부족한 쿠폰 관리 {#managing-insufficient-coupons}
 

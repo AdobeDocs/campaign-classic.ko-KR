@@ -3,9 +3,8 @@ product: campaign
 title: 메시지 센터(제어)
 description: 메시지 센터(제어)
 hide: true
-hidefromtoc: true
 feature: Workflows
-source-git-commit: 0d8cef312371192ee97f88eb33276df9d7fb11f6
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 1%
@@ -22,9 +21,9 @@ ht-degree: 1%
 
 자세한 내용은 Campaign 버전에 따라 다음 섹션을 참조하십시오.
 
-![](assets/do-not-localize/v7.jpeg) [Campaign v7 설명서](../../message-center/using/about-transactional-messaging.md)
+![](assets/do-not-localize/v7.jpeg)[Campaign v7 설명서](../../message-center/using/about-transactional-messaging.md)
 
-![](assets/do-not-localize/v8.png) [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/transactional.html)
+![](assets/do-not-localize/v8.png)[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/transactional.html)
 
 
 <table> 

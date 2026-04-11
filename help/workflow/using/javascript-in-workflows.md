@@ -4,9 +4,8 @@ title: 워크플로의 JavaScript 코드 예
 description: 다음 예에서는 워크플로우에서 JavaScript 코드를 사용하는 방법을 보여 줍니다
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 7213ea64-3dec-4b16-9d93-4ae941ddfaa7
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '1695'
 ht-degree: 3%
@@ -24,7 +23,7 @@ ht-degree: 3%
 * [정적 SOAP 메서드를 사용하여 워크플로우 트리거](#trigger-example)
 * [비정적 SOAP 메서드를 사용하여 데이터베이스와 상호 작용합니다](#interact-example)
 
-정적 및 비정적 SOAP 메서드에 대해 [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=ko).
+정적 및 비정적 SOAP 메서드에 대해 [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html).
 
 이 예제에서는 ECMAScript for XML (E4X) 확장 프로그램이 사용됩니다. 이 확장을 사용하면 JavaScript 호출과 XML 프리미티브를 동일한 스크립트에 결합할 수 있습니다.
 
@@ -45,16 +44,16 @@ ht-degree: 3%
 
 ## 예제 1: 데이터베이스에 쓰기{#write-example}
 
-데이터베이스에 쓰려면 `xtk:session` 스키마에서 정적 `Write` 메서드를 사용할 수 있습니다.
+데이터베이스에 쓰려면 `Write` 스키마에서 정적 `xtk:session` 메서드를 사용할 수 있습니다.
 
 1. XML로 쓰기 요청을 작성합니다.
 
 1. 레코드를 작성합니다.
 
-   1. `xtk:session` 스키마에서 `Write` 메서드를 호출합니다.
+   1. `Write` 스키마에서 `xtk:session` 메서드를 호출합니다.
 
       >[!IMPORTANT]
-      > Adobe Campaign v8을 사용하는 경우 Snowflake 테이블의 `Write` 메서드에 대해 **수집** 및 **데이터 업데이트/삭제** API와 함께 스테이징 메커니즘을 사용하는 것이 좋습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=ko){target="_blank"}.
+      > Adobe Campaign v8을 사용하는 경우 Snowflake 테이블의 **메서드에 대해**&#x200B;수집&#x200B;**및**&#x200B;데이터 업데이트/삭제`Write` API와 함께 스테이징 메커니즘을 사용하는 것이 좋습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}
 
    1. XML 코드를 쓰기 요청의 인수로 전달합니다.
 
@@ -102,7 +101,7 @@ var myXML = <recipient xtkschema="nms:recipient"
 
 #### 레코드 삭제
 
-`DeleteCollection` 메서드를 사용합니다. [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=ko).
+`DeleteCollection` 메서드를 사용합니다. [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html).
 
 다음 정보를 지정합니다.
 
@@ -123,7 +122,7 @@ xtk.session.DeleteCollection(
 
 ### 2단계: 레코드 쓰기
 
-`xtk:session` 스키마에서 비정적 `Write` 메서드를 호출합니다.
+`Write` 스키마에서 비정적 `xtk:session` 메서드를 호출합니다.
 
 ```javascript
 xtk.session.Write(myXML)
@@ -247,7 +246,7 @@ var query = xtk.queryDef.create(
 
 다음 단계를 수행하십시오.
 
-1. `queryDef` 엔터티에서 `ExecuteQuery` 메서드 호출:
+1. `ExecuteQuery` 엔터티에서 `queryDef` 메서드 호출:
 
    ```javascript
    var res = query.ExecuteQuery()
@@ -276,7 +275,7 @@ for each (var rcp in res:recipient)
     logInfo(rcp.@email)
 ```
 
-루프에 로컬 수신자 변수가 포함되어 있습니다. 수신자 컬렉션에서 반환되는 각 수신자에 대해 수신자 이메일이 인쇄됩니다. `logInfo` 함수에 대해 [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=ko).
+루프에 로컬 수신자 변수가 포함되어 있습니다. 수신자 컬렉션에서 반환되는 각 수신자에 대해 수신자 이메일이 인쇄됩니다. [ 함수에 대해 ](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html)자세히 알아보기`logInfo`.
 
 #### `getIfExists` 작업 결과
 
@@ -362,7 +361,7 @@ for each (var rcp in res.recipient)
 
 워크플로우 트리거는 이벤트를 사용하여 작동합니다. 이벤트에 다음 기능을 사용할 수 있습니다.
 
-* 이벤트를 게시하려면 정적 `PostEvent` 메서드를 사용합니다. [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=ko).
+* 이벤트를 게시하려면 정적 `PostEvent` 메서드를 사용합니다. [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html).
 * 이벤트를 받으려면 **[!UICONTROL External signal]** 활동을 사용할 수 있습니다. [자세히 알아보기](external-signal.md).
 
 다음과 같은 다양한 방법으로 워크플로우를 트리거할 수 있습니다.
@@ -429,14 +428,14 @@ xtk.workflow.PostEvent(
 
 1. 쿼리를 정의합니다.
 
-   * 해당 스키마(예: `xtk:workflow` 스키마)에서 `create` 메서드를 사용하여 엔터티를 검색합니다. [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=ko).
+   * 해당 스키마(예: `create` 스키마)에서 `xtk:workflow` 메서드를 사용하여 엔터티를 검색합니다. [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html).
    * `queryDef` 메서드를 사용하여 SQL 쿼리를 실행하십시오.
 
-1. `ExecuteQuery` 메서드를 사용하여 쿼리를 실행합니다. [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=ko).
+1. `ExecuteQuery` 메서드를 사용하여 쿼리를 실행합니다. [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html).
 
    `for each` 루프를 사용하여 결과를 검색합니다.
 
-### `select` 절이 있는 `queryDef` 메서드의 구문
+### `queryDef` 절이 있는 `select` 메서드의 구문
 
 ```xml
 <queryDef schema="schema_key" operation="operation_type">
@@ -557,14 +556,14 @@ for each (var w in res.recipient)
 레코드를 삽입, 업데이트 및 삭제할 수 있습니다. Adobe Campaign의 모든 스키마에서 `Write` 메서드를 사용할 수 있습니다. 이 메서드는 정적이므로 개체를 만들 필요가 없습니다. 다음 작업을 사용할 수 있습니다.
 
 * `update` 작업
-* 업데이트할 레코드를 식별하는 `_key` 인수가 포함된 `insertOrUpdate` 작업
+* 업데이트할 레코드를 식별하는 `insertOrUpdate` 인수가 포함된 `_key` 작업
 
   **받는 사람** 폴더를 지정하지 않으면 일치하는 항목이 있으면 모든 하위 폴더에서 레코드가 업데이트됩니다. 그렇지 않으면 루트 **수신자** 폴더에 레코드가 만들어집니다.
 
 * `delete` 작업
 
 >[!IMPORTANT]
-> Adobe Campaign v8을 사용하는 경우 Snowflake 테이블의 `Write` 메서드에 대해 **수집** 및 **데이터 업데이트/삭제** API와 함께 스테이징 메커니즘을 사용하는 것이 좋습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=ko){target="_blank"}.
+> Adobe Campaign v8을 사용하는 경우 Snowflake 테이블의 **메서드에 대해**&#x200B;수집&#x200B;**및**&#x200B;데이터 업데이트/삭제`Write` API와 함께 스테이징 메커니즘을 사용하는 것이 좋습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}
 
 #### 예제 1: 레코드 삽입 또는 업데이트
 
@@ -618,11 +617,11 @@ xtk.session.Write(
 
 ### API 설명서
 
-* [SOAP 호출 샘플](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=ko)
+* [SOAP 호출 샘플](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html)
 * 방법:
-   * [만들기](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=ko)
-   * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=ko)
-   * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=ko)
-   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=ko)
-   * [쓰기](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=ko)
-* [logInfo 함수](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=ko)
+   * [만들기](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html)
+   * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html)
+   * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html)
+   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html)
+   * [쓰기](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html)
+* [logInfo 함수](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html)

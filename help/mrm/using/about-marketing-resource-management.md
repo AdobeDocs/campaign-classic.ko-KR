@@ -7,9 +7,8 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 hide: true
-hidefromtoc: true
 exl-id: 8cf4d30d-f914-438d-8836-030202b6a449
-source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
@@ -32,4 +31,4 @@ Adobe Campaign 운영자는 보고, 승인 추적, 알림, 토론 포럼 등 완
 
 >[!NOTE]
 >
->Adobe Campaign용 MRM 및 사용 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/automation/mrm/about-marketing-resource-management){target=_blank}를 참조하세요.
+>Adobe Campaign용 MRM 및 사용 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/automation/mrm/about-marketing-resource-management){target=_blank}를 참조하십시오.

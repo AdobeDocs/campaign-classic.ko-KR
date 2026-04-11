@@ -4,9 +4,8 @@ title: 파일 수집기
 description: 파일 수집기 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Data Management
 hide: true
-hidefromtoc: true
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 0%
@@ -69,7 +68,7 @@ ht-degree: 0%
 
 1. **기록**
 
-   [웹 다운로드](web-download.md)에서 **[!UICONTROL File historization]** 단계를 참조하세요.
+   **[!UICONTROL File historization]**&#x200B;웹 다운로드[에서 ](web-download.md) 단계를 참조하세요.
 
 파일 처리 순서를 결정할 수 없습니다. 파일 집합을 순차적으로 처리하려면 **[!UICONTROL Stop as soon as a file has been processed]** 옵션을 사용하고 루프를 만듭니다. 이 경우 파일은 알파벳순으로 처리됩니다. **[!UICONTROL Process file nonexistence]** 옵션을 사용하면 반복을 완료할 수 있습니다.
 

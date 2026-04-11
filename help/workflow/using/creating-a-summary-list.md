@@ -4,9 +4,8 @@ title: 요약 목록 만들기
 description: 요약 목록 만들기
 feature: Workflows, Data Management
 hide: true
-hidefromtoc: true
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 2%
@@ -63,7 +62,7 @@ Phone;500;London 5
 
    이 활동에 대한 자세한 내용은 [파일에서 데이터 로드](../../platform/using/import-export-workflows.md#loading-data-from-a-file)를 참조하세요.
 
-1. 선택한 디렉터리에서 텍스트(&#42;.txt) 형식 파일을 수집하도록 **파일 수집기** 활동을 구성하십시오.
+1. 선택한 디렉터리에서 텍스트(**.txt) 형식 파일을 수집하도록**&#x200B;파일 수집기&#42; 활동을 구성하십시오.
 
    ![](assets/uc2_enrich_collecteur.png)
 
@@ -103,7 +102,7 @@ Phone;500;London 5
 이제 링크가 만들어졌으므로 &quot;스토어&quot; 스키마, 즉 &quot;우편번호 참조&quot; 필드에서 워크플로우의 작업 테이블에 열을 추가합니다.
 
 1. 데이터 보강 활동을 엽니다.
-1. **[!UICONTROL Edit additional data]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Edit additional data]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Output columns]**&#x200B;에 &quot;우편번호 참조&quot; 필드를 추가합니다.
 
 ![](assets/uc2_enrich_enrich5.png)
@@ -128,8 +127,8 @@ Phone;500;London 5
 
 **데이터 업데이트** 활동에서는 다음 구성이 필요합니다.
 
-1. 파일을 수집할 때마다 새 레코드를 만들지 않으려면 **[!UICONTROL Operation type]** 필드에서 **[!UICONTROL Insert or update]** 옵션을 선택하십시오.
-1. **[!UICONTROL Record identification]** 옵션의 **[!UICONTROL By directly using the targeting dimension]** 값을 선택하십시오.
+1. 파일을 수집할 때마다 새 레코드를 만들지 않으려면 **[!UICONTROL Insert or update]** 필드에서 **[!UICONTROL Operation type]** 옵션을 선택하십시오.
+1. **[!UICONTROL By directly using the targeting dimension]** 옵션의 **[!UICONTROL Record identification]** 값을 선택하십시오.
 1. **[!UICONTROL Document type]**(으)로 &quot;구매&quot; 스키마를 선택하세요.
 1. 업데이트할 필드 목록을 지정하십시오. **[!UICONTROL Destination]** 열에서 &quot;구매&quot; 스키마의 필드를 정의할 수 있습니다. **[!UICONTROL Expression]** 열에서 매핑을 수행할 작업 테이블의 필드를 선택할 수 있습니다.
 1. **[!UICONTROL Generate an outbound transition]** 옵션을 클릭합니다.
@@ -146,16 +145,16 @@ Phone;500;London 5
 1. **데이터 보강** 활동을 추가한 다음 이전 쿼리에서 얻은 기본 집합을 선택하십시오.
 1. **[!UICONTROL Data]** 추가를 클릭합니다.
 1. **[!UICONTROL Data linked to the targeting dimension]** 옵션을 클릭합니다.
-1. **[!UICONTROL Select fields to add]** 창에서 **[!UICONTROL Data linked to the filtering dimension]** 옵션을 클릭합니다.
+1. **[!UICONTROL Data linked to the filtering dimension]** 창에서 **[!UICONTROL Select fields to add]** 옵션을 클릭합니다.
 1. **[!UICONTROL Purchases]** 노드를 선택한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/uc2_enrich_enrich9.png)
 
-1. **[!UICONTROL Aggregates]** 옵션을 선택하여 **[!UICONTROL Collected data]** 필드를 변경합니다.
+1. **[!UICONTROL Collected data]** 옵션을 선택하여 **[!UICONTROL Aggregates]** 필드를 변경합니다.
 
    ![](assets/uc2_enrich_enrich10.png)
 
-1. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 1. 각 연락처에 대한 구매 총액을 계산하려면 다음 표현식을 추가합니다. &quot;Sum(@prodprice)&quot;
 
    ![](assets/uc2_enrich_enrich6.png)
