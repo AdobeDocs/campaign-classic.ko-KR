@@ -4,7 +4,7 @@ title: 개인 정보 보호 규정 워크플로
 description: 개인 정보 보호 규정 워크플로우에 대해 자세히 알아보십시오
 hide: true
 feature: Workflows, Privacy
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 2%
