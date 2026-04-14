@@ -5,7 +5,7 @@ description: 목록 업데이트
 feature: Workflows, Targeting Activity
 hide: true
 exl-id: fcc51131-15d0-4d39-95cb-371d7044373b
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 3%
@@ -72,6 +72,6 @@ ht-degree: 3%
 
 이 비디오는 Explorer에서 수신자 목록을 만드는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31902?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

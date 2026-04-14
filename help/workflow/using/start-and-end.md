@@ -5,7 +5,7 @@ description: 워크플로우 시작 및 종료 활동에 대해 자세히 알아
 feature: Workflows
 hide: true
 exl-id: 56dfbaf3-93de-4ade-b4ad-9b54d239c7a5
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 4%

@@ -5,7 +5,7 @@ description: 데이터 로드(파일) 워크플로우 활동에 대해 자세히
 feature: Workflows, Data Management Activity
 hide: true
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '1140'
 ht-degree: 14%

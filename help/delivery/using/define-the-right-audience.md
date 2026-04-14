@@ -7,7 +7,7 @@ feature: Audiences
 role: User
 hide: true
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 4%
@@ -32,13 +32,13 @@ Campaign Classic에서 기본적으로 게재 템플릿은 **수신자**&#x200B;
 
 예를 들어 소셜 네트워크를 통해 프로필이 수집된 방문자 또는 정보 서비스를 구독한 방문자에게 를 제공할 수 있습니다.
 
-이러한 매핑은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ko){target="_blank"}에 나와 있습니다.
+이러한 매핑은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}에 나와 있습니다.
 
 사용자 지정된 대상 매핑을 만들고 사용할 수도 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../configuration/using/target-mapping.md)을 참조하십시오.
 
 ## 외부 수신자 {#external-recipients}
 
-데이터베이스에 저장되지 않고 외부 파일에 저장된 수신자에게 전달할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#selecting-external-recipients){target="_blank"}를 참조하세요.
+데이터베이스에 저장되지 않고 외부 파일에 저장된 수신자에게 전달할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#selecting-external-recipients){target="_blank"}를 참조하세요.
 
 ## 구독자에게 보내기 {#send-to-subscribers}
 
@@ -49,7 +49,7 @@ Campaign Classic에서 기본적으로 게재 템플릿은 **수신자**&#x200B;
 
 게재를 테스트하려면 주요 타겟에게 보내기 전에 증명을 사용하십시오.
 
-적절한 증명 수신자를 선택해야 합니다. 메시지 양식 및 내용의 유효성을 검사하기 때문입니다. 증명 수신자를 정의하는 단계는 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#select-the-proof-target){target="_blank"}에 나와 있습니다.
+적절한 증명 수신자를 선택해야 합니다. 메시지 양식 및 내용의 유효성을 검사하기 때문입니다. 증명 수신자를 정의하는 단계는 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#select-the-proof-target){target="_blank"}에 나와 있습니다.
 
 시드 주소는 기본 대상으로 보내기 전에 게재를 테스트하기 위해 정의된 대상 기준과 일치하지 않는 수신자를 타겟팅하는 데 사용됩니다. [이 섹션](about-seed-addresses.md)에 표시됩니다.
 

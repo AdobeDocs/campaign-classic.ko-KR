@@ -5,7 +5,7 @@ description: 수신자 테이블을 쿼리하는 방법 알아보기
 feature: Query Editor, Workflows
 hide: true
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 3%

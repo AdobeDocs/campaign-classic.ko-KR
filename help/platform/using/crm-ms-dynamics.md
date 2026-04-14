@@ -5,7 +5,7 @@ description: Campaign과 Microsoft Dynamics을 연결하는 방법 알아보기
 feature: Microsoft CRM Integration
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 hide: true
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 2%
@@ -166,7 +166,7 @@ Microsoft Dynamics 365와 Campaign에 연결하려면 Campaign에서 전용 **[!
 
    >[!NOTE]
    >
-   >각 **[!UICONTROL CRM O-Auth type]**&#x200B;이(가) 있는 Microsoft Dynamics CRM 외부 계정 구성은 이 섹션[의 &#x200B;](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)에 자세히 설명되어 있습니다.
+   >각 **[!UICONTROL CRM O-Auth type]**&#x200B;이(가) 있는 Microsoft Dynamics CRM 외부 계정 구성은 이 섹션[의 ](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)에 자세히 설명되어 있습니다.
 
    ![](assets/crm-ms-dynamics-ext-account.png)
 

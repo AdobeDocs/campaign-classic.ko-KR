@@ -5,7 +5,7 @@ description: 워크플로우 구축 방법 알아보기
 feature: Workflows
 hide: true
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 4%
@@ -257,7 +257,7 @@ ht-degree: 4%
 **캠페인 워크플로우 복제**
 
 1. 워크플로우 보기에서 캠페인 워크플로우를 선택합니다.
-1. **복제 대상**&#x200B;을 마우스 오른쪽 단추로 클릭합니다.
+1. **복제 대상**을 마우스 오른쪽 단추로 클릭합니다.
    ![](assets/duplicate-to-right-click.png)
 1. 레이블을 변경합니다.
 1. **저장**&#x200B;을 클릭합니다.

@@ -7,7 +7,7 @@ feature: Personalization
 role: User
 hide: true
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 1%
@@ -153,7 +153,7 @@ ht-degree: 1%
 >
 >기본적으로 쿠폰 관리 모듈은 **nms:recipient** 테이블을 사용합니다. [자세히 알아보기](../../configuration/using/about-data-model.md#default-recipient-table).
 >
->이 페이지[에서 사용자 지정 받는 사람 테이블 &#x200B;](../../configuration/using/about-custom-recipient-table.md)을(를) 사용하는 방법을 알아보세요.
+>이 페이지[에서 사용자 지정 받는 사람 테이블 ](../../configuration/using/about-custom-recipient-table.md)을(를) 사용하는 방법을 알아보세요.
 
 ## 부족한 쿠폰 관리 {#managing-insufficient-coupons}
 

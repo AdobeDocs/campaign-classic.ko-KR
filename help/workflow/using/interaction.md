@@ -4,7 +4,7 @@ title: 인터랙션
 description: 인터랙션
 hide: true
 feature: Workflows, Interaction, Offers
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 3%
@@ -20,9 +20,9 @@ ht-degree: 3%
 
 자세한 내용은 Campaign 버전에 따라 다음 섹션을 참조하십시오.
 
-![](assets/do-not-localize/v7.jpeg) [Campaign v7 설명서](../../interaction/using/interaction-and-offer-management.md)
+![](assets/do-not-localize/v7.jpeg)[Campaign v7 설명서](../../interaction/using/interaction-and-offer-management.md)
 
-![](assets/do-not-localize/v8.png) [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/interaction/interaction.html)
+![](assets/do-not-localize/v8.png)[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/interaction/interaction.html)
 
 
 <table> 

@@ -5,7 +5,7 @@ description: 워크플로 실행 모니터링
 feature: Workflows
 hide: true
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '2020'
 ht-degree: 2%
@@ -280,4 +280,4 @@ Campaign Classic 인터페이스를 사용하면 사전 정의된 **보기**&#x2
 
 ![](assets/workflow-monitoring-filter.png)
 
-필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
+필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
