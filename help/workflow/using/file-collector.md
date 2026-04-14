@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. **기록**
 
-   **[!UICONTROL File historization]**&#x200B;웹 다운로드[에서 ](web-download.md) 단계를 참조하세요.
+   **[!UICONTROL File historization]**&#x200B;웹 다운로드[에서 &#x200B;](web-download.md) 단계를 참조하세요.
 
 파일 처리 순서를 결정할 수 없습니다. 파일 집합을 순차적으로 처리하려면 **[!UICONTROL Stop as soon as a file has been processed]** 옵션을 사용하고 루프를 만듭니다. 이 경우 파일은 알파벳순으로 처리됩니다. **[!UICONTROL Process file nonexistence]** 옵션을 사용하면 반복을 완료할 수 있습니다.
 
