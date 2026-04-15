@@ -7,9 +7,9 @@ user-guide-title: Campaign Classic v7 안내서
 user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 4cae5fdb2b78f446f84352046b523d8862e9060c
 workflow-type: tm+mt
-source-wordcount: '2683'
+source-wordcount: '2684'
 ht-degree: 68%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 68%
    + 이전 릴리스 {#previous-releases}
       + [2025](rn/using/release-2025.md)
       + [2024](rn/using/release-2024.md)
-      + {hide-from-toc}[2023](rn/using/release-2023.md)
+      + {hide-from-toc}[2023 - 숨김](rn/using/release-2023.md)
       + {hide-from-toc}[2022 - 숨김](rn/using/release-2022.md)
       + {hide-from-toc}[2021 - 숨김](rn/using/release-2021.md)
       + {hide-from-toc}[[!DNL Gold Standard - HIDDEN]](rn/using/gold-standard.md)
@@ -137,8 +137,8 @@ ht-degree: 68%
       + {hide-from-toc}[모바일 애플리케이션에 Campaign SDK 통합](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + 모바일 애플리케이션 구성{#configure-the-mobile-app}
          + {hide-from-toc}[앱 구성 시작 - 숨김](delivery/using/get-started-app-config.md)
-         + {hide-from-toc}[iOS에 대한 구성 단계 - 숨김](delivery/using/configuring-the-mobile-application.md)
-         + {hide-from-toc}[Android에 대한 구성 단계 - 숨김](delivery/using/configuring-the-mobile-application-android.md)
+         + iOS에 대한 {hide-from-toc}[구성 단계 - 숨김](delivery/using/configuring-the-mobile-application.md)
+         + Android에 대한 {hide-from-toc}[구성 단계 - 숨김](delivery/using/configuring-the-mobile-application-android.md)
       + 푸시 알림 만들기{#create-a-push-msg}
          + {hide-from-toc}[iOS에 대한 푸시 메시지 만들기 - 숨김](delivery/using/create-notifications-ios.md)
          + {hide-from-toc}[Android에 대한 푸시 메시지 만들기 - 숨김](delivery/using/create-notifications-android.md)
@@ -327,7 +327,7 @@ ht-degree: 68%
    + [Campaign 통합 시작](integrations/using/about-campaign-integrations.md)
    + [Adobe 기술 계정 만들기](integrations/using/oauth-technical-account.md)
    + Adobe Experience Cloud 트리거 {#experience-triggers}
-      + [&#x200B; [!DNL Experience Cloud Triggers]로 작업](integrations/using/about-triggers.md)
+      + [ [!DNL Experience Cloud Triggers]로 작업](integrations/using/about-triggers.md)
       + [파이프라인 구성](integrations/using/configuring-pipeline.md)
       + [사용자 정의 구현을 위한 이벤트 구성](integrations/using/events.md)
       + [파이프라인 모니터링](integrations/using/pipeline-monitoring.md)
@@ -340,22 +340,22 @@ ht-degree: 68%
       + [Adobe Analytics 커넥터 시작](integrations/using/gs-aa.md)
       + [Adobe Analytics 커넥터 프로비전](integrations/using/adobe-analytics-provisioning.md)
    + 대상자 공유 {#audience-sharing}
-      + [&#x200B; [!DNL Adobe Experience Cloud]와 대상자 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+      + [ [!DNL Adobe Experience Cloud]와 대상자 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [Adobe에 요청 제출](integrations/using/submitting-request-to-adobe.md)
-      + [&#x200B; [!DNL Adobe Campaign]에서 공유 대상자 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+      + [ [!DNL Adobe Campaign]에서 공유 대상자 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
       + {hide-from-toc}[문제 해결](integrations/using/troubleshooting.md)
       + [대상자 가져오기 및 내보내기](integrations/using/importing-and-exporting-audiences.md)
    + 자산 공유 {#asset-sharing}
-      + [&#x200B; [!DNL Adobe Experience Cloud]와 에셋 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-      + [&#x200B; [!DNL Assets] 액세스 구성](integrations/using/configuring-access-to-assets.md)
+      + [ [!DNL Adobe Experience Cloud]와 에셋 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+      + [ [!DNL Assets] 액세스 구성](integrations/using/configuring-access-to-assets.md)
       + [공유 에셋 삽입](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
-      + [&#x200B; [!DNL Adobe Experience Manager]로 작업](integrations/using/about-adobe-experience-manager.md)
+      + [ [!DNL Adobe Experience Manager]로 작업](integrations/using/about-adobe-experience-manager.md)
       + [통합 구성](integrations/using/configuring-the-integration.md)
-      + [&#x200B; [!DNL Experience Manager]  뉴스레터 만들기](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [ [!DNL Experience Manager]  뉴스레터 만들기](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [&#x200B; [!DNL Adobe Target]으로 작업](integrations/using/integrating-with-adobe-target.md)
-      + [&#x200B; [!DNL Adobe Target]과의 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
+      + [ [!DNL Adobe Target]으로 작업](integrations/using/integrating-with-adobe-target.md)
+      + [ [!DNL Adobe Target]과의 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [동적 이미지 삽입](integrations/using/inserting-a-dynamic-image.md)
    + ACS 커넥터 {#acs-connector}
       + {hide-from-toc}[시작 [!DNL ACS Connector] - 숨김](integrations/using/acs-connector-principles-and-data-cycle.md)
@@ -387,7 +387,7 @@ ht-degree: 68%
       + {hide-from-toc}[제외 - 숨김](workflow/using/exclusion.md)
       + {hide-from-toc}[분할 - 숨김](workflow/using/split.md)
       + {hide-from-toc}[셀 - 숨김](workflow/using/cells.md)
-      + {hide-from-toc}[셀별 오퍼 - 숨김](workflow/using/offers-by-cell.md)
+      + 셀별 {hide-from-toc}[오퍼 - 숨김](workflow/using/offers-by-cell.md)
       + {hide-from-toc}[게재 개요 - 숨김](workflow/using/delivery-outline.md)
       + {hide-from-toc}[데이터 보강 - 숨김](workflow/using/enrichment.md)
       + {hide-from-toc}[스키마 편집 - 숨김](workflow/using/edit-schema.md)
@@ -476,7 +476,7 @@ ht-degree: 68%
       + {hide-from-toc}[워크플로 속성 - 숨김](workflow/using/workflow-properties.md)
       + {hide-from-toc}[고급 매개 변수 - 숨김](workflow/using/advanced-parameters.md)
       + {hide-from-toc}[JavaScript 스크립트 및 템플릿 - 숨김](workflow/using/javascript-scripts-and-templates.md)
-      + {hide-from-toc}[워크플로우의 JavaScript 코드 예 - 숨김](workflow/using/javascript-in-workflows.md)
+      + 워크플로우의 {hide-from-toc}[JavaScript 코드 예 - 숨김](workflow/using/javascript-in-workflows.md)
       + {hide-from-toc}[외부 데이터베이스 액세스 - 숨김](workflow/using/accessing-an-external-database-fda.md)
       + {hide-from-toc}[권한 관리 - 숨김](workflow/using/managing-rights.md)
       + {hide-from-toc}[활동 이미지 변경 - 숨김](workflow/using/managing-activity-images.md)

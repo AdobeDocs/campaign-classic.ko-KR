@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+source-git-commit: 4cae5fdb2b78f446f84352046b523d8862e9060c
 workflow-type: tm+mt
 source-wordcount: '2336'
 ht-degree: 100%
@@ -227,3 +227,4 @@ _2022년 11월 21일_
 * nmsDeliveryMapping 폴더에 대한 읽기 액세스 권한이 있는 사용자가 캠페인 또는 워크플로를 실행하려고 할 때 오류가 발생하는 문제를 해결했습니다. (NEO-48230)
 * `JSPContext.sqlExecWithOneParam` 함수가 작동하지 않는 문제를 해결했습니다. (NEO-50066)
 * 다양한 리디렉션 오류를 수정했습니다. (NEO-50030)
+
