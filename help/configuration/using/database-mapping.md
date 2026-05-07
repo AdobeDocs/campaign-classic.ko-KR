@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # 데이터베이스 매핑{#database-mapping}
 
-[이 페이지에서 ](schema-structure.md)에 설명된 샘플 스키마의 SQL 매핑은 다음 XML 문서를 생성합니다.
+[이 페이지에서 &#x200B;](schema-structure.md)에 설명된 샘플 스키마의 SQL 매핑은 다음 XML 문서를 생성합니다.
 
 ```sql
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">

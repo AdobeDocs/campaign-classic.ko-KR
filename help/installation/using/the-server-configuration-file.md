@@ -1621,9 +1621,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> statServerAddress<br /> </td> 
    <td> 다음으로 지정된 게재 통계 서버 주소 
     &lt;dns 또는 ip&gt; 
-      <code>[</code>: 
+      <code>&lbrack;</code>: 
      &lt;포트&gt; 
-       <code>]</code>. 보기 
+       <code>&rbrack;</code>. 보기 
       <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">통계 서버의 좌표</a>. 
       <br /> 
      </td> 
