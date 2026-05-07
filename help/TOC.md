@@ -8,9 +8,9 @@ user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 4cae5fdb2b78f446f84352046b523d8862e9060c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2710'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 68%
    + [Adobe Campaign 시작](platform/using/launching-adobe-campaign.md)
    + [Campaign UI 살펴보기](platform/using/adobe-campaign-workspace.md)
    + {hide-from-toc}[Campaign 탐색기 사용 - 숨김](platform/using/adobe-campaign-explorer.md)
-   + {hide-from-toc}[목록 검색 및 사용자 지정 - 숨김](platform/using/adobe-campaign-ui-lists.md)
+   + {hide-from-toc}[목록 찾아보기 및 사용자 정의 - 숨김](platform/using/adobe-campaign-ui-lists.md)
    + {hide-from-toc}[열거형 - 숨김](platform/using/managing-enumerations.md)
    + [Campaign 커넥터](platform/using/about-connectors.md)
    + 자주 묻는 질문 {#faq}
@@ -80,7 +80,7 @@ ht-degree: 68%
       + {hide-from-toc}[필터링 옵션 - 숨김](platform/using/filtering-options.md)
       + {hide-from-toc}[필터 만들기 - 숨김](platform/using/creating-filters.md)
       + {hide-from-toc}[사용 사례 - 숨김](platform/using/use-case.md)
-   + {hide-from-toc}[쿼리를 만드는 단계 - 숨김](platform/using/steps-to-create-a-query.md)
+   + {hide-from-toc}[쿼리 만드는 단계 - 숨김](platform/using/steps-to-create-a-query.md)
    + {hide-from-toc}[필터 조건 정의 - 숨김](platform/using/defining-filter-conditions.md)
    + 권한 {#permissions}
       + [사용 권한 시작](platform/using/access-management.md)
@@ -92,8 +92,8 @@ ht-degree: 68%
    + CRM 커넥터 {#connectors}
       + [CRM 커넥터 시작](platform/using/crm-connectors.md)
       + {hide-from-toc}[Microsoft Dynamics 365와 연결](platform/using/crm-ms-dynamics.md)
-      + {hide-from-toc}[Salesforce.com에 연결](platform/using/crm-sfdc.md)
-      + {hide-from-toc}[데이터를 CRM과 동기화](platform/using/crm-data-sync.md)
+      + {hide-from-toc}[Salesforce.com과 연결](platform/using/crm-sfdc.md)
+      + {hide-from-toc}[CRM과 데이터 동기화](platform/using/crm-data-sync.md)
    + {hide-from-toc}[도움말 및 지원 옵션 - 숨김](support.md)
 + 메시지 만들기 및 보내기 {#sending-messages}
    + [메시지 시작](delivery/using/communication-channels.md)
@@ -109,16 +109,16 @@ ht-degree: 68%
       + {hide-from-toc}[게재 최적화 - 숨김](delivery/using/optimize-delivery.md)
       + {hide-from-toc}[템플릿 사용 - 숨김](delivery/using/use-templates.md)
       + {hide-from-toc}[개인화된 콘텐츠 작성 - 숨김](delivery/using/design-and-personalize.md)
-      + {hide-from-toc}[올바른 대상 정의 - 숨김](delivery/using/define-the-right-audience.md)
+      + {hide-from-toc}[적합한 대상자 정의 - 숨김](delivery/using/define-the-right-audience.md)
       + {hide-from-toc}[보내기 전 확인 - 숨김](delivery/using/check-before-sending.md)
    + [이메일 보내기](delivery/using/about-email-channel.md)
    + 이메일 보내기 {#sending-emails}
-      + {hide-from-toc}[전자 메일 게재 만들기 - 숨김](delivery/using/creating-an-email-delivery.md)
-      + {hide-from-toc}[전자 메일 콘텐츠 정의 - 숨김](delivery/using/defining-the-email-content.md)
-      + {hide-from-toc}[대화형 콘텐츠 정의 - 숨김](delivery/using/defining-interactive-content.md)
+      + {hide-from-toc}[이메일 게재 만들기 - 숨김](delivery/using/creating-an-email-delivery.md)
+      + {hide-from-toc}[이메일 콘텐츠 정의 - 숨김](delivery/using/defining-the-email-content.md)
+      + {hide-from-toc}[인터랙티브한 콘텐츠 정의 - 숨김](delivery/using/defining-interactive-content.md)
       + 이메일 게재 보내기 {#sending-an-email}
-         + {hide-from-toc}[전자 메일을 보내는 주요 단계 - 숨김](delivery/using/sending-messages.md)
-         + {hide-from-toc}[전자 메일 매개 변수 - 숨김](delivery/using/email-parameters.md)
+         + {hide-from-toc}[이메일을 보내는 주요 단계 - 숨김](delivery/using/sending-messages.md)
+         + {hide-from-toc}[이메일 매개 변수 - 숨김](delivery/using/email-parameters.md)
          + {hide-from-toc}[일본어 모바일에서 보내기 - 숨김](delivery/using/sending-emails-on-japanese-mobiles.md)
       + {hide-from-toc}[파일 첨부 - 숨김](delivery/using/attaching-files.md)
    + SMS 보내기 {#sending-messages-on-mobiles}
@@ -129,7 +129,7 @@ ht-degree: 68%
          + [SMS 커넥터 프로토콜 및 설정](delivery/using/sms-protocol.md)
          + [추가 구성](delivery/using/sms-send.md)
          + [SMS 문제 해결](delivery/using/troubleshooting-sms.md)
-      + {hide-from-toc}[SMS 만들기 - 숨김](delivery/using/sms-create.md)
+      + {hide-from-toc}[SMS 게재 만들기 - 숨김](delivery/using/sms-create.md)
       + {hide-from-toc}[Extended Generic SMPP 커넥터로 마이그레이션](delivery/using/unsupported-connector-migration.md)
    + [LINE 메시지 보내기](delivery/using/line-channel.md)
    + [푸시 알림 보내기](delivery/using/about-mobile-app-channel.md)
@@ -137,16 +137,16 @@ ht-degree: 68%
       + {hide-from-toc}[모바일 애플리케이션에 Campaign SDK 통합](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + 모바일 애플리케이션 구성{#configure-the-mobile-app}
          + {hide-from-toc}[앱 구성 시작 - 숨김](delivery/using/get-started-app-config.md)
-         + {hide-from-toc}[iOS에 대한 구성 단계 - 숨김](delivery/using/configuring-the-mobile-application.md)
-         + {hide-from-toc}[Android에 대한 구성 단계 - 숨김](delivery/using/configuring-the-mobile-application-android.md)
+         + {hide-from-toc}[iOS용 구성 단계 - 숨김](delivery/using/configuring-the-mobile-application.md)
+         + {hide-from-toc}[Android용 구성 단계 - 숨김](delivery/using/configuring-the-mobile-application-android.md)
       + 푸시 알림 만들기{#create-a-push-msg}
-         + {hide-from-toc}[iOS에 대한 푸시 메시지 만들기 - 숨김](delivery/using/create-notifications-ios.md)
-         + {hide-from-toc}[Android에 대한 푸시 메시지 만들기 - 숨김](delivery/using/create-notifications-android.md)
+         + {hide-from-toc}[iOS용 푸시 메시지 만들기 - 숨김](delivery/using/create-notifications-ios.md)
+         + {hide-from-toc}[Android용 푸시 메시지 만들기 - 숨김](delivery/using/create-notifications-android.md)
       + {hide-from-toc}[문제 해결 - 숨김](delivery/using/troubleshooting.md)
    + [다이렉트 메일 보내기](delivery/using/about-direct-mail-channel.md)
    + 다이렉트 메일 보내기 {#sending-direct-mail}
-      + {hide-from-toc}[DM 게재 만들기 - 숨김](delivery/using/creating-a-direct-mail-delivery.md)
-      + {hide-from-toc}[DM 콘텐츠 정의 - 숨김](delivery/using/defining-the-direct-mail-content.md)
+      + {hide-from-toc}[다이렉트 메일 게재 만들기 - 숨김](delivery/using/creating-a-direct-mail-delivery.md)
+      + {hide-from-toc}[다이렉트 메일 콘텐츠 정의 - 숨김](delivery/using/defining-the-direct-mail-content.md)
       + {hide-from-toc}[유효성 검사 - 숨김](delivery/using/validating.md)
    + 게재 템플릿 사용 {#using-delivery-templates}
       + {hide-from-toc}[게재 템플릿 작업 - 숨김](delivery/using/about-templates.md)
@@ -160,7 +160,7 @@ ht-degree: 68%
       + {hide-from-toc}[조건부 콘텐츠 - 숨김](delivery/using/conditional-content.md)
       + {hide-from-toc}[개인화된 쿠폰 - 숨김](delivery/using/personalized-coupons.md)
       + {hide-from-toc}[개인화된 PDF 문서 생성 - 숨김](delivery/using/generating-personalized-pdf-documents.md)
-      + {hide-from-toc}[이모티콘 목록 사용자 지정](delivery/using/customizing-emoticon-list.md)
+      + {hide-from-toc}[이모티콘 목록 사용자 정의](delivery/using/customizing-emoticon-list.md)
    + 시드 주소 사용 {#using-seed-addresses}
       + [시드 주소 정보](delivery/using/about-seed-addresses.md)
       + [시드 주소 만들기](delivery/using/creating-seed-addresses.md)
@@ -222,10 +222,10 @@ ht-degree: 68%
       + {hide-from-toc}[문서 및 자산 관리 - 숨김](campaign/using/marketing-campaign-assets.md)
       + {hide-from-toc}[승인 설정 및 관리 - 숨김](campaign/using/marketing-campaign-approval.md)
       + {hide-from-toc}[캠페인 모니터링 - 숨김](campaign/using/marketing-campaign-monitoring.md)
-      + {hide-from-toc}[공급자, 재고 및 예산 - 숨김](campaign/using/providers-stocks-and-budgets.md)
+      + {hide-from-toc}[공급자, 스톡, 예산 - 숨김](campaign/using/providers-stocks-and-budgets.md)
    + 캠페인 최적화 {#campaign-optimization}
-      + {hide-from-toc}[캠페인 유형화 정보 - 숨김](campaign-opt/using/about-campaign-typologies.md)
-      + {hide-from-toc}[압력 규칙 - 숨김](campaign-opt/using/pressure-rules.md)
+      + {hide-from-toc}[캠페인 유형 분류 정보 - 숨김](campaign-opt/using/about-campaign-typologies.md)
+      + {hide-from-toc}[부담 규칙 - 숨김](campaign-opt/using/pressure-rules.md)
       + {hide-from-toc}[일관성 규칙 - 숨김](campaign-opt/using/consistency-rules.md)
       + {hide-from-toc}[제어 규칙 - 숨김](campaign-opt/using/control-rules.md)
       + {hide-from-toc}[필터링 규칙 - 숨김](campaign-opt/using/filtering-rules.md)
@@ -234,7 +234,7 @@ ht-degree: 68%
 + 마케팅 리소스 관리 {#mrm}
    + {hide-from-toc}[마케팅 리소스 관리 정보 - 숨김](mrm/using/about-marketing-resource-management.md)
    + {hide-from-toc}[작업 만들기 및 관리 - 숨김](mrm/using/creating-and-managing-tasks.md)
-   + {hide-from-toc}[제어 비용 - 숨김](mrm/using/controlling-costs.md)
+   + {hide-from-toc}[비용 제어 - 숨김](mrm/using/controlling-costs.md)
    + {hide-from-toc}[마케팅 리소스 관리 - 숨김](mrm/using/managing-marketing-resources.md)
    + {hide-from-toc}[토론 포럼 - 숨김](mrm/using/discussion-forums.md)
 + 분산 마케팅 {#distributed-marketing}
@@ -327,7 +327,7 @@ ht-degree: 68%
    + [Campaign 통합 시작](integrations/using/about-campaign-integrations.md)
    + [Adobe 기술 계정 만들기](integrations/using/oauth-technical-account.md)
    + Adobe Experience Cloud 트리거 {#experience-triggers}
-      + [&#x200B; [!DNL Experience Cloud Triggers]로 작업](integrations/using/about-triggers.md)
+      + [ [!DNL Experience Cloud Triggers]로 작업](integrations/using/about-triggers.md)
       + [파이프라인 구성](integrations/using/configuring-pipeline.md)
       + [사용자 정의 구현을 위한 이벤트 구성](integrations/using/events.md)
       + [파이프라인 모니터링](integrations/using/pipeline-monitoring.md)
@@ -340,50 +340,50 @@ ht-degree: 68%
       + [Adobe Analytics 커넥터 시작](integrations/using/gs-aa.md)
       + [Adobe Analytics 커넥터 프로비전](integrations/using/adobe-analytics-provisioning.md)
    + 대상자 공유 {#audience-sharing}
-      + [&#x200B; [!DNL Adobe Experience Cloud]와 대상자 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+      + [ [!DNL Adobe Experience Cloud]와 대상자 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [Adobe에 요청 제출](integrations/using/submitting-request-to-adobe.md)
-      + [&#x200B; [!DNL Adobe Campaign]에서 공유 대상자 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+      + [ [!DNL Adobe Campaign]에서 공유 대상자 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
       + {hide-from-toc}[문제 해결](integrations/using/troubleshooting.md)
       + [대상자 가져오기 및 내보내기](integrations/using/importing-and-exporting-audiences.md)
    + 자산 공유 {#asset-sharing}
-      + [&#x200B; [!DNL Adobe Experience Cloud]와 에셋 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-      + [&#x200B; [!DNL Assets] 액세스 구성](integrations/using/configuring-access-to-assets.md)
+      + [ [!DNL Adobe Experience Cloud]와 에셋 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+      + [ [!DNL Assets] 액세스 구성](integrations/using/configuring-access-to-assets.md)
       + [공유 에셋 삽입](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
-      + [&#x200B; [!DNL Adobe Experience Manager]로 작업](integrations/using/about-adobe-experience-manager.md)
+      + [ [!DNL Adobe Experience Manager]로 작업](integrations/using/about-adobe-experience-manager.md)
       + [통합 구성](integrations/using/configuring-the-integration.md)
-      + [&#x200B; [!DNL Experience Manager]  뉴스레터 만들기](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [ [!DNL Experience Manager]  뉴스레터 만들기](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [&#x200B; [!DNL Adobe Target]으로 작업](integrations/using/integrating-with-adobe-target.md)
-      + [&#x200B; [!DNL Adobe Target]과의 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
+      + [ [!DNL Adobe Target]으로 작업](integrations/using/integrating-with-adobe-target.md)
+      + [ [!DNL Adobe Target]과의 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [동적 이미지 삽입](integrations/using/inserting-a-dynamic-image.md)
    + ACS 커넥터 {#acs-connector}
       + {hide-from-toc}[시작 [!DNL ACS Connector] - 숨김](integrations/using/acs-connector-principles-and-data-cycle.md)
       + {hide-from-toc}[프로필 동기화 - 숨김](integrations/using/synchronizing-profiles.md)
       + {hide-from-toc}[대상자 동기화 - 숨김](integrations/using/synchronizing-audiences.md)
-      + {hide-from-toc}[웹 응용 프로그램 동기화 - 숨김](integrations/using/synchronizing-web-applications.md)
-      + {hide-from-toc}[문제 해결 [!DNL ACS Connector] - 숨김](integrations/using/troubleshooting-the-acs-connector.md)
+      + {hide-from-toc}[웹 애플리케이션 동기화 - 숨김](integrations/using/synchronizing-web-applications.md)
+      + {hide-from-toc}[ [!DNL ACS Connector] 문제 해결 - 숨김](integrations/using/troubleshooting-the-acs-connector.md)
 + [워크플로로 자동화](workflow/using/about-workflows.md)
 + 워크플로로 자동화 {#automating-with-workflows}
    + 워크플로 시작 {#introduction}
       + {hide-from-toc}[활동 정보 - 숨김](workflow/using/about-activities.md)
-      + {hide-from-toc}[워크플로 빌드 - 숨김](workflow/using/building-a-workflow.md)
+      + {hide-from-toc}[워크플로 작성 - 숨김](workflow/using/building-a-workflow.md)
       + {hide-from-toc}[대상 데이터 - 숨김](workflow/using/targeting-data.md)
       + {hide-from-toc}[워크플로 데이터 사용 - 숨김](workflow/using/how-to-use-workflow-data.md)
-      + {hide-from-toc}[워크플로우 모범 사례 - 숨김](workflow/using/workflow-best-practices.md)
+      + {hide-from-toc}[워크플로 모범 사례 - 숨김](workflow/using/workflow-best-practices.md)
    + 워크플로 실행 {#executing-a-workflow}
       + {hide-from-toc}[워크플로 시작 - 숨김](workflow/using/starting-a-workflow.md)
-      + {hide-from-toc}[워크플로 수명 주기 - 숨김](workflow/using/workflow-life-cycle.md)
-      + {hide-from-toc}[데이터 수명 주기 - 숨김](workflow/using/data-life-cycle.md)
+      + {hide-from-toc}[워크플로 라이프사이클 - 숨김](workflow/using/workflow-life-cycle.md)
+      + {hide-from-toc}[데이터 라이프사이클 - 숨김](workflow/using/data-life-cycle.md)
       + {hide-from-toc}[승인 정의 - 숨김](workflow/using/defining-approvals.md)
       + {hide-from-toc}[아키텍처 - 숨김](workflow/using/architecture.md)
    + 타겟팅 활동 {#targeting-activities}
-      + {hide-from-toc}[타깃팅 활동 정보 - 숨김](workflow/using/about-targeting-activities.md)
+      + {hide-from-toc}[타기팅 활동 정보 - 숨김](workflow/using/about-targeting-activities.md)
       + {hide-from-toc}[쿼리 - 숨김](workflow/using/query.md)
       + {hide-from-toc}[증분 쿼리 - 숨김](workflow/using/incremental-query.md)
-      + {hide-from-toc}[목록 읽기 - 숨김](workflow/using/read-list.md)
-      + {hide-from-toc}[공용 구조체 - 숨김](workflow/using/union.md)
-      + {hide-from-toc}[교차 - 숨김](workflow/using/intersection.md)
+      + {hide-from-toc}[읽기 목록 - 숨김](workflow/using/read-list.md)
+      + {hide-from-toc}[합집합 - 숨김](workflow/using/union.md)
+      + {hide-from-toc}[교집합 - 숨김](workflow/using/intersection.md)
       + {hide-from-toc}[제외 - 숨김](workflow/using/exclusion.md)
       + {hide-from-toc}[분할 - 숨김](workflow/using/split.md)
       + {hide-from-toc}[셀 - 숨김](workflow/using/cells.md)
@@ -398,33 +398,33 @@ ht-degree: 68%
       + {hide-from-toc}[구독 서비스 - 숨김](workflow/using/subscription-services.md)
       + {hide-from-toc}[데이터 업데이트 - 숨김](workflow/using/update-data.md)
       + {hide-from-toc}[CRM 커넥터 - 숨김](workflow/using/crm-connector.md)
-      + {hide-from-toc}[데이터 원본 변경 - 숨김](workflow/using/change-data-source.md)
+      + {hide-from-toc}[데이터 소스 변경 - 숨김](workflow/using/change-data-source.md)
    + 흐름 제어 활동 {#flow-control-activities}
       + {hide-from-toc}[흐름 제어 활동 정보 - 숨김](workflow/using/about-flow-control-activities.md)
       + {hide-from-toc}[시작 및 종료 - 숨김](workflow/using/start-and-end.md)
       + {hide-from-toc}[포크 - 숨김](workflow/using/fork.md)
-      + {hide-from-toc}[AND-JOIN - 숨김](workflow/using/and-join.md)
+      + {hide-from-toc}[AND 결합 - 숨김](workflow/using/and-join.md)
       + {hide-from-toc}[스케줄러 - 숨김](workflow/using/scheduler.md)
       + {hide-from-toc}[테스트 - 숨김](workflow/using/test.md)
       + {hide-from-toc}[대기 - 숨김](workflow/using/wait.md)
-      + {hide-from-toc}[시간 제약 조건 - 숨김](workflow/using/time-constraint.md)
+      + {hide-from-toc}[시간 제한 - 숨김](workflow/using/time-constraint.md)
       + {hide-from-toc}[하위 워크플로 - 숨김](workflow/using/sub-workflow.md)
-      + {hide-from-toc}[이동(시작점 및 끝점 - 숨김)](workflow/using/jump-start-point-and-end-point.md)
+      + {hide-from-toc}[이동(시작 지점 및 종료 지점) - 숨김](workflow/using/jump-start-point-and-end-point.md)
       + {hide-from-toc}[외부 신호 - 숨김](workflow/using/external-signal.md)
       + {hide-from-toc}[승인 - 숨김](workflow/using/approval.md)
       + {hide-from-toc}[경고 - 숨김](workflow/using/alert.md)
       + {hide-from-toc}[작업 - 숨김](workflow/using/task.md)
    + 작업 활동 {#action-activities}
-      + {hide-from-toc}[작업 활동 정보 - 숨김](workflow/using/about-action-activities.md)
+      + {hide-from-toc}[액션 활동 정보 - 숨김](workflow/using/about-action-activities.md)
       + {hide-from-toc}[게재 - 숨김](workflow/using/delivery.md)
-      + {hide-from-toc}[게재 제어 - 숨김](workflow/using/delivery-control.md)
+      + {hide-from-toc}[게재 관리 - 숨김](workflow/using/delivery-control.md)
       + {hide-from-toc}[연속 게재 - 숨김](workflow/using/continuous-delivery.md)
       + {hide-from-toc}[반복 게재 - 숨김](workflow/using/recurring-delivery.md)
       + {hide-from-toc}[크로스 채널 게재 - 숨김](workflow/using/cross-channel-deliveries.md)
       + {hide-from-toc}[로컬 승인 - 숨김](workflow/using/local-approval.md)
-      + {hide-from-toc}[데이터 로드(RDBMS) - 숨김](workflow/using/data-loading-rdbms.md)
-      + {hide-from-toc}[로드 중(SOAP) - 숨김](workflow/using/loading-soap.md)
-      + {hide-from-toc}[데이터 로드(파일) - 숨김](workflow/using/data-loading-file.md)
+      + {hide-from-toc}[데이터 로딩(RDBMS) - 숨김](workflow/using/data-loading-rdbms.md)
+      + {hide-from-toc}[로딩(SOAP) - 숨김](workflow/using/loading-soap.md)
+      + {hide-from-toc}[데이터 로딩(파일) - 숨김](workflow/using/data-loading-file.md)
       + {hide-from-toc}[콘텐츠 관리 - 숨김](workflow/using/content-management.md)
       + {hide-from-toc}[데이터 추출(파일) - 숨김](workflow/using/extraction-file.md)
       + {hide-from-toc}[SQL 코드 및 JavaScript 코드 - 숨김](workflow/using/sql-code-and-javascript-code.md)
@@ -436,20 +436,20 @@ ht-degree: 68%
       + {hide-from-toc}[파일 수집기 - 숨김](workflow/using/file-collector.md)
       + {hide-from-toc}[파일 전송 - 숨김](workflow/using/file-transfer.md)
       + {hide-from-toc}[웹 다운로드 - 숨김](workflow/using/web-download.md)
-      + {hide-from-toc}[인바운드 전자 메일 - 숨김](workflow/using/inbound-emails.md)
+      + {hide-from-toc}[인바운드 이메일 - 숨김](workflow/using/inbound-emails.md)
       + {hide-from-toc}[인바운드 SMS - 숨김](workflow/using/inbound-sms.md)
    + 사용 사례 {#use-cases}
-      + {hide-from-toc}[워크플로우 사용 사례 정보 - 숨김](workflow/using/about-workflow-use-cases.md)
+      + {hide-from-toc}[워크플로 사용 사례 정보 - 숨김](workflow/using/about-workflow-use-cases.md)
       + 게재 {#deliveries}
          + {hide-from-toc}[로컬 승인 활동 사용 - 숨김](workflow/using/using-the-local-approval-activity.md)
-         + {hide-from-toc}[생일 전자 메일 보내기 - 숨김](workflow/using/sending-a-birthday-email.md)
+         + {hide-from-toc}[생일 이메일 보내기 - 숨김](workflow/using/sending-a-birthday-email.md)
          + {hide-from-toc}[게재 콘텐츠 로드 - 숨김](workflow/using/loading-delivery-content.md)
-         + {hide-from-toc}[채널 간 게재 워크플로 - 숨김](workflow/using/cross-channel-delivery-workflow.md)
-         + {hide-from-toc}[사용자 지정 날짜 필드를 사용한 전자 메일 강화 - 숨김](workflow/using/email-enrichment-with-custom-date-fields.md)
+         + {hide-from-toc}[크로스 채널 게재 워크플로 - 숨김](workflow/using/cross-channel-delivery-workflow.md)
+         + {hide-from-toc}[사용자 정의 날짜 필드를 통한 이메일 보강 - 숨김](workflow/using/email-enrichment-with-custom-date-fields.md)
    + 모니터링 {#monitoring}
       + {hide-from-toc}[목록으로 보고서 보내기 - 숨김](workflow/using/sending-a-report-to-a-list.md)
-      + {hide-from-toc}[워크플로 관리 - 숨김](workflow/using/supervising-workflows.md)
-      + {hide-from-toc}[운영자에게 개인화된 알림 보내기 - 숨김](workflow/using/sending-personalized-alerts-to-operators.md)
+      + {hide-from-toc}[워크플로 감독 - 숨김](workflow/using/supervising-workflows.md)
+      + {hide-from-toc}[운영자에게 개인화된 경고 보내기 - 숨김](workflow/using/sending-personalized-alerts-to-operators.md)
    + 데이터 관리 {#data-management}
       + {hide-from-toc}[데이터 업데이트 조정 - 숨김](workflow/using/coordinating-data-updates.md)
       + {hide-from-toc}[요약 목록 만들기 - 숨김](workflow/using/creating-a-summary-list.md)
@@ -460,28 +460,28 @@ ht-degree: 68%
    + 쿼리 디자인 {#designing-queries}
       + {hide-from-toc}[증분 쿼리를 사용한 분기별 목록 업데이트 - 숨김](workflow/using/quarterly-list-update.md)
    + 쿼리 및 필터 {#query-and-filter-hidden}
-      + {hide-from-toc}[받는 사람 테이블 쿼리 - 숨김](workflow/using/querying-recipient-table.md)
-      + {hide-from-toc}[쿼리 게재 정보 - 숨김](workflow/using/querying-delivery-information.md)
+      + {hide-from-toc}[수신자 테이블 쿼리 - 숨김](workflow/using/querying-recipient-table.md)
+      + {hide-from-toc}[게재 정보 쿼리 - 숨김](workflow/using/querying-delivery-information.md)
       + {hide-from-toc}[집계 컴퓨팅 수행 - 숨김](workflow/using/performing-aggregate-computing.md)
-      + {hide-from-toc}[그룹 관리를 사용하여 쿼리 - 숨김](workflow/using/querying-using-grouping-management.md)
-      + {hide-from-toc}[다대다 관계를 사용하여 쿼리 - 숨김](workflow/using/querying-using-many-to-many-relationship.md)
-      + {hide-from-toc}[열거형 유형 계산 필드 추가 - 숨김](workflow/using/adding-enumeration-type-calculated-field.md)
+      + {hide-from-toc}[그룹화 관리를 사용한 쿼리 - 숨김](workflow/using/querying-using-grouping-management.md)
+      + {hide-from-toc}[다대다 관계를 사용한 쿼리 - 숨김](workflow/using/querying-using-many-to-many-relationship.md)
+      + {hide-from-toc}[열거형 계산 필드 추가 - 숨김](workflow/using/adding-enumeration-type-calculated-field.md)
       + {hide-from-toc}[필터 만들기 - 숨김](workflow/using/creating-a-filter.md)
-      + {hide-from-toc}[중복된 받는 사람 필터링 - 숨김](workflow/using/filtering-duplicated-recipients.md)
+      + {hide-from-toc}[중복 수신자 필터링 - 숨김](workflow/using/filtering-duplicated-recipients.md)
    + 워크플로 모니터링 {#monitoring-workflows}
       + {hide-from-toc}[워크플로 실행 모니터링 - 숨김](workflow/using/monitoring-workflow-execution.md)
-      + {hide-from-toc}[기술 워크플로우 모니터링 - 숨김](workflow/using/monitoring-technical-workflows.md)
-      + {hide-from-toc}[워크플로우 HeatMap - 숨김](workflow/using/heatmap.md)
+      + {hide-from-toc}[기술 워크플로 모니터링 - 숨김](workflow/using/monitoring-technical-workflows.md)
+      + {hide-from-toc}[워크플로 히트맵 - 숨김](workflow/using/heatmap.md)
    + 고급 관리 {#advanced-management}
       + {hide-from-toc}[워크플로 속성 - 숨김](workflow/using/workflow-properties.md)
       + {hide-from-toc}[고급 매개 변수 - 숨김](workflow/using/advanced-parameters.md)
       + {hide-from-toc}[JavaScript 스크립트 및 템플릿 - 숨김](workflow/using/javascript-scripts-and-templates.md)
-      + {hide-from-toc}[워크플로우의 JavaScript 코드 예 - 숨김](workflow/using/javascript-in-workflows.md)
+      + {hide-from-toc}[워크플로의 JavaScript 코드 예 - 숨김](workflow/using/javascript-in-workflows.md)
       + {hide-from-toc}[외부 데이터베이스 액세스 - 숨김](workflow/using/accessing-an-external-database-fda.md)
       + {hide-from-toc}[권한 관리 - 숨김](workflow/using/managing-rights.md)
       + {hide-from-toc}[활동 이미지 변경 - 숨김](workflow/using/managing-activity-images.md)
       + {hide-from-toc}[표준 시간대 관리 - 숨김](workflow/using/managing-time-zones.md)
-      + {hide-from-toc}[기술 워크플로우 - 숨김](workflow/using/about-technical-workflows.md)
+      + {hide-from-toc}[기술 워크플로 - 숨김](workflow/using/about-technical-workflows.md)
 + 오퍼 관리 {#managing-offers}
    + 상호 작용 시작 {#interaction-overview}
       + [상호 작용 및 오퍼 관리](interaction/using/interaction-and-offer-management.md)
@@ -608,7 +608,7 @@ ht-degree: 68%
       + [Tomcat 구성](installation/using/configure-tomcat.md)
       + [게재 설정 구성](installation/using/configure-delivery-settings.md)
       + [기술 이메일 구성](installation/using/email-deliverability.md)
-      + {hide-from-toc}[캠페인으로 MX 서버 사용](installation/using/using-mx-servers.md)
+      + {hide-from-toc}[Campaign으로 MX 서버 사용](installation/using/using-mx-servers.md)
       + [이메일 BCC 구성](installation/using/email-archiving.md)
       + [SpamAssassin 구성](installation/using/configuring-spamassassin.md)
    + Campaign에 연결{#connect-to-campaign}
@@ -675,7 +675,7 @@ ht-degree: 68%
       + [빌드 업그레이드 수행](production/using/build-upgrade.md)
       + [업그레이드 절차(온-프레미스)](production/using/upgrading.md)
       + [유니코드로 전환](production/using/switching-to-unicode.md)
-      + {hide-from-toc}[마이그레이션 프로시저](production/using/migration-procedures.md)
+      + {hide-from-toc}[마이그레이션 절차](production/using/migration-procedures.md)
    + 데이터베이스 유지 관리 {#database-maintenance}
       + [추천](production/using/recommendations.md)
       + [유지 관리할 테이블](production/using/tables-to-maintain.md)
@@ -794,7 +794,7 @@ ht-degree: 68%
    + 마이그레이션 시작 {#migrating-to-adobe-campaign-7}
       + {hide-from-toc}[Microsoft Windows 플랫폼 마이그레이션](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
       + {hide-from-toc}[Linux 플랫폼 마이그레이션](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
-   + {hide-from-toc}[롤백 프로시저](migration/using/about-rollback.md)
+   + {hide-from-toc}[롤백 절차](migration/using/about-rollback.md)
 + 기술 노트 {#technotes}
    + [하드웨어 크기 조정 권장 사항](technotes/using/hardware-sizing.md)
    + [향상된 MTA로 보내기](delivery/using/sending-with-enhanced-mta.md)
@@ -805,19 +805,19 @@ ht-degree: 68%
       + [기술 운영자를 Developer Console로 마이그레이션](technotes/using/ims-migration.md)
       + [IMS 마이그레이션이 인터페이스에 미치는 영향](technotes/using/impact-ims-migration.md)
    + 업그레이드 및 호환성{#technote-migration}
-      + {hide-from-toc}[기술 정보](technotes/using/technote.md)
+      + {hide-from-toc}[기술 노트](technotes/using/technote.md)
       + [Microsoft Edge Chromium 사용](technotes/using/edge-chromium.md)
-      + {hide-from-toc}[새 게재 기능 서버](technotes/using/deliverability-server.md)
+      + {hide-from-toc}[새로운 전달성 서버](technotes/using/deliverability-server.md)
       + {hide-from-toc}[Apache 보안 업그레이드](technotes/using/acc-apache-upgrade.md)
       + {hide-from-toc}[2023년 시스템 업그레이드](technotes/using/tech-stack-upgrade.md)
       + {hide-from-toc}[IMS 업데이트](technotes/using/ims-updates.md)
-      + {hide-from-toc}[TLS 1.0 및 1.1 지원 수명 종료](technotes/using/eol-tls-support.md)
+      + {hide-from-toc}[TLS 1.0 및 1.1 지원 종료](technotes/using/eol-tls-support.md)
    + 이메일 및 푸시 알림{#technotes-email}
       + [Apple iOS의 메일 개인 정보 보호](technotes/using/apple-mail-app-privacy-protection.md)
       + [잘못된 하드 바운스를 업데이트하는 방법](delivery/using/update-bounce-qualification.md)
       + {hide-from-toc}[ISP 중단 후 잘못된 하드 바운스 업데이트](delivery/using/update-bounces.md)
       + [iOS 인증서 업데이트](technotes/using/ios-certificate-update.md)
-      + {hide-from-toc}[추적된 URL 업데이트](technotes/using/tracked-urls.md)
+      + {hide-from-toc}[추적 URL 업데이트](technotes/using/tracked-urls.md)
    + Adobe Managed Services로 마이그레이션{#dc-migration}
       + [공개 클라우드로 마이그레이션](technotes/using/dc-migration.md)
       + [FAQ](technotes/using/dc-migration-faq.md)

@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
 source-git-commit: 4cae5fdb2b78f446f84352046b523d8862e9060c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2391'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ _2023년 12월 5일_
 * Campaign 보고서의 `Back` 버튼을 클릭할 때 사용자에게 다시 인증하라는 요청이 표시되는 문제를 해결했습니다. (NEO-65087)
 * 게재 교정 전에 게재를 삭제할 때 발생하는 데이터베이스 정리 워크플로의 오류를 해결했습니다. (NEO-48114)
 * TLS 인증에 대한 최근 업데이트로 인해 클라이언트 콘솔에 연결할 때 연결 오류가 발생하는 문제를 해결했습니다. (NEO-50488)
-* Campaign을 7.3.1로 업그레이드 후 HTTP 프록시 인증과 관련된 문제를 해결했습니다. Campaign 워크플로우의 HTTP 요청이 `error 407 – proxy auth required is returned`(으)로 인해 실패했습니다. (NEO-49624)
+* Campaign을 7.3.1로 업그레이드한 후 HTTP 프록시 인증 시 Campaign 워크플로의 HTTP 요청이 실패하며 `error 407 – proxy auth required is returned` 오류 메시지가 표시되는 문제를 해결했습니다. (NEO-49624)
 * **스크립트** 워크플로 활동에서 GPG 암호 해독이 간헐적으로 실패하는 오류를 해결했습니다. 관련 오류 메시지는 다음과 같습니다. `gpg: decryption failed: No secret key`. (NEO-50257)
   <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
 
@@ -112,7 +112,7 @@ _2023년 9월 7일_
 * Tomcat 오류 보고서에 너무 많은 오류 세부 정보가 표시되는 문제를 해결했습니다. (NEO-49029)
 * 많은 수의 오퍼를 사용할 때 게재 오류가 발생할 수 있는 문제를 해결했습니다. (NEO-48807)
 * **데이터 업데이트** 워크플로 활동이 제대로 작동하지 않는 문제를 해결했습니다. (NEO-48140)
-* 이메일이 아닌 외부 계정을 사용하는 게재에 대해 클릭 추적 데이터가 동기화되지 않는 문제를 해결했습니다(NEO-47277).
+* 이메일이 아닌 외부 계정을 사용한 게재에 대해 클릭 추적 데이터가 동기화되지 않는 문제를 해결했습니다.(NEO-47277)
 * 메시지 센터 마케팅 인스턴스에서 실시간 추적 로그가 동기화되지 않는 문제를 해결했습니다. (NEO-42540)
 * Snowflake 데이터베이스 테이블에 대해 작업 영역 접두사가 스키마의 검색 창에 표시되지 않는 문제를 해결했습니다. (NEO-40297)
 * 이메일 콘텐츠에서 `<img-amp>` 태그가 작동하지 않는 문제를 해결했습니다. (NEO-38685)
