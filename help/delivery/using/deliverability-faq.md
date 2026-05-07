@@ -7,8 +7,8 @@ role: User
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
 source-git-commit: 0c639cc8b9636c190c868980ab5182a0eccb5f74
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 1%
+source-wordcount: '660'
+ht-degree: 2%
 
 ---
 
@@ -41,9 +41,9 @@ ISP에 대해 항상 동일한 오류 메시지가 표시되는 경우 ISP에서
 
 문제가 지속되면 상업용 또는 게재 서비스, [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
 
-## 차단 목록에 추가하다 격리 대 격리 {#denylist-versus-quarantine}
+## 격리 대 격리 {#denylist-versus-quarantine}
 
-* 차단 목록에 추가하다 **전자 메일 주소와 격리된 전자 메일 주소의 차이점은 무엇입니까?**
+* **전자 메일 주소와 격리된 전자 메일 주소의 차이점은 무엇입니까?**
 
    * **[!UICONTROL Denylisted]** 상태는 피드백 루프(사용자가 메시지를 스팸으로 보고할 때)의 결과입니다.
 
@@ -53,7 +53,7 @@ ISP에 대해 항상 동일한 오류 메시지가 표시되는 경우 ISP에서
 
 * **다른 격리 오류 이유는 무엇을 의미합니까?**
 
-  차단 목록에 추가하다 정의되지 않음, 잘못된 도메인, 알 수 없는 사용자, 거부, 오류 무시, 연결할 수 없음, 계정 비활성화, 사서함 가득 참, 연결되지 않음 등 10가지 가능한 이유가 있습니다.
+  정의되지 않음, 잘못된 도메인, 알 수 없는 사용자, 거부, 오류 무시, 연결할 수 없음, 계정 비활성화, 사서함 가득 참, 연결되지 않음 등 10가지 가능한 이유가 있습니다.
 
   자세한 내용은 [격리 관리 이해](delivery-failures-quarantine.md)를 참조하십시오.
 
@@ -69,7 +69,7 @@ ISP에 대해 항상 동일한 오류 메시지가 표시되는 경우 ISP에서
 
   IP 주소가 차단 목록에 추가하다에 있는지 확인하려면 다음과 같이 다양한 웹 사이트를 사용하여 확인할 수 있습니다.
    * [MX 도구 상자](https://mxtoolbox.com/)
-   * [내 IP 주소](https://whatismyipaddress.com)
+   * [내 IP 주소는 무엇입니까](https://whatismyipaddress.com)
 
   일반적으로 IP 주소 검사 결과는 차단 목록에 추가하다 웹 사이트의 세부 정보와 IP 주소를 거부한 이름이 포함된 목록을 반환합니다.
 

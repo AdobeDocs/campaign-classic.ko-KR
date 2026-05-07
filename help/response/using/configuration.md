@@ -10,7 +10,7 @@ topic-tags: response-manager
 exl-id: 1a115ca9-2532-4bd3-be77-814e43250c51
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->가설에서 예상되는 동작을 설명하는 영수증 식별자를 유지하려면 nms:remaMatchRcp 테이블 템플릿을 확장하여 식별자를 여기에 추가할 수 있습니다(이 경우 이러한 필드에 ROI 계산이 연결되어 있지 않음).
+>가설에서 예상되는 동작을 설명하는 수신 식별자를 유지하려면 nms:remaMatchRcp 테이블 템플릿을 확장하여 식별자를 추가할 수 있습니다(이 경우 이러한 필드에 연결된 ROI 계산이 없음).
 
 이벤트 날짜를 추가하는 것이 좋습니다.
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 이 예제에서는 Adobe Campaign 기본 제공 수신자 테이블 **[!UICONTROL nms:recipient]**&#x200B;을(를) 사용하여 응답 관리 모듈의 구매 테이블을 통합합니다.
 
-**[!UICONTROL nms:remaMatchRcp]** 받는 사람의 응답 로그 테이블을 확장하여 구매 테이블 스키마에 링크를 추가합니다. 다음 예제에서는 구매 테이블을 **demo:purchase**&#x200B;라고 합니다.
+**[!UICONTROL nms:remaMatchRcp]** 받는 사람의 응답 로그 테이블을 확장하여 구매 테이블 스키마에 링크를 추가합니다. 다음 예제에서는 구매 테이블을 **demo:purchase**&#x200B;이라고 합니다.
 
 1. Adobe Campaign 탐색기를 통해 **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]**&#x200B;을(를) 선택합니다.
 1. **받는 사람**&#x200B;을 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL Actions]** 및 **[!UICONTROL Modify the options of the targeting dimensions]**&#x200B;을(를) 선택합니다.

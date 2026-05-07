@@ -7,8 +7,8 @@ feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: c1eccb48-59bf-412f-9c18-9cda2a022096
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 3%
+source-wordcount: '571'
+ht-degree: 4%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 3%
 >
 >HTML 코드 페이지는 메타 태그(HTML 4 또는 HTML 5) 또는 BOM에서 정의해야 합니다. 사용 가능한 코드 페이지가 없으면 latin1에서 파일을 엽니다.
 
-## 컨텐츠 상태 HTML {#html-content-statuses}
+## HTML 컨텐츠 상태 {#html-content-statuses}
 
 편집기의 상단 섹션에는 콘텐츠의 상태와 관련된 메시지가 표시됩니다. 메시지의 색상 코드는 다음과 같습니다.
 
@@ -80,7 +80,7 @@ ht-degree: 3%
 
 ### 웹 응용 프로그램 편집 시 메시지 목록 {#list-of-messages-when-editing-a-web-application}
 
-* HTML 컨텐츠가 작동합니다.
+* HTML 콘텐츠가 작동합니다.
 * 웹 응용 프로그램이 게시되지 않았으므로 온라인으로 액세스할 수 없습니다.
 * 웹 응용 프로그램이 온라인 상태입니다. 변경 사항을 적용하려면 다시 게시하십시오.
 * 페이지 콘텐츠가 작동하지 않습니다. HTML 양식(`<form>`)을 포함해야 합니다.

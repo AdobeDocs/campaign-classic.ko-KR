@@ -8,7 +8,7 @@ role: User
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
 source-git-commit: b2b188ee3f202c247ceac1f59a49b7ad1771d537
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '851'
 ht-degree: 6%
 
 ---
@@ -59,7 +59,7 @@ Adobe Campaign은 플랫폼의 전달성 성능을 추적하고 개선하는 여
 * [게재 모범 사례](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ko){target="_blank"}.
 * [이메일 콘텐츠 제어](control-message-content.md)
 * [받은 편지함 렌더링](inbox-rendering.md)
-* [교정쇄 보내기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ko){target="_blank"}
+* [증명 보내기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ko){target="_blank"}
 
 ### 이중 옵트인을 통해 동의 확인 {#double-opt-in}
 

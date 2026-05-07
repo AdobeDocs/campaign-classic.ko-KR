@@ -8,7 +8,7 @@ role: User, Developer
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '843'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ Forms은 [이 섹션](../../configuration/using/identifying-a-form.md)에 자세
 
 기본적으로 양식은 이름과 네임스페이스가 동일한 데이터 스키마와 연결됩니다. 양식을 다른 이름과 연결하려면 **`<form>`** 요소의 **entity-schema** 특성에 스키마 키를 입력하십시오.
 
-입력 양식의 구조를 설명하기 위해 예제 스키마 &quot;cus:book&quot;을 기반으로 인터페이스를 설명합니다.
+입력 양식의 구조를 설명하기 위해 예제 스키마 &quot;cus:book&quot;을(를) 기반으로 인터페이스를 설명합니다.
 
 ![](assets/d_ncs_content_form1.png)
 
@@ -73,7 +73,7 @@ XPath는 XML 문서의 트리에서 노드를 찾을 수 있는 구문입니다.
 
 ## 양식화 {#formatting}
 
-서로 상대적인 컨트롤의 배열은 HTML 테이블에 사용된 배열과 비슷하며, 컨트롤을 여러 열로 나누거나, 요소를 교차시키거나, 사용 가능한 공간 위치를 지정할 수 있습니다. 그러나 형식을 지정하면 비율의 분포만 인증된다는 점을 유념하십시오. 객체에 대해 고정된 치수를 지정할 수 없습니다.
+서로 상대적인 컨트롤 배열은 HTML 테이블에 사용된 배열과 비슷하며, 컨트롤을 여러 열로 나누거나, 요소를 인터레이싱하거나, 사용 가능한 공간을 지정할 수 있습니다. 그러나 형식을 지정하면 비율의 분포만 인증된다는 점을 유념하십시오. 객체에 대해 고정된 치수를 지정할 수 없습니다.
 
 이 작업에 대한 자세한 정보는 [이 섹션](../../configuration/using/form-structure.md#formatting)을 참조하십시오.
 

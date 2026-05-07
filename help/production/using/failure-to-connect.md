@@ -10,8 +10,8 @@ topic-tags: troubleshooting
 exl-id: 3c793dc1-9654-4289-a3d2-30c3078fd848
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 2%
+source-wordcount: '417'
+ht-degree: 9%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 </tr>
 <tr> 
 <td>Adobe Campaign이 올바르게 통합되었습니까?</td> 
-<td><b>http(s)://&lt;urlserver&gt;/r/test</b> URL에 로그온합니다. 서버는 &lt;redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='&lt;호스트 이름&gt;' localHost='&lt;서버&gt;'/&gt; 메시지 형식을 반환해야 합니다.
+<td><b>http(s)://&lt;urlserver&gt;/r/test</b> URL에 로그온합니다. 서버는 &lt;redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='&lt;hostname&gt;' localHost='&lt;server&gt;'/&gt; 메시지 유형을 반환해야 합니다.
 이 결과를 얻지 못한 경우 웹 서버 구성에서 통합을 고려했는지 확인하십시오.</td>
 </tr>
 <tr> 

@@ -6,8 +6,8 @@ feature: Technote, SMS
 exl-id: 756039b2-5f57-4dc5-8166-a421206b886b
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 5%
+source-wordcount: '440'
+ht-degree: 6%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 5%
 
    해당 옵션 포인터를 `SMS_MO_INDEX_{internal name of the workflow}_{name of the insms workflow activity}_{internal name of the external account to access the mid}` 형식으로 백업합니다.
 
-[백업에 대한 자세한 내용](../../production/using/backup.md)
+   [백업에 대한 자세한 내용](../../production/using/backup.md)
 
 1. (**선택 사항**) 이미 스케줄러 활동을 사용 중인 경우 워크플로우를 열고 다음과 같이 다시 구성하십시오.
 

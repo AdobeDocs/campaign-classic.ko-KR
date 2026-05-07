@@ -10,8 +10,8 @@ topic-tags: data-processing
 exl-id: 2c933fc5-1c0a-4c2f-9ff2-90d09a79c55a
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 1%
+source-wordcount: '1333'
+ht-degree: 3%
 
 ---
 
@@ -95,7 +95,7 @@ pg_dump mydatabase > mydatabase.sql
 
 이렇게 하려면 다음 두 요소에 대해 패키지 내보내기를 수행합니다.
 
-* 내부 이름이 &#39;WdbcTimeZone&#39;, &#39;NmsServer_LastPostUpgrade&#39; 및 &#39;NmsBroadcast_RegexRules&#39;인 레코드 없이 **xtk:option** 테이블을 &#39;options_dev.xml&#39; 파일로 내보냅니다.
+* 내부 이름이 &#39;WdbcTimeZone&#39;, &#39;NmsServer_LastPostUpgrade&#39; 및 &#39;NmsBroadcast_RegexRules&#39;인 레코드를 제외한 **xtk:option** 테이블을 &#39;options_dev.xml&#39; 파일로 내보냅니다.
 * &#39;extaccount_dev.xml&#39; 파일에서 ID가 0이 아닌 모든 레코드(@id &lt;> 0)에 대해 **nms:extAccount** 테이블을 내보냅니다.
 
 내보낸 옵션/계정의 수가 각 파일에서 내보낼 라인 수와 같은지 확인합니다.
@@ -145,7 +145,7 @@ nlserver pdump
 이렇게 하려면 다음 프로세스를 사용합니다.
 
 * Windows에서 **작업 관리자**&#x200B;를 열고 **nlserver.exe** 프로세스가 없는지 확인합니다.
-* Linux에서: **ps 보조 실행 | grep nlserver** 명령과 **nlserver** 프로세스가 없는지 확인합니다.
+* Linux에서: **ps 보조 실행 | grep nlserver** 명령을 실행하고 **nlserver** 프로세스가 없는지 확인합니다.
 
 ### 4단계 - 대상 환경(개발)에서 데이터베이스 복원 {#step-4---restore-the-databases-in-the-target-environment--dev-}
 

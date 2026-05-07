@@ -9,21 +9,21 @@ topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 2%
+source-wordcount: '854'
+ht-degree: 1%
 
 ---
 
-# azure synapse 액세스 구성 {#configure-access-to-azure-synapse}
+# Azure Synapse 액세스 구성 {#configure-access-to-azure-synapse}
 
 
 
-외부 데이터베이스에 저장된 정보를 처리하려면 Campaign [FDA(Federated Data Access](../../installation/using/about-fda.md)) 옵션을 사용하십시오. **Microsoft Azure synapse 분석**&#x200B;에 대한 액세스를 구성하려면 아래 단계를 따르십시오.
+외부 데이터베이스에 저장된 정보를 처리하려면 Campaign [FDA(Federated Data Access](../../installation/using/about-fda.md)) 옵션을 사용하십시오. **Microsoft Azure Synapse Analytics**&#x200B;에 대한 액세스를 구성하려면 아래 단계를 따르십시오.
 
-1. [CentOS](#azure-centos), [Windows](#azure-windows) 또는 [Debian](#azure-debian)에서 Azure synapse 구성
-1. Campaign에서 Azure synapse [외부 계정](#azure-external) 구성
+1. [CentOS](#azure-centos), [Windows](#azure-windows) 또는 [Debian](#azure-debian)에서 Azure Synapse 구성
+1. Campaign에서 Azure Synapse [외부 계정](#azure-external) 구성
 
-## CentOS의 azure synapse {#azure-centos}
+## Azure Synapse on CentOS {#azure-centos}
 
 >[!CAUTION]
 >
@@ -31,7 +31,7 @@ ht-degree: 2%
 >* Microsoft에서 제공하는 Red Hat Enterprise ODBC 드라이버는 CentOS와 함께 사용하여 SQL Server에 연결할 수도 있습니다.
 >* 버전 13.0은 Red Hat 6 및 7에서 작동합니다.
 
-CentOS에서 Azure synapse을 구성하려면 아래 단계를 따르십시오.
+CentOS에서 Azure Synapse을 구성하려면 아래 단계를 따르십시오.
 
 1. 먼저 ODBC 드라이버를 설치합니다. 이 [페이지](https://www.microsoft.com/en-us/download/details.aspx?id=50420)에서 찾을 수 있습니다.
 
@@ -89,7 +89,7 @@ CentOS에서 Azure synapse을 구성하려면 아래 단계를 따르십시오.
 
 1. 그런 다음 Campaign에서 [!DNL Azure Synapse] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#azure-external)을 참조하세요.
 
-1. azure synapse Analytics는 TCP 1433 포트를 통해 통신하므로 방화벽에서 이 포트를 열어야 합니다. 다음 명령을 사용하십시오.
+1. Azure Synapse Analytics는 TCP 1433 포트를 통해 통신하므로 방화벽에서 이 포트를 열어야 합니다. 다음 명령을 사용하십시오.
 
    ```
    firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="[server_ip_here]/32" port port="1433" protocol="tcp" accept'
@@ -98,7 +98,7 @@ CentOS에서 Azure synapse을 구성하려면 아래 단계를 따르십시오.
 
    >[!NOTE]
    >
-   >azure synapse 분석 측에서 통신을 허용하려면 공용 허용 목록에 추가하다에 IP를 추가해야 할 수 있습니다. 이렇게 하려면 [Azure 설명서](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)를 참조하세요.
+   >Azure Synapse Analytics 측에서 통신을 허용하려면 공용 허용 목록에 추가하다에 IP를 추가해야 할 수 있습니다. 이렇게 하려면 [Azure 설명서](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)를 참조하세요.
 
 1. iptable의 경우 다음 명령을 실행합니다.
 
@@ -106,13 +106,13 @@ CentOS에서 Azure synapse을 구성하려면 아래 단계를 따르십시오.
    iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
    ```
 
-## Windows의 azure synapse {#azure-windows}
+## Windows의 Azure Synapse {#azure-windows}
 
 >[!NOTE]
 >
 >이 드라이버는 ODBC 드라이버 버전 13에만 사용할 수 있지만 Adobe Campaign Classic은 SQL Server Native Client 드라이버 11.0과 10.0도 사용할 수 있습니다.
 
-Windows에서 Azure synapse을 구성하려면:
+Windows에서 Azure Synapse을 구성하려면:
 
 1. 먼저 Microsoft ODBC 드라이버를 설치합니다. [이 페이지](https://www.microsoft.com/en-us/download/details.aspx?id=50420)에서 찾을 수 있습니다.
 
@@ -126,9 +126,9 @@ Windows에서 Azure synapse을 구성하려면:
 
 1. 그런 다음 Campaign Classic에서 [!DNL Azure Synapse] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#azure-external)을 참조하세요.
 
-1. azure synapse Analytics는 TCP 1433 포트를 통해 통신하므로 Windows Defender 방화벽에서 이 포트를 열어야 합니다. 자세한 내용은 [Windows 설명서](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule)를 참조하세요.
+1. Azure Synapse Analytics는 TCP 1433 포트를 통해 통신하므로 Windows Defender Firewall에서 이 포트를 열어야 합니다. 자세한 내용은 [Windows 설명서](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule)를 참조하세요.
 
-## Debian azure synapse {#azure-debian}
+## Azure Synapse 온 데비안 {#azure-debian}
 
 **필수 구성 요소:**
 
@@ -139,7 +139,7 @@ Windows에서 Azure synapse을 구성하려면:
   sudo apt-get install curl
   ```
 
-Debian에서 Azure synapse을 구성하려면:
+Debian에서 Azure Synapse을 구성하려면 다음을 수행하십시오.
 
 1. 먼저 SQL Server용 Microsoft ODBC 드라이버를 설치합니다. 다음 명령을 사용하여 SQL Server용 ODBC 드라이버 13.1을 설치합니다.
 
@@ -181,7 +181,7 @@ Debian에서 Azure synapse을 구성하려면:
 
 1. 이제 Campaign Classic에서 [!DNL Azure Synapse] 외부 계정을 구성할 수 있습니다. 외부 계정을 구성하는 방법에 대한 자세한 내용은 [이 섹션](#azure-external)을 참조하세요.
 
-1. Debian에서 iptables를 구성하여 Azure synapse Analytics와 연결하려면 다음 명령을 사용하여 호스트 이름에 대한 아웃바운드 TCP 1433 포트를 활성화합니다.
+1. Azure Synapse Analytics와의 연결을 보장하기 위해 Debian에서 iptables를 구성하려면 다음 명령을 사용하여 호스트 이름에 대한 아웃바운드 TCP 1433 포트를 활성화합니다.
 
    ```
    iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
@@ -189,17 +189,17 @@ Debian에서 Azure synapse을 구성하려면:
 
    >[!NOTE]
    >
-   >azure synapse 분석 측에서 통신을 허용하려면 공용 허용 목록에 추가하다에 IP를 추가해야 할 수 있습니다. 이렇게 하려면 [Azure 설명서](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)를 참조하세요.
+   >Azure Synapse Analytics 측에서 통신을 허용하려면 공용 허용 목록에 추가하다에 IP를 추가해야 할 수 있습니다. 이렇게 하려면 [Azure 설명서](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)를 참조하세요.
 
-## 외부 계정 azure synapse {#azure-external}
+## Azure Synapse 외부 계정 {#azure-external}
 
-[!DNL Azure Synapse] 외부 계정을 사용하면 Campaign 인스턴스를 Azure synapse 외부 데이터베이스에 연결할 수 있습니다.
+[!DNL Azure Synapse] 외부 계정을 사용하면 Campaign 인스턴스를 Azure Synapse 외부 데이터베이스에 연결할 수 있습니다.
 
 [!DNL Azure Synapse] 외부 계정을 만들려면 아래 단계를 수행하십시오.
 
 1. **[!UICONTROL Explorer]** 캠페인에서 **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL New]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL External database]**&#x200B;을(를) 외부 계정의 **[!UICONTROL Type]**(으)로 선택합니다.
 
@@ -213,7 +213,7 @@ Debian에서 Azure synapse을 구성하려면:
 
    * 표준 인증의 경우 다음을 지정해야 합니다.
 
-      * **[!UICONTROL Server]**: Azure synapse 서버의 URL
+      * **[!UICONTROL Server]**: Azure Synapse 서버의 URL
 
       * **[!UICONTROL Account]**: 사용자 이름
 
@@ -225,7 +225,7 @@ Debian에서 Azure synapse을 구성하려면:
 
    * 시스템에서 할당한 관리 ID 인증의 경우 다음을 지정해야 합니다.
 
-      * **[!UICONTROL Server]**: Azure synapse 서버의 URL
+      * **[!UICONTROL Server]**: Azure Synapse 서버의 URL
 
       * **[!UICONTROL Database]**: 데이터베이스 이름
 
@@ -233,10 +233,10 @@ Debian에서 Azure synapse을 구성하려면:
 
      ![](assets/azure_4.png)
 
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 커넥터는 다음 옵션을 지원합니다.
 
 | 옵션 | 설명 |
 |---|---|
-| 인증 | 커넥터에서 지원하는 인증 유형입니다. 현재 지원되는 값: ActiveDirectoryMSI. </br>자세한 내용은 [SQL 문서](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings)(연결 문자열 n°8 예제)를 참조하십시오. |
+| 인증 | 커넥터에서 지원하는 인증 유형입니다. 현재 지원되는 값: ActiveDirectoryMSI. </br>자세한 내용은 [SQL 문서](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings)&#x200B;(연결 문자열 n°8 예제)를 참조하십시오. |

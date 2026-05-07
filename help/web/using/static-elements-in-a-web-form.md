@@ -7,8 +7,8 @@ feature: Web Forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 1%
+source-wordcount: '1049'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 1%
 다음 유형의 필드를 사용할 수 있습니다.
 
 * 이전에 제공된 답변(양식 컨텍스트) 또는 데이터베이스를 기반으로 한 값.
-* 하이퍼텍스트 링크, HTML, 가로 막대형 [HTML 콘텐츠 삽입](#inserting-html-content)을 참조하세요.
+* 하이퍼텍스트 링크, HTML, 가로 막대 [HTML 콘텐츠 삽입](#inserting-html-content)을 참조하세요.
 * 리소스 라이브러리 또는 사용자가 액세스할 수 있는 서버에 저장된 이미지입니다. [이미지 삽입](#inserting-images)을 참조하세요.
 * 클라이언트측 및/또는 서버측에서 실행되는 스크립트. 클라이언트측에서 올바른 실행을 위해 JavaScript에서 작성되어야 하며 대부분의 브라우저와 호환되어야 합니다.
 
@@ -31,9 +31,9 @@ ht-degree: 1%
   >
   >서버측에서 스크립트는 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko)에 정의된 함수를 사용할 수 있습니다.
 
-## HTML 컨텐츠 삽입 {#inserting-html-content}
+## HTML 콘텐츠 삽입 {#inserting-html-content}
 
-하이퍼텍스트 링크, 이미지, 서식이 지정된 단락, 비디오 등의 HTML 콘텐츠를 양식 페이지에 포함할 수 있습니다.
+하이퍼텍스트 링크, 이미지, 서식이 지정된 단락, 비디오 등의 양식 페이지에 HTML 콘텐츠를 포함할 수 있습니다.
 
 HTML 편집기를 사용하여 양식 페이지에 삽입할 콘텐츠를 입력할 수 있습니다. 편집기를 열려면 **[!UICONTROL Static elements]** > **[!UICONTROL HTML]** 을 클릭합니다.
 
@@ -137,11 +137,11 @@ HTML 편집기를 사용하여 양식 페이지에 삽입할 콘텐츠를 입력
 
 ### 텍스트 변수 사용 {#using-text-variables}
 
-**[!UICONTROL Text]** 탭에서는 다음 구문을 사용하여 &lt;%= 및 %> 문자 사이의 HTML에서 사용할 수 있는 변수 필드를 만들 수 있습니다. **$(IDENTIFIER)**.
+**[!UICONTROL Text]** 탭에서는 **$(IDENTIFIER)** 구문을 사용하여 &lt;%= 및 %> 문자 사이의 HTML에서 사용할 수 있는 변수 필드를 만들 수 있습니다.
 
 이 메서드를 사용하면 문자열을 쉽게 현지화할 수 있습니다. [웹 양식 번역](translating-a-web-form.md)을 참조하세요.
 
-예를 들어 HTML 컨텐츠에 &quot;마지막 연락의 날짜:&quot; 문자열을 표시할 수 있는 **연락처** 필드를 만들 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
+예를 들어 HTML 콘텐츠에 &quot;마지막 연락의 날짜:&quot; 문자열을 표시할 수 있는 **연락처** 필드를 만들 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
 1. HTML 텍스트의 **[!UICONTROL Text]** 탭을 클릭합니다.
 1. **[!UICONTROL Add]** 아이콘을 클릭합니다.
@@ -150,13 +150,13 @@ HTML 편집기를 사용하여 양식 페이지에 삽입할 콘텐츠를 입력
 
    ![](assets/s_ncs_admin_survey_html_text.png)
 
-1. HTML 콘텐츠에서 **&lt;%= $(Contact) %>** 구문을 통해 이 텍스트 변수를 삽입합니다.
+1. HTML 컨텐츠에서 **&lt;%= $(Contact) %>** 구문을 통해 이 텍스트 변수를 삽입합니다.
 
    ![](assets/s_ncs_admin_survey_html_content.png)
 
    >[!CAUTION]
    >
-   >HTML 편집기에 이 문자를 입력하면 **&lt;** 및 **>** 필드가 이스케이프 처리된 문자로 바뀝니다. 이 경우 HTML 텍스트 편집기의 **[!UICONTROL Display source code]** 아이콘을 클릭하여 소스 코드를 수정해야 합니다.
+   >HTML 편집기에 이러한 문자를 입력하면 **&lt;** 및 **>** 필드가 이스케이프 처리된 문자로 바뀝니다. 이 경우 HTML 텍스트 편집기의 **[!UICONTROL Display source code]** 아이콘을 클릭하여 소스 코드를 수정해야 합니다.
 
 1. 양식의 **[!UICONTROL Preview]** 레이블을 열어 HTML에 입력한 값을 확인합니다.
 

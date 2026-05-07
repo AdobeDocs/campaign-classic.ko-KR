@@ -9,8 +9,8 @@ topic-tags: starting-with-adobe-campaign
 exl-id: a93bac61-f615-4178-bc12-0f056e48687d
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 100%
+source-wordcount: '662'
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Adobe Campaign은 자동 개인 정보 보호 요청 프로세스를 설정할 수 있는 **API**&#x200B;를 제공합니다.
 
-API를 사용하면 일반 개인 정보 보호 프로세스는 인터페이스](privacy-requests-ui.md)를 사용하는 [과 동일합니다. 유일한 차이점은 개인 정보 보호 요청을 생성하는 것입니다. Adobe Campaign에서 요청을 생성하는 대신 요청 정보가 포함된 POST가 Campaign으로 전송됩니다. 모든 요청에 대해 새 항목이 **[!UICONTROL Privacy Requests]** 화면에 추가됩니다. 그런 다음 개인 정보 기술 워크플로에서는 인터페이스를 사용하여 추가된 요청과 동일한 방법으로 요청을 처리합니다.
+API를 사용하면 일반 개인 정보 보호 프로세스는 인터페이스[&#128279;](privacy-requests-ui.md)를 사용하는 과 동일합니다. 유일한 차이점은 개인 정보 보호 요청을 생성하는 것입니다. Adobe Campaign에서 요청을 생성하는 대신 요청 정보가 포함된 POST가 Campaign으로 전송됩니다. 모든 요청에 대해 새 항목이 **[!UICONTROL Privacy Requests]** 화면에 추가됩니다. 그런 다음 개인 정보 기술 워크플로에서는 인터페이스를 사용하여 추가된 요청과 동일한 방법으로 요청을 처리합니다.
 
 API를 사용하여 개인 정보 보호 요청을 제출하는 경우 반환된 데이터를 테스트하려면 첫 번째 DELETE 요청에 대해 **2단계 프로세스**&#x200B;가 활성화된 상태로 두는 것이 좋습니다. 테스트가 완료되면 DELETE 요청 프로세스가 자동으로 실행되도록 2단계 프로세스를 비활성화할 수 있습니다.
 
@@ -60,7 +60,7 @@ API를 사용하여 개인 정보 보호 요청을 제출하는 경우 반환된
 
 우선 API를 통해 인증을 수행해야 합니다.
 
-1. 다음 URL을 통해 **xtk:session** WSDL을 다운로드합니다. **`<server url>`/nl/jsp/schemawsdl.jsp?schema=xtk:session**.
+1. **`<server url>`/nl/jsp/schemawsdl.jsp?schema=xtk:session** URL을 통해 **xtk:session** WSDL을 다운로드합니다.
 
 1. &quot;Logon&quot; 메서드를 사용하고 사용자 이름 및 암호를 요청의 매개 변수로 전달합니다. 세션 토큰이 포함된 응답을 가져옵니다. 다음은 SoapUI를 사용하는 예제입니다.
 
@@ -70,7 +70,7 @@ API를 사용하여 개인 정보 보호 요청을 제출하는 경우 반환된
 
 그런 다음 개인 정보 API를 호출합니다.
 
-1. 다음 URL에서 WSDL을 다운로드합니다. **`<server url>`/nl/jsp/schemawsdl.jsp?schema=nms:privacyRequest**.
+1. URL **`<server url>`/nl/jsp/schemawsdl.jsp?schema=nms:privacyRequest**&#x200B;에서 WSDL을 다운로드합니다.
 
 1. 특정 개인 정보 보호 요청을 만들려면 **[!UICONTROL CreateRequestByName]**&#x200B;을(를) 사용합니다.
 
@@ -81,7 +81,7 @@ API를 사용하여 개인 정보 보호 요청을 제출하는 경우 반환된
    위의 단계를 수행하는 데 도움이 되도록 다음 사항을 고려하십시오.
 
    * **nms:gdprRequest** 스키마에서 **queryDef**&#x200B;을 사용하여 Access 요청의 상태를 확인할 수 있습니다.
-   * **nms:gdprRequestData** 스키마에서 **queryDef**&#x200B;을 사용하여 Access 요청의 결과를 가져올 수 있습니다.
+   * **nms:gdprRequestData** 스키마에서 **queryDef**&#x200B;을(를) 사용하여 Access 요청의 결과를 가져올 수 있습니다.
    * **&quot;$(serverUrl)&#39;/nms/gdpr.jssp?id=&#39;@id&quot;**&#x200B;에서 XML 파일을 다운로드하려면 허용 목록에 있는 IP에서 로그인하고 액세스해야 합니다. 이렇게 하려면 JSSP에서 생성한 파일에 액세스할 수 있는 웹 애플리케이션을 만듭니다.
 
 ## JS에서 API 호출 {#invoking-api-from-js}

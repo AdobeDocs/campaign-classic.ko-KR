@@ -8,8 +8,8 @@ hide: true
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 0%
+source-wordcount: '720'
+ht-degree: 1%
 
 ---
 
@@ -40,7 +40,7 @@ Firebase 클라우드 메시징 메시지 유형에 대한 자세한 내용은 [
 
    ![](assets/nmac_android_3.png)
 
-1. **[!UICONTROL Deliver on Android (android)]** 드롭다운에서 **[!UICONTROL Delivery template]** 선택. 게재에 **[!UICONTROL Label]** 추가
+1. **[!UICONTROL Delivery template]** 드롭다운에서 **[!UICONTROL Deliver on Android (android)]** 선택. 게재에 **[!UICONTROL Label]** 추가
 
 1. 타깃팅할 모집단을 정의하려면 **[!UICONTROL To]**&#x200B;을(를) 클릭하십시오. 기본적으로 **[!UICONTROL Subscriber application]** 대상 매핑이 적용됩니다. 서비스를 선택하려면 **[!UICONTROL Add]**&#x200B;을(를) 클릭하십시오.
 
@@ -77,7 +77,7 @@ Firebase 클라우드 메시징 메시지 유형에 대한 자세한 내용은 [
 
    ![](assets/nmac_android_3.png)
 
-1. **[!UICONTROL Deliver on Android (android)]** 드롭다운에서 **[!UICONTROL Delivery template]** 선택. 게재에 **[!UICONTROL Label]** 추가
+1. **[!UICONTROL Delivery template]** 드롭다운에서 **[!UICONTROL Deliver on Android (android)]** 선택. 게재에 **[!UICONTROL Label]** 추가
 
 1. 타깃팅할 모집단을 정의하려면 **[!UICONTROL To]**&#x200B;을(를) 클릭하십시오. 기본적으로 **[!UICONTROL Subscriber application]** 대상 매핑이 적용됩니다. 서비스를 선택하려면 **[!UICONTROL Add]**&#x200B;을(를) 클릭하십시오.
 

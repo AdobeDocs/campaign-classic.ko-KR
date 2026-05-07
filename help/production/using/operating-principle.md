@@ -10,8 +10,8 @@ topic-tags: production-procedures
 exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 2%
+source-wordcount: '530'
+ht-degree: 7%
 
 ---
 
@@ -65,7 +65,7 @@ Adobe Campaign 모듈에는 세 가지 유형이 있습니다.
 | sms | SMS 알림 처리 |
 | sql | SQL 스크립트 실행 |
 | 시작 | 추가 시작 |
-| 통계 | MTA 연결 통계 유지 관리 |
+| 통계 | MTA 연결 통계 유지 |
 | stop | 부분 시스템 종료 |
 | 제출 | 게재 작업 제출 |
 | syslogd | 기록 서버 로그 및 추적 |

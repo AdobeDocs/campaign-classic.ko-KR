@@ -8,7 +8,7 @@ exl-id: e7d4331b-7149-4768-8e46-2e2911319074
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 30%
+ht-degree: 33%
 
 ---
 
@@ -37,7 +37,7 @@ Campaign에서 URL 서명이 활성 상태인 경우 최근 변경 사항에 따
 * Campaign 19.1.5(빌드 9033) - 19.1.7(빌드 9036) 릴리스.
 
 
-이 섹션[에서 사용 중인 버전 &#x200B;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)을(를) 확인하는 방법을 알아보세요.
+이 섹션[&#128279;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 을(를) 확인하는 방법을 알아보세요.
 
 **업데이트 방법**
 

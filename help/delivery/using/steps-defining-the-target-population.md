@@ -8,8 +8,8 @@ hide: true
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1730'
-ht-degree: 22%
+source-wordcount: '1763'
+ht-degree: 24%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 22%
 
    ![](assets/s_ncs_user_wizard_email02a.png)
 
-1. **[!UICONTROL Target mapping]** 드롭다운 목록에서 대상 매핑을 선택합니다. Adobe Campaign 기본 대상 매핑은 **[!UICONTROL Recipients]** nms **스키마를 기반으로 하는:recipient**&#x200B;입니다.
+1. **[!UICONTROL Target mapping]** 드롭다운 목록에서 대상 매핑을 선택합니다. Adobe Campaign 기본 대상 매핑은 **nms:recipient** 스키마를 기반으로 하는 **[!UICONTROL Recipients]**&#x200B;입니다.
 
    다른 대상 매핑을 사용할 수 있으며, 일부는 특정 구성과 관련될 수 있습니다.[자세히 알아보기](#select-a-target-mapping).
 
@@ -130,7 +130,7 @@ ht-degree: 22%
 
 다음 옵션을 사용할 수 있습니다.
 
-* **[!UICONTROL Exclude duplicate addresses during delivery]**. 이 옵션은 기본적으로 활성화되어 있습니다. 게재 중에 중복 이메일 주소를 제거할 수 있습니다. 적용되는 전략은 Adobe Campaign 사용 방법과 데이터베이스의 데이터 유형에 따라 달라질 수 있습니다.
+* **[!UICONTROL Exclude duplicate addresses during delivery]**. 이 옵션은 기본적으로 활성화되어 있습니다. 게재 중에 중복 이메일 주소를 제거할 수 있습니다. 적용되는 전략은 Adobe Campaign 사용 방식과 데이터베이스의 데이터 유형에 따라 달라질 수 있습니다.
 
   각 게재 템플릿에 대해 옵션의 기본값을 구성할 수 있습니다.
 
@@ -144,7 +144,7 @@ ht-degree: 22%
      ![](assets/s_ncs_user_wizard_email02j.png)
 
 * **[!UICONTROL Exclude recipients who no longer want to be contacted]**, 즉 이메일 주소가 차단 목록에 있는 수신자(&#39;옵트아웃&#39;). 이 옵션은 e-마케팅의 직업 윤리와 전자 상거래에 관한 법률을 준수하기 위해 선택된 상태로 유지되어야 합니다.
-* **[!UICONTROL Exclude quarantined recipients]**. 이 옵션을 사용하면 주소가 응답하지 않는 프로필을 타겟에서 제외할 수 있습니다. 이 옵션은 계속 선택하는 것이 좋습니다.
+* **[!UICONTROL Exclude quarantined recipients]**. 이 옵션을 사용하면 주소가 응답하지 않는 프로필을 타겟에서 제외할 수 있습니다. 이 옵션은 계속 선택해 두는 것을 강력하게 권장합니다.
 
   >[!NOTE]
   >
@@ -199,7 +199,7 @@ ht-degree: 22%
 
 1. **[!UICONTROL Add]** 아이콘을 클릭하여 대체를 정의합니다.
 1. 사용할 수신자 주소를 입력하거나 목록에서 선택하십시오.
-1. 증명에서 사용할 프로필 선택: 증명에서 대상 프로필의 데이터를 사용하려면 **[!UICONTROL Random]** 열에 **[!UICONTROL Profile to use]** 값을 저장하십시오.
+1. 증명에서 사용할 프로필 선택: 증명에서 대상 프로필의 데이터를 사용하려면 **[!UICONTROL Profile to use]** 열에 **[!UICONTROL Random]** 값을 저장하십시오.
 
    ![](assets/s_ncs_user_wizard_email_bat_substitute_choose.png)
 

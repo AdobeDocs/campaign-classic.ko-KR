@@ -7,7 +7,7 @@ exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 hide: true
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1157'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Campaign Classic:
 
 ## Microsoft Dynamics CRM 구성 {#config-crm-microsoft}
 
-액세스 토큰 및 계정 설정 키를 생성하려면 [전역 관리자](https://portal.azure.com) 자격 증명을 사용하여 **Microsoft Azure 디렉터리**&#x200B;에 로그인해야 합니다. 그런 다음 아래에 설명된 단계를 수행합니다.
+액세스 토큰 및 계정 설정 키를 생성하려면 **전역 관리자** 자격 증명을 사용하여 [Microsoft Azure 디렉터리](https://portal.azure.com)에 로그인해야 합니다. 그런 다음 아래에 설명된 단계를 수행합니다.
 
 ### Microsoft Dynamics 클라이언트 ID 가져오기 {#get-client-id-microsoft}
 
@@ -60,7 +60,7 @@ Campaign Classic:
 1. **Azure Active Directory > 앱 등록**(으)로 이동한 다음 **새 응용 프로그램 등록**&#x200B;을 클릭합니다.
 1. **adobeccampaign`<instance identifier>`**&#x200B;과(와) 같이 인스턴스를 식별하는 데 도움이 되는 고유한 이름을 지정하십시오.
 1. **응용 프로그램 유형**&#x200B;을(를) **웹 앱/API**(으)로 선택합니다.
-1. `http://localhost`로그온 URL **에**&#x200B;을(를) 사용합니다.
+1. **로그온 URL**&#x200B;에 `http://localhost`을(를) 사용합니다.
 
 저장하면 Campaign의 클라이언트 식별자인 **응용 프로그램 ID**&#x200B;이(가) 나타납니다.
 
@@ -89,7 +89,7 @@ Campaign Classic:
 
 1. **매니페스트** 링크를 클릭하여 **인증서 키 식별자(customKeyIdentifier)** 및 **키 ID(keyId)**&#x200B;를 가져옵니다.
 
-인증서 **을(를) 사용하여 Microsoft Dynamics CRM 외부 계정을 구성하려면**&#x200B;인증서 키 식별자(customKeyIdentifier)**및**&#x200B;키 ID(keyId)**[!UICONTROL CRM O-Auth type]**&#x200B;이(가) 나중에 필요합니다.
+인증서 **[!UICONTROL CRM O-Auth type]**&#x200B;을(를) 사용하여 Microsoft Dynamics CRM 외부 계정을 구성하려면 **인증서 키 식별자(customKeyIdentifier)** 및 **키 ID(keyId)**&#x200B;이(가) 나중에 필요합니다.
 
 ### 권한 구성 {#config-permissions-microsoft}
 
@@ -147,7 +147,7 @@ Campaign Classic:
    >동일한 이름을 사용하면 중복 키 오류가 발생하므로 이 단계가 필요한지 여부가 확인될 때까지 다른 사용자 이름을 사용하여 계속 진행하십시오.
    >
 
-1. **이전에 만든 응용 프로그램**&#x200B;에 대해 [응용 프로그램 ID](#get-client-id-microsoft)을(를) 지정하십시오.
+1. [이전에 만든 응용 프로그램](#get-client-id-microsoft)에 대해 **응용 프로그램 ID**&#x200B;을(를) 지정하십시오.
 1. **역할 관리**&#x200B;를 클릭하고 사용자에게 **시스템 관리자** 역할을 선택하십시오.
 
 ## Campaign 구성 {#configure-acc-for-microsoft}
@@ -166,7 +166,7 @@ Microsoft Dynamics 365와 Campaign에 연결하려면 Campaign에서 전용 **[!
 
    >[!NOTE]
    >
-   >각 **[!UICONTROL CRM O-Auth type]**&#x200B;이(가) 있는 Microsoft Dynamics CRM 외부 계정 구성은 이 섹션[의 &#x200B;](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)에 자세히 설명되어 있습니다.
+   >각 **[!UICONTROL CRM O-Auth type]**&#x200B;이(가) 있는 Microsoft Dynamics CRM 외부 계정 구성은 이 섹션[&#128279;](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)의 에 자세히 설명되어 있습니다.
 
    ![](assets/crm-ms-dynamics-ext-account.png)
 

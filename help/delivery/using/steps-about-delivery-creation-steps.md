@@ -8,8 +8,8 @@ hide: true
 exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 17%
+source-wordcount: '186'
+ht-degree: 18%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 17%
 
 1. **게재를 만들고 식별**. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#create-the-delivery){target="_blank"}를 참조하세요.
 
-1. **게재 콘텐츠를 정의합니다**.  게재 콘텐츠 정의는 각 채널에 따라 다릅니다. 자세한 내용은 해당 섹션을 참조하십시오.
+1. **게재 콘텐츠를 정의합니다**. 게재 콘텐츠 정의는 각 채널에 따라 다릅니다. 자세한 내용은 해당 섹션을 참조하십시오.
 
    * [이메일 채널](defining-the-email-content.md)
    * [SMS 채널](sms-create.md#defining-the-sms-content)

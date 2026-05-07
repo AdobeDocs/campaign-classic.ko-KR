@@ -10,8 +10,8 @@ topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 2%
+source-wordcount: '753'
+ht-degree: 4%
 
 ---
 
@@ -133,5 +133,5 @@ IIS 웹 서버를 구성할 때 서버에 업로드되는 집합 파일에 대�
 
 이 경우 이 제한을 늘려야 합니다.
 
-이 Microsoft IIS 옵션에 대한 자세한 내용은 [Microsoft 설명서](https://learn.microsoft.com/en-us/iis/configuration/system.webServer/security/requestFiltering/requestLimits/){target="_blank"}의 &quot;HowTo&quot; 섹션을 참조하십시오.
+이 Microsoft IIS 옵션에 대한 자세한 내용은 [Microsoft 설명서](https://learn.microsoft.com/en-us/iis/configuration/system.webServer/security/requestFiltering/requestLimits/){target="_blank"}의 &quot;방법&quot; 섹션을 참조하십시오.
 

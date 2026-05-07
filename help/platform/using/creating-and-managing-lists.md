@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 21%
+source-wordcount: '100'
+ht-degree: 19%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 21%
 
 목록은 게재 작업에서 타겟팅되거나 가져오기 작업 또는 워크플로우 실행 중에 업데이트될 수 있는 정적 프로필 세트입니다. 예를 들어 쿼리를 통해 데이터베이스에서 추출한 모집단은 목록을 제공할 수 있습니다.
 
-목록은 **[!UICONTROL Lists]** 탭의 **[!UICONTROL Profiles and targets]** 링크를 통해 만들고 관리합니다.
+목록은 **[!UICONTROL Profiles and targets]** 탭의 **[!UICONTROL Lists]** 링크를 통해 만들고 관리합니다.
 
 ![](assets/s_ncs_user_interface_group_link.png)
 

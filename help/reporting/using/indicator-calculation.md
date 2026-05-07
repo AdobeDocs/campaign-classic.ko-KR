@@ -7,8 +7,8 @@ feature: Reporting, Monitoring
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '3049'
-ht-degree: 3%
+source-wordcount: '3088'
+ht-degree: 4%
 
 ---
 
@@ -49,9 +49,9 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-이 보고서는 **[!UICONTROL Consolidated tracking]** 테이블(nms:trackingStats)을 기반으로 합니다. 이 집계 테이블은 보고서를 표시할 때 **[!UICONTROL Recipient tracking logs]** 테이블(nms:trackingLogRcp) 대신 성능상의 이유로 사용되며 실시간으로 계산되지 않습니다. 이 테이블은 추적 로그를 검색한 후 몇 분 후에 생성됩니다. 지표가 최신 상태이면 **지표 추적** 보고서의 지표와 같은 결과가 나옵니다. @totalclicks 표시기는 5분 동안 총 클릭 수를 표현합니다.
+이 보고서는 **[!UICONTROL Consolidated tracking]** 테이블(nms:trackingStats)을 기반으로 합니다. 이 집계 테이블은 보고서를 표시할 때 **[!UICONTROL Recipient tracking logs]** 테이블(nms:trackingLogRcp) 대신 성능상의 이유로 사용되며 실시간으로 계산되지 않습니다. 추적 로그가 검색되고 몇 분 후에 테이블이 생성됩니다. 지표가 최신 상태이면 **지표 추적** 보고서의 지표와 같은 결과가 나옵니다. @totalclicks 표시기는 5분 동안 총 클릭 수를 표현합니다.
 
-## 게재 불가 및 이탈 {#non-deliverables-and-bounces-1}
+## 비게재 항목 및 바운스 {#non-deliverables-and-bounces-1}
 
 **오류 유형별 분류**
 
@@ -231,7 +231,7 @@ ht-degree: 3%
    <td> sum([표시기/@success])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 전자 메일<br /> </td> 
+   <td> 이메일<br /> </td> 
    <td> @email<br /> </td> 
    <td> URL 범주가 "@totalClicks"인 모든 항목의 합계입니다.<br /> </td> 
    <td> Sum(iIf([url/@category]='email',@totalClicks,0))<br /> </td> 
@@ -239,13 +239,13 @@ ht-degree: 3%
   <tr> 
    <td> Facebook<br /> </td> 
    <td> @facebook<br /> </td> 
-   <td> URL 범주가 "facebook"와 같은 모든 @totalClicks 수의 합계입니다.<br /> </td> 
+   <td> URL 범주가 "facebook"인 모든 @totalClicks 수의 합계입니다.<br /> </td> 
    <td> Sum(iIf([url/@category]='facebook',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Twitter<br /> </td> 
    <td> @twitter<br /> </td> 
-   <td> URL 범주가 "twitter"와 같은 모든 @totalClicks 수의 합계입니다.<br /> </td> 
+   <td> URL 범주가 "twitter"인 모든 @totalClicks 수의 합계입니다.<br /> </td> 
    <td> Sum(iIf([url/@category]='twitter',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
@@ -359,7 +359,7 @@ ht-degree: 3%
    <td> 새 연락처<br /> </td> 
    <td> @newContacts<br /> </td> 
    <td> 받는 사람에게 연결된 방문자 수 수입니다.<br /> </td> 
-   <td> 수식: count(@id)<br /> 필터: @recipient-id!= 0<br /> </td> 
+   <td> 수식: count(@id)<br /> 필터: @recipient-id != 0<br /> </td> 
   </tr> 
   <tr> 
    <td> 열기<br /> </td> 
@@ -370,7 +370,7 @@ ht-degree: 3%
   <tr> 
    <td> 공유<br /> </td> 
    <td> @shared<br /> </td> 
-   <td> 'email' , 'facebook' , 'twitter' , '맛있는' , 'digg' , 'google' , 'linkedin'<br />에 포함된 URL 범주: "email", "facebook", "twitter", "맛있는", "digg", "google" 또는 "linkedin"과 같은 URL 범주가 있는 모든 @totalClicks 수.<br /> </td> 
+   <td> 'email' , 'facebook' , 'twitter' , 'delicious' , 'digg' , 'google' , 'linkedin'<br />에 포함된 URL 범주: "email", "facebook", "twitter", "delicious", "digg", "google" 또는 "linkedin"과 같은 URL 범주가 있는 모든 @totalClicks 수.<br /> </td> 
    <td> count (Iif([url/@category] IN (이메일' , 'facebook' , 'twitter' , '맛있는' , 'digg' , 'google' , 'linkedin'), @totalClicks, 0)<br /> </td> 
   </tr> 
  </tbody> 
@@ -646,7 +646,7 @@ ht-degree: 3%
    <td> div(@amount, @toDeliver)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 전자 메일<br /> </td> 
+   <td> 이메일<br /> </td> 
    <td> @email<br /> </td> 
    <td> URL 범주가 "@totalClicks"인 모든 전자 메일의 합계입니다.<br /> </td> 
    <td> Sum(iIf([url/@category]='email',@totalClicks,0))<br /> </td> 
@@ -654,13 +654,13 @@ ht-degree: 3%
   <tr> 
    <td> Facebook<br /> </td> 
    <td> @facebook<br /> </td> 
-   <td> "facebook"와 같은 URL 범주가 있는 모든 @totalClicks 수의 합계입니다.<br /> </td> 
+   <td> "facebook"과 같은 URL 범주가 있는 모든 @totalClicks 수의 합계입니다.<br /> </td> 
    <td> Sum(iIf([url/@category]='facebook',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Twitter<br /> </td> 
    <td> @twitter<br /> </td> 
-   <td> "twitter"과 같은 URL 범주가 있는 모든 @totalClicks 수의 합계입니다.<br /> </td> 
+   <td> URL 범주가 "twitter"인 모든 @totalClicks 수의 합계입니다.<br /> </td> 
    <td> Sum(iIf([url/@category]='twitter',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
@@ -792,7 +792,7 @@ ht-degree: 3%
 
 ## 핫 클릭 {#hot-clicks-1}
 
-이 보고서는 Delivery(nms:delivery) 및 **[!UICONTROL Consolidated tracking]**(nms:trackingStats) 테이블을 기반으로 합니다.
+이 보고서는 배달(nms:delivery) 및 **[!UICONTROL Consolidated tracking]**(nms:trackingStats) 테이블을 기반으로 합니다.
 
 이 보고서에는 메시지 콘텐츠(HTML 및/또는 텍스트)와 각 링크의 링크 클릭 비율이 표시됩니다. 개인화 블록 구독 취소 링크 및 미러 페이지 링크는 누적된 총 클릭 수에서 고려되지만 보고서에 표시되지 않습니다.
 
@@ -915,7 +915,7 @@ ht-degree: 3%
 
 ## 기타 표시기 {#other-indicators}
 
-**게재(nms:delivery) > 표시기** 노드를 통해 액세스되는 **Sent** 표시기(@sent)는 서비스 공급자에게 보낸 총 SMS 수에 해당합니다. 이 지표는 SMS 게재에만 사용되며 다른 유형의 게재에는 사용할 수 없습니다(**@success** 및 **@processed** 지표와 혼동하지 마십시오).
+**게재(nms:delivery) > 표시기** 노드를 통해 액세스되는 **전송됨** 표시기(@sent)는 서비스 공급자에게 보낸 총 SMS 수에 해당합니다. 이 지표는 SMS 게재에만 사용되며 다른 유형의 게재에는 사용할 수 없습니다(**@success** 및 **@processed** 지표와 혼동하지 마십시오).
 
 ## 표시기 동기화 {#indicator-synchronization}
 

@@ -7,7 +7,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '609'
 ht-degree: 4%
 
 ---
@@ -66,7 +66,7 @@ if( ctx.@_historyId.toString().length == 0 )
 
 ## URL 매개 변수 추가 {#defining-additional-settings}
 
-**[!UICONTROL Parameters]**&#x200B;보고서 속성[의 &#x200B;](../../reporting/using/properties-of-the-report.md) 탭에서 보고서에 대한 추가 설정을 정의할 수 있습니다. 이러한 설정은 호출 중에 URL로 전달됩니다.
+[보고서 속성](../../reporting/using/properties-of-the-report.md)의 **[!UICONTROL Parameters]** 탭에서 보고서에 대한 추가 설정을 정의할 수 있습니다. 이러한 설정은 호출 중에 URL로 전달됩니다.
 
 >[!CAUTION]
 >

@@ -6,8 +6,8 @@ feature: Transactional Messaging, Message Center
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 4%
+source-wordcount: '660'
+ht-degree: 7%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 4%
 
 트랜잭션 메시지 기능은 확장성을 지원하고 연중무휴 서비스를 제공하도록 설계되었습니다.
 
-* **기한이 언제입니까?** 이 메시지에는 중요한 정보가 포함되어 있으므로 사용자는 이 메시지가 실시간으로 전송될 것으로 예상합니다. 따라서 트리거되는 이벤트와 메시지 도착 사이의 지연 시간이 매우 짧아야 합니다.
+* **기한이 언제입니까?** 이 메시지에는 중요한 정보가 포함되어 있으므로 사용자는 실시간으로 전송될 것으로 예상합니다. 따라서 트리거되는 이벤트와 메시지 도착 사이의 지연 시간이 매우 짧아야 합니다.
 
-* **중요한 이유** 일반적으로 트랜잭션 메시지의 열기 비율이 높습니다. 따라서 고객 관계를 정의하므로 고객의 행동에 강력한 영향을 줄 수 있으므로 신중하게 설계해야 합니다.
+* **중요한 이유** 일반적으로 트랜잭션 메시지는 오픈율이 높습니다. 따라서 고객 관계를 정의하므로 고객의 행동에 강력한 영향을 줄 수 있으므로 신중하게 설계해야 합니다.
 
-* **예?** 계정 만들기, 주문 배송 확인, 청구서, 암호 변경 확인 메시지, 고객이 웹 사이트를 열람한 후 알림, 제품 비가용성 커뮤니케이션, 계정 명세서 등을 만든 후 환영 메시지가 될 수 있습니다.
+* **예?** 계정 생성 후 환영 메시지, 주문 배송 확인, 청구서, 암호 변경 확인 메시지, 고객이 웹 사이트를 열람한 후 알림, 제품 비가용성 커뮤니케이션, 계정 명세서 등이 될 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -88,6 +88,6 @@ Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 
 ## 관련 항목 {#related-topics}
 
 * [소통 채널 시작](../../delivery/using/communication-channels.md)
-* [게재 만들기 키 단계](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko){target="_blank"}
+* [게재 만들기 주요 단계](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko){target="_blank"}
 * [트랜잭션 메시지 아키텍처](../../message-center/using/transactional-messaging-architecture.md)
 * [트랜잭션 메시지 보고서 액세스](../../message-center/using/about-transactional-messaging-reports.md)

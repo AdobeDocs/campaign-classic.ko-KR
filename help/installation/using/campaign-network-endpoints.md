@@ -15,7 +15,7 @@ ht-degree: 22%
 
 
 
-다음은 Campaign Classic에 사용되는 다양한 엔드포인트입니다.
+다음은 Campaign Classic에서 사용되는 다양한 엔드포인트입니다.
 
 | 컨텍스트 | URL |
 |--- |--- |

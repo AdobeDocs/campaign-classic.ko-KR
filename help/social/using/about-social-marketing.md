@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 소셜 마케팅 정보
-description: Campaign을 사용하여 Twitter을 통해 고객과 상호 작용하는 방법을 알아봅니다
+description: Campaign을 사용하여 Twitter를 통해 고객과 상호 작용하는 방법 알아보기
 feature: Social Marketing
 audience: social
 content-type: reference
@@ -9,14 +9,14 @@ topic-tags: introduction
 exl-id: c8fd5f75-9386-42dd-bfb6-8086a86aa324
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 7%
+source-wordcount: '99'
+ht-degree: 15%
 
 ---
 
 # 소셜 마케팅 정보{#about-social-marketing}
 
-소셜 네트워크 관리를 위해 설계된 **소셜 네트워크 관리**(소셜 마케팅) 응용 프로그램을 사용하면 X(이전 명칭: Twitter)를 통해 고객 및 잠재 고객과 상호 작용할 수 있습니다.
+소셜 네트워크 관리를 위해 설계된 **소셜 네트워크 관리**(소셜 마케팅) 응용 프로그램을 사용하면 X(이전 Twitter)를 통해 고객 및 잠재 고객과 상호 작용할 수 있습니다.
 
 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=ko){target="_blank"}에서 Campaign과 X를 통합하는 주요 단계를 알아봅니다.
 

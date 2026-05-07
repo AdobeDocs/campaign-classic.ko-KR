@@ -8,7 +8,7 @@ hide: true
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1551'
 ht-degree: 11%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 11%
 
   예를 들어, 콜센터의 일일 처리 용량을 고려하여 웨이브를 사용하여 메시지 수를 하루에 20개로 제한할 수 있습니다.
 
-  이렇게 하려면 **[!UICONTROL Schedule multiple waves of the same size]** 옵션을 선택하십시오. **[!UICONTROL 20]** 필드에 웨이브의 크기로 **[!UICONTROL 1d]**&#x200B;을(를) 입력하고 **[!UICONTROL Period]**&#x200B;을(를) 입력합니다.
+  이렇게 하려면 **[!UICONTROL Schedule multiple waves of the same size]** 옵션을 선택하십시오. **[!UICONTROL Period]** 필드에 웨이브의 크기로 **[!UICONTROL 20]**&#x200B;을(를) 입력하고 **[!UICONTROL 1d]**&#x200B;을(를) 입력합니다.
 
   ![](assets/s_ncs_user_wizard_waves_call_center.png)
 

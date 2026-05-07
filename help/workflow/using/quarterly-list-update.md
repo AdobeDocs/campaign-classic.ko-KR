@@ -7,7 +7,7 @@ hide: true
 exl-id: 0d3e7046-313a-42a6-9155-3365e8d60bac
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '278'
 ht-degree: 5%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 5%
 ![](assets/incremental_query_example.png)
 
 1. 증분 쿼리와 목록 업데이트 활동을 새 워크플로우에 추가합니다.
-1. **[!UICONTROL Incremental query]**&#x200B;쿼리 만들기[에 지정된 대로 활동의 &#x200B;](query.md#creating-a-query) 탭을 구성하십시오.
+1. [쿼리 만들기](query.md#creating-a-query)에 지정된 대로 활동의 **[!UICONTROL Incremental query]** 탭을 구성하십시오.
 1. **[!UICONTROL Scheduling & History]** 탭을 선택한 다음 270일 내역을 지정하십시오. 이미 타겟팅된 수신자는 270일 또는 약 9개월 동안 더 이상 타겟팅되지 않습니다.
 
    **[!UICONTROL Change...]** 단추를 클릭합니다.

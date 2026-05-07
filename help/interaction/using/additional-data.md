@@ -9,7 +9,7 @@ topic-tags: advanced-parameters
 exl-id: 01adb584-5308-4d41-a6f1-223a97efa10f
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '711'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ## 추가 데이터 구성 {#additional-data-configuration}
 
-환경에 연결된 **nms:interaction** 스키마를 확장하고 Interaction 엔진을 호출하는 동안 사용할 추가 필드 목록을 선언해야 합니다. 자격 규칙을 만들거나 오퍼를 개인화할 때 **상호 작용** 노드에서 이러한 필드에 액세스할 수 있습니다([추가 데이터 사용](#using-additional-data) 참조).
+환경에 연결된 **nms:interaction** 스키마를 확장하고 상호 작용 엔진을 호출하는 동안 사용할 추가 필드 목록을 선언해야 합니다. 자격 규칙을 만들거나 오퍼를 개인화할 때 **상호 작용** 노드에서 이러한 필드에 액세스할 수 있습니다([추가 데이터 사용](#using-additional-data) 참조).
 
 인바운드 채널의 경우 **상호 작용** 노드에 호출 데이터 필드를 추가해야 합니다.
 

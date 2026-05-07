@@ -10,7 +10,7 @@ exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 * **[!UICONTROL Offer manager]** : 오퍼를 만들고 유지 관리합니다. 오퍼가 워크플로에서 사용되는 경우 연산자는 **[!UICONTROL Administrator]** 또는 **[!UICONTROL Offer managers]** 연산자 그룹에 있어야 워크플로를 실행할 수 있습니다.
 * **[!UICONTROL Delivery manager]** : 오퍼를 승인하고 사용합니다.
 
-상호 작용과 관련된 연산자를 만드는 단계는 플랫폼에서 다른 모든 연산자를 만드는 데 사용되는 단계와 동일합니다. 자세한 정보는 [이 섹션](../../platform/using/access-management.md)을 참조하세요. 권한은 연산자 생성 중에 구성됩니다.
+상호 작용과 관련된 연산자를 만드는 단계는 플랫폼에서 다른 모든 연산자를 만드는 데 사용되는 단계와 동일합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../platform/using/access-management.md)을 참조하십시오. 권한은 연산자 생성 중에 구성됩니다.
 
 ## 오퍼 관리자 {#offer-manager}
 

@@ -62,7 +62,7 @@ Phone;500;London 5
 
    이 활동에 대한 자세한 내용은 [파일에서 데이터 로드](../../platform/using/import-export-workflows.md#loading-data-from-a-file)를 참조하세요.
 
-1. 선택한 디렉터리에서 텍스트(**.txt) 형식 파일을 수집하도록**&#x200B;파일 수집기&#42; 활동을 구성하십시오.
+1. 선택한 디렉터리에서 텍스트(&#42;.txt) 형식 파일을 수집하도록 **파일 수집기** 활동을 구성하십시오.
 
    ![](assets/uc2_enrich_collecteur.png)
 
@@ -127,8 +127,8 @@ Phone;500;London 5
 
 **데이터 업데이트** 활동에서는 다음 구성이 필요합니다.
 
-1. 파일을 수집할 때마다 새 레코드를 만들지 않으려면 **[!UICONTROL Insert or update]** 필드에서 **[!UICONTROL Operation type]** 옵션을 선택하십시오.
-1. **[!UICONTROL By directly using the targeting dimension]** 옵션의 **[!UICONTROL Record identification]** 값을 선택하십시오.
+1. 파일을 수집할 때마다 새 레코드를 만들지 않으려면 **[!UICONTROL Operation type]** 필드에서 **[!UICONTROL Insert or update]** 옵션을 선택하십시오.
+1. **[!UICONTROL Record identification]** 옵션의 **[!UICONTROL By directly using the targeting dimension]** 값을 선택하십시오.
 1. **[!UICONTROL Document type]**(으)로 &quot;구매&quot; 스키마를 선택하세요.
 1. 업데이트할 필드 목록을 지정하십시오. **[!UICONTROL Destination]** 열에서 &quot;구매&quot; 스키마의 필드를 정의할 수 있습니다. **[!UICONTROL Expression]** 열에서 매핑을 수행할 작업 테이블의 필드를 선택할 수 있습니다.
 1. **[!UICONTROL Generate an outbound transition]** 옵션을 클릭합니다.
@@ -145,12 +145,12 @@ Phone;500;London 5
 1. **데이터 보강** 활동을 추가한 다음 이전 쿼리에서 얻은 기본 집합을 선택하십시오.
 1. **[!UICONTROL Data]** 추가를 클릭합니다.
 1. **[!UICONTROL Data linked to the targeting dimension]** 옵션을 클릭합니다.
-1. **[!UICONTROL Data linked to the filtering dimension]** 창에서 **[!UICONTROL Select fields to add]** 옵션을 클릭합니다.
+1. **[!UICONTROL Select fields to add]** 창에서 **[!UICONTROL Data linked to the filtering dimension]** 옵션을 클릭합니다.
 1. **[!UICONTROL Purchases]** 노드를 선택한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/uc2_enrich_enrich9.png)
 
-1. **[!UICONTROL Collected data]** 옵션을 선택하여 **[!UICONTROL Aggregates]** 필드를 변경합니다.
+1. **[!UICONTROL Aggregates]** 옵션을 선택하여 **[!UICONTROL Collected data]** 필드를 변경합니다.
 
    ![](assets/uc2_enrich_enrich10.png)
 

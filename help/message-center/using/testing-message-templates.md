@@ -9,7 +9,7 @@ topic-tags: message-templates
 exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '589'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 2%
 
    ![](assets/messagecenter_create_seedaddr_003.png)
 
-1. 외부 식별자 입력: 이 선택적 필드에서는 웹 사이트의 모든 애플리케이션에 공통적인 비즈니스 키(고유 ID, 이름 + 이메일 등)를 입력할 수 있습니다. 이 키는 프로필을 식별하는 데 사용됩니다. 이 필드가 Adobe Campaign 마케팅 데이터베이스에도 있는 경우 데이터베이스의 프로필과 이벤트를 조정할 수 있습니다.
+1. 외부 식별자 입력: 이 선택적 필드를 사용하면 비즈니스 키(고유 ID, 이름 + 이메일 등)를 입력할 수 있습니다. 이는 웹 사이트의 모든 애플리케이션에 공통적이며, 프로필을 식별하는 데 사용됩니다. 이 필드가 Adobe Campaign 마케팅 데이터베이스에도 있는 경우 데이터베이스의 프로필과 이벤트를 조정할 수 있습니다.
 
    ![](assets/messagecenter_create_seedaddr_003bis.png)
 
@@ -102,7 +102,7 @@ ht-degree: 2%
 
 증명 보내기에는 일반 게재와 동일한 프로세스가 포함됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ko){target="_blank"}를 참조하세요. 그러나 트랜잭션 메시지를 보내려면 먼저 다음 작업을 수행해야 합니다.
 
-* [개인화 데이터](#managing-seed-addresses-in-transactional-messages)를 사용하여 [시드 주소](#personalization-data)를 하나 이상 만듭니다.
+* [개인화 데이터](#personalization-data)를 사용하여 [시드 주소](#managing-seed-addresses-in-transactional-messages)를 하나 이상 만듭니다.
 * [메시지 콘텐츠를 만듭니다](../../message-center/using/creating-the-message-template.md#creating-message-content).
 
 증명을 보내려면:

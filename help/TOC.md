@@ -9,7 +9,7 @@ sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 4cae5fdb2b78f446f84352046b523d8862e9060c
 workflow-type: tm+mt
-source-wordcount: '2684'
+source-wordcount: '2710'
 ht-degree: 68%
 
 ---
@@ -173,7 +173,7 @@ ht-degree: 68%
       + [A/B 테스트 구성](delivery/using/configuring-a-b-testing.md)
       + 사용 사례 {#use-case}
          + [이 활용 사례 정보](delivery/using/a-b-testing-use-case.md)
-         + [타기팅 워크플로 만들기](delivery/using/a-b-testing-uc-targeting-workflow.md)
+         + [타겟팅 워크플로 만들기](delivery/using/a-b-testing-uc-targeting-workflow.md)
          + [모집단 샘플 구성](delivery/using/a-b-testing-uc-population-samples.md)
          + [게재 템플릿 만들기](delivery/using/a-b-testing-uc-delivery-templates.md)
          + [게재 구성](delivery/using/a-b-testing-uc-configuring-deliveries.md)

@@ -10,8 +10,8 @@ topic-tags: connecting-via-an-adobe-id
 exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 1%
+source-wordcount: '380'
+ht-degree: 11%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 ## 필수 구성 요소 {#prerequisites}
 
 * Adobe Experience Cloud 조직 이름과 ID가 있어야 합니다. 조직 ID를 찾으려면 [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko){_blank}를 참조하세요.
-* Experience Cloud에 사용자를 추가해야 합니다. 자세한 정보는 [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko){_blank}를 참조하세요.
+* Experience Cloud에서 사용자를 추가해야 합니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko){_blank}를 참조하십시오.
 
 >[!NOTE]
 >
@@ -49,12 +49,12 @@ ht-degree: 1%
 
 다음 정보를 입력합니다.
 
-* 사용된 IMS 서버의 연결 정보(ID 및 암호). 이 정보는 Adobe 고객 지원 팀에서 제공합니다. 자세한 내용은 [Adobe Experience Cloud 관리자를 위한 FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html?lang=ko)를 참조하십시오.
+* 사용된 IMS 서버의 연결 정보(ID 및 암호). 이 정보는 Adobe 고객 지원 센터에서 제공합니다. 자세한 내용은 [Adobe Experience Cloud 관리자를 위한 FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html?lang=ko)를 참조하십시오.
 
   **[!UICONTROL Callback server]** 주소는 **https**&#x200B;에 지정해야 합니다. 이 필드는 Adobe Campaign 인스턴스의 액세스 URL에 해당합니다.
 
 * 조직 ID: 조직 ID를 찾으려면 [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko){_blank}를 참조하세요.
 
-* 연결 마스크: 이 필드에서는 Enterprise Dashboard의 구성 이름을 Adobe Campaign의 그룹과 동기화할 수 있는 구문을 정의할 수 있습니다. 구문 &quot;Campaign - tenant_id - (.&#42;)&quot;, Adobe Campaign에서 만든 보안 그룹은 Enterprise Dashboard의 구성 이름 &quot;Campaign - tenant_id - internal_name&quot;에 연결됩니다.
+* 연결 마스크: 이 필드에서는 Enterprise Dashboard의 구성 이름을 Adobe Campaign의 그룹과 동기화할 수 있는 구문을 정의할 수 있습니다. &quot;Campaign - tenant_id - (.&#42;)&quot; 구문을 사용하는 경우 Adobe Campaign에서 만든 보안 그룹이 Enterprise Dashboard의 구성 이름 &quot;Campaign - tenant_id - internal_name&quot;에 연결됩니다.
 
 * Adobe Experience Cloud 연결 정보 - Adobe Experience Cloud 테넌트의 이름입니다.

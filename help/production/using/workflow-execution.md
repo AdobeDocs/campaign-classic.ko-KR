@@ -10,8 +10,8 @@ topic-tags: troubleshooting
 exl-id: b5aa5663-1902-4f50-9202-783e73a28838
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 3%
+source-wordcount: '762'
+ht-degree: 11%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 3%
 
    워크플로우가 여전히 실패하면 감사 로그에서 특정 오류를 확인하고 그에 따라 문제를 해결한 다음 워크플로우를 다시 시작하십시오.
 
-1. Campaign Classic 홈페이지에서 액세스할 수 있는 **[!UICONTROL wfserver]** 탭에서 **[!UICONTROL Monitoring]** 모듈 상태를 확인합니다([프로세스 모니터링](../../production/using/monitoring-processes.md) 참조). 이 프로세스는 모든 워크플로우를 실행합니다.
+1. Campaign Classic 홈페이지에서 액세스할 수 있는 **[!UICONTROL Monitoring]** 탭에서 **[!UICONTROL wfserver]** 모듈 상태를 확인합니다([프로세스 모니터링](../../production/using/monitoring-processes.md) 참조). 이 프로세스는 모든 워크플로우를 실행합니다.
 
    관리자는 아래 명령을 사용하여 기본 응용 프로그램 서버에서 **wfserver@`<instance>`** 모듈이 시작되었는지 확인할 수도 있습니다.
 
@@ -87,7 +87,7 @@ ht-degree: 3%
 
 이를 확인하고 필요한 경우 모듈을 시작하려면 다음 단계를 적용합니다.
 
-1. Campaign Classic 홈페이지에서 액세스할 수 있는 **[!UICONTROL wfserver]** 탭에서 **[!UICONTROL Monitoring]** 모듈 상태를 확인합니다([프로세스 모니터링](../../production/using/monitoring-processes.md) 참조).
+1. Campaign Classic 홈페이지에서 액세스할 수 있는 **[!UICONTROL Monitoring]** 탭에서 **[!UICONTROL wfserver]** 모듈 상태를 확인합니다([프로세스 모니터링](../../production/using/monitoring-processes.md) 참조).
 
    관리자는 아래 명령을 사용하여 기본 응용 프로그램 서버에서 **wfserver@`<instance>`** 모듈이 시작되었는지 확인할 수도 있습니다.
 
@@ -118,6 +118,6 @@ ht-degree: 3%
 
 워크플로우가 실패하면 다음 단계를 수행합니다.
 
-1. 워크플로우 분개를 확인합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ko){target="_blank"}를 참조하세요.
+1. 워크플로우 분개를 확인합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ko){target="_blank"}를 참조하십시오.
 1. 기술 워크플로우를 모니터링합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=ko){target="_blank"}를 참조하세요.
 1. 개별 워크플로우 활동에서 실패를 찾습니다.

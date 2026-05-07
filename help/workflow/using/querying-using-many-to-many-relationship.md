@@ -7,7 +7,7 @@ hide: true
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 1. **[!UICONTROL Data filtering]** 창에서 **[!UICONTROL Filtering conditions]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Target element]** 창에서 지난 7일 동안 추적 로그가 없는 프로필을 추출하기 위한 필터링 조건은 두 단계로 구성됩니다. 선택해야 하는 요소는 다대다 링크입니다.
 
-   * 첫 번째 **[!UICONTROL Recipient delivery logs (broadlog)]** 열에 대한 **[!UICONTROL Value]** 컬렉션 요소(주황색 노드)를 선택하여 시작합니다.
+   * 첫 번째 **[!UICONTROL Value]** 열에 대한 **[!UICONTROL Recipient delivery logs (broadlog)]** 컬렉션 요소(주황색 노드)를 선택하여 시작합니다.
 
      ![](assets/query_editor_nveau_67.png)
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
      ![](assets/query_editor_nveau_36.png)
 
-     **[!UICONTROL Event date]** 연산자로 **[!UICONTROL greater than or equal to]**&#x200B;을(를) 선택하십시오. **[!UICONTROL DaysAgo (7)]** 값을 선택합니다. 이렇게 하려면 **[!UICONTROL Edit expression]** 필드에서 **[!UICONTROL Value]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Formula type]** 창에서 **[!UICONTROL Process on dates]** 및 **[!UICONTROL Current date minus n days]**&#x200B;을(를) 선택하고 &quot;7&quot;을(를) 값으로 지정합니다.
+     **[!UICONTROL greater than or equal to]** 연산자로 **[!UICONTROL Event date]**&#x200B;을(를) 선택하십시오. **[!UICONTROL DaysAgo (7)]** 값을 선택합니다. 이렇게 하려면 **[!UICONTROL Value]** 필드에서 **[!UICONTROL Edit expression]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Formula type]** 창에서 **[!UICONTROL Process on dates]** 및 **[!UICONTROL Current date minus n days]**&#x200B;을(를) 선택하고 &quot;7&quot;을(를) 값으로 지정합니다.
 
      ![](assets/query_editor_nveau_37.png)
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
      ![](assets/query_editor_nveau_38.png)
 
-1. **[!UICONTROL Data formatting]** 창에서 성을 대문자로 전환합니다. **[!UICONTROL Last name]** 열에서 **[!UICONTROL Transformation]** 줄을 클릭하고 드롭다운 메뉴에서 **[!UICONTROL Switch to upper case]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Data formatting]** 창에서 성을 대문자로 전환합니다. **[!UICONTROL Transformation]** 열에서 **[!UICONTROL Last name]** 줄을 클릭하고 드롭다운 메뉴에서 **[!UICONTROL Switch to upper case]**&#x200B;을(를) 선택합니다.
 
    ![](assets/query_editor_nveau_39.png)
 

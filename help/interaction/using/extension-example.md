@@ -10,7 +10,7 @@ topic-tags: advanced-parameters
 exl-id: d4acf99b-cef4-48f7-b4cd-c032ec12592f
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '160'
 ht-degree: 3%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 3%
 
 
 
-인바운드 연락처(콜 센터 또는 웹 사이트)의 경우 자격 규칙 세트를 사용하여 해당 연락처에 가장 적절한 오퍼를 제안합니다. 오퍼의 자격 조건을 보강하려면 **nms:interaction** 스키마를 확장하십시오.
+인바운드 연락처(콜 센터 또는 웹 사이트)의 경우 자격 규칙 세트를 사용하여 해당 연락처에 가장 적절한 오퍼를 제안합니다. 오퍼의 자격 조건을 보강하려면 **nms:interaction** 스키마를 확장하세요.
 
-* 새 상호 작용 컨텍스트를 추가하려면 **nms:interaction** 스키마를 확장하고 스키마에 필요한 수만큼 **attribute** 요소를 만드십시오.
+* 새 상호 작용 컨텍스트를 추가하려면 **nms:interaction** 스키마를 확장하고 스키마에 필요한 만큼 **특성** 요소를 만드십시오.
 
   다음 예에서는 추가된 기준이 국가 코드 및 마지막으로 방문한 페이지입니다.
 

@@ -48,7 +48,7 @@ ht-degree: 3%
 1. **[!UICONTROL Data filtering]** 창에서 검색을 구체화하십시오. **[!UICONTROL Filtering conditions]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭하십시오.
 1. **[!UICONTROL Target element]** 창에서 필터 설정을 입력할 수 있습니다.
 
-   필터 조건, 즉 이메일 도메인이 &quot;orange.co.uk&quot;과 같은 수신자를 정의합니다. 이렇게 하려면 **열에서**&#x200B;전자 메일 도메인(@email)**[!UICONTROL Expression]**&#x200B;을 선택하고 **열에서**&#x200B;같음&#x200B;**[!UICONTROL Operator]**&#x200B;을 선택한 다음 **[!UICONTROL Value]** 열에 &quot;orange.co.uk&quot;을 입력하십시오.
+   필터 조건, 즉 이메일 도메인이 &quot;orange.co.uk&quot;과 같은 수신자를 정의합니다. 이렇게 하려면 **[!UICONTROL Expression]** 열에서 **전자 메일 도메인(@email)**&#x200B;을 선택하고 **[!UICONTROL Operator]** 열에서 **같음**&#x200B;을 선택한 다음 **[!UICONTROL Value]** 열에 &quot;orange.co.uk&quot;을 입력하십시오.
 
    ![](assets/query_editor_05.png)
 
@@ -62,7 +62,7 @@ ht-degree: 3%
 
 1. 이제 London에 거주하지 않는 연락처를 찾기 위해 쿼리를 변경합니다.
 
-   **[!UICONTROL City (location/@city)]** 열에서 **[!UICONTROL Expression]**&#x200B;을(를) 선택하고 **[!UICONTROL different from]**&#x200B;을(를) 연산자로 선택한 다음 **[!UICONTROL London]** 열에 **[!UICONTROL Value]**&#x200B;을(를) 입력합니다.
+   **[!UICONTROL Expression]** 열에서 **[!UICONTROL City (location/@city)]**&#x200B;을(를) 선택하고 **[!UICONTROL different from]**&#x200B;을(를) 연산자로 선택한 다음 **[!UICONTROL Value]** 열에 **[!UICONTROL London]**&#x200B;을(를) 입력합니다.
 
    ![](assets/query_editor_08.png)
 

@@ -7,7 +7,7 @@ hide: true
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1150'
 ht-degree: 14%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 14%
 
 파일을 로드하면 열 형식이 각 데이터 유형의 기본 매개 변수를 사용하여 자동으로 감지됩니다. 이 매개 변수를 수정하여 데이터에 적용할 특정 프로세스를 지정할 수 있습니다. 이는 특히 오류 또는 빈 값이 있는 경우에 유용합니다.
 
-이렇게 하려면 **[!UICONTROL Click here to change the file format...]** 활동의 기본 창에서 **[!UICONTROL Data loading (file)]**&#x200B;을(를) 선택하십시오. 포맷 세부 정보 창이 열립니다.
+이렇게 하려면 **[!UICONTROL Data loading (file)]** 활동의 기본 창에서 **[!UICONTROL Click here to change the file format...]**&#x200B;을(를) 선택하십시오. 포맷 세부 정보 창이 열립니다.
 
 ![](assets/file_loading_columns_format.png)
 

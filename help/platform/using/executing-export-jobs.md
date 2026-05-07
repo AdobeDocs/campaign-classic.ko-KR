@@ -10,8 +10,8 @@ topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 2%
+source-wordcount: '963'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 내보내기 작업을 사용하면 연락처, 클라이언트, 목록, 세그먼트 등 데이터베이스에서 데이터를 액세스하고 추출할 수 있습니다.
 
-예를 들어 스프레드시트에서 캠페인 추적 데이터(추적 내역 등)를 사용하는 것이 유용할 수 있습니다. 출력 데이터는 txt, CSV, TAB 또는 XML 형식일 수 있습니다.
+예를 들어 캠페인 추적 데이터(추적 내역 등)를 사용하는 것이 유용할 수 있습니다. 스프레드시트에서. 출력 데이터는 txt, CSV, TAB 또는 XML 형식일 수 있습니다.
 
 내보내기 도우미를 사용하여 내보내기를 구성하고, 해당 옵션을 정의하고, 실행을 시작할 수 있습니다. 수출의 유형(단순 또는 복수)과 운영자의 권리에 따라 그 내용이 달라지는 일련의 화면이다.
 
@@ -74,7 +74,7 @@ ht-degree: 2%
 * **[!UICONTROL Text]** 형식의 경우 구분 기호를 선택하여 열(탭, 쉼표, 세미콜론 또는 사용자 지정)과 문자열(작은 따옴표 또는 큰따옴표 또는 없음)을 구분합니다.
 * **[!UICONTROL text]** 및 **[!UICONTROL CSV]**&#x200B;의 경우 **[!UICONTROL Use first lines as column titles]** 옵션을 선택할 수 있습니다.
 * 날짜 형식과 숫자 형식을 나타냅니다. 이렇게 하려면 관련 필드의 **[!UICONTROL Edit]** 단추를 클릭하고 편집기를 사용합니다.
-* 열거형 값이 포함된 필드의 경우 **[!UICONTROL Export labels instead of internal values of enumerations]**&#x200B;을(를) 선택할 수 있습니다. 예를 들어 제목은 **1=Mr 형식으로 저장할 수 있습니다.**, **2=Miss**, **3=Mrs.**. 이 옵션을 선택하면 **Mr**, **Miss** 및 **Mrs**&#x200B;을(를) 내보냅니다.
+* 열거형 값이 포함된 필드의 경우 **[!UICONTROL Export labels instead of internal values of enumerations]**&#x200B;을(를) 선택할 수 있습니다. 예를 들어 제목은 **1=Mr**, **2=Miss**, **3=Mrs** 형식으로 저장할 수 있습니다. 이 옵션을 선택하면 **Mr**, **Miss** 및 **Mrs**&#x200B;을(를) 내보냅니다.
 
 ## 4단계 - 데이터 선택 {#step-4---data-selection}
 

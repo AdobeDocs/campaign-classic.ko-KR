@@ -7,8 +7,8 @@ badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="h
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 3%
+source-wordcount: '1381'
+ht-degree: 6%
 
 ---
 
@@ -184,7 +184,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> 중앙/로컬 마케팅(분산 마케팅)<br /> </td> 
-   <td> 중앙 엔터티(본사, 마케팅 부서 등)와 지역 엔터티(영업 지점, 지역 에이전시 등) 간의 협력 캠페인을 구현합니다. 선택 사항입니다. <a href="https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ko" target="_blank">자세히 알아보기</a><br /> </td> 
+   <td> 중앙 엔터티(본사, 마케팅 부서 등) 간의 협력 캠페인 구축 및 로컬 엔티티(판매 지점, 지역 에이전시 등). 선택 사항입니다. <a href="https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ko" target="_blank">자세히 알아보기</a><br /> </td> 
    <td> 마케팅 </td> 
   </tr> 
   <tr> 
@@ -242,16 +242,16 @@ ht-degree: 3%
 
 ### 메시지 센터 패키지 {#message-center-package}
 
-트랜잭션 메시지(메시지 센터 패키지)를 설치하기 전에 게재 채널(이메일, 모바일 채널, 모바일 앱 채널, LINE 등)을 설치해야 합니다. 이메일 전용 메시지 센터 프로젝트를 시작했으며 나중에 새 채널을 추가해야 하는 경우 다음 단계를 따라야 합니다.
+게재 채널(이메일, 모바일 채널, 모바일 앱 채널, LINE 등)을 설치해야 합니다. 트랜잭션 메시지를 설치하기 전에(메시지 센터 패키지). 이메일 전용 메시지 센터 프로젝트를 시작했으며 나중에 새 채널을 추가해야 하는 경우 다음 단계를 따라야 합니다.
 
-1. 패키지 가져오기 도우미(**)를 사용하여 새 채널(예:**&#x200B;모바일 채널&#x200B;**[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**)을 설치합니다.
+1. 패키지 가져오기 도우미(**[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**)를 사용하여 새 채널(예: **모바일 채널**)을 설치합니다.
 1. 파일(**[!UICONTROL Tools > Advanced > Import package > File]**)을 가져온 다음 다음을 선택합니다.
 
    ```
    \datakit\nms\[Your language]\package\messageCenter.xml
    ```
 
-1. **[!UICONTROL XML data content to import]**&#x200B;에서 관련 채널에 해당하는 메시지 센터 게재 템플릿만 유지합니다. 예를 들어 **Mobile 채널**&#x200B;을 추가한 경우 **(smsTriggerMessage) 템플릿에 해당하는** entities **[!UICONTROL Mobile transactional message]** 요소만 유지합니다. **모바일 앱 채널**&#x200B;을 추가한 경우 **iOS 트랜잭션 메시지** 템플릿(iosTriggerMessage) 및 **Android 트랜잭션 메시지**(androidTriggerMessage)만 유지합니다.
+1. **[!UICONTROL XML data content to import]**&#x200B;에서 관련 채널에 해당하는 메시지 센터 게재 템플릿만 유지합니다. 예를 들어 **Mobile 채널**&#x200B;을 추가한 경우 **[!UICONTROL Mobile transactional message]**(smsTriggerMessage) 템플릿에 해당하는 **entities** 요소만 유지합니다. **모바일 앱 채널**&#x200B;을 추가한 경우 **iOS 트랜잭션 메시지** 템플릿(iosTriggerMessage) 및 **Android 트랜잭션 메시지**(androidTriggerMessage)만 유지합니다.
 
    ![](assets/messagecenter_install_channel.png)
 

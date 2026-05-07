@@ -10,7 +10,7 @@ topic-tags: response-manager
 exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1410'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 2%
 
   >[!NOTE]
   >
-  >템플릿이 오퍼에 적용되는 경우 **[!UICONTROL Update offer proposition status]** 탭에서 **[!UICONTROL Transactions]** 옵션을 사용할 수 있습니다.
+  >템플릿이 오퍼에 적용되는 경우 **[!UICONTROL Transactions]** 탭에서 **[!UICONTROL Update offer proposition status]** 옵션을 사용할 수 있습니다.
 
 * **[!UICONTROL Measurement with control group]**: 게재 또는 캠페인에 대해 컨트롤 그룹이 정의되었는지 여부를 표시하고 측정 지표에 포함할 수 있습니다. 게재를 받지 않는 컨트롤 그룹을 사용하면 게재를 받은 대상 모집단과 비교하여 게재 후 캠페인의 영향을 측정할 수 있습니다.
 

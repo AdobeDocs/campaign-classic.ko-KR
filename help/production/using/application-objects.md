@@ -9,8 +9,8 @@ topic-tags: database-maintenance
 exl-id: fb4798d7-0a2c-455b-86b6-3dcb5fd25c82
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 1%
+source-wordcount: '523'
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaign에서 이에 따라 사용해야 하는 ID 시퀀스를 사용합
 
 ## 게재 {#deliveries}
 
-인스턴스에 언제든지 1000개 미만의 게재가 있어야 합니다. 게재가 많으면 데이터베이스 공간이 소모되고 문제가 발생합니다. 하루에 10개 이상의 게재를 만드는 인스턴스는 비즈니스 요구 사항에 따라 검사해야 합니다. 게재를 줄이기 위해 연속 게재 사용을 고려해 보십시오. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/continuous-delivery.html?lang=ko){target="_blank"}를 참조하세요.
+인스턴스에 언제든지 1000개 미만의 게재가 있어야 합니다. 게재가 많으면 데이터베이스 공간이 소모되고 문제가 발생합니다. 하루에 10개 이상의 게재를 만드는 인스턴스는 비즈니스 요구 사항에 따라 검사해야 합니다. 게재를 줄이기 위해 연속 게재 사용을 고려해 보십시오. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/continuous-delivery.html?lang=ko){target="_blank"}를 참조하십시오.
 
 2년 이상 된 게재는 인스턴스에서 제거해야 합니다.
 

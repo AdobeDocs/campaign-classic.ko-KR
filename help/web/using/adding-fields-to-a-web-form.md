@@ -7,8 +7,8 @@ feature: Web Forms, Landing Pages
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
-source-wordcount: '2373'
-ht-degree: 0%
+source-wordcount: '2397'
+ht-degree: 1%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 0%
   >여러 줄 텍스트 필드는 캐리지 리턴을 포함할 수 있는 특정 필드입니다. 저장소 공간은 XML 특성이 아닌 XML 요소에 매핑된 필드와 연결되어 있어야 합니다.
   >   
 
-* **보강된 여러 줄 텍스트**: HTML 형식으로 저장되는 레이아웃으로 텍스트를 입력할 수 있습니다.
+* **보강된 여러 줄 텍스트**: 사용자가 HTML 형식으로 저장되는 레이아웃으로 텍스트를 입력할 수 있습니다.
 
   ![](assets/s_ncs_admin_survey_txthtmli_ex.png)
 

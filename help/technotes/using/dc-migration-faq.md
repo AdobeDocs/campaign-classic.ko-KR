@@ -8,7 +8,7 @@ level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '2226'
+source-wordcount: '2269'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ IP, 차단 목록, 하위 도메인 및 URL에 대한 전역 영향은 아래에
 
   마이그레이션이 완료되면 Campaign 인스턴스의 전송 IP는 완전히 달라집니다. 원활한 전환을 보장하기 위해 Adobe은 이전 IP에서 새 IP로 점진적으로 트래픽을 전환하여 새 전송 IP의 램프 업을 구현합니다.
 
-* 허용 목록에 추가하다 **URL을 통해 이동하시겠습니까?**
+* **URL을 통해 이동하시겠습니까?**
 
   예. 이 파일은 소스에서 새 인스턴스로 복사되는 서버 구성 파일에 저장됩니다.
 

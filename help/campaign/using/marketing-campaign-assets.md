@@ -8,7 +8,7 @@ hide: true
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 **[!UICONTROL Documents]** 탭에는 다음이 포함됩니다.
 
-* 적절한 권한이 있는 Adobe Campaign 운영자가 로컬로 다운로드할 수 있는 콘텐츠(템플릿, 이미지 등)에 필요한 모든 문서의 목록,
+* 콘텐츠에 필요한 모든 문서 목록(템플릿, 이미지 등) 적절한 권한이 있는 Adobe Campaign 운영자가 로컬로 다운로드할 수 있습니다.
 * 라우터에 대한 정보가 포함된 문서(있는 경우).
 
 문서는 **[!UICONTROL Edit > Documents]** 탭을 통해 프로그램 또는 캠페인에 연결됩니다.
@@ -60,7 +60,7 @@ ht-degree: 0%
 >
 >게재 개요는 DM 캠페인 컨텍스트에서만 사용됩니다.
 
-게재 개요는 회사에서 만든 특정 캠페인에 대한 구조화된 요소 세트(문서, 스토어, 프로모션 쿠폰 등)를 나타냅니다.
+게재 개요는 구조화된 요소 세트(문서, 스토어, 프로모션 쿠폰 등)를 나타냅니다. 회사에서 만든 다음 특정 캠페인을 위해 만듭니다.
 
 이러한 요소는 게재 개요로 그룹화되고 각 게재 개요는 게재와 연결됩니다. 게재를 첨부하기 위해 **서비스 공급자**&#x200B;에 전송된 추출 파일에서 이 요소를 참조합니다. 예를 들어 분기와 분기가 사용하는 마케팅 브로셔를 참조하는 게재 개요를 만들 수 있습니다.
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ### 개요 만들기 {#creating-an-outline}
 
-개요를 만들려면 관련 캠페인의 **[!UICONTROL Delivery outlines]** 탭에서 **[!UICONTROL Edit > Documents]** 하위 탭을 클릭하십시오.
+개요를 만들려면 관련 캠페인의 **[!UICONTROL Edit > Documents]** 탭에서 **[!UICONTROL Delivery outlines]** 하위 탭을 클릭하십시오.
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ ht-degree: 0%
 
   ![](assets/s_ncs_user_op_add_composition_field_button.png)
 
-* 리소스는 **[!UICONTROL Resources]** 탭의 **[!UICONTROL Campaigns]** 링크를 통해 액세스되는 마케팅 리소스 대시보드에서 생성된 마케팅 리소스입니다.
+* 리소스는 **[!UICONTROL Campaigns]** 탭의 **[!UICONTROL Resources]** 링크를 통해 액세스되는 마케팅 리소스 대시보드에서 생성된 마케팅 리소스입니다.
 
   ![](assets/s_ncs_user_mkg_resource_ovv.png)
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 ### 추출 결과 {#extraction-result}
 
-추출하여 서비스 공급자에게 보내는 파일에서 아웃라인의 이름과 필요한 경우 서비스 공급자와 연관된 내보내기 템플릿의 정보에 따라 해당 특성(비용, 설명 등)이 콘텐츠에 추가됩니다.
+추출하여 서비스 공급업체에 보내는 파일에서 아웃라인의 이름과 필요한 경우 해당 특성(비용, 설명 등)을 표시합니다. 서비스 공급자와 연관된 내보내기 템플릿의 정보에 따라 콘텐츠에 추가됩니다.
 
 다음 예제에서는 게재와 연결된 아웃라인에 대한 레이블, 예상 비용 및 설명을 추출 파일에 추가합니다.
 

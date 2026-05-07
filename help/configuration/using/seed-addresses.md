@@ -9,8 +9,8 @@ level: Intermediate, Experienced
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 7%
+source-wordcount: '329'
+ht-degree: 6%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 7%
    >    
    >
 
-1. **[!UICONTROL seedMember]** 창에서 새 &quot;내부 수신자&quot; 탭을 정의하도록 **[!UICONTROL Seed addresses]** 양식을 적절하게 수정하십시오. 자세한 정보는 이 [페이지](../../configuration/using/form-structure.md)를 참조하십시오.
+1. **[!UICONTROL Seed addresses]** 창에서 새 &quot;내부 수신자&quot; 탭을 정의하도록 **[!UICONTROL seedMember]** 양식을 적절하게 수정하십시오. 자세한 정보는 이 [페이지](../../configuration/using/form-structure.md)를 참조하십시오.
 
    ```
    <container colcount="2" label="Internal recipient" name="internal"

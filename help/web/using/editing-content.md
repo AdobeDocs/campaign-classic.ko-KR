@@ -7,7 +7,7 @@ feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1250'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ![](assets/dce_popup_visibilitycondition.png)
 
-이러한 조건은 XTK 식 구문(예: **ctx.recipient)을 채택합니다.@email!= &quot;&quot;** 또는 **ctx.recipient.@status==&quot;0&quot;**). 기본적으로 모든 필드가 표시됩니다.
+이러한 조건에서는 XTK 식 구문을 채택합니다(예: **ctx.recipient.@email != &quot;&quot;** 또는 **ctx.recipient.@status==&quot;0&quot;**). 기본적으로 모든 필드가 표시됩니다.
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 ### 양식 필드 수정 {#modifying-form-fields}
 
-라디오 단추, 입력 영역, 드롭다운 목록 등과 같은 양식 필드. 도구 모음에서 수정할 수 있습니다.
+라디오 단추, 입력 영역, 드롭다운 목록 등과 같은 양식 필드는 해당 도구 모음에서 수정할 수 있습니다.
 
 이는 다음을 수행할 수 있음을 의미합니다.
 

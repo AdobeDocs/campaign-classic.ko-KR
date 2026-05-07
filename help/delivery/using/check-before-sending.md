@@ -9,8 +9,8 @@ hide: true
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 6%
+source-wordcount: '904'
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 6%
 
 ## 증명 메시지 {#proof-messages}
 
-증명을 보내면 옵트아웃 링크, 미러 페이지, 기타 링크를 확인하고, 메시지의 유효성을 검사하고, 이미지가 표시되는지 확인하고, 발생할 수 있는 오류를 감지하는 등의 작업을 수행할 수 있습니다. 다른 디바이스에서 디자인과 렌더링을 확인할 수도 있습니다.
+증명을 보내면 옵트아웃 링크, 미러 페이지 및 기타 링크를 확인하고, 메시지의 유효성을 검사하고, 이미지가 표시되는지 확인하고, 가능한 오류를 감지하는 등의 작업을 수행할 수 있습니다. 다른 장치에서 디자인과 렌더링을 확인할 수도 있습니다.
 
 자세한 내용은 [이 섹션](steps-validating-the-delivery.md#sending-a-proof)을 참조하세요.
 

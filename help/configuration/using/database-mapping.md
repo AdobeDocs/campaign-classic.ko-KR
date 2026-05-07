@@ -7,7 +7,7 @@ role: Developer
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '527'
 ht-degree: 3%
 
 ---
@@ -53,7 +53,7 @@ SQL 이름 지정 규칙은 다음과 같습니다.
 
 * **필드**: 유형에 따라 정의된 접두사가 앞에 오는 요소의 이름: 정수는 &#39;i&#39;, 복수는 &#39;d&#39;, 문자열은 &#39;s&#39;, 날짜는 &#39;ts&#39; 등.
 
-  입력한 각 **및**&#x200B;에 대해 **`<attribute>`** sqlname **`<element>`** 특성을 통해 필드 이름을 입력합니다.
+  입력한 각 **`<attribute>`** 및 **`<element>`**&#x200B;에 대해 **sqlname** 특성을 통해 필드 이름을 입력합니다.
 
   ```sql
   <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 

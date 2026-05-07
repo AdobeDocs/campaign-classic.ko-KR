@@ -7,7 +7,7 @@ hide: true
 exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Data Loading (file)]** 활동을 구성합니다.
 
-   * 샘플 파일을 업로드하여 예상 구조를 정의합니다. 샘플 파일에는 가져오기에 필요한 열을 제외한 몇 줄만 포함되어야 합니다. 파일 형식을 확인 및 편집하여 각 열의 유형(텍스트, 날짜, 정수 등)이 올바르게 설정되었는지 확인합니다. 예제:
+   * 샘플 파일을 업로드하여 예상 구조를 정의합니다. 샘플 파일에는 가져오기에 필요한 열을 제외한 몇 줄만 포함되어야 합니다. 파일 형식을 확인 및 편집하여 각 열의 유형(텍스트, 날짜, 정수 등)이 올바르게 설정되었는지 확인합니다. 예:
 
      ```
      lastname;firstname;birthdate;email;crmID
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    * 처음 두 하위 집합에서 선택되지 않은 모든 레코드가 **[!UICONTROL Complement]**&#x200B;에서 선택됩니다.
 
-1. 이전에 구성한 **[!UICONTROL Update data]** 활동의 첫 번째 아웃바운드 전환 뒤에 있는 **[!UICONTROL Split]** 활동을 구성합니다.
+1. 이전에 구성한 **[!UICONTROL Split]** 활동의 첫 번째 아웃바운드 전환 뒤에 있는 **[!UICONTROL Update data]** 활동을 구성합니다.
 
    * 인바운드 전환에 데이터베이스에 이미 있는 수신자만 포함되므로 **[!UICONTROL Update]**&#x200B;을(를) **[!UICONTROL Operation type]**(으)로 선택합니다.
    * **[!UICONTROL Record identification]** 섹션에서 **[!UICONTROL Using reconciliation keys]**&#x200B;을(를) 선택하고 타겟팅 차원과 **[!UICONTROL Enrichment]**&#x200B;에서 만들어진 링크 사이에 키를 정의합니다. 이 예제에서는 **CRM ID** 사용자 지정 필드가 사용됩니다.
@@ -94,7 +94,7 @@ ht-degree: 0%
 
    ![](assets/import_template_example7.png)
 
-1. 이전에 구성한 **[!UICONTROL Update data]** 활동 뒤에 있는 **[!UICONTROL Deduplication]** 활동을 구성하십시오.
+1. 이전에 구성한 **[!UICONTROL Deduplication]** 활동 뒤에 있는 **[!UICONTROL Update data]** 활동을 구성하십시오.
 
    * 인바운드 전환에 데이터베이스에 없는 수신자만 포함되므로 **[!UICONTROL Insert]**&#x200B;을(를) **[!UICONTROL Operation type]**(으)로 선택합니다.
    * **[!UICONTROL Record identification]** 섹션에서 **[!UICONTROL Directly using the targeting dimension]**&#x200B;을(를) 선택하고 **[!UICONTROL Recipients]** 차원을 선택합니다.

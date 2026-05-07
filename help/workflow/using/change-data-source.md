@@ -6,8 +6,8 @@ hide: true
 exl-id: d7bf9d62-6f9e-415f-8160-446210f6392e
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 2%
+source-wordcount: '270'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 **[!UICONTROL Change Data Source]** 활동을 사용하려면:
 
-1. 워크플로우를 만듭니다.
+1. 워크플로 만들기.
 
 1. **[!UICONTROL Query]** 활동을 사용하여 타깃팅된 수신자를 쿼리합니다.
 

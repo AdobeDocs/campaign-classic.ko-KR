@@ -6,8 +6,8 @@ feature: Installation, Instance Settings, Federated Data Access
 exl-id: 8702499b-1700-4d1f-a0e0-f7a9dfb4b88f
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 0%
+source-wordcount: '189'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Table name]** 필드에서 수집할 데이터가 포함된 테이블을 선택합니다.
 
-   Snowflake을 사용하면 데이터베이스 사용자에게 올바른 권한이 부여된 경우 여기에서 보기를 선택할 수 있습니다. 보기를 사용할 때 Adobe Campaign에서 XML 스키마를 자동으로 생성할 수 없으므로 직접 만들어야 합니다. 보기에 대한 자세한 내용은 [Snowflake 설명서](https://docs.snowflake.com/en/user-guide/views-introduction.html)를 참조하세요.
+   데이터베이스 사용자에게 올바른 권한이 부여된 경우 Snowflake을 사용하여 여기에서 보기를 선택할 수 있습니다. 보기를 사용할 때 Adobe Campaign에서 XML 스키마를 자동으로 생성할 수 없으므로 직접 만들어야 합니다. 보기에 대한 자세한 내용은 [Snowflake 설명서](https://docs.snowflake.com/en/user-guide/views-introduction.html)를 참조하세요.
 
    ![](assets/wf_new_schema_select_table_fda.png)
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >Snowflake을 사용하는 경우 기본 키는 필수입니다.
+   >Snowflake에서는 기본 키가 필수입니다.
 
    ![](assets/wf_new_schema_generate_fda.png)
 

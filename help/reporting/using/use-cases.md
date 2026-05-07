@@ -1,18 +1,18 @@
 ---
 product: campaign
-title: Analysis Reporting 사용 사례
-description: Analysis Reporting 사용 사례
+title: 분석 보고 사용 사례
+description: 분석 보고 사용 사례
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Reporting, Monitoring
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
 source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 0%
+source-wordcount: '1338'
+ht-degree: 1%
 
 ---
 
-# Analysis Reporting 사용 사례 {#use-cases}
+# 분석 보고 사용 사례 {#use-cases}
 
 ## 모집단 분석 {#analyzing-a-population}
 

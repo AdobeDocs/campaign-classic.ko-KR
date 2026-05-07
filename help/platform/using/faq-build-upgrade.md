@@ -9,8 +9,8 @@ topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 0%
+source-wordcount: '2105'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >워크플로우, 게재, 대상자 등에 대한 일반적인 Campaign 질문에 대한 포괄적인 답변은 [Campaign v8 포괄적인 FAQ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html){target="_blank"}를 참조하십시오.
 
-Adobe Campaign은 정기적으로 업데이트됩니다. 게시된 [릴리스 정보](../../rn/using/rn-overview.md)에 익숙하다면 새로운 기능, 개선 사항 및 수정 사항이 포함된 평균 2/3부 버전이 매년 릴리스된다는 사실을 알고 있을 것입니다. 또한 누적 수정 사항만 있는 빌드를 주기적으로 릴리스합니다. 이러한 정기적인 업데이트 케이던스는 고객의 최신 정보를 최대한 활용하고, 환경을 완벽하게 안전하게 유지하며, 당사 제품에 대한 고객의 경험을 확실하게 개선하는 것을 목표로 합니다.
+Adobe Campaign은 정기적으로 업데이트됩니다. 게시된 [릴리스 정보](../../rn/using/rn-overview.md)에 익숙하다면 새로운 기능, 개선 사항 및 수정 사항이 포함된 평균 2/3부 버전이 매년 릴리스된다는 사실을 알고 있을 것입니다. 또한, 누적 수정 사항만 있는 빌드를 주기적으로 릴리스합니다. 이러한 정기적인 업데이트 케이던스는 고객의 최신 정보를 최대한 활용하고, 환경을 완벽하게 안전하게 유지하며, 당사 제품에 대한 고객의 경험을 확실하게 개선하는 것을 목표로 합니다.
 
 고객이 최신 버전의 Adobe Campaign을 실행하는 것이 중요합니다. 또한 이전 빌드에서 문제를 식별, 재현 및 수정하는 데 일반적으로 시간이 더 걸릴 수 있으며, 최근 빌드에서 발생할 수 있는 일부 문제가 이미 수정되었을 수도 있으므로 문제가 발생하는 경우 Adobe을 보다 효율적으로 지원할 수 있습니다.
 

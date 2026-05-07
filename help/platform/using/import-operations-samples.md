@@ -10,7 +10,7 @@ topic-tags: importing-and-exporting-data
 exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1010'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 1. 가져오기 실행
 
-   * **[!UICONTROL Start]**&#x200B;를 클릭합니다.
+   * **[!UICONTROL Start]**&#x200B;을(를) 클릭합니다.
 
      편집기의 중앙 영역에서 가져오기 작업이 성공했는지 확인하고 처리된 레코드 수를 볼 수 있습니다.
 
@@ -132,7 +132,7 @@ ht-degree: 1%
 
 1. 가져오기 실행
 
-   * **[!UICONTROL Start]**&#x200B;를 클릭합니다.
+   * **[!UICONTROL Start]**&#x200B;을(를) 클릭합니다.
 
      추적 창에서 가져오기가 성공했는지 확인하고 처리된 레코드 수를 볼 수 있습니다.
 
@@ -185,7 +185,7 @@ ht-degree: 1%
 
 1. 가져오기 실행
 
-   **[!UICONTROL Start]**&#x200B;를 클릭합니다.
+   **[!UICONTROL Start]**&#x200B;을(를) 클릭합니다.
 
    수신자 테이블에서 가져오기로 레코드가 수정되었는지 확인합니다.
 
@@ -233,7 +233,7 @@ ht-degree: 1%
 
 1. 가져오기 실행
 
-   * **[!UICONTROL Start]**&#x200B;를 클릭합니다.
+   * **[!UICONTROL Start]**&#x200B;을(를) 클릭합니다.
    * 수신자 테이블에서 작업에 의해 레코드가 수정되었는지 확인합니다.
 
      ![](assets/s_ncs_user_import_example06_06.png)

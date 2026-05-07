@@ -10,8 +10,8 @@ topic-tags: database-maintenance
 exl-id: 194f12de-4671-4a56-8cdc-cd5e3dac147b
 source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 0%
+source-wordcount: '1165'
+ht-degree: 2%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 0%
    <td> NmsDeliveryPart<br /> </td> 
    <td> Medium<br /> </td> 
    <td> 삽입, 업데이트, 삭제<br /> </td> 
-   <td> 게재를 준비하는 동안 레코드가 삽입되는 작업 테이블입니다. 그런 다음 게재 중에 업데이트되고, 게재가 완료되면 최종적으로 삭제됩니다.<br /> 이 테이블은 평균 크기가 상당히 제한되어 있어도 빠르게 조각나는 경향이 있습니다.<br /> </td> 
+   <td> 게재를 준비하는 동안 레코드가 삽입되는 작업 테이블입니다. 그런 다음 게재 중에 업데이트되고 게재가 완료되면 최종적으로 삭제됩니다.<br /> 이 테이블은 평균 크기가 상당히 제한되어 있어도 빠르게 조각나는 경향이 있습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsMirrorPageInfo<br /> </td> 

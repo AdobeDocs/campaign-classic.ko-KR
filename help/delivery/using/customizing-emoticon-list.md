@@ -9,7 +9,7 @@ hide: true
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '507'
 ht-degree: 3%
 
 ---
@@ -68,6 +68,6 @@ ht-degree: 3%
 
    ![](assets/emoticon_4.png)
 
-1. **[!UICONTROL Insert emoticon]** 팝업 창에 다음 이모티콘이 나타나면 해당 이모티콘이 올바르게 구성되지 않은 것입니다. **[!UICONTROL U+]**&#x200B;에서 **[!UICONTROL Display order]** 코드 또는 **[!UICONTROL Emoticon list]**&#x200B;이(가) 올바른지 확인하십시오.
+1. **[!UICONTROL Insert emoticon]** 팝업 창에 다음 이모티콘이 나타나면 해당 이모티콘이 올바르게 구성되지 않은 것입니다. **[!UICONTROL Emoticon list]**&#x200B;에서 **[!UICONTROL U+]** 코드 또는 **[!UICONTROL Display order]**&#x200B;이(가) 올바른지 확인하십시오.
 
    ![](assets/emoticon_6.png)

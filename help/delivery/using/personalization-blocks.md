@@ -9,7 +9,7 @@ hide: true
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '894'
 ht-degree: 3%
 
 ---
@@ -139,7 +139,7 @@ HTML 소스 코드는 게재 콘텐츠에 삽입됩니다. 예를 들어 **[!UIC
 
      ![](assets/s_ncs_user_personalized_block_b.png)
 
-   * 개인화 블록의 콘텐츠(HTML, 텍스트, JavaScript 등)를 입력하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+   * 컨텐츠 입력(HTML, 텍스트, JavaScript 등) 을(를) 클릭하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 튜토리얼 비디오 {#personalization-blocks-video}
 

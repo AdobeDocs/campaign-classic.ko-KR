@@ -9,7 +9,7 @@ topic-tags: deployment-types-
 exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
 source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1251'
 ht-degree: 3%
 
 ---
@@ -59,10 +59,10 @@ ht-degree: 3%
 * POP3를 통해 액세스할 수 있는 바운스 사서함,
 * 로드 밸런서에서 두 개의 DNS 별칭 생성:
 
-   * 처음으로 공개되어 가상 IP 주소(VIP)의 로드 밸런서를 추적하고 지정한 다음 두 대의 전면 서버에 배포되는 경우
-   * 두 번째는 콘솔을 통해 액세스할 수 있도록 내부 사용자에게 표시되며, 가상 IP 주소(VIP)의 로드 밸런서를 가리킨 다음 두 애플리케이션 서버에 배포됩니다.
+   * 가상 IP 주소(VIP)에서 로드 밸런서를 추적하고 이를 가리키는 데 일반에 처음 노출된 후 두 대의 전면 서버에 배포됩니다.
+   * 두 번째는 콘솔을 통해 액세스할 수 있도록 내부 사용자에게 표시되며 가상 IP 주소(VIP)의 로드 밸런서를 가리킨 다음 두 애플리케이션 서버에 배포됩니다.
 
-* STMP(25), DNS(53), HTTP(80), HTTPS(443), SQL(Oracle 1521, PostgreSQL 5432 등)을 열도록 구성된 방화벽 포트입니다. 자세한 내용은 [데이터베이스 액세스](../../installation/using/network-configuration.md#database-access) 섹션을 참조하십시오.
+* STMP(25), DNS(53), HTTP(80), HTTPS(443), SQL(1521 for Oracle, 5432 for PostgreSQL 등)을 열도록 구성된 방화벽 포트입니다. 자세한 내용은 [데이터베이스 액세스](../../installation/using/network-configuration.md#database-access) 섹션을 참조하십시오.
 
 >[!CAUTION]
 >

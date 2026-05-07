@@ -8,7 +8,7 @@ hide: true
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1259'
 ht-degree: 5%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 5%
 
 ![](assets/s_ncs_user_new_op_wz_a.png)
 
-프로그램을 통해 캠페인을 만들 수도 있습니다. 이렇게 하려면 관련 프로그램의 **[!UICONTROL Add]** 탭에서 **[!UICONTROL Schedule]** 단추를 클릭하십시오.
+프로그램을 통해 캠페인을 만들 수도 있습니다. 이렇게 하려면 관련 프로그램의 **[!UICONTROL Schedule]** 탭에서 **[!UICONTROL Add]** 단추를 클릭하십시오.
 
 ![](assets/s_ncs_user_add_an_op.png)
 
@@ -136,7 +136,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >이 워크플로는 반복 워크플로 템플릿으로 저장해야 합니다. 이렇게 하려면 워크플로 속성을 편집하고 **[!UICONTROL Recurring workflow template]** 탭에서 **[!UICONTROL Execution]** 옵션을 선택합니다.
+   >이 워크플로는 반복 워크플로 템플릿으로 저장해야 합니다. 이렇게 하려면 워크플로 속성을 편집하고 **[!UICONTROL Execution]** 탭에서 **[!UICONTROL Recurring workflow template]** 옵션을 선택합니다.
 
    ![](assets/s_ncs_user_op_template_recur_wf_option.png)
 
@@ -166,7 +166,7 @@ ht-degree: 5%
 
    반복 워크플로우 인스턴스의 레이블은 템플릿 레이블과 워크플로우 번호로 구성되며 # 문자는 그 사이에 있습니다.
 
-   일정에서 만든 워크플로는 **[!UICONTROL Workflow]** 탭의 **[!UICONTROL Schedule]** 열에서 워크플로와 자동으로 연결됩니다.
+   일정에서 만든 워크플로는 **[!UICONTROL Schedule]** 탭의 **[!UICONTROL Workflow]** 열에서 워크플로와 자동으로 연결됩니다.
 
    ![](assets/s_ncs_user_op_recur_planning_wfs_1.png)
 

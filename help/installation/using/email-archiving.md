@@ -9,8 +9,8 @@ topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '1211'
-ht-degree: 1%
+source-wordcount: '1264'
+ht-degree: 4%
 
 ---
 
@@ -61,7 +61,7 @@ BCC 이메일 주소로 보낸 이메일을 전송하려면 보낸 이메일의 
 C:\emails\2018-12-02\13h
 ```
 
-전자 메일의 상태가 **`<deliveryid>-<broadlogid>.eml`**&#x200B;이(가) 아닌 경우 보관 파일 이름은 **[!UICONTROL Sent]**&#x200B;입니다. 상태가 **[!UICONTROL Sent]**(으)로 변경되면 파일 이름은 **`<deliveryid>-<broadlogid>-sent.eml`**&#x200B;이(가) 됩니다. 예제:
+전자 메일의 상태가 **[!UICONTROL Sent]**&#x200B;이(가) 아닌 경우 보관 파일 이름은 **`<deliveryid>-<broadlogid>.eml`**&#x200B;입니다. 상태가 **[!UICONTROL Sent]**(으)로 변경되면 파일 이름은 **`<deliveryid>-<broadlogid>-sent.eml`**&#x200B;이(가) 됩니다. 예제:
 
 ```
 C:\emails\2018-12-02\13h\4012-8040-sent.eml

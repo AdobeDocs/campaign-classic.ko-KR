@@ -8,8 +8,8 @@ role: User
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 4%
+source-wordcount: '185'
+ht-degree: 8%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 4%
 
      ![](assets/use_case_abtesting_createrecipients_005.png)
 
-   * **[!UICONTROL Limit the selected records]** 옵션을 선택하십시오.
+   * **[!UICONTROL Limit the selected records]** 옵션을 선택합니다.
 
      ![](assets/use_case_abtesting_createrecipients_006.png)
 

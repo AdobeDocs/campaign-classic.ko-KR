@@ -7,7 +7,7 @@ exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -58,10 +58,10 @@ param:==help
    * blob
    * 부울
    * 바이트
-   * C데이터
+   * CDATA
    * datetime
    * datetimetz
-   * 다테티메노츠
+   * datetimenotz
    * 날짜
    * DOMDocument
    * DOMELEMENT
@@ -71,12 +71,12 @@ param:==help
    * html
    * int64
    * 링크
-   * 길게
+   * 롱
    * 메모
    * MNTOKEN
    * 백분율
    * primarykey
-   * 짧음
+   * short
    * 문자열
    * 시간
    * timespan

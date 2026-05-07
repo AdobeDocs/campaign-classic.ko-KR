@@ -9,7 +9,7 @@ content-type: reference
 exl-id: 9fa3ce08-3007-4c65-9841-bad339428b7c
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '288'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 **Adobe Experience Manager에서:**
 
-1. AEM 작성자 인스턴스에서 페이지의 왼쪽 상단에 있는 **Adobe 경험** 로고를 클릭하고 **[!UICONTROL Sites]**&#x200B;을(를) 선택합니다.
+1. AEM 작성자 인스턴스에서 페이지의 왼쪽 상단에 있는 **Adobe Experience** 로고를 클릭하고 **[!UICONTROL Sites]**&#x200B;을(를) 선택합니다.
 
    ![](assets/aem_uc_1.png)
 

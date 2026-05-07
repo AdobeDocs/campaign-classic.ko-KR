@@ -8,8 +8,8 @@ content-type: reference
 exl-id: 8d1404c5-030b-47fe-a4c3-e72f15f09bbb
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 3%
+source-wordcount: '536'
+ht-degree: 4%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 3%
 
 Campaign Classic 데이터를 Adobe Real-time Customer Data Platform(RTCDP)으로 내보내려면 먼저 공유할 데이터를 S3 또는 Azure Blob 저장소 위치로 내보낼 워크플로우를 Campaign Classic에 빌드해야 합니다.
 
-워크플로우를 구성하고 데이터를 저장소 위치로 전송하면 S3 또는 Azure Blob 저장소 위치를 Adobe Experience Platform의 **Source**(으)로 연결해야 합니다.
+워크플로우를 구성하고 데이터를 저장소 위치로 보낸 후 S3 또는 Azure Blob 저장소 위치를 Adobe Experience Platform의 **Source**(으)로 연결해야 합니다.
 
 >[!NOTE]
 >
->Campaign 생성 데이터만(예: 전송, 열기, 클릭 등) Adobe Experience Platform으로 내보내는 것이 좋습니다. CRM과 같은 타사 소스에서 수집된 데이터는 Adobe Experience Platform으로 직접 가져와야 합니다.
+>Campaign 생성 데이터만 내보내는 것이 좋습니다(예: 전송, 열기, 클릭 등). Adobe Experience Platform으로. CRM과 같은 타사 소스에서 수집된 데이터는 Adobe Experience Platform으로 직접 가져와야 합니다.
 
 ## Campaign Classic에서 내보내기 워크플로우 만들기
 
@@ -49,7 +49,7 @@ S3 또는 Azure blob 저장소 위치를 Adobe experience Platform의 **Source**
 
 1. Adobe Experience Platform **[!UICONTROL Sources]** 메뉴에서 저장소 위치에 대한 연결을 만듭니다.
 
-   * [Amazon S3 원본 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html?lang=ko)
+   * [Amazon S3 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html?lang=ko)
    * [Azure Blob 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html?lang=ko)
 
    >[!NOTE]

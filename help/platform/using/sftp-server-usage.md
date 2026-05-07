@@ -10,8 +10,8 @@ topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 9%
+source-wordcount: '1167'
+ht-degree: 13%
 
 ---
 
@@ -47,7 +47,7 @@ SFTP 서버는 파일의 보존 및 삭제를 제어할 수 있는 임시 저장
 >
 >* 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel){target="_blank"}에 자세히 설명되어 있습니다.
 >
->* 인스턴스를 [최신 GA 빌드](../../rn/using/rn-overview.md)로 업그레이드해야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version){target="_blank"}에서 버전을 확인하는 방법을 알아보세요.
+>* 인스턴스를 [최신 GA 빌드](../../rn/using/rn-overview.md)로 업그레이드해야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version){target="_blank"}에서 사용 중인 버전을 확인하는 방법을 알아봅니다.
 
 * 서버 크기 기능은 사용 중인 라이센스에 따라 다릅니다. 어떤 경우든 가능한 최소 데이터를 유지하고 필요한 동안만 데이터를 유지합니다(15일이 최대 시간 제한).
 
@@ -70,7 +70,7 @@ SFTP 서버는 파일의 보존 및 삭제를 제어할 수 있는 임시 저장
 
 아래 섹션에는 Adobe 호스팅 SFTP 서버에 연결 문제가 발생할 때 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}를 통해 Adobe 지원 팀에 확인하고 제공하는 정보가 나열되어 있습니다.
 
-1. 인스턴스가 실행 중인지 확인하십시오. 이렇게 하려면 브라우저를 연 다음 인스턴스 **[!UICONTROL GET]** 끝점에서 **[!UICONTROL /r/test]**&#x200B;을(를) 호출합니다.
+1. 인스턴스가 실행 중인지 확인하십시오. 이렇게 하려면 브라우저를 연 다음 인스턴스 **[!UICONTROL /r/test]** 끝점에서 **[!UICONTROL GET]**&#x200B;을(를) 호출합니다.
 
    ```xml
    https://instanceUrl/r/test

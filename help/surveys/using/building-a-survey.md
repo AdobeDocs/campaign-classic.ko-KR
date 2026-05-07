@@ -7,7 +7,7 @@ feature: Surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '798'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ![](assets/s_ncs_admin_survey_select_template.png)
 
-(텍스트) 입력 필드, 선택 필드(목록, 확인란 등)를 정의하고 구성할 수 있는 특수 편집기를 사용하여 양식의 페이지가 만들어집니다 및 정적 요소(이미지, HTML 컨텐츠 등)를 포함할 수 있습니다. &quot;컨테이너&quot;로 수집하고 요구 사항에 따라 배치할 수 있습니다. [자세히 알아보기](#adding-questions)).
+(텍스트) 입력 필드, 선택 필드(목록, 확인란 등)를 정의하고 구성할 수 있는 특수 편집기를 사용하여 양식의 페이지가 만들어집니다 및 정적 요소(이미지, HTML 컨텐츠 등)를 사용할 수 있습니다. &quot;컨테이너&quot;로 수집하고 요구 사항에 따라 배치할 수 있습니다. [자세히 알아보기](#adding-questions)).
 
 >[!NOTE]
 >
@@ -108,7 +108,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->HTML 편집기 사용에 대한 자세한 내용은 [이 문서](../../web/using/about-web-forms.md)를 참조하세요.
+>HTML 편집기 사용에 대한 자세한 내용은 [이 문서](../../web/using/about-web-forms.md)를 참조하십시오.
 
 예제:
 

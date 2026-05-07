@@ -8,7 +8,7 @@ audience: integrations
 content-type: reference
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 ## 파이프라인 옵션을 구성하는 방법 {#configure-pipeline-option}
 
-&quot;트리거&quot; 배열 아래에 Experience Cloud 트리거를 추가하거나 편집합니다. 나머지 부분은 편집하지 마십시오.
+&quot;트리거&quot; 배열 아래에 Experience Cloud 트리거를 추가하거나 편집하고, 나머지 부분은 편집하지 마십시오.
 이 [웹 사이트](https://jsonlint.com/)를 통해 JSON이 올바른지 확인하세요.
 
 * &quot;name&quot;은 트리거 ID입니다. 와일드카드 &quot;*&quot;는 모든 트리거를 catch합니다.

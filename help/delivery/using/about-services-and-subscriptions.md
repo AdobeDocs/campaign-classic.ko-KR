@@ -8,7 +8,7 @@ role: User
 exl-id: eb72f19a-7669-4596-bf9b-8c0ce22b67bf
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '168'
 ht-degree: 4%
 
 ---
@@ -21,4 +21,4 @@ Adobe Campaign을 사용하면 뉴스레터와 같은 정보 서비스를 만들
 
 >[!NOTE]
 >
->이 기능은 Adobe Campaign에 기본적으로 제공됩니다. 선택적 애플리케이션인 소셜 마케팅을 사용하면 Facebook 및 X(이전의 Twitter)를 통해 고객 및 잠재 고객에게 연결할 수 있습니다.
+>이 기능은 Adobe Campaign에 기본적으로 제공됩니다. 선택적 애플리케이션인 소셜 마케팅을 사용하면 Facebook 및 X(이전 명칭: Twitter)를 통해 고객 및 잠재 고객에게 연락할 수 있습니다.

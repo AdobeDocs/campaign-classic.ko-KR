@@ -9,7 +9,7 @@ topic-tags: advanced-parameters
 exl-id: 083be073-aad4-4c81-aff2-77f5ef3e80db
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1016'
 ht-degree: 1%
 
 ---
@@ -57,13 +57,13 @@ ht-degree: 1%
 
 ## 패키지 구성 {#packages-configuration}
 
-**상호 작용**&#x200B;에 직접 연결된 모든 스키마 확장(오퍼, 제안, 수신자 등)은 실행 인스턴스에 배포해야 합니다.
+**상호 작용**&#x200B;에 직접 연결된 모든 스키마 확장(오퍼, 제안, 수신자 등) 은(는) 실행 인스턴스에 배포되어야 합니다.
 
 상호 작용 패키지는 모든 인스턴스(제어 및 실행)에 설치해야 합니다. 두 개의 추가 패키지를 사용할 수 있습니다. 하나는 제어 인스턴스에 설치되고 다른 하나는 각 실행 인스턴스에 설치됩니다.
 
 >[!NOTE]
 >
->패키지를 설치할 때 제안 ID와 같은 **nms:proposition** 테이블의 **long** 유형 필드는 **int64** 유형 필드가 됩니다. 이 유형의 데이터는 [이 섹션](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data)에 자세히 설명되어 있습니다.
+>패키지를 설치할 때 제안 ID와 같은 **nms:proposition** 테이블의 **long** 형식 필드는 **int64** 형식 필드가 됩니다. 이 유형의 데이터는 [이 섹션](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data)에 자세히 설명되어 있습니다.
 
 데이터 보존 기간은 배포 마법사의 **[!UICONTROL Data purge]** 창을 통해 각 인스턴스에 구성해야 합니다. 실행 인스턴스에서 이 기간은 유형화 규칙(슬라이딩 기간) 및 자격 규칙을 계산하는 데 필요한 기록 깊이에 해당해야 합니다.
 

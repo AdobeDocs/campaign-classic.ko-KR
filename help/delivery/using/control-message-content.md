@@ -8,7 +8,7 @@ role: User
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '842'
 ht-degree: 5%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 5%
 
 인스턴스 수준(메뉴 **[!UICONTROL Tools > Advanced > deployment wizard...]**) 또는 가장 자주 사용하는 시나리오에서 올바른 주소가 지정되었는지 확인해야 합니다.
 
-자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko){target="_blank"}를 참조하세요.
+자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko){target="_blank"}를 참조하십시오.
 
 ## 개인화 {#personalization}
 

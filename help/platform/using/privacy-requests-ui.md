@@ -9,7 +9,7 @@ topic-tags: starting-with-adobe-campaign
 exl-id: 73b90d79-88b6-4aaf-8103-4564de5e06be
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '781'
 ht-degree: 100%
 
 ---
@@ -64,7 +64,7 @@ Adobe Campaign은 Delete 또는 Access 개인 정보 보호 요청을 수행할 
 
 >[!IMPORTANT]
 >
->프로필 삭제 워크플로를 사용하여 개인 정보 일괄 처리 요청을 수행하는 경우, 다음 사항을 고려하십시오.
+>프로필 삭제 워크플로를 사용하여 개인정보 배치 요청을 수행하는 경우, 다음 사항을 고려하십시오.
 >* 워크플로를 통한 프로필 삭제는 하위 테이블을 처리하지 않습니다.
 >* 모든 하위 테이블에 대해 삭제를 처리해야 합니다.
 >* Adobe은 개인 정보 액세스 테이블에서 삭제할 행을 추가하고 **[!UICONTROL Delete privacy requests data]** 워크플로에서 삭제를 수행하도록 하는 ETL 워크플로를 만들 것을 권장합니다. 성능을 위해 삭제는 하루에 200개의 프로필로 제한하는 것이 좋습니다.
@@ -151,4 +151,4 @@ Access 요청을 처리할 때 Adobe Campaign은 데이터베이스에서 수신
 </body> </html>
 ```
 
-데이터 주체의 데이터 파일에 대한 액세스가 제한되어 있으므로 웹 페이지의 익명 액세스를 비활성화해야 합니다.  **[!UICONTROL Privacy Data Right]** 권한이 명명된 연산자만 페이지에 로그온하여 데이터를 다운로드할 수 있습니다.
+데이터 주체의 데이터 파일에 대한 액세스가 제한되어 있으므로 웹 페이지의 익명 액세스를 비활성화해야 합니다. **[!UICONTROL Privacy Data Right]** 권한이 명명된 연산자만 페이지에 로그온하여 데이터를 다운로드할 수 있습니다.

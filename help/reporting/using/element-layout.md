@@ -7,7 +7,7 @@ feature: Reporting, Monitoring
 exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '425'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 ## 머리글 및 바닥글 추가 {#adding-a-header-and-a-footer}
 
-보고서 속성 창을 사용하면 창의 제목, 머리글 및 바닥글의 HTML 콘텐츠와 같은 레이아웃 요소를 정의할 수도 있습니다.
+보고서 속성 창을 사용하면 창 제목, 머리글과 바닥글의 HTML 콘텐츠 등의 레이아웃 요소를 정의할 수 있습니다.
 
 속성 창에 액세스하려면 보고서의 **[!UICONTROL Properties]** 단추를 클릭하십시오.
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_advuser_report_properties_04a.png)
 
-그런 다음 이러한 식별자를 보고서의 HTML 내용에 삽입합니다.
+그런 다음 이러한 식별자를 보고서의 HTML 콘텐츠에 삽입합니다.
 
 ![](assets/s_ncs_advuser_report_properties_04b.png)
 

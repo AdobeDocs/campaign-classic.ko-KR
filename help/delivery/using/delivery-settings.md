@@ -8,7 +8,7 @@ hide: true
 exl-id: 66250817-f829-4b8b-92dd-2daa92a97fe0
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '719'
 ht-degree: 12%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 12%
 현재 이 옵션은 다음 조건이 충족될 때만 사용할 수 있습니다.
 
 * 게재는 이메일이어야 합니다. 다른 채널은 현재 지원되지 않습니다.
-* 중간 소싱 또는 외부 공정순서를 사용하지 말고 일괄 게재 공정순서 유형만 사용해야 합니다. **[!UICONTROL General]**&#x200B;의 **[!UICONTROL Delivery properties]** 탭에서 사용되는 라우팅을 확인할 수 있습니다.
-* 외부 파일에서 가져온 모집단을 타깃팅할 수 없습니다. 단일 게재의 경우 **[!UICONTROL To]**&#x200B;에서 **[!UICONTROL Email parameters]** 링크를 클릭하고 **[!UICONTROL Defined in the database]** 옵션이 선택되어 있는지 확인하십시오. 워크플로우에서 사용되는 게재의 경우 **[!UICONTROL Specified by the inbound event(s)]** 탭에서 받는 사람이 **[!UICONTROL Delivery]**&#x200B;인지 확인하십시오.
+* 중간 소싱 또는 외부 공정순서를 사용하지 말고 일괄 게재 공정순서 유형만 사용해야 합니다. **[!UICONTROL Delivery properties]**&#x200B;의 **[!UICONTROL General]** 탭에서 사용되는 라우팅을 확인할 수 있습니다.
+* 외부 파일에서 가져온 모집단을 타깃팅할 수 없습니다. 단일 게재의 경우 **[!UICONTROL Email parameters]**&#x200B;에서 **[!UICONTROL To]** 링크를 클릭하고 **[!UICONTROL Defined in the database]** 옵션이 선택되어 있는지 확인하십시오. 워크플로우에서 사용되는 게재의 경우 **[!UICONTROL Delivery]** 탭에서 받는 사람이 **[!UICONTROL Specified by the inbound event(s)]**&#x200B;인지 확인하십시오.
 * PostgreSQL 데이터베이스를 사용하고 있어야 합니다.
 
 ### 분석 우선 순위 구성 {#analysis-priority-}

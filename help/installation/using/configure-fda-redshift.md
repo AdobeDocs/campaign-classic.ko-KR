@@ -9,7 +9,7 @@ topic-tags: connectors
 exl-id: ef2b98bd-441e-4e59-bb41-4e835e250663
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '253'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ Linux에서 [!DNL Amazon Redshift]을(를) 구성하려면 아래 단계를 수�
 
 1. Campaign Classic에서 [!DNL Amazon Redshift] 외부 계정을 구성합니다. **[!UICONTROL Explorer]**&#x200B;에서 **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL New]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL External database]**&#x200B;을(를) 외부 계정의 **[!UICONTROL Type]**(으)로 선택합니다.
 
@@ -94,4 +94,4 @@ Linux에서 [!DNL Amazon Redshift]을(를) 구성하려면 아래 단계를 수�
 
    ![](assets/amazon_redshift.png)
 
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.

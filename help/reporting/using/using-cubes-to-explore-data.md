@@ -8,7 +8,7 @@ hide: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '977'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ Marketing Analytics를 사용하면 보고서를 더 쉽게 만들고 큐브를 
 
 ### 1단계 - 큐브를 기반으로 보고서 만들기 {#step-1---creating-a-report-based-on-a-cube}
 
-큐브를 기반으로 보고서를 만들려면 **[!UICONTROL Create]** 탭에서 **[!UICONTROL Reports]** 단추를 클릭하고 사용할 큐브를 선택합니다.
+큐브를 기반으로 보고서를 만들려면 **[!UICONTROL Reports]** 탭에서 **[!UICONTROL Create]** 단추를 클릭하고 사용할 큐브를 선택합니다.
 
 프로세스는 다음에서 자세히 설명합니다. [큐브를 기반으로 보고서를 만듭니다](../../reporting/using/creating-indicators.md#creating-a-report-based-on-a-cube).
 

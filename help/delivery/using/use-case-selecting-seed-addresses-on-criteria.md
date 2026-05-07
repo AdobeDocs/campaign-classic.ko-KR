@@ -7,7 +7,7 @@ feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '860'
 ht-degree: 3%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 3%
 
 시드 주소 데이터 스키마는 수신자 데이터 스키마 - 수신자 (nms)에 연결된 테이블의 값을 사용할 수 있습니다.
 
-예를 들어 사용자는 수신자 스키마에 연결된 **[!UICONTROL Internet Extension]** 테이블에 있는 **[!UICONTROL Country]**&#x200B;을(를) 통합하려고 합니다.
+예를 들어 사용자는 수신자 스키마에 연결된 **[!UICONTROL Country]** 테이블에 있는 **[!UICONTROL Internet Extension]**&#x200B;을(를) 통합하려고 합니다.
 
 ![](assets/dlv_seeds_usecase_06.png)
 
@@ -150,7 +150,7 @@ ht-degree: 3%
 
    ![](assets/dlv_seeds_usecase_22.png)
 
-1. 게재에 사용할 시드 주소를 편집하고 **필드에 값으로**&#x200B;구매&#x200B;**[!UICONTROL Department]**&#x200B;를 입력하십시오.
+1. 게재에 사용할 시드 주소를 편집하고 **[!UICONTROL Department]** 필드에 값으로 **구매**&#x200B;를 입력하십시오.
 
 ## 3단계 - 조건 정의 {#step-3---defining-the-condition}
 

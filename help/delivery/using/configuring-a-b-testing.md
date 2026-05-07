@@ -8,7 +8,7 @@ role: User
 exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '260'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 3%
 
    ![](assets/ab-testing-split.png)
 
-1. 전환을 추가하여 나머지 모집단에 현재 주제가 포함된 뉴스레터를 보냅니다. 이렇게 하려면 **[!UICONTROL Generate complement]** 탭에서 **[!UICONTROL General]** 옵션을 활성화합니다.
+1. 전환을 추가하여 나머지 모집단에 현재 주제가 포함된 뉴스레터를 보냅니다. 이렇게 하려면 **[!UICONTROL General]** 탭에서 **[!UICONTROL Generate complement]** 옵션을 활성화합니다.
 
    ![](assets/ab-testing-complement.png)
 

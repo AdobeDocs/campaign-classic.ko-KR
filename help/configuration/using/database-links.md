@@ -7,7 +7,7 @@ role: Developer
 exl-id: e05dcd81-bbca-4767-8da3-ea064f7f6c8e
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '935'
 ht-degree: 2%
 
 ---
@@ -176,7 +176,7 @@ FDA 테이블에 대한 자세한 내용은 [외부 데이터베이스 액세스
 
 ## 예: 링크에 키 만들기 {#example-5}
 
-이 예제에서는 :companyxlink **특성과 (&quot;email&quot;) 테이블의 필드가 있는 링크(&quot;company&quot; to &quot;cus**&quot; schema)에 키를 만듭니다.
+이 예제에서는 **xlink** 특성과 (&quot;email&quot;) 테이블의 필드가 있는 링크(&quot;company&quot; to &quot;cus:company&quot; schema)에 키를 만듭니다.
 
 ```sql
 <srcSchema name="recipient" namespace="cus">

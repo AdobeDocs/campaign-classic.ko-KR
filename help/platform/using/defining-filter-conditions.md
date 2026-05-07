@@ -11,8 +11,8 @@ hide: true
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '3307'
-ht-degree: 34%
+source-wordcount: '3342'
+ht-degree: 33%
 
 ---
 
@@ -316,7 +316,7 @@ ht-degree: 34%
 
 다음 단계를 적용합니다.
 
-1. **[!UICONTROL Add]** 창에서 **[!UICONTROL Data to extract]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Formula type]** 창에서 수식 유형을 선택하여 식을 입력합니다.
+1. **[!UICONTROL Data to extract]** 창에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Formula type]** 창에서 수식 유형을 선택하여 식을 입력합니다.
 
    사용할 수 있는 수식의 유형은 **[!UICONTROL Field only]**, **[!UICONTROL Aggregate]**, **[!UICONTROL Expression]**&#x200B;입니다.
 

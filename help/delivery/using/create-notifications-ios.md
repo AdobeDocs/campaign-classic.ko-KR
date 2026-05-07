@@ -8,7 +8,7 @@ hide: true
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1000'
 ht-degree: 8%
 
 ---
@@ -33,7 +33,7 @@ iOS 장치에 대한 푸시 알림을 만들려면 아래 단계를 따르십시
 
    >[!NOTE]
    >
-   >게재의 대상 모집단을 선택할 때의 자세한 프로세스는 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#target-population.){target="_blank"}의 이 섹션에 나와 있습니다.
+   >게재의 대상 모집단을 선택할 때의 자세한 프로세스는 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#target-population입니다.){target="_blank"}의 이 섹션에 나와 있습니다.
    >
    >개인화 필드 사용에 대한 자세한 내용은 [이 섹션](about-personalization.md)을 참조하세요.
    >
@@ -43,7 +43,7 @@ iOS 장치에 대한 푸시 알림을 만들려면 아래 단계를 따르십시
 
    ![](assets/nmac_delivery_ios_3.png)
 
-1. **[!UICONTROL Notification type]**&#x200B;과(와) **[!UICONTROL General notification (Alert, Sound, Badge)]** 중 **[!UICONTROL Silent notification]**&#x200B;을(를) 선택하세요.
+1. **[!UICONTROL General notification (Alert, Sound, Badge)]**&#x200B;과(와) **[!UICONTROL Silent notification]** 중 **[!UICONTROL Notification type]**&#x200B;을(를) 선택하세요.
 
    ![](assets/nmac_delivery_ios_4.png)
 
@@ -145,7 +145,7 @@ iOS 10 이상을 사용하면 풍부한 알림을 생성할 수 있습니다. Ad
 
    ![](assets/nmac_android_3.png)
 
-1. **[!UICONTROL Deliver on iOS (ios)]** 드롭다운에서 **[!UICONTROL Delivery template]** 선택. 게재에 **[!UICONTROL Label]** 추가
+1. **[!UICONTROL Delivery template]** 드롭다운에서 **[!UICONTROL Deliver on iOS (ios)]** 선택. 게재에 **[!UICONTROL Label]** 추가
 
 1. 타깃팅할 모집단을 정의하려면 **[!UICONTROL To]**&#x200B;을(를) 클릭하십시오. 기본적으로 **[!UICONTROL Subscriber application]** 대상 매핑이 적용됩니다. 이전에 만든 서비스를 선택하려면 **[!UICONTROL Add]**&#x200B;을(를) 클릭하십시오.
 

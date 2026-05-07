@@ -7,7 +7,7 @@ hide: true
 exl-id: e96add16-cbc8-43af-acff-06a95d5b7749
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '460'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 2%
 
 ## 다른 검토자 추가 {#adding-other-reviewers}
 
-캠페인 패키지의 **[!UICONTROL Edit...]** 탭에 있는 **[!UICONTROL Approval parameters...]** 링크에서 다른 검토자를 추가할 수 있습니다.
+캠페인 패키지의 **[!UICONTROL Approval parameters...]** 탭에 있는 **[!UICONTROL Edit...]** 링크에서 다른 검토자를 추가할 수 있습니다.
 
 ![](assets/s_advuser_mkg_dist_select_op_valid.png)
 

@@ -9,7 +9,7 @@ topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1959'
 ht-degree: 7%
 
 ---
@@ -129,7 +129,7 @@ POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는
 
 * **중간 소싱**, **외부** 라우팅 또는 **대량** 게재 라우팅 유형을 사용할 수 있습니다.
 
-* **일괄** 및 **중간 소싱** 게재 모드의 경우 **브랜딩** 탭에서 브랜딩 매개 변수를 지정할 수 있습니다. 이러한 매개 변수는 [미러 페이지 URL](../../installation/using/deploying-an-instance.md#email-channel-parameters) 및 **오류 주소**&#x200B;에 대한 **기본 매개 변수**&#x200B;을(를) 브랜드 관련 설정으로 재정의하는 데 사용됩니다.
+* **일괄** 및 **중간 소싱** 게재 모드의 경우 **브랜딩** 탭에서 브랜딩 매개 변수를 지정할 수 있습니다. 이러한 매개 변수는 **미러 페이지 URL** 및 **오류 주소**&#x200B;에 대한 [기본 매개 변수](../../installation/using/deploying-an-instance.md#email-channel-parameters)을(를) 브랜드 관련 설정으로 재정의하는 데 사용됩니다.
 
   ![](assets/ext-account-branding.png)
 

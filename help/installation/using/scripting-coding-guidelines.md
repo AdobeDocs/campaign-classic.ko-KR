@@ -9,8 +9,8 @@ topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 4%
+source-wordcount: '773'
+ht-degree: 6%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 4%
   cnx.dispose()
   ```
 
-허용 목록에 추가하다 SQL 주입을 방지하려면 Adobe Campaign에서 사용할 SQL 함수를 SQL 함수에 추가해야 합니다. 허용 목록에 추가하다에 추가되면 표현식 편집기에서 연산자에게 표시됩니다. [이 페이지](../../configuration/using/adding-additional-sql-functions.md)를 참조하십시오.
+SQL 주입을 방지하려면 Adobe Campaign에서 사용할 SQL 함수를 SQL 함수에 추가해야 합니다. 허용 목록에 추가하다에 추가되면 표현식 편집기에서 연산자에게 표시됩니다. [이 페이지](../../configuration/using/adding-additional-sql-functions.md)를 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -59,7 +59,7 @@ ht-degree: 4%
 
 쿼리 또는 SQL 문에서 필터를 만드는 데 사용자 입력을 사용하는 경우 항상 해당 필터를 이스케이프 처리해야 합니다([Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko) - 데이터 보호: 이스케이프 함수 참조). 이 함수들은 다음과 같습니다.
 
-* NL.XML.escape(data)
+* NL.XML.Escape(data)
 * NL.SQL.escape(data)
 * NL.JS.escape(data)
 * NL.XML.escapeAttribute(data)

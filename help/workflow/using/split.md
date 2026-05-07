@@ -7,7 +7,7 @@ hide: true
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1974'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 3%
 
    ![](assets/s_user_segmentation_partage4.png)
 
-1. 원하는 경우 **단추를 사용하여**&#x200B;다른 하위 집합을 추가&#x200B;**[!UICONTROL Add]**&#x200B;할 수 있습니다.
+1. 원하는 경우 **[!UICONTROL Add]** 단추를 사용하여 **다른 하위 집합을 추가**&#x200B;할 수 있습니다.
 
    ![](assets/s_user_segmentation_partage_add.png)
 
@@ -61,7 +61,7 @@ ht-degree: 3%
 
    ![](assets/s_user_segmentation_partage_add2.png)
 
-   단일 아웃바운드 전환을 생성하도록 선택하고(예: 세그먼트 코드를 사용하여 집합 식별), 이렇게 하려면 **[!UICONTROL Generate subsets in the same table]** 탭에서 **[!UICONTROL General]** 옵션을 선택합니다.
+   단일 아웃바운드 전환을 생성하도록 선택하고(예: 세그먼트 코드를 사용하여 집합 식별), 이렇게 하려면 **[!UICONTROL General]** 탭에서 **[!UICONTROL Generate subsets in the same table]** 옵션을 선택합니다.
 
    완료되면, 각 서브셋의 세그먼트 코드는 자동으로 추가 열에 저장된다. 이 열은 게재 수준의 개인화 필드에서 액세스할 수 있습니다.
 
@@ -188,7 +188,7 @@ ht-degree: 3%
    * **[!UICONTROL Value]**: 배포 값을 입력하십시오.
    * **[!UICONTROL Percentage / Set]**: 각 값에 연결된 레코드 제한(고정 또는 백분율)을 입력하십시오.
 
-     이 열은 **[!UICONTROL Distribution type]** 탭의 **[!UICONTROL General]** 필드에 의해 정의됩니다.
+     이 열은 **[!UICONTROL General]** 탭의 **[!UICONTROL Distribution type]** 필드에 의해 정의됩니다.
 
    * **[!UICONTROL Label]**: 각 값에 연결된 레이블을 입력합니다.
    * **[!UICONTROL Group or operator]**: **[!UICONTROL Local approval]** 활동을 사용하는 경우([로컬 승인](local-approval.md) 참조) 각 배포 값에 할당된 연산자 또는 연산자 그룹을 선택하십시오.
@@ -219,7 +219,7 @@ ht-degree: 3%
 
 **[!UICONTROL Enable overlapping of output populations]** 옵션을 사용하면 여러 하위 집합에 속하는 모집단을 관리할 수 있습니다.
 
-* 확인란을 선택하지 않으면 분할 활동은 수신자가 여러 하위 집합의 기준을 충족하더라도 여러 출력 전환에 표시되지 않습니다. 첫 번째 탭의 타겟에서 기준이 일치합니다.
+* 확인란을 선택하지 않으면 분할 활동은 수신자가 여러 하위 집합의 기준을 충족하더라도 여러 출력 전환에 표시되지 않습니다. 기준이 일치하는 첫 번째 탭의 대상에 포함됩니다.
 * 확인란을 선택하면 필터 조건을 충족하는 경우 여러 하위 집합에서 수신자를 찾을 수 있습니다. Adobe Campaign에서는 전용 기준을 사용할 것을 권장합니다.
 
 ## 입력 매개 변수 {#input-parameters}

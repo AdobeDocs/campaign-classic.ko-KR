@@ -9,7 +9,7 @@ topic-tags: message-templates
 exl-id: 1d55f42b-64bf-4b1f-a317-c1f7456aa5b3
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '499'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 1. 컨트롤 인스턴스에서 트리의 **[!UICONTROL Message Center > Transactional message templates]** 폴더로 이동합니다.
 1. 실행 인스턴스에 게시할 템플릿을 선택합니다.
-1. **[!UICONTROL Publish]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Publish]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/messagecenter_publish_model_008.png)
 
@@ -68,11 +68,11 @@ ht-degree: 2%
 
 1. 컨트롤 인스턴스에서 트리의 **[!UICONTROL Message Center > Transactional message templates]** 폴더로 이동합니다.
 1. 게시를 취소할 템플릿을 선택합니다.
-1. **[!UICONTROL Unpublish]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Unpublish]**&#x200B;을(를) 클릭합니다.
 
    <!--1. Fill in the **[!UICONTROL Log of the process]** field.-->
 
-1. **[!UICONTROL Start]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Start]**&#x200B;을(를) 클릭합니다.
 
 ![](assets/message-center-unpublish.png)
 

@@ -7,7 +7,7 @@ hide: true
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1161'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Campaign Standard에서 복제되지 않는 추가 데이터를 포함하는 복
 
    ![](assets/acs_connect_query4.png)
 
-1. **[!UICONTROL Aggregates]** 필드에서 **[!UICONTROL Data collected]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Data collected]** 필드에서 **[!UICONTROL Aggregates]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/acs_connect_query5.png)
 
@@ -89,7 +89,7 @@ Campaign Standard에서 복제되지 않는 추가 데이터를 포함하는 복
 
    ![](assets/acs_connect_query7.png)
 
-1. 워크플로우를 저장합니다. 다음 섹션에서는 ACS와 모집단을 공유하는 방법을 보여줍니다.
+1. 워크플로를 저장합니다. 다음 섹션에서는 ACS와 모집단을 공유하는 방법을 보여줍니다.
 
 ## Campaign Standard과 대상 공유 {#share-the-target-with-campaign-standard}
 

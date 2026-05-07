@@ -10,8 +10,8 @@ topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1235'
-ht-degree: 1%
+source-wordcount: '1267'
+ht-degree: 2%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Adobe은 Campaign Adobe에서 호스팅하는 데이터베이스 설정에서 VACUUM FULL을 실행하지 않도록 강력히 제안합니다. 제안된 유지 관리 지침은 온-프레미스 설치에만 해당됩니다. 사용자 지정 테이블 구현 및 스키마의 경우 VACUUM이 모니터링 없이 정지된 쿼리를 발생시키는 테이블만 잠글 수 있으므로 자체 위험이 있는 VACUUM FULL을 사용합니다. 경우에 따라 전체 데이터베이스를 잠글 수 있습니다.
+>Adobe은 Campaign Adobe에서 호스팅하는 데이터베이스 설정에서 VACUUM FULL을 실행하지 않도록 강력히 권장합니다.제안된 유지 관리 지침은 ON-PREMISE 설치에만 해당됩니다. 사용자 지정 테이블 구현 및 스키마의 경우 VACUUM이 모니터링 없이 정지된 쿼리를 발생시키는 테이블만 잠글 수 있으므로 자체 위험이 있는 VACUUM FULL을 사용합니다. 경우에 따라 전체 데이터베이스를 잠글 수 있습니다.
 
 PostgreSQL에서는 다음과 같은 일반적인 키워드를 사용할 수 있습니다.
 

@@ -8,8 +8,8 @@ level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 98%
+source-wordcount: '1767'
+ht-degree: 93%
 
 ---
 
@@ -108,7 +108,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   </tr>
    <tr> 
    <td>Windows NT 인증<br></td>
-   <td><p>Campaign 20.3 릴리스부터 Microsoft SQL Server로 새 데이터베이스를 구성할 때 사용 가능한 인증 방법에서 Windows NT 인증이 제거되었습니다. <a href="../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine">자세히 알아보기</a></p></td>
+   <td><p>Microsoft SQL Server로 새 데이터베이스를 구성할 때 Campaign 20.3 릴리스부터 사용 가능한 인증 방법에서 Windows NT 인증이 제거되었습니다. <a href="../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine">자세히 알아보기</a></p></td>
   </tr>
    <tr> 
    <td>파일 기반의 전자 메일 보관<br></td>
@@ -188,7 +188,7 @@ The following systems are deprecated for Campaign Classic. Please refer to the [
 
    * CentOS 6. [자세히 알아보기](https://wiki.centos.org/Download)
    * Debian 7. [자세히 알아보기](https://wiki.debian.org/DebianReleases)
-   * RHEL 6.x. [자세한 내용](https://access.redhat.com/support/policy/updates/errata)
+   * RHEL 6.x [자세히 알아보기](https://access.redhat.com/support/policy/updates/errata)
    * Windows Server 2008. [자세히 알아보기](https://support.microsoft.com/en-us/lifecycle/search/1163)
    * SLES 11. [자세히 알아보기](https://www.suse.com/lifecycle)
 
@@ -196,7 +196,7 @@ The following systems are deprecated for Campaign Classic. Please refer to the [
 
 19.1 봄 릴리스부터 Adobe Campaign은 더 이상 다음 웹 서버와 호환되지 않습니다.
 
-* Apache 2.2. [자세한 내용](https://httpd.apache.org/)
+* Apache 2.2. [자세히 알아보기](https://httpd.apache.org/)
 * Microsoft IIS 7. [자세히 알아보기](https://support.microsoft.com/ko-kr/lifecycle/search/810)
 
 ### 도구 {#tools-eol}
@@ -234,10 +234,10 @@ Campaign Classic은 FDA(Federated Data Access)의 다음 서버와 호환되지 
 * MySQL 5.1.
 * InfiniDB는 수명이 종료되었습니다.
 * Teradata 13, 13.1.
-* Netezza 6.02, 7.0. Netezza는 수명이 종료되었습니다.
-* AsterData 5.0. AsterData는 수명이 종료되었습니다.
+* Netezza 6.02, 7.0. Netezza은 수명이 종료되었습니다.
+* AsterData 5.0 AsterData가 수명이 종료되었습니다.
 * Sybase IQ 15.2, 15.4, 15.5, Sybase ASE 15.0.
-* HiveSQL을 통한 Hadoop: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic은 FDA(Federated Data Access)를 통해 목록에 있는 HiveSQL을 통한 Hadoop 버전을 계속 지원하지만, 해당 버전은 HortonWorks(HDP 2.4.X, 2.5.x, 2.6.x) 및 HDInsight 3.4(HDP 2.4), 3.5(HDP 2.5), 3.6(HDP 2.6)과 병합됩니다.
+* Hadoop via HiveSQL: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic은 여전히 FDA(Federated Data Access)를 통해 HiveSQL을 통해 나열된 Hadoop 버전을 지원하지만, 이러한 버전은 다음과 병합됩니다. HortonWorks(HDP 2.4.X, 2.5.x, 2.6.x) 및 HDInsight 3.4(HDP 2.4), 3.5(HDP 2.5), 3.6(HDP 2.6)
 
 **RDBMS 서버**
 

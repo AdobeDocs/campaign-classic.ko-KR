@@ -7,8 +7,8 @@ badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
 source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 5%
+source-wordcount: '857'
+ht-degree: 6%
 
 ---
 
@@ -113,4 +113,4 @@ if(string(ctx@_historyId)!==""))
 
 ### 보고서 내보내기 {#exporting-reports}
 
-보고서 내보내기에 관련된 Recommendations은 [이 섹션](../../reporting/using/actions-on-reports.md#exporting-a-report)에 자세히 설명되어 있습니다.
+보고서 내보내기와 관련된 권장 사항은 [이 섹션](../../reporting/using/actions-on-reports.md#exporting-a-report)에 자세히 설명되어 있습니다.

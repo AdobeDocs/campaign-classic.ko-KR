@@ -8,7 +8,7 @@ role: User
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
 source-git-commit: a94774daa4005fe95066b85f921d9baa981b2a7c
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '822'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 1%
 **[!UICONTROL Rendering]** 탭에서 다음을 선택하세요.
 
 * 출력 문서 투영에 사용되는 렌더링 유형(XSL 스타일시트 또는 JavaScript 템플릿)
-* 출력 문서의 형식(HTML, 텍스트, XML 또는 RTF)
+* 출력 문서의 형식: HTML, 텍스트, XML 또는 RTF,
 * 구성 데이터가 포함된 템플릿(예: 사용할 스타일시트 또는 JavaScript 템플릿).
 
 ### 게시 {#publication}
@@ -109,7 +109,7 @@ ht-degree: 1%
 
 **`<xsl:comment> #nl:output_replace(<name_of_file>) </xsl:comment>`**. 여기서 **`<name_of_file>`**&#x200B;은(는) 생성할 페이지의 파일 이름입니다.
 
-**예:** &quot;cus:book&quot; 스키마를 사용하여 여러 파일을 생성합니다.
+**예:** &quot;cus:book&quot; 스키마를 사용하여 여러 파일을 생성했습니다.
 
 원칙은 챕터를 나열하는 메인 페이지를 생성하여 외부 페이지에 챕터의 세부 정보를 표시할 수 있습니다.
 
@@ -173,7 +173,7 @@ ht-degree: 1%
 
 파일 이름은 게시 경로 및 입력 문서에 있는 챕터의 식별자와 일치하는 **`<xsl:value-of select="@id" />`**&#x200B;을(를) 포함하는 **$(path)** 변수로 구성됩니다.
 
-발행 모델은 두 개의 스타일 시트 &quot;cus:book.xsl&quot;과 &quot;cus:chapter.xsl&quot;로 채워야 합니다.
+게시 모델은 두 개의 스타일 시트 &quot;cus:book.xsl&quot; 및 &quot;cus:chapter.xsl&quot;로 채워야 합니다.
 
 **[!UICONTROL Multi-file generation]** 옵션은 챕터 변환 모델에서 활성화되어야 합니다.
 

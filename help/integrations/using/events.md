@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
 source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1204'
 ht-degree: 1%
 
 ---
@@ -210,7 +210,7 @@ triggerType 필드는 데이터가 시작되는 트리거를 식별합니다.
 | triggerType | 문자열 50 | 트리거 유형 | 트리거의 이름입니다. 웹 사이트에서 고객의 행동을 식별합니다. |
 | shopper_id | 문자열 32 | shopper_id | 구매자의 내부 식별자. 조정 워크플로우에 의해 설정됩니다. 0이면 Campaign에서 고객을 알 수 없음을 의미합니다. |
 | shopper_key | Long | shopper_key | Analytics에 의해 캡처된 구매자의 외부 식별자. |
-| 생성됨 | 날짜/시간 | 생성됨 | Campaign에서 이벤트가 생성된 시간입니다. |
+| 생성됨 | 날짜/시간 | 생성일 | Campaign에서 이벤트가 생성된 시간입니다. |
 | 마지막 수정일 | 날짜/시간 | 마지막 수정일 | Adobe에서 마지막으로 이벤트가 수정된 시간입니다. |
 | timeGMT | 날짜/시간 | 타임스탬프 | Analytics에서 이벤트가 생성된 시간입니다. |
 

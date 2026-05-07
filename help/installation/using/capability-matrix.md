@@ -6,8 +6,8 @@ feature: Installation, Architecture
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
 source-git-commit: 8b38d825aa9b0595226a444e0e463362468d51b3
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 26%
+source-wordcount: '323'
+ht-degree: 27%
 
 ---
 

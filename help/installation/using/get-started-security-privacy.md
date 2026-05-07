@@ -9,7 +9,7 @@ topic-tags: prerequisites-and-recommendations-
 exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '450'
 ht-degree: 7%
 
 ---
@@ -20,16 +20,16 @@ ht-degree: 7%
 
 이 섹션에서는 보안 및 개인 정보 보호에 대해 확인할 주요 요소를 소개합니다. 일부 구성은 온-프레미스 고객만 수행할 수 있습니다.
 
-## 개인 정보 보호
+## 개인 정보
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
 개인 정보 보호 구성 및 강화는 보안 최적화의 핵심 요소입니다. 다음은 개인 정보와 관련하여 따라야 할 몇 가지 모범 사례입니다.
 
-* HTTP 대신 HTTPS를 사용하여 고객 PII Protect
+* HTTP 대신 HTTPS를 사용하여 고객 PII 보호
 * PII 보기 제한을 사용하여 개인 정보를 보호하고 데이터가 오용되지 않도록 할 수 있습니다.
 * 암호화된 암호가 제한되어 있는지 확인하십시오.
-* Protect 미러 페이지, 웹 애플리케이션 등과 같은 개인 정보가 포함될 수 있는 페이지입니다.
+* 미러 페이지, 웹 애플리케이션 등과 같은 개인 정보가 포함될 수 있는 페이지를 보호합니다.
 
 [자세히 표시](../../installation/using/privacy.md)
 
@@ -51,7 +51,7 @@ ht-degree: 7%
 
 Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때는 항상 다음 지침을 따르십시오.
 
-* 허용 목록에 추가하다 **스크립팅**: SQL 문을 피하고 문자열 연결 대신 매개 변수가 있는 함수를 사용하고, SQL 함수를 추가하여 SQL 삽입을 피하십시오.
+* **스크립팅**: SQL 문을 피하고 문자열 연결 대신 매개 변수가 있는 함수를 사용하고, SQL 함수를 추가하여 SQL 삽입을 피하십시오.
 
 * **데이터 모델 보안**: 명명된 권한을 사용하여 연산자 작업을 제한하고 시스템 필터(sysFilter)를 추가하십시오.
 
@@ -95,7 +95,7 @@ Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때는 항
 웹 서버(Apache/IIS)를 구성할 때는 다음과 같은 몇 가지 모범 사례를 따라야 합니다.
 
 * 이전 SSL 버전 및 암호 비활성화
-* TRACE 방법 제거
+* TRACE 메서드 제거
 * 배너 제거
 * 중요한 파일이 업로드되지 않도록 쿼리 크기 제한
 

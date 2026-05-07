@@ -9,7 +9,7 @@ topic-tags: connectors
 exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '509'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ## 외부 데이터로 이메일 개인화 최적화 {#optimizing-email-personalization-with-external-data}
 
-전용 워크플로우에서 메시지 개인화를 사전 처리할 수 있습니다. 이 작업을 수행하려면 게재 속성의 **[!UICONTROL Prepare the personalization data with a workflow]** 탭에서 사용할 수 있는 **[!UICONTROL Analysis]** 옵션을 사용하십시오.
+전용 워크플로우에서 메시지 개인화를 사전 처리할 수 있습니다. 이 작업을 수행하려면 게재 속성의 **[!UICONTROL Analysis]** 탭에서 사용할 수 있는 **[!UICONTROL Prepare the personalization data with a workflow]** 옵션을 사용하십시오.
 
 게재 분석 시 이 옵션은 외부 데이터베이스에 연결된 테이블의 데이터를 포함하여 대상에 연결된 모든 데이터를 임시 테이블에 저장하는 워크플로우를 자동으로 만들고 실행합니다.
 

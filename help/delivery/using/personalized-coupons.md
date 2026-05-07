@@ -9,7 +9,7 @@ hide: true
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '922'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 1%
 
    **[!UICONTROL Anonymous coupons]** : 익명 쿠폰은 모든 받는 사람에게 동일합니다. **쿠폰 유형** 메뉴에서 익명이 선택되었는지 확인하고 **저장**&#x200B;을 클릭하여 쿠폰을 생성합니다.
 
-   **[!UICONTROL Individual coupons]** : 추가 쿠폰 코드를 사용하여 개별 쿠폰을 추가로 개인화할 수 있습니다. 예를 들어 스포츠 장비 매장에서 판매할 수 있도록 개별 쿠폰이 생성됩니다. 하지만, 수령자 명단이 길고 하나의 스포츠에 대한 동일한 열정을 공유하지 않는다. 스포츠(예: 축구, 축구, 야구 등)에 따라 개별 쿠폰에 대한 코드 이름을 추가하고 해당하는 수신자에게 각 코드를 보낼 수 있습니다.
+   **[!UICONTROL Individual coupons]** : 추가 쿠폰 코드를 사용하여 개별 쿠폰을 추가로 개인화할 수 있습니다. 예를 들어 스포츠 장비 매장에서 판매할 수 있도록 개별 쿠폰이 생성됩니다. 하지만, 수령자 명단이 길고 하나의 스포츠에 대한 동일한 열정을 공유하지 않는다. 스포츠(예: 축구, 축구, 야구 등)에 따라 개별 쿠폰에 대한 코드 이름을 추가할 수 있습니다. 해당하는 수신자에게 각 코드를 전송합니다.
 
    1. 개인을 선택하면 새 탭인 쿠폰이 왼쪽 하단에 나타납니다. **[!UICONTROL Coupons]** 탭으로 이동하여 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
    1. 팝업 창에서 메시지가 표시되면 개별 쿠폰에 대한 고유 코드를 입력합니다.
@@ -153,7 +153,7 @@ ht-degree: 1%
 >
 >기본적으로 쿠폰 관리 모듈은 **nms:recipient** 테이블을 사용합니다. [자세히 알아보기](../../configuration/using/about-data-model.md#default-recipient-table).
 >
->이 페이지[에서 사용자 지정 받는 사람 테이블 &#x200B;](../../configuration/using/about-custom-recipient-table.md)을(를) 사용하는 방법을 알아보세요.
+>이 페이지[&#128279;](../../configuration/using/about-custom-recipient-table.md)에서 사용자 지정 받는 사람 테이블 을(를) 사용하는 방법을 알아보세요.
 
 ## 부족한 쿠폰 관리 {#managing-insufficient-coupons}
 

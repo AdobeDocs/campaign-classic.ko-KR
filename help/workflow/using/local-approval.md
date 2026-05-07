@@ -7,7 +7,7 @@ hide: true
 exl-id: 2d9cbfc8-1f99-4b38-8460-77c7c986e9ca
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '645'
 ht-degree: 3%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 3%
 
 ![](assets/local_validation_3.png)
 
-* **[!UICONTROL Distribution context]**: 타깃팅된 모집단을 제한하기 위해 **[!UICONTROL Specified in the transition]** 유형 활동을 사용하는 경우 **[!UICONTROL Split]** 옵션을 선택하십시오. 이 경우 분배 템플릿은 분할 활동에 입력됩니다. 대상 모집단을 제한하지 않는 경우 여기에서 **[!UICONTROL Explicit]** 옵션을 선택하고 **[!UICONTROL Data distribution]** 필드에 배포 템플릿을 입력하십시오.
+* **[!UICONTROL Distribution context]**: 타깃팅된 모집단을 제한하기 위해 **[!UICONTROL Split]** 유형 활동을 사용하는 경우 **[!UICONTROL Specified in the transition]** 옵션을 선택하십시오. 이 경우 분배 템플릿은 분할 활동에 입력됩니다. 대상 모집단을 제한하지 않는 경우 여기에서 **[!UICONTROL Explicit]** 옵션을 선택하고 **[!UICONTROL Data distribution]** 필드에 배포 템플릿을 입력하십시오.
 
   데이터 배포 템플릿을 만드는 방법에 대한 자세한 내용은 [데이터 배포당 하위 집합 레코드 수 제한](split.md#limiting-the-number-of-subset-records-per-data-distribution)을 참조하세요.
 

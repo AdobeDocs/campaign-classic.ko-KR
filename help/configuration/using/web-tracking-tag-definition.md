@@ -7,7 +7,7 @@ role: Developer
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '362'
 ht-degree: 2%
 
 ---
@@ -130,5 +130,5 @@ ht-degree: 2%
 
 다음과 같은 방법을 사용할 수 있습니다.
 
-* 추적하려는 웹 페이지에 통합된 HTML **태그의**&quot;src&quot;**`<img>`** 특성에 URL을 삽입합니다.
+* 추적하려는 웹 페이지에 통합된 HTML **`<img>`** 태그의 **&quot;src&quot;** 특성에 URL을 삽입합니다.
 * 추적할 웹 페이지가 생성되면 리디렉션 서버에 직접 호출합니다.

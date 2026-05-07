@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Campaign Classic 2021 릴리스
-description: 'Campaign Classic 2021 릴리스에 대해 자세히 알아보기 '
+description: Campaign Classic 2021 릴리스에 대해 자세히 알아보기
 feature: Release Notes
 role: User
 level: Beginner
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
 source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
-source-wordcount: '2579'
-ht-degree: 97%
+source-wordcount: '2670'
+ht-degree: 96%
 
 ---
 
@@ -49,7 +49,7 @@ _2021년 9월 7일 수요일_
 
 * 수명 종료에 따라 Flash를 Campaign의 기능과 구성 요소에서 제거하고 HTML5로 대체했습니다. 차트의 **측정** 유형이 제거되었습니다. (NEO-30330) [자세히 보기](../../reporting/using/creating-a-chart.md)
 * 이제 Windows에 클라이언트 콘솔을 설치할 때 설치 관리자에서 상위 레지스트리 노드가 있는지 확인하고 누락된 경우 클라이언트 콘솔을 만듭니다. 따라서 콘솔을 시작할 때 발생할 수 있는 문제를 방지할 수 있습니다. (NEO-34854)
-* 서드파티 도구(이메일 클라이언트, 인터넷 브라우저 등)에서 특수 문자를 처리하는 방식과 관련된 오류를 방지하기 위해 추적 서명 기능을 개선했습니다. 이제 URL 매개 변수가 인코딩됩니다.
+* 타사 도구(이메일 클라이언트, 인터넷 브라우저 등)와 연결된 오류를 방지하기 위해 추적 서명 기능이 개선되었습니다. 특수 문자를 처리합니다. 이제 URL 매개 변수가 인코딩됩니다.
 
 **기타 변경 사항**
 

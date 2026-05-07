@@ -7,7 +7,7 @@ role: Developer
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: '1803'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ XML 문서는 데이터베이스의 메모 유형 필드에 저장됩니다.
 
 이렇게 하면 기본 SQL을 격리할 수 있습니다. 쿼리 언어는 기본 엔진에 따라 달라지지 않습니다. 일부 함수는 다시 매핑되어 여러 SELECT SQL 주문을 생성할 수 있습니다.
 
-자세한 내용은 스키마 &#39;xtk[&#39;:queryDef의 &#39;ExecuteQuery&#39; 메서드에 대한 &#x200B;](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-)예제를 참조하십시오.
+자세한 내용은 스키마 &#39;xtk:queryDef&#39;[&#128279;](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-)의 &#39;ExecuteQuery&#39; 메서드에 대한 예제를 참조하십시오.
 
 **ExecuteQuery** 메서드가 [ExecuteQuery(xtk:queryDef)](#executequery--xtk-querydef-)에 있습니다.
 
@@ -110,7 +110,7 @@ Write 메서드가 [Write/WriteCollection(xtk:session)](#write---writecollection
 </queryDef>
 ```
 
-하위 쿼리( `<subquery>` )를 `<condition> ` 요소에 정의할 수 있습니다. 구문   `<subquery> `   요소는    `<querydef>`.
+하위 쿼리( `<subquery>` )를 `<condition> ` 요소에 정의할 수 있습니다. `<subquery> ` 요소의 구문은 `<querydef>`의 구문을 기반으로 합니다.
 
 `<subquery>  : </subquery>`의 예
 
@@ -369,7 +369,7 @@ Write 메서드가 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 매개 변수의 바인딩을 사용하면 엔진이 쿼리에 사용되는 매개 변수의 값을 설정할 수 있습니다. 이는 엔진이 값의 이스케이프를 담당하므로 매우 유용하며, 매개변수를 검색할 수 있도록 캐시의 추가 이점이 있습니다.
 
-쿼리가 구성되면 &quot;바인딩된&quot; 값이 문자(? ODBC의 `#[index]#`(postgres...), SQL 쿼리 본문의
+쿼리가 구성되면 &quot;바인딩된&quot; 값이 문자(? ODBC의 `#[index]#`(postgres의 경우...) SQL 쿼리 본문에서 참조할 수 있습니다.
 
 ```xml
 <select>
@@ -605,7 +605,7 @@ Write 메서드가 [Write/WriteCollection(xtk:session)](#write---writecollection
 
 >[!NOTE]
 >
->그룹 이름을 기반으로 하는 암시적 키가 &quot;nms`<rcpgroup>`&quot; 스키마에 정의되어 있으므로 키의 정의가 :group 요소에 입력되지 않았습니다.
+>그룹 이름을 기반으로 하는 암시적 키가 &quot;nms:group&quot; 스키마에 정의되어 있으므로 키의 정의가 `<rcpgroup>` 요소에 입력되지 않았습니다.
 
 ### XML 컬렉션 요소 {#xml-collection-elements}
 

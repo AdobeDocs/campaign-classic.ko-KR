@@ -8,8 +8,8 @@ level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: b9a716f327b8fdd68c3bf36dbe864535308def30
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 28%
+source-wordcount: '294'
+ht-degree: 27%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 28%
 
 [!BADGE 일반 공급]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="일반 공급"}
 
-_2026년 3월 16일 화요일_
+_2026년 3월 16일_
 
 >[!CAUTION]
 >

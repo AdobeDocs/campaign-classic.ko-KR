@@ -6,8 +6,8 @@ feature: Schema Extension
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
-source-wordcount: '2029'
-ht-degree: 0%
+source-wordcount: '2035'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 콘텐츠 모델 {#content-model-4}
 
-element:==(attribute | 계산 문자열 | dbindex | 기본값 | 요소 | 도움말 | 가입 | key | sysFilter | translatedDefault)
+element:==(attribute | 계산 문자열 | dbindex | 기본값 | 요소 | 도움말 | 참가 | 키 | sysFilter | translatedDefault)
 
 ## 속성 {#attributes-4}
 
@@ -46,7 +46,7 @@ _operation (string), advanced (부울), aggregate (문자열), applicableIf (문
 Adobe Campaign에는 네 가지 유형의 `<element>` 요소가 있습니다.
 
 * 루트 `<element>` : 스키마와 일치하는 SQL 테이블의 이름을 정의합니다.
-* 구조 `<element>` : `<element>`의 그룹을 정의합니다.   또는   `<attribute>`    요소.
+* 구조 `<element>` : `<element>` 또는 `<attribute>` 요소의 그룹을 정의합니다.
 * 링크 `<element>` : 링크를 정의합니다. 이 요소에는 &quot;@type=link&quot; 속성이 포함되어야 합니다.
 * XML `<element>` : 텍스트 유형 &quot;mData&quot; 필드를 정의합니다. 이 요소에는 &quot;@type=xml&quot; 특성이 포함되어야 합니다.
 
@@ -65,7 +65,7 @@ Adobe Campaign에는 네 가지 유형의 `<element>` 요소가 있습니다.
    * &quot;delete&quot;: 삭제. 즉, Adobe Campaign에서 요소를 복구하고 삭제합니다.
 
 * **고급(부울)**: 이 옵션을 활성화하면(@advanced=&quot;true&quot;) 양식의 목록 구성에 액세스할 수 있는 사용 가능한 필드 목록에서 특성을 숨길 수 있습니다.
-* **집계(문자열)**: 다른 스키마를 통해 `<element>`의 정의를 복사할 수 있도록 해줍니다. 이 속성은 &quot;namespace:name&quot; 형식의 스키마 선언을 받습니다.
+* **집계(문자열)**: 다른 스키마를 통해 `<element>`의 정의를 복사할 수 있도록 해줍니다. 이 특성은 &quot;namespace:name&quot; 형식의 스키마 선언을 받습니다.
 * **적용할 수 있는 경우(문자열)**: 인덱스를 적용하는 조건입니다. 이 속성은 XTK 식을 받습니다.
 * **autopk(부울)**: 이 옵션이 활성화되면(autopk=&quot;true&quot;) 고유 키가 자동으로 정의됩니다. 이 옵션은 스키마의 기본 요소에서만 사용할 수 있습니다. 경고: Adobe Campaign은 생성된 키가 고유하다는 것만 보장합니다. 키 값이 연속적이고 점진적으로 변환되는 것은 보장되지 않습니다.
 * **dataPolicy(문자열)**: SQL 필드에 허용된 값에 대한 승인 제약 조건을 지정할 수 있습니다. 이 속성의 값은 다음과 같습니다.
@@ -108,7 +108,7 @@ Adobe Campaign에는 네 가지 유형의 `<element>` 요소가 있습니다.
 * **folderModel(string)**: 엔터티 저장소를 사용할 수 있는 폴더 형식을 정의합니다. 이 속성은 &quot;@folderLink&quot;가 있는 경우에만 정의됩니다.
 * **folderProcess(string)**: 엔터티 모델 인스턴스가 저장되는 링크를 정의합니다. 이 속성은 &quot;@folderLink&quot;가 있는 경우에만 정의됩니다.
 * **fullLoad(부울)**: 이 특성은 폼에서 필드를 선택하는 동안 테이블의 모든 레코드를 강제로 표시합니다.
-* **img(문자열)**: 요소에 연결된 이미지의 경로를 받습니다. 이 속성의 값은 &quot;namespace:image name&quot; 유형입니다. 예: img=&quot;cus:myImage.jpg&quot;. 물리적으로 응용 프로그램 서버로 이미지를 가져와야 합니다.
+* **img(문자열)**: 요소에 연결된 이미지의 경로를 받습니다. 이 특성의 값은 &quot;namespace:image name&quot; 형식입니다. 예: img=&quot;cus:myImage.jpg&quot;. 물리적으로 응용 프로그램 서버로 이미지를 가져와야 합니다.
 * **무결성(문자열)**: 대상 테이블에 대한 원본 테이블 발생에 대한 참조 무결성입니다.
 
   액세스 가능한 값은 다음과 같습니다.
@@ -179,10 +179,10 @@ Adobe Campaign에는 네 가지 유형의 `<element>` 요소가 있습니다.
    * blob
    * 부울
    * 바이트
-   * C데이터
+   * CDATA
    * datetime
    * datetimetz
-   * 다테티메노츠
+   * datetimenotz
    * 날짜
    * 중복
    * enum
@@ -190,12 +190,12 @@ Adobe Campaign에는 네 가지 유형의 `<element>` 요소가 있습니다.
    * html
    * int64
    * 링크
-   * 길게
+   * 롱
    * 메모
    * MNTOKEN
    * 백분율
    * primarykey
-   * 짧음
+   * short
    * 문자열
    * 시간
    * timespan

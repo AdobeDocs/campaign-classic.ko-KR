@@ -7,8 +7,8 @@ role: Developer
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 2%
+source-wordcount: '625'
+ht-degree: 3%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 2%
 </method>
 ```
 
-조정 키의 정의는 XML 문서의 **요소에 있는 _** key`<recipient>` 특성을 통해 입력해야 합니다. 이 속성의 콘텐츠는 쉼표로 구분된 XPath 목록입니다.
+조정 키의 정의는 XML 문서의 `<recipient>` 요소에 있는 _&#x200B;**key** 특성을 통해 입력해야 합니다. 이 속성의 콘텐츠는 쉼표로 구분된 XPath 목록입니다.
 
 이 호출은 오류를 제외하고 데이터를 반환하지 않습니다.
 

@@ -1,14 +1,14 @@
 ---
 product: campaign
-title: 마케팅 캠페인 기본 정보
+title: 마케팅 캠페인 정보
 description: 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다.
 role: User
 feature: Campaigns
 exl-id: 07cfa2b3-4e70-437a-ad5f-15fbfe717d5c
 source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 33%
+source-wordcount: '362'
+ht-degree: 46%
 
 ---
 
@@ -93,7 +93,7 @@ The following concepts need to be known in the context of Campaign:
 
 This video presents the key concepts of marketing campaigns.
 
->[!VIDEO](https://video.tv.adobe.com/v/326577?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/326577?captions=kor&quality=12)
 
 Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko).
 

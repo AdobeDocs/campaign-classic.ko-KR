@@ -6,8 +6,8 @@ hide: true
 feature: Workflows, Interaction, Offers
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 3%
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 3%
    <tr> 
    <td> <span class="uicontrol">MessageCenter 전체 집계 계산</span> <br /> </td> 
    <td> <span class="uicontrol">agg_messageCenter_full</span> <br /> </td> 
-   <td> 이 워크플로는 <strong>메시지 센터</strong> 큐브에 대한 <strong>전체</strong> 집계를 업데이트합니다. 기본적으로 매일 오전 3시에 트리거됩니다. 이 집계는 채널, 날짜, 상태 및 이벤트 유형과 같은 차원을 캡처합니다.<br /> 그러면 <strong>메시지 센터</strong> 큐브를 사용하여 이벤트를 기반으로 보고서를 생성합니다. 큐브에 대한 자세한 내용은 <a href="../../reporting/using/ac-cubes.md">이 섹션</a>.<br />을 참조하세요. </td> 
+   <td> 이 워크플로는 <strong>메시지 센터</strong> 큐브에 대한 <strong>전체</strong> 집계를 업데이트합니다. 기본적으로 매일 오전 3시에 트리거됩니다. 이 집계는 채널, 날짜, 상태 및 이벤트 유형 차원을 캡처합니다.<br /> 그러면 <strong>메시지 센터</strong> 큐브를 사용하여 이벤트를 기반으로 보고서를 생성합니다. 큐브에 대한 자세한 내용은 <a href="../../reporting/using/ac-cubes.md">이 섹션</a>.<br />을 참조하세요. </td> 
    <td> <br /> </td> 
   </tr> 
  </tbody> 

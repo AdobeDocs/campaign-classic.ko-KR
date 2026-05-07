@@ -7,7 +7,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '770'
 ht-degree: 2%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 2%
 
    ![](assets/s_ncs_advuser_report_wizard_link_04.png)
 
-1. 보고서를 Publish 합니다.
+1. 보고서 게시.
 1. 받는 사람 목록 중 하나로 이동하여 **[!UICONTROL Reports]** 링크를 클릭합니다. 방금 만든 보고서에 액세스할 수 있습니다.
 
    ![](assets/s_ncs_advuser_report_wizard_link_05.png)
@@ -122,7 +122,7 @@ ht-degree: 2%
 
 이러한 설정에 대한 자세한 내용은 [웹 폼](../../web/using/about-web-forms.md) 장의 **웹 폼 속성 정의** 섹션을 참조하십시오.
 
-## 보고서 Publish {#publishing-the-report}
+## 보고서 게시 {#publishing-the-report}
 
 다른 연산자와 공유하고 사용 가능한 보고서 목록에 표시하려면 보고서를 게시해야 합니다([보고서 표시 컨텍스트](#report-display-context) 참조). 보고서를 변경할 때마다 이 작업을 다시 수행해야 합니다.
 
