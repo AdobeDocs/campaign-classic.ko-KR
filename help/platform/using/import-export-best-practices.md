@@ -60,8 +60,8 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 **관련 항목:**
 
-* [데이터 로드(파일) 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}
-* [데이터 추출(파일) 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"}.
+* [데이터 로드(파일) 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ko){target="_blank"}
+* [데이터 추출(파일) 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=ko){target="_blank"}.
 
 ## 델타 모드에서 가져오기 {#importing-in-delta-mode}
 

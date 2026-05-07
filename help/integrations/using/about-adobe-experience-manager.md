@@ -32,4 +32,4 @@ Adobe Campaign에서 이메일 또는 랜딩 페이지를 편집하는 동안 AE
 * Adobe Experience Manager **게시** 인스턴스.
 * Adobe Campaign 인스턴스.
 
-자세한 내용은 [Adobe Experience Manager 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/classic-ui/campaign/classic-personalization-ac-campaign.html)를 참조하세요.
+자세한 내용은 [Adobe Experience Manager 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/classic-ui/campaign/classic-personalization-ac-campaign.html?lang=ko)를 참조하세요.

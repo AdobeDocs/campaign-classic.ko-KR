@@ -214,12 +214,12 @@ Adobe Campaign 클라이언트 인터페이스를 통해 구성된 워크플로�
 
 ### FTP에서 콘텐츠 가져오기 {#importing-content-from-ftp}
 
-게재 콘텐츠를 FTP 또는 SFTP 서버에 있는 HTML 파일에서 사용할 수 있는 경우 이 콘텐츠를 Adobe Campaign 게재에 쉽게 로드할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}를 참조하세요.
+게재 콘텐츠를 FTP 또는 SFTP 서버에 있는 HTML 파일에서 사용할 수 있는 경우 이 콘텐츠를 Adobe Campaign 게재에 쉽게 로드할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ko){target="_blank"}를 참조하세요.
 
 
 ### Amazon Simple Storage Service(S3) 커넥터에서 컨텐츠 가져오기 {#importing-content-from-amazon-simple-storage-service--s3--connector}
 
-게재 콘텐츠가 Amazon Simple Storage Service (S3) 버킷에 있는 경우, 이 콘텐츠를 Adobe Campaign 게재에 쉽게 로드할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}를 참조하세요.
+게재 콘텐츠가 Amazon Simple Storage Service (S3) 버킷에 있는 경우, 이 콘텐츠를 Adobe Campaign 게재에 쉽게 로드할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ko){target="_blank"}를 참조하세요.
 
 
 ## 반자동 업데이트 {#semi-automatic-update}

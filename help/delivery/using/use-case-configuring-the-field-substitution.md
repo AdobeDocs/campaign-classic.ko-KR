@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## 게재 만들기 {#step-1---creating-a-delivery}
 
-게재를 만드는 단계는 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html){target="_blank"}에 자세히 설명되어 있습니다.
+게재를 만드는 단계는 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html?lang=ko){target="_blank"}에 자세히 설명되어 있습니다.
 
 이 예에서는 게재 관리자가 뉴스레터를 생성했습니다.
 

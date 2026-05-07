@@ -114,4 +114,4 @@ Adobe Analytics 커넥터 구성을 계속하려면 Adobe Developer 콘솔에 �
 
 ## 구성 및 사용 {#adobe-analytics-connector-usage}
 
-[Adobe Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}에서 Adobe Analytics 및 Adobe Campaign을 사용하여 작업하는 방법을 알아보세요.
+[Adobe Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}에서 Adobe Analytics 및 Adobe Campaign을 사용하여 작업하는 방법을 알아보세요.

@@ -26,7 +26,7 @@ Adobe Experience Cloud에서 공유한 Assets을 이메일 및 랜딩 페이지�
 
 1. 편집 창에서 이미지를 추가할 옵션을 선택합니다.
 
-   * [표준 편집 모드](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}를 사용하는 경우 **[!UICONTROL Image]** > **[!UICONTROL Select a shared asset]**&#x200B;을(를) 선택하십시오.
+   * [표준 편집 모드](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko#adding-images){target="_blank"}를 사용하는 경우 **[!UICONTROL Image]** > **[!UICONTROL Select a shared asset]**&#x200B;을(를) 선택하십시오.
 
      ![](assets/dam_insert_image_standard.png)
 

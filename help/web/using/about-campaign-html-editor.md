@@ -22,7 +22,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->서버측 JavaScript 코드를 추가해야 하는 경우 개인화 블록을 사용합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}를 참조하세요.
+>서버측 JavaScript 코드를 추가해야 하는 경우 개인화 블록을 사용합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ko){target="_blank"}를 참조하세요.
 
 >[!CAUTION]
 >

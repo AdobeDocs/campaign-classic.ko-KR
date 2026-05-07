@@ -64,7 +64,7 @@ Adobe은 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 
 
 트랜잭션 메시지에 이메일 첨부 파일을 즉시 추가하려면 아래 단계를 따르십시오.
 
-1. 먼저 첨부 파일을 디자인합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html#attach-a-personalized-file){target="_blank"}를 참조하세요.
+1. 먼저 첨부 파일을 디자인합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html?lang=ko#attach-a-personalized-file){target="_blank"}를 참조하세요.
 
    이렇게 하면 실행 인스턴스에서 호스팅되지 않는 파일도 이메일에 첨부할 수 있습니다.
 

@@ -27,7 +27,7 @@ Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명
 LINE 채널에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/line.html){target=_blank}를 참조하세요.
 
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/emails/email){target=_blank}
 
 
 >[!TAB LINE 게재 만들기]

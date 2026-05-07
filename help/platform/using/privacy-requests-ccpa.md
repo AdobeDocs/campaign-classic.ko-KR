@@ -87,7 +87,7 @@ Adobe Campaign이 제공하는 [동의 관리](privacy-management.md#consent-man
 
    ![](assets/privacy-ccpa-6.png)
 
-1. 이 열을 클릭하여 옵트아웃 정보에 따라 수신자를 정렬할 수 있습니다. 옵트아웃한 수신자만 표시하는 필터를 만들 수도 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
+1. 이 열을 클릭하여 옵트아웃 정보에 따라 수신자를 정렬할 수 있습니다. 옵트아웃한 수신자만 표시하는 필터를 만들 수도 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
 
 
    ![](assets/privacy-ccpa-7.png)

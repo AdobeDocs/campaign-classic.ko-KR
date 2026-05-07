@@ -259,4 +259,4 @@ ht-degree: 0%
 
 삽입되면 개인화 블록 이름이 편집기에 노란색으로 강조 표시됩니다. 개인화가 생성되면 수신자 프로필에 자동으로 조정됩니다.
 
-기본 제공 개인화 블록과 사용자 지정 개인화 블록을 정의하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}를 참조하세요.
+기본 제공 개인화 블록과 사용자 지정 개인화 블록을 정의하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ko){target="_blank"}를 참조하세요.

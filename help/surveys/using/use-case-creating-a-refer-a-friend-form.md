@@ -88,7 +88,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >게재 템플릿에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}를 참조하세요.
+   >게재 템플릿에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ko){target="_blank"}를 참조하세요.
 
 1. 구독 메시지를 게재하는 두 번째 스크립트를 만듭니다.
 

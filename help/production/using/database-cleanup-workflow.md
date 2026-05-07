@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->스케줄러에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}를 참조하세요.
+>스케줄러에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=ko){target="_blank"}를 참조하세요.
 
 기본적으로 **[!UICONTROL Database cleanup]** 워크플로우는 매일 오전 4시에 시작되도록 구성되어 있습니다. 스케줄러를 사용하여 워크플로우 트리거 빈도를 변경할 수 있습니다. 다음 빈도를 사용할 수 있습니다.
 

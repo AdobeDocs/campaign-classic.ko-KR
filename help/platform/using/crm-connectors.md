@@ -27,7 +27,7 @@ Adobe Campaign은 Adobe Campaign 플랫폼을 타사 시스템에 연결하는 �
 >[!NOTE]
 >
 >* 이 기능은 **CRM 커넥터** 전용 패키지를 통해 Adobe Campaign에서 사용할 수 있습니다.
->* CRM 커넥터와 Microsoft Dynamics 및 Salesforce에 연결하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-crm/crm){target=_blank}를 참조하세요.
+>* CRM 커넥터와 Microsoft Dynamics 및 Salesforce에 연결하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/ac-crm/crm){target=_blank}를 참조하세요.
 
 <!--
 ### Compatible systems {#compatible-crm-systems-and-limitations}
