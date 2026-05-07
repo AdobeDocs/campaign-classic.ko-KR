@@ -9,8 +9,8 @@ level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
 source-git-commit: a5bbd2e6c102a8afa4cd5931b77b0c83705a7bfa
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 1%
+source-wordcount: '589'
+ht-degree: 4%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL Campaign managers]**
 
-   이 그룹의 운영자는 마케팅 캠페인을 관리할 수 있습니다. **[!UICONTROL Campaign]**(선택 사항 Adobe Campaign 모듈) 프레임워크 내에서 캠페인에 연결된 개체(계획, 프로그램, 워크플로, 예산 등)에 액세스할 수 있습니다.
+   이 그룹의 운영자는 마케팅 캠페인을 관리할 수 있습니다. 캠페인에 연결된 오브젝트(계획, 프로그램, 워크플로우, 예산 등)에 액세스할 수 있습니다. **[!UICONTROL Campaign]**&#x200B;의 프레임워크 내에 있습니다(선택적 Adobe Campaign 모듈).
 
    이 그룹에는 다음과 같은 명명된 권한이 포함되어 있습니다.
 

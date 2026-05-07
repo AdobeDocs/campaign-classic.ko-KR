@@ -7,8 +7,8 @@ role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 14%
+source-wordcount: '1062'
+ht-degree: 15%
 
 ---
 
@@ -24,20 +24,20 @@ Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명
 
 >[!TAB 통신 채널 설명서]
 
-통신 채널에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=ko){target=_blank}를 참조하세요.
+통신 채널에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html){target=_blank}를 참조하세요.
 
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=ko){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html){target=_blank}
 
 
 >[!TAB 게재 콘텐츠 및 대상자]
 
 Campaign v8 설명서&#x200B;**에서 게재 만들기, 콘텐츠 및 대상**&#x200B;과(와) 관련된 주요 단계를 알아보세요.
 
-* [게재 만들기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#create-the-delivery){target="_blank"}: 일회성 단일 게재를 만드는 방법을 알아봅니다.
-* [콘텐츠 정의](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#content-of-the-delivery){target="_blank"}: 각 채널별로 게재 콘텐츠를 구성합니다.
+* [게재 만들기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#create-the-delivery){target="_blank"}: 일회성 단일 게재를 만드는 방법을 알아봅니다.
+* [콘텐츠 정의](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#content-of-the-delivery){target="_blank"}: 각 채널별로 게재 콘텐츠를 구성합니다.
 * [대상 지정](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#target-population){target="_blank"}: 주 대상, 증명 대상, 시드 주소 및 컨트롤 그룹 등 여러 유형의 대상을 정의합니다.
-* [게재 템플릿 작업](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ko){target="_blank"}: 게재를 쉽게 만들 수 있도록 템플릿을 정의하는 방법을 알아봅니다.
+* [게재 템플릿 작업](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}: 게재를 쉽게 만들 수 있도록 템플릿을 정의하는 방법을 알아봅니다.
 
 
 
@@ -47,13 +47,13 @@ Campaign v8 설명서&#x200B;**에서 게재 만들기, 콘텐츠 및 대상**&#
 
 다음 페이지를 참조하여 게재 유효성 검사, 전송 및 모범 사례 **Campaign v8 설명서**&#x200B;에 대해 알아보십시오.
 
-* [게재 유효성 검사](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#validate-the-delivery){target="_blank"}: 기본 대상으로 보내기 전에 게재의 유효성을 검사하는 방법을 알아봅니다.
-* [게재 보내기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#configuring-and-sending-the-delivery){target="_blank"}: 게재 설정을 구성하고 메시지를 보내는 방법을 정의합니다.
-* [게재 모범 사례](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ko){target="_blank"}: Campaign 게재 기능 관련 모범 사례를 참조하세요.
+* [게재 유효성 검사](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#validate-the-delivery){target="_blank"}: 기본 대상으로 보내기 전에 게재의 유효성을 검사하는 방법을 알아봅니다.
+* [게재 보내기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#configuring-and-sending-the-delivery){target="_blank"}: 게재 설정을 구성하고 메시지를 보내는 방법을 정의합니다.
+* [게재 모범 사례](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}: Campaign 게재 기능 관련 모범 사례를 참조하세요.
 
 >[!ENDTABS]
 
-다음 설정은 Campaign Classic에만 적용됩니다. 다른 게재 설정은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=ko){target="_blank"}를 참조하세요.
+다음 설정은 Campaign Classic에만 적용됩니다. 다른 게재 설정은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html){target="_blank"}를 참조하세요.
 
 +++ **게재 분석**
 
@@ -66,8 +66,8 @@ Campaign v8 설명서&#x200B;**에서 게재 만들기, 콘텐츠 및 대상**&#
 현재 이 옵션은 다음 조건이 충족될 때만 사용할 수 있습니다.
 
 * 게재는 이메일이어야 합니다. 다른 채널은 현재 지원되지 않습니다.
-* 중간 소싱 또는 외부 공정순서를 사용하지 말고 일괄 게재 공정순서 유형만 사용해야 합니다. **[!UICONTROL General]**&#x200B;의 **[!UICONTROL Delivery properties]** 탭에서 사용되는 라우팅을 확인할 수 있습니다.
-* 외부 파일에서 가져온 모집단을 타깃팅할 수 없습니다. 단일 게재의 경우 **[!UICONTROL To]**&#x200B;에서 **[!UICONTROL Email parameters]** 링크를 클릭하고 **[!UICONTROL Defined in the database]** 옵션이 선택되어 있는지 확인하십시오. 워크플로우에서 사용되는 게재의 경우 **[!UICONTROL Specified by the inbound event(s)]** 탭에서 받는 사람이 **[!UICONTROL Delivery]**&#x200B;인지 확인하십시오.
+* 중간 소싱 또는 외부 공정순서를 사용하지 말고 일괄 게재 공정순서 유형만 사용해야 합니다. **[!UICONTROL Delivery properties]**&#x200B;의 **[!UICONTROL General]** 탭에서 사용되는 라우팅을 확인할 수 있습니다.
+* 외부 파일에서 가져온 모집단을 타깃팅할 수 없습니다. 단일 게재의 경우 **[!UICONTROL Email parameters]**&#x200B;에서 **[!UICONTROL To]** 링크를 클릭하고 **[!UICONTROL Defined in the database]** 옵션이 선택되어 있는지 확인하십시오. 워크플로우에서 사용되는 게재의 경우 **[!UICONTROL Delivery]** 탭에서 받는 사람이 **[!UICONTROL Specified by the inbound event(s)]**&#x200B;인지 확인하십시오.
 * PostgreSQL 데이터베이스를 사용하고 있어야 합니다.
 
 **분석 우선 순위 구성**
@@ -128,7 +128,7 @@ Campaign v8 설명서&#x200B;**에서 게재 만들기, 콘텐츠 및 대상**&#
 
    Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
 
-For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko){target="_blank"}. 
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
 
 >[!NOTE]
 >

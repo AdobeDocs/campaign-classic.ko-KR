@@ -9,7 +9,7 @@ topic-tags: prerequisites-and-recommendations-
 exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
 source-git-commit: dba90a154e08400ae6ab6478623a50d48d72207c
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -81,5 +81,5 @@ ht-degree: 0%
 
 관련 항목:
 
-* [Adobe Marketing Cloud 규정 준수 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
-* [Adobe Campaign 보안 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/overview#security)
+* [Adobe Marketing Cloud 규정 준수 개요](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
+* [Adobe Campaign 보안 개요](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#security)

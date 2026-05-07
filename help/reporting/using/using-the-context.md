@@ -7,7 +7,7 @@ feature: Reporting, Monitoring
 exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 이렇게 하면 보고서의 **[!UICONTROL Page]** 활동을 통해 보고서에 직접 표시할 데이터를 선택할 수 있습니다.
 
-이렇게 하려면 **[!UICONTROL Filter data...]** 탭에서 **[!UICONTROL Data]** 링크를 클릭합니다. 이 링크를 사용하면 표현식 편집기에 액세스하여 분석할 데이터에 대한 쿼리를 정의할 수 있습니다.
+이렇게 하려면 **[!UICONTROL Data]** 탭에서 **[!UICONTROL Filter data...]** 링크를 클릭합니다. 이 링크를 사용하면 표현식 편집기에 액세스하여 분석할 데이터에 대한 쿼리를 정의할 수 있습니다.
 
 ![](assets/reporting_filter_data_from_page.png)
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 ![](assets/s_ncs_advuser_report_datasource_3.png)
 
 * **[!UICONTROL New query]** 옵션을 사용하면 데이터를 수집하기 위한 쿼리를 작성할 수 있습니다. 자세한 내용은 [데이터에 대한 직접 필터 정의](#defining-a-direct-filter-on-data)를 참조하세요.
-* **[!UICONTROL Context data]** 옵션을 사용하면 입력 데이터를 사용할 수 있습니다. 보고서의 컨텍스트는 차트 또는 표를 포함하는 페이지의 인바운드 전환에 포함된 정보와 일치합니다. 예를 들어, 이 컨텍스트에는 **[!UICONTROL Query]** 활동 전에 배치된 **[!UICONTROL Page]** 활동을 통해 수집된 데이터를 포함할 수 있으며, 이에 대해 보고서와 관련된 테이블 및 필드를 지정해야 합니다.
+* **[!UICONTROL Context data]** 옵션을 사용하면 입력 데이터를 사용할 수 있습니다. 보고서의 컨텍스트는 차트 또는 표를 포함하는 페이지의 인바운드 전환에 포함된 정보와 일치합니다. 예를 들어, 이 컨텍스트에는 **[!UICONTROL Page]** 활동 전에 배치된 **[!UICONTROL Query]** 활동을 통해 수집된 데이터를 포함할 수 있으며, 이에 대해 보고서와 관련된 테이블 및 필드를 지정해야 합니다.
 
 예를 들어 쿼리 상자에서 수신자에 대해 다음 쿼리를 작성합니다.
 

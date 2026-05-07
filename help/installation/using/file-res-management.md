@@ -10,8 +10,8 @@ topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 1%
+source-wordcount: '675'
+ht-degree: 3%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 1%
 
 이 특성은 **serverConf.xml** 파일의 **dataStore** 요소에서 사용할 수 있습니다. **serverConf.xml**&#x200B;에서 사용할 수 있는 모든 매개 변수가 이 [섹션](../../installation/using/the-server-configuration-file.md)에 나열되어 있습니다.
 
-이 특성의 기본값은 **입니다.+** 및 을(를) 사용하면 모든 파일 형식을 업로드할 수 있습니다.
+이 특성의 기본값은 **.+**&#x200B;이며 모든 파일 형식을 업로드할 수 있습니다.
 
 가능한 형식을 제한하려면 속성 값을 유효한 Java 정규 표현식으로 바꿉니다. 쉼표로 구분하여 여러 값을 입력할 수 있습니다.
 
-예: **uploadWhiteList=&quot;.&#42;.png,.&#42;.jpg&quot;**&#x200B;을(를) 통해 PNG 및 JPG 형식을 서버에 업로드할 수 있습니다. 다른 형식은 허용되지 않습니다.
+예: **uploadWhiteList=&quot;.&#42;.png,.&#42;.jpg&quot;**&#x200B;을(를) 사용하면 PNG 및 JPG 형식을 서버에 업로드할 수 있습니다. 다른 형식은 허용되지 않습니다.
 
 웹 서버를 구성하여 중요한 파일이 업로드되지 않도록 할 수도 있습니다. [자세히 알아보기](web-server-configuration.md)
 

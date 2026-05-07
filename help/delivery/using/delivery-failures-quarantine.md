@@ -7,8 +7,8 @@ role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 source-git-commit: 2ebae2b84741bf26dd44c872702dbf3b0ebfc453
 workflow-type: tm+mt
-source-wordcount: '1559'
-ht-degree: 1%
+source-wordcount: '1695'
+ht-degree: 3%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 1%
 >
 >게재 실패 및 격리 관리에 대한 포괄적인 지침은 Campaign v8 설명서에 설명되어 있습니다. 이 콘텐츠는 Campaign Classic v7 및 Campaign v8 사용자 모두에게 적용됩니다.
 >
->* [게재 오류 이해](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} - 오류 유형, 오류 원인, 동기/비동기 오류, 관리 다시 시도 및 문제 해결
->* 차단 목록에 추가하다 [격리 관리](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} - 격리 및 격리, 소프트 오류 임계값, 주소 제거 관련 정보를 제공합니다.
+>* [게재 오류 이해](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} - 오류 유형, 오류 원인, 동기/비동기 오류, 관리 다시 시도 및 문제 해결
+>* [격리 관리](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} - 격리 및 격리, 소프트 오류 임계값, 주소 제거 관련 정보를 제공합니다.
 >
 >이 페이지는 하이브리드 및 온-프레미스 배포의 바운스 메일 및 격리 관리를 위한 **Campaign Classic v7별 구성**&#x200B;을 문서화합니다.
 
 ## 게재 실패 이해
 
-일반적인 게재 실패 개념, 오류 유형 및 문제 해결 지침은 [Campaign v8 게재 실패 이해 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}를 참조하세요.
+일반적인 게재 실패 개념, 오류 유형 및 문제 해결 지침은 [Campaign v8 게재 실패 이해 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}를 참조하세요.
 
 ## 바운스 메일 구성 {#bounce-mail-config}
 
@@ -49,11 +49,11 @@ ht-degree: 1%
 
 ![](assets/tech_quarant_rules_qualif.png)
 
-이 오류 유형이 처음 발생할 때 원격 서버에서 반환된 메시지가 **[!UICONTROL First text]** 테이블의 **[!UICONTROL Delivery log qualification]** 열에 표시됩니다. 이 열이 표시되지 않으면 목록의 오른쪽 하단에 있는 **[!UICONTROL Configure list]** 단추를 클릭하여 선택하십시오.
+이 오류 유형이 처음 발생할 때 원격 서버에서 반환된 메시지가 **[!UICONTROL Delivery log qualification]** 테이블의 **[!UICONTROL First text]** 열에 표시됩니다. 이 열이 표시되지 않으면 목록의 오른쪽 하단에 있는 **[!UICONTROL Configure list]** 단추를 클릭하여 선택하십시오.
 
 ![](assets/tech_quarant_rules_qualif_text.png)
 
-Adobe Campaign은 이 메시지를 필터링하여 변수 콘텐츠(예: ID, 날짜, 이메일 주소, 전화번호 등)를 삭제하고 필터링된 결과를 **[!UICONTROL Text]** 열에 표시합니다. 변수는 **`#xxx#`**(으)로 대체된 주소를 제외하고 **`*`**(으)로 대체됩니다.
+Adobe Campaign은 이 메시지를 필터링하여 변수 콘텐츠(예: ID, 날짜, 이메일 주소, 전화번호 등)를 삭제합니다. 필터링된 결과를 **[!UICONTROL Text]** 열에 표시합니다. 변수는 **`*`**(으)로 대체된 주소를 제외하고 **`#xxx#`**(으)로 대체됩니다.
 
 이 프로세스를 통해 동일한 유형의 모든 오류를 종합하고 게재 로그 자격 표에서 유사한 오류에 대한 여러 항목을 방지할 수 있습니다.
 
@@ -127,7 +127,7 @@ Adobe Campaign은 이 메시지를 필터링하여 변수 콘텐츠(예: ID, 날
 
 * **[!UICONTROL Limit]**: 기간당 허용되는 최대 메시지 수입니다.
 
-* **[!UICONTROL Type]**: 전송 동작을 확인하는 데 사용되는 오류 유형(하드, 소프트 또는 무시됨)입니다. 오류 유형 정의는 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}를 참조하세요.
+* **[!UICONTROL Type]**: 전송 동작을 확인하는 데 사용되는 오류 유형(하드, 소프트 또는 무시됨)입니다. 오류 유형 정의는 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}를 참조하세요.
 
 MX 관리에 대한 자세한 내용은 [이 섹션](../../installation/using/email-deliverability.md#about-mx-rules)을 참조하세요.
 
@@ -137,7 +137,7 @@ MX 관리에 대한 자세한 내용은 [이 섹션](../../installation/using/em
 
 ## 격리 관리 {#quarantine-management}
 
-포괄적인 격리 관리 지침은 [Campaign v8 격리 관리 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}를 참조하세요.
+포괄적인 격리 관리 지침은 [Campaign v8 격리 관리 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}를 참조하세요.
 
 ## 격리 구성 {#quarantine-config}
 
@@ -157,7 +157,7 @@ MX 관리에 대한 자세한 내용은 [이 섹션](../../installation/using/em
 
 오류 카운터가 임계값에 도달하면 주소가 격리됩니다. 마지막으로 중요한 오류가 10일 이상 전에 발생한 경우 오류 카운터가 다시 초기화됩니다.
 
-자세한 내용은 [게재 보내기](communication-channels.md) > **다시 시도 구성**&#x200B;에서 **이 페이지**&#x200B;를 참조하세요.
+자세한 내용은 **게재 보내기** > **다시 시도 구성**&#x200B;에서 [이 페이지](communication-channels.md)를 참조하세요.
 
 >[!NOTE]
 >
@@ -173,7 +173,7 @@ MX 관리에 대한 자세한 내용은 [이 섹션](../../installation/using/em
 
 * 게재 성공 후 **[!UICONTROL With errors]** 상태의 주소
 * 마지막 소프트 바운스가 10일 이상 전에 발생한 경우 **[!UICONTROL With errors]** 상태의 주소
-* 30일 후 **[!UICONTROL With errors]** 오류가 발생한 **[!UICONTROL Mailbox full]** 상태의 주소
+* 30일 후 **[!UICONTROL Mailbox full]** 오류가 발생한 **[!UICONTROL With errors]** 상태의 주소
 
 이 워크플로우가 격리 목록 위생 상태를 유지하기 위해 정기적으로(권장: 매일) 실행되는지 확인하십시오.
 
@@ -189,7 +189,7 @@ Campaign Classic v7의 경우 푸시 알림 격리는 일부 채널별 동작과
 
 **iOS** 및 **Android** 푸시 알림의 경우 격리 메커니즘에서 전자 메일 주소가 아닌 장치 토큰을 사용합니다. 모바일 애플리케이션을 제거하거나 다시 설치하면 연결된 토큰이 격리됩니다.
 
-푸시 알림 격리 시나리오(iOS 및 Android 오류 유형, 다시 시도 동작 등)에 대한 자세한 내용은 포괄적인 푸시 알림 오류 유형 표를 포함하는 [게재 오류 이해](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} 설명서를 참조하십시오.
+푸시 알림 격리 시나리오(iOS 및 Android 오류 유형, 다시 시도 동작 등)에 대한 자세한 내용은 포괄적인 푸시 알림 오류 유형 표를 포함하는 [게재 오류 이해](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} 설명서를 참조하십시오.
 
 ### SMS 격리 세부 정보 {#sms-quarantine-specifics}
 
@@ -201,14 +201,14 @@ SMS 격리 메커니즘은 사용되는 커넥터에 따라 다릅니다.
 
 * **확장된 일반 SMPP 커넥터**: SMSC 공급자가 반환한 SR(상태 보고서) 메시지를 구문 분석하기 위해 오류 관리는 정규 표현식(정규 표현식)을 사용하여 다르게 처리됩니다.
 
-SMS 격리 시나리오 및 오류 유형에 대한 자세한 내용은 포괄적인 SMS 오류 유형 표를 포함하는 [게재 오류 이해](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} 설명서를 참조하십시오.
+SMS 격리 시나리오 및 오류 유형에 대한 자세한 내용은 포괄적인 SMS 오류 유형 표를 포함하는 [게재 오류 이해](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} 설명서를 참조하십시오.
 
 ## 관련 항목
 
-* [게재 실패 이해](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}(Campaign v8 설명서)
-* [격리 관리](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}(Campaign v8 설명서)
+* [게재 실패 이해](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}(Campaign v8 설명서)
+* [격리 관리](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}(Campaign v8 설명서)
 * [게재 모범 사례](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}(Campaign v8 설명서)
-* [게재 상태](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"}(Campaign v8 설명서)
+* [게재 상태](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"}(Campaign v8 설명서)
 * [데이터베이스 정리 워크플로우](../../production/using/database-cleanup-workflow.md)(v7 하이브리드/온-프레미스)
 * [게재 다시 시도 구성](communication-channels.md)(v7 하이브리드/온-프레미스)
 * [바운스 자격 업데이트](update-bounce-qualification.md)(v7 하이브리드/온-프레미스)

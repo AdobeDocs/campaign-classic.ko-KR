@@ -9,7 +9,7 @@ topic-tags: deployment-types-
 exl-id: 8a4d7ef1-de5b-4aee-a527-1b74d987ba61
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '380'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
 ![](assets/s_ncs_install_midsourcing.png)
 
 * 실행 및 바운스 관리 모듈은 인스턴스에서 비활성화됩니다.
-* SOAP 호출을 사용하여 구동되는 원격 &quot;중간 소스&quot; 서버에서(HTTP 또는 HTTPS를 통해) 메시지를 실행하도록 애플리케이션이 구성됩니다.
+* 이 애플리케이션은 SOAP 호출을 사용하여 구동되는 원격 &quot;중간 소스&quot; 서버에서(HTTP 또는 HTTPS를 통해) 메시지 실행을 수행하도록 구성됩니다.
 
 ## 기능 {#features}
 

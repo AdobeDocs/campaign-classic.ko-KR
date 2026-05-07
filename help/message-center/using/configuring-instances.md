@@ -9,8 +9,8 @@ topic-tags: instance-configuration
 exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
 source-git-commit: 221e2ccdaadf793212fcacdf5e13823f1505f4dc
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 1%
+source-wordcount: '1256'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 
 트랜잭션 메시지 기능을 사용하려면 컨트롤 및 실행 인스턴스를 구성해야 합니다. 다음 중 하나를 사용할 수 있습니다.
-* 하나 또는 여러 실행 인스턴스와 연결된 [컨트롤 인스턴스 &#x200B;](#control-instance)
+* 하나 또는 여러 실행 인스턴스와 연결된 [컨트롤 인스턴스 ](#control-instance)
 * 여러 실행 인스턴스와 연결된 [여러 컨트롤 인스턴스](#using-several-control-instances)
 
 >[!IMPORTANT]

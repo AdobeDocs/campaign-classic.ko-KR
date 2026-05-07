@@ -7,7 +7,7 @@ hide: true
 exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '372'
 ht-degree: 2%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 2%
      >
      >추가 열을 만들고 관리하는 방법에 대한 자세한 내용은 [데이터 추가](query.md#adding-data)를 참조하세요.
 
-   * 이전 타겟팅 차원(축 전환 전)을 선택하고 받는 사람의 **[!UICONTROL Zip Code]** 하위 트리에서 **[!UICONTROL Location]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Edit expression]**&#x200B;을(를) 클릭합니다.
+   * 이전 타겟팅 차원(축 전환 전)을 선택하고 받는 사람의 **[!UICONTROL Location]** 하위 트리에서 **[!UICONTROL Zip Code]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Edit expression]**&#x200B;을(를) 클릭합니다.
 
      ![](assets/wf_change-dimension_sample_02.png)
 

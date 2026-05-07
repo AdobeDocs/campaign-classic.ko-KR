@@ -8,7 +8,7 @@ exl-id: 12b173e9-5068-4d45-9e1e-2aecc9866e9c
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '615'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -34,11 +34,11 @@ ht-degree: 1%
 1. 쿼리를 만듭니다. 여기서 목표는 데이터베이스의 모든 수신자로부터 마지막으로 알려진 생성 날짜를 계산하는 것입니다. 따라서 쿼리에 필터가 없습니다.
 1. **[!UICONTROL Add data]**&#x200B;을(를) 선택합니다.
 1. 열려 있는 창에서 **[!UICONTROL Data linked to the filtering dimension]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Filtering dimension data]**&#x200B;을(를) 선택합니다.
-1. **[!UICONTROL Data to add]** 창에서 수신자 테이블의 **생성 날짜** 필드에 대한 최대값을 계산하는 열을 추가합니다. 표현식 편집기를 사용하거나 **열의 필드에 직접** max(@created)**[!UICONTROL Expression]**&#x200B;을(를) 입력할 수 있습니다. **[!UICONTROL Finish]** 단추를 클릭합니다.
+1. **[!UICONTROL Data to add]** 창에서 수신자 테이블의 **생성 날짜** 필드에 대한 최대값을 계산하는 열을 추가합니다. 표현식 편집기를 사용하거나 **[!UICONTROL Expression]** 열의 필드에 직접 **max(@created)**&#x200B;을(를) 입력할 수 있습니다. **[!UICONTROL Finish]** 단추를 클릭합니다.
 
    ![](assets/datamanagement_usecase_2.png)
 
-1. **[!UICONTROL Edit additional data]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Advanced parameters...]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Disable automatic adding of the primary keys of the targeting dimension]** 옵션을 선택합니다.
+1. **[!UICONTROL Edit additional data]**&#x200B;을(를) 클릭한 뒤 **[!UICONTROL Advanced parameters...]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Disable automatic adding of the primary keys of the targeting dimension]** 옵션을 선택합니다.
 
    이 옵션을 사용하면 모든 수신자가 결과로 표시되지 않고 명시적으로 추가된 데이터가 유지되지 않습니다. 이 경우 수신자가 마지막으로 생성된 날짜를 나타냅니다.
 

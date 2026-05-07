@@ -7,7 +7,7 @@ hide: true
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '716'
 ht-degree: 2%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 2%
 
 방법은 다음과 같습니다.
 
-1. **[!UICONTROL Create]** 탭의 **[!UICONTROL Reports]** 단추를 클릭하고 방금 만든 큐브를 선택합니다.
+1. **[!UICONTROL Reports]** 탭의 **[!UICONTROL Create]** 단추를 클릭하고 방금 만든 큐브를 선택합니다.
 
    ![](assets/s_advuser_cube_wz_14.png)
 

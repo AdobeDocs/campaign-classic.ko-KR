@@ -10,8 +10,8 @@ topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 source-git-commit: ab38c7fd45513c6f7a8ecf7ef8601f0b5a4b5757
 workflow-type: tm+mt
-source-wordcount: '1113'
-ht-degree: 1%
+source-wordcount: '1145'
+ht-degree: 3%
 
 ---
 
@@ -143,7 +143,7 @@ touch /usr/local/neolane/nl6/unicodeenv
 
 필요한 경우 **vi customer.sh** 명령을 사용하여 **customer.sh** 파일을 편집하고 구성을 조정하거나 누락된 줄을 추가합니다.
 
-* oracle 클라이언트의 경우:
+* Oracle 클라이언트의 경우:
 
   ```sql
   export ORACLE_HOME=/usr/local/instantclient_10_2
@@ -151,7 +151,7 @@ touch /usr/local/neolane/nl6/unicodeenv
   export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH 
   ```
 
-  oracle_HOME 환경 변수의 내용은 Oracle 설치 디렉토리와 일치합니다.
+  Oracle_HOME 환경 변수의 콘텐츠는 Oracle 설치 디렉토리와 일치합니다.
 
   TNS_ADMIN 변수의 콘텐츠는 **tnsnames.ora** 파일의 위치와 일치해야 합니다.
 
@@ -204,9 +204,9 @@ systemctl stop nlserver
 systemctl start nlserver
 ```
 
-### Linux의 oracle 클라이언트 {#oracle-client-in-linux}
+### Linux의 Oracle 클라이언트 {#oracle-client-in-linux}
 
-Adobe Campaign에서 Oracle을 사용할 때 Linux에서 Oracle 클라이언트 레이어를 구성해야 합니다.
+Adobe Campaign과 함께 Oracle을 사용하는 경우 Linux에서 Oracle 클라이언트 계층을 구성해야 합니다.
 
 * 전체 클라이언트 사용
 * TNS 정의

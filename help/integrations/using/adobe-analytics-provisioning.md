@@ -9,8 +9,8 @@ level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 source-git-commit: 84e6b2fad97f0ca5d6621cff4648e0be0bef7521
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 1%
+source-wordcount: '702'
+ht-degree: 5%
 
 ---
 
@@ -54,7 +54,7 @@ Analytics 제품 프로필이 이미 있는 경우 Analytics 커넥터에만 사
 
    ![](assets/do-not-localize/triggers_1.png)
 
-1. **[!UICONTROL New Profile]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL New Profile]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/do-not-localize/triggers_2.png)
 
@@ -114,4 +114,4 @@ Adobe Analytics 커넥터 구성을 계속하려면 Adobe Developer 콘솔에 �
 
 ## 구성 및 사용 {#adobe-analytics-connector-usage}
 
-[Adobe Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}에서 Adobe Analytics 및 Adobe Campaign을 사용하여 작업하는 방법을 알아보세요.
+[Adobe Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}에서 Adobe Analytics 및 Adobe Campaign을 사용하여 작업하는 방법을 알아보세요.

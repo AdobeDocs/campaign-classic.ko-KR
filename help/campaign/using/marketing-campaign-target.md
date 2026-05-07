@@ -8,7 +8,7 @@ hide: true
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1508'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 1%
 
 타겟팅은 스케줄(스케줄러) 또는 이벤트(외부 신호, 파일 가져오기 등)에 따라 자동 실행을 위해 프로그래밍될 수 있다.
 
-타깃팅 워크플로우 실행(실행, 중지, 일시 중지 등)과 관련된 작업은 **비동기** 프로세스입니다. 명령은 저장되며 서버에서 해당 명령을 적용할 수 있게 되면 즉시 적용됩니다.
+타겟팅 워크플로우 실행과 관련된 작업(실행, 중지, 일시 중지 등) **비동기** 프로세스입니다. 명령이 저장되며 서버에서 명령을 적용할 수 있는 즉시 적용됩니다.
 
 도구 모음 아이콘을 사용하면 타겟팅 워크플로우 실행에 관한 작업을 수행할 수 있습니다.
 
@@ -204,7 +204,7 @@ ht-degree: 1%
 >
 >캠페인에 대한 컨트롤 그룹을 정의했으며 이 캠페인에 연결된 게재에도 구성한 경우 게재에 대해 정의된 컨트롤 그룹만 적용됩니다.
 
-1. 관련 게재를 편집한 다음 **[!UICONTROL To]** 섹션에서 **[!UICONTROL Email parameters]** 링크를 클릭합니다.
+1. 관련 게재를 편집한 다음 **[!UICONTROL Email parameters]** 섹션에서 **[!UICONTROL To]** 링크를 클릭합니다.
 
    ![](assets/s_ncs_user_edit_op_target_del.png)
 
@@ -245,6 +245,6 @@ ht-degree: 1%
 
 이 비디오에서는 Adobe Campaign에서 캠페인 및 이메일을 만드는 방법을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31872?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

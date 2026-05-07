@@ -7,7 +7,7 @@ feature: Web Forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
 source-git-commit: 1d4990917fea54e67ed23cd0771295de03a4f01a
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1379'
 ht-degree: 1%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 1%
 
 이러한 이미지는 인스턴스 *datakit\nms\fra\img\activities* 또는 *datakit\nms\eng\img\activities*&#x200B;의 백 엔드 디렉터리에 배치됩니다(인스턴스의 언어에 따라 eng 또는 fra).
 
-이 디렉터리(및 이미지)에서 사용할 수 있는 새 이미지를 얻으려면 Adobe 지원 팀에 문의하여 백엔드 디렉터리를 변경하십시오.
+이 디렉터리(및 이미지)에서 새 이미지를 사용할 수 있도록 하려면 Adobe 지원에 문의하여 백엔드 디렉터리를 변경합니다.
 
 온-프레미스 인스턴스의 경우 직접 데이터 키트에 이미지를 추가할 수 있습니다.
 

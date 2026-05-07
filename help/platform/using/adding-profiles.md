@@ -9,8 +9,8 @@ exl-id: befa8948-ef2e-4f4d-a002-3f26d8516a0d
 hide: true
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 16%
+source-wordcount: '73'
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->Adobe Campaign 콘솔에서 프로필을 만드는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/getting-started/profile-management/adding-profiles){target=_blank}를 참조하세요.
+>Adobe Campaign 콘솔에서 프로필을 만드는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/profile-management/adding-profiles){target=_blank}를 참조하세요.
 
 
 <!--

@@ -10,7 +10,7 @@ hide: true
 exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 0%
 
   가장 먼저 확인해야 할 사항은 워크플로우가 오류 없이 완료되었는지 여부입니다. **[!UICONTROL List update]** 활동에 오류가 표시되면 Campaign Standard과의 동기화가 실패할 수 있습니다. 무엇이 잘못되었는지 자세히 확인하려면 **[!UICONTROL Administration]** > **[!UICONTROL ACS Connector]** > **[!UICONTROL Process]** > **[!UICONTROL Diagnosis]**(으)로 이동하십시오. 이 폴더에는 **[!UICONTROL List update]** 활동 실행에 의해 트리거된 동기화 워크플로가 있습니다.
 
-  또한 **[!UICONTROL Share with ACS]** 활동에서 **[!UICONTROL List update]** 옵션이 선택되어 있고 워크플로우가 올바르게 실행되었는지 확인하십시오.
+  또한 **[!UICONTROL List update]** 활동에서 **[!UICONTROL Share with ACS]** 옵션이 선택되어 있고 워크플로우가 올바르게 실행되었는지 확인하십시오.
 
   목록에 포함된 수신자 프로필은 워크플로우 실행 전에 Campaign Standard과 동기화되어야 합니다. Campaign Standard과 공유되면 목록의 수신자는 Campaign Standard 프로필로 조정되므로 해당 프로필에 존재해야 합니다. Campaign Standard에서 프로필로 조정할 수 없는 목록의 수신자는 무시됩니다.
 

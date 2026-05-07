@@ -7,7 +7,7 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 exl-id: afb11ab5-bd60-4262-9dd1-fcda19cdaca0
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,6 @@ Campaign 기본 제공 보고서에 액세스하려면:
 
 ![](assets/reporting_on_a_delivery.png)
 
-그 원칙은 목록, 서비스, 오퍼 등에도 동일하다. 아래와 같이:
+원칙은 아래와 같이 목록, 서비스, 오퍼 등에 대해 동일합니다.
 
 ![](assets/reporting_on_an_offer.png)

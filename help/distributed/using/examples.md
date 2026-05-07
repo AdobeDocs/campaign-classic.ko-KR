@@ -7,7 +7,7 @@ hide: true
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 로컬 캠페인 만들기(양식별) {#creating-a-local-campaign--by-form-}
 
-**폼** 형식 웹 인터페이스에는 **웹 응용 프로그램**&#x200B;이 사용됩니다. 구성에 따라 이 웹 애플리케이션에는 정의된 모든 유형의 개인화된 요소가 포함될 수 있습니다. 예를 들어 타겟, 예산, 콘텐츠 등을 평가할 수 있는 링크를 제안할 수 있습니다. 전용 API를 통해
+**폼** 형식 웹 인터페이스에는 **웹 응용 프로그램**&#x200B;이 사용됩니다. 구성에 따라 이 웹 애플리케이션에는 정의된 모든 유형의 개인화된 요소가 포함될 수 있습니다. 예를 들어 전용 API를 통해 타겟, 예산, 콘텐츠 등을 평가할 수 있는 링크를 제안할 수 있습니다.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >이 예제에 사용된 웹 애플리케이션은 Adobe Campaign에서 바로 사용할 수 있는 웹 앱이 아닙니다. 캠페인에서 양식을 사용하려면 전용 웹 애플리케이션을 만들어야 합니다.
 
-캠페인 템플릿을 만들 때 **[!UICONTROL Zoom]** 링크의 **[!UICONTROL Web interface]** 옵션 내에 있는 **[!UICONTROL Advanced campaign settings...]** 아이콘을 클릭하여 웹 애플리케이션의 세부 정보에 액세스합니다.
+캠페인 템플릿을 만들 때 **[!UICONTROL Advanced campaign settings...]** 링크의 **[!UICONTROL Web interface]** 옵션 내에 있는 **[!UICONTROL Zoom]** 아이콘을 클릭하여 웹 애플리케이션의 세부 정보에 액세스합니다.
 
 ![](assets/mkg_dist_local_op_form1.png)
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 #### 데이터 배포 활동 만들기 {#creating-a-data-distribution-activity}
 
-1. 공동 작업 캠페인을 설정하려면(대상 승인별로) 먼저 **[!UICONTROL Data distribution activity]**&#x200B;을(를) 만들어야 합니다. **[!UICONTROL New]** 노드에서 **[!UICONTROL Resources > Campaign management > Data distribution]** 아이콘을 클릭합니다.
+1. 공동 작업 캠페인을 설정하려면(대상 승인별로) 먼저 **[!UICONTROL Data distribution activity]**&#x200B;을(를) 만들어야 합니다. **[!UICONTROL Resources > Campaign management > Data distribution]** 노드에서 **[!UICONTROL New]** 아이콘을 클릭합니다.
 
    ![](assets/mkg_dist_use_case_target_valid3.png)
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 #### 공동 캠페인 만들기 {#creating-a-collaborative-campaign}
 
 1. **[!UICONTROL Campaign management > Campaign]** 노드에서 새 **[!UICONTROL collaborative campaign (by target approval)]**&#x200B;을(를) 만듭니다.
-1. **[!UICONTROL Targeting and workflows]** 탭에서 캠페인에 대한 워크플로우를 만듭니다. **활동에 의해**&#x200B;이(가) 정의된 **[!UICONTROL Record count limitation]**&#x200B;분할&#x200B;**[!UICONTROL Data distribution]** 활동이 포함되어야 합니다.
+1. **[!UICONTROL Targeting and workflows]** 탭에서 캠페인에 대한 워크플로우를 만듭니다. **[!UICONTROL Data distribution]** 활동에 의해 **[!UICONTROL Record count limitation]**&#x200B;이(가) 정의된 **분할** 활동이 포함되어야 합니다.
 
    ![](assets/mkg_dist_use_case_target_valid5.png)
 
@@ -160,7 +160,7 @@ ht-degree: 0%
 
 #### 캠페인 게시 {#publishing-the-campaign}
 
-이제 **탭에서**&#x200B;캠페인 패키지&#x200B;**[!UICONTROL Campaigns]**&#x200B;를 추가할 수 있습니다.
+이제 **[!UICONTROL Campaigns]** 탭에서 **캠페인 패키지**&#x200B;를 추가할 수 있습니다.
 
 1. **[!UICONTROL Reference campaign]**&#x200B;을(를) 선택하세요. 패키지의 **[!UICONTROL Edit]** 탭에서 캠페인에 사용할 **[!UICONTROL Approval mode]**&#x200B;을(를) 선택할 수 있습니다.
 

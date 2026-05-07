@@ -7,7 +7,7 @@ hide: true
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1260'
 ht-degree: 1%
 
 ---
@@ -42,13 +42,13 @@ ht-degree: 1%
 
    방법은 다음과 같습니다.
 
-   * **[!UICONTROL Add]** 필드 오른쪽에 있는 **[!UICONTROL Output columns]** 아이콘을 클릭합니다. **[!UICONTROL Formula type]** 창에서 **[!UICONTROL Edit the formula using an expression]** 옵션을 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Field to select]** 창에서 **[!UICONTROL Advanced selection]**&#x200B;을(를) 클릭합니다.
+   * **[!UICONTROL Output columns]** 필드 오른쪽에 있는 **[!UICONTROL Add]** 아이콘을 클릭합니다. **[!UICONTROL Formula type]** 창에서 **[!UICONTROL Edit the formula using an expression]** 옵션을 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Field to select]** 창에서 **[!UICONTROL Advanced selection]**&#x200B;을(를) 클릭합니다.
 
      ![](assets/query_editor_tracklog_06.png)
 
    * **[!UICONTROL Formula type]** 창에서 집계 함수에서 프로세스를 실행합니다. 이 프로세스는 기본 키 수가 됩니다.
 
-     **[!UICONTROL Process on an aggregate function]** 섹션에서 **[!UICONTROL Aggregate]**&#x200B;을(를) 선택하고 **[!UICONTROL Count]**&#x200B;을(를) 클릭합니다.
+     **[!UICONTROL Aggregate]** 섹션에서 **[!UICONTROL Process on an aggregate function]**&#x200B;을(를) 선택하고 **[!UICONTROL Count]**&#x200B;을(를) 클릭합니다.
 
      ![](assets/query_editor_nveau_18.png)
 
@@ -58,11 +58,11 @@ ht-degree: 1%
 
      ![](assets/query_editor_nveau_19.png)
 
-1. 출력 열에 표시할 다른 필드를 선택합니다. **[!UICONTROL Available fields]** 열에서 **[!UICONTROL Recipient]** 노드를 열고 **[!UICONTROL Email]**&#x200B;을(를) 선택합니다. 전자 메일 주소로 추적 로그를 그룹화하려면 **[!UICONTROL Group]**&#x200B;의 **[!UICONTROL Yes]** 상자를 선택하십시오. 이 그룹은 각 로그를 수신자에게 연결합니다.
+1. 출력 열에 표시할 다른 필드를 선택합니다. **[!UICONTROL Available fields]** 열에서 **[!UICONTROL Recipient]** 노드를 열고 **[!UICONTROL Email]**&#x200B;을(를) 선택합니다. 전자 메일 주소로 추적 로그를 그룹화하려면 **[!UICONTROL Yes]**&#x200B;의 **[!UICONTROL Group]** 상자를 선택하십시오. 이 그룹은 각 로그를 수신자에게 연결합니다.
 
    ![](assets/query_editor_nveau_20.png)
 
-1. 가장 활동적인 수신자(가장 많은 추적 로그 포함)가 먼저 표시되도록 열 정렬을 구성합니다. **[!UICONTROL Yes]** 열에서 **[!UICONTROL Descending sort]**&#x200B;을(를) 확인합니다.
+1. 가장 활동적인 수신자(가장 많은 추적 로그 포함)가 먼저 표시되도록 열 정렬을 구성합니다. **[!UICONTROL Descending sort]** 열에서 **[!UICONTROL Yes]**&#x200B;을(를) 확인합니다.
 
    ![](assets/query_editor_nveau_64.png)
 
@@ -76,7 +76,7 @@ ht-degree: 1%
 
    * 특정 게재에 대해 지정된 기간 동안 추적 로그를 복구합니다. 현재 날짜의 2주 전과 현재 날짜의 전날 사이에서 검색 기간을 설정하는 두 개의 날짜 조건과 특정 게재로 검색을 제한하는 다른 조건, 이렇게 세 가지 필터링 조건이 필요합니다.
 
-     **[!UICONTROL Target element]** 창에서 추적 로그를 고려할 시작 날짜를 구성합니다. **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다. 조건 줄이 표시됩니다. **[!UICONTROL Expression]** 함수를 클릭하여 **[!UICONTROL Edit expression]** 열을 편집합니다. **[!UICONTROL Field to select]** 창에서 **[!UICONTROL Date (@logDate)]**&#x200B;을(를) 선택합니다.
+     **[!UICONTROL Target element]** 창에서 추적 로그를 고려할 시작 날짜를 구성합니다. **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다. 조건 줄이 표시됩니다. **[!UICONTROL Edit expression]** 함수를 클릭하여 **[!UICONTROL Expression]** 열을 편집합니다. **[!UICONTROL Field to select]** 창에서 **[!UICONTROL Date (@logDate)]**&#x200B;을(를) 선택합니다.
 
      ![](assets/query_editor_nveau_23.png)
 
@@ -96,7 +96,7 @@ ht-degree: 1%
 
      이제 쿼리와 관련된 세 번째 필터 조건, 즉 게재 레이블을 구성하려고 합니다.
 
-   * 다른 필터링 조건을 만들려면 **[!UICONTROL Add]** 함수를 클릭하십시오. **[!UICONTROL Expression]** 열에서 **[!UICONTROL Edit expression]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Field to select]** 창의 **[!UICONTROL Label]** 노드에서 **[!UICONTROL Delivery]**&#x200B;을(를) 선택합니다.
+   * 다른 필터링 조건을 만들려면 **[!UICONTROL Add]** 함수를 클릭하십시오. **[!UICONTROL Expression]** 열에서 **[!UICONTROL Edit expression]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Field to select]** 창의 **[!UICONTROL Delivery]** 노드에서 **[!UICONTROL Label]**&#x200B;을(를) 선택합니다.
 
      **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
@@ -106,7 +106,7 @@ ht-degree: 1%
 
      ![](assets/query_editor_nveau_25.png)
 
-1. **[!UICONTROL Next]** 창으로 이동할 때까지 **[!UICONTROL Data preview]**&#x200B;을(를) 클릭합니다. 여기에는 서식이 필요하지 않습니다.
+1. **[!UICONTROL Data preview]** 창으로 이동할 때까지 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다. 여기에는 서식이 필요하지 않습니다.
 1. **[!UICONTROL Data preview]** 창에서 **[!UICONTROL Start the preview of the data]**&#x200B;을(를) 클릭하여 각 게재 수신자에 대한 추적 로그 수를 확인합니다.
 
    결과는 내림차순으로 표시됩니다.
@@ -128,11 +128,11 @@ ht-degree: 1%
 
 1. **[!UICONTROL Filtering conditions]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Add]** 단추를 클릭하고 **[!UICONTROL Tracking logs]**&#x200B;을(를) 선택합니다.
-1. **[!UICONTROL Operator]** 식의 **[!UICONTROL Tracking logs]**&#x200B;을(를) **[!UICONTROL Do not exist such as]**(으)로 설정합니다.
+1. **[!UICONTROL Tracking logs]** 식의 **[!UICONTROL Operator]**&#x200B;을(를) **[!UICONTROL Do not exist such as]**(으)로 설정합니다.
 
    ![](assets/query_open_1.png)
 
-1. 다른 표현식을 추가합니다. **[!UICONTROL Type]** 범주에서 **[!UICONTROL URL]**&#x200B;을(를) 선택합니다.
+1. 다른 표현식을 추가합니다. **[!UICONTROL URL]** 범주에서 **[!UICONTROL Type]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Operator]**&#x200B;을(를) **[!UICONTROL equal to]**(으)로 설정하고 **[!UICONTROL Value]**&#x200B;을(를) **[!UICONTROL Open]**(으)로 설정합니다.
 
    ![](assets/query_open_2.png)
@@ -141,7 +141,7 @@ ht-degree: 1%
 
    ![](assets/query_open_3.png)
 
-1. 최근 7일 값을 설정하려면 **[!UICONTROL Edit expression]** 필드의 **[!UICONTROL Value]** 단추를 클릭합니다.
+1. 최근 7일 값을 설정하려면 **[!UICONTROL Value]** 필드의 **[!UICONTROL Edit expression]** 단추를 클릭합니다.
 1. **[!UICONTROL Function]** 범주에서 **[!UICONTROL Current date minus n days]**&#x200B;을(를) 선택하고 타깃팅할 일수를 추가합니다. 여기에서는 지난 7일을 타겟팅하려고 합니다.
 
    ![](assets/query_open_4.png)
@@ -170,7 +170,7 @@ ht-degree: 1%
 
    ![](assets/s_advuser_query_sample1.4.png)
 
-   그런 다음 **[!UICONTROL Edit expression]** 열의 **[!UICONTROL Value]** 아이콘을 클릭하여 적용할 계산 공식을 정의합니다. **[!UICONTROL Current date minus n days]** 수식을 선택하고 관련 필드에 15를 입력합니다.
+   그런 다음 **[!UICONTROL Value]** 열의 **[!UICONTROL Edit expression]** 아이콘을 클릭하여 적용할 계산 공식을 정의합니다. **[!UICONTROL Current date minus n days]** 수식을 선택하고 관련 필드에 15를 입력합니다.
 
    ![](assets/s_advuser_query_sample1.5.png)
 
@@ -203,7 +203,7 @@ ht-degree: 1%
    ![](assets/query_editor_ex_04.png)
 
 1. **[!UICONTROL Subsets]** 탭에서 첫 번째 분할 분기를 정의합니다. 예를 들어 이 분기의 **클릭됨** 레이블을 입력합니다.
-1. **[!UICONTROL Add a filtering condition on the incoming population]** 옵션을 선택하십시오. **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Add a filtering condition on the incoming population]** 옵션을 선택합니다. **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Targeting and filtering dimension]** 창에서 **[!UICONTROL Recipients of a delivery]** 필터를 두 번 클릭합니다.
 
    ![](assets/query_editor_ex_05.png)
@@ -225,7 +225,7 @@ ht-degree: 1%
 
    ![](assets/query_editor_ex_07.png)
 
-1. **[!UICONTROL Delivery recipients]** 창에서 **[!UICONTROL Targeting and filtering dimension]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Targeting and filtering dimension]** 창에서 **[!UICONTROL Delivery recipients]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Target element]** 창에서 **[!UICONTROL Recipients who did not click (email)]** 동작을 선택합니다. 마지막 분기에 표시된 대로 **[!UICONTROL Delivery specified by the transition]** 옵션을 선택합니다.
 
    이제 **[!UICONTROL Split]** 상자가 완전히 구성되었습니다.

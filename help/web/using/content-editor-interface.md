@@ -7,7 +7,7 @@ feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '547'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ DCE 편집 창은 세 개의 서로 다른 섹션으로 분류됩니다. 이를 
 
 ![](assets/dce_decoupe_window_nb.png)
 
-1. **top** 섹션은 사용자에게 보내는 메시지를 표시하는 영역입니다. 이러한 메시지는 웹 애플리케이션 상태 또는 작성 중인 게재의 상태와 콘텐츠와 관련된 경고 및 오류 메시지를 나타냅니다. 자세한 내용은 [콘텐츠 상태 HTML](content-editing-best-practices.md#html-content-statuses)를 참조하세요.
+1. **top** 섹션은 사용자에게 보내는 메시지를 표시하는 영역입니다. 이러한 메시지는 웹 애플리케이션 상태 또는 작성 중인 게재의 상태와 콘텐츠와 관련된 경고 및 오류 메시지를 나타냅니다. 자세한 내용은 [HTML 콘텐츠 상태](content-editing-best-practices.md#html-content-statuses)를 참조하세요.
 1. 창의 **left** 섹션은 콘텐츠를 편집하는 영역입니다. 이 영역에서 사용자는 팝업 도구 모음을 사용하여 콘텐츠와 직접 상호 작용할 수 있습니다. 이미지에 링크 삽입, 글꼴 변경, 필드 삭제 등 자세한 내용은 [양식 편집](editing-content.md#editing-forms)을 참조하세요.
 1. 창의 **오른쪽** 섹션은 컨트롤 패널 영역입니다. 이 영역에는 편집기에 대한 다양한 옵션, 특히 블록 페이지 머리글과 일반 옵션 구성과 관련된 옵션(테두리 추가, 데이터베이스 필드를 입력 영역에 연결, 웹 페이지 속성에 액세스 등)이 그룹화됩니다. 자세한 내용은 [전역 옵션](#global-options) 및 [콘텐츠 편집](editing-content.md) 섹션을 참조하십시오.
 

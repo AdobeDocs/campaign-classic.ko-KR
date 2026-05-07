@@ -10,8 +10,8 @@ topic-tags: prerequisites-and-recommendations-
 exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 1%
+source-wordcount: '725'
+ht-degree: 4%
 
 ---
 
@@ -234,7 +234,7 @@ Adobe Campaign과 Adobe Experience Manager을 통합하려면 설치가 &quot;�
   </tr> 
   <tr> 
    <td> 80<br /> </td> 
-   <td> Adobe Campaign<br />에 AEM 연결 </td> 
+   <td> Adobe Campaign<br />에 대한 AEM 연결 </td> 
   </tr> 
   <tr> 
    <td><p> 4502</p><p> 4503</p><br /> </td> 

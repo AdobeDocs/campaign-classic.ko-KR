@@ -7,8 +7,8 @@ feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
 source-git-commit: 2186b8a30449cb023cb07305ba64d53f2c8adab1
 workflow-type: tm+mt
-source-wordcount: '2292'
-ht-degree: 6%
+source-wordcount: '2330'
+ht-degree: 8%
 
 ---
 
@@ -52,11 +52,11 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->인스턴스가 AWS에서 호스팅되는 경우 Campaign Classic [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ko)을(를) 사용하여 시간당 전송된 게재 수를 모니터링할 수도 있습니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ko)에 설명된 단계를 수행합니다.
+>인스턴스가 AWS에서 호스팅되는 경우 Campaign Classic [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html)을(를) 사용하여 시간당 전송된 게재 수를 모니터링할 수도 있습니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ko)에 설명된 단계를 수행합니다.
 >
 >컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
 >
->인스턴스가 최신 [Gold Standard](../../rn/using/gold-standard.md) 빌드 또는 [최신 GA 빌드(21.1.3)](../../rn/using/latest-release.md)로 업그레이드되어야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 버전을 확인하는 방법을 알아보세요.
+>인스턴스가 최신 [Gold Standard](../../rn/using/gold-standard.md) 빌드 또는 [최신 GA 빌드(21.1.3)](../../rn/using/latest-release.md)로 업그레이드되어야 합니다. [이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전을 확인하는 방법을 알아봅니다.
 
 ## 사용자 활동 {#user-activities}
 
@@ -126,7 +126,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->이 보고서에 표시되는 도메인 이름은 큐브 수준에서 정의됩니다. 이 값을 변경하려면 **[!UICONTROL Delivery logs (broadlogrcp)]** 큐브를 편집하십시오. 자세한 정보는 [이 섹션](../../reporting/using/ac-cubes.md)을 참조하세요. **[!UICONTROL Others]** 범주에 특정 클래스에 속하지 않는 도메인 이름이 포함되어 있습니다.
+>이 보고서에 표시되는 도메인 이름은 큐브 수준에서 정의됩니다. 이 값을 변경하려면 **[!UICONTROL Delivery logs (broadlogrcp)]** 큐브를 편집하십시오. 이 작업에 대한 자세한 정보는 [이 섹션](../../reporting/using/ac-cubes.md)을 참조하십시오. **[!UICONTROL Others]** 범주에 특정 클래스에 속하지 않는 도메인 이름이 포함되어 있습니다.
 
 ## 브라우저 {#browsers}
 
@@ -167,9 +167,9 @@ ht-degree: 6%
 
 ### 소셜 네트워크에 공유 {#sharing-to-social-networks}
 
-바이럴 마케팅을 통해 게재 수신자는 연락처 네트워크와 정보를 공유할 수 있습니다. 프로필(Facebook, X - 이전 Twitter 등)에 링크를 추가하거나 친구에게 메시지를 보낼 수 있습니다. 각 공유 및 공유 정보에 대한 각 액세스는 게재 내에서 추적됩니다. 바이럴 마케팅에 대한 자세한 내용은 [이 섹션](../../delivery/using/viral-and-social-marketing.md)을 참조하세요.
+바이럴 마케팅을 통해 게재 수신자는 연락처 네트워크와 정보를 공유할 수 있습니다. 프로필에 링크를 추가할 수 있습니다(Facebook, X - 이전 명칭: Twitter 등). 또는 친구에게 메시지를 보냅니다. 각 공유 및 공유 정보에 대한 각 액세스는 게재 내에서 추적됩니다. 바이럴 마케팅에 대한 자세한 내용은 [이 섹션](../../delivery/using/viral-and-social-marketing.md)을 참조하세요.
 
-이 보고서는 소셜 네트워크(Facebook, X 등) 및/또는 이메일별로 공유 및 열린 메시지의 분류를 보여줍니다.
+이 보고서는 소셜 네트워크당 공유 및 열린 메시지(Facebook, X 등)의 분류를 보여줍니다. 및/또는 이메일당.
 
 ![](assets/s_ncs_user_social_report.png)
 
@@ -202,7 +202,7 @@ ht-degree: 6%
 
 ## 공유 활동에 대한 통계 {#statistics-on-sharing-activities}
 
-이 보고서는 소셜 네트워크(Facebook, X - 이전에는 Twitter, 이메일 등으로 알려짐)로의 공유 변화를 적시에 보여줍니다.
+이 보고서는 소셜 네트워크(Facebook, X - 이전에는 Twitter, 이메일 등으로 알려짐)에 대한 공유의 발전을 보여 줍니다. 늦지 않게
 
 바이럴 마케팅에 대한 자세한 내용은 [이 섹션](../../delivery/using/viral-and-social-marketing.md)을 참조하세요.
 

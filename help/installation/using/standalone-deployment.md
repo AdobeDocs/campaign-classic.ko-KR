@@ -9,7 +9,7 @@ topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1094'
 ht-degree: 2%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 2%
    * 처음으로 공개 IP에서 컴퓨터를 추적하고 가리키기 위해 대중에게 노출되었습니다.
    * 콘솔 액세스를 위해 내부 사용자에게 노출되고 동일한 컴퓨터를 가리키는 두 번째 별칭입니다.
 
-* SMTP(25), DNS(53), HTTP(80), HTTPS(443), SQL(Oracle의 경우 1521, PostgreSQL의 경우 5432 등)을 열도록 구성된 방화벽 포트입니다. 자세한 내용은 [네트워크 구성](../../installation/using/network-configuration.md)을 참조하세요.
+* SMTP(25), DNS(53), HTTP(80), HTTPS(443), SQL(1521 for Oracle, 5432 for PostgreSQL 등)을 열도록 구성된 방화벽 포트입니다. 자세한 내용은 [네트워크 구성](../../installation/using/network-configuration.md)을 참조하세요.
 
 다음 예에서 인스턴스의 매개 변수는 다음과 같습니다.
 

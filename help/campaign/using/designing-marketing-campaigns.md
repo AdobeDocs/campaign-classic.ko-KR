@@ -8,8 +8,8 @@ hide: true
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 19%
+source-wordcount: '453'
+ht-degree: 17%
 
 ---
 
@@ -69,6 +69,6 @@ Campaign의 컨텍스트에서 다음 개념을 알고 있어야 합니다.
 
 이 비디오에서는 마케팅 캠페인의 주요 개념을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/326577?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
 추가 [!DNL Campaign Classic]개의 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

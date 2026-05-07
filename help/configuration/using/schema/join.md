@@ -6,7 +6,7 @@ feature: Schema Extension
 exl-id: a7ca0300-d250-429c-8ae1-2ae7dee82cf5
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '217'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ SQL 테이블 간에 조인을 만드는 필드를 정의할 수 있습니다.
 <join xpath-dst="@compagny-id" xpath-src="@email"/>
 ```
 
-&#39;EN&#39; 값을 포함해야 하는 &quot;@country&quot; 필드의 콘텐츠를 기반으로 &quot;cus:Country&quot; 테이블로 필터링된 링크:
+&#39;EN&#39; 값을 포함해야 하는 &quot;@country&quot; 필드의 내용을 기반으로 &quot;cus:Country&quot; 테이블을 향해 필터링된 링크:
 
 ```
 <element name="StockEN" type="link" label="MyLink" target="cus:Stock">

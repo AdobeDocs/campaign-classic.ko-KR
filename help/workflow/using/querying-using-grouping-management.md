@@ -8,7 +8,7 @@ exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -44,12 +44,12 @@ ht-degree: 3%
 
    ![](assets/query_editor_nveau_29.png)
 
-1. **[!UICONTROL Sorting]** 창에서 전자 메일 도메인을 내림차순으로 정렬합니다. 이렇게 하려면 **[!UICONTROL Yes]** 열에서 **[!UICONTROL Descending sort]**&#x200B;을(를) 확인하십시오. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Sorting]** 창에서 전자 메일 도메인을 내림차순으로 정렬합니다. 이렇게 하려면 **[!UICONTROL Descending sort]** 열에서 **[!UICONTROL Yes]**&#x200B;을(를) 확인하십시오. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/query_editor_nveau_70.png)
 
 1. **[!UICONTROL Data filtering]**&#x200B;에서 **[!UICONTROL Filtering conditions]**&#x200B;을(를) 선택합니다. **[!UICONTROL Target elements]** 창으로 이동하여 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
-1. **[!UICONTROL Data grouping]** 창에서 **[!UICONTROL Email domain]**&#x200B;을(를) 클릭하여 **[!UICONTROL Add]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Data grouping]** 창에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭하여 **[!UICONTROL Email domain]**&#x200B;을(를) 선택합니다.
 
    이 데이터 그룹화 창은 **[!UICONTROL Handle groupings (GROUP BY + HAVING])** 상자를 선택한 경우에만 표시됩니다.
 

@@ -7,7 +7,7 @@ role: Developer
 exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 * 읽기 및 쓰기 권한 제한:
 
-  여기서 필터는 모든 연산자에 대해 스키마에 대한 읽기 및 쓰기 권한을 모두 허용하지 않는 데 사용됩니다. 식 &quot;$(loginId)로 표시되는 **internal** 계정만!=0&quot;에는 이러한 권한이 있습니다.
+  여기서 필터는 모든 연산자에 대해 스키마에 대한 읽기 및 쓰기 권한을 모두 허용하지 않는 데 사용됩니다. &quot;$(loginId)!=0&quot; 식으로 표시되는 **internal** 계정에만 이러한 권한이 있습니다.
 
   ```
   <sysFilter name="readAccess"> 

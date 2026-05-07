@@ -9,7 +9,7 @@ topic-tags: appendices
 exl-id: 5cd4abb0-2bd2-4b23-902c-41b08a1d2f7a
 source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '144'
 ht-degree: 4%
 
 ---
@@ -43,7 +43,7 @@ nlserver config -setdblogin:[rbdms:]account[:database][/password]@server
 **`[rdbms]`** 매개 변수에는 다음 값을 사용할 수 있습니다.
 
 * **postgresql**: PostgreSQL의 경우
-* **oracle**: Oracle,
+* **oracle**: Oracle의 경우
 * **mssql**: Microsoft SQL Server의 경우
 
 다음 명령은 **dbsrv** 서버에서 **campaign** 계정 및 해당 **password**&#x200B;에 연결된 SQL 유형 서버(**base6**)를 사용하여 **demo** 인스턴스를 구성합니다.

@@ -6,7 +6,7 @@ feature: Transactional Messaging, Message Center, Templates
 exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 개인화 태그를 이메일 메시지 본문에 삽입하려면 다음 단계를 적용합니다.
 
-1. 메시지 템플릿에서 전자 메일 형식(HTML 또는 텍스트)과 일치하는 탭을 클릭합니다.
+1. 메시지 템플릿에서 이메일 형식(HTML 또는 텍스트)과 일치하는 탭을 클릭합니다.
 
 1. 메시지 본문을 입력합니다.
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    ![](assets/messagecenter_create_custo_002.png)
 
-1. **요소 이름** 구문을 사용하여 태그를 입력합니다.아래 표시된 것처럼 @**특성 이름**.
+1. 아래와 같이 **요소 이름**.@**특성 이름** 구문을 사용하여 태그를 채웁니다.
 
    ![](assets/messagecenter_create_custo_003.png)
 

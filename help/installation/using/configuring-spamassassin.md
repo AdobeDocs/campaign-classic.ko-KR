@@ -10,8 +10,8 @@ topic-tags: additional-configurations
 exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 0%
+source-wordcount: '1027'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->일부 구성은 Adobe에서 호스팅하는 배포에 대해 Adobe에 의해서만 수행될 수 있습니다. 예를 들어 서버 및 인스턴스 구성 파일에 액세스합니다. 다른 배포에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 [이 페이지](../../installation/using/capability-matrix.md)를 참조하세요.
+>일부 구성은 Adobe에서 호스팅하는 배포에 대해 Adobe에서만 수행할 수 있습니다. 예를 들어 서버 및 인스턴스 구성 파일에 액세스합니다. 다른 배포에 대한 자세한 내용은 [호스팅 모델](../../installation/using/hosting-models.md) 섹션 또는 [이 페이지](../../installation/using/capability-matrix.md)를 참조하세요.
 
 ## 개요 {#overview}
 
@@ -50,7 +50,7 @@ Adobe Campaign과의 통합을 활성화하기 위해 Windows에서 SpamAssassin
 
 ### SpamAssassin 설치 {#installing-spamassassin}
 
-1. 사용자 자격 증명을 사용하여 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html)에 연결합니다. [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko)에서 소프트웨어 배포에 대해 자세히 알아보세요.
+1. 사용자 자격 증명을 사용하여 [소프트웨어 배포 포털](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에 연결합니다. [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko)에서 소프트웨어 배포에 대해 자세히 알아보세요.
 1. **Neolane Spam Assassin(Windows 설치)(2.0)** 파일(neolane_spamassin.2.0.zip)을 다운로드합니다.
 1. 이 파일을 Adobe Campaign 서버에 복사한 다음 압축을 풉니다.
 

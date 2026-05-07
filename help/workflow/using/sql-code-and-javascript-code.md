@@ -62,7 +62,7 @@ ht-degree: 13%
 * **[!UICONTROL Transitions]**: 여러 활동 출력 전환을 정의할 수 있습니다.
 * **[!UICONTROL Schedule]**: **[!UICONTROL Schedule]** 탭에서 활동을 트리거할 시기를 예약할 수 있습니다.
 
-고급 JavaScript은 지속적인 작업이며 완료된 것으로 표시되지 않은 경우 주기적으로 회수됩니다. 작업을 종료하고 향후 회수를 방지하려면 **섹션에서** task.setCompleted()**[!UICONTROL Next calls]** 메서드를 사용해야 합니다.
+고급 JavaScript은 지속적인 작업이며 완료된 것으로 표시되지 않은 경우 주기적으로 회수됩니다. 작업을 종료하고 향후 회수를 방지하려면 **[!UICONTROL Next calls]** 섹션에서 **task.setCompleted()** 메서드를 사용해야 합니다.
 
 ```
 task.postEvent(task.transitionByName("ok")); // to transition to Ok branch

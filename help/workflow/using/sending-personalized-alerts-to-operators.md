@@ -7,7 +7,7 @@ hide: true
 exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '346'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 1. 데이터를 타깃팅하려면 **[!UICONTROL Query]** 활동을 사용하십시오.
 1. 워크플로우에 **[!UICONTROL JavaScript code]** 활동을 추가하여 쿼리의 모집단을 인스턴스 변수에 저장합니다.
 1. **[!UICONTROL Test]** 활동을 사용하여 모집단 수를 확인합니다.
-1. **[!UICONTROL Alert]** 활동 결과에 따라 **[!UICONTROL Test]** 활동을 사용하여 운영자에게 경고를 보냅니다.
+1. **[!UICONTROL Test]** 활동 결과에 따라 **[!UICONTROL Alert]** 활동을 사용하여 운영자에게 경고를 보냅니다.
 
 ![](assets/uc_operator_1.png)
 

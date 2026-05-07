@@ -8,8 +8,8 @@ role: User
 exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 4%
+source-wordcount: '273'
+ht-degree: 6%
 
 ---
 
@@ -51,7 +51,7 @@ SpamAssassin은 다음을 포함한 다양한 스팸 감지 기술을 활용합�
    ![](assets/s_tn_del_preview_spamassassin_ko.png)
 
 1. 경고 옆에 있는 **[!UICONTROL More...]** 링크를 클릭합니다.
-1. **[!UICONTROL Anti-spam checking]** 탭을 선택합니다. 
+1. **[!UICONTROL Anti-spam checking]** 탭을 선택합니다.
 1. 이 위험의 이유를 보려면 **[!UICONTROL Points / Rule / Description]** 섹션으로 이동하십시오.
 
    ![](assets/s_tn_del_msg_spamassassin_ko.png)

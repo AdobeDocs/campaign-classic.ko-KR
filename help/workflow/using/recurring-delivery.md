@@ -7,8 +7,8 @@ hide: true
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 11%
+source-wordcount: '289'
+ht-degree: 14%
 
 ---
 
@@ -54,6 +54,6 @@ ht-degree: 11%
 
 이 비디오에서는 반복 게재 및 예약 활동을 구성하는 방법을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/27507?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

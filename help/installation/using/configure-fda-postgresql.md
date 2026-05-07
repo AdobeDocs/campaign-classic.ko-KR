@@ -6,8 +6,8 @@ feature: Installation, Instance Settings
 exl-id: 2c678f45-2555-4647-9885-bd002db7df37
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 2%
+source-wordcount: '379'
+ht-degree: 1%
 
 ---
 
@@ -41,7 +41,7 @@ Campaign 인스턴스를 [!DNL PostgreSQL] 외부 데이터베이스에 연결�
 
 1. **[!UICONTROL Explorer]** 캠페인에서 **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL New]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL External database]**&#x200B;을(를) 외부 계정의 **[!UICONTROL Type]**(으)로 선택합니다.
 

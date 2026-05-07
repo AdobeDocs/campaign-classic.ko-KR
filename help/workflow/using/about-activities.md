@@ -7,8 +7,8 @@ hide: true
 exl-id: 900dd30e-d4fb-452a-af3f-ae00758b0077
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 10%
+source-wordcount: '96'
+ht-degree: 13%
 
 ---
 
@@ -27,5 +27,5 @@ ht-degree: 10%
 자세한 내용:
 
 * [타겟팅 활동 기본 정보](about-targeting-activities.md)
-* [워크플로우 실행](starting-a-workflow.md)
+* [워크플로 실행](starting-a-workflow.md)
 * [워크플로 모범 사례](workflow-best-practices.md)

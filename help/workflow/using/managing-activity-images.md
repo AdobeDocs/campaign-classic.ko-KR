@@ -7,7 +7,7 @@ hide: true
 exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '159'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
   ![](assets/s_user_segmentation_properties_tab.png)
 
-  사용할 이미지를 선택하려면 **[!UICONTROL Select link]** 필드 오른쪽에 있는 **[!UICONTROL Background image]** 아이콘을 클릭합니다.
+  사용할 이미지를 선택하려면 **[!UICONTROL Background image]** 필드 오른쪽에 있는 **[!UICONTROL Select link]** 아이콘을 클릭합니다.
 
   >[!NOTE]
   >
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 * 활동과 연결된 이미지를 변경하려면 개체를 두 번 클릭한 다음 **[!UICONTROL Advanced]** 탭을 클릭합니다.
 
-  사용할 이미지를 선택하려면 **[!UICONTROL Select link]** 필드 오른쪽에 있는 **[!UICONTROL Image]** 아이콘을 클릭합니다.
+  사용할 이미지를 선택하려면 **[!UICONTROL Image]** 필드 오른쪽에 있는 **[!UICONTROL Select link]** 아이콘을 클릭합니다.
 
   ![](assets/s_user_segmentation_activity_image.png)
 

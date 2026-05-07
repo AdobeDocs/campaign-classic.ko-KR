@@ -8,7 +8,7 @@ hide: true
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1147'
 ht-degree: 3%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 3%
 
 ![](assets/s_ncs_user_op_template_tab1.3.png)
 
-기능을 선택하지 않으면 프로세스와 관련된 요소(메뉴, 아이콘, 옵션, 탭, 하위 탭 등)가 템플릿 인터페이스나 이 템플릿을 기반으로 하는 캠페인에 표시되지 않습니다. 캠페인 세부 정보의 왼쪽에 있는 탭은 일반적으로 템플릿에서 선택한 프로세스와 일치합니다. 예를 들어 **경비 및 목표**&#x200B;를 선택하지 않으면 해당 **[!UICONTROL Budget]** 탭이 이 템플릿을 기반으로 하는 캠페인에 표시되지 않습니다.
+기능을 선택하지 않으면 프로세스와 관련된 요소(메뉴, 아이콘, 옵션, 탭, 하위 탭 등)가 은 템플릿의 인터페이스 또는 이 템플릿을 기반으로 하는 캠페인에 표시되지 않습니다. 캠페인 세부 정보의 왼쪽에 있는 탭은 일반적으로 템플릿에서 선택한 프로세스와 일치합니다. 예를 들어 **경비 및 목표**&#x200B;를 선택하지 않으면 해당 **[!UICONTROL Budget]** 탭이 이 템플릿을 기반으로 하는 캠페인에 표시되지 않습니다.
 
 또한 구성 창에 대한 단축키가 캠페인 대시보드에 추가됩니다. 기능을 활성화하면 직접 링크를 통해 캠페인 대시보드에서 액세스할 수 있습니다.
 
@@ -113,13 +113,13 @@ ht-degree: 3%
 
 * **개요**
 
-  이 모듈을 선택하면 **[!UICONTROL Delivery outlines]** 탭에 **[!UICONTROL Documents]** 하위 탭이 추가되어 캠페인에 대한 게재 개요를 정의합니다. [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)에서 게재 개요에 대해 자세히 알아보세요.
+  이 모듈을 선택하면 **[!UICONTROL Documents]** 탭에 **[!UICONTROL Delivery outlines]** 하위 탭이 추가되어 캠페인에 대한 게재 개요를 정의합니다. [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)에서 게재 개요에 대해 자세히 알아보세요.
 
   ![](assets/s_ncs_user_op_template_activate_4.png)
 
 * **타깃팅 및 워크플로**
 
-  **[!UICONTROL Targeting and workflows]** 모듈을 선택하면 이 템플릿을 기반으로 캠페인용 워크플로우를 하나 이상 만들 수 있는 탭이 추가됩니다. 이 템플릿을 기반으로 각 캠페인에 대해 개별적으로 워크플로우를 구성할 수도 있습니다. [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow)에서 캠페인 워크플로우에 대해 자세히 알아보세요.
+  **[!UICONTROL Targeting and workflows]** 모듈을 선택하면 이 템플릿을 기반으로 캠페인용 워크플로우를 하나 이상 만들 수 있는 탭이 추가됩니다. 이 템플릿을 기반으로 각 캠페인에 대해 개별적으로 워크플로우를 구성할 수도 있습니다.[이 섹션](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow)에서 캠페인 워크플로우에 대해 자세히 알아보세요.
 
   ![](assets/s_ncs_user_op_template_activate_5.png)
 
@@ -156,7 +156,7 @@ ht-degree: 3%
 
   >[!NOTE]
   >
-  >**Adobe Campaign v8(콘솔) 설명서**&#x200B;에서 [열거형으로 작업](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}하는 방법에 대해 자세히 알아보세요.
+  >[Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}에서 **열거형으로 작업**&#x200B;하는 방법에 대해 자세히 알아보세요.
 
 * **캠페인 유형**(고유, 반복 또는 정기)을 선택하십시오. 기본적으로 캠페인 템플릿은 고유한 캠페인에 적용됩니다. 반복 및 정기 캠페인은 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns)에 자세히 설명되어 있습니다.
 * 캠페인 기간, 즉 캠페인이 진행될 일 수를 지정합니다. 이 템플릿을 기반으로 캠페인을 만들 때 캠페인 시작 및 종료 날짜가 자동으로 채워집니다.
@@ -167,7 +167,7 @@ ht-degree: 3%
 
 ### 템플릿 실행 매개 변수 {#template-execution-parameters}
 
-**[!UICONTROL Advanced campaign settings...]** 링크를 사용하면 게재 대상(컨트롤 그룹, 시드 주소 등)을 처리하기 위한 템플릿의 고급 옵션과 캠페인 측정 및 워크플로우 실행 구성을 구성할 수 있습니다.
+**[!UICONTROL Advanced campaign settings...]** 링크를 사용하면 게재 대상(컨트롤 그룹, 시드 주소 등)을 처리하기 위한 템플릿의 고급 옵션을 구성할 수 있습니다. 캠페인 측정 및 워크플로우 실행 구성
 
 ![](assets/s_ncs_user_op_template_tab1.2.png)
 

@@ -10,8 +10,8 @@ topic-tags: production-procedures
 exl-id: c9d427da-6965-4945-90f0-d0770701d55e
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 2%
+source-wordcount: '470'
+ht-degree: 6%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 | 파일 | 설명 |
 |---|---|
 | mta.log | mta 모듈 로그 |
-| mtachild.log | 메시지 게재 처리 로그 |
+| matchild.log | 메시지 게재 처리 로그 |
 | wfserver.log | 워크플로우 서버 모듈의 로그 |
 | runwf.log | 워크플로우 실행 로그 |
 | inMail.log | 바운스 메일 모듈 로그 |

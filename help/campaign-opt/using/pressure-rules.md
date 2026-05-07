@@ -8,7 +8,7 @@ hide: true
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '3335'
+source-wordcount: '3362'
 ht-degree: 6%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 6%
 캠페인은 정의된 임계값 및 메시지 가중치를 기반으로 선택됩니다.
 
 * 임계값은 지정된 기간 내에 지정된 수신자에 대해 승인된 가장 높은 게재 수입니다. 또는 변수를 설정할 수 있습니다. 유형화 규칙 설정에서 설정되거나 계산됩니다. [최대 메시지 수](#maximum-number-of-messages)를 참조하세요.
-* 게재 가중치를 통해 압력 관리 프레임워크 내에서 최우선 게재를 식별할 수 있습니다. 가중치가 가장 높은 메시지에 우선 순위가 있습니다. [메시지 가중치](#message-weight)를 참조하세요.
+* 게재 가중치를 통해 압력 관리 프레임워크 내에서 최우선 게재를 식별할 수 있습니다. 가중치가 가장 높은 메시지는 우선순위가 높습니다. [메시지 가중치](#message-weight)를 참조하세요.
 
 중재에는 진행 중인 캠페인보다 비중이 큰 예약된 캠페인이 과도한 프로필 요청으로 이어지지 않도록 하는 것이 포함됩니다. 이 경우 프로필이 게재에서 제외됩니다.
 
@@ -72,7 +72,7 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 
    ![](assets/campaign_opt_create_a_rule_03b.png)
 
-   변수 임계값을 정의하려면 **[!UICONTROL Depends on the recipient]** 필드에서 **[!UICONTROL Type of threshold]** 값을 선택하고 오른쪽에 있는 아이콘을 사용하여 표현식 편집기를 엽니다.
+   변수 임계값을 정의하려면 **[!UICONTROL Type of threshold]** 필드에서 **[!UICONTROL Depends on the recipient]** 값을 선택하고 오른쪽에 있는 아이콘을 사용하여 표현식 편집기를 엽니다.
 
    ![](assets/campaign_opt_create_a_rule_04.png)
 
@@ -153,11 +153,11 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 
 2주 기간을 고려하여 게재를 제한하려면 다음 중 하나를 수행할 수 있습니다.
 
-1. **필드에** 15d **[!UICONTROL Concerned period]**&#x200B;을(를) 입력하십시오. 규칙이 적용되는 게재 날짜로부터 최대 2주 전에 전송된 게재는 계산에 고려됩니다.
+1. **[!UICONTROL Concerned period]** 필드에 **15d**&#x200B;을(를) 입력하십시오. 규칙이 적용되는 게재 날짜로부터 최대 2주 전에 전송된 게재는 계산에 고려됩니다.
 
 또는
 
-1. **필드에** 7d **[!UICONTROL Period considered]**&#x200B;을(를) 입력하고 **[!UICONTROL Take the deliveries into account in the provisional calendar]** 옵션을 확인합니다. 규칙이 적용되는 게재 날짜 이전 최대 7일까지 전송된 게재 및 게재 날짜 이후 최대 7일까지 예약된 게재가 계산에 고려됩니다.
+1. **[!UICONTROL Period considered]** 필드에 **7d**&#x200B;을(를) 입력하고 **[!UICONTROL Take the deliveries into account in the provisional calendar]** 옵션을 확인합니다. 규칙이 적용되는 게재 날짜 이전 최대 7일까지 전송된 게재 및 게재 날짜 이후 최대 7일까지 예약된 게재가 계산에 고려됩니다.
 
 기간 시작 일자는 데이터베이스 구성 방식에 따라 다릅니다.
 
@@ -223,7 +223,7 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 규칙을 만들려면 다음 단계를 적용합니다.
 
 1. 새 **압력** 유형 유형화 규칙을 만듭니다.
-1. **[!UICONTROL Pressure]** 탭을 편집합니다. **[!UICONTROL Maximum number of messages]** 섹션에서 각 받는 사람에 따라 임계값을 계산하는 수식을 만들려고 합니다. **[!UICONTROL Depends on the recipient]** 필드에서 **[!UICONTROL Threshold type]** 값을 선택한 다음 **[!UICONTROL Edit expression]** 필드 오른쪽의 **[!UICONTROL Formula]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Pressure]** 탭을 편집합니다. **[!UICONTROL Maximum number of messages]** 섹션에서 각 받는 사람에 따라 임계값을 계산하는 수식을 만들려고 합니다. **[!UICONTROL Threshold type]** 필드에서 **[!UICONTROL Depends on the recipient]** 값을 선택한 다음 **[!UICONTROL Formula]** 필드 오른쪽의 **[!UICONTROL Edit expression]**&#x200B;을(를) 클릭합니다.
 
    계산 수식을 정의하려면 **[!UICONTROL Advanced parameters]** 단추를 클릭하십시오.
 
@@ -233,9 +233,9 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 
    ![](assets/campaign_opt_pressure_sample_1_2.png)
 
-1. 함수 목록에서 **노드의** Iif **[!UICONTROL Others]** 함수를 두 번 클릭합니다.
+1. 함수 목록에서 **[!UICONTROL Others]** 노드의 **Iif** 함수를 두 번 클릭합니다.
 
-   그런 다음 **섹션에서 받는 사람의**&#x200B;상태&#x200B;**[!UICONTROL Available fields]**&#x200B;를 선택합니다.
+   그런 다음 **[!UICONTROL Available fields]** 섹션에서 받는 사람의 **상태**&#x200B;를 선택합니다.
 
    ![](assets/campaign_opt_pressure_sample_1_3.png)
 
@@ -295,7 +295,7 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 다음 구성 단계를 적용합니다.
 
 1. 새 **압력** 유형 유형화 규칙을 만듭니다.
-1. **[!UICONTROL Pressure]** 탭을 편집합니다. 각 개별 수신자를 기준으로 하는 임계값 수식을 만들려고 합니다. **[!UICONTROL Edit expression]** 필드 오른쪽에 있는 **[!UICONTROL Weight formula]** 아이콘을 클릭합니다.
+1. **[!UICONTROL Pressure]** 탭을 편집합니다. 각 개별 수신자를 기준으로 하는 임계값 수식을 만들려고 합니다. **[!UICONTROL Weight formula]** 필드 오른쪽에 있는 **[!UICONTROL Edit expression]** 아이콘을 클릭합니다.
 
    ![](assets/campaign_opt_pressure_sample_2_1.png)
 
@@ -340,11 +340,11 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 1. 캠페인을 만듭니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)을 참조하십시오.
 1. 캠페인의 **[!UICONTROL Targeting and workflows]** 탭에서 **쿼리** 활동을 워크플로우에 추가합니다. 이 활동 사용에 대한 자세한 내용은 [이 섹션](../../workflow/using/query.md)을 참조하세요.
 1. 워크플로우에 **[!UICONTROL Email delivery]** 활동을 추가하고 엽니다. 이 활동 사용에 대한 자세한 내용은 [이 섹션](../../workflow/using/delivery.md)을 참조하세요.
-1. **[!UICONTROL Approvals]**&#x200B;의 **[!UICONTROL Delivery properties]** 탭으로 이동하여 모든 승인을 비활성화합니다.
+1. **[!UICONTROL Delivery properties]**&#x200B;의 **[!UICONTROL Approvals]** 탭으로 이동하여 모든 승인을 비활성화합니다.
 
    ![](assets/campaign_opt_pressure_example_2.png)
 
-1. **[!UICONTROL Typology]**&#x200B;의 **[!UICONTROL Delivery properties]** 탭에서 규칙을 적용할 캠페인 유형화를 참조합니다. 게재 가중치를 정의합니다.
+1. **[!UICONTROL Delivery properties]**&#x200B;의 **[!UICONTROL Typology]** 탭에서 규칙을 적용할 캠페인 유형화를 참조합니다. 게재 가중치를 정의합니다.
 
    ![](assets/campaign_opt_pressure_example_3.png)
 

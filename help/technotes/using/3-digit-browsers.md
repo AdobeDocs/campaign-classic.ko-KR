@@ -6,7 +6,7 @@ feature: Technote
 exl-id: 2016279a-7b02-4399-b2ed-9a15456de816
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Microsoft은 2022년 3월 이전에 Edge v100을 출시했습니다.
 
 ## 영향을 받습니까?{#version-100-impact}
 
-Adobe은 웹 양식 및 설문 조사를 포함한 Campaign 웹 애플리케이션을 테스트하여 이러한 새 브라우저 버전에서 정상적으로 작동하는지 확인할 것을 권장합니다.
+Adobe에서는 웹 양식 및 설문 조사를 비롯한 Campaign 웹 애플리케이션을 테스트하여 이러한 새 브라우저 버전에서 정상적으로 작동하는지 확인할 것을 권장합니다.
 
 이 권장 사항은 모든 웹 애플리케이션에 적용되며, 특히 JavaScript 코드를 포함한 경우 더욱 그렇습니다.
 

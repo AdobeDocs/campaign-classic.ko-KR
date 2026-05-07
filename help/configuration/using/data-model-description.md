@@ -7,7 +7,7 @@ role: Developer
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '2354'
+source-wordcount: '2376'
 ht-degree: 2%
 
 ---
@@ -113,7 +113,7 @@ sInternalName 게재 또는 시나리오의 내부 이름을 나타내는 고유
 
 ## 캠페인 관리 {#campaign-management}
 
-이 테이블 집합은 **마케팅 캠페인** 모듈에 연결되어 통신 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ko){target=_blank}를 참조하십시오.
+이 테이블 집합은 **마케팅 캠페인** 모듈에 연결되어 통신 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}를 참조하십시오.
 
 ![](assets/data-model_campaign.png)
 

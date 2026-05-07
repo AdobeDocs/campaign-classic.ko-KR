@@ -8,8 +8,8 @@ hide: true
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 2%
+source-wordcount: '465'
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 
    ![](assets/s_user_mobile_wizard.png)
 
-1. 레이블, 코드 및 설명을 사용하여 게재를 식별합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#create-the-delivery){target="_blank"}에서 이 섹션을 참조하세요.
+1. 레이블, 코드 및 설명을 사용하여 게재를 식별합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#create-the-delivery){target="_blank"}에서 이 섹션을 참조하세요.
 1. **[!UICONTROL Continue]**&#x200B;을(를) 클릭하여 이 정보를 확인하고 메시지 구성 창을 표시합니다.
 
 ## SMS 콘텐츠 정의 {#defining-the-sms-content}

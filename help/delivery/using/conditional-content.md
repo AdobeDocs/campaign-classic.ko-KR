@@ -9,8 +9,8 @@ hide: true
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 7%
+source-wordcount: '502'
+ht-degree: 9%
 
 ---
 
@@ -112,6 +112,6 @@ ht-degree: 7%
 
 다중 언어 뉴스레터의 예에 따라 게재에 조건부 콘텐츠를 추가하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31880?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

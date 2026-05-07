@@ -9,8 +9,8 @@ level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 2%
+source-wordcount: '1274'
+ht-degree: 5%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이 절차는 기본 인증을 사용하여 Campaign에 연결하는 운영자에만 적용됩니다. Adobe IMS 인증의 경우 [이 설명서](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html#_blank)를 참조하세요.
+>이 절차는 기본 인증을 사용하여 Campaign에 연결하는 운영자에만 적용됩니다. Adobe IMS 인증의 경우 [이 설명서](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#_blank)를 참조하세요.
 
 운영자는 로그인하고 작업을 수행할 수 있는 권한이 있는 Adobe Campaign 사용자입니다.
 
@@ -56,7 +56,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
 
 1. 사용자의 **[!UICONTROL Identification parameters]**(로그인, 암호 및 이름)을 지정하십시오. 운영자는 로그인 및 암호를 사용하여 Adobe Campaign에 로그온합니다. 사용자가 로그온하면 **[!UICONTROL Tools > Change password]** 메뉴를 통해 암호를 변경할 수 있습니다. 운영자의 이메일은 운영자가 예를 들어 승인을 처리할 때 알림을 받을 수 있도록 하기 때문에 필수적입니다.
 
-   또한 이 섹션에서는 연산자를 조직 엔티티에 연결할 수도 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ko){target="_blank"}를 참조하세요.
+   또한 이 섹션에서는 연산자를 조직 엔티티에 연결할 수도 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ko){target="_blank"}를 참조하십시오.
 
 1. **[!UICONTROL Operator access rights]** 섹션에서 연산자에게 부여된 권한을 선택하십시오.
 
@@ -112,7 +112,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
 
   >[!NOTE]
   >
-  >계정이 비활성화된 경우에도 운영자는 Campaign에서 경고 또는 알림을 계속 받을 수 있습니다. Adobe 이 운영자에게 Campaign 알림 전송을 중단하려면 해당 프로필에서 이메일 주소를 제거하는 것이 좋습니다.
+  >계정이 비활성화된 경우에도 운영자는 Campaign에서 경고 또는 알림을 계속 받을 수 있습니다. 이 운영자에게 Campaign 알림 전송을 중단하려면 해당 프로필에서 이메일 주소를 제거하는 것이 좋습니다.
 
 * **[!UICONTROL Forbid access from the rich client]** 옵션을 사용하면 Adobe Campaign 사용을 [웹 액세스](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) 또는 API를 통해 제한할 수 있습니다. Adobe Campaign 클라이언트 콘솔에 대한 액세스는 더 이상 사용할 수 없습니다.
 * 작업자에게 안전구역을 연결시켜 줄 수 있습니다. 자세한 정보는 이 [페이지](../../installation/using/security-zones.md)를 참조하십시오.

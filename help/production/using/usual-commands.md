@@ -10,8 +10,8 @@ topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
 source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 4%
+source-wordcount: '458'
+ht-degree: 7%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 **nlserver** 명령은 전체 Adobe Campaign 응용 프로그램에 대한 입력 명령입니다.
 
-이 명령에는 다음 구문이 있습니다. **nlserver &#x200B;**`<command>`**&#x200B;**`<arguments>`**&#x200B;**
+이 명령에는 다음 구문이 있습니다. **nlserver **`<command>`****`<arguments>`****
 
 **`<command>`** 매개 변수는 모듈에 해당합니다.
 
@@ -160,7 +160,7 @@ nlserver config -setdblogin:PostgreSQL:<accountName>:test6@dbserver
 >[!NOTE]
 >
 >* 일반적으로 수동으로 구성 파일을 수정하는 대신 **config** 명령을 사용할 수 있습니다
->* 매개 변수 목록을 가져오려면 **-?** 매개 변수: **nlserver 구성 -?**
+>* 매개 변수 목록을 가져오려면 **-?**&#x200B;을(를) 사용합니다. 매개 변수: **nlserver 구성 -?**
 >* Oracle 데이터베이스의 경우 계정을 지정하지 않아야 합니다. 구문은 다음과 같습니다.
 >
 >  `nlserver config -setdblogin:Oracle:test6@dbserver`
@@ -172,6 +172,6 @@ nlserver config -setdblogin:PostgreSQL:<accountName>:test6@dbserver
 nlserver config -setdblogin:mssql:<login>/"<password>"@<server> -instance:<instance_name> 
 ```
 
-* config-&lt;instance_name>.xml 파일의 dataSource 노드에서 로그인(예: account:user) 및 서버를 찾을 수 있습니다.
+* config-&lt;instance_name>.xml 파일의 dataSource 노드에서 로그인(예: 계정 :user) 및 서버를 찾을 수 있습니다.
 * 암호는 따옴표 &quot;&quot;로 묶어야 합니다.
 

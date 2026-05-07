@@ -7,7 +7,7 @@ feature: Web Apps, Reporting, Monitoring
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '411'
 ht-degree: 4%
 
 ---
@@ -35,7 +35,7 @@ Adobe Campaign에서는 추적 태그를 삽입하여 웹 애플리케이션 페
 
    * **전환율**: 탐색 경로의 모든 단계를 표시한 사용자 수입니다.
    * **바운스 비율**: 첫 번째 단계만 표시한 사람 수
-   * **전환 단계**: 각 단계 사이의 손실률입니다.
+   * **전환 funnel**: 각 단계 간 손실률입니다.
 
   또한 **Sector** 유형 차트는 해당 소스에 따라 모집단을 표시합니다.
 

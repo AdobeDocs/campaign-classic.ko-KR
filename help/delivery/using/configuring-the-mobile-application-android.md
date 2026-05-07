@@ -9,8 +9,8 @@ hide: true
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 9%
+source-wordcount: '930'
+ht-degree: 12%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 미칠 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다. 이미 확인하고 조치를 취할 수 있습니다. 이 [Adobe Campaign v8 기술 정보](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=ko){target="_blank"}에서 자세히 알아보세요.
+>Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 미칠 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다. 미리 확인하고 조치를 취할 수 있습니다. 이 [Adobe Campaign v8 기술 정보](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=ko){target="_blank"}에서 자세히 알아보세요.
 
 
 ## Android 외부 계정 구성 {#configuring-external-account-android}
@@ -59,7 +59,7 @@ Android의 경우 두 개의 커넥터를 사용할 수 있습니다.
 
 ## Android 서비스 구성 {#configuring-android-service}
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 Android 서비스를 구성하는 방법에 대해 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=ko#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}.
+![](assets/do-not-localize/how-to-video.png) [비디오에서 Android 서비스를 구성하는 방법에 대해 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}.
 
 1. **[!UICONTROL Profiles and Targets > Services and subscriptions]** 노드로 이동하여 **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
@@ -102,9 +102,9 @@ Android의 경우 두 개의 커넥터를 사용할 수 있습니다.
 
 1. **[!UICONTROL Firebase Cloud Messaging the Android connection settings]** 필드를 채웁니다.
 
-1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 이제 Android 애플리케이션을 Campaign Classic에서 사용할 준비가 되었습니다.
+1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭한 뒤 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 이제 Android 애플리케이션을 Campaign Classic에서 사용할 준비가 되었습니다.
 
-기본적으로 Adobe Campaign은 **[!UICONTROL User identifier]**)**[!UICONTROL Subscriber applications (nms:appSubscriptionRcp테이블의]**(@userKey) 필드에 키를 저장합니다. 이 키를 사용하면 구독을 수신자에게 연결할 수 있습니다. 추가 데이터(예: 복잡한 조정 키)를 수집하려면 다음 구성을 적용해야 합니다.
+기본적으로 Adobe Campaign은 **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** 테이블의 **[!UICONTROL User identifier]**(@userKey) 필드에 키를 저장합니다. 이 키를 사용하면 구독을 수신자에게 연결할 수 있습니다. 추가 데이터(예: 복잡한 조정 키)를 수집하려면 다음 구성을 적용해야 합니다.
 
 ### API 버전 구성{#select-api-version}
 
@@ -116,7 +116,7 @@ Android의 경우 두 개의 커넥터를 사용할 수 있습니다.
 
 HTTP v1 API 버전을 구성하려면 아래 단계를 수행합니다.
 
-1. **[!UICONTROL Mobile application creation wizard]** 창의 **[!UICONTROL HTTPV1]** 드롭다운에서 **[!UICONTROL API version]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Mobile application creation wizard]** 창의 **[!UICONTROL API version]** 드롭다운에서 **[!UICONTROL HTTPV1]**&#x200B;을(를) 선택합니다.
 
 1. JSON 키 파일을 직접 로드하려면 **[!UICONTROL Load project json file to extract project details...]**&#x200B;을(를) 클릭하십시오. JSON 파일을 추출하는 방법에 대한 자세한 내용은 [이 페이지](https://firebase.google.com/docs/admin/setup#initialize-sdk)를 참조하세요.
 
@@ -137,7 +137,7 @@ HTTP v1 API 버전을 구성하려면 아래 단계를 수행합니다.
 
 1. 필요한 경우 **[!UICONTROL Application variables]**&#x200B;을(를) 사용하여 푸시 메시지 콘텐츠를 보강할 수 있습니다. 이는 완전히 맞춤화가 가능하며 모바일 디바이스로 전송되는 메시지 페이로드의 일부입니다.
 
-1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 이제 Android 애플리케이션을 Campaign Classic에서 사용할 준비가 되었습니다.
+1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭한 뒤 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 이제 Android 애플리케이션을 Campaign Classic에서 사용할 준비가 되었습니다.
 
 다음은 푸시 알림을 추가로 개인화할 FCM 페이로드 이름입니다.
 
@@ -148,7 +148,7 @@ HTTP v1 API 버전을 구성하려면 아래 단계를 수행합니다.
 
 ## appsubscriptionRcp 스키마 확장 {#extend-subscription-schema}
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 appsubscriptionRcp 스키마를 확장하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html?lang=ko#extending-the-app-subscription-schema-to-personalize-push-notifications)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 appsubscriptionRcp 스키마를 확장하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html#extending-the-app-subscription-schema-to-personalize-push-notifications)
 
 앱의 매개 변수를 Campaign 데이터베이스에 저장하려면 **appsubscriptionRcp**&#x200B;을(를) 확장하여 새 추가 필드를 정의해야 합니다. 이러한 필드는 예를 들어 개인화에 사용됩니다. 방법은 다음과 같습니다.
 

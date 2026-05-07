@@ -43,7 +43,7 @@ ht-degree: 2%
 
    ![](assets/delivery_loadcontent_activityexample.png)
 
-1. **[!UICONTROL Script]** 활동의 **[!UICONTROL Delivery]** 탭에서 다음 명령을 추가하여 가져온 파일의 내용을 게재에 로드합니다.
+1. **[!UICONTROL Delivery]** 활동의 **[!UICONTROL Script]** 탭에서 다음 명령을 추가하여 가져온 파일의 내용을 게재에 로드합니다.
 
    ```
    delivery.content.html.source=loadFile(vars.filename)

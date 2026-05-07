@@ -7,7 +7,7 @@ hide: true
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '804'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Campaign v7에 많은 서비스와 웹 애플리케이션이 있는 경우 Campa
 
 * Campaign v7 데이터베이스에 저장되고 Campaign Standard과 동기화된 수신자입니다. [프로필 동기화](../../integrations/using/synchronizing-profiles.md) 섹션을 참조하십시오.
 * campaign v7에서 만들고 게시하는 서비스 및 웹 애플리케이션입니다.
-* 웹 응용 프로그램에는 **[!UICONTROL Pre-loading]** 식별 메서드를 사용하는 **[!UICONTROL Adobe Campaign encryption]** 활동이 있어야 합니다.
+* 웹 응용 프로그램에는 **[!UICONTROL Adobe Campaign encryption]** 식별 메서드를 사용하는 **[!UICONTROL Pre-loading]** 활동이 있어야 합니다.
 
 ## 웹 애플리케이션 및 서비스 만들기 {#creating-the-web-application-and-service}
 

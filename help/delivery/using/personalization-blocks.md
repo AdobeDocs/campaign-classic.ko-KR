@@ -9,7 +9,7 @@ hide: true
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '894'
 ht-degree: 3%
 
 ---
@@ -139,12 +139,12 @@ HTML 소스 코드는 게재 콘텐츠에 삽입됩니다. 예를 들어 **[!UIC
 
      ![](assets/s_ncs_user_personalized_block_b.png)
 
-   * 개인화 블록의 콘텐츠(HTML, 텍스트, JavaScript 등)를 입력하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+   * 컨텐츠 입력(HTML, 텍스트, JavaScript 등) 을(를) 클릭하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 튜토리얼 비디오 {#personalization-blocks-video}
 
 다이내믹 콘텐츠 블록을 만드는 방법과 이 블록을 사용하여 이메일 게재의 콘텐츠를 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31878?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

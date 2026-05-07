@@ -7,8 +7,8 @@ hide: true
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1919'
-ht-degree: 5%
+source-wordcount: '1931'
+ht-degree: 4%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 5%
 
 ### 추가 데이터를 사용한 조정 {#reconciliation-with-additional-data}
 
-데이터 조정 단계(**[!UICONTROL Union]**, **[!UICONTROL Intersection]** 등) 동안 활동)을 추가할 때 데이터 조정에 사용할 열을 선택할 수 있습니다. 이렇게 하려면 열 선택에 대한 조정을 구성하고 기본 세트를 지정합니다. 그런 다음 다음 다음 예와 같이 창의 아래쪽 열에 있는 열을 선택합니다.
+데이터 조정 단계(**[!UICONTROL Union]**, **[!UICONTROL Intersection]** 등 활동) 동안 추가 열에서 데이터 조정에 사용할 열을 선택할 수 있습니다. 이렇게 하려면 열 선택에 대한 조정을 구성하고 기본 세트를 지정합니다. 그런 다음 다음 다음 예와 같이 창의 아래쪽 열에 있는 열을 선택합니다.
 
 ![](assets/select-column-and-join.png)
 
@@ -134,7 +134,7 @@ ht-degree: 5%
 
 필요한 경우 인바운드 테이블을 조작할 수 있습니다. 다른 차원에서 대상을 제외하려면 이 대상을 기본 대상과 동일한 타겟팅 차원으로 반환해야 합니다. 이렇게 하려면 **[!UICONTROL Add]** 단추를 클릭하고 차원 변경 조건을 지정합니다.
 
-데이터 조정은 식별자, 축 변경 또는 조인을 통해 수행됩니다. [목록의 데이터를 사용하는 경우 &#x200B;](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list) 목록을 읽을 수 있습니다.
+데이터 조정은 식별자, 축 변경 또는 조인을 통해 수행됩니다. [목록의 데이터를 사용하는 경우 ](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list) 목록을 읽을 수 있습니다.
 
 ![](assets/exclusion_edit_add_rule_01.png)
 
@@ -178,9 +178,9 @@ ht-degree: 5%
 
    자세한 내용은 Campaign 버전에 따라 다음 섹션을 참조하십시오.
 
-   ![](assets/do-not-localize/v7.jpeg) [Campaign v7 설명서](../../installation/using/about-fda.md)
+   ![](assets/do-not-localize/v7.jpeg)[Campaign v7 설명서](../../installation/using/about-fda.md)
 
-   ![](assets/do-not-localize/v8.png) [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ko)
+   ![](assets/do-not-localize/v8.png)[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ko)
 
 그런 다음 새 하위 집합을 추가해야 합니다.
 

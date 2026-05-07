@@ -46,7 +46,7 @@ ht-degree: 1%
 
 먼저 새 **[!UICONTROL Extended Generic SMPP]** 외부 계정을 만들어야 매개 변수 일부를 바꿀 수 있습니다. 자세한 단계는 이 [페이지](sms-set-up.md#creating-an-smpp-external-account)에서 확인할 수 있습니다.
 
-이제 이전 커넥터에 따라 새로 만든 **[!UICONTROL Mobile]** 외부 계정의 **[!UICONTROL Extended Generic SMPP]** 탭에서 매개 변수를 입력해야 합니다.
+이제 이전 커넥터에 따라 새로 만든 **[!UICONTROL Extended Generic SMPP]** 외부 계정의 **[!UICONTROL Mobile]** 탭에서 매개 변수를 입력해야 합니다.
 
 ### 원본 커넥터에서 {#from-generic-connector}
 

@@ -7,7 +7,7 @@ feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '755'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 ## 2단계 - 템플릿 선택 {#step-2---selecting-a-template}
 
-게재 템플릿을 선택한 다음 게재 이름을 지정합니다. 이 이름은 Adobe Campaign 콘솔의 사용자만 볼 수 있고 수신자는 볼 수 없지만 이 제목은 게재 목록에 표시됩니다. **[!UICONTROL Continue]**&#x200B;를 클릭합니다.
+게재 템플릿을 선택한 다음 게재 이름을 지정합니다. 이 이름은 Adobe Campaign 콘솔의 사용자만 볼 수 있고 수신자는 볼 수 없지만 이 제목은 게재 목록에 표시됩니다. **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
 ![](assets/dce_delivery_model.png)
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->**Adobe Campaign 웹 인터페이스**&#x200B;를 사용하는 경우 HTML 내용과 관련 이미지가 포함된 .zip 파일을 가져와야 합니다.
+>**Adobe Campaign 웹 인터페이스**&#x200B;를 사용하는 경우 HTML 콘텐츠 및 관련 이미지가 포함된 .zip 파일을 가져와야 합니다.
 
 ## 4단계 - 메시지 디자인 {#step-4---designing-the-message}
 

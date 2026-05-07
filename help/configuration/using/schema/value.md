@@ -9,8 +9,8 @@ topic-tags: schema-reference
 exl-id: bad7fb4b-43d9-4033-ae0d-cf191d89114b
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 2%
+source-wordcount: '147'
+ht-degree: 4%
 
 ---
 
@@ -48,7 +48,7 @@ value:==help
 * **적용할 수 있는 경우(문자열)**: 이 특성을 사용하면 열거형 값을 선택 사항으로 만들 수 있습니다. XTK 표현식을 받습니다.
 * **desc(문자열)**: 열거형 값에 대한 설명입니다.
 * **enabledIf (문자열)**: 열거형 값을 활성화하는 조건입니다.
-* **img(문자열)**: &quot;namespace:image_name&quot; 양식의 열거형에 연결된 이미지입니다. 응용 프로그램 서버로 이미지를 가져와야 합니다.
+* **img(문자열)**: &quot;네임스페이스:image_name&quot; 양식의 열거형에 연결된 이미지입니다. 응용 프로그램 서버로 이미지를 가져와야 합니다.
 * **label(문자열)**: 열거형 값의 레이블입니다.
 * **이름(문자열)**: 열거형 값의 내부 이름입니다.
 * **값(문자열)**: 열거형 값의 값입니다. 값의 형식은 열거형의 형식을 기반으로 정의됩니다. 열거형이 문자열 형식이면 문자열 형식 값만 포함할 수 있습니다.

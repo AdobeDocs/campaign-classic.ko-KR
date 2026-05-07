@@ -6,7 +6,7 @@ feature: Installation, Access Management, Permissions
 exl-id: af88e4e7-0ee3-48b4-9db4-7dd390d9d46a
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '377'
 ht-degree: 8%
 
 ---
@@ -45,6 +45,6 @@ Adobe Campaign은 [명명된 권한](../../platform/using/access-management.md#n
 
 * **PROGRAM EXECUTION**(createProcess): 서버에서 외부 프로그램 실행을 허용합니다.
 
-* **SQL**: 데이터베이스에서 SQL 스크립트를 실행할 수 있도록 허용하므로 보안 모델을 무시할 수 있습니다. 허용 목록에 추가하다 주: 복잡한 계산 필터링(예: 필터링)을 수행해야 하는 경우, 데이터베이스 관리자에게 SQL 함수를 생성하고 이를 SQL 함수에 추가하도록 요청할 수 있습니다. [이 페이지](../../installation/using/scripting-coding-guidelines.md)에서 자세히 알아보십시오.
+* **SQL**: 데이터베이스에서 SQL 스크립트를 실행할 수 있도록 허용하므로 보안 모델을 무시할 수 있습니다. 주: 복잡한 계산 필터링(예: 필터링)을 수행해야 하는 경우, 데이터베이스 관리자에게 SQL 함수를 생성하고 이를 SQL 함수에 추가하도록 요청할 수 있습니다. [이 페이지](../../installation/using/scripting-coding-guidelines.md)에서 자세히 알아보십시오.
 
 * **매우 적은 수의 신뢰할 수 있는 운영자에게 허용**

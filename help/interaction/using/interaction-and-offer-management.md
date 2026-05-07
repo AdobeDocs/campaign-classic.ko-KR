@@ -6,7 +6,7 @@ feature: Interaction, Offers
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
 source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '293'
 ht-degree: 6%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 6%
 
 ## 관련 항목
 
-| 유용한 페이지 | 추가 자료 |
+| 유용한 페이지 | 추가 리소스 |
 |---|---|
 | [상호 작용 구현 단계](../../interaction/using/implementation-steps.md) | [오퍼 배포 테스트](../../interaction/using/about-offers-simulation.md) |
 | [라이브/디자인 환경](../../interaction/using/live-design-environments.md) | [전자 메일에 오퍼 추가](../../interaction/using/integrating-an-offer-via-the-wizard.md) |

@@ -7,8 +7,8 @@ feature: Web Apps
 exl-id: 5ccf5a21-48aa-4c0d-8cc8-457eb07d9f74
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 20%
+source-wordcount: '372'
+ht-degree: 19%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->개인 정보가 포함될 수 있는 페이지는 항상 보호하십시오. [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html#privacy)을 참조하세요.
+>개인 정보가 포함될 수 있는 페이지는 항상 보호하십시오. [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/campaign/kb/acc-security.html#privacy)을 참조하세요.
 
 이 템플릿은 웹 응용 프로그램의 유형을 결정합니다. 다음을 만들 수 있습니다.
 
@@ -50,7 +50,7 @@ ht-degree: 20%
 
 1. Facebook 애플리케이션
 
-   **소셜 마케팅** 옵션 덕분에 Adobe Campaign을 사용하여 개인화된 콘텐츠를 Facebook 애플리케이션에 게시할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../social/using/about-social-marketing.md)을 참조하십시오.
+   **소셜 마케팅** 옵션 덕분에 Adobe Campaign에서 Facebook 애플리케이션에 개인화된 콘텐츠를 게시할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../social/using/about-social-marketing.md)을 참조하십시오.
 
    >[!CAUTION]
    >

@@ -10,8 +10,8 @@ topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 1%
+source-wordcount: '1630'
+ht-degree: 4%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 1%
 
 이러한 절차는 **온-프레미스**/**하이브리드** 배포로 제한되며 관리 권한이 필요합니다.
 
-**호스팅** 배포의 경우 서버측 설정은 Adobe 전용으로만 구성할 수 있습니다. 그러나 IP Campaign 컨트롤 패널 허용 목록에 추가하다 관리 또는 URL 권한과 같은 일부 설정은 [Campaign 권한](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko) 내에서 설정할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ko).
+**호스팅** 배포의 경우 서버측 설정은 Adobe에서만 구성할 수 있습니다. 그러나 IP Campaign 컨트롤 패널 관리 또는 URL 권한과 같은 일부 설정은 [Campaign 권한](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko) 내에서 설정할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ko).
 
 자세한 내용은 다음 섹션을 참조하십시오.
 
-* [컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
+* [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
 * [호스팅 모델](../../installation/using/hosting-models.md)
-* [Campaign Classic 온-프레미스 및 호스팅 기능 매트릭스](../../installation/using/capability-matrix.md)
+* [Campaign Classic On-Premise 및 Hosted 기능 매트릭스](../../installation/using/capability-matrix.md)
 
 ## 구성 파일
 
@@ -257,7 +257,7 @@ sh
 
 ## 중복 추적 {#redundant-tracking}
 
-리디렉션에 여러 서버를 사용하는 경우 리디렉션할 URL의 정보를 공유하려면 SOAP 호출을 통해 서로 통신할 수 있어야 합니다. 게재 시작 시 일부 리디렉션 서버를 사용하지 못할 수 있으므로 동일한 수준의 정보를 갖지 못할 수 있습니다.
+리디렉션에 여러 서버를 사용하는 경우 리디렉션할 URL의 정보를 공유하려면 여러 서버가 SOAP 호출을 통해 서로 통신할 수 있어야 합니다. 게재 시작 시 일부 리디렉션 서버를 사용하지 못할 수 있으므로 동일한 수준의 정보를 갖지 못할 수 있습니다.
 
 >[!NOTE]
 >

@@ -7,7 +7,7 @@ feature: Templates
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '438'
 ht-degree: 2%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 2%
    >
    >승인되지 않은 콘텐츠 생성을 승인할 수 있습니다. 이렇게 하려면 게시 템플릿에서 관련 옵션을 변경합니다. 자세한 내용은 [템플릿 만들기 및 구성](publication-templates.md#creating-and-configuring-the-template)을 참조하세요.
 
-   HTML 및 텍스트 콘텐츠는 기본적으로 Adobe Campaign 인스턴스의 **publishing** 폴더에 생성됩니다. **NcmPublishingDir** 옵션을 사용하여 게시 폴더를 변경할 수 있습니다.
+   HTML 및 텍스트 콘텐츠는 기본적으로 Adobe Campaign 인스턴스의 **publishing** 폴더에서 생성됩니다. **NcmPublishingDir** 옵션을 사용하여 게시 폴더를 변경할 수 있습니다.
 
 ## 콘텐츠 인스턴스 게재 {#delivering-a-content-instance}
 
@@ -84,4 +84,4 @@ ht-degree: 2%
 
 ![](assets/s_ncs_content_folder_create_the_delivery.png)
 
-텍스트 및 HTML 내용은 자동으로 입력됩니다.
+텍스트 및 HTML 컨텐츠는 자동으로 입력됩니다.

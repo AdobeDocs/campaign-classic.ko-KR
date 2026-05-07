@@ -7,7 +7,7 @@ feature: Reporting, Monitoring
 exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '440'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ![](assets/s_ncs_advuser_report_properties_01.png)
 
-일반 속성은 아래에 설명되어 있습니다. **[!UICONTROL Parameters]**, **[!UICONTROL Variables]** 및 **[!UICONTROL Scripts]** 탭에 구성된 고급 기능은 이 섹션[&#128279;](../../reporting/using/advanced-functionalities.md)에서 에 설명되어 있습니다.
+일반 속성은 아래에 설명되어 있습니다. **[!UICONTROL Parameters]**, **[!UICONTROL Variables]** 및 **[!UICONTROL Scripts]** 탭에 구성된 고급 기능은 이 섹션](../../reporting/using/advanced-functionalities.md)에서 [에 설명되어 있습니다.
 
 ## 일반 속성 {#overall-properties}
 

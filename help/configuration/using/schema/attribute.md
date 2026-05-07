@@ -135,10 +135,10 @@ _operation (string), advanced (부울), applicableIf (문자열), autoIncrement 
    * blob
    * 부울
    * 바이트
-   * C데이터
+   * CDATA
    * datetime
    * datetimetz
-   * 다테티메노츠
+   * datetimenotz
    * 날짜
    * 중복
    * enum
@@ -146,12 +146,12 @@ _operation (string), advanced (부울), applicableIf (문자열), autoIncrement 
    * html
    * int64
    * 링크
-   * 길게
+   * 롱
    * 메모
    * MNTOKEN
    * 백분율
    * primarykey
-   * 짧음
+   * short
    * 문자열
    * 시간
    * timespan

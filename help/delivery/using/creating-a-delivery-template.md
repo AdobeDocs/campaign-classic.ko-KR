@@ -8,8 +8,8 @@ role: User
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 9%
+source-wordcount: '391'
+ht-degree: 11%
 
 ---
 
@@ -73,18 +73,18 @@ ht-degree: 9%
 
 다음 비디오에서는 임시 게재용 템플릿을 구성하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31900?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24066?quality=12)
 
 ### 게재 템플릿 속성을 설정하는 방법
 
 다음 비디오는 게재 템플릿 속성을 설정하는 방법을 보여 주며 각 속성에 대해 자세히 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/34560?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24067?quality=12)
 
 ### 임시 게재 템플릿을 배포하는 방법
 
 이 비디오에서는 임시 이메일 게재 템플릿을 배포하는 방법을 설명하고 이메일 게재와 게재 워크플로우의 차이점을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31901?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24065?quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

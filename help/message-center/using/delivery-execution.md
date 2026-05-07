@@ -9,7 +9,7 @@ topic-tags: event-processing
 exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '249'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 ## 트랜잭션 메시지 모니터링 {#transactional-message-monitoring}
 
-트랜잭션 메시지를 모니터링하려면 [게재 로그](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}를 확인하세요.
+트랜잭션 메시지를 모니터링하려면 [게재 로그](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}를 확인하세요.
 
 실행 인스턴스에서 보낸 트랜잭션 게재는 매시간 실행되는 기술 워크플로우(**[!UICONTROL Message Center execution instance]**)를 통해 컨트롤 인스턴스로 다시 동기화됩니다.
 

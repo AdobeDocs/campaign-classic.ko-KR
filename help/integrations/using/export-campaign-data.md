@@ -8,8 +8,8 @@ content-type: reference
 exl-id: 8d1404c5-030b-47fe-a4c3-e72f15f09bbb
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 3%
+source-wordcount: '536'
+ht-degree: 4%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 3%
 
 Campaign Classic 데이터를 Adobe Real-time Customer Data Platform(RTCDP)으로 내보내려면 먼저 공유할 데이터를 S3 또는 Azure Blob 저장소 위치로 내보낼 워크플로우를 Campaign Classic에 빌드해야 합니다.
 
-워크플로우를 구성하고 데이터를 저장소 위치로 전송하면 S3 또는 Azure Blob 저장소 위치를 Adobe Experience Platform의 **Source**(으)로 연결해야 합니다.
+워크플로우를 구성하고 데이터를 저장소 위치로 보낸 후 S3 또는 Azure Blob 저장소 위치를 Adobe Experience Platform의 **Source**(으)로 연결해야 합니다.
 
 >[!NOTE]
 >
->Campaign 생성 데이터만(예: 전송, 열기, 클릭 등) Adobe Experience Platform으로 내보내는 것이 좋습니다. CRM과 같은 타사 소스에서 수집된 데이터는 Adobe Experience Platform으로 직접 가져와야 합니다.
+>Campaign 생성 데이터만 내보내는 것이 좋습니다(예: 전송, 열기, 클릭 등). Adobe Experience Platform으로. CRM과 같은 타사 소스에서 수집된 데이터는 Adobe Experience Platform으로 직접 가져와야 합니다.
 
 ## Campaign Classic에서 내보내기 워크플로우 만들기
 
@@ -31,11 +31,11 @@ Campaign Classic에서 S3 또는 Azure Blob 저장소 위치로 데이터를 내
 
 이렇게 하려면 다음을 추가하고 구성합니다.
 
-* 타깃팅된 데이터를 CSV 파일로 추출하는 **[!UICONTROL Data extraction (file)]** 활동입니다. 이 활동을 구성하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=ko){target="_blank"}를 참조하세요.
+* 타깃팅된 데이터를 CSV 파일로 추출하는 **[!UICONTROL Data extraction (file)]** 활동입니다. 이 활동을 구성하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"}를 참조하세요.
 
   ![](assets/rtcdp-extract-file.png)
 
-* CSV 파일을 저장소 위치로 전송하는 **[!UICONTROL File transfer]** 활동입니다. 이 활동을 구성하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ko){target="_blank"}를 참조하세요.
+* CSV 파일을 저장소 위치로 전송하는 **[!UICONTROL File transfer]** 활동입니다. 이 활동을 구성하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}를 참조하세요.
 
   ![](assets/rtcdp-file-transfer.png)
 
@@ -49,8 +49,8 @@ S3 또는 Azure blob 저장소 위치를 Adobe experience Platform의 **Source**
 
 1. Adobe Experience Platform **[!UICONTROL Sources]** 메뉴에서 저장소 위치에 대한 연결을 만듭니다.
 
-   * [Amazon S3 원본 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html?lang=ko)
-   * [Azure Blob 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html?lang=ko)
+   * [Amazon S3 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html)
+   * [Azure Blob 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html)
 
    >[!NOTE]
    >
@@ -60,7 +60,7 @@ S3 또는 Azure blob 저장소 위치를 Adobe experience Platform의 **Source**
 
 1. 클라우드 스토리지 배치 연결에 대한 데이터 흐름을 구성합니다. 데이터 흐름은 저장소 위치에서 Adobe Experience Platform 데이터 세트로 데이터를 검색하고 수집하는 예약된 작업입니다. 이 단계에서는 데이터 선택 및 CSV 필드를 XDM 스키마에 매핑하는 것을 포함하여 스토리지 위치에서 데이터 수집을 구성할 수 있습니다.
 
-   자세한 정보는 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html?lang=ko)에서 확인할 수 있습니다.
+   자세한 정보는 [이 페이지](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html)에서 확인할 수 있습니다.
 
    ![](assets/rtcdp-map-xdm.png)
 

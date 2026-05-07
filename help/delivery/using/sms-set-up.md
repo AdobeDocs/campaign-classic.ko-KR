@@ -8,8 +8,8 @@ level: Experienced
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1736'
-ht-degree: 27%
+source-wordcount: '1740'
+ht-degree: 30%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 27%
 >
 >여러 외부 SMS 계정에 동일한 계정과 암호를 사용하면 계정 간에 충돌과 겹칠 수 있습니다. [SMS 문제 해결 페이지](troubleshooting-sms.md#external-account-conflict)를 참조하세요.
 
-To send a SMS to a mobile phone, you first need to create your SMPP external account.
+휴대폰에 SMS를 전송하려면 먼저 SMPP 외부 계정을 만들어야 합니다.
 SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [페이지](sms-protocol.md)를 참조하세요.
 
 이렇게 하려면 아래 단계를 수행합니다.
@@ -44,7 +44,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [페이지](sms-pr
    ![](assets/extended_smpp_create_account.png)
 
 1. **[!UICONTROL Enabled]** 상자를 선택합니다.
-1. **[!UICONTROL Mobile]** 탭의 **[!UICONTROL Extended generic SMPP]** 드롭다운 목록에서 **[!UICONTROL Connector]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Mobile]** 탭의 **[!UICONTROL Connector]** 드롭다운 목록에서 **[!UICONTROL Extended generic SMPP]**&#x200B;을(를) 선택합니다.
 
    ![](assets/extended_smpp_connector.png)
 
@@ -66,7 +66,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [페이지](sms-pr
 
    >[!NOTE]
    >
-   >특정 문자(중괄호, 대괄호, 유로 기호 등)는 2로 계산됩니다.
+   >특정 문자(중괄호, 대괄호, 유로 심벌 등)는 두 글자로 계산합니다.
    >
    >사용 가능한 GSM 문자 목록은 아래에 나와 있습니다.
 
@@ -111,7 +111,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [페이지](sms-pr
 
 그러나 SMS 메시지에 유니코드 메시지를 생성하는 문자가 많이 포함된 경우, 이 옵션을 활성화하여 메시지 전송 비용을 제한할 수 있습니다.
 
-다음 표에는 GSM 표준에서 고려하는 문자가 나와 있습니다. 아래에 언급된 문자 외에 메시지 본문에 삽입된 모든 문자는 전체 메시지를 이진 형식(유니코드)으로 변환하여 70자로 제한합니다.
+다음 표에는 GSM 표준에서 고려하는 문자가 나와 있습니다. 아래에 언급된 문자 외에 메시지 본문에 삽입된 모든 문자는 전체 메시지를 이진 형식(유니코드)으로 전환하여 70자로 제한합니다.
 
 **기본 문자**
 
@@ -180,7 +180,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [페이지](sms-pr
   <tr> 
    <td> ù </td> 
    <td> <img height="21px" src="assets/pi.png" /> </td> 
-   <td> 및 </td> 
+   <td> &amp; </td> 
    <td> 6 </td> 
    <td> F </td> 
    <td> V </td> 
@@ -249,7 +249,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [페이지](sms-pr
   </tr> 
   <tr> 
    <td> CR </td> 
-   <td> æ </td> 
+   <td>  </td> 
    <td> - </td> 
    <td> = </td> 
    <td> M </td> 
@@ -296,7 +296,7 @@ CR: 캐리지 리턴
 
 SMS 메시지를 보낼 때 Adobe Campaign에서는 하나 또는 여러 개의 텍스트 인코딩을 사용할 수 있습니다. 각 인코딩은 고유한 문자 세트를 가지며 SMS 메시지에 맞는 글자 수를 정합니다.
 
-새 SMPP 모바일 게재 외부 계정을 구성할 때 **[!UICONTROL Mapping of encodings]** 탭에서 **[!UICONTROL Mobile]**&#x200B;을(를) 정의할 수 있습니다. **[!UICONTROL data_coding]** 필드를 사용하면 Adobe Campaign에서 SMSC에 사용되는 인코딩을 전달할 수 있습니다.
+새 SMPP 모바일 게재 외부 계정을 구성할 때 **[!UICONTROL Mobile]** 탭에서 **[!UICONTROL Mapping of encodings]**&#x200B;을(를) 정의할 수 있습니다. **[!UICONTROL data_coding]** 필드를 사용하면 Adobe Campaign에서 SMSC에 사용되는 인코딩을 전달할 수 있습니다.
 
 >[!NOTE]
 >
@@ -335,7 +335,7 @@ SMS 메시지를 보낼 때 Adobe Campaign에서는 하나 또는 여러 개의 
 
 **[!UICONTROL Remove from quarantine]** 작업을 자동 응답에 연결하면 해당 키워드를 보내는 받는 사람이 자동으로 격리에서 제거됩니다.
 
-받는 사람은 **[!UICONTROL Non deliverables and addresses]** > **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** 메뉴를 통해 사용할 수 있는 **[!UICONTROL Non deliverables Management]** 표에 나열됩니다.
+받는 사람은 **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** 메뉴를 통해 사용할 수 있는 **[!UICONTROL Non deliverables and addresses]** 표에 나열됩니다.
 
 * 짧은 코드에 관계없이 동일한 회신을 보내려면 **[!UICONTROL Short code]** 열을 비워 둡니다.
 * 키워드와 관계없이 동일한 회신을 보내려면 **[!UICONTROL Keyword]** 열을 비워 둡니다.
@@ -345,7 +345,7 @@ SMS 메시지를 보낼 때 Adobe Campaign에서는 하나 또는 여러 개의 
 이러한 문제를 방지하려면 사용 중인 공급자에 따라 다음 솔루션 중 하나를 적용하십시오.
 
 * 각 외부 계정에 대해 하나의 공급자 계정을 만듭니다.
-* **[!UICONTROL System type]** > **[!UICONTROL Mobile]** 탭의 **[!UICONTROL Connection settings]** 필드를 사용하여 각 짧은 코드를 구분하십시오. 공급자에게 각 계정에 대해 다른 값을 요청하십시오.
+* **[!UICONTROL Mobile]** > **[!UICONTROL Connection settings]** 탭의 **[!UICONTROL System type]** 필드를 사용하여 각 짧은 코드를 구분하십시오. 공급자에게 각 계정에 대해 다른 값을 요청하십시오.
 
   ![](assets/extended_smpp_system-type.png)
 
@@ -353,7 +353,7 @@ SMS 메시지를 보낼 때 Adobe Campaign에서는 하나 또는 여러 개의 
 
 ## 게재 템플릿 변경 {#changing-the-delivery-template}
 
-Adobe Campaign provides you with a template for delivering to mobiles. 이 템플릿은 **[!UICONTROL Resources > Templates > Delivery templates]** 노드에서 사용할 수 있습니다. [&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ko){target="_blank"}
+Adobe Campaign은 모바일에 게재하기 위한 템플릿을 제공합니다. 이 템플릿은 **[!UICONTROL Resources > Templates > Delivery templates]** 노드에서 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}를 참조하세요.
 
 SMS 채널을 통해 게재하려면 채널 커넥터가 참조되는 템플릿을 만들어야 합니다.
 

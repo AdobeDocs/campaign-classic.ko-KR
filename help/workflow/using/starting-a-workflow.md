@@ -7,7 +7,7 @@ hide: true
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1187'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 워크플로우는 항상 수동으로 시작됩니다. 그러나 시작되면 스케줄러([스케줄러](scheduler.md) 참조) 또는 활동 예약을 통해 지정된 정보에 따라 비활성 상태로 유지될 수 있습니다.
 
-타깃팅 워크플로우 실행(실행, 중지, 일시 중지 등)과 관련된 작업은 **비동기** 프로세스입니다. 순서는 기록되며 서버가 순서를 적용할 수 있게 되면 즉시 적용됩니다.
+타겟팅 워크플로우 실행(실행, 중지, 일시 중지 등)과 관련된 작업 **비동기** 프로세스: 순서가 기록되며 서버가 이 순서를 적용할 수 있게 되면 즉시 적용됩니다.
 
 도구 모음을 사용하여 워크플로우 실행을 시작하고 추적할 수 있습니다.
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Start in simulation mode]**
 
-  이 옵션을 사용하면 실제 모드가 아닌 시뮬레이션 모드에서 워크플로우를 시작할 수 있습니다. 즉, 이 모드를 활성화하면 데이터베이스 또는 파일 시스템에 영향을 주지 않는 작업만 실행됩니다(예: **[!UICONTROL Query]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]** 등). 영향을 주는 활동(예: **[!UICONTROL Export]**, **[!UICONTROL Import]** 등)과 영향을 받는 활동(동일한 분기) 이후의 활동은 실행되지 않습니다.
+  이 옵션을 사용하면 실제 모드가 아닌 시뮬레이션 모드에서 워크플로우를 시작할 수 있습니다. 즉, 이 모드를 활성화하면 데이터베이스 또는 파일 시스템에 영향을 주지 않는 작업만 실행됩니다(예: **[!UICONTROL Query]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]** 등). 영향을 미치는 활동(예: **[!UICONTROL Export]**, **[!UICONTROL Import]** 등) (같은 분기에서) 그 뒤에 있는 것은 실행되지 않습니다.
 
 * **[!UICONTROL Execute pending tasks now]**
 

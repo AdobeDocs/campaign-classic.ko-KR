@@ -7,7 +7,7 @@ feature: Surveys
 exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '945'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 1. [3단계 - 설문 조사 빌드](#step-3---building-the-survey),
 1. [4단계 - 페이지 콘텐츠 만들기](#step-4---creating-the-page-content),
 1. [5단계 - 설문 조사 데이터 저장](#step-5---storing-the-survey-data-),
-1. [6단계 - 페이지 Publish](#step-6---publishing-the-pages),
+1. [6단계 - 페이지 게시](#step-6---publishing-the-pages),
 1. [7단계 - 온라인 설문 조사 공유](#step-7---sharing-your-online-survey).
 
 ## 1단계 - 설문 조사 만들기 {#step-1---creating-a-survey}
@@ -81,7 +81,7 @@ ht-degree: 1%
 
   ![](assets/s_ncs_admin_survey_change_label.png)
 
-  이제 사용자 계정 번호에 대한 입력 필드를 만듭니다. 작업을 반복하고 &#39;계정 번호&#39;를 선택합니다. 필드.
+  이제 사용자 계정 번호에 대한 입력 필드를 만듭니다. 작업을 반복하고 &#39;계정 번호&#39; 필드를 선택합니다.
 
   동일한 절차를 적용하여 사용자가 이메일 주소를 입력할 수 있는 필드를 추가합니다.
 
@@ -125,7 +125,7 @@ ht-degree: 1%
 
 **[!UICONTROL OK]**&#x200B;을(를) 클릭하여 확인한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설문 조사를 저장합니다.
 
-## 6단계 - 페이지 Publish {#step-6---publishing-the-pages}
+## 6단계 - 페이지 게시 {#step-6---publishing-the-pages}
 
 사용자가 HTML 페이지에 액세스할 수 있으려면 애플리케이션을 사용할 수 있어야 합니다. 더 이상 편집 단계가 아닌 프로덕션 단계여야 합니다. 프로덕션에 설문 조사를 넣으려면 설문 조사를 게시해야 합니다. 방법은 다음과 같습니다.
 

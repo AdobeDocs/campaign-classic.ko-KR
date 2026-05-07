@@ -7,7 +7,7 @@ exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 ## 콘텐츠 모델 {#content-model-5}
 
-열거형:==(도움말| value)
+열거형:==(도움말| 값)
 
 ## 속성 {#attributes-5}
 
@@ -55,10 +55,10 @@ ht-degree: 8%
    * blob
    * 부울
    * 바이트
-   * C데이터
+   * CDATA
    * datetime
    * datetimetz
-   * 다테티메노츠
+   * datetimenotz
    * 날짜
    * DOMDocument
    * DOMELEMENT
@@ -68,12 +68,12 @@ ht-degree: 8%
    * html
    * int64
    * 링크
-   * 길게
+   * 롱
    * 메모
    * MNTOKEN
    * 백분율
    * primarykey
-   * 짧음
+   * short
    * 문자열
    * 시간
    * timespan

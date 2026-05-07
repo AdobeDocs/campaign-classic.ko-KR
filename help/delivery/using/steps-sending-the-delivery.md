@@ -8,7 +8,7 @@ hide: true
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1551'
 ht-degree: 11%
 
 ---
@@ -142,7 +142,7 @@ ht-degree: 11%
    >
    >마지막 웨이브를 구성할 때 재시도 시간도 충분히 허용해야 합니다. [이 섹션](steps-sending-the-delivery.md#configuring-retries)을 참조하십시오.
 
-1. 전송을 모니터링하려면 게재 로그로 이동합니다. [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}를 참조하십시오.
+1. 전송을 모니터링하려면 게재 로그로 이동합니다. [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}를 참조하십시오.
 
    이미 처리된 웨이브에서 전송된 게재(**[!UICONTROL Sent]** 상태)와 나머지 웨이브에서 전송할 게재(**[!UICONTROL Pending]** 상태)를 볼 수 있습니다.
 
@@ -164,7 +164,7 @@ ht-degree: 11%
 
   예를 들어, 콜센터의 일일 처리 용량을 고려하여 웨이브를 사용하여 메시지 수를 하루에 20개로 제한할 수 있습니다.
 
-  이렇게 하려면 **[!UICONTROL Schedule multiple waves of the same size]** 옵션을 선택하십시오. **[!UICONTROL 20]** 필드에 웨이브의 크기로 **[!UICONTROL 1d]**&#x200B;을(를) 입력하고 **[!UICONTROL Period]**&#x200B;을(를) 입력합니다.
+  이렇게 하려면 **[!UICONTROL Schedule multiple waves of the same size]** 옵션을 선택하십시오. **[!UICONTROL Period]** 필드에 웨이브의 크기로 **[!UICONTROL 20]**&#x200B;을(를) 입력하고 **[!UICONTROL 1d]**&#x200B;을(를) 입력합니다.
 
   ![](assets/s_ncs_user_wizard_waves_call_center.png)
 

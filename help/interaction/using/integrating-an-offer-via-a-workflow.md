@@ -9,7 +9,7 @@ topic-tags: delivering-an-offer
 exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1077'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->데이터 보강 활동에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ko){target="_blank"}를 참조하세요.
+>데이터 보강 활동에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}를 참조하세요.
 
 예를 들어 게재 전에 수신자 쿼리에 대한 데이터를 보강할 수 있습니다.
 
@@ -68,7 +68,7 @@ ht-degree: 1%
 
 ### 오퍼 엔진에 대한 오퍼 또는 호출 지정 {#specifying-an-offer-or-a-call-to-the-offer-engine}
 
-쿼리를 구성한 후([Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"} 참조):
+쿼리를 구성한 후([Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"} 참조):
 
 1. 데이터 보강 활동을 추가하고 엽니다.
 1. **[!UICONTROL Enrichment]** 탭에서 **[!UICONTROL Add data]**&#x200B;을(를) 선택합니다.
@@ -99,7 +99,7 @@ ht-degree: 1%
 
 이렇게 하려면 다음 프로세스를 사용합니다.
 
-1. 활동의 **[!UICONTROL Add data]** 탭에서 **[!UICONTROL Enrichment]**&#x200B;을(를) 선택합니다.
+1. 활동의 **[!UICONTROL Enrichment]** 탭에서 **[!UICONTROL Add data]**&#x200B;을(를) 선택합니다.
 1. 추가할 데이터 형식을 선택하는 창에서 **[!UICONTROL A link]**&#x200B;을(를) 선택합니다.
 1. 설정하려는 링크 유형과 대상을 선택합니다. 이 경우 타겟은 오퍼 스키마입니다.
 

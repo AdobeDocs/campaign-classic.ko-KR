@@ -9,8 +9,8 @@ topic-tags: connectors
 exl-id: 240d7e11-da3a-4d64-8986-1f1c8ebcea3c
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 0%
+source-wordcount: '644'
+ht-degree: 1%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 예를 들어 쿼리 활동에서 외부 데이터베이스에 대한 주기적 연결을 만드는 단계는 다음과 같습니다.
 
 1. **[!UICONTROL Add data...]**&#x200B;을(를) 클릭하고 **[!UICONTROL External data]** 옵션을 선택합니다.
-1. **[!UICONTROL Locally defining the data source]** 옵션을 선택하십시오.
+1. **[!UICONTROL Locally defining the data source]** 옵션을 선택합니다.
 
    ![](assets/wf_add_data_local_external_data.png)
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 외부 FDA 계정을 구성할 때 외부 데이터베이스에 대한 액세스 보안을 설정할 수 있습니다.
 
-이렇게 하려면 사용된 포트의 서버 주소와 주소 뒤에 &quot;**:ssl**&quot;을(를) 추가합니다. 예: **192.168.0.52:4501:ssl**.
+이렇게 하려면 사용된 포트의 서버 주소와 주소 뒤에 &quot;**:ssl**&quot;을(를) 추가하십시오. 예: **192.168.0.52:4501:ssl**.
 
 그런 다음 데이터는 보안 SSL 프로토콜을 통해 전송됩니다.
 

@@ -8,8 +8,8 @@ level: Beginner
 exl-id: a06b1365-d487-4df1-8f4a-7268b871a427
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 1%
+source-wordcount: '637'
+ht-degree: 3%
 
 ---
 
@@ -48,7 +48,7 @@ Campaign Classic 배포를 시작하기 전에 온-프레미스 고객으로서 
 * Adobe Campaign에 대해 지원되는 시스템 및 구성 요소의 모든 버전을 나열하는 [호환성 매트릭스](../../rn/using/compatibility-matrix.md)를 참조하십시오.
 * 환경에 따라 [Windows용 필수 구성 요소](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) 및 [Linux용 필수 구성 요소](../../installation/using/prerequisites-of-campaign-installation-in-linux.md)를 읽어 보십시오.
 * 데이터베이스 엔진 [과(와) 관련된 권장 사항을 이 섹션](../../installation/using/database.md)에서 알아보세요.
-* 필요한 데이터베이스 액세스 레이어가 서버에 설치되어 있고 Adobe Campaign 계정에서 액세스할 수 있는지 확인하십시오. [자세히 알아보기](../../installation/using/application-server.md)
+* 필요한 데이터베이스 액세스 레이어가 서버에 설치되어 있고 Adobe Campaign 계정에서 액세스할 수 있는지 확인하십시오. [자세히 알아보기](../../installation/using/application-server.md).
 * 일부 프로세스가 다른 프로세스와 통신하거나 LAN 및 인터넷에 액세스해야 하므로 네트워크를 구성합니다. 즉, 이러한 프로세스를 위해 일부 TCP 포트를 열어야 합니다. 네트워크 구성 요구 사항에 대해 [자세히 알아보세요](../../installation/using/network-configuration.md).
 * [Campaign 보안 및 개인 정보 보호 확인 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html)을 읽어 보세요.
 * 온-프레미스 배포 [에 대한 하드웨어 요구 사항 추정에 대한 일반 지침(이 문서](https://helpx.adobe.com/kr/campaign/kb/hardware-sizing-guide.html))을 확인하세요.

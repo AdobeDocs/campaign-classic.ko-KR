@@ -10,8 +10,8 @@ topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 1%
+source-wordcount: '1329'
+ht-degree: 2%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 
 이렇게 하려면 데이터베이스에 액세스할 수 있는 권한이 있는 **관리 시스템 계정**&#x200B;의 이름과 암호를 입력하십시오. 예:
 
-* oracle 데이터베이스에 대한 **시스템**,
+* Oracle 데이터베이스의 **시스템**,
 * Microsoft SQL Server 데이터베이스의 **sa**,
 * PostgreSQL 데이터베이스의 경우 **postgres**,
 
@@ -95,7 +95,7 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >oracle 데이터베이스에서 **[!UICONTROL Unicode storage]** 옵션을 사용하면 **NCLOB** 및 **NVARCHAR** 형식 필드를 사용할 수 있습니다.
+  >Oracle 데이터베이스에서 **[!UICONTROL Unicode storage]** 옵션을 사용하면 **NCLOB** 및 **NVARCHAR** 형식 필드를 사용할 수 있습니다.
   > 
   >이 옵션을 선택하지 않으면 Oracle 데이터베이스의 문자 세트(charset)가 모든 언어로 데이터 저장을 활성화해야 합니다(AL32UTF8이 권장됨).
 
@@ -117,7 +117,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_install_db_oracle_creation04.png)
 
-* oracle, Microsoft SQL Server 또는 PostgreSQL 데이터베이스의 경우 관리자는 데이터베이스 개체를 만들 때 사용할 **저장소 매개 변수**&#x200B;도 정의할 수 있습니다.
+* Oracle, Microsoft SQL Server 또는 PostgreSQL 데이터베이스의 경우 관리자는 데이터베이스 개체를 만들 때 사용할 **저장소 매개 변수**&#x200B;를 정의할 수도 있습니다.
 
   이러한 매개변수는 정확한 테이블스페이스 이름을 수신합니다(경고: 대소문자 구분). 다음 옵션의 **[!UICONTROL Administration > Platform > Options]** 노드에 각각 저장됩니다([이 섹션](../../installation/using/configuring-campaign-options.md#database) 참조).
 
@@ -126,7 +126,7 @@ ht-degree: 1%
    * **WdbcOptions_TableSpaceWork**: 스키마가 없는 작업 테이블
    * **WdbcOptions_TableSpaceWorkIndex**: 스키마가 없는 작업 테이블 인덱스
 
-* oracle 데이터베이스의 경우 Adobe Campaign 사용자는 일반적으로 **oinstall** 그룹의 구성원으로 Oracle 라이브러리에 액세스할 수 있어야 합니다.
+* Oracle 데이터베이스의 경우 Adobe Campaign 사용자는 일반적으로 **oinstall** 그룹의 구성원으로 Oracle 라이브러리에 액세스할 수 있어야 합니다.
 * **[!UICONTROL Set or change the administrator password]** 옵션을 사용하면 관리자 권한이 있는 Adobe Campaign 연산자에 연결된 암호를 입력할 수 있습니다.
 
   보안을 위해 Adobe Campaign 계정 관리자 암호를 정의하는 것이 좋습니다.
@@ -198,7 +198,7 @@ ht-degree: 1%
   >[!NOTE]
   >
   >스키마 이름과 사용자 이름이 모두 일치하는지 확인하십시오. 데이터베이스를 만드는 권장 방법은 campaign 콘솔 클라이언트를 사용하는 것입니다.
-  >oracle 데이터베이스의 경우 계정 이름을 입력할 필요가 없습니다.
+  >Oracle 데이터베이스의 경우 계정 이름을 입력할 필요가 없습니다.
 
 * 데이터베이스가 유니코드여야 하는지 여부를 나타냅니다.
 
@@ -216,8 +216,8 @@ ht-degree: 1%
 
 ![](assets/s_ncs_install_db_oracle_creation04.png)
 
-* oracle, Microsoft SQL Server 또는 PostgreSQL 데이터베이스의 경우 관리자는 데이터베이스 개체를 만들 때 사용할 **저장소 매개 변수**&#x200B;를 정의할 수 있습니다.
-* oracle 데이터베이스의 경우 Adobe Campaign 사용자는 일반적으로 **oinstall** 그룹의 구성원으로 Oracle 라이브러리에 액세스할 수 있어야 합니다.
+* Oracle, Microsoft SQL Server 또는 PostgreSQL 데이터베이스의 경우 관리자는 데이터베이스 개체를 만들 때 사용할 **저장소 매개 변수**&#x200B;를 정의할 수 있습니다.
+* Oracle 데이터베이스의 경우 Adobe Campaign 사용자는 일반적으로 **oinstall** 그룹의 구성원으로 Oracle 라이브러리에 액세스할 수 있어야 합니다.
 * **[!UICONTROL Set or change the administrator password]** 옵션을 사용하면 관리자 권한이 있는 Adobe Campaign 연산자에 연결된 암호를 입력할 수 있습니다.
 
   보안을 위해 Adobe Campaign 계정 관리자 암호를 정의하는 것이 좋습니다.

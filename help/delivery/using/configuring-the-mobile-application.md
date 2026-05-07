@@ -9,8 +9,8 @@ hide: true
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 3%
+source-wordcount: '600'
+ht-degree: 4%
 
 ---
 
@@ -81,7 +81,7 @@ iOS의 경우 iOS HTTP/2 커넥터가 HTTP/2 APNs에 알림을 보냅니다.
 
    ![](assets/nmac_ios_2.png)
 
-1. 필요한 경우 **[!UICONTROL Application variables]**&#x200B;을(를) 사용하여 푸시 메시지 콘텐츠를 보강할 수 있습니다. 이는 완전히 맞춤화가 가능하며 모바일 디바이스로 전송되는 메시지 페이로드의 일부입니다.
+1. 필요한 경우 **[!UICONTROL Application variables]**을(를) 사용하여 푸시 메시지 콘텐츠를 보강할 수 있습니다. 이는 완전히 맞춤화가 가능하며 모바일 디바이스로 전송되는 메시지 페이로드의 일부입니다.
 다음 예제에서는 **mediaURl** 및 **mediaExt**&#x200B;을 추가하여 리치 푸시 알림을 만든 다음 응용 프로그램에 알림 내에 표시할 이미지를 제공합니다.
 
    ![](assets/nmac_ios_3.png)
@@ -96,7 +96,7 @@ iOS의 경우 iOS HTTP/2 커넥터가 HTTP/2 APNs에 알림을 보냅니다.
 
 1. 개발 응용 프로그램 구성을 시작하려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하십시오.
 
-1. Adobe Campaign 및 SDK을 통해 응용 프로그램 코드에 동일한 **[!UICONTROL Integration key]**&#x200B;이(가) 정의되어 있는지 확인하십시오. <!--For more on this, refer to [this page](integrating-campaign-sdk-into-the-mobile-application.md).--> 각 애플리케이션에 해당하는 이 통합 키를 사용하면 모바일 애플리케이션을 Adobe Campaign 플랫폼에 연결할 수 있습니다.
+1. Adobe Campaign 및 SDK을 통한 응용 프로그램 코드에서 동일한 **[!UICONTROL Integration key]**&#x200B;이(가) 정의되어 있는지 확인하십시오. <!--For more on this, refer to [this page](integrating-campaign-sdk-into-the-mobile-application.md).--> 각 애플리케이션에 해당하는 이 통합 키를 사용하면 모바일 애플리케이션을 Adobe Campaign 플랫폼에 연결할 수 있습니다.
 
    >[!NOTE]
    >
