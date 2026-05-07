@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Campaign v8 프로모션 이니셔티브의 일환으로 Campaign Classic 설명
 
 릴리스 상태를 줄이고 단순화했습니다. [자세히 알아보기](rn-overview.md)
 
-Linux 패키지 설치가 v7.4.1용으로 업데이트되었습니다. [자세히 보기](../../installation/using/installing-packages-with-linux.md)
+v7.4.1용 Linux 패키지 설치가 업데이트되었습니다. [자세히 보기](../../installation/using/installing-packages-with-linux.md)
 
 ### 2024년 6월 {#june-2024}
 

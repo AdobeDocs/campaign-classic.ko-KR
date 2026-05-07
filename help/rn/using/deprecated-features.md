@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1767'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -83,12 +83,12 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
     <tr>
   <td>기술 게재성 모니터링 보고서<br></td>
    <td><p>기술 게재 가능성 모니터링 보고서를 더 이상 사용할 수 없습니다. Campaign 21.1.3 릴리스에서 더 이상 사용되지 않습니다.</p>
-   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
+   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
   </td>
  </tr>
   <tr>
   <td>OAuth 인증(OAuth 및 JWT)<br></td>
-  <td><p> OAuth 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증을 변경하고 Adobe I/O로 이동했습니다. Campaign 20.3 릴리스부터는 더 이상 이 인증 모드를 사용하지 않습니다.<p>
+  <td><p> OAuth 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 변경되어 Adobe I/O로 이동했습니다. Campaign 20.3 릴리스부터는 더 이상 이 인증 모드를 사용하지 않습니다.<p>
   <p>기존에 트리거 통합을 사용 중이었던 경우 <a href="../../integrations/using/about-triggers.md#implement">이 페이지에서</a> 구현을 조정하는 방법을 알아보세요.</p> 
   <p>OAuth 인증 감가상각에 대한 자세한 내용은 이 <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">페이지</a>를 참조하십시오</p> 
   <!--p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until May 25, 2022. </em></p-->
@@ -108,7 +108,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   </tr>
    <tr> 
    <td>Windows NT 인증<br></td>
-   <td><p>Microsoft SQL Server로 새 데이터베이스를 구성할 때 Campaign 20.3 릴리스부터 사용 가능한 인증 방법에서 Windows NT 인증이 제거되었습니다. <a href="../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine">자세히 알아보기</a></p></td>
+   <td><p>Campaign 20.3 릴리스부터 Microsoft SQL Server로 새 데이터베이스를 구성할 때 사용 가능한 인증 방법에서 Windows NT 인증이 제거되었습니다. <a href="../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine">자세히 알아보기</a></p></td>
   </tr>
    <tr> 
    <td>파일 기반의 전자 메일 보관<br></td>
@@ -137,7 +137,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   <tr> 
    <td>decryptString API</td>
    <td><p>보안상의 이유로 Campaign 18.6 릴리스부터는 <em>decryptString</em> API는 기본적으로 더 이상 새로 설치할 수 없습니다.</p> 
-   <p>18.6 또는 그 이상으로 업그레이드 후 컨텍스트에서 이 API는 더 이상 활성화되지 않으며 <em>decryptPassword</em> 함수로 대체되었습니다. <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?lang=ko&hl=decrypt">자세히 알아보기</a></p></td>
+   <p>18.6 또는 그 이상으로 업그레이드 후 컨텍스트에서 이 API는 더 이상 활성화되지 않으며 <em>decryptPassword</em> 함수로 대체되었습니다. <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?hl=decrypt">자세히 알아보기</a></p></td>
   </tr> 
    <tr> 
    <td>모바일 채널 - MMS 및 WAP 푸시 메시지</td>
@@ -188,7 +188,7 @@ The following systems are deprecated for Campaign Classic. Please refer to the [
 
    * CentOS 6. [자세히 알아보기](https://wiki.centos.org/Download)
    * Debian 7. [자세히 알아보기](https://wiki.debian.org/DebianReleases)
-   * RHEL 6.x [자세히 알아보기](https://access.redhat.com/support/policy/updates/errata)
+   * RHEL 6.x. [자세히 알아보기](https://access.redhat.com/support/policy/updates/errata)
    * Windows Server 2008. [자세히 알아보기](https://support.microsoft.com/en-us/lifecycle/search/1163)
    * SLES 11. [자세히 알아보기](https://www.suse.com/lifecycle)
 
@@ -234,10 +234,10 @@ Campaign Classic은 FDA(Federated Data Access)의 다음 서버와 호환되지 
 * MySQL 5.1.
 * InfiniDB는 수명이 종료되었습니다.
 * Teradata 13, 13.1.
-* Netezza 6.02, 7.0. Netezza은 수명이 종료되었습니다.
-* AsterData 5.0 AsterData가 수명이 종료되었습니다.
+* Netezza 6.02, 7.0. Netezza는 종료되었습니다.
+* AsterData 5.0. AsterData는 수명이 종료되었습니다.
 * Sybase IQ 15.2, 15.4, 15.5, Sybase ASE 15.0.
-* Hadoop via HiveSQL: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic은 여전히 FDA(Federated Data Access)를 통해 HiveSQL을 통해 나열된 Hadoop 버전을 지원하지만, 이러한 버전은 다음과 병합됩니다. HortonWorks(HDP 2.4.X, 2.5.x, 2.6.x) 및 HDInsight 3.4(HDP 2.4), 3.5(HDP 2.5), 3.6(HDP 2.6)
+* HiveSQL을 통한 Hadoop: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic은 FDA(페더레이션 데이터 액세스)로 HiveSQL을 통한, 목록에 포함된 Hadoop 버전을 계속 지원하지만, 해당 버전은 HortonWorks(HDP 2.4.X, 2.5.x, 2.6.x) 및 HDInsight 3.4(HDP 2.4), 3.5(HDP 2.5), 3.6(HDP 2.6)과 병합됩니다
 
 **RDBMS 서버**
 
