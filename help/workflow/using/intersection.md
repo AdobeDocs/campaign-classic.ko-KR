@@ -5,7 +5,7 @@ description: 교차
 feature: Workflows, Targeting Activity
 hide: true
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+source-git-commit: 036c937224135f7b372010736f2040a8a6c69b4c
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 15%
@@ -63,3 +63,4 @@ ht-degree: 15%
 * recCount
 
 이 세 값 세트는 교차로 인한 대상을 식별합니다. **[!UICONTROL tableName]**&#x200B;은(는) 대상 식별자를 기록하는 테이블의 이름이고, **[!UICONTROL schema]**&#x200B;은(는) 모집단의 스키마(일반적으로 **[!UICONTROL nms:recipient]**)이며, **[!UICONTROL recCount]**&#x200B;은(는) 테이블의 요소 수입니다.
+
