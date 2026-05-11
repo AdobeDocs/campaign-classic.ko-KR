@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: b9a716f327b8fdd68c3bf36dbe864535308def30
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+source-git-commit: 2296c1a7f6b818991d1620281077547d9250f16d
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 76%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 100%
 
 [!BADGE 일반 가용성]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="일반 공급"}
 
-_2026년 3월 16_
-
 >[!CAUTION]
 >
 > 클라이언트 콘솔 업그레이드는 필수입니다.
+
+_2026년 3월 31일_
 
 ### 보안 개선 사항 {#security-7-4-3}
 
@@ -33,12 +33,35 @@ _2026년 3월 16_
 
 ### 해결 사항 {#fixes-7-4-3}
 
+>[!NOTE]
+>
+> 아래 나열된 수정 사항은 연속적인 7.4.3 빌드에서 점진적으로 롤아웃되었습니다. **[!UICONTROL Help > About...]** [메뉴](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)(으)로 이동하여 최신 9394@28aaec9 빌드가 있는지 확인합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+
 * 바코드 구성 요소에서 제한 없는 높이 매개 변수를 허용하여 보안 취약성이 발생할 수 있는 문제를 해결했습니다. (NEO-89984)
 * 워크플로를 통해 만든 목록의 열거형 필드에 임시 이름 속성이 누락되어 인터페이스에 잘못되거나 빈 열거형 레이블이 표시되는 문제를 해결했습니다. (NEO-91158)
-* 일부 게재에 대해 게재 통계가 완전히 다시 계산되지 않고, 특히 성공 지표에 영향을 미치는 문제를 해결했습니다. (NEO-88106)
 * 중복 제거 활동이 있는 워크플로에서 targetData 필드를 사용할 때 개인화 오류로 게재 준비가 실패하는 문제를 해결했습니다. (NEO-87693)
 * 유형 변환 요구 사항으로 인해 PostgreSQL 15에서 단일 문자 문자열 필드를 다른 문자열과 연결하지 못하는 문제를 해결했습니다. (NEO-88028)
 * 상위 및 하위 게재 ID가 일치하지 않아 [분산 마케팅]의 공동 작업 캠페인에 대한 추적 로그가 데이터베이스에 기록되지 않는 문제를 해습니다. (NEO-86836)
 * 메시지가 정상적으로 전송되었는데도 게재 로그에는 취소된 것으로 표시되며, 특히 일괄 처리 예약에 영향을 주던 문제를 해결했습니다. (NEO-78933)
 * 데이터베이스 정리 워크플로가 성능에 영향을 줄 수 있는 데이터를 효율적으로 삭제하지 못하던 문제를 해결했습니다. (NEO-76439)
+
+<!-- BUILD 7.0.9394.28aaec9 -->
+
+* 일부 게재에 대해 게재 통계가 완전히 다시 계산되지 않고, 특히 성공 지표에 영향을 미치는 문제를 해결했습니다. (NEO-88106) <!-- moved from original 7.4.3 GA Fixes section -->
+* 누락된 업스트림 타겟팅 스키마를 참조하는 특정 워크플로우를 열 때 클라이언트 콘솔이 충돌할 수 있는 문제를 해결했습니다. (NEO-28727)
+* 설치 패키지에서 버전 파일이 누락되어 시작이 실패한 후 클라이언트 콘솔 버전을 식별할 수 없는 문제를 해결했습니다. (NEO-94798)
+
+<!--
+other fixes - ommitted from release notes
+
+Internal/non-customer-facing:
+
+* Fixed an internal DevOps build race condition when copying the `teradata_timezones.txt` file during build packaging. (NEO-66532) — internal only; the Jira description states "No impact for customers: either it builds (99.9% of the time) or it does not."
+* Fixed an internal CI/CD issue where AWS CodeBuild jobs could fail randomly on EC2 Docker containers when copying files during build. (NEO-90823) — internal CI/CD infrastructure only
+
+Customer-specific hotfixes:
+
+* Fixed an issue where coupon assignment could fail during delivery message preparation due to a SQL syntax error when looking up coupon codes. (NEO-92857) — Verizon only
+* Fixed an issue where the error count and status in the `nms:address` table were not consistently updated on the marketing server after recurring soft bounces, causing recipients to not be quarantined as expected even though they were correctly flagged on the mid-sourcing server. (NEO-94422) — Walgreens only
+-->
 
