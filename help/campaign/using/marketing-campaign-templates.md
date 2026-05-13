@@ -6,9 +6,14 @@ role: User
 feature: Campaigns, Templates
 hide: true
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/mFkyDINneoodiL3Liiao0u3uZQsGaZCG1-BEu6Vqjos
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: 1147
 ht-degree: 3%
 
 ---
@@ -156,7 +161,7 @@ ht-degree: 3%
 
   >[!NOTE]
   >
-  >[Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}에서 **열거형으로 작업**&#x200B;하는 방법에 대해 자세히 알아보세요.
+  >[Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}에서 **열거형으로 작업**&#x200B;하는 방법에 대해 자세히 알아보세요.
 
 * **캠페인 유형**(고유, 반복 또는 정기)을 선택하십시오. 기본적으로 캠페인 템플릿은 고유한 캠페인에 적용됩니다. 반복 및 정기 캠페인은 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns)에 자세히 설명되어 있습니다.
 * 캠페인 기간, 즉 캠페인이 진행될 일 수를 지정합니다. 이 템플릿을 기반으로 캠페인을 만들 때 캠페인 시작 및 종료 날짜가 자동으로 채워집니다.

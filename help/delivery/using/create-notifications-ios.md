@@ -6,9 +6,13 @@ feature: Push
 role: User, Developer
 hide: true
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/aA0JGU2WkqRg5jjJ0HIeQVEoSZ0iKTO6mb2ORC3kvcg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: 1000
 ht-degree: 8%
 
 ---
@@ -33,7 +37,7 @@ iOS 장치에 대한 푸시 알림을 만들려면 아래 단계를 따르십시
 
    >[!NOTE]
    >
-   >게재의 대상 모집단을 선택할 때의 자세한 프로세스는 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#target-population입니다.){target="_blank"}의 이 섹션에 나와 있습니다.
+   >게재의 대상 모집단을 선택할 때의 자세한 프로세스는 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#target-population입니다.){target="_blank"}의 이 섹션에 나와 있습니다.
    >
    >개인화 필드 사용에 대한 자세한 내용은 [이 섹션](about-personalization.md)을 참조하세요.
    >

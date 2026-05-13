@@ -7,9 +7,11 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
-source-git-commit: c38150aa8de90f314e1f2a43c6751d4db4059533
+TQID: https://experienceleague.adobe.com/keWzvD8mrha5wEUomR9FdRVTi-ryy2EVkRSAws-YKnI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: 603
 ht-degree: 9%
 
 ---
@@ -72,7 +74,7 @@ Adobe Campaign 콘솔이 시작되면 로그인 페이지에 액세스합니다.
 
 1. **[!UICONTROL Language]** 드롭다운 목록에서 **인스턴스 언어**: 영어(미국), 영어(영국), 프랑스어 또는 일본어를 선택합니다.
 
-   미국 영어와 영국 영어의 차이점은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui)에 설명되어 있습니다.
+   미국 영어와 영국 영어의 차이점은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui)에 설명되어 있습니다.
 
    >[!CAUTION]
    >

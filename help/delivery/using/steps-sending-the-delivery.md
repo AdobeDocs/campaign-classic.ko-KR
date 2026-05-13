@@ -6,9 +6,13 @@ feature: Channel Configuration
 role: User
 hide: true
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/-Wh-pHFGE1kTId3t6g7wVJFfSvh2W5ERHi2K5-0Ohdw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: 1551
 ht-degree: 11%
 
 ---
@@ -142,7 +146,7 @@ ht-degree: 11%
    >
    >마지막 웨이브를 구성할 때 재시도 시간도 충분히 허용해야 합니다. [이 섹션](steps-sending-the-delivery.md#configuring-retries)을 참조하십시오.
 
-1. 전송을 모니터링하려면 게재 로그로 이동합니다. [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}를 참조하십시오.
+1. 전송을 모니터링하려면 게재 로그로 이동합니다. [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}를 참조하십시오.
 
    이미 처리된 웨이브에서 전송된 게재(**[!UICONTROL Sent]** 상태)와 나머지 웨이브에서 전송할 게재(**[!UICONTROL Pending]** 상태)를 볼 수 있습니다.
 

@@ -7,9 +7,12 @@ feature: Direct Mail
 role: User
 hide: true
 exl-id: 964cc600-19b8-449e-bac6-dc9da2b5ea12
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/SoRik68y9GPavnSbqqVWtbghnt-hqwo3hrwuWgHq-vI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: 124
 ht-degree: 15%
 
 ---
@@ -27,5 +30,5 @@ ht-degree: 15%
 
    ![](assets/direct_mail.png)
 
-1. 레이블, 코드 및 설명을 사용하여 게재를 식별합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#create-the-delivery){target="_blank"}에서 이 섹션을 참조하세요.
+1. 레이블, 코드 및 설명을 사용하여 게재를 식별합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#create-the-delivery){target="_blank"}에서 이 섹션을 참조하세요.
 1. **계속**&#x200B;을 클릭하여 이 정보를 확인하고 메시지 구성 창을 표시합니다.

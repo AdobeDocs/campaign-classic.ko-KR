@@ -7,9 +7,13 @@ feature: Email, Push
 role: User, Developer
 hide: true
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/QtOpkl4Sa6PJe5IGz4ffvpQdl2QfKA5J47WBKtIg2j8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: 507
 ht-degree: 3%
 
 ---
@@ -19,7 +23,7 @@ ht-degree: 3%
 팝업에 표시되는 이모티콘 목록은 열거형에 의해 제어되며, 열거형을 통해 목록에 값을 표시하여 사용자가 지정된 필드에 대해 선택할 수 있는 사항을 제한할 수 있습니다.
 이모티콘 목록 순서는 사용자 지정할 수 있으며, 목록에 다른 이모티콘을 추가할 수도 있습니다.
 
-이모티콘은 이메일 및 푸시에만 사용할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko#inserting-emoticons){target="_blank"}를 참조하세요.
+이모티콘은 이메일 및 푸시에만 사용할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#inserting-emoticons){target="_blank"}를 참조하세요.
 
 
 ## 새 이모티콘 추가 {#add-new-emoticon}
@@ -49,7 +53,7 @@ ht-degree: 3%
 
    ![](assets/emoticon_5.png)
 
-1. 구성이 완료되면 **[!UICONTROL Ok]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. 구성이 완료되면 **[!UICONTROL Ok]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**을(를) 클릭합니다.
 새 이모티콘이 스토어에 자동으로 삽입됩니다.
 
 1. 게재의 **[!UICONTROL Insert emoticon]** 창에 표시하려면 새로 만든 이모티콘을 두 번 클릭하여 선택합니다.
@@ -64,7 +68,7 @@ ht-degree: 3%
 
 1. 변경 사항을 고려하려면 연결을 끊고 Adobe Campaign Classic에서 다시 연결합니다. 새 이모티콘이 **[!UICONTROL Insert emoticon]** 팝업 창에 계속 나타나지 않으면 캐시를 지워야 할 수도 있습니다. 자세한 정보는 이 [섹션](../../platform/using/faq-campaign-classic-v7.md#how-do-i-clear-console-cache)을 참조하십시오.
 
-1. 이제 이전 단계에서 구성한 대로 61번째 위치의 **[!UICONTROL Insert emoticon]** 팝업 창에서 게재에서 새 이모티콘을 찾을 수 있습니다. 게재에서 이모티콘을 사용하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko#inserting-emoticons){target="_blank"}를 참조하세요.
+1. 이제 이전 단계에서 구성한 대로 61번째 위치의 **[!UICONTROL Insert emoticon]** 팝업 창에서 게재에서 새 이모티콘을 찾을 수 있습니다. 게재에서 이모티콘을 사용하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#inserting-emoticons){target="_blank"}를 참조하세요.
 
    ![](assets/emoticon_4.png)
 

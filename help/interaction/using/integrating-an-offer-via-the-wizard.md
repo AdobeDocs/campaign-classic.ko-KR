@@ -7,9 +7,13 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 64aea8b9-7f06-4db0-a3e6-6a0e17c3ddcb
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+TQID: https://experienceleague.adobe.com/-Q0o3Wq57hsb8ApehXe-CD2MbzkIftqPq21DWKDuauE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: 828
 ht-degree: 1%
 
 ---
@@ -29,7 +33,7 @@ ht-degree: 1%
 
 ![](assets/offer_delivery_009.png)
 
-DM 게재에 대한 자세한 내용은 이 섹션[&#128279;](../../delivery/using/about-direct-mail-channel.md)을 참조하세요. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko){target=_blank}에서 마케팅 캠페인에 대해 자세히 알아보세요.
+DM 게재에 대한 자세한 내용은 이 섹션](../../delivery/using/about-direct-mail-channel.md)을 참조하세요. [[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko){target=_blank}에서 마케팅 캠페인에 대해 자세히 알아보세요.
 
 ### 게재에 오퍼를 삽입하는 주요 단계 {#main-steps-for-inserting-an-offer-into-a-delivery}
 

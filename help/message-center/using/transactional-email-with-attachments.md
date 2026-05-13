@@ -4,9 +4,12 @@ title: 첨부 파일이 있는 트랜잭션 이메일 보내기
 description: Adobe Campaign을 사용하여 개별 및/또는 개인화된 첨부 파일이 있는 트랜잭션 이메일을 보내는 방법을 알아봅니다
 feature: Transactional Messaging, Message Center
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+TQID: https://experienceleague.adobe.com/xc89iwDzHmUWU4PfAZ-LWpO3ggN6ySCv-n0iVrdlEKc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: 684
 ht-degree: 1%
 
 ---
@@ -64,7 +67,7 @@ Adobe은 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 
 
 트랜잭션 메시지에 이메일 첨부 파일을 즉시 추가하려면 아래 단계를 따르십시오.
 
-1. 먼저 첨부 파일을 디자인합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html?lang=ko#attach-a-personalized-file){target="_blank"}를 참조하세요.
+1. 먼저 첨부 파일을 디자인합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html#attach-a-personalized-file){target="_blank"}를 참조하세요.
 
    이렇게 하면 실행 인스턴스에서 호스팅되지 않는 파일도 이메일에 첨부할 수 있습니다.
 

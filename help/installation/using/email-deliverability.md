@@ -8,9 +8,14 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+TQID: https://experienceleague.adobe.com/JRN8-kfrbG-UDAJz8wShf-0vi-LyqrUBxNBa3wn83cc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: b5852c32-876b-41ae-92a7-9f588865ae52id: e656c701-3899-4db3-989c-de0980ddfffaid: eff19c99-440a-4318-b319-444edc4d8d8f
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '3163'
+source-wordcount: 3163
 ht-degree: 2%
 
 ---
@@ -316,7 +321,7 @@ MX에 대해 준수할 규칙이 트리의 **[!UICONTROL Administration > Campai
 
 이렇게 하려면 **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Non deliverables management]** > **[!UICONTROL Mail rule sets]**&#x200B;에 있는 **[!UICONTROL Management of email formats]** 문서로 이동하십시오.
 
-이 문서에는 Adobe Campaign에서 관리하는 일본어 형식에 해당하는 사전 정의된 모든 도메인의 목록이 포함되어 있습니다. 자세한 내용은 관련 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=ko){target="_blank"}를 참조하십시오.
+이 문서에는 Adobe Campaign에서 관리하는 일본어 형식에 해당하는 사전 정의된 모든 도메인의 목록이 포함되어 있습니다. 자세한 내용은 관련 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html){target="_blank"}를 참조하십시오.
 
 ![](assets/mail_rule_sets.png)
 
@@ -331,7 +336,7 @@ MX에 대해 준수할 규칙이 트리의 **[!UICONTROL Administration > Campai
 
 **[!UICONTROL Image inclusion]** 옵션을 활성화하면 전자 메일의 본문에 바로 표시됩니다. 그런 다음 이미지가 업로드되고 URL 링크가 해당 콘텐츠로 바뀝니다.
 
-이 옵션은 특히 일본 시장에서 **Deco-mail**, **Decore Mail** 또는 **Decoration Mail**&#x200B;에 사용됩니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=ko){target="_blank"}를 참조하세요.
+이 옵션은 특히 일본 시장에서 **Deco-mail**, **Decore Mail** 또는 **Decoration Mail**&#x200B;에 사용됩니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html){target="_blank"}를 참조하세요.
 
 >[!IMPORTANT]
 >

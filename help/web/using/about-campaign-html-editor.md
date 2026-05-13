@@ -5,9 +5,12 @@ description: Campaign DCE 시작
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
-source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
+TQID: https://experienceleague.adobe.com/X-hpH7G2DRGdimNZ-HRbRJpnhmP-QByWSIF5hSUQFG0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: 294
 ht-degree: 3%
 
 ---
@@ -22,7 +25,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->서버측 JavaScript 코드를 추가해야 하는 경우 개인화 블록을 사용합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ko){target="_blank"}를 참조하세요.
+>서버측 JavaScript 코드를 추가해야 하는 경우 개인화 블록을 사용합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}를 참조하세요.
 
 >[!CAUTION]
 >

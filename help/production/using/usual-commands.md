@@ -8,9 +8,11 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
-source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
+TQID: https://experienceleague.adobe.com/54ErpGUWBV076fqJIdr2ZsJlKVicuFf4xNgk-qDvvmQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: 458
 ht-degree: 7%
 
 ---
@@ -23,7 +25,7 @@ ht-degree: 7%
 
 **nlserver** 명령은 전체 Adobe Campaign 응용 프로그램에 대한 입력 명령입니다.
 
-이 명령에는 다음 구문이 있습니다. **nlserver &#x200B;**`<command>`**&#x200B;**`<arguments>`**&#x200B;**
+이 명령에는 다음 구문이 있습니다. **nlserver **`<command>`****`<arguments>`****
 
 **`<command>`** 매개 변수는 모듈에 해당합니다.
 

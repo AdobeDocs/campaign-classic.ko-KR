@@ -6,9 +6,12 @@ feature: Push
 role: User, Developer
 hide: true
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/jH8qR4ch4MGigmPcBNa25SRnCpve-ati-HF1wQhRpcI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: 720
 ht-degree: 1%
 
 ---
@@ -48,7 +51,7 @@ Firebase 클라우드 메시징 메시지 유형에 대한 자세한 내용은 [
 
 1. **[!UICONTROL Target type]** 창에서 **[!UICONTROL Subscribers of an Android mobile application]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Service]** 드롭다운에서 이전에 만든 서비스를 선택한 다음 응용 프로그램을 선택하고 **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Service]** 드롭다운에서 이전에 만든 서비스를 선택한 다음 응용 프로그램을 선택하고 **[!UICONTROL Finish]**을(를) 클릭합니다.
 구성 단계 중에 추가된 내용에 따라 **[!UICONTROL Application variables]**&#x200B;이(가) 자동으로 추가됩니다.
 
    ![](assets/nmac_android_6.png)
@@ -69,7 +72,7 @@ Firebase 클라우드 메시징 메시지 유형에 대한 자세한 내용은 [
 
 ## 알림 메시지 만들기 {#creating-notification-message}
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 Android 푸시 알림을 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html?lang=ko#additional-resources){target="_blank"}.
+![](assets/do-not-localize/how-to-video.png) [비디오에서 Android 푸시 알림을 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html#additional-resources){target="_blank"}.
 
 1. **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**(으)로 이동합니다.
 

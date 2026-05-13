@@ -7,9 +7,14 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
-source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
+TQID: https://experienceleague.adobe.com/fo08dddVIW2TW7qe2zAjikr5838qAAKfZoAQD2gJyNI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e656c701-3899-4db3-989c-de0980ddfffaid: eff19c99-440a-4318-b319-444edc4d8d8f
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: 249
 ht-degree: 1%
 
 ---
@@ -40,7 +45,7 @@ ht-degree: 1%
 
 ## 트랜잭션 메시지 모니터링 {#transactional-message-monitoring}
 
-트랜잭션 메시지를 모니터링하려면 [게재 로그](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}를 확인하세요.
+트랜잭션 메시지를 모니터링하려면 [게재 로그](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}를 확인하세요.
 
 실행 인스턴스에서 보낸 트랜잭션 게재는 매시간 실행되는 기술 워크플로우(**[!UICONTROL Message Center execution instance]**)를 통해 컨트롤 인스턴스로 다시 동기화됩니다.
 

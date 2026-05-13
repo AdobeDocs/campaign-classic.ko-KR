@@ -5,9 +5,13 @@ description: LINE 메시지를 만드는 방법 알아보기
 feature: Line App
 role: User
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+TQID: https://experienceleague.adobe.com/txn8xb-BeOx76Rt0Qco-vxb8X868DHTkJw-5H4kkooU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: 361
 ht-degree: 0%
 
 ---
@@ -27,7 +31,7 @@ Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명
 LINE 채널에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/line.html){target=_blank}를 참조하세요.
 
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/emails/email){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target=_blank}
 
 
 >[!TAB LINE 게재 만들기]

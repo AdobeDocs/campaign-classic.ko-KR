@@ -5,9 +5,12 @@ description: 전반적 보고서
 badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
-source-git-commit: 2186b8a30449cb023cb07305ba64d53f2c8adab1
+TQID: https://experienceleague.adobe.com/xSG6-FShBqzQfEkFVf4bjadhcwGNzfxhIWvfFpMgFzg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: 2330
 ht-degree: 8%
 
 ---
@@ -52,7 +55,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->인스턴스가 AWS에서 호스팅되는 경우 Campaign Classic [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ko)을(를) 사용하여 시간당 전송된 게재 수를 모니터링할 수도 있습니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ko)에 설명된 단계를 수행합니다.
+>인스턴스가 AWS에서 호스팅되는 경우 Campaign Classic [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html)을(를) 사용하여 시간당 전송된 게재 수를 모니터링할 수도 있습니다. 인스턴스가 AWS에서 호스팅되는지 확인하려면 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ko)에 설명된 단계를 수행합니다.
 >
 >컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
 >

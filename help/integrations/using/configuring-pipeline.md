@@ -8,9 +8,15 @@ audience: integrations
 content-type: reference
 level: Intermediate, Experienced
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
+TQID: https://experienceleague.adobe.com/0Sv4efbYyu1kT-sDs4CYjDBP3RphjlqPTerDrNxN93I
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: 854
 ht-degree: 1%
 
 ---
@@ -28,7 +34,7 @@ ht-degree: 1%
 이 구성을 시작하기 전에 다음을 확인하십시오.
 
 * Adobe Developer 프로젝트
-* 올바른 조직 ID - 조직 ID를 찾으려면 [이 페이지](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}를 참조하세요.
+* 올바른 조직 ID - 조직 ID를 찾으려면 [이 페이지](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}를 참조하세요.
 * 조직에 대한 개발자 액세스 권한
 * Adobe Analytics의 유효한 트리거 구성
 

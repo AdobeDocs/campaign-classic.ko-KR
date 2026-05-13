@@ -8,9 +8,13 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: b5aa5663-1902-4f50-9202-783e73a28838
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+TQID: https://experienceleague.adobe.com/rLTECFw79UslNFzXs7WArBoo0YmqHjAWojkXCgQOmuk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: 762
 ht-degree: 11%
 
 ---
@@ -26,7 +30,7 @@ ht-degree: 11%
 * [워크플로 정보](../../workflow/using/about-workflows.md)
 * [워크플로우 시작](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html?lang=ko){target="_blank"}.
 * [워크플로 수명 주기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"}.
-* [워크플로우 사용 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ko){target="_blank"}.
+* [워크플로우 사용 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}.
 
 ## 캠페인에서 가능한 한 빨리 시작 {#start-as-soon-as-possible-in-campaigns}
 
@@ -34,7 +38,7 @@ ht-degree: 11%
 
 이 문제의 원인은 여러 가지가 있을 수 있습니다. 아래 단계를 따라 문제를 해결하십시오.
 
-1. [**[!UICONTROL operationMgt]**](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ko){target="_blank"} 기술 워크플로우 상태를 확인하십시오. 이 워크플로우는 캠페인 내의 작업 또는 워크플로를 관리합니다. 실패하면 워크플로우가 시작/중지되지 않습니다. 캠페인 워크플로우 실행을 재개하려면 재시작합니다.
+1. [**[!UICONTROL operationMgt]**](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"} 기술 워크플로우 상태를 확인하십시오. 이 워크플로우는 캠페인 내의 작업 또는 워크플로를 관리합니다. 실패하면 워크플로우가 시작/중지되지 않습니다. 캠페인 워크플로우 실행을 재개하려면 재시작합니다.
 
    기술 워크플로우 모니터링에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=ko){target="_blank"}를 참조하세요.
 
@@ -64,7 +68,7 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >**`<instance-name>`**&#x200B;을(를) 인스턴스 이름(프로덕션, 개발 등)으로 바꿉니다. 인스턴스 이름은 구성 파일을 통해 식별됩니다.
+   >**`<instance-name>`**을(를) 인스턴스 이름(프로덕션, 개발 등)으로 바꿉니다. 인스턴스 이름은 구성 파일을 통해 식별됩니다.
    >`[path of application]nl6/conf/config-<instance-name>.xml`
 
    모듈을 다시 시작하는 방법에 대한 자세한 내용은 [이 섹션](../../production/using/usual-commands.md#module-launch-commands)을 참조하세요.
@@ -73,13 +77,13 @@ ht-degree: 11%
 
    이 문제를 해결하려면 원치 않는 워크플로를 중지하고 실패한 게재를 삭제하십시오. 임계값에 도달하면 새 프로세스를 실행할 수 있습니다.
 
-   인스턴스에서 실행 중인 워크플로 수를 확인하려면 **[!UICONTROL Administration]** / **[!UICONTROL Audit]** 폴더에서 기본적으로 액세스할 수 있는 미리 정의된 보기를 사용하는 것이 좋습니다. 자세한 내용은 관련 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ko){target="_blank"}를 참조하십시오.
+   인스턴스에서 실행 중인 워크플로 수를 확인하려면 **[!UICONTROL Administration]** / **[!UICONTROL Audit]** 폴더에서 기본적으로 액세스할 수 있는 미리 정의된 보기를 사용하는 것이 좋습니다. 자세한 내용은 관련 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}를 참조하십시오.
 
    >[!IMPORTANT]
    >
    >**[!UICONTROL NmsOperation_LimitConcurrency]** 옵션 임계값을 늘리면 인스턴스에 성능 문제가 발생할 수 있습니다. 어떤 경우든 이 작업을 직접 수행하지 말고 Adobe Campaign 담당자에게 문의하십시오.
 
-워크플로우를 모니터링하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ko){target="_blank"}를 참조하세요.
+워크플로우를 모니터링하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}를 참조하세요.
 
 ## 시작 진행 중 {#start-in-progress}
 
@@ -109,7 +113,7 @@ ht-degree: 11%
 
    >[!NOTE]
    >
-   >**`<instance-name>`**&#x200B;을(를) 인스턴스 이름(프로덕션, 개발 등)으로 바꿉니다. 인스턴스 이름은 구성 파일을 통해 식별됩니다.
+   >**`<instance-name>`**을(를) 인스턴스 이름(프로덕션, 개발 등)으로 바꿉니다. 인스턴스 이름은 구성 파일을 통해 식별됩니다.
    >`[path of application]nl6/conf/config-<instance-name>.xml`
 
    모듈을 다시 시작하는 방법에 대한 자세한 내용은 [이 섹션](../../production/using/usual-commands.md#module-launch-commands)을 참조하세요.
@@ -118,6 +122,6 @@ ht-degree: 11%
 
 워크플로우가 실패하면 다음 단계를 수행합니다.
 
-1. 워크플로우 분개를 확인합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ko){target="_blank"}를 참조하십시오.
+1. 워크플로우 분개를 확인합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}를 참조하십시오.
 1. 기술 워크플로우를 모니터링합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=ko){target="_blank"}를 참조하세요.
 1. 개별 워크플로우 활동에서 실패를 찾습니다.

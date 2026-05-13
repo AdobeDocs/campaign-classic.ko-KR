@@ -7,9 +7,13 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
+TQID: https://experienceleague.adobe.com/TJ5R6T1pu5JQU5SaGoWRgZLG2m29TWWPVB8nniorRUg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: 868
 ht-degree: 4%
 
 ---
@@ -106,7 +110,7 @@ Once the control and execution modules are installed on the same instance, you m
 
 ### 호환성 정보 {#compatibility-note}
 
-이 레거시 브랜딩 구성은 Campaign v8에 도입된 새 [중앙 브랜딩](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=ko){target="_blank"} 모델과 호환되지 않습니다.
+이 레거시 브랜딩 구성은 Campaign v8에 도입된 새 [중앙 브랜딩](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"} 모델과 호환되지 않습니다.
 
 기존 환경에서 이 레거시 구성을 사용하는 경우 이를 새 중앙 집중식 브랜딩 모델로 직접 마이그레이션할 수 없습니다. 새 시스템을 채택하려면 브랜딩 설정을 완전히 다시 구현해야 합니다.
 
@@ -177,6 +181,6 @@ Once the control and execution modules are installed on the same instance, you m
 
 1. [실행 인스턴스](#execution-instance)에 정의된 내부 이름과 동일한 외부 계정을 브랜드당 하나씩 만듭니다(1단계).
 
-1. 브랜드별 게재 템플릿을 만듭니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ko){target="_blank"}를 참조하세요.
+1. 브랜드별 게재 템플릿을 만듭니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}를 참조하세요.
 
 1. 게재 템플릿의 **[!UICONTROL Properties]**&#x200B;에서 라우팅을 브랜드의 외부 계정으로 설정합니다.
