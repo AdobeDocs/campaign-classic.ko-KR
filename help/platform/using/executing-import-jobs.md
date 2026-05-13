@@ -8,9 +8,12 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+TQID: https://experienceleague.adobe.com/OeRVFm6L-3N6yoIAKyTImaQb6d411UE8-NZ2jHu5VCc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '3009'
+source-wordcount: 3009
 ht-degree: 0%
 
 ---
@@ -23,7 +26,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 >[!NOTE]
 >
->**[!UICONTROL Import a list]** 함수를 사용하여 데이터베이스 데이터와 매핑하지 않고 데이터를 가져올 수 있습니다. 그런 다음 **[!UICONTROL Read list]** 개체를 통해 워크플로우에서만 데이터를 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html?lang=ko){target="_blank"}를 참조하세요.
+>**[!UICONTROL Import a list]** 함수를 사용하여 데이터베이스 데이터와 매핑하지 않고 데이터를 가져올 수 있습니다. 그런 다음 **[!UICONTROL Read list]** 개체를 통해 워크플로우에서만 데이터를 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html){target="_blank"}를 참조하세요.
 
 가져오기 도우미에서 가져오기를 구성하고, 해당 옵션(예: 데이터 변환)을 정의하고, 실행을 시작할 수 있습니다. 가져오기 유형(단순 또는 다중)과 운영자의 권한에 따라 콘텐츠가 달라지는 일련의 화면입니다.
 
@@ -87,7 +90,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
    * **[!UICONTROL Do not update enumerations]**
 
-     데이터베이스에 열거형 값 목록이 보강되지 않도록 하려면 이 옵션을 선택합니다. [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}에서 **열거형으로 작업**&#x200B;하는 방법에 대해 자세히 알아보세요.
+     데이터베이스에 열거형 값 목록이 보강되지 않도록 하려면 이 옵션을 선택합니다. [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}에서 **열거형으로 작업**&#x200B;하는 방법에 대해 자세히 알아보세요.
 
 
 * **[!UICONTROL Variables]** 탭

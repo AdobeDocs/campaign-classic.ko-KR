@@ -4,9 +4,14 @@ title: 트랜잭션 메시지 아키텍처
 description: 이 섹션에서는 Adobe Campaign Classic 트랜잭션 메시지 아키텍처 및 트랜잭션 메시지를 전달하는 데 사용할 수 있는 채널에 대해 설명합니다
 feature: Transactional Messaging, Message Center, Architecture
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
+TQID: https://experienceleague.adobe.com/37Nw8x5SwRELOeJd8BXvE-tcN66Kb1vraEgkkzeaKI8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: 1104
 ht-degree: 1%
 
 ---

@@ -6,9 +6,18 @@ feature: Overview
 role: Developer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
+TQID: https://experienceleague.adobe.com/eM26PQIIHJHC-7-QqVYaC9uHcvrYIpi87vMB4eTmVlg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: 1316
 ht-degree: 5%
 
 ---
@@ -159,9 +168,9 @@ Campaign을 검색할 때 데이터가 목록에 표시됩니다. 기본 제공 
 
 >[!TAB 필터 조건]
 
-쿼리를 디자인하려면 쿼리 편집기에서 필터링 조건을 선택해야 합니다. 사용 가능한 기능 및 사용 사례는 **[Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}**&#x200B;에 자세히 설명되어 있습니다.
+쿼리를 디자인하려면 쿼리 편집기에서 필터링 조건을 선택해야 합니다. 사용 가능한 기능 및 사용 사례는 **[Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}**&#x200B;에 자세히 설명되어 있습니다.
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
 
 >[!ENDTABS]
 

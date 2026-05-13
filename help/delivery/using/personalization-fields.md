@@ -7,9 +7,19 @@ feature: Personalization
 role: User
 hide: true
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/OLbxTTT7EiAqXlQIwou9t-s62Z3TWibfiG7fPg-9KfE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: 1047
 ht-degree: 10%
 
 ---
@@ -18,7 +28,7 @@ ht-degree: 10%
 
 개인화 필드는 게재된 메시지 콘텐츠의 첫 번째 수준 개인화에 사용됩니다. 주 콘텐츠에 삽입하는 필드는 선택한 데이터 소스의 데이터를 삽입할 위치를 보여줍니다.
 
-예를 들어, **&lt;%= recipient.LastName %>** 구문이 있는 개인화 필드는 Adobe Campaign에 수신자의 이름을 데이터베이스(수신자 테이블)에 삽입하도록 지시합니다.
+예를 들어 **&lt;%= recipient.LastName %>** 구문이 있는 개인화 필드는 Adobe Campaign에 수신자의 이름을 데이터베이스(수신자 테이블)에 삽입하도록 지시합니다.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#personalization-fields-video)
 

@@ -5,9 +5,15 @@ description: 웹 양식의 정적 요소
 badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
 feature: Web Forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+TQID: https://experienceleague.adobe.com/X32IQAVVq68tRjHIXaHN99S-EbL3vqP0j7gTL0fvmNA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: 1049
 ht-degree: 2%
 
 ---
@@ -137,7 +143,7 @@ HTML 편집기를 사용하여 양식 페이지에 삽입할 콘텐츠를 입력
 
 ### 텍스트 변수 사용 {#using-text-variables}
 
-**[!UICONTROL Text]** 탭에서는 **$(IDENTIFIER)** 구문을 사용하여 &lt;%= 및 %> 문자 사이의 HTML에서 사용할 수 있는 변수 필드를 만들 수 있습니다.
+**[!UICONTROL Text]** 탭에서는 다음 구문을 사용하여 &lt;%=와 %> 문자 사이의 HTML에서 사용할 수 있는 변수 필드를 만들 수 있습니다. **$(IDENTIFIER)**.
 
 이 메서드를 사용하면 문자열을 쉽게 현지화할 수 있습니다. [웹 양식 번역](translating-a-web-form.md)을 참조하세요.
 
@@ -150,13 +156,13 @@ HTML 편집기를 사용하여 양식 페이지에 삽입할 콘텐츠를 입력
 
    ![](assets/s_ncs_admin_survey_html_text.png)
 
-1. HTML 컨텐츠에서 **&lt;%= $(Contact) %>** 구문을 통해 이 텍스트 변수를 삽입합니다.
+1. HTML 콘텐츠에서 **&lt;%= $(Contact) %>** 구문을 통해 이 텍스트 변수를 삽입합니다.
 
    ![](assets/s_ncs_admin_survey_html_content.png)
 
    >[!CAUTION]
    >
-   >HTML 편집기에 이러한 문자를 입력하면 **&lt;** 및 **>** 필드가 이스케이프 처리된 문자로 바뀝니다. 이 경우 HTML 텍스트 편집기의 **[!UICONTROL Display source code]** 아이콘을 클릭하여 소스 코드를 수정해야 합니다.
+   >HTML 편집기에 이 문자를 입력하면 **&lt;** 및 **>** 필드가 이스케이프 처리된 문자로 바뀝니다. 이 경우 HTML 텍스트 편집기의 **[!UICONTROL Display source code]** 아이콘을 클릭하여 소스 코드를 수정해야 합니다.
 
 1. 양식의 **[!UICONTROL Preview]** 레이블을 열어 HTML에 입력한 값을 확인합니다.
 
