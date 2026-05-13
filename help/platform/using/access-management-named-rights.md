@@ -44,13 +44,13 @@ ht-degree: 4%
 
   >[!IMPORTANT]
   >
-  >**IMS로 마이그레이션한 후:** Adobe Identity Management System(IMS)로 마이그레이션하면 이름에 &quot;admin&quot;이라는 단어가 포함된 제품 프로필 또는 명명된 권한(예: &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot; 등)이 은(는) Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 자동으로 부여합니다. 이러한 사용자가 Campaign 컨트롤 패널 액세스 권한을 보유하지 않는 한 명명된 권한 또는 역할 이름에서 &quot;관리자&quot;를 사용하지 않는 것이 좋습니다. [IMS 마이그레이션](../../technotes/using/migrate-users-to-ims.md) 및 [Campaign 컨트롤 패널 액세스 관리](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}에 대해 자세히 알아보세요.
+  >**IMS로 마이그레이션한 후:** Adobe Identity Management System(IMS)로 마이그레이션하면 이름에 &quot;admin&quot;이라는 단어가 포함된 제품 프로필 또는 명명된 권한(예: &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot; 등)이 은(는) Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 자동으로 부여합니다. 이러한 사용자가 Campaign 컨트롤 패널 액세스 권한을 보유하지 않는 한 명명된 권한 또는 역할 이름에서 &quot;관리자&quot;를 사용하지 않는 것이 좋습니다. [IMS 마이그레이션](../../technotes/using/migrate-users-to-ims.md) 및 [Campaign 컨트롤 패널 액세스 관리](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
 
 * **[!UICONTROL APPROVAL ADMINISTRATION]**: 워크플로 및 게재 내에서 여러 승인 단계를 설정하여 현재 상태가 할당된 운영자 또는 그룹에 의해 승인되었는지 확인할 수 있습니다. **[!UICONTROL APPROVAL ADMINISTRATION]** 권한이 있는 사용자는 승인 단계를 설정하고 해당 단계를 승인해야 하는 운영자 또는 운영자 그룹을 할당할 수 있습니다.
 
   >[!IMPORTANT]
   >
-  >**IMS로 마이그레이션한 후:** &quot;admin&quot;이라는 단어가 포함된 제품 프로필 또는 명명된 권한(예: &quot;승인 관리자&quot;)이 Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 부여합니다. [IMS 마이그레이션](../../technotes/using/migrate-users-to-ims.md) 및 [Campaign 컨트롤 패널 액세스 관리](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}에 대해 자세히 알아보세요.
+  >**IMS로 마이그레이션한 후:** &quot;admin&quot;이라는 단어가 포함된 제품 프로필 또는 명명된 권한(예: &quot;승인 관리자&quot;)이 Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 부여합니다. [IMS 마이그레이션](../../technotes/using/migrate-users-to-ims.md) 및 [Campaign 컨트롤 패널 액세스 관리](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
 
 * **[!UICONTROL CENTRAL]**: 중앙 관리(분산 마케팅)에 적합합니다.
 

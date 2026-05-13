@@ -34,7 +34,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->목록과 목록을 만들고 관리하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target=_blank}를 참조하세요.
+>목록과 목록을 만들고 관리하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target=_blank}를 참조하세요.
 
 <!--
 Two types of lists are available in Adobe Campaign:
