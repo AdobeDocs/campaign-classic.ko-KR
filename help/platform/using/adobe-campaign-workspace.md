@@ -168,9 +168,9 @@ Campaign을 검색할 때 데이터가 목록에 표시됩니다. 기본 제공 
 
 >[!TAB 필터 조건]
 
-쿼리를 디자인하려면 쿼리 편집기에서 필터링 조건을 선택해야 합니다. 사용 가능한 기능 및 사용 사례는 **[Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}**&#x200B;에 자세히 설명되어 있습니다.
+쿼리를 디자인하려면 쿼리 편집기에서 필터링 조건을 선택해야 합니다. 사용 가능한 기능 및 사용 사례는 **[Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}**&#x200B;에 자세히 설명되어 있습니다.
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
 
 >[!ENDTABS]
 
