@@ -13,7 +13,7 @@ product_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: 8f9e8344b77e50bd2823cc7fa3922466e515327f
 workflow-type: tm+mt
 source-wordcount: 1761
 ht-degree: 0%
@@ -188,7 +188,7 @@ Adobe Campaign은 데이터베이스에서 만들 개체에 보호 모드(대체
 
 | 기본 대체 항목 비활성화 |
 | :-: |
-| ```MODIFY USER $login$ AS NO FALLBACK;``` |
+| `MODIFY USER $login$ AS NO FALLBACK;` |
 
 ### MD5 설치 {#md5-installation}
 

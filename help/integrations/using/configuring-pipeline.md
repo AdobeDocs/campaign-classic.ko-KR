@@ -20,7 +20,7 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: 8f9e8344b77e50bd2823cc7fa3922466e515327f
 workflow-type: tm+mt
 source-wordcount: 854
 ht-degree: 1%
@@ -131,13 +131,13 @@ ht-degree: 1%
 | 옵션 | 설명 |
 |:-:|:-:|
 | appName(기존) | 공개 키가 업로드된 Legacy Oath 애플리케이션에 등록된 OAuth 애플리케이션의 AppID입니다. 자세한 정보는 이 [페이지](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)를 참조하십시오. |
-| authGatewayEndpoint(기존) | 게이트웨이 토큰을 가져올 URL입니다. 기본값: ```https://api.omniture.com``` |
-| authPrivateKey(기존) | 개인 키, 레거시 Oath 응용 프로그램에 업로드된 공개 부분, XtkKey 옵션으로 암호화된 AES: ```cryptString("PRIVATE_KEY")``` |
+| authGatewayEndpoint(기존) | 게이트웨이 토큰을 가져올 URL입니다. 기본값: `https://api.omniture.com` |
+| authPrivateKey(기존) | 개인 키, 레거시 Oath 응용 프로그램에 업로드된 공개 부분, XtkKey 옵션으로 암호화된 AES: `cryptString("PRIVATE_KEY")` |
 | disableAuth(기존) | 인증을 비활성화하면 일부 개발 파이프라인 엔드포인트에서만 게이트웨이 토큰 없이 연결할 수 있습니다. |
-| discoverPipelineEndpoint | 이 테넌트에 사용할 파이프라인 서비스 끝점을 찾는 URL입니다. 기본값: ```https://producer-pipeline-pnw.adobe.net``` |
-| 덤프 상태 기간 초 | ```var/INSTANCE/pipelined.json.``` <br> 내부 상태에서 내부 상태 프로세스의 두 덤프 사이의 기간은 ```http://INSTANCE:7781/pipelined/status```에서도 필요할 때 액세스할 수 있습니다. |
+| discoverPipelineEndpoint | 이 테넌트에 사용할 파이프라인 서비스 끝점을 찾는 URL입니다. 기본값: `https://producer-pipeline-pnw.adobe.net` |
+| 덤프 상태 기간 초 | `var/INSTANCE/pipelined.json.` <br> 내부 상태에서 내부 상태 프로세스의 두 덤프 사이의 기간은 `http://INSTANCE:7781/pipelined/status`에서도 필요할 때 액세스할 수 있습니다. |
 | forcedPipelineEndpoint | PipelineServicesEndpoint 검색을 비활성화하여 강제 실행 |
-| 모니터 서버 포트 | 파이프라인된 프로세스는 ```http://INSTANCE:PORT/pipelined/status```에서 내부 상태 프로세스를 제공하기 위해 이 포트에서 수신 대기합니다. <br>기본값은 7781입니다. |
+| 모니터 서버 포트 | 파이프라인된 프로세스는 `http://INSTANCE:PORT/pipelined/status`에서 내부 상태 프로세스를 제공하기 위해 이 포트에서 수신 대기합니다. <br>기본값은 7781입니다. |
 | pointerFlushMessageCount | 이 메시지 수가 처리되면 오프셋은 데이터베이스에 저장됩니다. <br> 기본값은 1000입니다. |
 | pointerFlushPeriodSec | 이 기간이 지나면 오프셋이 데이터베이스에 저장됩니다. <br>기본값은 5초입니다. |
 | processingJSThreads | 사용자 지정 JS 커넥터가 있는 메시지를 처리하는 전용 스레드 수입니다. <br> 기본값은 4입니다. |
