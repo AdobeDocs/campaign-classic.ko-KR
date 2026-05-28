@@ -9,18 +9,12 @@ content-type: reference
 level: Intermediate, Experienced
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 TQID: https://experienceleague.adobe.com/0Sv4efbYyu1kT-sDs4CYjDBP3RphjlqPTerDrNxN93I
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9e8344b77e50bd2823cc7fa3922466e515327f
 workflow-type: tm+mt
 source-wordcount: 854
 ht-degree: 1%
@@ -40,7 +34,7 @@ ht-degree: 1%
 이 구성을 시작하기 전에 다음을 확인하십시오.
 
 * Adobe Developer 프로젝트
-* 올바른 조직 ID - 조직 ID를 찾으려면 [이 페이지](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}를 참조하세요.
+* 올바른 조직 ID - 조직 ID를 찾으려면 [이 페이지](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}를 참조하세요.
 * 조직에 대한 개발자 액세스 권한
 * Adobe Analytics의 유효한 트리거 구성
 
@@ -131,13 +125,13 @@ ht-degree: 1%
 | 옵션 | 설명 |
 |:-:|:-:|
 | appName(기존) | 공개 키가 업로드된 Legacy Oath 애플리케이션에 등록된 OAuth 애플리케이션의 AppID입니다. 자세한 정보는 이 [페이지](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)를 참조하십시오. |
-| authGatewayEndpoint(기존) | 게이트웨이 토큰을 가져올 URL입니다. 기본값: ```https://api.omniture.com``` |
-| authPrivateKey(기존) | 개인 키, 레거시 Oath 응용 프로그램에 업로드된 공개 부분, XtkKey 옵션으로 암호화된 AES: ```cryptString("PRIVATE_KEY")``` |
+| authGatewayEndpoint(기존) | 게이트웨이 토큰을 가져올 URL입니다. 기본값: `https://api.omniture.com` |
+| authPrivateKey(기존) | 개인 키, 레거시 Oath 응용 프로그램에 업로드된 공개 부분, XtkKey 옵션으로 암호화된 AES: `cryptString("PRIVATE_KEY")` |
 | disableAuth(기존) | 인증을 비활성화하면 일부 개발 파이프라인 엔드포인트에서만 게이트웨이 토큰 없이 연결할 수 있습니다. |
-| discoverPipelineEndpoint | 이 테넌트에 사용할 파이프라인 서비스 끝점을 찾는 URL입니다. 기본값: ```https://producer-pipeline-pnw.adobe.net``` |
-| 덤프 상태 기간 초 | ```var/INSTANCE/pipelined.json.``` <br> 내부 상태에서 내부 상태 프로세스의 두 덤프 사이의 기간은 ```http://INSTANCE:7781/pipelined/status```에서도 필요할 때 액세스할 수 있습니다. |
+| discoverPipelineEndpoint | 이 테넌트에 사용할 파이프라인 서비스 끝점을 찾는 URL입니다. 기본값: `https://producer-pipeline-pnw.adobe.net` |
+| 덤프 상태 기간 초 | `var/INSTANCE/pipelined.json.` <br> 내부 상태에서 내부 상태 프로세스의 두 덤프 사이의 기간은 `http://INSTANCE:7781/pipelined/status`에서도 필요할 때 액세스할 수 있습니다. |
 | forcedPipelineEndpoint | PipelineServicesEndpoint 검색을 비활성화하여 강제 실행 |
-| 모니터 서버 포트 | 파이프라인된 프로세스는 ```http://INSTANCE:PORT/pipelined/status```에서 내부 상태 프로세스를 제공하기 위해 이 포트에서 수신 대기합니다. <br>기본값은 7781입니다. |
+| 모니터 서버 포트 | 파이프라인된 프로세스는 `http://INSTANCE:PORT/pipelined/status`에서 내부 상태 프로세스를 제공하기 위해 이 포트에서 수신 대기합니다. <br>기본값은 7781입니다. |
 | pointerFlushMessageCount | 이 메시지 수가 처리되면 오프셋은 데이터베이스에 저장됩니다. <br> 기본값은 1000입니다. |
 | pointerFlushPeriodSec | 이 기간이 지나면 오프셋이 데이터베이스에 저장됩니다. <br>기본값은 5초입니다. |
 | processingJSThreads | 사용자 지정 JS 커넥터가 있는 메시지를 처리하는 전용 스레드 수입니다. <br> 기본값은 4입니다. |
