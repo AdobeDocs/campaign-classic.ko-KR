@@ -6,9 +6,12 @@ feature: API
 role: Developer
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
 TQID: https://experienceleague.adobe.com/57imQDwof4UvPsE4WyQj9-NS3z7i2mEwxObF-WrwH74
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
@@ -49,7 +52,7 @@ XML 문서는 데이터베이스의 메모 유형 필드에 저장됩니다.
 
 이렇게 하면 기본 SQL을 격리할 수 있습니다. 쿼리 언어는 기본 엔진에 따라 달라지지 않습니다. 일부 함수는 다시 매핑되어 여러 SELECT SQL 주문을 생성할 수 있습니다.
 
-자세한 내용은 스키마 &#39;xtk:queryDef&#39;](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-)의 &#39;ExecuteQuery&#39; 메서드에 대한 [예제를 참조하십시오.
+자세한 내용은 스키마 &#39;xtk:queryDef&#39;[&#128279;](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-)의 &#39;ExecuteQuery&#39; 메서드에 대한 예제를 참조하십시오.
 
 **ExecuteQuery** 메서드가 [ExecuteQuery(xtk:queryDef)](#executequery--xtk-querydef-)에 있습니다.
 

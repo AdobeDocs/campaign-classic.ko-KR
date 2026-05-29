@@ -5,10 +5,15 @@ feature: Workflows, Data Management, Federated Data Access
 hide: true
 exl-id: d7bf9d62-6f9e-415f-8160-446210f6392e
 TQID: https://experienceleague.adobe.com/VhOrIcFK-BbCuzPTC6Y8Px8u-VY0-4O86F8z8muZIHM
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 feature_v2: []
-subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
+subfeature_v2:
+  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+  - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 236
@@ -24,10 +29,10 @@ ht-degree: 3%
 
 **[!UICONTROL Change data source]** 활동을 사용하면 **[!UICONTROL Working table]** 워크플로우의 데이터 원본을 변경할 수 있습니다. 이렇게 하면 FDA, FFDA 및 로컬 데이터베이스와 같은 다양한 데이터 소스에서 데이터를 보다 유연하게 관리할 수 있습니다.
 
-**[!UICONTROL Working table]**을(를) 사용하면 Adobe Campaign Classic 워크플로우에서 데이터를 처리하고 워크플로우 활동과 데이터를 공유할 수 있습니다.
+**[!UICONTROL Working table]**&#x200B;을(를) 사용하면 Adobe Campaign Classic 워크플로우에서 데이터를 처리하고 워크플로우 활동과 데이터를 공유할 수 있습니다.
 기본적으로 **[!UICONTROL Working table]**&#x200B;은(는) 쿼리하는 데이터의 원본과 동일한 데이터베이스에 만들어집니다.
 
-예를 들어 클라우드 데이터베이스에 저장된 **[!UICONTROL Profiles]** 테이블을 쿼리할 때 동일한 클라우드 데이터베이스에 **[!UICONTROL Working table]**을(를) 만듭니다.
+예를 들어 클라우드 데이터베이스에 저장된 **[!UICONTROL Profiles]** 테이블을 쿼리할 때 동일한 클라우드 데이터베이스에 **[!UICONTROL Working table]**&#x200B;을(를) 만듭니다.
 이를 변경하려면 **[!UICONTROL Change Data Source]** 활동을 추가하여 **[!UICONTROL Working table]**&#x200B;에 대한 다른 데이터 소스를 선택할 수 있습니다.
 
 **[!UICONTROL Change Data Source]** 활동을 사용하는 경우 워크플로우 실행을 계속하려면 클라우드 데이터베이스로 다시 전환해야 합니다.
