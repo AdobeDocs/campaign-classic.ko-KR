@@ -10,9 +10,10 @@ topic-tags: creating-queries
 hide: true
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
 TQID: https://experienceleague.adobe.com/QyGgyPI1vfy54m-3nNtEOt5tFr-RqWT9tfOg2GMQRdo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: afa4204e-6d08-4e29-bc35-26aafb656d48
+subfeature_v2: id: f529d0bd-1401-4c88-9833-43228cc1d40fid: d6330382-c886-4f7a-a4f7-74e3f36c0d9cid: f5293531-9312-4099-bfa3-9e67df6a8750id: efa38731-2723-4334-8d8b-a778af834835
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 3342
 ht-degree: 33%
@@ -294,7 +295,7 @@ ht-degree: 33%
 
   열의 소스 값을 사용하고 대상 값을 지정할 수 있습니다. 이 대상 값은 새 출력 열에 표시됩니다.
 
-  계산된 필드 형식 **[!UICONTROL Enumerations]**&#x200B;을(를) 추가하는 예제를 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/adding-enumeration-type-calculated-field.html?lang=ko){target="_blank"}를 참조하세요.
+  계산된 필드 형식 **[!UICONTROL Enumerations]**&#x200B;을(를) 추가하는 예제를 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/adding-enumeration-type-calculated-field.html){target="_blank"}를 참조하세요.
 
   ![](assets/query_editor_nveau_63.png)
 

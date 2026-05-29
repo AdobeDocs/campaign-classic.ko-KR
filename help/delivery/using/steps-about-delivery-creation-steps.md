@@ -7,11 +7,11 @@ role: User
 hide: true
 exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
 TQID: https://experienceleague.adobe.com/r1Fnouqf-4hqCJ9jYqWI4pzNhqP0-XZBUHoZQr65DGI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 186
 ht-degree: 18%
@@ -22,7 +22,7 @@ ht-degree: 18%
 
 게재를 만들 때 주요 단계는 다음과 같습니다.
 
-1. **게재를 만들고 식별**. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#create-the-delivery){target="_blank"}를 참조하세요.
+1. **게재를 만들고 식별**. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#create-the-delivery){target="_blank"}를 참조하세요.
 
 1. **게재 콘텐츠를 정의합니다**. 게재 콘텐츠 정의는 각 채널에 따라 다릅니다. 자세한 내용은 해당 섹션을 참조하십시오.
 
@@ -39,4 +39,4 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->이 장에 설명된 단계는 모든 대상 수신자와 해당 프로필이 데이터베이스에 저장되어 있다고 가정합니다(외부 게재의 경우 제외)([Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#selecting-external-recipients){target="_blank"} 참조).
+>이 장에 설명된 단계는 모든 대상 수신자와 해당 프로필이 데이터베이스에 저장되어 있다고 가정합니다(외부 게재의 경우 제외)([Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#selecting-external-recipients){target="_blank"} 참조).

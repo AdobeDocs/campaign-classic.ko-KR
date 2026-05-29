@@ -6,16 +6,14 @@ feature: SMS, Troubleshooting
 role: User
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
 TQID: https://experienceleague.adobe.com/h0vsbqdwW-21Ay-v8v8eUQzHyDkCVZoxXWHx5m1Qd7g
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 3072
+source-wordcount: 2904
 ht-degree: 0%
 
 ---
@@ -52,7 +50,7 @@ Adobe Campaign은 외부 계정을 관련 없는 엔티티로 취급합니다.
    * 일부 외부 계정은 동일한 로그인/암호 조합을 공유합니다.
 공급자가 `BIND PDU`이(가) 들어오는 외부 계정을 알 수 없으므로 여러 계정의 모든 연결을 단일 연결로 취급합니다. 두 계정에서 MO 및 SR을 임의로 라우팅하여 문제가 발생했을 수 있습니다.
 공급자가 동일한 로그인/암호 조합에 대해 여러 개의 짧은 코드를 지원하는 경우 해당 짧은 코드를 `BIND PDU`에 넣을 위치를 요청해야 합니다. `BIND PDU`이(가) 라우팅 MO를 올바르게 허용하는 유일한 위치이므로 이 정보는 `SUBMIT_SM`이(가) 아닌 `BIND PDU` 내부에 넣어야 합니다.
-`BIND PDU`에서 사용할 수 있는 필드(일반적으로 `address_range`에 짧은 코드를 추가하지만 공급자의 특별한 지원이 필요함)를 알려면 위의 [각 PDU 종류의 정보](sms-protocol.md#information-pdu) 섹션을 참조하십시오. 여러 짧은 코드를 독립적으로 라우팅하는 방법에 대해 알아보려면 관리자에게 문의하십시오.
+`BIND PDU`에서 사용할 수 있는 필드, 일반적으로 `address_range`에 짧은 코드를 추가하지만 공급자의 특별한 지원이 필요한 필드를 알려면 위의 [각 PDU 종류의 정보](sms-protocol.md#information-pdu) 섹션을 참조하십시오. 여러 짧은 코드를 독립적으로 라우팅하는 방법에 대해 알아보려면 관리자에게 문의하십시오.
 Adobe Campaign은 동일한 외부 계정에서 여러 짧은 코드 처리를 지원합니다.
 
 ## 일반 외부 계정 문제 {#external-account-issues}

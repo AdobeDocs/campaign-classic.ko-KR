@@ -6,20 +6,12 @@ feature: Monitoring, Deliverability
 role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 TQID: https://experienceleague.adobe.com/JPAKipxGVdTfSKfmCm-4xgoaOe6sC257Spc00ddNnRY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
-  - id: e656c701-3899-4db3-989c-de0980ddfffa
-  - id: e739ee2b-6228-412e-878f-45de0791417d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 1695
 ht-degree: 3%
@@ -32,14 +24,14 @@ ht-degree: 3%
 >
 >게재 실패 및 격리 관리에 대한 포괄적인 지침은 Campaign v8 설명서에 설명되어 있습니다. 이 콘텐츠는 Campaign Classic v7 및 Campaign v8 사용자 모두에게 적용됩니다.
 >
->* [게재 오류 이해](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} - 오류 유형, 오류 원인, 동기/비동기 오류, 관리 다시 시도 및 문제 해결
->* [격리 관리](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} - 격리 및 격리, 소프트 오류 임계값, 주소 제거 관련 정보를 제공합니다.
+>* [게재 오류 이해](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} - 오류 유형, 오류 원인, 동기/비동기 오류, 관리 다시 시도 및 문제 해결
+>* [격리 관리](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} - 격리 및 격리, 소프트 오류 임계값, 주소 제거 관련 정보를 제공합니다.
 >
 >이 페이지는 하이브리드 및 온-프레미스 배포의 바운스 메일 및 격리 관리를 위한 **Campaign Classic v7별 구성**&#x200B;을 문서화합니다.
 
 ## 게재 실패 이해
 
-일반적인 게재 실패 개념, 오류 유형 및 문제 해결 지침은 [Campaign v8 게재 실패 이해 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}를 참조하세요.
+일반적인 게재 실패 개념, 오류 유형 및 문제 해결 지침은 [Campaign v8 게재 실패 이해 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}를 참조하세요.
 
 ## 바운스 메일 구성 {#bounce-mail-config}
 
@@ -141,7 +133,7 @@ Adobe Campaign은 이 메시지를 필터링하여 변수 콘텐츠(예: ID, 날
 
 * **[!UICONTROL Limit]**: 기간당 허용되는 최대 메시지 수입니다.
 
-* **[!UICONTROL Type]**: 전송 동작을 확인하는 데 사용되는 오류 유형(하드, 소프트 또는 무시됨)입니다. 오류 유형 정의는 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}를 참조하세요.
+* **[!UICONTROL Type]**: 전송 동작을 확인하는 데 사용되는 오류 유형(하드, 소프트 또는 무시됨)입니다. 오류 유형 정의는 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}를 참조하세요.
 
 MX 관리에 대한 자세한 내용은 [이 섹션](../../installation/using/email-deliverability.md#about-mx-rules)을 참조하세요.
 
@@ -151,7 +143,7 @@ MX 관리에 대한 자세한 내용은 [이 섹션](../../installation/using/em
 
 ## 격리 관리 {#quarantine-management}
 
-포괄적인 격리 관리 지침은 [Campaign v8 격리 관리 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}를 참조하세요.
+포괄적인 격리 관리 지침은 [Campaign v8 격리 관리 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}를 참조하세요.
 
 ## 격리 구성 {#quarantine-config}
 
@@ -203,7 +195,7 @@ Campaign Classic v7의 경우 푸시 알림 격리는 일부 채널별 동작과
 
 **iOS** 및 **Android** 푸시 알림의 경우 격리 메커니즘에서 전자 메일 주소가 아닌 장치 토큰을 사용합니다. 모바일 애플리케이션을 제거하거나 다시 설치하면 연결된 토큰이 격리됩니다.
 
-푸시 알림 격리 시나리오(iOS 및 Android 오류 유형, 다시 시도 동작 등)에 대한 자세한 내용은 포괄적인 푸시 알림 오류 유형 표를 포함하는 [게재 오류 이해](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} 설명서를 참조하십시오.
+푸시 알림 격리 시나리오(iOS 및 Android 오류 유형, 다시 시도 동작 등)에 대한 자세한 내용은 포괄적인 푸시 알림 오류 유형 표를 포함하는 [게재 오류 이해](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} 설명서를 참조하십시오.
 
 ### SMS 격리 세부 정보 {#sms-quarantine-specifics}
 
@@ -215,14 +207,14 @@ SMS 격리 메커니즘은 사용되는 커넥터에 따라 다릅니다.
 
 * **확장된 일반 SMPP 커넥터**: SMSC 공급자가 반환한 SR(상태 보고서) 메시지를 구문 분석하기 위해 오류 관리는 정규 표현식(정규 표현식)을 사용하여 다르게 처리됩니다.
 
-SMS 격리 시나리오 및 오류 유형에 대한 자세한 내용은 포괄적인 SMS 오류 유형 표를 포함하는 [게재 오류 이해](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} 설명서를 참조하십시오.
+SMS 격리 시나리오 및 오류 유형에 대한 자세한 내용은 포괄적인 SMS 오류 유형 표를 포함하는 [게재 오류 이해](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} 설명서를 참조하십시오.
 
 ## 관련 항목
 
-* [게재 실패 이해](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}(Campaign v8 설명서)
-* [격리 관리](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}(Campaign v8 설명서)
+* [게재 실패 이해](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}(Campaign v8 설명서)
+* [격리 관리](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}(Campaign v8 설명서)
 * [게재 모범 사례](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}(Campaign v8 설명서)
-* [게재 상태](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"}(Campaign v8 설명서)
+* [게재 상태](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"}(Campaign v8 설명서)
 * [데이터베이스 정리 워크플로우](../../production/using/database-cleanup-workflow.md)(v7 하이브리드/온-프레미스)
 * [게재 다시 시도 구성](communication-channels.md)(v7 하이브리드/온-프레미스)
 * [바운스 자격 업데이트](update-bounce-qualification.md)(v7 하이브리드/온-프레미스)

@@ -6,14 +6,10 @@ feature: Workflows
 hide: true
 exl-id: 7213ea64-3dec-4b16-9d93-4ae941ddfaa7
 TQID: https://experienceleague.adobe.com/M-kPHHBE-Vc1AHYLxDPaCOI6PIul2L-2b0ZLISzs0qI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845eeid: e739ee2b-6228-412e-878f-45de0791417d
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 1825
 ht-degree: 3%
@@ -31,7 +27,7 @@ ht-degree: 3%
 * [정적 SOAP 메서드를 사용하여 워크플로우 트리거](#trigger-example)
 * [비정적 SOAP 메서드를 사용하여 데이터베이스와 상호 작용합니다](#interact-example)
 
-정적 및 비정적 SOAP 메서드에 대해 [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=ko).
+정적 및 비정적 SOAP 메서드에 대해 [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html).
 
 이 예제에서는 ECMAScript for XML (E4X) 확장 프로그램이 사용됩니다. 이 확장을 사용하면 JavaScript 호출과 XML 프리미티브를 동일한 스크립트에 결합할 수 있습니다.
 
@@ -109,7 +105,7 @@ var myXML = <recipient xtkschema="nms:recipient"
 
 #### 레코드 삭제
 
-`DeleteCollection` 메서드를 사용합니다. [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=ko).
+`DeleteCollection` 메서드를 사용합니다. [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html).
 
 다음 정보를 지정합니다.
 
@@ -283,7 +279,7 @@ for each (var rcp in res:recipient)
     logInfo(rcp.@email)
 ```
 
-루프에 로컬 수신자 변수가 포함되어 있습니다. 수신자 컬렉션에서 반환되는 각 수신자에 대해 수신자 이메일이 인쇄됩니다. `logInfo` 함수에 대해 [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=ko).
+루프에 로컬 수신자 변수가 포함되어 있습니다. 수신자 컬렉션에서 반환되는 각 수신자에 대해 수신자 이메일이 인쇄됩니다. `logInfo` 함수에 대해 [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html).
 
 #### `getIfExists` 작업 결과
 
@@ -369,7 +365,7 @@ for each (var rcp in res.recipient)
 
 워크플로우 트리거는 이벤트를 사용하여 작동합니다. 이벤트에 다음 기능을 사용할 수 있습니다.
 
-* 이벤트를 게시하려면 정적 `PostEvent` 메서드를 사용합니다. [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=ko).
+* 이벤트를 게시하려면 정적 `PostEvent` 메서드를 사용합니다. [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html).
 * 이벤트를 받으려면 **[!UICONTROL External signal]** 활동을 사용할 수 있습니다. [자세히 알아보기](external-signal.md).
 
 다음과 같은 다양한 방법으로 워크플로우를 트리거할 수 있습니다.
@@ -436,10 +432,10 @@ xtk.workflow.PostEvent(
 
 1. 쿼리를 정의합니다.
 
-   * 해당 스키마(예: `xtk:workflow` 스키마)에서 `create` 메서드를 사용하여 엔터티를 검색합니다. [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=ko).
+   * 해당 스키마(예: `xtk:workflow` 스키마)에서 `create` 메서드를 사용하여 엔터티를 검색합니다. [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html).
    * `queryDef` 메서드를 사용하여 SQL 쿼리를 실행하십시오.
 
-1. `ExecuteQuery` 메서드를 사용하여 쿼리를 실행합니다. [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=ko).
+1. `ExecuteQuery` 메서드를 사용하여 쿼리를 실행합니다. [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html).
 
    `for each` 루프를 사용하여 결과를 검색합니다.
 
@@ -625,11 +621,11 @@ xtk.session.Write(
 
 ### API 설명서
 
-* [SOAP 호출 샘플](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=ko)
+* [SOAP 호출 샘플](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html)
 * 방법:
-   * [만들기](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=ko)
-   * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=ko)
-   * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=ko)
-   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=ko)
-   * [쓰기](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=ko)
-* [logInfo 함수](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=ko)
+   * [만들기](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html)
+   * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html)
+   * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html)
+   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html)
+   * [쓰기](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html)
+* [logInfo 함수](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html)

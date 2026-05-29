@@ -6,19 +6,11 @@ feature: Installation, Application Settings
 badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 TQID: https://experienceleague.adobe.com/o-8uf081NQCy3ZB8mmLk0Gm8J9Pu--Zh4znqn3HUjr0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-subfeature_v2:
-  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
-  - id: ede6e1ec-9279-415e-b828-a09735018d48
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: []
+subfeature_v2: []
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
 source-wordcount: 1381
 ht-degree: 7%
@@ -79,7 +71,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> 마케팅 캠페인(캠페인)<br /> </td> 
-   <td> 커뮤니케이션 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석합니다. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ko" target="_blank">자세히 알아보기</a><br /> </td> 
+   <td> 커뮤니케이션 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석합니다. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html" target="_blank">자세히 알아보기</a><br /> </td> 
    <td> 마케팅</td>
   </tr> 
   <tr> 
@@ -172,7 +164,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> 외부 데이터에 액세스(페더레이션 데이터 액세스)<br /> </td> 
-   <td> Adobe Campaign 데이터의 구조를 변경하지 않고 외부 데이터에 액세스할 수 있도록 하나 이상의 외부 데이터베이스에 저장된 정보를 처리하기 위한 FDA(Federated Data Access) 옵션을 제공합니다.  선택 사항입니다. <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html?lang=ko" target="_blank">자세히 알아보기</a> <br /> </td> 
+   <td> Adobe Campaign 데이터의 구조를 변경하지 않고 외부 데이터에 액세스할 수 있도록 하나 이상의 외부 데이터베이스에 저장된 정보를 처리하기 위한 FDA(Federated Data Access) 옵션을 제공합니다.  선택 사항입니다. <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html" target="_blank">자세히 알아보기</a> <br /> </td> 
    <td> 모두<br /> </td> 
   </tr> 
   <tr> 
@@ -187,7 +179,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> 쿠폰 관리<br /> </td> 
-   <td> 예정된 마케팅 오퍼에 추가할 쿠폰 세트를 만듭니다. 선택 사항입니다. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html?lang=ko" target="_blank">자세히 알아보기</a> <br /> </td> 
+   <td> 예정된 마케팅 오퍼에 추가할 쿠폰 세트를 만듭니다. 선택 사항입니다. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html" target="_blank">자세히 알아보기</a> <br /> </td> 
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 
@@ -242,7 +234,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> AMP 지원<br /> </td> 
-   <td> 이메일 형식에 새로운 대화형 AMP를 사용하고 다이내믹 이메일을 보낼 수 있습니다. 선택 사항입니다. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html?lang=ko" target="_blank">자세히 알아보기</a> <br /> </td> 
+   <td> 이메일 형식에 새로운 대화형 AMP를 사용하고 다이내믹 이메일을 보낼 수 있습니다. 선택 사항입니다. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html" target="_blank">자세히 알아보기</a> <br /> </td> 
    <td> 모두 </td> 
   </tr> 
   <tr> 
