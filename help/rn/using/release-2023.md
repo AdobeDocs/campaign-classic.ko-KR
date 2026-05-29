@@ -16,6 +16,8 @@ feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -23,10 +25,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 2391
-ht-degree: 100%
+source-wordcount: 2384
+ht-degree: 99%
 
 ---
 
@@ -59,7 +61,7 @@ _2023년 12월 5일_
 * 게재 교정 전에 게재를 삭제할 때 발생하는 데이터베이스 정리 워크플로의 오류를 해결했습니다. (NEO-48114)
 * TLS 인증에 대한 최근 업데이트로 인해 클라이언트 콘솔에 연결할 때 연결 오류가 발생하는 문제를 해결했습니다. (NEO-50488)
 * Campaign을 7.3.1로 업그레이드한 후 HTTP 프록시 인증 시 Campaign 워크플로의 HTTP 요청이 실패하며 `error 407 – proxy auth required is returned` 오류 메시지가 표시되는 문제를 해결했습니다. (NEO-49624)
-* **스크립트** 워크플로 활동에서 GPG 암호 해독이 간헐적으로 실패하는 오류를 해결했습니다. 관련 오류 메시지는 다음과 같습니다. `gpg: decryption failed: No secret key`. (NEO-50257)
+* **스크립트** 워크플로우 활동에서 GPG 암호 해독에 발생하는 중간 오류를 해결했습니다. 관련 오류 메시지: `gpg: decryption failed: No secret key`. (NEO-50257)
   <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
 
 

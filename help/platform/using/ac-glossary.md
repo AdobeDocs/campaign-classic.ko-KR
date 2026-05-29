@@ -11,11 +11,13 @@ TQID: https://experienceleague.adobe.com/e9S6zCJjh4LKzlKKy-tqz8KOR1hScKbMuzuppbV
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
 subfeature_v2:
-  - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+  - id: efa38731-2723-4334-8d8b-a778af834835
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
@@ -26,9 +28,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 6654
+source-wordcount: 6632
 ht-degree: 4%
 
 ---
@@ -298,7 +300,7 @@ Distributed Marketing 추가 기능은 중앙 엔터티(본사, 마케팅 부서
 
 +++**도메인 위임**
 
-하위 도메인 구성을 통해 Adobe Campaign에서 사용할 도메인의 하위 섹션(기술적 명칭은 [DNS 영역])을 구성할 수 있습니다.
+하위 도메인 구성을 사용하면 Adobe Campaign에서 사용할 도메인의 하위 섹션(기술적 명칭은 &quot;DNS 영역&quot;)을 구성할 수 있습니다.
 도메인 위임을 통해 Adobe은 이메일 캠페인 게재, 렌더링 및 추적에 필요한 DNS의 모든 측면을 제어하고 유지 관리할 수 있습니다.
 
 [도메인 위임](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko)에 대해 자세히 알아보기

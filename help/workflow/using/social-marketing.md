@@ -4,7 +4,7 @@ title: 소셜 마케팅
 description: 소셜 마케팅 기술 워크플로우에 대해 자세히 알아보기
 feature: Workflows
 hide: true
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 6%

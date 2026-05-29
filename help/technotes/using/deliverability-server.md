@@ -15,16 +15,14 @@ feature_v2:
 subfeature_v2:
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: eff19c99-440a-4318-b319-444edc4d8d8f
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1052
+source-wordcount: 1038
 ht-degree: 4%
 
 ---
@@ -89,7 +87,7 @@ Adobe은 보안 규정 준수를 이유로 오래된 데이터 센터를 폐기�
 
 1. 관리자는 [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}에 연결합니다.
 1. **제품 및 서비스** 섹션에 액세스하여 **Adobe Campaign**&#x200B;이(가) 나열되는지 확인하십시오.
-**Adobe Campaign**&#x200B;이 표시되지 않으면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}에 문의하여 추가하십시오.
+**Adobe Campaign**&#x200B;이 표시되지 않는 경우 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}에 연락하여 추가하세요.
 1. **Adobe Campaign**&#x200B;을(를) 클릭하고 조직을 선택합니다.
    **주의**: 둘 이상의 조직이 있는 경우 올바른 조직을 선택하십시오. [&#x200B; 조직에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ko#ims-org-id){_blank}.
 

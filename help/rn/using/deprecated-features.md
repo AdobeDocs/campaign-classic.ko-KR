@@ -15,6 +15,8 @@ feature_v2:
 subfeature_v2:
   - id: bea9e610-36b4-4df2-94bb-0fb6fe46cb50
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -24,7 +26,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 1767
 ht-degree: 100%
@@ -106,7 +108,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
  </tr>
   <tr>
   <td>OAuth 인증(OAuth 및 JWT)<br></td>
-  <td><p> OAuth 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증이 변경되어 Adobe I/O로 이동했습니다. Campaign 20.3 릴리스부터는 더 이상 이 인증 모드를 사용하지 않습니다.<p>
+  <td><p> OAuth 인증 설정을 기반으로 파이프라인에 액세스하는 트리거 통합 인증을 변경하고 Adobe I/O로 이동했습니다. Campaign 20.3 릴리스부터는 더 이상 이 인증 모드를 사용하지 않습니다.<p>
   <p>기존에 트리거 통합을 사용 중이었던 경우 <a href="../../integrations/using/about-triggers.md#implement">이 페이지에서</a> 구현을 조정하는 방법을 알아보세요.</p> 
   <p>OAuth 인증 감가상각에 대한 자세한 내용은 이 <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">페이지</a>를 참조하십시오</p> 
   <!--p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until May 25, 2022. </em></p-->
