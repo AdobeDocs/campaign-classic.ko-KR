@@ -22,7 +22,7 @@ subfeature_v2:
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: 709336f05e114ae380d71381bef4b2e7a776b402
 workflow-type: tm+mt
 source-wordcount: 919
 ht-degree: 9%
@@ -141,7 +141,7 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰으로 알려
 
 상단 섹션은 받은 메시지, 원치 않는 메시지(스팸), 받지 못한 메시지 또는 보류 중인 수신 수를 그래픽 색상으로 구분된 표현을 통해 다시 분할합니다.
 
-![](assets/s_tn_inbox_rendering_summary.png){width="40%" align="left"}
+![](assets/s_tn_inbox_rendering_summary.png){width="40%"}
 
 차트 위로 마우스를 가져가면 각 색상에 대한 세부 정보가 표시됩니다. 목록에서 항목을 클릭하여 차트에서 해당 범주를 숨기거나 표시합니다.
 
