@@ -7,24 +7,16 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 TQID: https://experienceleague.adobe.com/Xq9y8r6xU-hypq1Eeo9ijaiGng7qqkWVqiCXW5fYx2c
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 feature_v2: []
-subfeature_v2:
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+subfeature_v2: id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 376
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +42,7 @@ _2026년 3월 31일_
 
 >[!NOTE]
 >
-> 아래 나열된 수정 사항은 연속적인 7.4.3 빌드에서 점진적으로 롤아웃되었습니다. **[!UICONTROL Help > About...]** [메뉴](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)(으)로 이동하여 최신 9394@28aaec9 빌드가 있는지 확인합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+> 아래 목록의 해결 사항은 연속되는 7.4.3 빌드에서 점진적으로 롤아웃되었습니다. **[!UICONTROL Help > About...]** [메뉴](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)로 이동하여 최신 9394@28aaec9 빌드가 설치되어 있는지 확인하십시오. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 * 바코드 구성 요소에서 제한 없는 높이 매개 변수를 허용하여 보안 취약성이 발생할 수 있는 문제를 해결했습니다. (NEO-89984)
 * 워크플로를 통해 만든 목록의 열거형 필드에 임시 이름 속성이 누락되어 인터페이스에 잘못되거나 빈 열거형 레이블이 표시되는 문제를 해결했습니다. (NEO-91158)
@@ -63,7 +55,7 @@ _2026년 3월 31일_
 <!-- BUILD 7.0.9394.28aaec9 -->
 
 * 일부 게재에 대해 게재 통계가 완전히 다시 계산되지 않고, 특히 성공 지표에 영향을 미치는 문제를 해결했습니다. (NEO-88106) <!-- moved from original 7.4.3 GA Fixes section -->
-* 누락된 업스트림 타겟팅 스키마를 참조하는 특정 워크플로우를 열 때 클라이언트 콘솔이 충돌할 수 있는 문제를 해결했습니다. (NEO-28727)
+* 누락된 업스트림 타기팅 스키마를 참조하는 특정 워크플로를 열 때 클라이언트 콘솔이 충돌할 수 있는 문제를 해결했습니다. (NEO-28727)
 * 설치 패키지에서 버전 파일이 누락되어 시작이 실패한 후 클라이언트 콘솔 버전을 식별할 수 없는 문제를 해결했습니다. (NEO-94798)
 
 <!--
