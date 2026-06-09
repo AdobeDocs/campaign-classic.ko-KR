@@ -18,10 +18,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: ht
-source-wordcount: 326
-ht-degree: 100%
+source-git-commit: a35dcdddded4483beefc126ee3d603bab36bf9c9
+workflow-type: tm+mt
+source-wordcount: 330
+ht-degree: 93%
 
 ---
 
@@ -36,9 +36,9 @@ Adobe Campaign Classic v7 제품 및 설명서의 최신 개선 사항을 살펴
 >[!BEGINTABS]
 
 
->[!TAB 2025년 4월 릴리스가 공개되었습니다!]
+>[!TAB 2026년 6월 릴리스가 공개되었습니다!]
 
-Campaign Classic v7.4.2 - 2025년 4월 릴리스의 업데이트, 개선 사항, 수정 사항을 알아보십시오.
+Campaign Classic v7.4.3 - 2026년 6월 빌드는 이전 릴리스 상단에 보안 업데이트가 제공됩니다.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 

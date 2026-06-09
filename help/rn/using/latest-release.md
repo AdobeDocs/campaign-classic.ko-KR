@@ -21,10 +21,10 @@ feature_v2: []
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 376
-ht-degree: 100%
+source-git-commit: a35dcdddded4483beefc126ee3d603bab36bf9c9
+workflow-type: tm+mt
+source-wordcount: 415
+ht-degree: 93%
 
 ---
 
@@ -32,9 +32,19 @@ ht-degree: 100%
 
 이 페이지에서는 **최신 Campaign v7 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 버그 해결 사항 목록을 확인할 수 있습니다. 모든 새 빌드는 색상으로 상태가 표시됩니다. [이 페이지](rn-overview.md)에서 Campaign Classic v7 빌드 상태에 대해 자세히 알아보십시오.
 
-## 릴리스 7.4.3 - 빌드 9394 {#release-7-4-3}
+## 릴리스 7.4.3 {#release-7-4-3}
+
+### 빌드 9396 {#build-9396}
 
 [!BADGE 일반 가용성]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="일반 공급"}
+
+_2026년 6월 9일_
+
+이 빌드에는 보안 수정 사항이 포함되어 있습니다. 권장되는 일반 가용성 빌드이며 이전 Campaign Classic v7 빌드를 대체합니다.
+
+### 빌드 9394 {#build-9394}
+
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 >[!CAUTION]
 >
@@ -42,11 +52,11 @@ ht-degree: 100%
 
 _2026년 3월 31일_
 
-### 보안 개선 사항 {#security-7-4-3}
+#### 보안 개선 사항 {#security-7-4-3}
 
 * 최적의 보안, 안정성, 규정 준수를 유지하기 위해 Debian은 버전 13으로, PostgreSQL은 버전 17로 업그레이드되었습니다. [호환성 매트릭스](compatibility-matrix.md)를 참조하십시오.
 
-### 해결 사항 {#fixes-7-4-3}
+#### 해결 사항 {#fixes-7-4-3}
 
 >[!NOTE]
 >
