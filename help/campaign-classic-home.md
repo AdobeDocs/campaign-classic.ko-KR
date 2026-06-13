@@ -18,10 +18,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a35dcdddded4483beefc126ee3d603bab36bf9c9
+source-git-commit: 50418c4e818f04008a5d47a982fa5bb0185bd597
 workflow-type: tm+mt
-source-wordcount: 330
-ht-degree: 93%
+source-wordcount: 347
+ht-degree: 84%
 
 ---
 
@@ -128,4 +128,4 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
 
 ## 추가 리소스
 
-[오류 메시지 목록](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko) - [Adobe Campaign 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [호환성 매트릭스](rn/using/compatibility-matrix.md) - [튜토리얼](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko){target="_blank"} - [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"}
+[오류 메시지 목록](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko) - [Adobe Campaign 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [호환성 매트릭스](rn/using/compatibility-matrix.md) - [자습서](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko){target="_blank"} - [Campaign용 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"} - [전자 메일 추적 픽셀 및 CNIL 지침](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
