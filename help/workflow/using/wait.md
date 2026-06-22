@@ -13,7 +13,7 @@ subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 192
 ht-degree: 1%
@@ -39,3 +39,4 @@ ht-degree: 1%
 * 반면, 예를 들어 지역 설정이 &#39;Français&#39;로 설정된 경우: 초 동안 **s**, 분 동안 **mn**, 시간 동안 **h**, 일 동안 **j**, 개월 동안 **m**, 년 동안 **a**. 승인 시 값은 자동으로 가장 읽기 쉬운 단위로 변환됩니다. 위의 예에서 **90s**&#x200B;은(는) **1mn 30s**(으)로 변환되었습니다.
 
   기본 단위는 일(**d**)입니다.
+

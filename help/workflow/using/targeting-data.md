@@ -19,7 +19,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 1931
 ht-degree: 4%
@@ -273,3 +273,4 @@ Adobe Campaign에서는 이러한 작업을 구현하기 위해 다음을 제공
 * **[!UICONTROL Enrichment]** 활동을 사용하면 특정 요소에 정보를 추가할 뿐만 아니라 스키마에 열을 순간적으로 추가할 수 있습니다. 활동 저장소의 [데이터 보강](enrichment.md) 섹션에 자세히 설명되어 있습니다.
 * **[!UICONTROL Edit schema]** 활동을 통해 스키마 구조를 수정할 수 있습니다. 활동 저장소의 [스키마 편집](edit-schema.md) 섹션에 자세히 설명되어 있습니다.
 * **[!UICONTROL Change dimension]** 활동을 사용하면 대상 구성 주기 동안 타깃팅 차원을 변경할 수 있습니다. [차원 변경](change-dimension.md) 섹션에 자세히 설명되어 있습니다.
+

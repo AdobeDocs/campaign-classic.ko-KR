@@ -13,7 +13,7 @@ subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 615
 ht-degree: 2%
@@ -89,3 +89,4 @@ ht-degree: 2%
 따라서 분할 활동의 결과는 마지막으로 알려진 생성 날짜와 동일한 날짜에 생성된 수신자와 관련이 있습니다.
 
 그런 다음 목록 업데이트 또는 게재와 같은 다른 활동을 추가하여 워크플로우를 보강할 수 있습니다.
+

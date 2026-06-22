@@ -13,7 +13,7 @@ subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 193
 ht-degree: 4%
@@ -37,3 +37,4 @@ ht-degree: 4%
 활동 속성 편집 창에서 조건을 추가, 삭제 또는 정렬할 수 있지만 전환에서 수정할 수도 있습니다.
 
 계산의 결과를 다른 조건에서 재사용하려면 활동의 초기화 스크립트에서 계산하는 것이 가능합니다. 결과는 조건 스크립트(task.vars.xxx)에서 액세스할 수 있도록 작업의 변수에 저장해야 합니다.
+

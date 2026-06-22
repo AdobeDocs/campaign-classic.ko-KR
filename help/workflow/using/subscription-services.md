@@ -13,7 +13,7 @@ subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 411
 ht-degree: 3%
@@ -78,3 +78,4 @@ ht-degree: 3%
 * 스키마
 
 각 인바운드 이벤트는 이러한 매개 변수로 정의된 대상을 지정해야 합니다.
+

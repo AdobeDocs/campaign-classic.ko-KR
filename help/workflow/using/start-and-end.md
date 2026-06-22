@@ -13,7 +13,7 @@ subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 135
 ht-degree: 4%
@@ -41,3 +41,4 @@ ht-degree: 4%
   종료 활동이 활성화되면 작업 테이블의 데이터가 자동으로 삭제됩니다. 필요하지 않고 불필요한 로드를 방지하기 위해 마지막 활동 출력에서 전환을 비활성화하도록 선택할 수 있습니다. 예를 들어 게재 출력에서 프로세스가 예약되지 않은 경우 다음과 같이 관련 옵션의 선택을 취소합니다.
 
   ![](assets/s_advuser_delivery_option_no_output.png)
+

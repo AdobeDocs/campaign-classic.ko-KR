@@ -13,7 +13,7 @@ subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 1187
 ht-degree: 1%
@@ -150,3 +150,4 @@ ht-degree: 1%
 >활동 그룹을 선택하고 이러한 명령 중 하나를 적용할 수 있습니다.
 
 마우스 오른쪽 단추 클릭 메뉴는 이 [섹션](../../campaign/using/marketing-campaign-deliveries.md#executing-a-workflow)에도 자세히 설명되어 있습니다.
+
