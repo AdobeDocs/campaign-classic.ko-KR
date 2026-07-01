@@ -7,12 +7,20 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 TQID: https://experienceleague.adobe.com/Xq9y8r6xU-hypq1Eeo9ijaiGng7qqkWVqiCXW5fYx2c
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 feature_v2: []
-subfeature_v2: id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+subfeature_v2:
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: a9e48513ed4ceb2650d0eeff18563a010a148c80
 workflow-type: tm+mt
 source-wordcount: 498
@@ -40,7 +48,7 @@ _2026년 6월 30일_
 
 기본적으로 webForm.jsp는 이제 클라이언트가 제공한 `ctx` 매개 변수를 무시합니다. 이는 기본적으로 &quot;true&quot;로 설정된 `disableCtxInWebForm` 매개 변수에 의해 제어됩니다.
 
-webForm 요청이에서 현재 `ctx` 매개 변수를 전달하는 경우 다음에 다음을 추가하여 이 동작을 일시적으로 다시 활성화할 수 있습니다. <web> 구성 요소-<instance>.xml 파일입니다. 이 사용을 단계적으로 중단할 계획입니다.
+webForm 요청이에서 현재 `ctx` 매개 변수를 전달하는 경우 다음에 다음을 추가하여 이 동작을 일시적으로 다시 활성화할 수 있습니다. &lt;web> 구성 요소-&lt;instance>.xml 파일입니다. 이 사용을 단계적으로 중단할 계획입니다.
 
 ```
 <web>
