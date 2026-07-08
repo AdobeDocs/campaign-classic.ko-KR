@@ -9,13 +9,12 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 TQID: https://experienceleague.adobe.com/mpN0TwuPILae7Y-jbkyvbBR1zdo4IvtnuzGQObLI0rc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+source-git-commit: d711ea40185e9860ea20773ae1dfebfc7cc3e4d0
 workflow-type: tm+mt
-source-wordcount: 1145
+source-wordcount: 1152
 ht-degree: 3%
 
 ---
@@ -42,7 +41,7 @@ Adobe Campaign에는 특정 버전에 대한 바이너리 및 구성 파일이 �
 
 >[!AVAILABILITY]
 >
->v7.4.1부터 RPM Linux용 XML 라이브러리는 더 이상 Campaign에 포함되지 않습니다. 이러한 라이브러리를 설치해야 합니다.
+>v7.4.1부터 RPM Linux용 XML 라이브러리는 더 이상 Campaign에 포함되지 않습니다. **xalan-c**(`epel-release`에서 사용 가능)을(를) 설치해야 합니다. [자세히 알아보기](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#libraries)
 > 
 
 RPM(RHEL, CentOS) 운영 체제에 Adobe Campaign을 설치하려면 다음 단계를 수행하십시오.

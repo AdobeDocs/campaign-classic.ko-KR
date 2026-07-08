@@ -9,16 +9,13 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
 TQID: https://experienceleague.adobe.com/SFdh5L8-oHjpH7rIhDxOQZqw7AukXtkv3lJHZu2oTHQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+source-git-commit: d711ea40185e9860ea20773ae1dfebfc7cc3e4d0
 workflow-type: tm+mt
-source-wordcount: 854
+source-wordcount: 906
 ht-degree: 2%
 
 ---
@@ -56,6 +53,34 @@ Linux에 Adobe Campaign을 설치하려면 필요한 라이브러리가 있는�
   RHEL 배포의 경우 OpenSSL 버전 1.0이 필요합니다.
 
 * Adobe Campaign을 사용하려면 **libicu** 라이브러리가 설치되어 있어야 합니다.
+
+* RHEL 배포의 경우 **xalan-c**&#x200B;은(는) 필수입니다. `epel-release`을(를) 통해 설치:
+
+  ```
+  dnf install epel-release
+  dnf install xalan-c
+  ```
+
+### PDF 보고서 내보내기 종속성 {#pdf-export-dependencies}
+
+보고서를 PDF 형식으로 내보낼 때 **wkhtmltopdf** 도구가 사용됩니다. 이를 위해서는 다음 패키지가 필요합니다.
+
+* **libjpeg**
+* **xvfb**
+
+PDF 보고서 내보내기를 사용하지 않는 경우에는 이러한 패키지를 설치할 필요가 없습니다.
+
+RHEL 배포:
+
+```
+dnf install libjpeg xvfb
+```
+
+Debian에서:
+
+```
+apt-get install libjpeg-dev xvfb
+```
 
 ### SELinux {#selinux}
 
