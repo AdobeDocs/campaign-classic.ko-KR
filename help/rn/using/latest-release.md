@@ -22,9 +22,9 @@ subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: a9e48513ed4ceb2650d0eeff18563a010a148c80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 498
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ _2026년 6월 30일_
 
 기본적으로 webForm.jsp는 이제 클라이언트가 제공한 `ctx` 매개 변수를 무시합니다. 이는 기본적으로 &quot;true&quot;로 설정된 `disableCtxInWebForm` 매개 변수에 의해 제어됩니다.
 
-webForm 요청이에서 현재 `ctx` 매개 변수를 전달하는 경우 다음에 다음을 추가하여 이 동작을 일시적으로 다시 활성화할 수 있습니다. &lt;web> 구성 요소-&lt;instance>.xml 파일입니다. 이 사용을 단계적으로 중단할 계획입니다.
+현재 webForm 요청에서 `ctx` 매개 변수를 전달하는 경우 이 동작을 일시적으로 다시 활성화하려면 config.xml 파일의<web> 요소에 다음을<instance>추가하면 됩니다. 이 사용을 단계적으로 중단할 계획입니다.
 
 ```
 <web>
@@ -60,7 +60,7 @@ webForm 요청이에서 현재 `ctx` 매개 변수를 전달하는 경우 다음
 
 ### 빌드 9396 {#build-9396}
 
-[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
+[!BADGE 사용 중단됨]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2026년 6월 9일_
 
@@ -68,7 +68,7 @@ _2026년 6월 9일_
 
 ### 빌드 9394 {#build-9394}
 
-[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
+[!BADGE 사용 중단됨]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 >[!CAUTION]
 >

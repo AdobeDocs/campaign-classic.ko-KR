@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: c372a3d67ec413fa8cf9fdbb4530762a8f2f5177
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 408
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## 릴리스 7.4.1 - 빌드 9383 {#release-7-4-1}
 
-[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
+[!BADGE 사용 중단됨]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2024년 6월 18일 수요일_
 
