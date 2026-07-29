@@ -7,24 +7,16 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 TQID: https://experienceleague.adobe.com/Xq9y8r6xU-hypq1Eeo9ijaiGng7qqkWVqiCXW5fYx2c
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 feature_v2: []
-subfeature_v2:
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-source-git-commit: a9e48513ed4ceb2650d0eeff18563a010a148c80
-workflow-type: ht
-source-wordcount: 498
-ht-degree: 100%
+subfeature_v2: id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+source-git-commit: 7aea93eee16cdcdae6c4bf2466ab12a0aaf6052e
+workflow-type: tm+mt
+source-wordcount: 631
+ht-degree: 78%
 
 ---
 
@@ -34,21 +26,33 @@ ht-degree: 100%
 
 ## 릴리스 7.4.3 {#release-7-4-3}
 
+### 빌드 9398 {#build-9398}
+
+[!BADGE 제한 공개]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
+
+_2026년 7월 29일_
+
+#### 보안 개선 사항 {#security-7-4-3-9398}
+
+Adobe이 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업데이트를 발표했습니다. 온-프레미스 및 하이브리드 배포에서는 업데이트를 가능한 한 빨리 설치하는 것이 좋습니다. Adobe 호스팅 인스턴스는 이미 수정되었으며 고객 조치가 필요하지 않습니다. 자세한 내용은 [보안 공지](https://helpx.adobe.com/security/products/campaign/apsb26-114.html){target="_blank"}에서 확인할 수 있습니다.
+
+빌드를 로드하고 배포를 완료하려면 [Adobe Campaign 서버(nlserver)를 다시 시작](../../production/using/usual-commands.md#restart-services)해야 합니다. 이 수정 사항은 다시 시작하면 기본적으로 활성화됩니다.
+
 ### 빌드 9397 {#build-9397}
 
-[!BADGE 일반 가용성]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="일반 공급"}
+[!BADGE 제한 공개]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
 
 _2026년 6월 30일_
 
 #### 보안 개선 사항 {#security-7-4-3-9397}
 
-이 빌드에는 보안 수정 사항이 포함되어 있습니다. 권장되는 일반 가용성 빌드이며 이전 Campaign Classic v7 빌드를 대체합니다.
+이 빌드에는 보안 수정 사항이 포함되어 있으며 이전 Campaign Classic v7 빌드를 대체합니다. 이 빌드는 이제 온-프레미스 및 하이브리드 배포에 더 이상 사용되지 않습니다. 이러한 배포 모드의 고객은 [빌드 9398](#build-9398) 이상으로 업그레이드하여 가능한 한 빨리 업데이트를 설치하는 것이 좋습니다.
 
 #### 기타 변경 사항 {#changes-7-4-3-9397}
 
 기본적으로 webForm.jsp는 이제 클라이언트가 제공한 `ctx` 매개 변수를 무시합니다. 이는 기본적으로 &quot;true&quot;로 설정된 `disableCtxInWebForm` 매개 변수에 의해 제어됩니다.
 
-현재 webForm 요청에서 `ctx` 매개 변수를 전달하는 경우 이 동작을 일시적으로 다시 활성화하려면 config.xml 파일의<web> 요소에 다음을<instance>추가하면 됩니다. 이 사용을 단계적으로 중단할 계획입니다.
+현재 webForm 요청에서 `ctx` 매개 변수를 전달하는 경우 이 동작을 일시적으로 다시 활성화하려면 config.xml 파일의 <web> 요소에 다음을<instance>추가하면 됩니다. 이 사용을 단계적으로 중단할 계획입니다.
 
 ```
 <web>
