@@ -26,10 +26,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1767
-ht-degree: 100%
+source-git-commit: c094a1fa9adf80708154b5532ae9fbeb18993b9f
+workflow-type: tm+mt
+source-wordcount: 1792
+ht-degree: 98%
 
 ---
 
@@ -64,9 +64,14 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
    <td><strong>세부 정보</strong></td>
   </tr>
   <tr>
+ <td>Netsize SMPP 커넥터</td>
+ <td><p>이제 Netsize SMPP 커넥터는 더 이상 사용되지 않습니다. <strong>확장된 일반 SMPP</strong> 커넥터로 마이그레이션하는 것이 좋습니다. 자세한 정보는 <a href="../../delivery/using/unsupported-connector-migration.md">이 페이지</a>를 참조하십시오.</p>
+<p>타겟 제거 날짜: 2027년 1월</p>
+</td>
+</tr>
+<tr>
  <td>Campaign(Neolane) 레거시 SDK</td>
  <td><p>모바일 애플리케이션용 Campaign(Neolane) SDK의 사용이 종료되었습니다. 대신 데이터 수집 UI에서 Adobe Campaign 확장을 구성하여 Adobe Experience Platform 모바일 SDK를 사용하면 됩니다. Adobe Experience Platform 모바일 SDK는 모바일 앱에서 Adobe의 Experience Cloud 솔루션 및 서비스를 구동하는 데 도움이 됩니다. SDK 구성은 데이터 수집 UI를 통해 관리되므로 유연한 구성과 확장 가능한 규칙 기반 통합을 이용할 수 있습니다. <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/push-settings">Campaign v8 설명서</a>에서 모바일 앱 채널을 구성하는 방법에 대해 알아봅니다.</p>
-<p>목표 제거일: 2025년 7월 31일 </p>
 </td>
 </tr>
 <tr>
@@ -206,11 +211,11 @@ The following systems are deprecated for Campaign Classic. Please refer to the [
 
 * 19.1 릴리스부터 Adobe Campaign은 더 이상 다음 운영 체제와 호환되지 않습니다.
 
-   * CentOS 6. [자세히 알아보기](https://wiki.centos.org/Download)
-   * Debian 7. [자세히 알아보기](https://wiki.debian.org/DebianReleases)
-   * RHEL 6.x. [자세히 알아보기](https://access.redhat.com/support/policy/updates/errata)
-   * Windows Server 2008. [자세히 알아보기](https://support.microsoft.com/en-us/lifecycle/search/1163)
-   * SLES 11. [자세히 알아보기](https://www.suse.com/lifecycle)
+  * CentOS 6. [자세히 알아보기](https://wiki.centos.org/Download)
+  * Debian 7. [자세히 알아보기](https://wiki.debian.org/DebianReleases)
+  * RHEL 6.x. [자세히 알아보기](https://access.redhat.com/support/policy/updates/errata)
+  * Windows Server 2008. [자세히 알아보기](https://support.microsoft.com/en-us/lifecycle/search/1163)
+  * SLES 11. [자세히 알아보기](https://www.suse.com/lifecycle)
 
 ### 웹 서버 {#web-server-eol}
 
