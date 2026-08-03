@@ -7,29 +7,16 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 TQID: https://experienceleague.adobe.com/g1JuaL9ijMzzZ-OjRY5RNEvMBiX1rGtwKdq-mdKNiHI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bea9e610-36b4-4df2-94bb-0fb6fe46cb50
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1767
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bea9e610-36b4-4df2-94bb-0fb6fe46cb50id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 8e6803077f890e82fc7a457433a6c0e9cf8e8f5c
+workflow-type: tm+mt
+source-wordcount: 1790
+ht-degree: 98%
 
 ---
 
@@ -66,7 +53,6 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   <tr>
  <td>Campaign(Neolane) 레거시 SDK</td>
  <td><p>모바일 애플리케이션용 Campaign(Neolane) SDK의 사용이 종료되었습니다. 대신 데이터 수집 UI에서 Adobe Campaign 확장을 구성하여 Adobe Experience Platform 모바일 SDK를 사용하면 됩니다. Adobe Experience Platform 모바일 SDK는 모바일 앱에서 Adobe의 Experience Cloud 솔루션 및 서비스를 구동하는 데 도움이 됩니다. SDK 구성은 데이터 수집 UI를 통해 관리되므로 유연한 구성과 확장 가능한 규칙 기반 통합을 이용할 수 있습니다. <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/push-settings">Campaign v8 설명서</a>에서 모바일 앱 채널을 구성하는 방법에 대해 알아봅니다.</p>
-<p>목표 제거일: 2025년 7월 31일 </p>
 </td>
 </tr>
 <tr>
@@ -103,7 +89,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
     <tr>
   <td>기술 게재성 모니터링 보고서<br></td>
    <td><p>기술 게재 가능성 모니터링 보고서를 더 이상 사용할 수 없습니다. Campaign 21.1.3 릴리스에서 더 이상 사용되지 않습니다.</p>
-   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
+   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
   </td>
  </tr>
   <tr>
@@ -157,7 +143,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   <tr> 
    <td>decryptString API</td>
    <td><p>보안상의 이유로 Campaign 18.6 릴리스부터는 <em>decryptString</em> API는 기본적으로 더 이상 새로 설치할 수 없습니다.</p> 
-   <p>18.6 또는 그 이상으로 업그레이드 후 컨텍스트에서 이 API는 더 이상 활성화되지 않으며 <em>decryptPassword</em> 함수로 대체되었습니다. <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?lang=ko&hl=decrypt">자세히 알아보기</a></p></td>
+   <p>18.6 또는 그 이상으로 업그레이드 후 컨텍스트에서 이 API는 더 이상 활성화되지 않으며 <em>decryptPassword</em> 함수로 대체되었습니다. <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?hl=decrypt">자세히 알아보기</a></p></td>
   </tr> 
    <tr> 
    <td>모바일 채널 - MMS 및 WAP 푸시 메시지</td>
@@ -206,11 +192,11 @@ The following systems are deprecated for Campaign Classic. Please refer to the [
 
 * 19.1 릴리스부터 Adobe Campaign은 더 이상 다음 운영 체제와 호환되지 않습니다.
 
-   * CentOS 6. [자세히 알아보기](https://wiki.centos.org/Download)
-   * Debian 7. [자세히 알아보기](https://wiki.debian.org/DebianReleases)
-   * RHEL 6.x. [자세히 알아보기](https://access.redhat.com/support/policy/updates/errata)
-   * Windows Server 2008. [자세히 알아보기](https://support.microsoft.com/en-us/lifecycle/search/1163)
-   * SLES 11. [자세히 알아보기](https://www.suse.com/lifecycle)
+  * CentOS 6. [자세히 알아보기](https://wiki.centos.org/Download)
+  * Debian 7. [자세히 알아보기](https://wiki.debian.org/DebianReleases)
+  * RHEL 6.x. [자세히 알아보기](https://access.redhat.com/support/policy/updates/errata)
+  * Windows Server 2008. [자세히 알아보기](https://support.microsoft.com/en-us/lifecycle/search/1163)
+  * SLES 11. [자세히 알아보기](https://www.suse.com/lifecycle)
 
 ### 웹 서버 {#web-server-eol}
 
@@ -281,6 +267,8 @@ Campaign Classic은 FDA(Federated Data Access)의 다음 서버와 호환되지 
 * Tele2
 * O2
 * iOS
+
+Netsize SMPP 커넥터는 더 이상 사용되지 않으며 2027년 1월에 제거됩니다. 이 날짜 이전에 **[!UICONTROL Extended generic SMPP]** 커넥터로 마이그레이션하는 것이 좋습니다. 자세한 정보는 [이 페이지](../../delivery/using/unsupported-connector-migration.md)를 참조하십시오.
 
 ### CRM 커넥터 {#crm-connectors}
 
