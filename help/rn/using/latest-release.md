@@ -21,10 +21,10 @@ feature_v2: []
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-source-git-commit: 7aea93eee16cdcdae6c4bf2466ab12a0aaf6052e
+source-git-commit: 5356cd82fdbec264ebbdebadc490bb6f6aa29f07
 workflow-type: tm+mt
-source-wordcount: 631
-ht-degree: 78%
+source-wordcount: 734
+ht-degree: 69%
 
 ---
 
@@ -34,9 +34,21 @@ ht-degree: 78%
 
 ## 릴리스 7.4.3 {#release-7-4-3}
 
+### 빌드 9399 {#build-9399}
+
+[!BADGE 일반 가용성]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="일반 공급"}
+
+_2026년 8월 3일_
+
+#### 보안 개선 사항 {#security-7-4-3-9399}
+
+Adobe이 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업데이트를 발표했습니다. 온-프레미스 및 하이브리드 배포에서는 업데이트를 가능한 한 빨리 설치하는 것이 좋습니다. Adobe 호스팅 인스턴스는 이미 수정되었으며 고객 조치가 필요하지 않습니다. 자세한 내용은 [보안 공지](https://helpx.adobe.com/security/products/campaign/apsb26-120.html){target="_blank"}에서 확인할 수 있습니다.
+
+빌드를 로드하고 배포를 완료하려면 [Adobe Campaign 서버(nlserver)를 다시 시작](../../production/using/usual-commands.md#restart-services)해야 합니다. 이 수정 사항은 다시 시작하면 기본적으로 활성화됩니다.
+
 ### 빌드 9398 {#build-9398}
 
-[!BADGE 제한 공개]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2026년 7월 29일_
 
@@ -48,7 +60,7 @@ Adobe이 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업�
 
 ### 빌드 9397 {#build-9397}
 
-[!BADGE 제한 공개]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="제한 공개"}
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2026년 6월 30일_
 
