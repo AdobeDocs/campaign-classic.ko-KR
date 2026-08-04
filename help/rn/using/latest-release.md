@@ -42,7 +42,7 @@ _2026년 8월 3일_
 
 #### 보안 개선 사항 {#security-7-4-3-9399}
 
-Adobe이 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업데이트를 발표했습니다. 온-프레미스 및 하이브리드 배포에서는 업데이트를 가능한 한 빨리 설치하는 것이 좋습니다. Adobe 호스팅 인스턴스는 이미 수정되었으며 고객 조치가 필요하지 않습니다. 자세한 내용은 [보안 공지](https://helpx.adobe.com/security/products/campaign/apsb26-120.html){target="_blank"}에서 확인할 수 있습니다.
+Adobe이 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업데이트를 발표했습니다. 온-프레미스 및 하이브리드 배포에서는 업데이트를 가능한 한 빨리 설치하는 것이 좋습니다. Adobe 호스팅 인스턴스는 이미 수정되었으며 고객 조치가 필요하지 않습니다. 자세한 내용은 [보안 공지](https://helpx.adobe.com/kr/security/products/campaign/apsb26-120.html){target="_blank"}에서 확인할 수 있습니다.
 
 빌드를 로드하고 배포를 완료하려면 [Adobe Campaign 서버(nlserver)를 다시 시작](../../production/using/usual-commands.md#restart-services)해야 합니다. 이 수정 사항은 다시 시작하면 기본적으로 활성화됩니다.
 
