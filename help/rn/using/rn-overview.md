@@ -7,23 +7,16 @@ role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 TQID: https://experienceleague.adobe.com/xs5sqsIqs9u-a9TrKo5EgFIpNTtxhy8y0-YIlDyUxp0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
 feature_v2: []
-subfeature_v2:
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+subfeature_v2: id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: e71b0658b2458b05799c28e79d871f025348962a
-workflow-type: tm+mt
-source-wordcount: 1045
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: 1046
+ht-degree: 100%
 
 ---
 
@@ -66,13 +59,13 @@ Adobe Campaign은 정기적으로 업데이트됩니다. 이렇게 정기적으�
 
 >[!NOTE]
 >
-> 각 빌드는 누적됩니다. 여기에는 자체 변경 사항 외에도 동일한 릴리스의 이전 빌드에서 제공된 모든 기능, 개선 사항 및 수정 사항이 포함됩니다. 이전 수정 사항의 이점을 활용하기 위해 모든 중간 빌드를 설치할 필요는 없습니다. 최신 빌드를 설치하면 이전 빌드에 포함된 모든 사항을 최신 상태로 유지할 수 있습니다.
+> 각 빌드는 누적됩니다. 여기에는 자체 변경 사항 외에도 동일한 릴리스의 이전 빌드에서 제공된 모든 기능과 개선/수정 사항이 포함됩니다. 이전 수정 사항의 이점을 활용하기 위해 모든 중간 빌드를 설치할 필요는 없습니다. 최신 빌드를 설치하면 이전 빌드에 포함된 모든 수정 사항과 기능이 함께 적용됩니다.
 
 호스팅된 고객은 별도의 조치 없이 안정적인 최신 빌드의 업그레이드를 자동으로 사용할 수 있습니다. 자세한 내용은 [연간 업그레이드 섹션](#yearly-upgrade)을 참조하십시오. 이전 빌드에서 마이그레이션하는 경우 먼저 이 빌드로 업그레이드하는 것이 좋습니다.
 
 ### 호스팅된 환경을 위한 보안 패치 {#security-patching}
 
-Adobe은 호스팅 환경의 무결성을 보호하기 위해 가능한 한 빨리 취약성을 해결하기 위해 사전 통지 없이 언제든지 중요한 보안 패치를 적용할 수 있는 권한을 보유합니다. 이러한 패치는 서비스 중단 없이 배포됩니다. 이 방법은 Adobe의 보안 거버넌스 표준과 일치하며, 이 표준에서 중요한 취약점을 수정하는 긴급성이 사전 알림보다 우선합니다.
+Adobe는 호스팅 환경의 무결성을 보호하는 차원에서 가능한 한 빨리 취약성을 해결하기 위해서 사전 통지 없이 언제든지 중요한 보안 패치를 적용할 권한을 보유합니다. 이러한 패치는 서비스 중단 없이 배포됩니다. 이러한 조치는 Adobe의 보안 거버넌스 표준과 일치하며, 이 표준에서는 중요한 취약점을 수정해야 하는 긴급성이 사전 알림보다 우선합니다.
 
 ## 권장 사항 {#rn-recommendations}
 
