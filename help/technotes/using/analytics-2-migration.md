@@ -53,8 +53,8 @@ Adobe Analytics 1.4 API가 [수명이 종료됨](https://developer.adobe.com/ana
       ```
 
    1. 리마케팅 내보내기는 고정된 Adobe IP 범위 집합에서만 시작되므로 SFTP 서버의 Adobe Analytics 허용 목록:
-      * [현재 Adobe Analytics 데이터 수집 IP 주소를 검색하고](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses){target="_blank"} SFTP 서버의 허용 목록에 추가하십시오. FTP 기반 Analytics 내보내기(데이터 피드 포함)는 런던, 오레곤 및 싱가포르 지역의 IPv4 주소에서만 시작됩니다.
-      * [Adobe Analytics 공개 키를 검색](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-18141){target="_blank"}하고 SFTP 서버의 `authorized_keys` 파일에 추가하여 Analytics에서 인증할 수 있도록 합니다.
+      * [현재 Adobe Analytics 데이터 수집 IP 주소를 검색하고](https://experienceleague.adobe.com/ko/docs/core-services/interface/data-collection/ip-addresses){target="_blank"} SFTP 서버의 허용 목록에 추가하십시오. FTP 기반 Analytics 내보내기(데이터 피드 포함)는 런던, 오레곤 및 싱가포르 지역의 IPv4 주소에서만 시작됩니다.
+      * [Adobe Analytics 공개 키를 검색](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-18141){target="_blank"}하고 SFTP 서버의 `authorized_keys` 파일에 추가하여 Analytics에서 인증할 수 있도록 합니다.
 1. Campaign 탐색기 트리의 **[!UICONTROL Administration]> [!UICONTROL Platform] >[!UICONTROL Options]**&#x200B;에서 [!UICONTROL xtkOption]에 옵션의 `longvalue`을(를) `1`(으)로 만들거나 설정하여 인스턴스에서 `FEATUREFLAG_USE_ANALYTICS_20_API` 기능 플래그를 사용하도록 설정합니다. 위의 사용 사례가 사용자에게 적용되는 것과 상관없이 이 단계는 필수입니다.
 1. 기존 연결을 종료하기 전에 인스턴스에 적용되는 각 사용 사례를 연습하여 마이그레이션을 확인합니다(테스트 캠페인을 보내고, 지표가 Analytics에 도착하는지 확인하고, 해당되는 경우 리마케팅 데이터를 확인).
 
@@ -83,7 +83,7 @@ Analytics 2.0에서는 새로운 분류 처리가 도입되었기 때문에 외�
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-이 분류 세트는 다음 단계에서 외부 계정을 구성할 때 Campaign에서 자동으로 검색됩니다. 분류 세트에 대한 자세한 내용은 [Adobe Analytics 설명서](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/create-set){target="_blank"}를 참조하세요.
+이 분류 세트는 다음 단계에서 외부 계정을 구성할 때 Campaign에서 자동으로 검색됩니다. 분류 세트에 대한 자세한 내용은 [Adobe Analytics 설명서](https://experienceleague.adobe.com/ko/docs/analytics/components/classifications/sets/create-set){target="_blank"}를 참조하세요.
 
 ## 도움이 필요하십니까? {#need-help}
 
