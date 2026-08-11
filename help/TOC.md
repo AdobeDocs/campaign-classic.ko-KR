@@ -8,10 +8,10 @@ user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: cc6c1969f230f3aac405b9169505a8bb39d41dfd
-workflow-type: ht
-source-wordcount: '2710'
-ht-degree: 100%
+source-git-commit: df5d87ca4fccb927f770957ec1c00157d14e95dc
+workflow-type: tm+mt
+source-wordcount: '2717'
+ht-degree: 99%
 
 ---
 
@@ -813,6 +813,7 @@ ht-degree: 100%
     + {hide-from-toc}[2023년 시스템 업그레이드](technotes/using/tech-stack-upgrade.md)
     + {hide-from-toc}[IMS 업데이트](technotes/using/ims-updates.md)
     + {hide-from-toc}[TLS 1.0 및 1.1 지원 종료](technotes/using/eol-tls-support.md)
+    + {hide-from-toc}[Adobe Analytics 2.0 API로 마이그레이션](technotes/using/analytics-2-migration.md)
   + 이메일 및 푸시 알림{#technotes-email}
     + [Apple iOS의 메일 개인 정보 보호](technotes/using/apple-mail-app-privacy-protection.md)
     + [잘못된 하드 바운스를 업데이트하는 방법](delivery/using/update-bounce-qualification.md)
