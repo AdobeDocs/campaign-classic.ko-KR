@@ -24,7 +24,7 @@ subfeature_v2:
 source-git-commit: d1e083ac90731e9f55d64156fbd6038df3c4d432
 workflow-type: tm+mt
 source-wordcount: 1017
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Adobe는 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업�
 
 #### Adobe Analytics 2.0 업그레이드 {#analytics-2-0-7-4-4}
 
-Adobe Analytics 1.4 API는 수명이 종료됩니다. Adobe Analytics 커넥터를 사용하는 경우 이 빌드로 업그레이드하고 배포 및 사용 사례에 따라 몇 가지 마이그레이션 단계를 완료해야 합니다. [Adobe Analytics 2.0 API로 마이그레이션하는 방법을 알아보세요](../../technotes/using/analytics-2-migration.md).
+Adobe Analytics 1.4 API가 서비스 종료를 앞두고 있습니다. Adobe Analytics 커넥터를 사용하는 경우 이 빌드로 업그레이드하고 배포 및 사용 사례에 따라 몇 가지 마이그레이션 단계를 완료해야 합니다. [Adobe Analytics 2.0 API로 마이그레이션하는 방법을 알아보세요](../../technotes/using/analytics-2-migration.md).
 
 ## 릴리스 7.4.3 {#release-7-4-3}
 
