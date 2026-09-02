@@ -68,7 +68,7 @@ API를 사용하여 개인 정보 보호 요청을 제출하는 경우 반환된
 
 ## 외부에서 API 호출 {#invoking-api-externally}
 
-다음은 외부에서 API를 호출하는 방법(API를 통한 인증 및 개인 정보 API에 대한 세부 정보)의 예입니다. 개인 정보 API에 대한 자세한 내용은 [API 설명서](https://experienceleague.adobe.com/en/tools/campaign-api)를 참조하십시오. 또한 [웹 서비스 호출 설명서](../../configuration/using/web-service-calls.md)를 참조하십시오.
+다음은 외부에서 API를 호출하는 방법(API를 통한 인증 및 개인 정보 API에 대한 세부 정보)의 예입니다. 개인 정보 API에 대한 자세한 내용은 [API 설명서](https://experienceleague.adobe.com/ko/tools/campaign-api)를 참조하십시오. 또한 [웹 서비스 호출 설명서](../../configuration/using/web-service-calls.md)를 참조하십시오.
 
 우선 API를 통해 인증을 수행해야 합니다.
 

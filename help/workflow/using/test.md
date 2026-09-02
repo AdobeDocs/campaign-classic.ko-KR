@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ![](assets/edit_test.png)
 
-워크플로 JavaScript을 통해 액세스할 수 있는 응용 프로그램 서버의 모든 추가 JavaScript 함수 및 SOAP 메서드에 대한 자세한 내용은 [JSAPI 설명서](https://experienceleague.adobe.com/en/tools/campaign-api)를 참조하십시오.
+워크플로 JavaScript을 통해 액세스할 수 있는 응용 프로그램 서버의 모든 추가 JavaScript 함수 및 SOAP 메서드에 대한 자세한 내용은 [JSAPI 설명서](https://experienceleague.adobe.com/ko/tools/campaign-api)를 참조하십시오.
 
 이 편집기에서 직접 변수를 삽입할 수도 있습니다. 변수를 사용하여 작업하는 방법에 대한 자세한 내용은 [이 섹션](javascript-scripts-and-templates.md#variables)을 참조하세요.
 

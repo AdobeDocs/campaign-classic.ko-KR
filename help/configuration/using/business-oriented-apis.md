@@ -45,7 +45,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->[Campaign JSAPI 설명서](https://experienceleague.adobe.com/en/tools/campaign-api)에는 SOAP 호출 및 Adobe Campaign에서의 Javascript 사용에 대한 추가 정보와 애플리케이션에 사용되는 모든 메서드 및 함수에 대한 전체 참조가 포함되어 있습니다.
+>[Campaign JSAPI 설명서](https://experienceleague.adobe.com/ko/tools/campaign-api)에는 SOAP 호출 및 Adobe Campaign에서의 Javascript 사용에 대한 추가 정보와 애플리케이션에 사용되는 모든 메서드 및 함수에 대한 전체 참조가 포함되어 있습니다.
 
 ## 구독(nms:subscription) {#subscribe--nms-subscription-}
 

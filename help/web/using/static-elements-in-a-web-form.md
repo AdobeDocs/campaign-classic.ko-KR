@@ -41,7 +41,7 @@ ht-degree: 2%
 
   >[!NOTE]
   >
-  >서버측에서 스크립트는 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/en/tools/campaign-api)에 정의된 함수를 사용할 수 있습니다.
+  >서버측에서 스크립트는 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/ko/tools/campaign-api)에 정의된 함수를 사용할 수 있습니다.
 
 ## HTML 콘텐츠 삽입 {#inserting-html-content}
 
