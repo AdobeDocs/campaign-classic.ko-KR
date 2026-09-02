@@ -6,17 +6,14 @@ feature: API
 role: Developer
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
 TQID: https://experienceleague.adobe.com/lPAawM33zS2tws0EyHFHW1jD-Vw3ZLDtDcMEd1eJA1c
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
 workflow-type: tm+mt
-source-wordcount: 625
-ht-degree: 3%
+source-wordcount: 624
+ht-degree: 2%
 
 ---
 
@@ -26,16 +23,16 @@ ht-degree: 3%
 
 * 게재:
 
-   * 게재 작업을 만드는 중입니다. [SubmitDelivery(nms:delivery)](#submitdelivery--nms-delivery-)을(를) 참조하세요.
-   * 캠페인 보내기(시작, 일시 중지, 중지, 증명 보내기),
-   * 게재 로그를 복구하는 중입니다.
+  * 게재 작업을 만드는 중입니다. [SubmitDelivery(nms:delivery)](#submitdelivery--nms-delivery-)을(를) 참조하세요.
+  * 캠페인 보내기(시작, 일시 중지, 중지, 증명 보내기),
+  * 게재 로그를 복구하는 중입니다.
 
 * 워크플로:
 
-   * 워크플로우 시작,
-   * 프로세스 확인 등
+  * 워크플로우 시작,
+  * 프로세스 확인 등
 
-     JavaScript의 [SOAP 메서드](../../configuration/using/soap-methods-in-javascript.md)를 참조하세요.
+    JavaScript의 [SOAP 메서드](../../configuration/using/soap-methods-in-javascript.md)를 참조하세요.
 
 * 콘텐츠 관리
 * 구독 관리입니다. [구독(nms:subscription)](#subscribe--nms-subscription-) 및 [구독 취소(nms:subscription)](#unsubscribe--nms-subscription-)를 참조하세요.
@@ -45,7 +42,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->[Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko)에는 SOAP 호출 및 Adobe Campaign에서의 Javascript 사용에 대한 추가 정보와 애플리케이션에 사용되는 모든 메서드 및 함수에 대한 전체 참조가 포함되어 있습니다.
+>[Campaign JSAPI 설명서](https://experienceleague.adobe.com/en/tools/campaign-api)에는 SOAP 호출 및 Adobe Campaign에서의 Javascript 사용에 대한 추가 정보와 애플리케이션에 사용되는 모든 메서드 및 함수에 대한 전체 참조가 포함되어 있습니다.
 
 ## 구독(nms:subscription) {#subscribe--nms-subscription-}
 
@@ -70,7 +67,7 @@ ht-degree: 3%
 </method>
 ```
 
-조정 키의 정의는 XML 문서의 `<recipient>` 요소에 있는 _&#x200B;**key** 특성을 통해 입력해야 합니다. 이 속성의 콘텐츠는 쉼표로 구분된 XPath 목록입니다.
+조정 키의 정의는 XML 문서의 `<recipient>` 요소에 있는 _**key** 특성을 통해 입력해야 합니다. 이 속성의 콘텐츠는 쉼표로 구분된 XPath 목록입니다.
 
 이 호출은 오류를 제외하고 데이터를 반환하지 않습니다.
 

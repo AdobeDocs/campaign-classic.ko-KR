@@ -6,21 +6,14 @@ badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8
 feature: Web Forms, Landing Pages
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
 TQID: https://experienceleague.adobe.com/uHsP-67EhxMoCun8GEh1CzbeU5FJaDc1cdlsSVyayU4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-feature_v2:
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-subfeature_v2:
-  - id: f391046b-0cf3-4e76-bd3b-97fe06654506
-  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
-  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5
+subfeature_v2: id: f391046b-0cf3-4e76-bd3b-97fe06654506id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281id: d7be2b01-dc9c-40f7-aace-a151707504ed
+source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
 workflow-type: tm+mt
-source-wordcount: 2373
-ht-degree: 1%
+source-wordcount: 2399
+ht-degree: 0%
 
 ---
 
@@ -231,7 +224,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >웹 응용 프로그램에서는 다중 선택을 활성화할 수 없습니다.
->그러나 **[!UICONTROL Multiple choice]** 형식 필드를 웹 응용 프로그램에 삽입할 수는 있지만 사용자가 여러 값을 선택할 수는 없습니다.
+>그러나 **[!UICONTROL Multiple choice]** 형식 필드를 웹 응용 프로그램에 삽입할 수는 있지만 이렇게 하면 사용자가 여러 값을 선택할 수 없습니다.
 
 ## 격자 추가 {#adding-grids}
 
@@ -379,7 +372,7 @@ Captcha는 시각적 개체 아래에 입력 필드가 있는 페이지에 삽�
 
 양식 페이지에 업로드 필드를 삽입하려면 페이지 편집기의 도구 모음에서 **[!UICONTROL Advanced controls > File...]** 메뉴를 선택합니다.
 
-기본적으로 업로드된 파일은 **[!UICONTROL Resources > Online > Public resources]** 메뉴를 통해 액세스할 수 있는 리소스 파일에 저장됩니다. 스크립트를 사용하여 이 동작을 변경할 수 있습니다. 이 스크립트는 파일 조작과 관련된 함수를 포함하여 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko)에 정의된 함수를 사용할 수 있습니다.
+기본적으로 업로드된 파일은 **[!UICONTROL Resources > Online > Public resources]** 메뉴를 통해 액세스할 수 있는 리소스 파일에 저장됩니다. 스크립트를 사용하여 이 동작을 변경할 수 있습니다. 이 스크립트는 파일 조작과 관련된 함수를 포함하여 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/en/tools/campaign-api)에 정의된 함수를 사용할 수 있습니다.
 
 이러한 파일에 대한 링크를 로컬 변수 또는 데이터베이스 필드에 저장할 수 있습니다. 예를 들어 수신자 스키마를 확장하여 파일 기반 리소스에 대한 링크를 추가할 수 있습니다.
 

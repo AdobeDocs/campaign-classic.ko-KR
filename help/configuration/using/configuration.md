@@ -6,21 +6,15 @@ description: Campaign 탐색기 탐색 트리를 구성하는 방법 알아보�
 role: Developer
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
 TQID: https://experienceleague.adobe.com/K2bUgEoNSbVfc5hs1O-V36yNrjUFKQEO00-clOYc5u4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: efa38731-2723-4334-8d8b-a778af834835
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: efa38731-2723-4334-8d8b-a778af834835
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
 workflow-type: tm+mt
-source-wordcount: 1212
-ht-degree: 1%
+source-wordcount: 1210
+ht-degree: 0%
 
 ---
 
@@ -28,7 +22,7 @@ ht-degree: 1%
 
 전문가 사용자는 탐색기 트리에 폴더를 추가하고 사용자 정의할 수 있습니다.
 
-[Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}에서 Campaign 사용자 인터페이스에 대해 자세히 알아보세요.
+[Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}에서 Campaign 사용자 인터페이스에 대해 자세히 알아보세요.
 
 탐색 목록에 사용되는 폴더 유형은 **xtk:navtree** 스키마의 문법을 따르는 XML 문서에 설명되어 있습니다.
 
@@ -104,7 +98,7 @@ XML 문서에 문서 이름과 네임스페이스를 지정하는 **name** 및 *
 
 명령 구분 기호를 사용하면 명령 사이에 분리 막대를 표시할 수 있습니다. 명령 레이블에 포함된 **&#39;-&#39;** 값으로 식별됩니다.
 
-입력 매개 변수와 함께 선택적으로 **`<soapcall>`** 태그가 있으면 실행할 SOAP 메서드 호출이 정의됩니다. SOAP API에 대한 자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko)를 참조하세요.
+입력 매개 변수와 함께 선택적으로 **`<soapcall>`** 태그가 있으면 실행할 SOAP 메서드 호출이 정의됩니다. SOAP API에 대한 자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/en/tools/campaign-api)를 참조하세요.
 
 **`<enter>`** 태그에서 초기화 시 양식 컨텍스트를 업데이트할 수 있습니다. 이 태그에 대한 자세한 내용은 입력 양식에 대한 설명서를 참조하십시오.
 
@@ -277,7 +271,7 @@ XML 문서에 문서 이름과 네임스페이스를 지정하는 **name** 및 *
 
 명령 구분 기호를 사용하면 명령 사이에 분리 막대를 표시할 수 있습니다. 명령 레이블에 포함된 **&#39;-&#39;** 값으로 식별됩니다.
 
-입력 매개 변수와 함께 선택적으로 **`<soapcall>`** 태그가 있으면 실행할 SOAP 메서드 호출이 정의됩니다. SOAP API에 대한 자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko)를 참조하세요.
+입력 매개 변수와 함께 선택적으로 **`<soapcall>`** 태그가 있으면 실행할 SOAP 메서드 호출이 정의됩니다. SOAP API에 대한 자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/en/tools/campaign-api)를 참조하세요.
 
 **`<enter>`** 태그를 통해 초기화 시 양식 컨텍스트를 업데이트할 수 있습니다. 이 태그에 대한 자세한 내용은 입력 양식 설명서를 참조하십시오.
 
