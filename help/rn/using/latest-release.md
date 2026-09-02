@@ -7,24 +7,16 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 TQID: https://experienceleague.adobe.com/Xq9y8r6xU-hypq1Eeo9ijaiGng7qqkWVqiCXW5fYx2c
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 feature_v2: []
-subfeature_v2:
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+subfeature_v2: id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: d1e083ac90731e9f55d64156fbd6038df3c4d432
 workflow-type: tm+mt
 source-wordcount: 1017
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +54,7 @@ Adobe는 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업�
 
 #### Adobe Analytics 2.0 업그레이드 {#analytics-2-0-7-4-4}
 
-Adobe Analytics 1.4 API는 수명이 종료됩니다. Adobe Analytics 커넥터를 사용하는 경우 이 빌드로 업그레이드하고 배포 및 사용 사례에 따라 몇 가지 마이그레이션 단계를 완료해야 합니다. [Adobe Analytics 2.0 API로 마이그레이션하는 방법을 알아보세요](../../technotes/using/analytics-2-migration.md).
+Adobe Analytics 1.4 API가 서비스 종료를 앞두고 있습니다. Adobe Analytics 커넥터를 사용하는 경우 이 빌드로 업그레이드하고 배포 및 사용 사례에 따라 몇 가지 마이그레이션 단계를 완료해야 합니다. [Adobe Analytics 2.0 API로 마이그레이션하는 방법을 알아보세요](../../technotes/using/analytics-2-migration.md).
 
 ## 릴리스 7.4.3 {#release-7-4-3}
 
