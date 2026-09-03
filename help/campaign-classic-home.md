@@ -18,10 +18,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7fd7a9e54183b456f06d8030c3d9425f275eabf5
-workflow-type: ht
-source-wordcount: 657
-ht-degree: 100%
+source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
+workflow-type: tm+mt
+source-wordcount: 656
+ht-degree: 99%
 
 ---
 
@@ -121,7 +121,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
       <br/>
-      <strong>개발자 리소스</strong><br/><a href="configuration/using/about-data-model.md">데이터 모델 설명</a> - <a href="configuration/using/about-schema-reference.md">스키마 구조</a> - <a href="configuration/using/editing-forms.md">스키마 구조</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko">JSAPI 참조 설명서</a> - <a href="configuration/using/about-custom-recipient-table.md">사용자 정의 수신자 테이블</a>
+      <strong>개발자 리소스</strong><br/><a href="configuration/using/about-data-model.md">데이터 모델 설명</a> - <a href="configuration/using/about-schema-reference.md">스키마 구조</a> - <a href="configuration/using/editing-forms.md">스키마 구조</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/ko/tools/campaign-api">JSAPI 참조 설명서</a> - <a href="configuration/using/about-custom-recipient-table.md">사용자 정의 수신자 테이블</a>
     </td>
   </tr>
 </table>

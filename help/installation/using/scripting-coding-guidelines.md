@@ -16,10 +16,10 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
 workflow-type: tm+mt
-source-wordcount: 773
-ht-degree: 6%
+source-wordcount: 771
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 6%
 
 ## 스크립팅
 
-자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko)를 참조하세요.
+자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/ko/tools/campaign-api)를 참조하세요.
 
 워크플로우, 웹 애플리케이션, jssp를 사용하여 스크립팅하는 경우 다음 모범 사례를 따르십시오.
 
@@ -66,7 +66,7 @@ SQL 주입을 방지하려면 Adobe Campaign에서 사용할 SQL 함수를 SQL �
 >
 >8140 이전 빌드를 사용하는 경우 **XtkPassUnknownSQLFunactionsToRDBMS** 옵션이 &#39;1&#39;로 설정될 수 있습니다. 데이터베이스를 보호하려면 이 옵션을 삭제하거나 &#39;0&#39;으로 설정합니다.
 
-쿼리 또는 SQL 문에서 필터를 만드는 데 사용자 입력을 사용하는 경우 항상 해당 필터를 이스케이프 처리해야 합니다([Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko) - 데이터 보호: 이스케이프 함수 참조). 이 함수들은 다음과 같습니다.
+쿼리 또는 SQL 문에서 필터를 만드는 데 사용자 입력을 사용하는 경우 항상 해당 필터를 이스케이프 처리해야 합니다([Campaign JSAPI 설명서](https://experienceleague.adobe.com/ko/tools/campaign-api) - 데이터 보호: 이스케이프 함수 참조). 이 함수들은 다음과 같습니다.
 
 * NL.XML.Escape(data)
 * NL.SQL.escape(data)

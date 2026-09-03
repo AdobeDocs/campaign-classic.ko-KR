@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
 workflow-type: tm+mt
-source-wordcount: 665
+source-wordcount: 664
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ Adobe Campaign API는 애플리케이션 내의 JavaScript 및 애플리케이�
 >[!IMPORTANT]
 >
 >하루에 인증된 엔진 호출 수는 라이선스 계약에 따라 다릅니다. 자세한 정보는 이 [페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-classic---product-description.html)를 참조하십시오.\
->전체 설명을 포함한 모든 API 목록은 [이 전용 설명서]&#x200B;(https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko)에서 확인할 수 있습니다.
+>전체 설명을 포함한 모든 API 목록은 [이 전용 설명서]&#x200B;(https://experienceleague.adobe.com/ko/tools/campaign-api)에서 확인할 수 있습니다.
 
 ## 필수 구성 요소 {#prerequisites}
 
@@ -144,10 +144,10 @@ SOAP 메시지 본문의 `<soap-env:fault>` 요소는 웹 서비스를 처리하
 
 * `<faultcode>` : 오류 유형을 나타냅니다. 오류 유형은 다음과 같습니다.
 
-   * 사용된 SOAP 버전과 호환되지 않는 경우 &quot;VersionMismatch&quot;
-   * 메시지 헤더에 문제가 있는 경우 &quot;MustUnderstand&quot;
-   * 클라이언트에서 일부 정보가 누락된 경우 &quot;클라이언트&quot;
-   * 서버에서 처리를 실행하는 데 문제가 있는 경우 &quot;서버&quot;
+  * 사용된 SOAP 버전과 호환되지 않는 경우 &quot;VersionMismatch&quot;
+  * 메시지 헤더에 문제가 있는 경우 &quot;MustUnderstand&quot;
+  * 클라이언트에서 일부 정보가 누락된 경우 &quot;클라이언트&quot;
+  * 서버에서 처리를 실행하는 데 문제가 있는 경우 &quot;서버&quot;
 
 * `<faultstring>` : 오류를 설명하는 메시지
 * `<detail>` : 긴 오류 메시지

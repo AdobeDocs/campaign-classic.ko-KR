@@ -17,10 +17,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
 workflow-type: tm+mt
-source-wordcount: 1212
-ht-degree: 1%
+source-wordcount: 1210
+ht-degree: 0%
 
 ---
 
@@ -104,7 +104,7 @@ XML 문서에 문서 이름과 네임스페이스를 지정하는 **name** 및 *
 
 명령 구분 기호를 사용하면 명령 사이에 분리 막대를 표시할 수 있습니다. 명령 레이블에 포함된 **&#39;-&#39;** 값으로 식별됩니다.
 
-입력 매개 변수와 함께 선택적으로 **`<soapcall>`** 태그가 있으면 실행할 SOAP 메서드 호출이 정의됩니다. SOAP API에 대한 자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko)를 참조하세요.
+입력 매개 변수와 함께 선택적으로 **`<soapcall>`** 태그가 있으면 실행할 SOAP 메서드 호출이 정의됩니다. SOAP API에 대한 자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/ko/tools/campaign-api)를 참조하세요.
 
 **`<enter>`** 태그에서 초기화 시 양식 컨텍스트를 업데이트할 수 있습니다. 이 태그에 대한 자세한 내용은 입력 양식에 대한 설명서를 참조하십시오.
 
@@ -277,7 +277,7 @@ XML 문서에 문서 이름과 네임스페이스를 지정하는 **name** 및 *
 
 명령 구분 기호를 사용하면 명령 사이에 분리 막대를 표시할 수 있습니다. 명령 레이블에 포함된 **&#39;-&#39;** 값으로 식별됩니다.
 
-입력 매개 변수와 함께 선택적으로 **`<soapcall>`** 태그가 있으면 실행할 SOAP 메서드 호출이 정의됩니다. SOAP API에 대한 자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko)를 참조하세요.
+입력 매개 변수와 함께 선택적으로 **`<soapcall>`** 태그가 있으면 실행할 SOAP 메서드 호출이 정의됩니다. SOAP API에 대한 자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/ko/tools/campaign-api)를 참조하세요.
 
 **`<enter>`** 태그를 통해 초기화 시 양식 컨텍스트를 업데이트할 수 있습니다. 이 태그에 대한 자세한 내용은 입력 양식 설명서를 참조하십시오.
 
