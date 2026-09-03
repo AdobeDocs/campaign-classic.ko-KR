@@ -24,9 +24,9 @@ subfeature_v2:
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: e615a6fdd6dc78b2c5e80d6aeb92cd9291ccf5e7
 workflow-type: tm+mt
-source-wordcount: 1981
+source-wordcount: 2051
 ht-degree: 1%
 
 ---
@@ -79,6 +79,10 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >개인정보 보호를 위해 모든 외부 리소스에 HTTPS를 사용하는 것이 좋습니다.
+
+>[!IMPORTANT]
+>
+>릴리스 7.4.4(빌드 9401)에는 외부 URL 허용 목록 업데이트가 포함되어 있습니다. 리소스가 중단 없이 계속 로드되도록 메시지 콘텐츠에 사용된 도메인이 인스턴스의 승인된 허용 목록에 추가되었는지 확인합니다. Campaign 관리자는 Campaign 컨트롤 패널을 사용하여 허용 목록에 추가된 URL을 추가하고 관리합니다. 단계는 [URL 권한 추가](https://experienceleague.adobe.com/ko/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}를 참조하십시오.
 
 메시지 콘텐츠는 게재 구성 창의 아래 섹션에 정의되어 있습니다.
 
@@ -180,7 +184,7 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 
   공개 리소스는 Adobe Campaign 계층 구조의 **[!UICONTROL Resources > Online]** 노드를 통해 액세스할 수 있습니다. 라이브러리로 그룹화되고 이메일 메시지에 포함될 수 있지만, 캠페인이나 작업 또는 컨텐츠 관리에도 사용할 수 있습니다.
 
-* Adobe Experience Cloud과 공유된 에셋. [이 섹션](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md)을 참조하십시오.
+* Adobe Experience Cloud와 공유된 에셋입니다. [이 섹션](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md)을 참조하십시오.
 
 ### 이미지 삽입 및 관리 {#manage-images}
 

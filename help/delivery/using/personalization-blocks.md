@@ -22,10 +22,10 @@ subfeature_v2:
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: e615a6fdd6dc78b2c5e80d6aeb92cd9291ccf5e7
 workflow-type: tm+mt
-source-wordcount: 894
-ht-degree: 3%
+source-wordcount: 988
+ht-degree: 4%
 
 ---
 
@@ -135,6 +135,10 @@ HTML 소스 코드는 게재 콘텐츠에 삽입됩니다. 예를 들어 **[!UIC
 * **[!UICONTROL Offer acceptance URL in unitary mode]** : 상호 작용 오퍼를 **[!UICONTROL Accepted]**(으)로 설정할 수 있는 URL을 삽입합니다([이 섹션](../../interaction/using/offer-analysis-report.md) 참조).
 
 ## 사용자 지정 개인화 블록 정의 {#defining-custom-personalization-blocks}
+
+>[!IMPORTANT]
+>
+>릴리스 7.4.4(빌드 9401)에는 외부 URL 허용 목록 업데이트가 포함되어 있습니다. 사용자 지정 개인화 블록이 외부 URL(예: 외부에 호스팅된 이미지)을 참조하는 경우 리소스가 중단 없이 계속 로드되도록 허용 목록이 인스턴스의 승인된 도메인에 추가되었는지 확인하십시오. Campaign 관리자는 Campaign 컨트롤 패널을 사용하여 허용 목록에 추가된 URL을 추가하고 관리합니다. 단계는 [URL 권한 추가](https://experienceleague.adobe.com/ko/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}를 참조하십시오.
 
 **[!UICONTROL Include...]** 메뉴를 통해 개인화된 필드 아이콘에서 삽입할 새 개인화 필드를 정의할 수 있습니다. 이러한 필드는 개인화 블록에 정의됩니다.
 
