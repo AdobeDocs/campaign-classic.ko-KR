@@ -8,25 +8,14 @@ role: User
 hide: true
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
 TQID: https://experienceleague.adobe.com/NWs-NqNfnkyoj0XJfy5-BvKwJofom-V0iSQJI3-F-38
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: e95a583b-fcfa-4524-8666-46a29c828119
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
+source-git-commit: e615a6fdd6dc78b2c5e80d6aeb92cd9291ccf5e7
 workflow-type: tm+mt
-source-wordcount: 1981
+source-wordcount: 2051
 ht-degree: 1%
 
 ---
@@ -80,6 +69,10 @@ ht-degree: 1%
 >
 >개인정보 보호를 위해 모든 외부 리소스에 HTTPS를 사용하는 것이 좋습니다.
 
+>[!IMPORTANT]
+>
+>릴리스 7.4.4(빌드 9401)에는 외부 URL 허용 목록 업데이트가 포함되어 있습니다. 리소스가 중단 없이 계속 로드되도록 메시지 콘텐츠에 사용된 도메인이 인스턴스의 승인된 허용 목록에 추가되었는지 확인합니다. Campaign 관리자는 Campaign 컨트롤 패널을 사용하여 허용 목록에 추가된 URL을 추가하고 관리합니다. 단계는 [URL 권한 추가](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}를 참조하십시오.
+
 메시지 콘텐츠는 게재 구성 창의 아래 섹션에 정의되어 있습니다.
 
 메시지는 기본적으로 수신자 기본 설정에 따라 HTML 또는 텍스트 형식으로 전송됩니다. 모든 메일 시스템에서 메시지가 올바르게 표시되도록 하려면 두 형식 모두의 콘텐츠를 만드는 것이 좋습니다. 자세한 내용은 [메시지 형식 선택](email-parameters.md#selecting-message-formats)을 참조하세요.
@@ -131,7 +124,7 @@ ht-degree: 1%
 
 Adobe Campaign을 사용하면 특정 조건에서 동적 전자 메일을 전송할 수 있는 새로운 대화형 [AMP for Email](https://amp.dev/about/email/) 형식을 시도할 수 있습니다.
 
-자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html?lang=ko){target="_blank"}를 참조하세요.
+자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html){target="_blank"}를 참조하세요.
 
 ## 콘텐츠 관리 사용 {#using-content-management}
 
@@ -180,7 +173,7 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 
   공개 리소스는 Adobe Campaign 계층 구조의 **[!UICONTROL Resources > Online]** 노드를 통해 액세스할 수 있습니다. 라이브러리로 그룹화되고 이메일 메시지에 포함될 수 있지만, 캠페인이나 작업 또는 컨텐츠 관리에도 사용할 수 있습니다.
 
-* Adobe Experience Cloud과 공유된 에셋. [이 섹션](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md)을 참조하십시오.
+* Adobe Experience Cloud와 공유된 에셋입니다. [이 섹션](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md)을 참조하십시오.
 
 ### 이미지 삽입 및 관리 {#manage-images}
 
