@@ -50,7 +50,7 @@ Adobe는 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업�
 
 이 릴리스에는 게재 콘텐츠 및 첨부 파일에 사용된 외부 URL 허용 목록 업데이트가 포함됩니다. 현재 참조하는 모든 도메인이 인스턴스의 승인된 허용 목록에 추가되었는지 확인합니다.
 
-Campaign 관리자는 Campaign 컨트롤 패널을 사용하여 현재 게재에서 사용되는 외부 URL을 허용 목록에 추가하고 앞으로 진행될 모든 새 외부 URL에 대해 동일한 프로세스를 따릅니다. 영향을 받는 게재에 영향을 주지 않도록 2026년 9월 5일까지 이 활동을 완료하십시오. 단계는 [URL 권한 추가](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}를 참조하십시오.
+Campaign 관리자는 Campaign 컨트롤 패널을 사용하여 현재 게재에서 사용되는 외부 URL을 허용 목록에 추가하고 앞으로 진행될 모든 새 외부 URL에 대해 동일한 프로세스를 따릅니다. 영향을 받는 게재에 영향을 주지 않도록 2026년 9월 5일까지 이 활동을 완료하십시오. 단계는 [URL 권한 추가](https://experienceleague.adobe.com/ko/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}를 참조하십시오.
 
 ### 빌드 9400 {#build-9400}
 

@@ -138,7 +138,7 @@ HTML 소스 코드는 게재 콘텐츠에 삽입됩니다. 예를 들어 **[!UIC
 
 >[!IMPORTANT]
 >
->릴리스 7.4.4(빌드 9401)에는 외부 URL 허용 목록 업데이트가 포함되어 있습니다. 사용자 지정 개인화 블록이 외부 URL(예: 외부에 호스팅된 이미지)을 참조하는 경우 리소스가 중단 없이 계속 로드되도록 허용 목록이 인스턴스의 승인된 도메인에 추가되었는지 확인하십시오. Campaign 관리자는 Campaign 컨트롤 패널을 사용하여 허용 목록에 추가된 URL을 추가하고 관리합니다. 단계는 [URL 권한 추가](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}를 참조하십시오.
+>릴리스 7.4.4(빌드 9401)에는 외부 URL 허용 목록 업데이트가 포함되어 있습니다. 사용자 지정 개인화 블록이 외부 URL(예: 외부에 호스팅된 이미지)을 참조하는 경우 리소스가 중단 없이 계속 로드되도록 허용 목록이 인스턴스의 승인된 도메인에 추가되었는지 확인하십시오. Campaign 관리자는 Campaign 컨트롤 패널을 사용하여 허용 목록에 추가된 URL을 추가하고 관리합니다. 단계는 [URL 권한 추가](https://experienceleague.adobe.com/ko/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}를 참조하십시오.
 
 **[!UICONTROL Include...]** 메뉴를 통해 개인화된 필드 아이콘에서 삽입할 새 개인화 필드를 정의할 수 있습니다. 이러한 필드는 개인화 블록에 정의됩니다.
 

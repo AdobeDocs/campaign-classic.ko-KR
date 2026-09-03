@@ -40,7 +40,7 @@ Adobe Campaign을 사용하면 LibreOffice 또는 Microsoft Word 문서의 이�
 
 문서를 개인화하기 위해 이메일 개인화와 동일한 JavaScript 기능을 사용할 수 있습니다.
 
-**[!UICONTROL "The content of the file is personalized and converted to PDF during the delivery of each message"]** 옵션을 활성화합니다. 이 옵션은 게재 이메일에 파일을 첨부할 때 액세스할 수 있습니다. 계산된 파일을 첨부하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html){target="_blank"}를 참조하세요.
+**[!UICONTROL "The content of the file is personalized and converted to PDF during the delivery of each message"]** 옵션을 활성화합니다. 이 옵션은 게재 이메일에 파일을 첨부할 때 액세스할 수 있습니다. 계산된 파일을 첨부하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html?lang=ko){target="_blank"}를 참조하세요.
 
 송장 헤더 개인화의 예:
 
@@ -66,7 +66,7 @@ Adobe Campaign을 사용하면 LibreOffice 또는 Microsoft Word 문서의 이�
 
 >[!IMPORTANT]
 >
->릴리스 7.4.4(빌드 9401)에는 외부 URL 허용 목록 업데이트가 포함되어 있습니다. 첨부 파일에서 외부 이미지에 사용된 도메인이 인스턴스의 승인된 허용 목록에 추가되어 리소스가 중단 없이 계속 로드되는지 확인하십시오. Campaign 관리자는 Campaign 컨트롤 패널을 사용하여 허용 목록에 추가된 URL을 추가하고 관리합니다. 단계는 [URL 권한 추가](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}를 참조하십시오.
+>릴리스 7.4.4(빌드 9401)에는 외부 URL 허용 목록 업데이트가 포함되어 있습니다. 첨부 파일에서 외부 이미지에 사용된 도메인이 인스턴스의 승인된 허용 목록에 추가되어 리소스가 중단 없이 계속 로드되는지 확인하십시오. Campaign 관리자는 Campaign 컨트롤 패널을 사용하여 허용 목록에 추가된 URL을 추가하고 관리합니다. 단계는 [URL 권한 추가](https://experienceleague.adobe.com/ko/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}를 참조하십시오.
 
 외부 이미지 삽입은 예를 들어 수신자의 필드에 URL을 입력하는 이미지로 문서를 개인화하려는 경우에 유용합니다.
 

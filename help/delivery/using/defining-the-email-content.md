@@ -82,7 +82,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->릴리스 7.4.4(빌드 9401)에는 외부 URL 허용 목록 업데이트가 포함되어 있습니다. 리소스가 중단 없이 계속 로드되도록 메시지 콘텐츠에 사용된 도메인이 인스턴스의 승인된 허용 목록에 추가되었는지 확인합니다. Campaign 관리자는 Campaign 컨트롤 패널을 사용하여 허용 목록에 추가된 URL을 추가하고 관리합니다. 단계는 [URL 권한 추가](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}를 참조하십시오.
+>릴리스 7.4.4(빌드 9401)에는 외부 URL 허용 목록 업데이트가 포함되어 있습니다. 리소스가 중단 없이 계속 로드되도록 메시지 콘텐츠에 사용된 도메인이 인스턴스의 승인된 허용 목록에 추가되었는지 확인합니다. Campaign 관리자는 Campaign 컨트롤 패널을 사용하여 허용 목록에 추가된 URL을 추가하고 관리합니다. 단계는 [URL 권한 추가](https://experienceleague.adobe.com/ko/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}를 참조하십시오.
 
 메시지 콘텐츠는 게재 구성 창의 아래 섹션에 정의되어 있습니다.
 
@@ -135,7 +135,7 @@ ht-degree: 1%
 
 Adobe Campaign을 사용하면 특정 조건에서 동적 전자 메일을 전송할 수 있는 새로운 대화형 [AMP for Email](https://amp.dev/about/email/) 형식을 시도할 수 있습니다.
 
-자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html){target="_blank"}를 참조하세요.
+자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html?lang=ko){target="_blank"}를 참조하세요.
 
 ## 콘텐츠 관리 사용 {#using-content-management}
 
