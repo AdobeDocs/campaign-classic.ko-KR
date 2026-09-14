@@ -103,8 +103,8 @@
 <target xml:lang="en-XX">빌드 9401</target>
 </trans-unit>
 <trans-unit id="tu7" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE </ph>General Availability<ph id="2" ctype="x-BADGE">]{type=Positive url="[#$tu8]" tooltip="[#$tu9]"}</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE </ph>일반 가용성<ph id="2" ctype="x-BADGE">]{type=Positive url="[#$tu8]" tooltip="[#$tu9]"}</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>General Availability<ph id="2" ctype="x-">]{type=Positive url="[#$tu8]" tooltip="[#$tu9]"}</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>일반 가용성<ph id="2" ctype="x-">]{type=Positive url="[#$tu8]" tooltip="[#$tu9]"}</ph></target>
 </trans-unit>
 <trans-unit id="tu10" xml:space="preserve">
 <source xml:lang="en-US"><ph id="1" ctype="x-EMPHASIS">_</ph>August 25, 2026<ph id="2" ctype="x-EMPHASIS">_</ph></source>
@@ -115,8 +115,8 @@
 <target xml:lang="en-XX">보안 개선 사항</target>
 </trans-unit>
 <trans-unit id="tu12" xml:space="preserve">
-<source xml:lang="en-US">Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers on on-premise and hybrid deployments to install the updates as soon as possible. Adobe-hosted instances have already been remediated and require no customer action. You can find more information in the <ph id="1" ctype="x-LINK">[</ph>security bulletin<ph id="2" ctype="x-LINK">[#$tu13]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">Adobe는 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업데이트를 릴리스했습니다. 온프레미스 및 하이브리드 배포 모드의 고객은 업데이트를 가능한 한 빨리 설치하는 것이 좋습니다. Adobe 호스팅 인스턴스는 이미 수정되었으며 고객 조치가 필요하지 않습니다. 자세한 내용은 <ph id="1" ctype="x-LINK">[</ph>보안 공지<ph id="2" ctype="x-LINK">[#$tu13]{target="_blank"}</ph>에서 확인할 수 있습니다.</target>
+<source xml:lang="en-US">Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers on on-premise and hybrid deployments to install the updates as soon as possible. Adobe-hosted instances have already been remediated and require no customer action. You can find more information in the <ph id="1" ctype="x-LINK">&lbrack;</ph>security bulletin<ph id="2" ctype="x-LINK">[#$tu13]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">Adobe는 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업데이트를 릴리스했습니다. 온프레미스 및 하이브리드 배포 모드의 고객은 업데이트를 가능한 한 빨리 설치하는 것이 좋습니다. Adobe 호스팅 인스턴스는 이미 수정되었으며 고객 조치가 필요하지 않습니다. 자세한 내용은 <ph id="1" ctype="x-LINK">&lbrack;</ph>보안 공지<ph id="2" ctype="x-LINK">[#$tu13]{target="_blank"}</ph>에서 확인할 수 있습니다.</target>
 </trans-unit>
 <trans-unit id="tu14" xml:space="preserve">
 <source xml:lang="en-US">A restart of the Adobe Campaign server (nlserver) is required to load the build and complete deployment. The fix is active by default once restarted.</source>
@@ -131,16 +131,16 @@
 <target xml:lang="en-XX">이 릴리스에는 게재 콘텐츠 및 첨부 파일에 사용되는 외부 URL 허용 목록에 대한 업데이트가 포함되어 있습니다. 현재 참조하는 모든 도메인이 인스턴스의 승인된 허용 목록에 추가되어 있는지 확인하세요.</target>
 </trans-unit>
 <trans-unit id="tu17" xml:space="preserve">
-<source xml:lang="en-US">As a Campaign Administrator, use the Control Panel to add external URLs currently used in your deliveries to the allow list, and follow the same process for any new external URL going forward. Complete this activity by 5 September 2026 to avoid impact to affected deliveries. See <ph id="1" ctype="x-LINK">[</ph>Add URL permissions<ph id="2" ctype="x-LINK">[#$tu18]{target="_blank"}</ph> for steps.</source>
-<target xml:lang="en-XX">캠페인 관리자는 컨트롤 패널을 사용하여 현재 게재에 사용되는 외부 URL을 허용 목록에 추가하세요. 향후 모든 새 외부 URL에도 동일한 프로세스를 적용하세요. 영향을 받는 게재에 영향을 주지 않도록 2026년 9월 5일까지 이 활동을 완료하세요. 단계는 <ph id="1" ctype="x-LINK">[</ph>URL 권한 추가<ph id="2" ctype="x-LINK">[#$tu18]{target="_blank"}</ph>를 참조하세요.</target>
+<source xml:lang="en-US">As a Campaign Administrator, use the Control Panel to add external URLs currently used in your deliveries to the allow list, and follow the same process for any new external URL going forward. Complete this activity by 5 September 2026 to avoid impact to affected deliveries. See <ph id="1" ctype="x-LINK">&lbrack;</ph>Add URL permissions<ph id="2" ctype="x-LINK">[#$tu18]{target="_blank"}</ph> for steps.</source>
+<target xml:lang="en-XX">캠페인 관리자는 컨트롤 패널을 사용하여 현재 게재에 사용되는 외부 URL을 허용 목록에 추가하세요. 향후 모든 새 외부 URL에도 동일한 프로세스를 적용하세요. 영향을 받는 게재에 영향을 주지 않도록 2026년 9월 5일까지 이 활동을 완료하세요. 단계는 <ph id="1" ctype="x-LINK">&lbrack;</ph>URL 권한 추가<ph id="2" ctype="x-LINK">[#$tu18]{target="_blank"}</ph>를 참조하세요.</target>
 </trans-unit>
 <trans-unit id="tu19" xml:space="preserve">
 <source xml:lang="en-US">Build 9400</source>
 <target xml:lang="en-XX">빌드 9400</target>
 </trans-unit>
 <trans-unit id="tu20" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE </ph>Deprecated<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu21]" tooltip="[#$tu22]"}</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE </ph>사용되지 않음<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu21]" tooltip="[#$tu22]"}</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>Deprecated<ph id="2" ctype="x-">]{type=negative url="[#$tu21]" tooltip="[#$tu22]"}</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>사용되지 않음<ph id="2" ctype="x-">]{type=negative url="[#$tu21]" tooltip="[#$tu22]"}</ph></target>
 </trans-unit>
 <trans-unit id="tu23" xml:space="preserve">
 <source xml:lang="en-US"><ph id="1" ctype="x-EMPHASIS">_</ph>August 11, 2026<ph id="2" ctype="x-EMPHASIS">_</ph></source>
@@ -155,8 +155,8 @@
 <target xml:lang="en-XX">보안 개선 사항</target>
 </trans-unit>
 <trans-unit id="tu26" xml:space="preserve">
-<source xml:lang="en-US">Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers on on-premise and hybrid deployments to install the updates as soon as possible. Adobe-hosted instances have already been remediated and require no customer action. You can find more information in the <ph id="1" ctype="x-LINK">[</ph>security bulletin<ph id="2" ctype="x-LINK">[#$tu27]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">Adobe는 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업데이트를 릴리스했습니다. 온프레미스 및 하이브리드 배포 모드의 고객은 업데이트를 가능한 한 빨리 설치하는 것이 좋습니다. Adobe 호스팅 인스턴스는 이미 수정되었으며 고객 조치가 필요하지 않습니다. 자세한 내용은 <ph id="1" ctype="x-LINK">[</ph>보안 공지<ph id="2" ctype="x-LINK">[#$tu27]{target="_blank"}</ph>에서 확인할 수 있습니다.</target>
+<source xml:lang="en-US">Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers on on-premise and hybrid deployments to install the updates as soon as possible. Adobe-hosted instances have already been remediated and require no customer action. You can find more information in the <ph id="1" ctype="x-LINK">&lbrack;</ph>security bulletin<ph id="2" ctype="x-LINK">[#$tu27]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">Adobe는 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업데이트를 릴리스했습니다. 온프레미스 및 하이브리드 배포 모드의 고객은 업데이트를 가능한 한 빨리 설치하는 것이 좋습니다. Adobe 호스팅 인스턴스는 이미 수정되었으며 고객 조치가 필요하지 않습니다. 자세한 내용은 <ph id="1" ctype="x-LINK">&lbrack;</ph>보안 공지<ph id="2" ctype="x-LINK">[#$tu27]{target="_blank"}</ph>에서 확인할 수 있습니다.</target>
 </trans-unit>
 <trans-unit id="tu28" xml:space="preserve">
 <source xml:lang="en-US">A restart of the Adobe Campaign server (nlserver) is required to load the build and complete deployment. The fix is active by default once restarted.</source>
@@ -179,8 +179,8 @@
 <target xml:lang="en-XX">빌드 9399</target>
 </trans-unit>
 <trans-unit id="tu33" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE </ph>Deprecated<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu34]" tooltip="[#$tu35]"}</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE </ph>사용되지 않음<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu34]" tooltip="[#$tu35]"}</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>Deprecated<ph id="2" ctype="x-">]{type=negative url="[#$tu34]" tooltip="[#$tu35]"}</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>사용되지 않음<ph id="2" ctype="x-">]{type=negative url="[#$tu34]" tooltip="[#$tu35]"}</ph></target>
 </trans-unit>
 <trans-unit id="tu36" xml:space="preserve">
 <source xml:lang="en-US"><ph id="1" ctype="x-EMPHASIS">_</ph>August 3, 2026<ph id="2" ctype="x-EMPHASIS">_</ph></source>
@@ -191,8 +191,8 @@
 <target xml:lang="en-XX">보안 개선 사항</target>
 </trans-unit>
 <trans-unit id="tu38" xml:space="preserve">
-<source xml:lang="en-US">Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers on on-premise and hybrid deployments to install the updates as soon as possible. Adobe-hosted instances have already been remediated and require no customer action. You can find more information in the <ph id="1" ctype="x-LINK">[</ph>security bulletin<ph id="2" ctype="x-LINK">[#$tu39]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">Adobe는 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업데이트를 릴리스했습니다. 온프레미스 및 하이브리드 배포 모드의 고객은 업데이트를 가능한 한 빨리 설치하는 것이 좋습니다. Adobe 호스팅 인스턴스는 이미 수정되었으며 고객 조치가 필요하지 않습니다. 자세한 내용은 <ph id="1" ctype="x-LINK">[</ph>보안 공지<ph id="2" ctype="x-LINK">[#$tu39]{target="_blank"}</ph>에서 확인할 수 있습니다.</target>
+<source xml:lang="en-US">Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers on on-premise and hybrid deployments to install the updates as soon as possible. Adobe-hosted instances have already been remediated and require no customer action. You can find more information in the <ph id="1" ctype="x-LINK">&lbrack;</ph>security bulletin<ph id="2" ctype="x-LINK">[#$tu39]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">Adobe는 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업데이트를 릴리스했습니다. 온프레미스 및 하이브리드 배포 모드의 고객은 업데이트를 가능한 한 빨리 설치하는 것이 좋습니다. Adobe 호스팅 인스턴스는 이미 수정되었으며 고객 조치가 필요하지 않습니다. 자세한 내용은 <ph id="1" ctype="x-LINK">&lbrack;</ph>보안 공지<ph id="2" ctype="x-LINK">[#$tu39]{target="_blank"}</ph>에서 확인할 수 있습니다.</target>
 </trans-unit>
 <trans-unit id="tu40" xml:space="preserve">
 <source xml:lang="en-US">A <ph id="1" ctype="x-LINK">[</ph>restart of the Adobe Campaign server (nlserver)<ph id="2" ctype="x-LINK">](../../production/using/usual-commands.md#restart-services)</ph> is required to load the build and complete deployment. The fix is active by default once restarted.</source>
@@ -203,8 +203,8 @@
 <target xml:lang="en-XX">빌드 9398</target>
 </trans-unit>
 <trans-unit id="tu42" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE </ph>Deprecated<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu43]" tooltip="[#$tu44]"}</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE </ph>사용되지 않음<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu43]" tooltip="[#$tu44]"}</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>Deprecated<ph id="2" ctype="x-">]{type=negative url="[#$tu43]" tooltip="[#$tu44]"}</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>사용되지 않음<ph id="2" ctype="x-">]{type=negative url="[#$tu43]" tooltip="[#$tu44]"}</ph></target>
 </trans-unit>
 <trans-unit id="tu45" xml:space="preserve">
 <source xml:lang="en-US"><ph id="1" ctype="x-EMPHASIS">_</ph>July 29, 2026<ph id="2" ctype="x-EMPHASIS">_</ph></source>
@@ -215,8 +215,8 @@
 <target xml:lang="en-XX">보안 개선 사항</target>
 </trans-unit>
 <trans-unit id="tu47" xml:space="preserve">
-<source xml:lang="en-US">Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers on on-premise and hybrid deployments to install the updates as soon as possible. Adobe-hosted instances have already been remediated and require no customer action. You can find more information in the <ph id="1" ctype="x-LINK">[</ph>security bulletin<ph id="2" ctype="x-LINK">[#$tu48]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">Adobe는 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업데이트를 릴리스했습니다. 온프레미스 및 하이브리드 배포 모드의 고객은 업데이트를 가능한 한 빨리 설치하는 것이 좋습니다. Adobe 호스팅 인스턴스는 이미 수정되었으며 고객 조치가 필요하지 않습니다. 자세한 내용은 <ph id="1" ctype="x-LINK">[</ph>보안 공지<ph id="2" ctype="x-LINK">[#$tu48]{target="_blank"}</ph>에서 확인할 수 있습니다.</target>
+<source xml:lang="en-US">Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers on on-premise and hybrid deployments to install the updates as soon as possible. Adobe-hosted instances have already been remediated and require no customer action. You can find more information in the <ph id="1" ctype="x-LINK">&lbrack;</ph>security bulletin<ph id="2" ctype="x-LINK">[#$tu48]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">Adobe는 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업데이트를 릴리스했습니다. 온프레미스 및 하이브리드 배포 모드의 고객은 업데이트를 가능한 한 빨리 설치하는 것이 좋습니다. Adobe 호스팅 인스턴스는 이미 수정되었으며 고객 조치가 필요하지 않습니다. 자세한 내용은 <ph id="1" ctype="x-LINK">&lbrack;</ph>보안 공지<ph id="2" ctype="x-LINK">[#$tu48]{target="_blank"}</ph>에서 확인할 수 있습니다.</target>
 </trans-unit>
 <trans-unit id="tu49" xml:space="preserve">
 <source xml:lang="en-US">A <ph id="1" ctype="x-LINK">[</ph>restart of the Adobe Campaign server (nlserver)<ph id="2" ctype="x-LINK">](../../production/using/usual-commands.md#restart-services)</ph> is required to load the build and complete deployment. The fix is active by default once restarted.</source>
@@ -227,8 +227,8 @@
 <target xml:lang="en-XX">빌드 9397</target>
 </trans-unit>
 <trans-unit id="tu51" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE </ph>Deprecated<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu52]" tooltip="[#$tu53]"}</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE </ph>사용되지 않음<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu52]" tooltip="[#$tu53]"}</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>Deprecated<ph id="2" ctype="x-">]{type=negative url="[#$tu52]" tooltip="[#$tu53]"}</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>사용되지 않음<ph id="2" ctype="x-">]{type=negative url="[#$tu52]" tooltip="[#$tu53]"}</ph></target>
 </trans-unit>
 <trans-unit id="tu54" xml:space="preserve">
 <source xml:lang="en-US"><ph id="1" ctype="x-EMPHASIS">_</ph>June 30, 2026<ph id="2" ctype="x-EMPHASIS">_</ph></source>
@@ -267,8 +267,8 @@
 <target xml:lang="en-XX">빌드 9396</target>
 </trans-unit>
 <trans-unit id="tu63" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE </ph>Deprecated<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu64]" tooltip="[#$tu65]"}</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE </ph>사용 중단됨<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu64]" tooltip="[#$tu65]"}</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>Deprecated<ph id="2" ctype="x-">]{type=negative url="[#$tu64]" tooltip="[#$tu65]"}</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>사용 중단됨<ph id="2" ctype="x-">]{type=negative url="[#$tu64]" tooltip="[#$tu65]"}</ph></target>
 </trans-unit>
 <trans-unit id="tu66" xml:space="preserve">
 <source xml:lang="en-US"><ph id="1" ctype="x-EMPHASIS">_</ph>June 9, 2026<ph id="2" ctype="x-EMPHASIS">_</ph></source>
@@ -283,12 +283,12 @@
 <target xml:lang="en-XX">빌드 9394</target>
 </trans-unit>
 <trans-unit id="tu69" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE </ph>Deprecated<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu70]" tooltip="[#$tu71]"}</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE </ph>사용 중단됨<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu70]" tooltip="[#$tu71]"}</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>Deprecated<ph id="2" ctype="x-">]{type=negative url="[#$tu70]" tooltip="[#$tu71]"}</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>사용 중단됨<ph id="2" ctype="x-">]{type=negative url="[#$tu70]" tooltip="[#$tu71]"}</ph></target>
 </trans-unit>
 <trans-unit id="tu72" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!CAUTION">[!CAUTION]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!CAUTION">[!CAUTION]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!CAUTION">[!CAUTION]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!CAUTION">[!CAUTION]</ph></target>
 </trans-unit>
 <trans-unit id="tu73" xml:space="preserve">
 <source xml:lang="en-US">Client Console upgrade is mandatory.</source>
@@ -311,8 +311,8 @@
 <target xml:lang="en-XX">해결 사항</target>
 </trans-unit>
 <trans-unit id="tu78" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu79" xml:space="preserve">
 <source xml:lang="en-US">Fixes listed below have been progressively rolled out across successive 7.4.3 builds. Navigate to the <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL Help > About...]**</ph> <ph id="4" ctype="x-LINK">[</ph>menu<ph id="5" ctype="x-LINK">](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)</ph> to check that you have the latest 9394@28aaec9 build. Contact your Adobe representative for more information.</source>

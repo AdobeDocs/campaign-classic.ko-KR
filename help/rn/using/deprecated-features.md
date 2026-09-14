@@ -75,9 +75,9 @@
 <target xml:lang="en-XX">이 프로세스를 통해 고객은 실제 제거하기 전에 새로운 버전이나 사용 중단되는 기능의 후속 버전에 맞게 구현을 조정할 수 있는 릴리스 주기를 적어도 하나 이상 확보할 수 있습니다.</target>
 </trans-unit>
 <trans-unit id="tu9" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph>
 </source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph>
 </target>
 </trans-unit>
 <trans-unit id="tu10" xml:space="preserve">
@@ -395,8 +395,8 @@
 <target xml:lang="en-XX">호환성 종료</target>
 </trans-unit>
 <trans-unit id="tu18" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!CAUTION">[!CAUTION]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!CAUTION">[!CAUTION]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!CAUTION">[!CAUTION]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!CAUTION">[!CAUTION]</ph></target>
 </trans-unit>
 <trans-unit id="tu19" xml:space="preserve">
 <source xml:lang="en-US">Adobe Campaign Classic is compatible with all the systems and tools listed in the <ph id="1" ctype="x-LINK">[</ph>Compatibility matrix<ph id="2" ctype="x-LINK">](../../rn/using/compatibility-matrix.md)</ph>. When specific versions of these 3rd party systems and tools reach end-of-life (EOL) with their respective creators, Adobe Campaign is no longer compatible with those versions: they are announced as deprecated, and then are removed from our compatibility matrix in the subsequent product release. Please ensure you are on supported versions of any systems listed in the compatibility matrix to avoid any issues.</source>
@@ -419,9 +419,9 @@
 <target xml:lang="en-XX">Windows 7, XP, Vista</target>
 </trans-unit>
 <trans-unit id="tu24" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph>
 </source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph>
 </target>
 </trans-unit>
 <trans-unit id="tu25" xml:space="preserve">
@@ -441,8 +441,8 @@
 <target xml:lang="en-XX">7.3.1 릴리스부터 Adobe Campaign은 더 이상 Windows 8 및 Windows Server 2012와 호환되지 않습니다.</target>
 </trans-unit>
 <trans-unit id="tu29" xml:space="preserve">
-<source xml:lang="en-US">Starting 22.1 release, Adobe Campaign is no longer compatible with CentOs 8.x (64 bits). CentOS Linux 8 reached End Of Life (EOL) on December 31st, 2021. <ph id="1" ctype="x-LINK">[</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu30]</ph>.</source>
-<target xml:lang="en-XX">22.1 릴리스부터 Adobe Campaign은 더 이상 CentOs 8.x(64비트)와 호환되지 않습니다. CentOS Linux 8은 2021년 12월 31일부로 EOL(수명 종료) 처리되었습니다. <ph id="1" ctype="x-LINK">[</ph>자세히 알아보기<ph id="2" ctype="x-LINK">[#$tu30]</ph></target>
+<source xml:lang="en-US">Starting 22.1 release, Adobe Campaign is no longer compatible with CentOs 8.x (64 bits). CentOS Linux 8 reached End Of Life (EOL) on December 31st, 2021. <ph id="1" ctype="x-LINK">&lbrack;</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu30]</ph>.</source>
+<target xml:lang="en-XX">22.1 릴리스부터 Adobe Campaign은 더 이상 CentOs 8.x(64비트)와 호환되지 않습니다. CentOS Linux 8은 2021년 12월 31일부로 EOL(수명 종료) 처리되었습니다. <ph id="1" ctype="x-LINK">&lbrack;</ph>자세히 알아보기<ph id="2" ctype="x-LINK">[#$tu30]</ph></target>
 </trans-unit>
 <trans-unit id="tu31" xml:space="preserve">
 <source xml:lang="en-US">If you were using this operating system, adapt your implementation accordingly. CentOS 7.x (64 bits) and RHEL 8.x/7.x (64 bits) are still supported.</source>
@@ -457,24 +457,24 @@
 <target xml:lang="en-XX">19.1 릴리스부터 Adobe Campaign은 더 이상 다음 운영 체제와 호환되지 않습니다.</target>
 </trans-unit>
 <trans-unit id="tu34" xml:space="preserve">
-<source xml:lang="en-US">CentOS 6. <ph id="1" ctype="x-LINK">[</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu35]</ph></source>
-<target xml:lang="en-XX">CentOS 6. <ph id="1" ctype="x-LINK">[</ph>자세히 알아보기<ph id="2" ctype="x-LINK">[#$tu35]</ph></target>
+<source xml:lang="en-US">CentOS 6. <ph id="1" ctype="x-LINK">&lbrack;</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu35]</ph></source>
+<target xml:lang="en-XX">CentOS 6. <ph id="1" ctype="x-LINK">&lbrack;</ph>자세히 알아보기<ph id="2" ctype="x-LINK">[#$tu35]</ph></target>
 </trans-unit>
 <trans-unit id="tu36" xml:space="preserve">
-<source xml:lang="en-US">Debian 7. <ph id="1" ctype="x-LINK">[</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu37]</ph></source>
-<target xml:lang="en-XX">Debian 7. <ph id="1" ctype="x-LINK">[</ph>자세히 알아보기<ph id="2" ctype="x-LINK">[#$tu37]</ph></target>
+<source xml:lang="en-US">Debian 7. <ph id="1" ctype="x-LINK">&lbrack;</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu37]</ph></source>
+<target xml:lang="en-XX">Debian 7. <ph id="1" ctype="x-LINK">&lbrack;</ph>자세히 알아보기<ph id="2" ctype="x-LINK">[#$tu37]</ph></target>
 </trans-unit>
 <trans-unit id="tu38" xml:space="preserve">
-<source xml:lang="en-US">RHEL 6.x. <ph id="1" ctype="x-LINK">[</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu39]</ph></source>
-<target xml:lang="en-XX">RHEL 6.x. <ph id="1" ctype="x-LINK">[</ph>자세히 알아보기<ph id="2" ctype="x-LINK">[#$tu39]</ph></target>
+<source xml:lang="en-US">RHEL 6.x. <ph id="1" ctype="x-LINK">&lbrack;</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu39]</ph></source>
+<target xml:lang="en-XX">RHEL 6.x. <ph id="1" ctype="x-LINK">&lbrack;</ph>자세히 알아보기<ph id="2" ctype="x-LINK">[#$tu39]</ph></target>
 </trans-unit>
 <trans-unit id="tu40" xml:space="preserve">
-<source xml:lang="en-US">Windows Server 2008. <ph id="1" ctype="x-LINK">[</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu41]</ph></source>
-<target xml:lang="en-XX">Windows Server 2008. <ph id="1" ctype="x-LINK">[</ph>자세히 알아보기<ph id="2" ctype="x-LINK">[#$tu41]</ph></target>
+<source xml:lang="en-US">Windows Server 2008. <ph id="1" ctype="x-LINK">&lbrack;</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu41]</ph></source>
+<target xml:lang="en-XX">Windows Server 2008. <ph id="1" ctype="x-LINK">&lbrack;</ph>자세히 알아보기<ph id="2" ctype="x-LINK">[#$tu41]</ph></target>
 </trans-unit>
 <trans-unit id="tu42" xml:space="preserve">
-<source xml:lang="en-US">SLES 11. <ph id="1" ctype="x-LINK">[</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu43]</ph></source>
-<target xml:lang="en-XX">SLES 11. <ph id="1" ctype="x-LINK">[</ph>자세히 알아보기<ph id="2" ctype="x-LINK">[#$tu43]</ph></target>
+<source xml:lang="en-US">SLES 11. <ph id="1" ctype="x-LINK">&lbrack;</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu43]</ph></source>
+<target xml:lang="en-XX">SLES 11. <ph id="1" ctype="x-LINK">&lbrack;</ph>자세히 알아보기<ph id="2" ctype="x-LINK">[#$tu43]</ph></target>
 </trans-unit>
 <trans-unit id="tu44" xml:space="preserve">
 <source xml:lang="en-US">Web servers</source>
@@ -485,12 +485,12 @@
 <target xml:lang="en-XX">19.1 봄 릴리스부터 Adobe Campaign은 더 이상 다음 웹 서버와 호환되지 않습니다.</target>
 </trans-unit>
 <trans-unit id="tu46" xml:space="preserve">
-<source xml:lang="en-US">Apache 2.2. <ph id="1" ctype="x-LINK">[</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu47]</ph></source>
-<target xml:lang="en-XX">Apache 2.2. <ph id="1" ctype="x-LINK">[</ph>자세히 알아보기<ph id="2" ctype="x-LINK">[#$tu47]</ph></target>
+<source xml:lang="en-US">Apache 2.2. <ph id="1" ctype="x-LINK">&lbrack;</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu47]</ph></source>
+<target xml:lang="en-XX">Apache 2.2. <ph id="1" ctype="x-LINK">&lbrack;</ph>자세히 알아보기<ph id="2" ctype="x-LINK">[#$tu47]</ph></target>
 </trans-unit>
 <trans-unit id="tu48" xml:space="preserve">
-<source xml:lang="en-US">Microsoft IIS 7. <ph id="1" ctype="x-LINK">[</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu49]</ph></source>
-<target xml:lang="en-XX">Microsoft IIS 7. <ph id="1" ctype="x-LINK">[</ph>자세히 알아보기<ph id="2" ctype="x-LINK">[#$tu49]</ph></target>
+<source xml:lang="en-US">Microsoft IIS 7. <ph id="1" ctype="x-LINK">&lbrack;</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu49]</ph></source>
+<target xml:lang="en-XX">Microsoft IIS 7. <ph id="1" ctype="x-LINK">&lbrack;</ph>자세히 알아보기<ph id="2" ctype="x-LINK">[#$tu49]</ph></target>
 </trans-unit>
 <trans-unit id="tu50" xml:space="preserve">
 <source xml:lang="en-US">Tools</source>
@@ -501,12 +501,12 @@
 <target xml:lang="en-XX">19.1 봄 릴리스부터 Adobe Campaign은 더 이상 다음 도구와 호환되지 않습니다.</target>
 </trans-unit>
 <trans-unit id="tu52" xml:space="preserve">
-<source xml:lang="en-US">Java JDK 7. <ph id="1" ctype="x-LINK">[</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu53]</ph></source>
-<target xml:lang="en-XX">Java JDK 7. <ph id="1" ctype="x-LINK">[</ph>자세히 알아보기<ph id="2" ctype="x-LINK">[#$tu53]</ph></target>
+<source xml:lang="en-US">Java JDK 7. <ph id="1" ctype="x-LINK">&lbrack;</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu53]</ph></source>
+<target xml:lang="en-XX">Java JDK 7. <ph id="1" ctype="x-LINK">&lbrack;</ph>자세히 알아보기<ph id="2" ctype="x-LINK">[#$tu53]</ph></target>
 </trans-unit>
 <trans-unit id="tu54" xml:space="preserve">
-<source xml:lang="en-US">Libre Office 3.5 / 4.3 / 5.x, except when embedded in another tool. <ph id="1" ctype="x-LINK">[</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu55]</ph></source>
-<target xml:lang="en-XX">Libre Office 3.5/4.3/5.x(다른 도구에 임베딩된 경우 제외) <ph id="1" ctype="x-LINK">[</ph>자세히 알아보기<ph id="2" ctype="x-LINK">[#$tu55]</ph></target>
+<source xml:lang="en-US">Libre Office 3.5 / 4.3 / 5.x, except when embedded in another tool. <ph id="1" ctype="x-LINK">&lbrack;</ph>Learn more<ph id="2" ctype="x-LINK">[#$tu55]</ph></source>
+<target xml:lang="en-XX">Libre Office 3.5/4.3/5.x(다른 도구에 임베딩된 경우 제외) <ph id="1" ctype="x-LINK">&lbrack;</ph>자세히 알아보기<ph id="2" ctype="x-LINK">[#$tu55]</ph></target>
 </trans-unit>
 <trans-unit id="tu56" xml:space="preserve">
 <source xml:lang="en-US">Database engines</source>
