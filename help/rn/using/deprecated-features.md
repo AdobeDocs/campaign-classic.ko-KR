@@ -134,7 +134,7 @@
 <target xml:lang="en-XX"></target>
 </trans-unit>
 <trans-unit id="sd1_sf1_tu10" resname="sd1_18" restype="x-href" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-settings</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/push-settings</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/push-settings</target>
 </trans-unit>
 <trans-unit id="sd1_sf1_tu9" resname="sd1_19" restype="x-paragraph" xml:space="preserve">
@@ -262,7 +262,7 @@
 <target xml:lang="en-XX"></target>
 </trans-unit>
 <trans-unit id="sd1_sf2_tu23" resname="sd1_42" restype="x-href" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko</target>
 </trans-unit>
 <trans-unit id="sd1_sf2_tu22" resname="sd1_43" restype="x-paragraph" xml:space="preserve">
@@ -322,7 +322,7 @@
 <target xml:lang="en-XX">Campaign API 설명서 - jsapi.chm 파일</target>
 </trans-unit>
 <trans-unit id="sd1_sf2_tu38" resname="sd1_72" restype="x-href" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/tools/campaign-api</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/ko/tools/campaign-api</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/ko/tools/campaign-api</target>
 </trans-unit>
 <trans-unit id="sd1_sf2_tu37" resname="sd1_73" restype="x-td" xml:space="preserve">
@@ -366,7 +366,7 @@
 <target xml:lang="en-XX">보안상의 이유로 Campaign 18.6 릴리스부터는 <bpt id="1" ctype="x-em">&lt;em></bpt>decryptString<ept id="1">&lt;/em></ept> API는 기본적으로 더 이상 새로 설치할 수 없습니다.</target>
 </trans-unit>
 <trans-unit id="sd1_sf2_tu49" resname="sd1_92" restype="x-href" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/tools/campaign-api</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/ko/tools/campaign-api</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/ko/tools/campaign-api</target>
 </trans-unit>
 <trans-unit id="sd1_sf2_tu48" resname="sd1_93" restype="x-paragraph" xml:space="preserve">
