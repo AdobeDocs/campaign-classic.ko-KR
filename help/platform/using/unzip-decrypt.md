@@ -120,6 +120,6 @@ Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 가져올 �
 
 이 비디오는 GPG 키를 사용하여 데이터를 해독하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41364?captions=kor&quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.
