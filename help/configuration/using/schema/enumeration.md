@@ -7,15 +7,14 @@ exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
 TQID: https://experienceleague.adobe.com/w8b-2HEtYRMOd9yHFLtvS0vS2tdLDzuIakLfrqImsGo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 198
+source-wordcount: '198'
 ht-degree: 11%
-
 ---
-
 # 열거형 요소 {#enumeration--element}
 
 
@@ -55,34 +54,34 @@ ht-degree: 11%
 
   사용 가능한 유형 목록:
 
-   * 모든
-   * bin
-   * blob
-   * 부울
-   * 바이트
-   * CDATA
-   * datetime
-   * datetimetz
-   * datetimenotz
-   * 날짜
-   * DOMDocument
-   * DOMELEMENT
-   * 중복
-   * enum
-   * 부동
-   * html
-   * int64
-   * 링크
-   * 롱
-   * 메모
-   * MNTOKEN
-   * 백분율
-   * primarykey
-   * short
-   * 문자열
-   * 시간
-   * timespan
-   * uuid
+  * 모든
+  * 빈
+  * blob
+  * 부울
+  * 바이트
+  * CDATA
+  * datetime
+  * datetimetz
+  * datetimenotz
+  * 날짜
+  * DOMDocument
+  * DOMELEMENT
+  * 중복
+  * enum
+  * 부동
+  * html
+  * int64
+  * 링크
+  * 롱
+  * 메모
+  * MNTOKEN
+  * 백분율
+  * primarykey
+  * short
+  * 문자열
+  * 시간
+  * timespan
+  * uuid
 
 * **기본값(문자열)**: 기본값 기본값은 열거에 정의된 값 중 하나일 수도 있습니다.
 * **desc(문자열)**: 열거형 설명.

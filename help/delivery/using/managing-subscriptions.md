@@ -2,32 +2,39 @@
 product: campaign
 title: 구독 관리
 description: Adobe Campaign에서 구독을 관리하는 방법 알아보기
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Subscriptions
 role: User
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
 TQID: https://experienceleague.adobe.com/BrXFZAa9EiCWFYN6DabgLk9pjw3rS5TXCgzV63e5xmE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1122
+source-wordcount: '1113'
 ht-degree: 2%
-
 ---
-
 # 구독 관리{#managing-subscriptions}
 
 ## 정보 서비스 기본 정보 {#about-information-services}
@@ -161,7 +168,7 @@ ht-degree: 2%
 
 기본 구독 취소 링크는 게재 도우미에 제공된 콘텐츠 편집기의 도구 모음에 있는 마지막 단추를 통해 삽입됩니다([개인화 정보](about-personalization.md) 참조). 수신자가 이 링크를 클릭하면 프로필이 차단 목록에 추가하다(옵트아웃)에 추가됩니다. 즉, 이 수신자는 더 이상 게재 작업에 의해 타겟팅되지 않습니다.
 
-그러나 수신자는 모든 서비스의 구독을 취소하지 않고 서비스 구독을 취소할 수 있습니다. 이를 허용하려면 웹 양식을 사용하거나([이 섹션](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes) 참조) 개인화된 구독 취소 링크를 삽입할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ko){target="_blank"}를 참조하세요.
+그러나 수신자는 모든 서비스의 구독을 취소하지 않고 서비스 구독을 취소할 수 있습니다. 이를 허용하려면 웹 양식을 사용하거나([이 섹션](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes) 참조) 개인화된 구독 취소 링크를 삽입할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}를 참조하세요.
 
 수신자 프로필에서 수동으로 수신자의 가입을 해지할 수도 있습니다. 이렇게 하려면 관련 받는 사람의 **[!UICONTROL Subscriptions]** 탭을 클릭하고 관련 정보 서비스를 선택한 다음 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 

@@ -8,25 +8,32 @@ exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 TQID: https://experienceleague.adobe.com/txn8xb-BeOx76Rt0Qco-vxb8X868DHTkJw-5H4kkooU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 361
+source-wordcount: '361'
 ht-degree: 0%
-
 ---
-
 # LINE 게재 만들기{#line-channel}
 
 Adobe Campaign을 사용하면 LINE 채널을 사용하여 LINE 앱의 사용자에게 풍부하고 매력적인 메시지를 직접 보낼 수 있습니다. 공지, 프로모션, 고객 서비스 업데이트 또는 멀티미디어 콘텐츠 등 LINE은 다른 채널을 보완하는 실시간 대화 매체를 제공합니다.
@@ -42,7 +49,7 @@ Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명
 LINE 채널에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/line.html){target=_blank}를 참조하세요.
 
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/emails/email){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target=_blank}
 
 
 >[!TAB LINE 게재 만들기]

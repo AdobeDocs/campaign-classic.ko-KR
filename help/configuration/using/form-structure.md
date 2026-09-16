@@ -4,26 +4,29 @@ title: 양식 구조
 description: 양식 구조
 feature: Application Settings
 role: Developer
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
 TQID: https://experienceleague.adobe.com/zLWHKhH-T-g54pQDAhbOC4v7JvrX-LM-Vn8lCXE-aYI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 2407
+source-wordcount: '2402'
 ht-degree: 0%
-
 ---
-
 # 양식 구조{#form-structure}
 
 
@@ -315,9 +318,9 @@ ht-degree: 0%
 * **noAutoComplete**: 자동 완성 형식을 사용하지 않습니다(값 &quot;true&quot; 사용).
 * **createMode**: 링크가 없는 경우 바로 링크를 만듭니다. 가능한 값:
 
-   * **없음**: 만들기를 사용하지 않습니다. 링크가 없는 경우 오류 메시지가 표시됩니다
-   * **인라인**: 편집 필드에 콘텐츠가 있는 링크를 만듭니다.
-   * **편집**: 링크에 편집 양식을 표시합니다. 양식의 유효성을 검사하면 데이터가 저장됩니다(기본 모드).
+  * **없음**: 만들기를 사용하지 않습니다. 링크가 없는 경우 오류 메시지가 표시됩니다
+  * **인라인**: 편집 필드에 콘텐츠가 있는 링크를 만듭니다.
+  * **편집**: 링크에 편집 양식을 표시합니다. 양식의 유효성을 검사하면 데이터가 저장됩니다(기본 모드).
 
 * **noZoom**: 링크에 편집 양식이 없습니다(&quot;true&quot; 값 사용).
 * **form**: 대상 요소의 편집 양식을 오버로드합니다.

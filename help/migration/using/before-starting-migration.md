@@ -11,17 +11,18 @@ exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
 TQID: https://experienceleague.adobe.com/FBbSwRfACqdgT1S9aXlDvR4tqqBOuv1BnMYqASi4OoQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 323
+source-wordcount: '323'
 ht-degree: 2%
-
 ---
-
 # 필수 구성 요소{#before-starting-migration}
 
 
@@ -43,16 +44,16 @@ ht-degree: 2%
 * **독립 실행형 플랫폼**(단일 컴퓨터 모드)의 경우 응용 프로그램이 완전히 마이그레이션됩니다.
 * **표준 플랫폼**(엔터프라이즈)의 경우 마이그레이션 단계는 다음과 같습니다.
 
-   1. 마케팅 서버 마이그레이션.
-   1. 메일 서버(mta)를 마이그레이션합니다.
-   1. 리디렉션 및 추적 서버(Apache/IIS)를 마이그레이션합니다.
+  1. 마케팅 서버 마이그레이션.
+  1. 메일 서버(mta)를 마이그레이션합니다.
+  1. 리디렉션 및 추적 서버(Apache/IIS)를 마이그레이션합니다.
 
 * **클라우드 메시징 플랫폼**&#x200B;의 경우 실행 서버는 Adobe Campaign에서 호스팅됩니다. 다른 서버 간의 마이그레이션을 조정하려면 Adobe Campaign에 문의하십시오.
 * **전원 부스터 또는 전원 클러스터 플랫폼**&#x200B;의 경우 마이그레이션 단계는 다음과 같습니다.
 
-   1. 리디렉션 및 추적 서버(Apache/IIS)를 마이그레이션합니다.
-   1. 전원 부스터/클러스터 서버를 마이그레이션합니다.
-   1. 마케팅 서버 마이그레이션.
+  1. 리디렉션 및 추적 서버(Apache/IIS)를 마이그레이션합니다.
+  1. 전원 부스터/클러스터 서버를 마이그레이션합니다.
+  1. 마케팅 서버 마이그레이션.
 
 ## 사용자 암호 {#user-passwords}
 

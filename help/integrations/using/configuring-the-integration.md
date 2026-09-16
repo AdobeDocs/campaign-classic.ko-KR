@@ -3,32 +3,40 @@ product: campaign
 title: Adobe Experience Manager 통합 구성
 description: Campaign-AEM 통합 구성 방법 알아보기
 feature: Experience Manager Integration
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
 TQID: https://experienceleague.adobe.com/9IREhm2ZwMGCGIMbTQYOpSA4PiLxoJOVPQty4WreUWY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 556
+source-wordcount: '547'
 ht-degree: 4%
-
 ---
-
 # Campaign-AEM 통합 구성{#configuring-the-integration}
 
 
@@ -43,7 +51,7 @@ Adobe Campaign에서 구성을 시작하려면 아래 단계를 따르십시오.
 1. [외부 계정 구성](#configure-the-external-account)
 1. [AEM 리소스 필터링 구성](#configure-aem-resources-filtering)
 
-개인화 필드 및 블록 관리와 같은 고급 구성용. Adobe Experience Manager [설명서](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/campaignonpremise.html)를 참조하세요.
+개인화 필드 및 블록 관리와 같은 고급 구성용. Adobe Experience Manager [설명서](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.html)를 참조하세요.
 
 ### Adobe Campaign에서 AEM 통합 패키지 설치 {#install-the-aem-integration-package-in-adobe-campaign}
 
@@ -134,12 +142,12 @@ Adobe Experience Manager에서 구성을 시작하려면 아래 단계를 따르
 
 1. AEM 작성 인스턴스에서 AEM 게시 인스턴스로 복제하도록 **복제**&#x200B;를 구성합니다.
 
-   복제를 구성하는 방법에 대해 알아보려면 Adobe Experience Manager [설명서](https://helpx.adobe.com/kr/experience-manager/6-5/sites/deploying/using/replication.html)를 참조하세요.
+   복제를 구성하는 방법에 대해 알아보려면 Adobe Experience Manager [설명서](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/replication.html)를 참조하세요.
 
 1. 전용 **Cloud Service**&#x200B;을(를) 구성하여 Adobe Experience Manager을 Adobe Campaign에 연결합니다.
 
-   Cloud Services를 통해 두 솔루션을 연결하는 방법에 대해 알아보려면 Adobe Experience Manager [설명서](https://helpx.adobe.com/kr/experience-manager/6-5/sites/administering/using/campaignonpremise.html#ConfiguringAdobeExperienceManager) 를 참조하십시오.
+   Cloud Services를 통해 두 솔루션을 연결하는 방법에 대해 알아보려면 Adobe Experience Manager [설명서](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.html#ConfiguringAdobeExperienceManager) 를 참조하십시오.
 
 1. **외부화 서비스**&#x200B;를 구성하십시오.
 
-   구성 방법에 대해 알아보려면 Adobe Experience Manager [설명서](https://helpx.adobe.com/kr/experience-manager/6-5/sites/developing/using/externalizer.html)를 참조하세요.
+   구성 방법에 대해 알아보려면 Adobe Experience Manager [설명서](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/externalizer.html)를 참조하세요.

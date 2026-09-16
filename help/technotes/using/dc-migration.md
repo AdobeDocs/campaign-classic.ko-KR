@@ -9,27 +9,35 @@ exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
 TQID: https://experienceleague.adobe.com/aoayco5jy1djmO-FNlofnJFE-inpeMOVE1UBVC-pkFc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1539
+source-wordcount: '1557'
 ht-degree: 2%
-
 ---
-
 # 개요{#dc-ovv}
 
 
@@ -95,7 +103,7 @@ ht-degree: 2%
 
 이러한 노력을 시작하기 위해 이 마이그레이션이 필요한 계정은 타임라인과 문서에 대한 액세스 권한을 제공하는 Adobe의 이메일 커뮤니케이션을 수신하게 됩니다. 계정이 마이그레이션되도록 예약되었다는 알림이 됩니다.
 
-[새 고객 지원 티켓을 열기](https://experienceleague.adobe.com/ko?support-solution=Campaign#support)하여 마이그레이션을 시작할 수 있습니다. 제목란 &quot;AWS으로 마이그레이션&quot;을 사용합니다.
+[새 고객 지원 티켓을 열기](https://experienceleague.adobe.com/?support-solution=Campaign#support)하여 마이그레이션을 시작할 수 있습니다. 제목란 &quot;AWS으로 마이그레이션&quot;을 사용합니다.
 
 ### 이 마이그레이션은 필수입니까?
 

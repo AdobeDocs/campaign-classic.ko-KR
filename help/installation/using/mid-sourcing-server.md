@@ -3,7 +3,7 @@ product: campaign
 title: Campaign에 중간 소싱 서버 설치
 description: 이 섹션에서는 Campaign의 중간 소싱 서버 설치 및 구성에 대해 자세히 설명합니다
 feature: Installation, Instance Settings
-badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -12,11 +12,9 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1084
+source-wordcount: '1072'
 ht-degree: 2%
-
 ---
-
 # 중간 소싱 서버{#mid-sourcing-server}
 
 
@@ -29,7 +27,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->중간 소싱 서버를 설정하고 [동기화 워크플로](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ko){target="_blank"}를 처음 실행한 후에는 중간 소싱 외부 계정의 내부 이름을 업데이트하지 마십시오.
+>중간 소싱 서버를 설정하고 [동기화 워크플로](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}를 처음 실행한 후에는 중간 소싱 외부 계정의 내부 이름을 업데이트하지 마십시오.
 
 ## 인스턴스 설치 및 구성 단계 {#steps-for-installing-and-configuring-an-instance}
 
@@ -127,7 +125,7 @@ ht-degree: 2%
 
    ![](assets/mid_recette_user_restrictions.png)
 
-1. **&#x200B; web** 명령을 사용하여 웹 모듈을 다시 시작합니다.
+1. ** web** 명령을 사용하여 웹 모듈을 다시 시작합니다.
 
 serverConf.xml 파일에서 중간 소싱 서버 설정을 변경해야 합니다. 다음 줄을 기존 줄 아래의 &quot;IP 주소를 사용한 선호도 관리&quot; 섹션에 추가해야 합니다.
 
@@ -141,9 +139,9 @@ serverConf.xml 파일에서 중간 소싱 서버 설정을 변경해야 합니�
 
 &#39;marketing_account_operator_name&#39;은 중간 소싱 인스턴스에 선언된 중간 소싱 계정의 내부 이름과 관련이 있습니다.
 
-&#39;affinity_name&#39;은 선호도에 지정된 임의의 이름과 관련이 있습니다. 이 이름은 고유해야 합니다. 승인된 문자는 `[a-z]` `[A-Z]` `[0-9]`입니다. 목표는 공용 IP 주소 그룹을 선언하는 것입니다.
+&#39;affinity_name&#39;은 선호도에 지정된 임의의 이름과 관련이 있습니다. 이 이름은 고유해야 합니다. 승인된 문자는 `[a-z]``[A-Z]``[0-9]`입니다. 목표는 공용 IP 주소 그룹을 선언하는 것입니다.
 
-&#39;affinity_group&#39;은 각 게재에 사용된 대상 매핑에 선언된 하위 친화성과 관련이 있습니다. 하위 친화성이 없으면 &#39;.&#39;를 포함하는 마지막 부분이 무시됩니다. 승인된 문자는 `[a-z]` `[A-Z]` `[0-9]`입니다.
+&#39;affinity_group&#39;은 각 게재에 사용된 대상 매핑에 선언된 하위 친화성과 관련이 있습니다. 하위 친화성이 없으면 &#39;.&#39;를 포함하는 마지막 부분이 무시됩니다. 승인된 문자는 `[a-z]``[A-Z]``[0-9]`입니다.
 
 수정 사항을 고려하려면 서버를 중지했다가 다시 시작해야 합니다.
 

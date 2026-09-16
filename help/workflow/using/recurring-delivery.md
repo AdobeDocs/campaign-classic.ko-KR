@@ -8,20 +8,23 @@ exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
 TQID: https://experienceleague.adobe.com/a33apxZWE9H0Y3ukmFMQMrep1aY95iswu40y-ZjOd0U
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2: []
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: '289'
 ht-degree: 14%
-
 ---
-
 # 반복 게재{#recurring-delivery}
 
 **[!UICONTROL Recurring delivery]** 활동을 사용하면 캠페인에 관련된 게재 템플릿 발생을 구성할 수 있습니다.
@@ -64,6 +67,6 @@ ht-degree: 14%
 
 이 비디오에서는 반복 게재 및 예약 활동을 구성하는 방법을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/27507?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

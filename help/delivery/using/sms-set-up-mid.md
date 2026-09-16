@@ -9,29 +9,40 @@ exl-id: 6987cb5e-8821-4619-b0e4-f0fad3355bfb
 TQID: https://experienceleague.adobe.com/HJK4w85OgzUx9BPSvExm8c91CQYIecDfw7Uxv3rzrJU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1008
+source-wordcount: '1008'
 ht-degree: 10%
-
 ---
-
 # 중간 소싱 인프라에서 SMS 채널 구성 {#setting-up-sms-channel}
 
 중간 서버가 있는 휴대폰으로 보내려면 다음이 필요합니다.
@@ -116,7 +127,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [페이지](sms-pr
 
    >[!WARNING]
    >
-   >**[!UICONTROL Internal name]**&#x200B;을(를) 할당할 때 지정된 명명 규칙을 따라야 합니다.
+   >**[!UICONTROL Internal name]**을(를) 할당할 때 지정된 명명 규칙을 따라야 합니다.
    > </br>`SMS Operator Name_Internal Name of the Marketing SMS external account`
 
    ![](assets/mid_external_account_6.png)
@@ -173,7 +184,7 @@ SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [페이지](sms-pr
 
 ## 게재 템플릿 변경 {#changing-the-delivery-template}
 
-Adobe Campaign은 **[!UICONTROL Resources > Templates > Delivery templates]** 노드에 있는 모바일 게재 템플릿을 제공합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ko){target="_blank"}를 참조하십시오.
+Adobe Campaign은 **[!UICONTROL Resources > Templates > Delivery templates]** 노드에 있는 모바일 게재 템플릿을 제공합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}를 참조하십시오.
 
 SMS 채널을 통해 메시지를 전송하려면 채널 커넥터에 대한 참조를 포함하는 템플릿을 만들어야 합니다.
 

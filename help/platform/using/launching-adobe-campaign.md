@@ -10,24 +10,31 @@ exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
 TQID: https://experienceleague.adobe.com/qpZM0jaN1ht6QfReQBy1c7jONGdc2PQ0ORepDaVficQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 451
+source-wordcount: '451'
 ht-degree: 15%
-
 ---
-
 # Adobe Campaign 시작 {#launching-adobe-campaign}
 
 Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결할 수 있는 리치 클라이언트입니다. [이 페이지](../../installation/using/installing-the-client-console.md)에서 클라이언트 콘솔을 다운로드하고 구성하는 방법에 대해 알아봅니다.
@@ -48,11 +55,11 @@ Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결�
 
 ### Adobe ID과 연결
 
-Campaign 사용자는 Adobe IMS(ID 관리 시스템)를 통해 Adobe ID를 사용하여 Adobe Campaign 콘솔에 연결합니다. 모든 Adobe 솔루션에서 동일한 ID를 사용할 수 있습니다. 다른 솔루션으로 Adobe Campaign을 사용하는 경우 연결이 저장됩니다. 이 페이지[&#128279;](https://helpx.adobe.com/kr/enterprise/using/identity.html)에서 Adobe IMS 에 대해 자세히 알아보세요.
+Campaign 사용자는 Adobe IMS(ID 관리 시스템)를 통해 Adobe ID를 사용하여 Adobe Campaign 콘솔에 연결합니다. 모든 Adobe 솔루션에서 동일한 ID를 사용할 수 있습니다. 다른 솔루션으로 Adobe Campaign을 사용하는 경우 연결이 저장됩니다. 이 페이지](https://helpx.adobe.com/kr/enterprise/using/identity.html)에서 Adobe IMS [에 대해 자세히 알아보세요.
 
 IMS(Adobe Identity Management Service)를 사용하여 Campaign Classic v7 연결을 구성하려면 [이 페이지](../../integrations/using/about-adobe-id.md)를 참조하십시오.
 
-구성이 완료되면 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/connect){target=_blank}에서 Adobe ID을 사용하여 Campaign에 연결하는 방법을 알아보세요.
+구성이 완료되면 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect){target=_blank}에서 Adobe ID을 사용하여 Campaign에 연결하는 방법을 알아보세요.
 
 
 ### 로그인/암호로 연결
@@ -77,7 +84,7 @@ IMS(Adobe Identity Management Service)를 사용하여 Campaign Classic v7 연�
 
 ![](assets/s_ncs_user_connections_management.png)
 
-[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/connect#create-your-connection){target=_blank}에서 연결을 설정하는 방법에 대해 알아봅니다.
+[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect#create-your-connection){target=_blank}에서 연결을 설정하는 방법에 대해 알아봅니다.
 
 ## 운영자 및 권한 {#operators-and-permissions}
 

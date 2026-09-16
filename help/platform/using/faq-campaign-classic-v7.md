@@ -10,34 +10,44 @@ exl-id: 89356b5a-d99c-43d1-892b-5a1d003e76cc
 TQID: https://experienceleague.adobe.com/FL-v5m07U-OzscVIiQONAa-RMu323ZpTuBrL29ukMc4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1517
+source-wordcount: '1517'
 ht-degree: 6%
-
 ---
-
 # Campaign Classic v7 FAQ {#campaign-classic-v7-faq}
 
 >[!NOTE]
 >
 >이 FAQ는 Adobe Campaign Classic v7 아키텍처, 배포 모델 및 v7 관련 기능과 관련된 질문을 해결합니다.
 >
->**일반적인 Campaign 질문에 대한 포괄적인 답변**(워크플로우, 게재, 대상, 보고, 개인화 등)은 주제별로 구성된 자세한 답변을 제공하는 [**Campaign v8 포괄적인 FAQ**](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-faq-comprehensive){target="_blank"}를 참조하십시오.
+>**일반적인 Campaign 질문에 대한 포괄적인 답변**(워크플로우, 게재, 대상, 보고, 개인화 등)은 주제별로 구성된 자세한 답변을 제공하는 [**Campaign v8 포괄적인 FAQ**](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-faq-comprehensive){target="_blank"}를 참조하십시오.
 
 ## Campaign Classic v7 아키텍처 및 배포 {#v7-architecture}
 
@@ -55,7 +65,7 @@ Adobe Campaign Classic v7은 다음 세 가지 배포 모델을 제공합니다.
 
 호스팅 모델 및 차이점에 대해 [자세히 알아보려면 여기를 클릭하세요](../../installation/using/hosting-models.md).
 
-**참고:** Campaign v8은 관리 클라우드 서비스로만 사용할 수 있습니다. [Campaign v8에 대해 알아봅니다](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html?lang=ko){target="_blank"}.
+**참고:** Campaign v8은 관리 클라우드 서비스로만 사용할 수 있습니다. [Campaign v8에 대해 알아봅니다](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html){target="_blank"}.
 
 +++
 
@@ -86,7 +96,7 @@ Adobe Managed Services으로 마이그레이션하면 확장성, 보안이 향�
 
 **시작하기:** Adobe 담당자에게 문의하여 환경을 평가하고 Adobe Professional Services을 통한 자세한 마이그레이션 계획을 개발하십시오.
 
-[Managed Services으로 마이그레이션](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605?profile.language=ko){target="_blank"}에 대해 자세히 알아보세요.
+[Managed Services으로 마이그레이션](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605){target="_blank"}에 대해 자세히 알아보세요.
 
 +++
 
@@ -112,7 +122,7 @@ Campaign v8은 Adobe의 전략 플랫폼으로, 대용량 캠페인, 최신 웹 
 
 자세히 알아보기:
 
-* [Campaign v8 개요](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html?lang=ko){target="_blank"}
+* [Campaign v8 개요](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html){target="_blank"}
 * [Campaign Classic v7에서 v8로 전환](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/v7-to-v8.html){target="_blank"}
 * [Campaign v8 포괄적인 FAQ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html){target="_blank"}
 
@@ -216,8 +226,8 @@ Campaign 클라이언트 콘솔 캐시를 지우면 많은 일반적인 표시 �
    * 먼저 소프트 캐시 지우기 수행
    * 클라이언트 콘솔을 로그아웃하고 완전히 닫습니다.
    * 다음으로 이동:
-      * Windows 7/10: `C:\Users\<Username>\AppData\Roaming\Neolane\NL_5\`
-      * Windows XP: `C:\Documents and Settings\<Username>\Application Data\Neolane\NL_5\`
+     * Windows 7/10: `C:\Users\<Username>\AppData\Roaming\Neolane\NL_5\`
+     * Windows XP: `C:\Documents and Settings\<Username>\Application Data\Neolane\NL_5\`
    * 이름이 `nlclient-config-<alphanumerical value>.xml`인 모든 XML 파일과 관련 폴더 삭제
    * **중요:** `nlclient_cnx.xml` 파일을 삭제하지 않음
    * 클라이언트 콘솔 다시 시작
@@ -270,7 +280,7 @@ Campaign 클라이언트 콘솔 캐시를 지우면 많은 일반적인 표시 �
 
 **커뮤니티 및 지원:**
 
-* [Campaign 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ko){target="_blank"}
+* [Campaign 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
 * [Adobe 지원](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
 
 +++

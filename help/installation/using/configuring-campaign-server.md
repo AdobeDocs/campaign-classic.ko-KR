@@ -1,9 +1,9 @@
 ---
 product: campaign
-title: 캠페인 서버 구성
-description: 캠페인 서버 구성
+title: Campaign 서버 구성
+description: Campaign 서버 구성
 feature: Installation, Instance Settings
-badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -11,22 +11,27 @@ exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
 TQID: https://experienceleague.adobe.com/ghNvBVEL47nQobSHUsjVXr7XDpbRd8GBFSUy-E7bkvI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 1630
+source-wordcount: '1618'
 ht-degree: 4%
-
 ---
-
 # Campaign 서버 구성 시작{#gs-campaign-server-config}
 
 
@@ -67,9 +72,9 @@ Campaign Classic 구성 파일은 Adobe Campaign 설치 폴더의 **conf** 폴�
 * [중복 추적 설정](#redundant-tracking)
 * [고가용성 및 워크플로 선호도 관리](#high-availability-workflows-and-affinities)
 * 파일 관리 구성 - [자세히 알아보기](file-res-management.md)
-   * 업로드 파일 형식 제한
-   * 공개 리소스에 대한 액세스 활성화
-   * 프록시 연결 구성
+  * 업로드 파일 형식 제한
+  * 공개 리소스에 대한 액세스 활성화
+  * 프록시 연결 구성
 * [자동 프로세스 재시작](#automatic-process-restart)
 
 

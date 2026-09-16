@@ -9,22 +9,26 @@ exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
 TQID: https://experienceleague.adobe.com/IafzeMWF-WfGa3h70HsX6OXZIUeu47PJlqsliA8T5EM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 subfeature_v2:
   - id: f863efa9-030c-4466-a2b8-a52aea6b722c
+    internal-label: Subscription services
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
-source-wordcount: 453
+source-wordcount: '453'
 ht-degree: 17%
-
 ---
-
 # 마케팅 캠페인 디자인 및 실행{#designing-marketing-campaigns}
 
 [!DNL Adobe Campaign]을(를) 통해 통신 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다. [!DNL Adobe Campaign]은(는) 마케팅 전략을 위한 통합 주문 및 실행 센터 역할을 합니다. 자세한 내용은 [캠페인 액세스](../../distributed/using/accessing-campaigns.md) 및 [마케팅 캠페인 만들기](../../campaign/using/setting-up-marketing-campaigns.md)를 참조하세요.
@@ -80,7 +84,7 @@ Campaign의 컨텍스트에서 다음 개념을 알고 있어야 합니다.
 
 이 비디오에서는 마케팅 캠페인의 주요 개념을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/326577?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
 추가 [!DNL Campaign Classic]개의 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
 

@@ -10,17 +10,18 @@ exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
 TQID: https://experienceleague.adobe.com/kd15Dm8jY6xE0RpGTImgoL27wDbYmvuuLs-jK4-BwVo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 1573
+source-wordcount: '1573'
 ht-degree: 1%
-
 ---
-
 # 속성 요소 {#attribute--element}
 
 
@@ -58,11 +59,11 @@ _operation (string), advanced (부울), applicableIf (문자열), autoIncrement 
 
   액세스 가능한 값은 다음과 같습니다.
 
-   * &quot;none&quot;: 조정만 가능합니다. 즉, Adobe Campaign은 요소가 존재하지 않는 경우 해당 요소를 업데이트하거나 오류를 생성하지 않고 요소를 복구합니다.
-   * &quot;insertOrUpdate&quot;: 삽입을 사용하여 업데이트합니다. 즉, Adobe Campaign이 요소를 업데이트하거나 존재하지 않는 경우 만듭니다.
-   * &quot;insert&quot;: 삽입. 즉, Adobe Campaign은 요소의 존재 여부를 확인하지 않고 요소를 삽입합니다.
-   * &quot;update&quot;: update. 즉, Adobe Campaign이 요소를 업데이트하거나 존재하지 않는 경우 오류를 생성합니다.
-   * &quot;delete&quot;: 삭제. 즉, Adobe Campaign에서 요소를 복구하고 삭제합니다.
+  * &quot;none&quot;: 조정만 가능합니다. 즉, Adobe Campaign은 요소가 존재하지 않는 경우 해당 요소를 업데이트하거나 오류를 생성하지 않고 요소를 복구합니다.
+  * &quot;insertOrUpdate&quot;: 삽입을 사용하여 업데이트합니다. 즉, Adobe Campaign이 요소를 업데이트하거나 존재하지 않는 경우 만듭니다.
+  * &quot;insert&quot;: 삽입. 즉, Adobe Campaign은 요소의 존재 여부를 확인하지 않고 요소를 삽입합니다.
+  * &quot;update&quot;: update. 즉, Adobe Campaign이 요소를 업데이트하거나 존재하지 않는 경우 오류를 생성합니다.
+  * &quot;delete&quot;: 삭제. 즉, Adobe Campaign에서 요소를 복구하고 삭제합니다.
 
 * **고급(부울)**: 이 옵션을 활성화하면(@advanced=&quot;true&quot;) 양식의 목록 구성에 액세스할 수 있는 사용 가능한 필드 목록에서 특성을 숨길 수 있습니다.
 * **적용할 수 있는 경우(문자열)**: 이 특성을 사용하면 필드를 선택 사항으로 만들 수 있습니다. 제약 조건을 준수할 때 데이터베이스를 업데이트할 때 `<attribute>` 요소가 고려됩니다. &quot;applicableIf&quot;는 XTK 표현식을 받습니다.
@@ -70,14 +71,14 @@ _operation (string), advanced (부울), applicableIf (문자열), autoIncrement 
 * **assetsTo(문자열)**: 필드를 공유하는 테이블의 이름과 네임스페이스를 사용하고 특성이 선언된 스키마를 채웁니다. (`<schema>`에서만 사용됨).
 * **dataPolicy(문자열)**: SQL 또는 XML 필드에 허용되는 값에 대한 승인 제약 조건을 지정할 수 있습니다. 이 속성의 값은 다음과 같습니다.
 
-   * &quot;none&quot;: 값 없음
-   * &quot;smartCase&quot;: 첫 글자 대문자
-   * &quot;lowerCase&quot;: 모든 lower case
-   * &quot;upperCase&quot;: 모든 upper case
-   * &quot;email&quot;: 이메일 주소
-   * &quot;phone&quot;: 전화 번호
-   * &quot;identifier&quot;: 식별자 이름
-   * &quot;resIdentifier&quot;: 파일 이름
+  * &quot;none&quot;: 값 없음
+  * &quot;smartCase&quot;: 첫 글자 대문자
+  * &quot;lowerCase&quot;: 모든 lower case
+  * &quot;upperCase&quot;: 모든 upper case
+  * &quot;email&quot;: 이메일 주소
+  * &quot;phone&quot;: 전화 번호
+  * &quot;identifier&quot;: 식별자 이름
+  * &quot;resIdentifier&quot;: 파일 이름
 
 * **dbEnum(문자열)**: &quot;닫힘&quot; 열거형의 내부 이름을 받습니다. 열거형 값은 `<srcschema>`에 정의해야 합니다.
 * **defOnDuplicate(부울)**: 이 특성이 활성화되면 레코드가 복제되면 기본값(@default에 정의됨)이 레코드에 자동으로 다시 적용됩니다.
@@ -88,13 +89,13 @@ _operation (string), advanced (부울), applicableIf (문자열), autoIncrement 
 * **expr(문자열)**: 필드 사전 계산 식을 정의합니다. 이 속성은 Xpath 또는 XTK 식을 받습니다.
 * **기능(문자열)**: 특성 필드를 정의합니다. 이러한 필드는 기존 테이블의 데이터를 확장하는 데 사용되지만 추가 테이블의 저장소와 함께 사용됩니다. 허용되는 값은 다음과 같습니다.
 
-   * &quot;shared&quot;: 컨텐츠는 데이터 유형별로 공유 테이블에 저장됩니다
-   * &quot;전용&quot;: 컨텐츠가 전용 테이블에 저장됩니다.
+  * &quot;shared&quot;: 컨텐츠는 데이터 유형별로 공유 테이블에 저장됩니다
+  * &quot;전용&quot;: 컨텐츠가 전용 테이블에 저장됩니다.
 
   SQL 특성 테이블은 특성 유형에 따라 자동으로 작성됩니다.
 
-   * 전용: `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
-   * 공유: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
+  * 전용: `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
+  * 공유: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
   특성 필드에는 특성에서 단일 값이 인증되는 단순 oà<sup>1</sup> 필드와 여러 값을 포함할 수 있는 컬렉션 요소에 특성이 연결되는 oà<sup>1</sup> 다중 선택 필드의 두 가지 유형이 있습니다.
 
@@ -109,19 +110,19 @@ _operation (string), advanced (부울), applicableIf (문자열), autoIncrement 
 
   스키마가 데이터베이스에 기록되면 Adobe Campaign에서 필드 이름에 접두사가 자동으로 추가됩니다.
 
-   * &quot;i&quot;: &#39;정수&#39; 유형의 접두사입니다.
-   * &quot;d&quot;: &#39;double&#39; 유형의 접두사입니다.
-   * &quot;s&quot;: 문자열 유형의 접두사입니다.
-   * &quot;ts&quot;: &#39;날짜&#39; 유형의 접두사입니다.
+  * &quot;i&quot;: &#39;정수&#39; 유형의 접두사입니다.
+  * &quot;d&quot;: &#39;double&#39; 유형의 접두사입니다.
+  * &quot;s&quot;: 문자열 유형의 접두사입니다.
+  * &quot;ts&quot;: &#39;날짜&#39; 유형의 접두사입니다.
 
   테이블에서 필드의 이름을 완전히 정의하려면 속성을 정의할 때 &quot;@sqlname&quot; 옵션을 사용합니다.
 
 * **notNull(부울)**: 데이터베이스의 NULL 레코드 관리와 관련된 Adobe Campaign의 동작을 다시 정의할 수 있습니다. 기본적으로 숫자 필드는 null이 아니며 문자열 및 날짜 유형 필드는 null일 수 있습니다.
 * **pkgStatus(문자열)**: 패키지를 내보내는 동안 &quot;@pkgStatus&quot;의 값에 따라 값이 고려됩니다.
 
-   * &quot;always&quot;: 항상 표시
-   * &quot;절대 안 함&quot;: 절대 없음
-   * &quot;default (또는 nothing)&quot;: 기본값이거나 다른 인스턴스와 호환되지 않는 내부 필드가 아닌 경우를 제외하고 값을 내보냅니다.
+  * &quot;always&quot;: 항상 표시
+  * &quot;절대 안 함&quot;: 절대 없음
+  * &quot;default (또는 nothing)&quot;: 기본값이거나 다른 인스턴스와 호환되지 않는 내부 필드가 아닌 경우를 제외하고 값을 내보냅니다.
 
 * **ref(문자열)**: 이 특성은 여러 스키마에서 공유되는 `<attribute>` 요소에 대한 참조를 정의합니다(정의 팩토링). 정의가 현재 스키마에 복사되지 않습니다.
 * **필수(부울)**: 이 특성이 활성화된 경우(@required=&quot;true&quot;), 인터페이스에서 필드가 강조 표시됩니다. 필드의 레이블은 양식에서 빨간색으로 표시됩니다.
@@ -137,32 +138,32 @@ _operation (string), advanced (부울), applicableIf (문자열), autoIncrement 
 
   사용 가능한 유형 목록:
 
-   * 모든
-   * bin
-   * blob
-   * 부울
-   * 바이트
-   * CDATA
-   * datetime
-   * datetimetz
-   * datetimenotz
-   * 날짜
-   * 중복
-   * enum
-   * 부동
-   * html
-   * int64
-   * 링크
-   * 롱
-   * 메모
-   * MNTOKEN
-   * 백분율
-   * primarykey
-   * short
-   * 문자열
-   * 시간
-   * timespan
-   * uuid
+  * 모든
+  * 빈
+  * blob
+  * 부울
+  * 바이트
+  * CDATA
+  * datetime
+  * datetimetz
+  * datetimenotz
+  * 날짜
+  * 중복
+  * enum
+  * 부동
+  * html
+  * int64
+  * 링크
+  * 롱
+  * 메모
+  * MNTOKEN
+  * 백분율
+  * primarykey
+  * short
+  * 문자열
+  * 시간
+  * timespan
+  * uuid
 
   &quot;@type&quot; 속성을 비워 두면 Adobe Campaign은 기본적으로 길이가 100인 문자열(STRING)을 필드에 연결합니다.
 

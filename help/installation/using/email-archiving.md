@@ -10,18 +10,19 @@ exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
 TQID: https://experienceleague.adobe.com/DkmZBc4Awifbwqo7zqniEu6RlHDc91788XKN2nNg-Pg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1264
+source-wordcount: '1264'
 ht-degree: 4%
-
 ---
-
 # 이메일 BCC 구성 {#email-archiving}
 
 
@@ -143,7 +144,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 <!--
 ## Moving to the new Email BCC {#updated-email-archiving-system--bcc-}
 
-[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"}
+[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"}
 
 >[!IMPORTANT]
 >
@@ -163,8 +164,8 @@ Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]*
 * **BCC 주소 사서함**: MTA에서 보낸 모든 전자 메일을 보관할 수 있는 충분한 수신 용량이 있는지 확인하십시오.
 * **MTA 풀링**: BCC 보관 기능은 MTA 수준에서 작동합니다. MTA에서 보낸 모든 이메일을 복제할 수 있습니다. 여러 인스턴스(예: 개발, 테스트 또는 프로덕션)나 여러 클라이언트(중간 소싱 환경)에서 MTA를 풀링할 수 있으므로 이 기능을 설정하면 보안에 영향을 줍니다.
 
-   * 여러 클라이언트와 MTA를 공유하는데 클라이언트 중 하나에서 이 옵션이 활성화된 경우 이 클라이언트는 동일한 MTA를 공유하는 다른 클라이언트의 모든 전자 메일에 액세스합니다. 이러한 상황을 방지하려면 각 클라이언트에 대해 다른 MTA를 사용하십시오.
-   * 단일 클라이언트에 대해 여러 인스턴스(개발, 테스트, 프로덕션)에서 동일한 MTA를 사용하는 경우 세 인스턴스 모두에서 전송된 메시지는 dataLogPath 옵션에 의해 복제됩니다.
+  * 여러 클라이언트와 MTA를 공유하는데 클라이언트 중 하나에서 이 옵션이 활성화된 경우 이 클라이언트는 동일한 MTA를 공유하는 다른 클라이언트의 모든 전자 메일에 액세스합니다. 이러한 상황을 방지하려면 각 클라이언트에 대해 다른 MTA를 사용하십시오.
+  * 단일 클라이언트에 대해 여러 인스턴스(개발, 테스트, 프로덕션)에서 동일한 MTA를 사용하는 경우 세 인스턴스 모두에서 전송된 메시지는 dataLogPath 옵션에 의해 복제됩니다.
 
 * **연결당 전자 메일**: BCC 전자 메일 보관은 연결을 열고 해당 연결을 통해 모든 전자 메일을 보내려고 하여 작동합니다. Adobe은 내부 기술 담당자에게 주어진 연결에서 허용되는 이메일 수를 확인하는 것을 권장합니다. 이 수를 늘리면 BCC 처리량에 큰 영향을 미칠 수 있습니다.
 * **BCC 전송 IP**: 현재 BCC 이메일은 일반 MTA 프록시를 통해 전송되지 않습니다. 대신 MTA 서버에서 대상 이메일 서버로 직접 연결이 열립니다. 즉, 이메일 서버 구성에 따라 네트워크의 허용 목록에 추가하다에 추가 IP를 추가해야 할 수 있습니다.

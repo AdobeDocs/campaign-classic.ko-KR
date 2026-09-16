@@ -3,7 +3,7 @@ product: campaign
 title: SFTP 서버 사용
 description: SFTP 서버 모범 사례 및 문제 해결에 대해 자세히 알아보기
 feature: Troubleshooting
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -11,23 +11,29 @@ exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
 TQID: https://experienceleague.adobe.com/RrVBjDmV2i349u1NCfjtDApsuAIEOVwbxalPKnKETI4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1167
+source-wordcount: '1158'
 ht-degree: 13%
-
 ---
-
 # SFTP 서버 모범 사례 및 문제 해결 {#sftp-server-usage}
 
 ## SFTP 서버 글로벌 권장 사항 {#global-recommendations}
@@ -36,7 +42,7 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 
 * 암호 만료를 방지하려면 암호 인증 대신 키 기반 인증을 사용하십시오(암호는 유효 기간이 90일입니다). 또한 키 기반 인증을 사용하면 여러 엔티티 관리 등 여러 키를 생성할 수 있습니다. 반대로 암호 인증은 관리하는 모든 엔티티와 암호를 공유해야 합니다.
 
-  지원되는 키 형식은 SSH-2 RSA 2048입니다. Windows용 SSH 키를 생성하는 도구는 PuTTYgen이며 Linux용 ssh-keygen입니다. Campaign Campaign 컨트롤 패널을 통해 공개 SSH 키를 업로드할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/control-panel/using/sftp-management/key-management){target="_blank"}
+  지원되는 키 형식은 SSH-2 RSA 2048입니다. Windows용 SSH 키를 생성하는 도구는 PuTTYgen이며 Linux용 ssh-keygen입니다. Campaign Campaign 컨트롤 패널을 통해 공개 SSH 키를 업로드할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/key-management){target="_blank"}
 
 * 워크플로뿐만 아니라 SFTP 업로드에서도 배치 처리를 사용합니다.
 
@@ -44,7 +50,7 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 
 * 기본적으로 생성하는 모든 폴더는 식별자에 대해서만 읽기/쓰기 모드에 있습니다. Campaign에서 액세스해야 하는 폴더를 만들 때 전체 그룹에 대한 읽기/쓰기 권한으로 구성해야 합니다. 그렇지 않으면 보안상의 이유로 워크플로우가 동일한 그룹 내에서 다른 식별자로 실행되므로 파일을 만들거나 삭제하지 못할 수 있습니다.
 
-* SFTP 연결을 시작하려는 퍼블릭 IP는 Campaign 인스턴스의 허용 목록에 추가하다에 추가해야 합니다. 공개 IP는 Campaign 컨트롤 패널을 통해 추가할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/control-panel/using/sftp-management/ip-range-allow-listing){target="_blank"}
+* SFTP 연결을 시작하려는 퍼블릭 IP는 Campaign 인스턴스의 허용 목록에 추가하다에 추가해야 합니다. 공개 IP는 Campaign 컨트롤 패널을 통해 추가할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing){target="_blank"}
 
 ## SFTP 스토리지 사용 모범 사례 {#sftp-server-best-practices}
 
@@ -56,7 +62,7 @@ SFTP 서버는 파일의 보존 및 삭제를 제어할 수 있는 임시 저장
 
 >[!NOTE]
 >
->* Campaign Classic [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ko){target="_blank"}를 사용하여 SFTP 서버 저장소를 모니터링할 수 있습니다.
+>* Campaign Classic [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}를 사용하여 SFTP 서버 저장소를 모니터링할 수 있습니다.
 >
 >* 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel){target="_blank"}에 자세히 설명되어 있습니다.
 >
@@ -145,7 +151,7 @@ SFTP 서버는 파일의 보존 및 삭제를 제어할 수 있는 임시 저장
 
 1. **세션 로그** 문제 해결:
 
-   1. 워크플로우에서 [파일 전송](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ko){target="_blank"} 활동을 두 번 클릭합니다.
+   1. 워크플로우에서 [파일 전송](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"} 활동을 두 번 클릭합니다.
    1. **[!UICONTROL File Transfer]** 탭으로 이동한 다음 **[!UICONTROL Advanced Parameters]**&#x200B;을(를) 클릭합니다.
    1. **[!UICONTROL Display the session logs]** 옵션을 선택합니다.
 

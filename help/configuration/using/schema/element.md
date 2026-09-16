@@ -7,17 +7,18 @@ exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
 TQID: https://experienceleague.adobe.com/MbBmc-H9eZfmqWy-vZb6dd-m-l0G-UxtY-HAboNURjc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 2035
+source-wordcount: '2035'
 ht-degree: 1%
-
 ---
-
 # 요소 요소 {#element--element}
 
 
@@ -65,11 +66,11 @@ Adobe Campaign에는 네 가지 유형의 `<element>` 요소가 있습니다.
 
   액세스 가능한 값은 다음과 같습니다.
 
-   * &quot;none&quot;: 조정만 가능합니다. 즉, Adobe Campaign은 요소가 존재하지 않는 경우 해당 요소를 업데이트하거나 오류를 생성하지 않고 요소를 복구합니다.
-   * &quot;insertOrUpdate&quot;: 삽입을 사용하여 업데이트합니다. 즉, Adobe Campaign이 요소를 업데이트하거나 존재하지 않는 경우 만듭니다.
-   * &quot;insert&quot;: 삽입. 즉, Adobe Campaign은 요소의 존재 여부를 확인하지 않고 요소를 삽입합니다.
-   * &quot;update&quot;: update. 즉, Adobe Campaign이 요소를 업데이트하거나 존재하지 않는 경우 오류를 생성합니다.
-   * &quot;delete&quot;: 삭제. 즉, Adobe Campaign에서 요소를 복구하고 삭제합니다.
+  * &quot;none&quot;: 조정만 가능합니다. 즉, Adobe Campaign은 요소가 존재하지 않는 경우 해당 요소를 업데이트하거나 오류를 생성하지 않고 요소를 복구합니다.
+  * &quot;insertOrUpdate&quot;: 삽입을 사용하여 업데이트합니다. 즉, Adobe Campaign이 요소를 업데이트하거나 존재하지 않는 경우 만듭니다.
+  * &quot;insert&quot;: 삽입. 즉, Adobe Campaign은 요소의 존재 여부를 확인하지 않고 요소를 삽입합니다.
+  * &quot;update&quot;: update. 즉, Adobe Campaign이 요소를 업데이트하거나 존재하지 않는 경우 오류를 생성합니다.
+  * &quot;delete&quot;: 삭제. 즉, Adobe Campaign에서 요소를 복구하고 삭제합니다.
 
 * **고급(부울)**: 이 옵션을 활성화하면(@advanced=&quot;true&quot;) 양식의 목록 구성에 액세스할 수 있는 사용 가능한 필드 목록에서 특성을 숨길 수 있습니다.
 * **집계(문자열)**: 다른 스키마를 통해 `<element>`의 정의를 복사할 수 있도록 해줍니다. 이 특성은 &quot;namespace:name&quot; 형식의 스키마 선언을 받습니다.
@@ -77,14 +78,14 @@ Adobe Campaign에는 네 가지 유형의 `<element>` 요소가 있습니다.
 * **autopk(부울)**: 이 옵션이 활성화되면(autopk=&quot;true&quot;) 고유 키가 자동으로 정의됩니다. 이 옵션은 스키마의 기본 요소에서만 사용할 수 있습니다. 경고: Adobe Campaign은 생성된 키가 고유하다는 것만 보장합니다. 키 값이 연속적이고 점진적으로 변환되는 것은 보장되지 않습니다.
 * **dataPolicy(문자열)**: SQL 필드에 허용된 값에 대한 승인 제약 조건을 지정할 수 있습니다. 이 속성의 값은 다음과 같습니다.
 
-   * &quot;none&quot;: 값 없음
-   * &quot;smartCase&quot;: 첫 글자 대문자
-   * &quot;lowerCase&quot;: 모든 lower case
-   * &quot;upperCase&quot;: 모든 upper case
-   * &quot;email&quot;: 이메일 주소
-   * &quot;phone&quot;: 전화 번호
-   * &quot;identifier&quot;: 식별자 이름
-   * &quot;resIdentifier&quot;: 파일 이름
+  * &quot;none&quot;: 값 없음
+  * &quot;smartCase&quot;: 첫 글자 대문자
+  * &quot;lowerCase&quot;: 모든 lower case
+  * &quot;upperCase&quot;: 모든 upper case
+  * &quot;email&quot;: 이메일 주소
+  * &quot;phone&quot;: 전화 번호
+  * &quot;identifier&quot;: 식별자 이름
+  * &quot;resIdentifier&quot;: 파일 이름
 
 * **dbEnum(문자열)**: &quot;닫힘&quot; 열거형의 내부 이름을 받습니다. 열거형 값은 `<srcschema>`에 정의해야 합니다.
 * **defOnDuplicate(부울)**: 이 특성이 활성화되면 레코드가 복제되면 기본값(@default에 정의됨)이 레코드에 자동으로 다시 적용됩니다.
@@ -97,13 +98,13 @@ Adobe Campaign에는 네 가지 유형의 `<element>` 요소가 있습니다.
 * **externalJoin(부울)**: &quot;link&quot; 형식 요소의 외부 조인
 * **기능(문자열)**: 특성 필드를 정의합니다. 이러한 필드는 기존 테이블의 데이터를 확장하는 데 사용되지만 추가 테이블의 저장소와 함께 사용됩니다. 허용되는 값은 다음과 같습니다.
 
-   * &quot;shared&quot;: 컨텐츠는 데이터 유형별로 공유 테이블에 저장됩니다
-   * &quot;전용&quot;: 컨텐츠가 전용 테이블에 저장됩니다.
+  * &quot;shared&quot;: 컨텐츠는 데이터 유형별로 공유 테이블에 저장됩니다
+  * &quot;전용&quot;: 컨텐츠가 전용 테이블에 저장됩니다.
 
   SQL 특성 테이블은 특성 유형에 따라 자동으로 작성됩니다.
 
-   * 전용: `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
-   * 공유: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
+  * 전용: `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
+  * 공유: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
   특성 필드에는 특성에서 단일 값이 인증되는 단순 필드와 여러 값을 포함할 수 있는 컬렉션 요소에 특성이 연결되는 다중 선택 필드의 두 가지 유형이 있습니다.
 
@@ -120,11 +121,11 @@ Adobe Campaign에는 네 가지 유형의 `<element>` 요소가 있습니다.
 
   액세스 가능한 값은 다음과 같습니다.
 
-   * &quot;define&quot;: Adobe Campaign은 링크를 통해 참조되는 엔티티를 삭제하지 않습니다
-   * &quot;보통&quot;: 소스 발생 항목을 삭제하면 대상 발생 시 링크의 키가 초기화됩니다(기본 모드). 이 유형의 무결성은 모든 외래 키를 초기화합니다.
-   * &quot;own&quot;: 소스 발생 항목을 삭제하면 대상 발생 항목의 삭제가 트리거됩니다.
-   * &quot;owncopy&quot;: &quot;own&quot;(삭제 시)과 유사하거나 발생 항목을 중복(복제 시)합니다.
-   * &quot;neutral&quot;: 아무 작업도 하지 않음
+  * &quot;define&quot;: Adobe Campaign은 링크를 통해 참조되는 엔티티를 삭제하지 않습니다
+  * &quot;보통&quot;: 소스 발생 항목을 삭제하면 대상 발생 시 링크의 키가 초기화됩니다(기본 모드). 이 유형의 무결성은 모든 외래 키를 초기화합니다.
+  * &quot;own&quot;: 소스 발생 항목을 삭제하면 대상 발생 항목의 삭제가 트리거됩니다.
+  * &quot;owncopy&quot;: &quot;own&quot;(삭제 시)과 유사하거나 발생 항목을 중복(복제 시)합니다.
+  * &quot;neutral&quot;: 아무 작업도 하지 않음
 
 * **레이블(문자열)**: 요소 레이블입니다.
 * **labelSingular(string)**: 인터페이스의 일부 부분에서 사용되는 요소의 레이블(singular form).
@@ -134,10 +135,10 @@ Adobe Campaign에는 네 가지 유형의 `<element>` 요소가 있습니다.
 
   스키마가 데이터베이스에 기록되면 Adobe Campaign에서 필드 이름에 접두사가 자동으로 추가됩니다.
 
-   * &quot;i&quot;: &#39;정수&#39; 유형의 접두사입니다.
-   * &quot;d&quot;: &#39;double&#39; 유형의 접두사입니다.
-   * &quot;s&quot;: 문자열 유형의 접두사입니다.
-   * &quot;ts&quot;: &#39;날짜&#39; 유형의 접두사입니다.
+  * &quot;i&quot;: &#39;정수&#39; 유형의 접두사입니다.
+  * &quot;d&quot;: &#39;double&#39; 유형의 접두사입니다.
+  * &quot;s&quot;: 문자열 유형의 접두사입니다.
+  * &quot;ts&quot;: &#39;날짜&#39; 유형의 접두사입니다.
 
   테이블 이름을 자동 방식으로 정의하려면 기본 스키마 요소의 정의에 &quot;@sqltable&quot; 속성을 사용해야 합니다.
 
@@ -146,9 +147,9 @@ Adobe Campaign에는 네 가지 유형의 `<element>` 요소가 있습니다.
 * **pkSequence(문자열)**: 자동 증분 키 계산에 사용할 시퀀스 이름을 받습니다. 이 속성은 자동 증분 키가 스키마의 루트 요소에 정의된 경우에만 사용할 수 있습니다.
 * **pkgStatus(문자열)**: 패키지를 내보내는 동안 값이 이 특성 값의 함수로 고려됩니다.
 
-   * &quot;always&quot;: 요소가 항상 존재합니다.
-   * &quot;never&quot;: 요소가 존재하지 않습니다.
-   * &quot;default (또는 nothing)&quot;: 기본 요소가 아니거나 내부 필드가 아니며 다른 인스턴스와 호환되지 않는 경우 요소를 내보냅니다
+  * &quot;always&quot;: 요소가 항상 존재합니다.
+  * &quot;never&quot;: 요소가 존재하지 않습니다.
+  * &quot;default (또는 nothing)&quot;: 기본 요소가 아니거나 내부 필드가 아니며 다른 인스턴스와 호환되지 않는 경우 요소를 내보냅니다
 
 * **ref(문자열)**: 이 특성은 여러 스키마에서 공유되는 >element> 요소에 대한 참조를 정의합니다(정의 팩토링). 정의가 현재 스키마에 복사되지 않습니다.
 * **필수(부울)**: 이 특성이 활성화된 경우(@required=&quot;true&quot;), 인터페이스에서 필드가 강조 표시됩니다. 필드의 레이블은 양식에서 빨간색으로 표시됩니다.
@@ -157,8 +158,8 @@ Adobe Campaign에는 네 가지 유형의 `<element>` 요소가 있습니다.
 
   가능한 값:
 
-   * &quot;단일&quot; : 단순 1-1 유형 링크
-   * &quot;unbound&quot;: 1-N 유형 컬렉션 링크
+  * &quot;단일&quot; : 단순 1-1 유형 링크
+  * &quot;unbound&quot;: 1-N 유형 컬렉션 링크
 
   링크를 만드는 동안 특성이 지정되지 않으면 기본적으로 카디널리티는 1-N이 됩니다.
 
@@ -181,32 +182,32 @@ Adobe Campaign에는 네 가지 유형의 `<element>` 요소가 있습니다.
 
   사용 가능한 유형 목록:
 
-   * 모든
-   * bin
-   * blob
-   * 부울
-   * 바이트
-   * CDATA
-   * datetime
-   * datetimetz
-   * datetimenotz
-   * 날짜
-   * 중복
-   * enum
-   * 부동
-   * html
-   * int64
-   * 링크
-   * 롱
-   * 메모
-   * MNTOKEN
-   * 백분율
-   * primarykey
-   * short
-   * 문자열
-   * 시간
-   * timespan
-   * uuid
+  * 모든
+  * 빈
+  * blob
+  * 부울
+  * 바이트
+  * CDATA
+  * datetime
+  * datetimetz
+  * datetimenotz
+  * 날짜
+  * 중복
+  * enum
+  * 부동
+  * html
+  * int64
+  * 링크
+  * 롱
+  * 메모
+  * MNTOKEN
+  * 백분율
+  * primarykey
+  * short
+  * 문자열
+  * 시간
+  * timespan
+  * uuid
 
 * **바인딩되지 않음(부울)**: 특성이 활성화된 경우(바인딩되지 않음=&quot;true&quot;) 링크는 1-N 카디널리티에 대한 컬렉션 요소로 선언됩니다.
 * **userEnum(문자열)**: &quot;open&quot; 열거형의 내부 이름을 받습니다. 열거형 값은 인터페이스에서 사용자가 정의할 수 있습니다.

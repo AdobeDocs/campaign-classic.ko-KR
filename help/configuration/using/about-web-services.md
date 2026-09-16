@@ -8,18 +8,19 @@ exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
 TQID: https://experienceleague.adobe.com/fZRtM-J9LP9AqvrRMeyzErpCXsfBbC1UIUpskV4PEqU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 subfeature_v2: []
 source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
 workflow-type: tm+mt
-source-wordcount: 664
+source-wordcount: '664'
 ht-degree: 4%
-
 ---
-
 # 웹 서비스 정보{#about-web-services}
 
 ## Adobe Campaign API의 정의 {#definition-of-adobe-campaign-apis}
@@ -31,7 +32,7 @@ Adobe Campaign API는 애플리케이션 내의 JavaScript 및 애플리케이�
 >[!IMPORTANT]
 >
 >하루에 인증된 엔진 호출 수는 라이선스 계약에 따라 다릅니다. 자세한 정보는 이 [페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-classic---product-description.html)를 참조하십시오.\
->전체 설명을 포함한 모든 API 목록은 [이 전용 설명서]&#x200B;(https://experienceleague.adobe.com/ko/tools/campaign-api)에서 확인할 수 있습니다.
+>전체 설명을 포함한 모든 API 목록은 [이 전용 설명서]&#x200B;(https://experienceleague.adobe.com/en/tools/campaign-api)에서 확인할 수 있습니다.
 
 ## 필수 구성 요소 {#prerequisites}
 

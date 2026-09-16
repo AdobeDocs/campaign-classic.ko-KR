@@ -3,7 +3,7 @@ product: campaign
 title: LDAP를 통해 연결
 description: LDAP를 사용하여 Campaign에 로그인하는 방법 알아보기
 feature: Installation, Instance Settings
-badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -11,17 +11,17 @@ exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
 TQID: https://experienceleague.adobe.com/GMKB83dj65iqnlu97uX-d672TWOysjd4gspRLEfz-y8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1070
-ht-degree: 1%
-
+source-wordcount: '1077'
+ht-degree: 3%
 ---
-
 # LDAP를 통해 연결 {#connecting-through-ldap}
 
 ## Campaign 및 LDAP 구성 {#configuring-campaign-and-ldap}
@@ -42,19 +42,19 @@ LDAP 구성은 배포 마법사에서 수행됩니다. 첫 번째 구성 단계�
 * **[!UICONTROL LDAP server]** 필드에 LDAP 서버의 주소를 지정하십시오. 포트 번호를 추가할 수 있습니다. 기본적으로 사용되는 포트는 389입니다.
 * 드롭다운 목록에서 사용자에 대한 인증 방법을 선택합니다.
 
-   * 암호화된 암호(**md5**) - 기본 모드입니다.
+  * 암호화된 암호(**md5**) - 기본 모드입니다.
 
-   * 일반 텍스트 암호 + SSL(**TLS**) - 전체 인증 절차(암호 포함)가 암호화됩니다. 이 모드에서는 보안 포트 636을 사용하지 않아야 합니다. Adobe Campaign은 자동으로 보안 모드로 전환됩니다.
+  * 일반 텍스트 암호 + SSL(**TLS**) - 전체 인증 절차(암호 포함)가 암호화됩니다. 이 모드에서는 보안 포트 636을 사용하지 않아야 합니다. Adobe Campaign은 자동으로 보안 모드로 전환됩니다.
 
-     이 인증 모드를 사용하는 경우 Linux에서는 openLDAP 클라이언트 라이브러리로 인증서를 확인합니다. 인증 절차가 암호화되도록 유효한 SSL 인증서를 사용하는 것이 좋습니다. 그렇지 않으면 정보는 일반 텍스트로 표시됩니다.
+    이 인증 모드를 사용하는 경우 Linux에서는 openLDAP 클라이언트 라이브러리로 인증서를 확인합니다. 인증 절차가 암호화되도록 유효한 SSL 인증서를 사용하는 것이 좋습니다. 그렇지 않으면 정보는 일반 텍스트로 표시됩니다.
 
-     인증서는 Windows에서도 확인됩니다.
+    인증서는 Windows에서도 확인됩니다.
 
-   * Windows NT LAN 관리자(**NTLM**) - 소유 Windows 인증. **[!UICONTROL Unique identifier]**&#x200B;은(는) 도메인 이름에만 사용됩니다.
+  * Windows NT LAN 관리자(**NTLM**) - 소유 Windows 인증. **[!UICONTROL Unique identifier]**&#x200B;은(는) 도메인 이름에만 사용됩니다.
 
-   * 분산 암호 인증(**DPA**) - 전용 Windows 인증. **[!UICONTROL Unique identifier]**&#x200B;은(는) 도메인 이름(domain.com)에만 사용됩니다.
+  * 분산 암호 인증(**DPA**) - 전용 Windows 인증. **[!UICONTROL Unique identifier]**&#x200B;은(는) 도메인 이름(domain.com)에만 사용됩니다.
 
-   * 일반 텍스트 암호 - 암호화 없음(테스트 단계에서만 사용).
+  * 일반 텍스트 암호 - 암호화 없음(테스트 단계에서만 사용).
 
 * 사용자 인증 모드를 선택하십시오. **[!UICONTROL Automatically compute the unique user identifier]**([고유 이름 계산](#distinguished-name-calculation)단계 참조) 또는 **[!UICONTROL Search the unique user identifier in the directory]**([식별자 검색](#searching-for-identifiers)단계 참조).
 
@@ -125,17 +125,17 @@ DN(식별 이름) 식별자를 계산하려는 경우 배포 마법사의 다음
 
   ![](assets/s_ncs_install_deployment_wiz_ldap_03.png)
 
-   1. **[!UICONTROL Recursive (default mode)]**.
+  1. **[!UICONTROL Recursive (default mode)]**.
 
-      LDAP 디렉터리는 지정된 수준부터 전체 검색됩니다.
+     LDAP 디렉터리는 지정된 수준부터 전체 검색됩니다.
 
-   1. **[!UICONTROL Limited to the base]**.
+  1. **[!UICONTROL Limited to the base]**.
 
-      모든 속성은 검색에 포함됩니다.
+     모든 속성은 검색에 포함됩니다.
 
-   1. **[!UICONTROL Limited to the first sub-level of the base]**.
+  1. **[!UICONTROL Limited to the first sub-level of the base]**.
 
-      검색은 디렉토리의 모든 속성에 대해 수행되며 속성의 첫 번째 레벨에서 시작됩니다.
+     검색은 디렉토리의 모든 속성에 대해 수행되며 속성의 첫 번째 레벨에서 시작됩니다.
 
 * **[!UICONTROL Filter]** 필드를 사용하면 검색 범위를 구체화할 요소를 지정할 수 있습니다.
 

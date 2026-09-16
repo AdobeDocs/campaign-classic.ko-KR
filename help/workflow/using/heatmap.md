@@ -8,22 +8,27 @@ exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
 TQID: https://experienceleague.adobe.com/i8BnIsz83IdW4kofr2OBtzXokKiyeJuQl3jIBpsOQx0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1147
+source-wordcount: '1148'
 ht-degree: 3%
-
 ---
-
 # 워크플로 히트맵 {#workflow-heatmap}
 
 
@@ -110,7 +115,7 @@ Campaign 워크플로우 HeatMap은 현재 실행 중인 모든 워크플로우�
 
 격자는 이러한 각 5분 기간에 대해 동시에 실행되는 모든 워크플로우를 표시합니다.
 
-아래 예에서 오전 8시와 오전 8:05am 사이에 세 개의 워크플로우가 실행 중입니다(개별 기간에 관계 없음).
+아래 예에서 오전 8시부터 오전 8시 5분 사이에 세 개의 워크플로우가 실행 중입니다(개별 기간에 관계 없음).
 
 ![](assets/wkf_monitoring_ex_8am.png)
 

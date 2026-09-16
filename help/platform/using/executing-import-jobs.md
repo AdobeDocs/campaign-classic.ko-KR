@@ -3,7 +3,7 @@ product: campaign
 title: 가져오기 작업 구성
 description: Campaign에서 가져오기 작업을 구성하고 실행하는 방법 알아보기
 feature: Overview
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -11,20 +11,24 @@ exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
 TQID: https://experienceleague.adobe.com/OeRVFm6L-3N6yoIAKyTImaQb6d411UE8-NZ2jHu5VCc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 3009
+source-wordcount: '3000'
 ht-degree: 0%
-
 ---
-
 # 가져오기 작업 구성 {#executing-import-jobs}
 
 
@@ -33,7 +37,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 >[!NOTE]
 >
->**[!UICONTROL Import a list]** 함수를 사용하여 데이터베이스 데이터와 매핑하지 않고 데이터를 가져올 수 있습니다. 그런 다음 **[!UICONTROL Read list]** 개체를 통해 워크플로우에서만 데이터를 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html?lang=ko){target="_blank"}를 참조하세요.
+>**[!UICONTROL Import a list]** 함수를 사용하여 데이터베이스 데이터와 매핑하지 않고 데이터를 가져올 수 있습니다. 그런 다음 **[!UICONTROL Read list]** 개체를 통해 워크플로우에서만 데이터를 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html){target="_blank"}를 참조하세요.
 
 가져오기 도우미에서 가져오기를 구성하고, 해당 옵션(예: 데이터 변환)을 정의하고, 실행을 시작할 수 있습니다. 가져오기 유형(단순 또는 다중)과 운영자의 권한에 따라 콘텐츠가 달라지는 일련의 화면입니다.
 
@@ -83,21 +87,21 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 * **[!UICONTROL General]** 탭
 
-   * **[!UICONTROL Stop execution if there are too many rejects]**
+  * **[!UICONTROL Stop execution if there are too many rejects]**
 
-     이 옵션은 기본적으로 선택되어 있습니다. 거부 수에 관계없이 가져오기를 계속 실행하려면 가져오기를 선택 해제할 수 있습니다. 기본적으로 처음 100개 행이 거부되면 실행이 중지됩니다.
+    이 옵션은 기본적으로 선택되어 있습니다. 거부 수에 관계없이 가져오기를 계속 실행하려면 가져오기를 선택 해제할 수 있습니다. 기본적으로 처음 100개 행이 거부되면 실행이 중지됩니다.
 
-   * **[!UICONTROL Trace mode]**
+  * **[!UICONTROL Trace mode]**
 
-     각 라인에 대한 가져오기 실행을 추적하려면 이 옵션을 선택합니다.
+    각 라인에 대한 가져오기 실행을 추적하려면 이 옵션을 선택합니다.
 
-   * **[!UICONTROL Start the job in a detached process]**
+  * **[!UICONTROL Start the job in a detached process]**
 
-     이 옵션은 기본적으로 선택되어 있습니다. 가져오기 실행을 분리하여 데이터베이스에서 진행 중인 다른 작업에 영향을 주지 않도록 할 수 있습니다.
+    이 옵션은 기본적으로 선택되어 있습니다. 가져오기 실행을 분리하여 데이터베이스에서 진행 중인 다른 작업에 영향을 주지 않도록 할 수 있습니다.
 
-   * **[!UICONTROL Do not update enumerations]**
+  * **[!UICONTROL Do not update enumerations]**
 
-     데이터베이스에 열거형 값 목록이 보강되지 않도록 하려면 이 옵션을 선택합니다. [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}에서 **열거형으로 작업**&#x200B;하는 방법에 대해 자세히 알아보세요.
+    데이터베이스에 열거형 값 목록이 보강되지 않도록 하려면 이 옵션을 선택합니다. [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}에서 **열거형으로 작업**&#x200B;하는 방법에 대해 자세히 알아보세요.
 
 
 * **[!UICONTROL Variables]** 탭
@@ -298,45 +302,45 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 * **[!UICONTROL Edit]** 링크를 클릭하여 수신자를 연결하거나 구독할 폴더, 목록 또는 서비스를 선택합니다.
 
-   1. 폴더로 가져오기
+  1. 폴더로 가져오기
 
-      **[!UICONTROL Import into a folder]** 섹션의 **[!UICONTROL Edit...]** 링크를 사용하여 수신자를 가져올 폴더를 선택하거나 만들 수 있습니다. 기본적으로 정의된 파티션이 없으면 데이터를 연산자의 기본 폴더로 가져옵니다.
+     **[!UICONTROL Import into a folder]** 섹션의 **[!UICONTROL Edit...]** 링크를 사용하여 수신자를 가져올 폴더를 선택하거나 만들 수 있습니다. 기본적으로 정의된 파티션이 없으면 데이터를 연산자의 기본 폴더로 가져옵니다.
 
-      >[!NOTE]
-      >
-      >연산자의 기본 폴더는 연산자가 쓰기 액세스 권한을 갖는 첫 번째 폴더입니다. [폴더 액세스 관리](../../platform/using/access-management-folders.md)에서 자세히 알아보세요.
+     >[!NOTE]
+     >
+     >연산자의 기본 폴더는 연산자가 쓰기 액세스 권한을 갖는 첫 번째 폴더입니다. [폴더 액세스 관리](../../platform/using/access-management-folders.md)에서 자세히 알아보세요.
 
-      가져오기 폴더를 선택하려면 **[!UICONTROL Folder]** 필드 오른쪽에 있는 화살표를 클릭하고 관련 폴더를 선택합니다. **[!UICONTROL Select link]** 아이콘을 사용하여 새 창에 트리를 표시하거나 새 폴더를 만들 수도 있습니다.
+     가져오기 폴더를 선택하려면 **[!UICONTROL Folder]** 필드 오른쪽에 있는 화살표를 클릭하고 관련 폴더를 선택합니다. **[!UICONTROL Select link]** 아이콘을 사용하여 새 창에 트리를 표시하거나 새 폴더를 만들 수도 있습니다.
 
-      ![](assets/s_ncs_user_import_wizard05_2.png)
+     ![](assets/s_ncs_user_import_wizard05_2.png)
 
-      새 폴더를 만들려면 폴더를 추가할 노드를 선택하고 마우스 오른쪽 단추를 클릭합니다. **[!UICONTROL Create a new 'Recipients' folder]**&#x200B;을(를) 선택합니다.
+     새 폴더를 만들려면 폴더를 추가할 노드를 선택하고 마우스 오른쪽 단추를 클릭합니다. **[!UICONTROL Create a new 'Recipients' folder]**&#x200B;을(를) 선택합니다.
 
-      ![](assets/s_ncs_user_import_wizard05_3.png)
+     ![](assets/s_ncs_user_import_wizard05_3.png)
 
-      폴더가 현재 노드 아래에 추가됩니다. 새 폴더 이름을 입력하고 Enter 키를 눌러 확인한 다음 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
+     폴더가 현재 노드 아래에 추가됩니다. 새 폴더 이름을 입력하고 Enter 키를 눌러 확인한 다음 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
-      ![](assets/s_ncs_user_import_wizard05_4.png)
+     ![](assets/s_ncs_user_import_wizard05_4.png)
 
-   1. 목록과 연결
+  1. 목록과 연결
 
-      **[!UICONTROL Add recipients to a list]** 섹션의 **[!UICONTROL Edit...]** 링크를 사용하여 수신자를 가져올 목록을 선택하거나 만들 수 있습니다.
+     **[!UICONTROL Add recipients to a list]** 섹션의 **[!UICONTROL Edit...]** 링크를 사용하여 수신자를 가져올 목록을 선택하거나 만들 수 있습니다.
 
-      ![](assets/s_ncs_user_import_wizard05_5.png)
+     ![](assets/s_ncs_user_import_wizard05_5.png)
 
-      **[!UICONTROL Select link]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Create]**&#x200B;을(를) 클릭하여 이러한 받는 사람에 대한 새 목록을 만들 수 있습니다. 목록 만들기 및 관리는 [이 섹션](../../platform/using/creating-and-managing-lists.md)에 표시됩니다.
+     **[!UICONTROL Select link]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Create]**&#x200B;을(를) 클릭하여 이러한 받는 사람에 대한 새 목록을 만들 수 있습니다. 목록 만들기 및 관리는 [이 섹션](../../platform/using/creating-and-managing-lists.md)에 표시됩니다.
 
-      ![](assets/s_ncs_user_import_wizard05_6.png)
+     ![](assets/s_ncs_user_import_wizard05_6.png)
 
-      목록에 이미 있는 수신자에 수신자를 추가하거나 새 수신자가 있는 목록을 다시 만들도록 결정할 수 있습니다. 이 경우 목록에 수신자가 이미 포함되어 있으면 삭제되고 가져온 수신자로 바뀝니다.
+     목록에 이미 있는 수신자에 수신자를 추가하거나 새 수신자가 있는 목록을 다시 만들도록 결정할 수 있습니다. 이 경우 목록에 수신자가 이미 포함되어 있으면 삭제되고 가져온 수신자로 바뀝니다.
 
-   1. 서비스 구독
+  1. 서비스 구독
 
-      가져온 모든 수신자를 정보 서비스에 가입하려면 **[!UICONTROL Subscribe recipients to a service]** 섹션의 **[!UICONTROL Edit...]** 링크를 클릭하여 수신자가 가입할 정보 서비스를 선택하거나 만드십시오. **[!UICONTROL Send a confirmation message]** 옵션을 선택할 수 있습니다. 이 메시지의 내용은 구독 서비스와 연결된 게재 템플릿에 정의되어 있습니다.
+     가져온 모든 수신자를 정보 서비스에 가입하려면 **[!UICONTROL Subscribe recipients to a service]** 섹션의 **[!UICONTROL Edit...]** 링크를 클릭하여 수신자가 가입할 정보 서비스를 선택하거나 만드십시오. **[!UICONTROL Send a confirmation message]** 옵션을 선택할 수 있습니다. 이 메시지의 내용은 구독 서비스와 연결된 게재 템플릿에 정의되어 있습니다.
 
-      ![](assets/s_ncs_user_import_wizard05_7.png)
+     ![](assets/s_ncs_user_import_wizard05_7.png)
 
-      **[!UICONTROL Select link]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Create]** 아이콘을 클릭하여 이러한 수신자에 대한 새 서비스를 만들 수 있습니다. 정보 서비스 관리는 [이 섹션](../../delivery/using/managing-subscriptions.md)에 나와 있습니다.
+     **[!UICONTROL Select link]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Create]** 아이콘을 클릭하여 이러한 수신자에 대한 새 서비스를 만들 수 있습니다. 정보 서비스 관리는 [이 섹션](../../delivery/using/managing-subscriptions.md)에 나와 있습니다.
 
 * **[!UICONTROL Origin]** 필드를 사용하여 받는 사람의 원본 정보를 프로필에 추가하십시오. 이 정보는 다중 가져오기의 프레임워크 내에서 특히 유용합니다.
 

@@ -3,7 +3,7 @@ product: campaign
 title: 캠페인 게재 설정 구성
 description: Campaign 게재 설정을 구성하는 방법 알아보기
 feature: Installation, Channel Configuration
-badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
@@ -11,18 +11,19 @@ exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
 TQID: https://experienceleague.adobe.com/UqFS48Wvx9JP84bhLSDfMe1OYscrgzknFcjKT0CWvY8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 514
+source-wordcount: '502'
 ht-degree: 8%
-
 ---
-
 # 게재 설정 구성 {#delivery-settings}
 
 
@@ -96,7 +97,7 @@ IP 주소를 사용하여 선호도를 통해 아웃바운드 SMTP 트래픽을 
 
    >[!NOTE]
    >
-   >[Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}에서 **열거형으로 작업**&#x200B;하는 방법에 대해 자세히 알아보세요.
+   >[Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}에서 **열거형으로 작업**&#x200B;하는 방법에 대해 자세히 알아보세요.
 
 
    그런 다음 유형화에 대해 아래에 표시된 대로 사용할 선호도를 선택할 수 있습니다.

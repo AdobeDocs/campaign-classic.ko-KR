@@ -8,24 +8,31 @@ exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 TQID: https://experienceleague.adobe.com/8NB9NaZqp0IQnnlyezjCt3dTDMvJsdszb8zIJsI9GRw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
 subfeature_v2:
   - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
+    internal-label: Privacy
   - id: d0dbac2b-cbd2-42b3-956e-60af02966728
+    internal-label: Encryption
   - id: f807e46f-d823-43a9-98be-82e0b2f3a05c
+    internal-label: Subdomains and certificates
   - id: fb2a841f-c522-491f-9901-a1b939d252df
+    internal-label: Security
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 842
+source-wordcount: '843'
 ht-degree: 69%
-
 ---
-
 # Campaign Classic에 대한 도움말 및 지원 옵션 {#help-support-options}
 
 Campaign Classic에 대한 지원이 필요하십니까? 제대로 찾아오셨습니다.
@@ -61,7 +68,7 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
         <ul>
         <li><a href="production/using/performance-and-throughput-issues.md">성능 및 처리량 문제</a></li>
         <li><a href="delivery/using/delivery-performance-troubleshooting.md">게재 성능</a></li>
-        <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ko" target="_blank">워크플로우 성능 최적화</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html" target="_blank">워크플로우 성능 최적화</a></li>
         <li><a href="workflow/using/monitoring-workflow-execution.md">워크플로우 실행 문제 해결</a></li>
         <li><a href="platform/using/sftp-server-usage.md">SFTP 서버 사용</a></li>
         <li><a href="delivery/using/delivery-failures-quarantine.md">게재 실패 이해</a></li>
@@ -69,14 +76,14 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
     </td>
    <td valign="top">
         <ul>
-        <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ko" target="_blank">워크플로우 모범 사례</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html" target="_blank">워크플로우 모범 사례</a></li>
         <li><a href="workflow/using/monitoring-technical-workflows.md">기술 워크플로우 모니터링</a></li>
         <li><a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">추적 관리 이해</a></li>
         <li><a href="production/using/monitoring-guidelines.md">모니터링 도구 살펴보기</a></li>
         <li><a href="platform/using/import-export-workflows.md">워크플로로 데이터 가져오기</a></li>
         <li><a href="delivery/using/steps-sending-the-delivery.md">여러 번의 웨이브로 메시지 보내기</a></li>
         <li><a href="delivery/using/defining-the-email-content.md">이메일 콘텐츠 디자인</a></li>
-        <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ko" target="_blank">게재 모범 사례</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html" target="_blank">게재 모범 사례</a></li>
         </ul>
     </td>
     <td valign="top">
@@ -120,7 +127,7 @@ Campaign Campaign 컨트롤 패널을 사용하면 각 인스턴스의 사용량
 
 ### SFTP 관리
 
-컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 저장소 용량을 모니터링하고, IP 주소 및 공개 SSH 키를 관리할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ko)하십시오.
+컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 저장소 용량을 모니터링하고, IP 주소 및 공개 SSH 키를 관리할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)하십시오.
 
 ### 하위 도메인 및 인증서
 
@@ -145,7 +152,7 @@ Campaign 컨트롤 패널에서 Campaign Classic 인스턴스 설정을 관리�
 
 ### 전문가에게 물어보세요!
 
-Campaign Classic Community 가입: 기존 질문에서 답변을 검색하거나 커뮤니티에 질문을 할 수 있습니다. [대화에 참여](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ko){_blank}.
+Campaign Classic Community 가입: 기존 질문에서 답변을 검색하거나 커뮤니티에 질문을 할 수 있습니다. [대화에 참여](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}.
 
 ### Campaign 다운로드 센터 액세스
 

@@ -4,27 +4,31 @@ title: 사용자 정의 수신자 테이블 정보
 description: 사용자 정의 수신자 테이블 정보
 feature: Configuration, Custom Resources
 role: User, Developer
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
 TQID: https://experienceleague.adobe.com/Okjz7RRmzZCTCBNbBqR1nHDq7ML8WjrJrs1XR0aDZSE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 692
+source-wordcount: '683'
 ht-degree: 2%
-
 ---
-
 # 사용자 정의 수신자 테이블 사용{#about-custom-recipient-table}
 
 이 섹션에서는 사용자 지정(또는 외부) 수신자 테이블 사용에 대한 원칙을 자세히 설명합니다.
@@ -55,8 +59,8 @@ ht-degree: 2%
 
   권장 사항:
 
-   * **[!UICONTROL nms:BroadLogRcp]** 및 **[!UICONTROL nms:TrackingLogRcp]** 스키마를 기본 제공 **[!UICONTROL nms:Recipientschema]**&#x200B;에 전용으로 사용 중입니다. 이러한 두 로그 테이블은 추가 사용자 지정 수신자 테이블에 연결하면 안 됩니다.
-   * 각 새 사용자 정의 수신자 스키마에 대한 전용 사용자 정의 브로드로그 및 추적 로그 스키마를 정의합니다. 대상 매핑을 설정할 때 자동으로 수행할 수 있습니다. [대상 매핑](../../configuration/using/target-mapping.md)을 참조하세요.
+  * **[!UICONTROL nms:BroadLogRcp]** 및 **[!UICONTROL nms:TrackingLogRcp]** 스키마를 기본 제공 **[!UICONTROL nms:Recipientschema]**&#x200B;에 전용으로 사용 중입니다. 이러한 두 로그 테이블은 추가 사용자 지정 수신자 테이블에 연결하면 안 됩니다.
+  * 각 새 사용자 정의 수신자 스키마에 대한 전용 사용자 정의 브로드로그 및 추적 로그 스키마를 정의합니다. 대상 매핑을 설정할 때 자동으로 수행할 수 있습니다. [대상 매핑](../../configuration/using/target-mapping.md)을 참조하세요.
 
 * 제품에 제공되는 표준 **[!UICONTROL Services and Subscriptions]**&#x200B;을(를) 사용할 수 없습니다.
 

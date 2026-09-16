@@ -3,7 +3,7 @@ product: campaign
 title: 개인 정보 판매 옵트아웃
 description: 개인 데이터 판매 옵트아웃에 대해 알아보기
 feature: Privacy, Privacy Tools
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
@@ -11,23 +11,29 @@ exl-id: 8e308a9f-14a4-4a25-9fd0-8d4bdbcf74ce
 TQID: https://experienceleague.adobe.com/EIMnHxqbi5XFMKI5kQRv11A3c-g50crZlx-Uq-ZcowE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 591
-ht-degree: 93%
-
+source-wordcount: '582'
+ht-degree: 94%
 ---
-
 # 개인 정보 판매 옵트아웃(CCPA) {#sale-of-personal-information-ccpa}
 
 
@@ -100,7 +106,7 @@ Adobe Campaign이 제공하는 [동의 관리](privacy-management.md#consent-man
 
    ![](assets/privacy-ccpa-6.png)
 
-1. 이 열을 클릭하여 옵트아웃 정보에 따라 수신자를 정렬할 수 있습니다. 옵트아웃한 수신자만 표시하는 필터를 만들 수도 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
+1. 이 열을 클릭하여 옵트아웃 정보에 따라 수신자를 정렬할 수 있습니다. 옵트아웃한 수신자만 표시하는 필터를 만들 수도 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
 
 
    ![](assets/privacy-ccpa-7.png)

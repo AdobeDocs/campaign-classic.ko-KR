@@ -8,29 +8,41 @@ exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
 TQID: https://experienceleague.adobe.com/9gc7VAt25SZk-QEFwAKpmRJCtRQu1HpMXQYzaRZAJ2I
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1161
+source-wordcount: '1161'
 ht-degree: 1%
-
 ---
-
 # 대상자 동기화{#synchronizing-audiences}
 
 
@@ -141,7 +153,7 @@ Campaign Standard에서 게재 워크플로우를 만들면 이 대상과 게재
 
    이 활동은 선택한 대상자의 데이터를 검색하는 데 사용됩니다. 필요한 경우 이 활동의 해당 탭을 사용하여 **[!UICONTROL Source Filtering]**&#x200B;을(를) 추가로 적용할 수도 있습니다.
 
-1. **[!UICONTROL Email delivery]** 활동을 추가하고 다른 [이메일 게재 활동](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html?lang=ko)&#x200B;(으)로 구성합니다.
+1. **[!UICONTROL Email delivery]** 활동을 추가하고 다른 [이메일 게재 활동](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html)&#x200B;(으)로 구성합니다.
 1. 게재 콘텐츠를 엽니다.
 1. 개인화 필드 추가. 팝업에서 **[!UICONTROL Additional data (targetData)]** 노드를 찾습니다. 이 노드에는 초기 타겟팅 워크플로우에서 계산된 대상자의 추가 데이터가 포함되어 있습니다. 다른 개인화 필드로 사용할 수 있습니다.
 
@@ -163,9 +175,9 @@ Campaign Standard에서 게재 워크플로우를 만들면 이 대상과 게재
 1. 게재 대시보드에서 게재를 보낼 수 있는지 수동으로 확인합니다.
 1. 게재의 보고서 및 로그 모니터링:
 
-   * **Campaign Standard에서**: 모든 게재에 대해 게재와 관련된 [보고서](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html?lang=ko) 및 [로그](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=ko)에 액세스합니다.
+   * **Campaign Standard에서**: 모든 게재에 대해 게재와 관련된 [보고서](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html) 및 [로그](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html)에 액세스합니다.
    * **Campaign v7 및 Campaign Standard**: 게재 ID, 전자 메일 브로드 로그 및 전자 메일 추적 로그가 Campaign v7에 동기화됩니다. 그런 다음 Campaign v7에서 마케팅 캠페인을 360° 각도로 볼 수 있습니다.
 
      격리는 자동으로 다시 Campaign v7에 동기화됩니다. 이렇게 하면 Campaign v7에서 수행된 다음 타깃팅을 위해 전달할 수 없는 정보를 고려할 수 있습니다.
 
-     Campaign Standard의 격리 관리에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=ko)을 참조하세요.
+     Campaign Standard의 격리 관리에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html)을 참조하세요.

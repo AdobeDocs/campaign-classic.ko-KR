@@ -10,27 +10,37 @@ exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 TQID: https://experienceleague.adobe.com/ivE0WuT3rnpH0ro0cBHgJXxXRiRELmJLwHrYVi-Md6Y
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 2093
+source-wordcount: '2105'
 ht-degree: 2%
-
 ---
-
 # 빌드 업그레이드 FAQ {#build-upgrade-faq}
 
 이 FAQ는 특히 온-프레미스 및 하이브리드 배포에 대한 Campaign Classic v7 빌드 업그레이드에 대한 질문을 해결합니다.
@@ -225,14 +235,14 @@ API를 통해 새 레코드를 삽입할 수 있는지 확인합니다.
 모든 콘텐츠가 표시되고 표시됩니다.
 * 배달이 올바른 시간대로 진행되고 있습니까?
 
-   * 타임스탬프 및 시간대로 생성 날짜 및 수정 날짜 확인
-   * 지정한 시간에 워크플로우에서 스케줄러 실행이 작동하는지 확인합니다
-   * 일시 중지됨 및 실패 상태인 워크플로 목록을 가져옵니다. 시작 및 모니터링
-   * 한 시나리오에 대해 AB Testing 실행
-   * 딥링크에 대한 추적 기능과 함께 푸시 알림 테스트
-   * SMS 전송 테스트
-   * 외부 FDA가 연결된 경우 데이터가 두 가지 방법으로 전송되는지 테스트합니다
-   * Adobe Campaign-Adobe Experience Manager, Adobe Campaign-Adobe Analytics과 같은 통합을 사용하는 경우 이전처럼 계속 작동하는지 테스트합니다
+  * 타임스탬프 및 시간대로 생성 날짜 및 수정 날짜 확인
+  * 지정한 시간에 워크플로우에서 스케줄러 실행이 작동하는지 확인합니다
+  * 일시 중지됨 및 실패 상태인 워크플로 목록을 가져옵니다. 시작 및 모니터링
+  * 한 시나리오에 대해 AB Testing 실행
+  * 딥링크에 대한 추적 기능과 함께 푸시 알림 테스트
+  * SMS 전송 테스트
+  * 외부 FDA가 연결된 경우 데이터가 두 가지 방법으로 전송되는지 테스트합니다
+  * Adobe Campaign-Adobe Experience Manager, Adobe Campaign-Adobe Analytics과 같은 통합을 사용하는 경우 이전처럼 계속 작동하는지 테스트합니다
 
 **참조 항목**
 

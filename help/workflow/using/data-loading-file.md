@@ -8,21 +8,25 @@ exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
 TQID: https://experienceleague.adobe.com/PJrUzETTVGOlfnNcnYgUxOSEhZatGBfcDST49uwUVwM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1150
+source-wordcount: '1150'
 ht-degree: 14%
-
 ---
-
 # 데이터 로딩(파일){#data-loading-file}
 
 ## 사용 {#use}
@@ -73,27 +77,27 @@ ht-degree: 14%
 * **[!UICONTROL Data type]**: 각 열에 필요한 데이터 형식을 지정합니다.
 * **[!UICONTROL Allow NULLs]**: 빈 값을 관리하는 방법을 지정합니다.
 
-   * **[!UICONTROL Adobe Campaign default]**: 숫자 필드에 대해서만 오류를 생성하고, 다른 필드의 경우 NULL 값을 삽입합니다.
-   * **[!UICONTROL Empty value allowed]**: 빈 값을 허용합니다. 따라서 NULL 값이 삽입됩니다.
-   * **[!UICONTROL Always populated]**: 값이 비어 있는 경우 오류를 생성합니다.
+  * **[!UICONTROL Adobe Campaign default]**: 숫자 필드에 대해서만 오류를 생성하고, 다른 필드의 경우 NULL 값을 삽입합니다.
+  * **[!UICONTROL Empty value allowed]**: 빈 값을 허용합니다. 따라서 NULL 값이 삽입됩니다.
+  * **[!UICONTROL Always populated]**: 값이 비어 있는 경우 오류를 생성합니다.
 
 * **[!UICONTROL Length]**: **문자열** 데이터 형식의 최대 문자 수를 지정합니다.
 * **[!UICONTROL Format]**: 시간 및 날짜 형식을 정의합니다.
 * **[!UICONTROL Data transformation]**: **문자열**&#x200B;에 대소문자 프로세스를 적용할지 여부를 정의합니다.
 
-   * **[!UICONTROL None]**: 가져온 문자열이 수정되지 않았습니다.
-   * **[!UICONTROL First letter in upper case]**: 문자열의 각 단어의 첫 번째 문자가 대문자로 시작합니다.
-   * **[!UICONTROL Upper case]**: 문자열의 모든 문자가 대문자입니다.
-   * **[!UICONTROL Lower case]**: 문자열의 모든 문자가 소문자입니다.
+  * **[!UICONTROL None]**: 가져온 문자열이 수정되지 않았습니다.
+  * **[!UICONTROL First letter in upper case]**: 문자열의 각 단어의 첫 번째 문자가 대문자로 시작합니다.
+  * **[!UICONTROL Upper case]**: 문자열의 모든 문자가 대문자입니다.
+  * **[!UICONTROL Lower case]**: 문자열의 모든 문자가 소문자입니다.
 
 * **[!UICONTROL White space management]**: 문자열에서 특정 공백을 무시할지 여부를 지정합니다. **[!UICONTROL Ignore spaces]** 값은 문자열의 시작과 끝에 있는 공백만 무시할 수 있습니다.
 * **[!UICONTROL Error processings]**: 오류가 발생하는 경우의 비헤이비어를 정의합니다.
 
-   * **[!UICONTROL Ignore the value]**: 값이 무시됩니다. 워크플로 실행 로그에 경고가 생성됩니다.
-   * **[!UICONTROL Reject line]**: 전체 줄을 처리하지 않습니다.
-   * **[!UICONTROL Use a default value in case of error]**: 오류를 일으키는 값을 **[!UICONTROL Default value]** 필드에 정의된 기본값으로 바꿉니다.
-   * **[!UICONTROL Reject the line when there is no remapping value]**: 잘못된 값에 대한 매핑이 정의되어 있지 않은 경우 전체 줄을 처리하지 않습니다(아래 **[!UICONTROL Mapping]** 옵션 참조).
-   * **[!UICONTROL Use a default value in case the value is not remapped]**: 잘못된 값에 대한 매핑이 정의되어 있지 않은 경우, 오류를 일으키는 값을 **[!UICONTROL Default value]** 필드에 정의된 기본값으로 바꿉니다(아래 **[!UICONTROL Mapping]** 옵션 참조).
+  * **[!UICONTROL Ignore the value]**: 값이 무시됩니다. 워크플로 실행 로그에 경고가 생성됩니다.
+  * **[!UICONTROL Reject line]**: 전체 줄을 처리하지 않습니다.
+  * **[!UICONTROL Use a default value in case of error]**: 오류를 일으키는 값을 **[!UICONTROL Default value]** 필드에 정의된 기본값으로 바꿉니다.
+  * **[!UICONTROL Reject the line when there is no remapping value]**: 잘못된 값에 대한 매핑이 정의되어 있지 않은 경우 전체 줄을 처리하지 않습니다(아래 **[!UICONTROL Mapping]** 옵션 참조).
+  * **[!UICONTROL Use a default value in case the value is not remapped]**: 잘못된 값에 대한 매핑이 정의되어 있지 않은 경우, 오류를 일으키는 값을 **[!UICONTROL Default value]** 필드에 정의된 기본값으로 바꿉니다(아래 **[!UICONTROL Mapping]** 옵션 참조).
 
 * **[!UICONTROL Default value]**: 선택한 오류 처리에 따라 기본값을 지정합니다.
 * **[!UICONTROL Mapping]**: 이 필드는 열 세부 사항 구성(두 번 클릭 또는 열 목록 오른쪽의 옵션을 통해 액세스)에서만 사용할 수 있습니다. 이렇게 하면 특정 값을 가져올 때 변형됩니다. 예를 들어 &quot;셋&quot;을 &quot;3&quot;으로 변환할 수 있습니다.

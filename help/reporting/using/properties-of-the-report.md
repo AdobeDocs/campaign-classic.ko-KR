@@ -2,28 +2,33 @@
 product: campaign
 title: 보고서의 속성
 description: 보고서 속성 설정에 대해 자세히 알아보기
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
 TQID: https://experienceleague.adobe.com/NAcXKBNoDJRopQf-QpqnFhwxFRvvScp7xShJotE0s1A
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: '431'
 ht-degree: 2%
-
 ---
-
 # 보고서의 속성{#properties-of-the-report}
 
 
@@ -32,7 +37,7 @@ ht-degree: 2%
 
 ![](assets/s_ncs_advuser_report_properties_01.png)
 
-일반 속성은 아래에 설명되어 있습니다. **[!UICONTROL Parameters]**, **[!UICONTROL Variables]** 및 **[!UICONTROL Scripts]** 탭에 구성된 고급 기능은 이 섹션[&#128279;](../../reporting/using/advanced-functionalities.md)에서 에 설명되어 있습니다.
+일반 속성은 아래에 설명되어 있습니다. **[!UICONTROL Parameters]**, **[!UICONTROL Variables]** 및 **[!UICONTROL Scripts]** 탭에 구성된 고급 기능은 이 섹션](../../reporting/using/advanced-functionalities.md)에서 [에 설명되어 있습니다.
 
 ## 일반 속성 {#overall-properties}
 

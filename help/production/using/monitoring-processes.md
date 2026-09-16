@@ -3,7 +3,7 @@ product: campaign
 title: 프로세스 모니터링
 description: Campaign 프로세스를 모니터링하는 방법 알아보기
 feature: Monitoring
-badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
@@ -11,21 +11,25 @@ exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
 TQID: https://experienceleague.adobe.com/rTFIt6bZHR9dwiUr2KTTsoFCPX48cItfbE7u8l8mEqA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 3682
+source-wordcount: '3671'
 ht-degree: 1%
-
 ---
-
 # 프로세스 모니터링{#monitoring-processes}
 
 
@@ -564,7 +568,7 @@ XML 구성 파일에는 다음 요소가 포함되어 있습니다.
 * **mailServer**: 전자 메일을 보내는 데 사용되는 SMTP 서버(예: smtp.domain.net).
 * **mailFrom**: 보고서를 보낸 사람의 전자 메일 주소입니다(예: monitoring@domain.net).
 * **recipientList**: 모니터링 받는 사람의 전자 메일 주소 목록입니다. 주소는 공백 없이 쉼표로 구분해야 합니다.
-* 지정된 기간 사이에 전자 메일을 보내지 않도록 하려면 &#39;**night**&#39; 모드(선택 사항)를 사용합니다. 대신 데이터가 통합되고, 종료 시간(기본적으로 7:00) 이후에 야간 활동과 관련된 이메일이 전송됩니다.
+* 지정된 기간 사이에 전자 메일을 보내지 않도록 하려면 &#39;**night**&#39; 모드(선택 사항)를 사용합니다. 대신, 데이터가 통합되고, 밤 활동과 관련된 이메일이 종료 시간(기본적으로 7:00) 이후에 전송됩니다.
 * **buildRange** 하위 요소(선택 사항)를 사용하면 최소 및 최대 빌드 수를 지정할 수 있습니다. 빌드 번호가 이 범위에 속하지 않는 모든 컴퓨터에 대해 오류가 생성됩니다.
 
   ```

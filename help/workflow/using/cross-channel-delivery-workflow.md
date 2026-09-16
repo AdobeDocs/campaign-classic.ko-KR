@@ -8,20 +8,23 @@ exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
 TQID: https://experienceleague.adobe.com/oW8I9CvGs9L0tubxdAtdD1kviQbgsC7rKTSeCIWSKy8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 683
+source-wordcount: '683'
 ht-degree: 3%
-
 ---
-
 # 크로스 채널 게재 워크플로{#cross-channel-delivery-workflow}
 
 
@@ -123,7 +126,7 @@ ht-degree: 3%
 1. 워크플로우에서 게재 활동을 두 번 클릭하여 편집합니다. 전자 메일 및 SMS 만들기에 대한 자세한 내용은 [전자 메일 채널](../../delivery/using/about-email-channel.md) 및 [SMS 채널](../../delivery/using/sms-channel.md)을 참조하세요.
 1. **[!UICONTROL List update]** 활동을 두 번 클릭하고 **[!UICONTROL Generate an outbound transition]** 옵션을 선택합니다.
 
-   그런 다음 결과 수신자를 Adobe Campaign에서 Adobe Experience Cloud으로 내보낼 수 있습니다. 예를 들어 워크플로우에 **[!UICONTROL Update shared audience]** 활동을 추가하여 Adobe Target의 대상을 사용할 수 있습니다. 자세한 내용은 [대상자 내보내기](../../integrations/using/importing-and-exporting-audiences.md#exporting-an-audience)를 참조하세요.
+   그런 다음 결과 수신자를 Adobe Campaign에서 Adobe Experience Cloud로 내보낼 수 있습니다. 예를 들어 워크플로우에 **[!UICONTROL Update shared audience]** 활동을 추가하여 Adobe Target의 대상을 사용할 수 있습니다. 자세한 내용은 [대상자 내보내기](../../integrations/using/importing-and-exporting-audiences.md#exporting-an-audience)를 참조하세요.
 
 1. 워크플로를 실행하려면 작업 표시줄에서 **시작** 단추를 클릭하세요.
 

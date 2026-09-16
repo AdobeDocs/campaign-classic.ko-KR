@@ -10,32 +10,45 @@ exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 TQID: https://experienceleague.adobe.com/8-DYZII2iuPYgAUSytJowvP7pXIUY1h1H-OWzlav7UQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 930
+source-wordcount: '932'
 ht-degree: 12%
-
 ---
-
 # Android용 구성 단계
 
 패키지가 설치되면 Adobe Campaign Classic에서 Android 앱 설정을 정의할 수 있습니다.
@@ -71,7 +84,7 @@ Android의 경우 두 개의 커넥터를 사용할 수 있습니다.
 
    >[!NOTE]
    >
-   > https://localhost:8080/nms/jsp/androidPushConnector.js과 같이 구성할 수도 있지만, 커넥터 버전 2를 사용하는 것이 좋습니다.
+   > https://localhost:8080/nms/jsp/androidPushConnector.js에 따라 구성할 수도 있지만 커넥터 버전 2를 사용하는 것이 좋습니다.
 
    ![](assets/nmac_connectors3.png)
 
@@ -81,7 +94,7 @@ Android의 경우 두 개의 커넥터를 사용할 수 있습니다.
 
 ## Android 서비스 구성 {#configuring-android-service}
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 Android 서비스를 구성하는 방법에 대해 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=ko#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}.
+![](assets/do-not-localize/how-to-video.png) [비디오에서 Android 서비스를 구성하는 방법에 대해 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}.
 
 1. **[!UICONTROL Profiles and Targets > Services and subscriptions]** 노드로 이동하여 **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
@@ -170,7 +183,7 @@ HTTP v1 API 버전을 구성하려면 아래 단계를 수행합니다.
 
 ## appsubscriptionRcp 스키마 확장 {#extend-subscription-schema}
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 appsubscriptionRcp 스키마를 확장하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html?lang=ko#extending-the-app-subscription-schema-to-personalize-push-notifications)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 appsubscriptionRcp 스키마를 확장하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html#extending-the-app-subscription-schema-to-personalize-push-notifications)
 
 앱의 매개 변수를 Campaign 데이터베이스에 저장하려면 **appsubscriptionRcp**&#x200B;을(를) 확장하여 새 추가 필드를 정의해야 합니다. 이러한 필드는 예를 들어 개인화에 사용됩니다. 방법은 다음과 같습니다.
 

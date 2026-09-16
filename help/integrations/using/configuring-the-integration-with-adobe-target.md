@@ -10,23 +10,29 @@ exl-id: ae8c680f-52a6-4d00-91cd-44d1c3807546
 TQID: https://experienceleague.adobe.com/k6TljRgymSefOITPaogJdR7HOrl1BnnZm9jbkemrcyg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 198
+source-wordcount: '198'
 ht-degree: 2%
-
 ---
-
 # Adobe Target과의 통합 구성{#configuring-the-integration-with-adobe-target}
 
 
@@ -47,7 +53,7 @@ Adobe Campaign에서 이 통합을 구성하려면 아래 단계를 따르십시
 
    이 패키지를 사용하면 Digital Asset Manager를 통해 공유 에셋에 액세스할 수 있습니다.
 
-1. IMS(Adobe ID 연결 서비스)를 통한 연결을 활성화하여 이메일에서 Adobe Experience Cloud을 통해 공유되는 이미지를 사용합니다. [자세히 알아보기](../../integrations/using/about-adobe-id.md)
+1. IMS(Adobe ID 연결 서비스)를 통해 연결하여 Adobe Experience Cloud를 통해 공유한 이미지를 이메일에서 사용할 수 있습니다. [자세히 알아보기](../../integrations/using/about-adobe-id.md)
 1. **[!UICONTROL Administration > Platform > Options]**(으)로 이동하여 Adobe Target에 대한 서버 및 조직(테넌트) 옵션을 구성합니다.
 
    ![](assets/tar_options.png)

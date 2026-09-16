@@ -3,7 +3,7 @@ product: campaign
 title: 인스턴스 배포
 description: Campaign 배포 마법사에 대해 자세히 알아보기
 feature: Installation, Instance Settings, Deployment
-badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
@@ -11,23 +11,29 @@ exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
 TQID: https://experienceleague.adobe.com/M1uqZA6cfopJkJ-pg3m-1R-eBbM55zv7R-FSxOfFUwI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 3479
+source-wordcount: '3471'
 ht-degree: 2%
-
 ---
-
 # 인스턴스 배포{#deploying-an-instance}
 
 >[!NOTE]
@@ -92,12 +98,12 @@ Adobe Campaign은 Adobe Campaign 클라이언트 콘솔에서 사용할 수 있�
 다음 매개 변수를 지정합니다.
 
 * **[!UICONTROL Sender name]** : 보낸 사람의 이름을 입력합니다.
-* **[!UICONTROL Sender address]** : 보낸 사람의 전자 메일 주소를 입력합니다. Adobe Campaign에서 전자 메일을 보낼 때 **보낸 사람 주소** 사서함이 모니터링되지 않으며 마케팅 사용자가 이 사서함에 액세스할 수 없습니다. Adobe Campaign은 또한 이 사서함에서 받은 전자 메일을 자동 회신 또는 자동 전달하는 기능을 제공하지 않습니다. 게재 가능성 모범 사례 [에 대한 자세한 내용은 이 설명서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform.html?lang=ko){_blank}를 참조하세요.
+* **[!UICONTROL Sender address]** : 보낸 사람의 전자 메일 주소를 입력합니다. Adobe Campaign에서 전자 메일을 보낼 때 **보낸 사람 주소** 사서함이 모니터링되지 않으며 마케팅 사용자가 이 사서함에 액세스할 수 없습니다. Adobe Campaign은 또한 이 사서함에서 받은 전자 메일을 자동 회신 또는 자동 전달하는 기능을 제공하지 않습니다. 게재 가능성 모범 사례 [에 대한 자세한 내용은 이 설명서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform.html){_blank}를 참조하세요.
 
 * **[!UICONTROL Reply address text]** : 수신자가 **[!UICONTROL Reply]** 단추를 클릭할 때 사용되는 이름을 입력합니다.
 * **[!UICONTROL Reply address]** : 수신자가 전자 메일 클라이언트 소프트웨어에서 **[!UICONTROL Reply]** 단추를 클릭할 때 사용할 전자 메일 주소를 입력합니다. **회신 주소** 필드의 목적은 받는 사람이 **보낸 사람 주소**&#x200B;가 아닌 다른 주소로 회신하도록 하기 위한 것입니다.  이 주소는 올바른 이메일 주소여야 하며, 모니터링되는 사서함에 연결되어 있고 고객이 호스팅해야 합니다.  예를 들어 `customer-care@customer.com`과(와) 같이 전자 메일을 읽고 응답하는 지원 사서함일 수 있습니다.
 
-* **[!UICONTROL Error address]** : 오류가 있는 메시지의 이메일 주소를 입력합니다. 존재하지 않는 대상 주소로 인해 Adobe Campaign 서버가 받은 이메일을 포함하여 바운스 메일을 처리하는 데 사용되는 기술 주소입니다. 이 주소는 올바른 이메일 주소여야 하며, 모니터링되는 사서함에 연결되어 있고 고객이 호스팅해야 합니다. 바운스 사서함일 수 있습니다(예: `errors@customer.com`). 이 주소는 게재 또는 게재 템플릿에서 게재/게재 템플릿 속성의 **SMTP** 탭에서 변경할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html?lang=ko#managing-bounce-emails){target="_blank"}를 참조하세요.
+* **[!UICONTROL Error address]** : 오류가 있는 메시지의 이메일 주소를 입력합니다. 존재하지 않는 대상 주소로 인해 Adobe Campaign 서버가 받은 이메일을 포함하여 바운스 메일을 처리하는 데 사용되는 기술 주소입니다. 이 주소는 올바른 이메일 주소여야 하며, 모니터링되는 사서함에 연결되어 있고 고객이 호스팅해야 합니다. 바운스 사서함일 수 있습니다(예: `errors@customer.com`). 이 주소는 게재 또는 게재 템플릿에서 게재/게재 템플릿 속성의 **SMTP** 탭에서 변경할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html#managing-bounce-emails){target="_blank"}를 참조하세요.
 
 이외에도 보낸 사람 주소 및 오류 주소에 승인된 **마스크**&#x200B;를 지정할 수 있습니다. 필요에 따라 이러한 마스크는 쉼표를 사용하여 분리할 수 있다. 이 구성은 선택 사항입니다. 필드를 입력하면 Adobe Campaign은 게재 시(분석 시, 주소에 변수가 포함되지 않은 경우) 주소가 유효한지 확인합니다. 이 운영 모드에서는 게재 문제를 트리거할 수 있는 주소가 사용되지 않습니다. 게재 서버에서 게재 주소를 구성해야 합니다.
 
@@ -395,7 +401,7 @@ Adobe Campaign을 사용하면 이러한 세 가지 URL을 구별하여 여러 �
 
   이 값은 각 게재에 대해 재정의할 수 있습니다.
 
-* 공개 리소스의 경우 URL **https://** server **/res/** instance **&#x200B;**. 여기서&#x200B;**instance**&#x200B;은(는) 추적 인스턴스의 이름입니다.
+* 공개 리소스의 경우 URL **https://** server **/res/** instance ****. 여기서&#x200B;**instance**은(는) 추적 인스턴스의 이름입니다.
 
 ### 게재 이미지 감지 {#delivery-image-detection}
 
@@ -407,7 +413,7 @@ Adobe Campaign을 사용하면 이러한 세 가지 URL을 구별하여 여러 �
 
 각 URL 마스크를 구분하기 위해 쉼표를 사용하여 여러 URL 마스크를 지정할 수 있습니다.
 
-* 이메일에서 이미지 사용 및 관리에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko#adding-images){target="_blank"}를 참조하세요.
+* 이메일에서 이미지 사용 및 관리에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}를 참조하세요.
 * 게재 도우미에서 이러한 URL에서 호출된 이미지는 &quot;무시됨&quot; 상태가 됩니다.
 
 ### 게시 모드 {#publication-modes}
@@ -442,16 +448,16 @@ Adobe Campaign을 사용하면 이러한 세 가지 URL을 구별하여 여러 �
 
   스크립트를 사용하여 이미지를 게시할 수 있습니다.
 
-   * 이 스크립트를 만들어야 합니다. 스크립트의 내용은 구성에 따라 다릅니다.
-   * 다음 명령을 사용하여 스크립트가 호출됩니다.
+  * 이 스크립트를 만들어야 합니다. 스크립트의 내용은 구성에 따라 다릅니다.
+  * 다음 명령을 사용하여 스크립트가 호출됩니다.
 
-     ```
-     [INSTALL]/copyToFrontal.vbs "$(XTK_INSTALL_DIR)\var\<instance>\upload\" "img1,img2,img3"
-     ```
+    ```
+    [INSTALL]/copyToFrontal.vbs "$(XTK_INSTALL_DIR)\var\<instance>\upload\" "img1,img2,img3"
+    ```
 
-     여기서 `[INSTALL]`은(는) Adobe Campaign 설치 폴더의 액세스 경로입니다.
+    여기서 `[INSTALL]`은(는) Adobe Campaign 설치 폴더의 액세스 경로입니다.
 
-   * Unix에서 스크립트가 실행 가능한지 확인합니다.
+  * Unix에서 스크립트가 실행 가능한지 확인합니다.
 
 이미지의 경우 **NmsDelivery_ImageSubDirectory** 옵션을 통해 지정된 &quot;images&quot; 폴더에서 하나 이상의 전면 서버로 복사해야 합니다. 이러한 서버는 새 구성된 URL을 통해 액세스할 수 있도록 이미지를 저장합니다.
 

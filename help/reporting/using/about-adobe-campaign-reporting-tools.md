@@ -3,29 +3,36 @@ product: campaign
 title: Adobe Campaign 보고 도구 기본 정보
 description: 빌드-인 또는 사용자 정의 보고서에서 캠페인의 성공을 분석합니다
 feature: Reporting, Monitoring
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
 TQID: https://experienceleague.adobe.com/4D-bCeMQakNjr7OXhiZ1u0Sfp5MZWwzZzHtykBfFzZ8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 362
+source-wordcount: '353'
 ht-degree: 19%
-
 ---
-
 # 보고 시작 {#about-adobe-campaign-reporting-tools}
 
 
@@ -34,7 +41,7 @@ ht-degree: 19%
 
 Adobe Campaign은 전문 보고 도구가 아닙니다. Adobe Campaign에서 생성된 보고서는 주로 집계된 데이터를 볼 수 있도록 해줍니다. 데이터 분석 및 표시 전용인 Adobe Campaign 보고서는 데이터베이스 내보내기를 위해 설계되지 않았습니다.
 
-Adobe Campaign 데이터베이스에서 데이터를 내보내려면 워크플로우를 만들고 데이터 내보내기 활동을 사용해야 합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html?lang=ko){target="_blank"}를 참조하십시오.
+Adobe Campaign 데이터베이스에서 데이터를 내보내려면 워크플로우를 만들고 데이터 내보내기 활동을 사용해야 합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"}를 참조하십시오.
 
 Adobe Campaign은 다음과 같은 몇 가지 보고 도구를 제공합니다.
 

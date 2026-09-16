@@ -2,25 +2,28 @@
 product: campaign
 title: 게재 구성
 description: 전용 사용 사례를 통해 A/B 테스트를 수행하는 방법에 대해 알아봅니다
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: 809de30b-7d08-40de-bf3e-dc80d62eae80
 TQID: https://experienceleague.adobe.com/7fr4R6dly8-CJh9XYRpAwus1-AUJaz496LOPrWebt0k
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 250
+source-wordcount: '241'
 ht-degree: 0%
-
 ---
-
 # AB 테스트: 워크플로우에서 게재 구성 {#step-4--configuring-the-deliveries-in-the-workflow}
 
 [모집단](a-b-testing-uc-population-samples.md)이 만들어지면 게재를 구성할 수 있습니다. 이 사용 사례에서 처음 두 게재를 사용하면 모집단 A와 B에 서로 다른 콘텐츠를 보낼 수 있습니다. 세 번째 게재는 폴백 게재입니다. A와 B에 속하지 않는 수신자에게 전송됩니다. 콘텐츠는 스크립트로 계산되며, 가장 높은 공개 비율을 득점한 항목에 따라 A 또는 B 중 하나와 동일합니다. 게재 A와 B의 결과를 알아보기 위해 세 번째 게재의 대기 기간을 구성해야 합니다. 세 번째 게재에 **[!UICONTROL Wait]** 활동이 포함된 이유입니다.

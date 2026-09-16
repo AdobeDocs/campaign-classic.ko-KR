@@ -3,7 +3,7 @@ product: campaign
 title: 인바운드 채널에 대한 오퍼
 description: 인바운드 채널에 대한 오퍼
 feature: Interaction, Offers
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: case-study
@@ -11,18 +11,19 @@ exl-id: 90afced3-465d-4370-8a33-51a7e4356135
 TQID: https://experienceleague.adobe.com/HkXtRV9hn2hZSZyxx86o2muGafhdhWuLp-uYBe4xTaU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 2102
+source-wordcount: '2093'
 ht-degree: 1%
-
 ---
-
 # 인바운드 채널에 대한 오퍼{#offers-on-an-inbound-channel}
 
 
@@ -187,21 +188,21 @@ Neobank 회사는 두 개의 다른 타겟에 대한 마케팅 오퍼를 생성�
 
 * 다음 단계를 사용하여 익명 인바운드 상호 작용과 관련된 오퍼 카탈로그를 만듭니다.
 
-   1. [익명 연락처를 위한 환경 만들기](#creating-an-environment-for-anonymous-contacts)
-   1. [익명 환경에 대한 오퍼 공간 구성](#configuring-offer-spaces-for-the-anonymous-environment)
-   1. [익명 환경에서 오퍼 카테고리 만들기](#creating-offer-categories-in-an-anonymous-environment)
-   1. [익명 방문자를 위한 오퍼 만들기](#creating-offers-for-anonymous-visitors)
+  1. [익명 연락처를 위한 환경 만들기](#creating-an-environment-for-anonymous-contacts)
+  1. [익명 환경에 대한 오퍼 공간 구성](#configuring-offer-spaces-for-the-anonymous-environment)
+  1. [익명 환경에서 오퍼 카테고리 만들기](#creating-offer-categories-in-an-anonymous-environment)
+  1. [익명 방문자를 위한 오퍼 만들기](#creating-offers-for-anonymous-visitors)
 
 * 다음 단계를 사용하여 식별된 인바운드 상호 작용과 관련된 오퍼 카탈로그를 만듭니다.
 
-   1. [식별된 환경에서 오퍼 공간 구성](#configure-the-offer-spaces-in-the-identified-environment)
-   1. [식별된 환경에서 오퍼 카테고리 만들기](#creating-offer-categories-in-an-identified-environment)
-   1. [개인화된 오퍼 만들기](#creating-personalized-offers)
+  1. [식별된 환경에서 오퍼 공간 구성](#configure-the-offer-spaces-in-the-identified-environment)
+  1. [식별된 환경에서 오퍼 카테고리 만들기](#creating-offer-categories-in-an-identified-environment)
+  1. [개인화된 오퍼 만들기](#creating-personalized-offers)
 
 * 오퍼 엔진에 대한 호출을 구성합니다.
 
-   1. [웹 페이지에서 오퍼 공간 구성](#configuring-offer-spaces-on-the-web-page)
-   1. [식별된 오퍼 공간의 고급 설정 지정](#specifying-the-advanced-settings-of-the-identified-offer-spaces)
+  1. [웹 페이지에서 오퍼 공간 구성](#configuring-offer-spaces-on-the-web-page)
+  1. [식별된 오퍼 공간의 고급 설정 지정](#specifying-the-advanced-settings-of-the-identified-offer-spaces)
 
 ### 익명 연락처를 위한 환경 만들기 {#creating-an-environment-for-anonymous-contacts}
 

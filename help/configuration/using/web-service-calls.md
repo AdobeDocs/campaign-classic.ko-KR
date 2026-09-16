@@ -8,22 +8,26 @@ exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
 TQID: https://experienceleague.adobe.com/-VSnXHtg3Zi3VGHVAF72uRpJa3gulT3h40BIsdnGjqo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 923
+source-wordcount: '923'
 ht-degree: 1%
-
 ---
-
 # 웹 서비스 호출{#web-service-calls}
 
 ## 일반 정보 {#general-information}
@@ -215,8 +219,8 @@ Adobe Campaign은 [보안 영역](../../installation/using/security-zones.md) �
 * 임의 구성(더 이상 사용자 로그인 및 암호가 포함되지 않음)
 * 웹을 통해 액세스할 경우:
 
-   * 세션 토큰은 영구 토큰이 되며 브라우저가 닫히면 삭제되지 않습니다
-   * HTTP 전용 쿠키에 배치됩니다(운영자에 대해 쿠키가 활성화되어야 함)
+  * 세션 토큰은 영구 토큰이 되며 브라우저가 닫히면 삭제되지 않습니다
+  * HTTP 전용 쿠키에 배치됩니다(운영자에 대해 쿠키가 활성화되어야 함)
 
 ### 보안 토큰 특성 {#security-token-characteristics}
 
@@ -227,9 +231,9 @@ Adobe Campaign은 [보안 영역](../../installation/using/security-zones.md) �
 * Adobe Campaign 콘솔에 저장됩니다
 * 웹을 통해 액세스할 경우:
 
-   * document.securityToken 속성__ 저장됩니다
-   * 보안 토큰을 업데이트하기 위해 페이지 URL이 업데이트됩니다
-   * 토큰이 포함된 숨겨진 필드를 통해 양식도 업데이트됩니다
+  * document.securityToken 속성__ 저장됩니다
+  * 보안 토큰을 업데이트하기 위해 페이지 URL이 업데이트됩니다
+  * 토큰이 포함된 숨겨진 필드를 통해 양식도 업데이트됩니다
 
 #### 보안 토큰 이동 {#security-token-movement}
 

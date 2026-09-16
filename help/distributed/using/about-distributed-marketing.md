@@ -8,17 +8,18 @@ exl-id: c166409b-e040-491e-840a-a41310935d75
 TQID: https://experienceleague.adobe.com/1T-VO8AH7Rhk9HAhMufgPSSh4lNIC-D65ldnJIfDFvA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 subfeature_v2:
   - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
+    internal-label: Distributed Marketing
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 146
+source-wordcount: '146'
 ht-degree: 3%
-
 ---
-
 # 분산 마케팅 시작{#about-distributed-marketing}
 
 
@@ -33,7 +34,7 @@ Adobe Campaign에서는 중앙 엔터티(본사, 마케팅 부서 등) 간의 �
 
 >[!NOTE]
 >
->Adobe Campaign용 Distributed Marketing 및 사용 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target=_blank}를 참조하세요.
+>Adobe Campaign용 Distributed Marketing 및 사용 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target=_blank}를 참조하세요.
 
 <!--
 ## Terminology {#terminology}

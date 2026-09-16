@@ -3,7 +3,7 @@ product: campaign
 title: RDBMS 특정 권장 사항
 description: RDBMS 특정 권장 사항
 feature: Monitoring
-badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
@@ -11,19 +11,21 @@ exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
 TQID: https://experienceleague.adobe.com/WmadkiwNNUMeQSnm8O4NJjnv1GQHvO6hZ9kqtoGBySA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 feature_v2: []
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1267
+source-wordcount: '1255'
 ht-degree: 2%
-
 ---
-
 # RDBMS 특정 권장 사항{#rdbms-specific-recommendations}
 
 
@@ -166,7 +168,7 @@ PostgreSQL은 VACUUM FULL 문이 테이블을 잠그므로 온라인 테이블 �
 
 다음은 필요한 DDL을 생성하기 위해 특정 함수를 사용하는 테이블 조각 모음의 예입니다. 다음 SQL을 사용하면 두 개의 새 함수 **GenRebuildTablePart1**&#x200B;과(와) **GenRebuildTablePart2**&#x200B;을(를) 만들 수 있습니다. 이 함수는 테이블을 다시 만드는 데 필요한 DDL을 생성하는 데 사용할 수 있습니다.
 
-* 첫 번째 기능을 사용하면 원래 테이블의 복사본인 작업 테이블(**&#x200B; _tmp**&#x200B;을 만들 수 있습니다.
+* 첫 번째 기능을 사용하면 원래 테이블의 복사본인 작업 테이블(** _tmp**을 만들 수 있습니다.
 * 그런 다음 두 번째 함수는 원래 테이블을 삭제하고 작업 테이블과 해당 인덱스의 이름을 바꿉니다.
 * 한 함수 대신 두 함수를 사용한다는 것은 첫 번째 함수가 실패하면 원래 테이블을 삭제할 위험이 없다는 것을 의미합니다.
 

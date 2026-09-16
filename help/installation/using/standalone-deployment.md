@@ -10,15 +10,14 @@ exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
 TQID: https://experienceleague.adobe.com/AgGQgham1xWf9U5mAAc-Eul-izsp-tW6aNNPMobLvT4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1094
+source-wordcount: '1095'
 ht-degree: 2%
-
 ---
-
 # 독립형 배포{#standalone-deployment}
 
 
@@ -73,8 +72,8 @@ ht-degree: 2%
 * POP3를 통해 액세스할 수 있는 바운스 사서함,
 * 두 개의 DNS 별칭 생성:
 
-   * 처음으로 공개 IP에서 컴퓨터를 추적하고 가리키기 위해 대중에게 노출되었습니다.
-   * 콘솔 액세스를 위해 내부 사용자에게 노출되고 동일한 컴퓨터를 가리키는 두 번째 별칭입니다.
+  * 처음으로 공개 IP에서 컴퓨터를 추적하고 가리키기 위해 대중에게 노출되었습니다.
+  * 콘솔 액세스를 위해 내부 사용자에게 노출되고 동일한 컴퓨터를 가리키는 두 번째 별칭입니다.
 
 * SMTP(25), DNS(53), HTTP(80), HTTPS(443), SQL(1521 for Oracle, 5432 for PostgreSQL 등)을 열도록 구성된 방화벽 포트입니다. 자세한 내용은 [네트워크 구성](../../installation/using/network-configuration.md)을 참조하세요.
 

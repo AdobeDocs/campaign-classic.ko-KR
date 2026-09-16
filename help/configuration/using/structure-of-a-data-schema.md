@@ -8,17 +8,17 @@ exl-id: 86036f2f-ec7c-413e-b1e1-10a71a06cd6d
 TQID: https://experienceleague.adobe.com/bp-x2YrBY5WzNVTXJjpzdZgG45vNPPG9-z339I9U5Lw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 142
+source-wordcount: '142'
 ht-degree: 10%
-
 ---
-
 # 데이터 스키마 구조{#structure-of-a-data-schema}
 
 데이터 스키마의 구조는 트리 구조의 형태로 표시됩니다. Adobe Campaign 클라이언트 콘솔에서 그래픽으로 보려면 타겟팅된 스키마를 선택하고 **[!UICONTROL Structure]** 하위 탭을 클릭하십시오.

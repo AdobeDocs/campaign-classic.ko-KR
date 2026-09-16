@@ -3,7 +3,7 @@ product: campaign
 title: 일반 가져오기 샘플
 description: 가져오기 작업을 사용하여 수행할 수 있는 일반 가져오기에 대해 자세히 알아봅니다.
 feature: Data Management
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -11,21 +11,25 @@ exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
 TQID: https://experienceleague.adobe.com/NkKTg-a9jjxPxMawe-IUgd9V99qaoxUwWaM3-h4aUf0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1010
+source-wordcount: '1001'
 ht-degree: 1%
-
 ---
-
 # 일반 가져오기 샘플 {#import-operations-samples}
 
 
@@ -105,13 +109,13 @@ ht-degree: 1%
 
      **[!UICONTROL Tracking]** 모드를 사용하면 원본 파일의 각 레코드에 대한 가져오기 세부 정보를 추적할 수 있습니다. 이렇게 하려면 홈 페이지에서 **[!UICONTROL Profiles and Targets]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Processes]**&#x200B;을(를) 클릭하고 관련 가져오기를 선택한 다음 **[!UICONTROL General]**, **[!UICONTROL Journal]** 및 **[!UICONTROL Rejects]** 탭을 조회합니다.
 
-      * 가져오기 진행률 확인
+     * 가져오기 진행률 확인
 
-        ![](assets/s_ncs_user_import_example07_01.png)
+       ![](assets/s_ncs_user_import_example07_01.png)
 
-      * 각 레코드에 대한 프로세스 보기
+     * 각 레코드에 대한 프로세스 보기
 
-        ![](assets/s_ncs_user_import_example07_02.png)
+       ![](assets/s_ncs_user_import_example07_02.png)
 
 ## 수신자 업데이트 및 삽입 {#example--update-and-insert-recipients}
 

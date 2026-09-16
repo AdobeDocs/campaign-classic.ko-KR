@@ -3,16 +3,14 @@ product: campaign
 title: 큐브 정보
 description: 큐브 시작
 feature: Reporting, Monitoring
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 hide: true
 exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '397'
 ht-degree: 2%
-
 ---
-
 # 큐브 시작{#about-cubes}
 
 

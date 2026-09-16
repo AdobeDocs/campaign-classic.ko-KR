@@ -2,28 +2,33 @@
 product: campaign
 title: 웹 양식 번역
 description: 웹 양식 번역
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
 TQID: https://experienceleague.adobe.com/3oyhvCWX30kK7dtytjLYvO5Xnbu2-I7FGeJPcjcreho
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1592
+source-wordcount: '1583'
 ht-degree: 0%
-
 ---
-
 # 웹 양식 번역{#translating-a-web-form}
 
 
@@ -82,7 +87,7 @@ Adobe Campaign은 모든 정적 요소의 **[!UICONTROL Texts]** 탭에 정의�
 
 ### 문자열 필터링 {#filtering-strings}
 
-기본적으로 웹 애플리케이션의 각 번역 언어가 표시됩니다. 기본 필터에는 언어와 상태, 이렇게 두 가지가 있습니다. **[!UICONTROL Filters]** 단추를 클릭한 다음 **[!UICONTROL By language or status]**&#x200B;을(를) 클릭하여 일치하는 드롭다운 상자를 표시합니다. 고급 필터를 만들 수도 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
+기본적으로 웹 애플리케이션의 각 번역 언어가 표시됩니다. 기본 필터에는 언어와 상태, 이렇게 두 가지가 있습니다. **[!UICONTROL Filters]** 단추를 클릭한 다음 **[!UICONTROL By language or status]**&#x200B;을(를) 클릭하여 일치하는 드롭다운 상자를 표시합니다. 고급 필터를 만들 수도 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
 
 ![](assets/s_ncs_admin_survey_trad_tab_en.png)
 
@@ -181,7 +186,7 @@ Adobe Campaign 이외의 도구를 사용하여 문자 문자열을 내보내고
 &lang=xx
 ```
 
-url의 언어 앞에 다른 매개 변수가 있는 경우. 예: **https://myserver/webApp/APP34?status=1&lang=en**
+url의 언어 앞에 다른 매개 변수가 있는 경우. 예: **https://myserver/webApp/APP34?status=1&amp;lang=en**
 
 기본적으로 사용할 수 있는 번역 언어 및 사전은 아래에 나열되어 있습니다.
 
@@ -442,7 +447,7 @@ URL 끝에 **?lang=fr**&#x200B;을(를) 추가하여 프랑스어로 표시합�
 >[!NOTE]
 >
 >이 웹 응용 프로그램에 다른 매개 변수가 이미 사용된 경우 **&amp;lang=**&#x200B;을(를) 추가합니다.\
->예: **https://myserver/webApp/APP34?status=1&lang=en**
+>예: **https://myserver/webApp/APP34?status=1&amp;lang=en**
 
 ## 고급 번역 구성 {#advanced-translation-configuration}
 

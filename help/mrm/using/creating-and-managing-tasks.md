@@ -11,19 +11,21 @@ exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
 TQID: https://experienceleague.adobe.com/Mv-2GGcnP%2D%2D%2D%2DL-D2h5DDz3StnT5rH4TlnQdxn9bdnY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 subfeature_v2:
   - id: a6eada7c-dc79-4b66-a7d3-206cf47dc9d8
+    internal-label: Marketing Resource Management
 source-git-commit: 48d000a7ceada7e027f27f436ef643b321a7695c
 workflow-type: tm+mt
-source-wordcount: 3750
+source-wordcount: '3752'
 ht-degree: 0%
-
 ---
-
 # 작업 만들기 및 관리{#creating-and-managing-tasks}
 
 
@@ -320,8 +322,8 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
   일련의 연결된 작업을 사용하여 전체 승인 주기를 정의할 수 있습니다. 마지막 작업에 대해서만 **[!UICONTROL Publish the marketing resource]** 옵션을 선택하십시오. 리소스를 게시하려면 모든 작업을 완료해야 합니다. 또한 하위 마케팅 리소스 작업을 만들면 하위 작업에서 리소스가 자동으로 선택됩니다.
 
-   * **리소스를 통해**: 승인을 위해 리소스를 제출하거나 승인하면 이러한 작업은 작업에 영향을 주지 않습니다.
-   * **작업을 통해**: 작업에서 **[!UICONTROL Publish the marketing resource]** 옵션이 선택된 경우 작업이 완료되면 리소스가 자동으로 승인되고 게시됩니다(위 참조). 이 옵션을 선택하지 않으면 작업과 리소스가 상호 작용하지 않습니다. 한 작업에 대해 작업을 수행해도 다른 작업에는 영향을 주지 않습니다.
+  * **리소스를 통해**: 승인을 위해 리소스를 제출하거나 승인하면 이러한 작업은 작업에 영향을 주지 않습니다.
+  * **작업을 통해**: 작업에서 **[!UICONTROL Publish the marketing resource]** 옵션이 선택된 경우 작업이 완료되면 리소스가 자동으로 승인되고 게시됩니다(위 참조). 이 옵션을 선택하지 않으면 작업과 리소스가 상호 작용하지 않습니다. 한 작업에 대해 작업을 수행해도 다른 작업에는 영향을 주지 않습니다.
 
 #### 마케팅 리소스 만들기 작업 구성 {#configuring-a-marketing-resource-creation-task}
 
@@ -417,7 +419,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 ![](assets/s_ncs_user_task_dependencies_from_board.png)
 
-그룹화된 작업의 경우 Adobe Campaign은 상위 작업의 종료 날짜를 하위 작업에 시작 날짜로 자동 할당합니다. 예를 들어 **초대 만들기** 작업이 10월 15일 3:30PM에 끝나는 경우 **초대 이메일 보내기** 하위 작업은 10월 15일 3:30PM에 시작됩니다.
+그룹화된 작업의 경우 Adobe Campaign은 상위 작업의 종료 날짜를 하위 작업에 시작 날짜로 자동 할당합니다. 예를 들어 **초대 만들기** 작업이 10월 15일 오후 3시 30분에 끝나는 경우 **초대 이메일 보내기** 하위 작업은 10월 15일 오후 3시 30분에 시작됩니다.
 
 또한 상위 작업의 종료를 연기하면 일부 하위 작업이 영향을 받을 수 있습니다. 이 작업은 상태가 **[!UICONTROL Scheduled]**&#x200B;이고 시작 날짜가 상위 작업의 새 종료 날짜보다 이전인 하위 작업입니다. 작업 기간은 동일하게 유지됩니다. 하위 작업의 시작 날짜가 상위 작업의 새 종료 날짜보다 이후인 경우 하위 작업은 영향을 받지 않습니다.
 

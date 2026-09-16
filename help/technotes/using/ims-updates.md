@@ -8,18 +8,19 @@ exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
 TQID: https://experienceleague.adobe.com/JEGK7xRIWwipkqKnRGEByK7pCBCkgXzOrbMPHoXCDUU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 feature_v2: []
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 617
+source-wordcount: '617'
 ht-degree: 9%
-
 ---
-
 # IMS를 사용하여 Adobe Campaign에 연결하기 위해 환경을 업데이트하는 방법 {#acc-ims-faq}
 
 
@@ -28,7 +29,7 @@ ht-degree: 9%
 
 ## 변경 사항
 
-Adobe IMS(Identity Management Service)가 **2021년 6월 30일**&#x200B;에 이전 Internet Explorer 버전 지원을 중지했습니다. [자세히 알아보기](https://helpx.adobe.com/kr/x-productkb/global/update-operating-system-and-browser.html).
+Adobe IMS(Identity Management Service)가 **2021년 6월 30일**&#x200B;에 이전 Internet Explorer 버전 지원을 중지했습니다. [자세히 알아보기](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html).
 
 Adobe은 2021년 6월 30일 이전의 모든 고객을 위해 IMS 기능을 유지하려고 합니다. IMS는 사용자가 클라이언트 콘솔에 로그인할 수 있도록 하는 보안 프레임워크의 일부입니다. 따라서 Adobe Campaign입니다.
 
@@ -36,7 +37,7 @@ Adobe은 2021년 6월 30일 이전의 모든 고객을 위해 IMS 기능을 유�
 
 ## 영향을 받습니까?
 
-Adobe ID을 통해 [IMS(Adobe Identity Management Service)를 통해 &#x200B;](../../integrations/using/about-adobe-id.md) Campaign에 연결하고 아래 나열된 버전보다 이전 버전의 Campaign을 실행하는 경우 영향을 받습니다.
+Adobe ID을 통해 [IMS(Adobe Identity Management Service)를 통해 ](../../integrations/using/about-adobe-id.md) Campaign에 연결하고 아래 나열된 버전보다 이전 버전의 Campaign을 실행하는 경우 영향을 받습니다.
 
 이미 업그레이드했지만 이전 버전의 Microsoft Internet Explorer를 사용하는 경우 Internet Explorer 11로 업그레이드해야 합니다.
 
@@ -48,11 +49,11 @@ Adobe ID을 통해 [IMS(Adobe Identity Management Service)를 통해 &#x200B;](.
 
   아래 나열된 새 버전 중 하나로 업그레이드해야 합니다.
 
-   * Gold Standard 11. [자세히 알아보기](../../rn/using/gold-standard.md)
-   * Campaign 21.1.3 릴리스 [자세히 알아보기](../../rn/using/latest-release.md)
-   * Campaign 20.2.5 릴리스
-   * Campaign 20.1.4 릴리스
-   * Campaign 19.2.4 릴리스
+  * Gold Standard 11. [자세히 알아보기](../../rn/using/gold-standard.md)
+  * Campaign 21.1.3 릴리스 [자세히 알아보기](../../rn/using/latest-release.md)
+  * Campaign 20.2.5 릴리스
+  * Campaign 20.1.4 릴리스
+  * Campaign 19.2.4 릴리스
 
   이러한 릴리스는 새 연결 프로토콜과 함께 제공됩니다. Campaign 서버와 클라이언트 콘솔은 모두 업그레이드해야 합니다. 모든 인스턴스가 업그레이드되면 **2021년 6월 30일** 이후에 Campaign에 연결할 수 있도록 클라이언트 콘솔도 이 버전으로 업그레이드해야 합니다.
 
@@ -62,7 +63,7 @@ Adobe ID을 통해 [IMS(Adobe Identity Management Service)를 통해 &#x200B;](.
 
 **Campaign 버전을 확인하려면 어떻게 해야 합니까?**
 
-이 섹션[&#128279;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 을(를) 확인하는 방법을 알아보세요.
+이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 [을(를) 확인하는 방법을 알아보세요.
 
 
 **IMS를 사용하는지 어떻게 확인할 수 있습니까?**
@@ -85,7 +86,7 @@ Adobe ID을 통해 [IMS(Adobe Identity Management Service)를 통해 &#x200B;](.
 
 ![](../../integrations/using/assets/do-not-localize/errorMsg.png)
 
-이러한 경고가 표시되면 사용 중인 운영 체제의 최신 업데이트를 설치해야 합니다. [자세히 알아보기](https://helpx.adobe.com/kr/x-productkb/global/update-operating-system-and-browser.html)
+이러한 경고가 표시되면 사용 중인 운영 체제의 최신 업데이트를 설치해야 합니다. [자세히 알아보기](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
 
 Internet Explorer 버전을 업데이트하지 않으면 다음 메시지가 표시되어 더 이상 Adobe Campaign에 연결할 수 없습니다.
 

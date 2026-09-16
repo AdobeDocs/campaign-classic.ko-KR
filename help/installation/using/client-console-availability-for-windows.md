@@ -3,7 +3,7 @@ product: campaign
 title: Windows용 클라이언트 콘솔 가용성
 description: Windows용 클라이언트 콘솔 가용성
 feature: Installation, Upgrade
-badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
@@ -11,15 +11,14 @@ exl-id: 57845eae-1f1a-42f4-b2ba-46d454677ae0
 TQID: https://experienceleague.adobe.com/9FqLCew1PO-oxl2hBlK1-4L3SG7tVp28x8GUAPkK6gI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 359
+source-wordcount: '347'
 ht-degree: 9%
-
 ---
-
 # Windows용 클라이언트 콘솔 가용성{#client-console-availability-for-windows}
 
 
@@ -47,7 +46,7 @@ https://<your Adobe Campaign server>:>port number>/nl/jsp/logon.jsp
 
 이 페이지에는 응용 프로그램에 정의된 로그인 및 암호가 필요합니다.
 
-이 섹션[&#128279;](../../installation/using/installing-the-client-console.md)에서 콘솔 을(를) 설치하는 방법을 알아봅니다.
+이 섹션](../../installation/using/installing-the-client-console.md)에서 콘솔 [을(를) 설치하는 방법을 알아봅니다.
 
 ## 최종 사용자에게 클라이언트 콘솔 업그레이드 제안
 

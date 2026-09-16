@@ -8,23 +8,29 @@ exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
 TQID: https://experienceleague.adobe.com/HBJBBT-HPVgcMZnXAZ5ddn7m1ELtaV-obxy8lYo0ZLo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1024
+source-wordcount: '1024'
 ht-degree: 2%
-
 ---
-
 # 보고서 목록{#list-of-reports}
 
 
@@ -136,7 +142,7 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 �
 
 Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 확인할 수 있습니다.
 
-이러한 보고서의 내용에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ko){target=_blank}를 참조하세요.
+이러한 보고서의 내용에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}를 참조하세요.
 
 <table> 
  <tbody> 
@@ -232,7 +238,7 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 �
 
 Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 확인할 수 있습니다.
 
-이러한 보고서의 내용에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ko){target=_blank}를 참조하세요.
+이러한 보고서의 내용에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}를 참조하세요.
 
 <table> 
  <tbody> 

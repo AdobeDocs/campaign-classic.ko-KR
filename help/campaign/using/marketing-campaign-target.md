@@ -9,23 +9,28 @@ exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
 TQID: https://experienceleague.adobe.com/uJW1-zNfhCUn15Nxa9T7bXTzX6nGdZJ1QfuUa38L7HY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: f863efa9-030c-4466-a2b8-a52aea6b722c
+    internal-label: Subscription services
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1508
+source-wordcount: '1508'
 ht-degree: 1%
-
 ---
-
 # 캠페인 대상자 선택 {#marketing-campaign-deliveries}
 
 마케팅 캠페인에서 각 게재에 대해 다음을 정의할 수 있습니다.
@@ -111,55 +116,55 @@ ht-degree: 1%
 
 * 시작 또는 재시작
 
-   * **[!UICONTROL Start]** 아이콘을 사용하면 타겟팅 워크플로우를 시작할 수 있습니다. 이 아이콘을 클릭하면 입력 전환이 없는 모든 활동이 활성화됩니다(끝점 이동 제외).
+  * **[!UICONTROL Start]** 아이콘을 사용하면 타겟팅 워크플로우를 시작할 수 있습니다. 이 아이콘을 클릭하면 입력 전환이 없는 모든 활동이 활성화됩니다(끝점 이동 제외).
 
-     ![](assets/s_user_segmentation_start.png)
+    ![](assets/s_user_segmentation_start.png)
 
-     서버는 상태와 같이 요청을 고려합니다.
+    서버는 상태와 같이 요청을 고려합니다.
 
-     ![](assets/s_user_segmentation_start_status.png)
+    ![](assets/s_user_segmentation_start_status.png)
 
-     프로세스 상태가 **[!UICONTROL Started]**(으)로 변경됩니다.
+    프로세스 상태가 **[!UICONTROL Started]**(으)로 변경됩니다.
 
-   * 적절한 도구 모음 아이콘을 통해 타겟팅 워크플로우를 다시 시작할 수 있습니다. 이 명령은 타겟팅 워크플로우 중지가 진행 중인 경우와 같이 **[!UICONTROL Start]** 아이콘을 사용할 수 없는 경우에 유용합니다. 이 경우 **[!UICONTROL Restart]** 아이콘을 클릭하여 다시 시작을 예상하세요. 서버는 상태가 다음과 같이 요청을 고려합니다.
+  * 적절한 도구 모음 아이콘을 통해 타겟팅 워크플로우를 다시 시작할 수 있습니다. 이 명령은 타겟팅 워크플로우 중지가 진행 중인 경우와 같이 **[!UICONTROL Start]** 아이콘을 사용할 수 없는 경우에 유용합니다. 이 경우 **[!UICONTROL Restart]** 아이콘을 클릭하여 다시 시작을 예상하세요. 서버는 상태가 다음과 같이 요청을 고려합니다.
 
-     ![](assets/s_user_segmentation_restart_status.png)
+    ![](assets/s_user_segmentation_restart_status.png)
 
-     그런 다음 프로세스가 **[!UICONTROL Started]** 상태로 들어갑니다.
+    그런 다음 프로세스가 **[!UICONTROL Started]** 상태로 들어갑니다.
 
 * 중지 또는 일시 중지
 
-   * 도구 모음 아이콘을 사용하면 진행 중인 타겟팅 워크플로우를 중지하거나 일시 중지할 수 있습니다.
+  * 도구 모음 아이콘을 사용하면 진행 중인 타겟팅 워크플로우를 중지하거나 일시 중지할 수 있습니다.
 
-     **[!UICONTROL Pause]**&#x200B;을(를) 클릭하면 진행 중인 작업 **[!UICONTROL are not]**&#x200B;이(가) 일시 중지되었지만 다음 다시 시작할 때까지 다른 작업이 시작되지 않습니다.
+    **[!UICONTROL Pause]**&#x200B;을(를) 클릭하면 진행 중인 작업 **[!UICONTROL are not]**&#x200B;이(가) 일시 중지되었지만 다음 다시 시작할 때까지 다른 작업이 시작되지 않습니다.
 
-     ![](assets/s_user_segmentation_pause.png)
+    ![](assets/s_user_segmentation_pause.png)
 
-     서버는 상태가 다음과 같이 명령을 고려합니다.
+    서버는 상태가 다음과 같이 명령을 고려합니다.
 
-     ![](assets/s_user_segmentation_pause_status.png)
+    ![](assets/s_user_segmentation_pause_status.png)
 
-     타겟팅 워크플로우 실행이 특정 활동에 도달하면 자동으로 일시 중지할 수도 있습니다. 이렇게 하려면 타겟팅 워크플로우를 일시 중지할 활동을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Enable but do not execute]**&#x200B;을(를) 선택합니다.
+    타겟팅 워크플로우 실행이 특정 활동에 도달하면 자동으로 일시 중지할 수도 있습니다. 이렇게 하려면 타겟팅 워크플로우를 일시 중지할 활동을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Enable but do not execute]**&#x200B;을(를) 선택합니다.
 
-     ![](assets/s_user_segmentation_donotexecute.png)
+    ![](assets/s_user_segmentation_donotexecute.png)
 
-     이 구성은 특수 아이콘으로 표시됩니다.
+    이 구성은 특수 아이콘으로 표시됩니다.
 
-     ![](assets/s_user_segmentation_pause_activity.png)
+    ![](assets/s_user_segmentation_pause_activity.png)
 
-     >[!NOTE]
-     >
-     >이 옵션은 고급 타겟팅 캠페인 디자인 및 테스트 단계 중에 유용합니다.
+    >[!NOTE]
+    >
+    >이 옵션은 고급 타겟팅 캠페인 디자인 및 테스트 단계 중에 유용합니다.
 
-     실행을 다시 시작하려면 **[!UICONTROL Start]**&#x200B;을(를) 클릭하십시오.
+    실행을 다시 시작하려면 **[!UICONTROL Start]**&#x200B;을(를) 클릭하십시오.
 
-   * 진행 중인 실행을 중지하려면 **[!UICONTROL Stop]** 아이콘을 클릭하십시오.
+  * 진행 중인 실행을 중지하려면 **[!UICONTROL Stop]** 아이콘을 클릭하십시오.
 
-     ![](assets/s_user_segmentation_stop.png)
+    ![](assets/s_user_segmentation_stop.png)
 
-     서버는 상태가 다음과 같이 명령을 고려합니다.
+    서버는 상태가 다음과 같이 명령을 고려합니다.
 
-     ![](assets/s_user_segmentation_stop_status.png)
+    ![](assets/s_user_segmentation_stop_status.png)
 
   실행이 활동에 도달하면 타겟팅 워크플로우를 자동으로 중지할 수도 있습니다. 이렇게 하려면 타깃팅 워크플로우가 중지될 활동을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Do not activate]**&#x200B;을(를) 선택합니다.
 
@@ -258,6 +263,6 @@ ht-degree: 1%
 
 이 비디오에서는 Adobe Campaign에서 캠페인 및 이메일을 만드는 방법을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31872?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

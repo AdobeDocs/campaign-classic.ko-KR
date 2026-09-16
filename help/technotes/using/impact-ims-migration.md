@@ -5,21 +5,25 @@ exl-id: 8b13fe4d-d8d3-43b3-bbe4-c8c5574f585a
 TQID: https://experienceleague.adobe.com/RkgX2M0BnO5pjgI7oAp7NlycXY551manwFHhcA1LMjw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+    internal-label: Troubleshooting
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 463
+source-wordcount: '463'
 ht-degree: 1%
-
 ---
-
 # IMS 마이그레이션 후 Campaign 인터페이스 업데이트 {#impact-ims-migration}
 
 [Campaign 기술 연산자를 Developer Console으로 마이그레이션](ims-migration.md)하고 [최종 사용자 인증을 위해 IMS로 전환](migrate-users-to-ims.md)하면 마지막 단계에서 사용자 인터페이스와 API 제한을 활성화하여 기본 인증과 관련된 옵션과 기능을 제거하는 것입니다. 이 업데이트는 Campaign v7.4.1부터 사용할 수 있습니다.
@@ -105,7 +109,7 @@ IMS(Adobe Identify Management System)로의 마이그레이션을 완료하려�
 
 따라서 이러한 작업은 클라이언트 콘솔에서 비활성화되었습니다.
 
-운영자의 관리는 Adobe Admin Console에서 중앙 집중화되며, 이제 다음 작업이 이 콘솔을 통해 독점적으로 관리됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}에서 사용자를 만들고 권한을 할당하는 방법에 대해 알아봅니다.
+운영자의 관리는 Adobe Admin Console에서 중앙 집중화되며, 이제 다음 작업이 이 콘솔을 통해 독점적으로 관리됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}에서 사용자를 만들고 권한을 할당하는 방법에 대해 알아봅니다.
 
 ### 사용할 수 없는 옵션 {#unavailable-migration}
 
@@ -114,10 +118,10 @@ IMS(Adobe Identify Management System)로의 마이그레이션을 완료하려�
 * 연산자를 병합하려면 [선택한 줄 병합 옵션](../../platform/using/updating-data.md#merge-data)을 사용하십시오.
 
 * 연산자에 대해 다음 필드를 업데이트합니다.
-   * 이름
-   * 암호
-   * 레이블
-   * 이메일
+  * 이름
+  * 암호
+  * 레이블
+  * 이메일
 
 * [Campaign 암호 재설정](../../production/using/lost-password.md)
 

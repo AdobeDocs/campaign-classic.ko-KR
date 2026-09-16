@@ -2,39 +2,46 @@
 product: campaign
 title: 콘텐츠 관리 정보
 description: Campaign 콘텐츠 관리자 모듈 시작
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Landing Pages, Email Design
 role: User
 exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
 TQID: https://experienceleague.adobe.com/o8iygj4G7Hph45AwYChP9CEeXP0lmrp7n7GSbOrVC2w
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 273
+source-wordcount: '264'
 ht-degree: 2%
-
 ---
-
 # 콘텐츠 관리 정보{#about-content-management}
 
 Adobe Campaign Content Manager 모듈은 반복 뉴스레터 또는 웹 사이트를 만들기 위해 설치할 수 있는 특정 Campaign Classic [기본 제공 패키지](../../installation/using/installing-campaign-standard-packages.md)입니다. 메시지를 만들고, 검증하고, 게시하는 데 도움이 될 수 있습니다.
 
 >[!NOTE]
 >
->이 섹션은 콘텐츠 관리 모듈을 참조합니다. 이메일 게재 콘텐츠를 디자인하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko){target="_blank"}를 참조하세요.
+>이 섹션은 콘텐츠 관리 모듈을 참조합니다. 이메일 게재 콘텐츠를 디자인하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html){target="_blank"}를 참조하세요.
 
 컨텐츠 관리 모듈에는 작업 그룹, 워크플로우 및 컨텐츠 집계 기능이 통합되어 있습니다. 이렇게 하면 이메일, 메일, SMS, 웹 등 메시지의 서식을 자동으로 지정할 수 있습니다.
 

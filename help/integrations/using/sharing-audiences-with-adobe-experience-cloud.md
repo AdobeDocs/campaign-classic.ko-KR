@@ -1,9 +1,9 @@
 ---
 product: campaign
-title: Adobe Experience Cloud과 대상 공유
-description: Adobe Experience Cloud과 대상 공유
+title: Adobe Experience Cloud와 대상 공유
+description: Adobe Experience Cloud와 대상 공유
 feature: Audiences
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
@@ -11,30 +11,34 @@ exl-id: 1c90e913-3375-476c-ab60-89f20239eb0d
 TQID: https://experienceleague.adobe.com/MGzMyGtmzaVGZy6oWHcirPPdSSpu9YYcuR30KIVZ9bc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 253
-ht-degree: 49%
-
+source-wordcount: '244'
+ht-degree: 51%
 ---
-
-# Adobe Experience Cloud과 대상 공유 {#sharing-audiences-with-adobe-experience-cloud}
+# Adobe Experience Cloud와 대상 공유 {#sharing-audiences-with-adobe-experience-cloud}
 
 
 >[!CAUTION]
 >
->Adobe Experience Cloud 솔루션으로 대상을 공유하려면 Adobe Identity Management 시스템을 구현해야 합니다. [IMS에 대해 자세히 알아보기](../../integrations/using/about-adobe-id.md).
+>Adobe Experience Cloud 솔루션으로 대상자를 공유하려면 Adobe Identity Management 시스템을 구현해야 합니다. [IMS에 대해 자세히 알아보기](../../integrations/using/about-adobe-id.md).
 
 Adobe Campaign을 사용하면 Adobe Experience Cloud 서비스와 대상자 및 세그먼트를 공유할 수 있습니다. 두 가지 옵션을 사용할 수 있습니다.
 
-1. Adobe Experience Platform 세그먼트 데이터를 Adobe Campaign으로 보냅니다. 이 통합을 구현하려면 Real-Time Customer Data Platform을 Campaign(RTCDP)에 연결해야 합니다. [이 섹션에서 자세히 알아보십시오](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=ko){target="_blank"}.
+1. Adobe Experience Platform 세그먼트 데이터를 Adobe Campaign으로 보냅니다. 이 통합을 구현하려면 Real-Time Customer Data Platform을 Campaign(RTCDP)에 연결해야 합니다. [이 섹션에서 자세히 알아보십시오](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html){target="_blank"}.
 
 1. **Adobe Campaign**&#x200B;을(를) **Experience Cloud 대상** 또는 **Adobe Audience Manager**&#x200B;과(와) 통합합니다. 그러면 다음을 수행할 수 있습니다:
 

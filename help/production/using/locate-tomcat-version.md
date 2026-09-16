@@ -3,7 +3,7 @@ product: campaign
 title: Adobe Campaign에서 Tomcat 버전 찾기
 description: Adobe Campaign 인스턴스에 사용된 Embedded Tomcat 웹 서블릿의 현재 버전을 확인하는 방법을 알아봅니다
 feature: Monitoring
-badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -11,19 +11,21 @@ exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
 TQID: https://experienceleague.adobe.com/cu5oSibc5iznD6CUZSoLxXf1D21g-eoJG3udHBVel7w
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 feature_v2: []
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 539
+source-wordcount: '527'
 ht-degree: 3%
-
 ---
-
 # Tomcat 버전 찾기{#locate-tomcat-version}
 
 Adobe Campaign은 Apache Tomcat **이라는**&#x200B;포함된 웹 서블릿을 사용하여 애플리케이션과 모든 외부 인터페이스(클라이언트 콘솔, 추적된 URL 링크, SOAP 호출 등) 간의 HTTP/HTTPS 요청을 처리합니다. 모든 외부 대상 Adobe Campaign 인스턴스의 경우 종종 이 앞에 외부 웹 서버(일반적으로 IIS 또는 Apache)가 있습니다.

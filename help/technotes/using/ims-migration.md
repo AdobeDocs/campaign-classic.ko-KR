@@ -7,26 +7,34 @@ exl-id: 1a409daf-57be-43c9-a3d9-b8ab54c88068
 TQID: https://experienceleague.adobe.com/DmKIvFx2JKk1fwVKI90bhQ-CJyWF2NP7ICu9EdPm8VU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1838
+source-wordcount: '1838'
 ht-degree: 0%
-
 ---
-
 # Campaign 기술 운영자를 Adobe Developer Console으로 마이그레이션 {#migrate-tech-users-to-ims}
 
 Campaign Classic v7.3.5부터 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 Campaign Classic에 대한 인증 프로세스가 개선되고 있습니다. 기술 운영자는 이제 [IMS(Adobe Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}를 사용하여 Campaign에 연결해야 합니다. [Adobe Developer Console 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}에서 새 서버 간 인증 프로세스에 대해 자세히 알아보세요. **Campaign v8로 원활하게 마이그레이션할 수 있도록 v7에서 이 마이그레이션을 수행하는 것이 좋습니다.**
@@ -102,7 +110,7 @@ For this migration, you must add below APIs in your project: **I/O Management AP
 
 프로젝트에 API를 추가하려면 다음 단계를 수행합니다.
 
-1. **API 추가**&#x200B;를 클릭하여 프로젝트에 추가할 API를 선택합니다.
+1. **API 추가**를 클릭하여 프로젝트에 추가할 API를 선택합니다.
    ![](assets/do-not-translate/ims-updates-01.png)
 1. Adobe Campaign API를 선택하고 프로젝트에 추가합니다. 카드를 마우스로 가리키면 표시되는 Adobe Campaign 카드의 오른쪽 상단 모서리에 있는 상자를 선택합니다
    ![](assets/do-not-translate/ims-updates-02.png)
@@ -472,7 +480,7 @@ response = requests.post(url, headers=headers, data=xml_data)
 
 이 단계는 선택 사항이며 메시지 센터 인스턴스가 아닌 마케팅 인스턴스 내에서만 사용할 수 있습니다. 지정된 운영자 그룹을 통하지 않는 기술 운영자에 대해 특정 폴더 권한 또는 명명된 권한이 정의된 경우. 이제 Admin Console에서 새로 만든 기술 계정 사용자를 업데이트하여 필요한 폴더 권한 또는 명명된 권한을 부여해야 합니다.
 
-Campaign 인스턴스에 대한 API 호출이 하나 이상 만들어져야 IMS가 Campaign 내에서 사용자를 만들 수 있으므로 기술 계정 사용자는 Adobe Campaign에 존재하지 않습니다. Campaign 내에서 기술 사용자를 찾을 수 없는 경우 [단계 &#x200B;](#ims-migration-step-7)에 설명된 대로 API 호출을 성공적으로 보낼 수 있는지 확인하십시오.
+Campaign 인스턴스에 대한 API 호출이 하나 이상 만들어져야 IMS가 Campaign 내에서 사용자를 만들 수 있으므로 기술 계정 사용자는 Adobe Campaign에 존재하지 않습니다. Campaign 내에서 기술 사용자를 찾을 수 없는 경우 [단계 ](#ims-migration-step-7)에 설명된 대로 API 호출을 성공적으로 보낼 수 있는지 확인하십시오.
 
 1. 새 기술 계정 사용자에게 필요한 변경 사항을 적용하려면 Campaign 클라이언트 콘솔 내에서 이메일 주소로 해당 변경 사항을 찾습니다. 이 이메일 주소는 위의 프로젝트 만들기 및 인증 단계 동안 만들어졌습니다.
 

@@ -7,25 +7,33 @@ exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
 TQID: https://experienceleague.adobe.com/i3aMiL43o3Sj7aR1u2KJmlMVe3UiS6j-tLc5augCryk
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 2042
+source-wordcount: '2101'
 ht-degree: 1%
-
 ---
-
 # Apple 메일 앱의 메일 개인 정보 보호
 
 ## 변경 사항
@@ -107,7 +115,7 @@ Adobe Campaign 데이터에서 인사이트를 수집하려면 기본 제공 보
 
   ![](assets/identify-email-open-tracking-2.png)
 
-* 사전 정의된 필터를 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=ko){target="_blank"}를 참조하세요.
+* 사전 정의된 필터를 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}를 참조하세요.
 
   ![](assets/identify-email-open-tracking-3.png)
 
@@ -393,7 +401,7 @@ Adobe Campaign에서 지원하는 외부 스토리지 솔루션으로 결과를 
 1. 쿼리로 시작하는 워크플로우를 만듭니다.
 
    초기 쿼리는 지난 3개월 동안의 추적 로그를 검색하는 데 사용됩니다.
-증분 쿼리를 사용하여 아직 내보내지 않은 레코드만 추출할 수 있습니다.
+   증분 쿼리를 사용하여 아직 내보내지 않은 레코드만 추출할 수 있습니다.
 
    **[!UICONTROL Additional data]** 노드에서 필요한 모든 정보를 추가합니다.
 
@@ -438,14 +446,14 @@ Adobe Campaign에서 지원하는 외부 스토리지 솔루션으로 결과를 
 
 * 첫 번째 예제 워크플로우는 다음 활동으로 구성됩니다.
 
-   1. 초기 **[!UICONTROL Query]** 활동은 지난 3개월 동안 열린 모든 전자 메일을 선택하는 데 사용됩니다.
-   1. **[!UICONTROL Split]** 활동은 전자 메일 응용 프로그램, 브라우저, 운영 체제 및 장치별로 선택 항목을 분할하는 데 사용됩니다.
+  1. 초기 **[!UICONTROL Query]** 활동은 지난 3개월 동안 열린 모든 전자 메일을 선택하는 데 사용됩니다.
+  1. **[!UICONTROL Split]** 활동은 전자 메일 응용 프로그램, 브라우저, 운영 체제 및 장치별로 선택 항목을 분할하는 데 사용됩니다.
 
-   1. **[!UICONTROL Deduplication]** 활동은 각 **[!UICONTROL Split]** 활동 뒤에 옵니다. **[!UICONTROL Deduplication]** 활동은 중복 전자 메일 주소를 제거하는 데 사용됩니다.
+  1. **[!UICONTROL Deduplication]** 활동은 각 **[!UICONTROL Split]** 활동 뒤에 옵니다. **[!UICONTROL Deduplication]** 활동은 중복 전자 메일 주소를 제거하는 데 사용됩니다.
 
-      **[!UICONTROL Deduplication]** 활동은 다양한 장치를 사용하는 수신자에 대한 정보가 손실되지 않도록 **[!UICONTROL Split]** 활동 뒤에 배치됩니다.
+     **[!UICONTROL Deduplication]** 활동은 다양한 장치를 사용하는 수신자에 대한 정보가 손실되지 않도록 **[!UICONTROL Split]** 활동 뒤에 배치됩니다.
 
-   1. **[!UICONTROL End]** 활동은 각 **[!UICONTROL Deduplication]** 활동 뒤에 옵니다.
+  1. **[!UICONTROL End]** 활동은 각 **[!UICONTROL Deduplication]** 활동 뒤에 옵니다.
 
   이 유형의 워크플로우는 타깃팅할 기본 제공 수신자 표에만 수신자를 저장하는 경우에 유용합니다.
 
@@ -453,14 +461,14 @@ Adobe Campaign에서 지원하는 외부 스토리지 솔루션으로 결과를 
 
 * 두 번째 예제 워크플로우는 다음 활동으로 구성됩니다.
 
-   1. 초기 **[!UICONTROL Query]** 활동은 지난 3개월 동안 열린 모든 전자 메일을 선택하는 데 사용됩니다.
-   1. **[!UICONTROL Deduplication]** 활동은 중복 전자 메일 주소를 제거하는 데 사용됩니다.
-   1. **[!UICONTROL Fork]** 활동이 사용됨:
+  1. 초기 **[!UICONTROL Query]** 활동은 지난 3개월 동안 열린 모든 전자 메일을 선택하는 데 사용됩니다.
+  1. **[!UICONTROL Deduplication]** 활동은 중복 전자 메일 주소를 제거하는 데 사용됩니다.
+  1. **[!UICONTROL Fork]** 활동이 사용됨:
 
-      * 한 전환에서 **[!UICONTROL Change dimension]** 활동은 추적 로그가 참조하는 수신자를 찾는 데 사용됩니다.
-      * 다른 전환에서는 **[!UICONTROL Split]** 활동을 사용하여 전자 메일 응용 프로그램, 브라우저, 운영 체제 및 장치별로 선택 항목을 분할합니다.
+     * 한 전환에서 **[!UICONTROL Change dimension]** 활동은 추적 로그가 참조하는 수신자를 찾는 데 사용됩니다.
+     * 다른 전환에서는 **[!UICONTROL Split]** 활동을 사용하여 전자 메일 응용 프로그램, 브라우저, 운영 체제 및 장치별로 선택 항목을 분할합니다.
 
-   1. **[!UICONTROL End]** 활동은 **[!UICONTROL Split]** 활동 이후의 각 전환을 따릅니다.
+  1. **[!UICONTROL End]** 활동은 **[!UICONTROL Split]** 활동 이후의 각 전환을 따릅니다.
 
   이 유형의 워크플로우는 기본 수신자 테이블 이외의 테이블에 수신자를 저장하는 경우에 유용합니다.
 

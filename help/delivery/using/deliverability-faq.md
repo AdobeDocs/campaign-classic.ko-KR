@@ -8,27 +8,36 @@ exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
 TQID: https://experienceleague.adobe.com/ZRai7Bd-IRaWUQQmkuUYwXhNXp2BI-B4k-4cGq1k6uk
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: '660'
 ht-degree: 2%
-
 ---
-
 # 전달성 문제 해결{#deliverability-faq}
 
 전달에 문제가 있습니까? 여기에서 해결책을 찾을 수 있습니다.
@@ -62,9 +71,9 @@ ISP에 대해 항상 동일한 오류 메시지가 표시되는 경우 ISP에서
 
 * **전자 메일 주소와 격리된 전자 메일 주소의 차이점은 무엇입니까?**
 
-   * **[!UICONTROL Denylisted]** 상태는 피드백 루프(사용자가 메시지를 스팸으로 보고할 때)의 결과입니다.
+  * **[!UICONTROL Denylisted]** 상태는 피드백 루프(사용자가 메시지를 스팸으로 보고할 때)의 결과입니다.
 
-   * 상태 **[!UICONTROL Quarantined]**&#x200B;은(는) 소프트 또는 하드 바운스의 결과입니다.
+  * 상태 **[!UICONTROL Quarantined]**&#x200B;은(는) 소프트 또는 하드 바운스의 결과입니다.
 
   자세한 내용은 [이 섹션](delivery-failures-quarantine.md#quarantine-vs-denylist)을 참조하십시오.
 
@@ -78,15 +87,15 @@ ISP에 대해 항상 동일한 오류 메시지가 표시되는 경우 ISP에서
 
 * **받는 사람 중 한 명이 실수로 차단 목록에 추가하다에 추가되었습니다. 메시지를 다시 보낼 수 있도록 차단 목록에서 해당 메시지를 제거하려면 어떻게 해야 합니까?**
 
-   * **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**(으)로 이동합니다.
-   * 해당 레코드의 세부 정보에서 **[!UICONTROL Status]** 필드의 값을 **[!UICONTROL Valid]**(으)로 설정합니다.
-   * 레코드를 저장합니다.
+  * **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**(으)로 이동합니다.
+  * 해당 레코드의 세부 정보에서 **[!UICONTROL Status]** 필드의 값을 **[!UICONTROL Valid]**(으)로 설정합니다.
+  * 레코드를 저장합니다.
 
 * **IP 중 하나가 차단 목록에 추가하다에 있는지 어떻게 확인할 수 있습니까? 차단 목록에 추가하다에서 IP를 제거하려면 어떻게 해야 합니까?**
 
   IP 주소가 차단 목록에 추가하다에 있는지 확인하려면 다음과 같이 다양한 웹 사이트를 사용하여 확인할 수 있습니다.
-   * [MX 도구 상자](https://mxtoolbox.com/)
-   * [내 IP 주소는 무엇입니까](https://whatismyipaddress.com)
+  * [MX 도구 상자](https://mxtoolbox.com/)
+  * [내 IP 주소는 무엇입니까](https://whatismyipaddress.com)
 
   일반적으로 IP 주소 검사 결과는 차단 목록에 추가하다 웹 사이트의 세부 정보와 IP 주소를 거부한 이름이 포함된 목록을 반환합니다.
 

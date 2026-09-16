@@ -8,21 +8,24 @@ exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
 TQID: https://experienceleague.adobe.com/Yru-hRxtlHGZpLXmNIPxRbZjgvfz8siQOc9wiOPOP1w
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 2376
+source-wordcount: '2376'
 ht-degree: 2%
-
 ---
-
 # Campaign 데이터 모델 설명{#data-model-description}
 
 
@@ -124,7 +127,7 @@ sInternalName 게재 또는 시나리오의 내부 이름을 나타내는 고유
 
 ## 캠페인 관리 {#campaign-management}
 
-이 테이블 집합은 **마케팅 캠페인** 모듈에 연결되어 통신 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ko){target=_blank}를 참조하십시오.
+이 테이블 집합은 **마케팅 캠페인** 모듈에 연결되어 통신 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}를 참조하십시오.
 
 ![](assets/data-model_campaign.png)
 

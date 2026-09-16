@@ -9,14 +9,14 @@ exl-id: 8fd7a66b-cdff-427d-b78f-4becaba51129
 feature_v2: []
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: c372a3d67ec413fa8cf9fdbb4530762a8f2f5177
-workflow-type: ht
-source-wordcount: 890
+workflow-type: tm+mt
+source-wordcount: '890'
 ht-degree: 100%
-
 ---
-
 # 2025년 릴리스{#release-2025}
 
 ## 릴리스 7.4.2  {#release-7-4-2}
@@ -62,13 +62,13 @@ This release comes with the following compatibility updates:
 
 * Google BigQuery 문제 해결:
 
-   * 부울 데이터 유형에 대한 회귀 문제를 해결했습니다.
-   * 프록시 설정 문제를 해결했습니다.
-   * DATETIME 데이터 유형에 대한 회귀 문제를 해결했습니다.
-   * 대량 로드 안정성 문제를 해결했습니다.
-   * ODBC 버전에 대한 내부 테스트를 개선했습니다.
-   * 연결 문자열의 특수 문자에 발생하는 문제를 해결했습니다.
-   * Google BigQuery 쿼리에서 기본 시간 제한(5분)을 제거했습니다.
+  * 부울 데이터 유형에 대한 회귀 문제를 해결했습니다.
+  * 프록시 설정 문제를 해결했습니다.
+  * DATETIME 데이터 유형에 대한 회귀 문제를 해결했습니다.
+  * 대량 로드 안정성 문제를 해결했습니다.
+  * ODBC 버전에 대한 내부 테스트를 개선했습니다.
+  * 연결 문자열의 특수 문자에 발생하는 문제를 해결했습니다.
+  * Google BigQuery 쿼리에서 기본 시간 제한(5분)을 제거했습니다.
 
 * 메일 전송 에이전트(MTA) - 분리된 MTA 하위 요소가 **[!UICONTROL Start pending]** 상태에서 중단되는 문제를 해결했습니다.
 

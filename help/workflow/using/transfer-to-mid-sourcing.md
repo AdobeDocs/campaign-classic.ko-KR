@@ -8,9 +8,7 @@ source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 1%
-
 ---
-
 
 # 중간 소싱으로 전송{#transfer-to-mid-sourcing}
 

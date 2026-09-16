@@ -10,18 +10,19 @@ exl-id: a9842e59-120c-4a35-abdf-6540a0bbdd6d
 TQID: https://experienceleague.adobe.com/o78NLFSbsXqQgJQEU5KSN5PkheQHtHlPh2KdB0RBINA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1139
+source-wordcount: '1139'
 ht-degree: 2%
-
 ---
-
 # JavaScript를 통한 통합(클라이언트측){#integration-via-javascript-client-side}
 
 
@@ -61,7 +62,7 @@ URL을 호출하는 스크립트는 다음과 같습니다.
    HTML 페이지에는
 
    작성된 오퍼 공간(&quot;i_internal name space&quot;)의 내부 이름 값이 있는 @id 속성이 있는 요소입니다. 오퍼가 여기에 삽입됩니다.
-상호 작용에 의한 요소입니다.
+   상호 작용에 의한 요소입니다.
 
    이 예에서 @id 속성은 &quot;i_SPC12&quot; 값을 수신하며, 여기서 &quot;SPC12&quot;는 이전에 만든 오퍼 공간의 내부 이름입니다.
 

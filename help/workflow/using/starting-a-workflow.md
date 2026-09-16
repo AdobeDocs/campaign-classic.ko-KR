@@ -8,18 +8,20 @@ exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 TQID: https://experienceleague.adobe.com/dCnvgLZ-5ST-VJqWLXZ2c5XxXqXUxO1G78WnrCFyIqA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
-source-wordcount: 1187
+source-wordcount: '1187'
 ht-degree: 1%
-
 ---
-
 # 워크플로 시작 {#starting-a-workflow}
 
 
@@ -75,14 +77,14 @@ ht-degree: 1%
   도구 모음의 실행 아이콘을 통해서도 **[!UICONTROL Start / Pause / Stop / Restart]** 작업을 사용할 수 있습니다. 자세한 정보는 이 [섹션](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow)을 참조하십시오.
 
   **다시 시작** 작업은 **실행**, **중지** 및 **시작** 작업과 비교하여 워크플로 인스턴스 변수를 지우지 않습니다(시작 작업 시 발생하는 인스턴스 변수 지우기). 워크플로우를 다시 시작할 때 인스턴스 변수를 보존된 값과 함께 사용할 수 있습니다. 이를 지우려면 다음 중 하나를 수행합니다.
-   * **중지** 및 **시작** 작업을 수행합니다.
-   * 워크플로우 실행이 끝나면 아래 javascript 코드를 추가합니다.
+  * **중지** 및 **시작** 작업을 수행합니다.
+  * 워크플로우 실행이 끝나면 아래 javascript 코드를 추가합니다.
 
-     ```
-     var wkf = xtk.workflow.load(instance.id)
-     wkf.variables='<variables/>'
-     wkf.save()
-     ```
+    ```
+    var wkf = xtk.workflow.load(instance.id)
+    wkf.variables='<variables/>'
+    wkf.save()
+    ```
 
 * **[!UICONTROL Purge history]**
 

@@ -8,18 +8,20 @@ exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
 TQID: https://experienceleague.adobe.com/FSudiqp5MAVKsZKdYWLyzdUKMxobJj6Yj7UbAxvDJ38
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 342
+source-wordcount: '342'
 ht-degree: 1%
-
 ---
-
 # 인바운드 이메일{#inbound-emails}
 
 
@@ -40,21 +42,21 @@ ht-degree: 1%
 
      ![](assets/email_rec_edit_1b.png)
 
-      * **[!UICONTROL POP3 server]**
+     * **[!UICONTROL POP3 server]**
 
-        POP3 서버 이름.
+       POP3 서버 이름.
 
-      * **[!UICONTROL POP3 account]**
+     * **[!UICONTROL POP3 account]**
 
-        사용자 이름.
+       사용자 이름.
 
-      * **[!UICONTROL Password]**
+     * **[!UICONTROL Password]**
 
-        사용자 계정 암호.
+       사용자 계정 암호.
 
-      * **[!UICONTROL Port]**
+     * **[!UICONTROL Port]**
 
-        POP3 연결 포트 번호. 기본 포트는 110입니다.
+       POP3 연결 포트 번호. 기본 포트는 110입니다.
 
    * **[!UICONTROL Stop as soon as email is processed]**
 

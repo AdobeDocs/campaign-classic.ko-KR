@@ -2,16 +2,14 @@
 product: campaign
 title: '사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시'
 description: '사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시'
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring, Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
 source-git-commit: 0d8cef312371192ee97f88eb33276df9d7fb11f6
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '480'
 ht-degree: 5%
-
 ---
-
 # 사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시{#use-case-displaying-report-on-answers-to-an-online-survey}
 
 

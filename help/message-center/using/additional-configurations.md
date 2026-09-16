@@ -10,19 +10,21 @@ exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
 TQID: https://experienceleague.adobe.com/TJ5R6T1pu5JQU5SaGoWRgZLG2m29TWWPVB8nniorRUg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: '868'
 ht-degree: 4%
-
 ---
-
 # 추가 구성 {#mc-additional-configurations}
 
 
@@ -96,12 +98,12 @@ Once the control and execution modules are installed on the same instance, you m
 
   다음 이벤트 상태를 사용할 수 있습니다.
 
-   * **[!UICONTROL Pending]** : 이벤트가 큐에 있습니다. 메시지 템플릿이 아직 할당되지 않았습니다.
-   * **[!UICONTROL Pending delivery]** : 이벤트가 큐에 있고 메시지 템플릿이 할당되어 게재에 의해 처리되는 중입니다.
-   * **[!UICONTROL Sent]** : 이 상태는 게재 로그에서 복사됩니다. 게재가 전송되었음을 의미합니다.
-   * **[!UICONTROL Ignored by the delivery]** : 이 상태는 게재 로그에서 복사됩니다. 게재가 무시되었다는 뜻입니다.
-   * **[!UICONTROL Delivery failed]** : 이 상태는 게재 로그에서 복사됩니다. 게재에 실패했다는 뜻입니다.
-   * **[!UICONTROL Event not taken into account]** : 이벤트를 메시지 템플릿에 연결할 수 없습니다. 이벤트가 처리되지 않습니다.
+  * **[!UICONTROL Pending]** : 이벤트가 큐에 있습니다. 메시지 템플릿이 아직 할당되지 않았습니다.
+  * **[!UICONTROL Pending delivery]** : 이벤트가 큐에 있고 메시지 템플릿이 할당되어 게재에 의해 처리되는 중입니다.
+  * **[!UICONTROL Sent]** : 이 상태는 게재 로그에서 복사됩니다. 게재가 전송되었음을 의미합니다.
+  * **[!UICONTROL Ignored by the delivery]** : 이 상태는 게재 로그에서 복사됩니다. 게재가 무시되었다는 뜻입니다.
+  * **[!UICONTROL Delivery failed]** : 이 상태는 게재 로그에서 복사됩니다. 게재에 실패했다는 뜻입니다.
+  * **[!UICONTROL Event not taken into account]** : 이벤트를 메시지 템플릿에 연결할 수 없습니다. 이벤트가 처리되지 않습니다.
 
 ### 워크플로우 일정 보관
 
@@ -115,7 +117,7 @@ Once the control and execution modules are installed on the same instance, you m
 
 ### 호환성 정보 {#compatibility-note}
 
-이 레거시 브랜딩 구성은 Campaign v8에 도입된 새 [중앙 브랜딩](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=ko){target="_blank"} 모델과 호환되지 않습니다.
+이 레거시 브랜딩 구성은 Campaign v8에 도입된 새 [중앙 브랜딩](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"} 모델과 호환되지 않습니다.
 
 기존 환경에서 이 레거시 구성을 사용하는 경우 이를 새 중앙 집중식 브랜딩 모델로 직접 마이그레이션할 수 없습니다. 새 시스템을 채택하려면 브랜딩 설정을 완전히 다시 구현해야 합니다.
 
@@ -186,6 +188,6 @@ Once the control and execution modules are installed on the same instance, you m
 
 1. [실행 인스턴스](#execution-instance)에 정의된 내부 이름과 동일한 외부 계정을 브랜드당 하나씩 만듭니다(1단계).
 
-1. 브랜드별 게재 템플릿을 만듭니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ko){target="_blank"}를 참조하세요.
+1. 브랜드별 게재 템플릿을 만듭니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}를 참조하세요.
 
 1. 게재 템플릿의 **[!UICONTROL Properties]**&#x200B;에서 라우팅을 브랜드의 외부 계정으로 설정합니다.

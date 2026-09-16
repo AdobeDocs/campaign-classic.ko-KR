@@ -2,7 +2,7 @@
 product: campaign
 title: Adobe Campaign Classic으로 일본어 모바일에서 이메일 보내기
 description: 일본어 모바일에서 읽을 이메일을 구성, 디자인 및 전송하는 방법에 대해 알아봅니다
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email, Email Design
 role: User
 hide: true
@@ -10,23 +10,29 @@ exl-id: 44634227-2340-49c4-b330-740c739ea551
 TQID: https://experienceleague.adobe.com/-IaAfjCvy9znHFt89tg-gGkcbAHpJExugPFr9T6RwWA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: '729'
 ht-degree: 1%
-
 ---
-
 # 일본어 모바일에서 이메일 보내기 {#sending-emails-on-japanese-mobiles}
 
 ## 일본어 모바일의 이메일 형식 {#email-formats-for-japanese-mobiles}

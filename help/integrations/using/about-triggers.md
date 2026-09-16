@@ -3,7 +3,7 @@ product: campaign
 title: Adobe Experience Cloud Triggers 기본 정보
 description: Adobe Experience Cloud 트리거 구현 시작
 feature: Triggers
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 level: Intermediate, Experienced
@@ -11,25 +11,32 @@ exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
 TQID: https://experienceleague.adobe.com/gWgUCcgsqeMw-mzVdhVodcp91lgTCCL7XGWp0f2ItKo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 392
-ht-degree: 9%
-
+source-wordcount: '411'
+ht-degree: 8%
 ---
-
 # Campaign 및 Experience Cloud 트리거 작업{#about-adobe-experience-triggers}
 
 [!DNL Triggers]은(는) 파이프라인을 사용하여 Adobe Campaign과 Adobe Analytics 간의 통합입니다. 파이프라인은 사용자의 작업 또는 트리거를 웹 사이트에서 검색합니다. 장바구니 포기는 트리거의 예입니다. 트리거는 거의 실시간으로 이메일을 보내기 위해 Adobe Campaign에서 처리됩니다.
@@ -43,7 +50,7 @@ ht-degree: 9%
 구성이 최소한이고 서드파티가 관련이 없기 때문에 더 애자일 통합을 허용합니다.
 또한 마케팅 활동의 성능에 영향을 주지 않고 많은 양의 트래픽을 지원합니다. 예를 들어 통합은 시간당 백만 개의 트리거를 처리할 수 있습니다.
 
-![](assets/do-not-localize/book.png) [Experience Cloud 트리거를 만들고](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=ko)중요한 소비자 행동을 식별하고, 정의하고, 모니터링하는 방법을 알아봅니다.
+![](assets/do-not-localize/book.png) [Experience Cloud 트리거를 만들고](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html)중요한 소비자 행동을 식별하고, 정의하고, 모니터링하는 방법을 알아봅니다.
 
 ## [!DNL Triggers] 아키텍처 {#triggers-architecture}
 
@@ -57,8 +64,8 @@ ht-degree: 9%
 
 이 구현을 시작하기 전에 다음을 확인하십시오.
 
-* 올바른 **조직 식별자**: 조직 ID는 Adobe Experience Cloud 내의 고유 식별자이며, 예를 들어 VisitorID 서비스 및 IMS SSO(Single Sign-On)에 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)
-* 조직에 대한 **개발자 액세스**. 조직의 시스템 관리자는 트리거와 연결된 Adobe Analytics 제품의 `Analytics - {tenantID}` 제품 프로필에 대한 개발자 액세스 권한을 제공하려면 **단일 제품 프로필에 개발자 추가** 절차(이 페이지의 [설명](https://helpx.adobe.com/kr/enterprise/using/manage-developers.html))를 따라야 합니다.
+* 유효한 **조직 식별자**: 조직 ID는 Adobe Experience Cloud 내의 고유 식별자이며, 예를 들어 방문자 ID 서비스 및 IMS SSO(Single Sign-On)에 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)
+* 조직에 대한 **개발자 액세스**. 조직의 시스템 관리자는 트리거와 연결된 Adobe Analytics 제품의 `Analytics - {tenantID}` 제품 프로필에 대한 개발자 액세스 권한을 제공하려면 **단일 제품 프로필에 개발자 추가** 절차(이 페이지의 [설명](https://helpx.adobe.com/enterprise/using/manage-developers.html))를 따라야 합니다.
 
 ## 구현 단계 {#implement}
 

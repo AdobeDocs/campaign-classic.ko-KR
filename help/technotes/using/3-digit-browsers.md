@@ -8,9 +8,7 @@ source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 0%
-
 ---
-
 # 3자리 브라우저 버전이 Campaign 웹 구성 요소에 미치는 영향 {#version-100}
 
 Google과 Mozilla는 Chrome과 Firefox가 예정된 3자리 버전 때문에 일부 웹 사이트를 중단할 수 있다고 경고하고 있습니다.
