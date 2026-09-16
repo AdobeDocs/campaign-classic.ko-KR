@@ -97,7 +97,7 @@ Adobe은 보안 규정 준수를 이유로 오래된 데이터 센터를 폐기�
 1. **제품 및 서비스** 섹션에 액세스하여 **Adobe Campaign**&#x200B;이(가) 나열되는지 확인하십시오.
 **Adobe Campaign**&#x200B;이 표시되지 않으면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}에 문의하여 추가하십시오.
 1. **Adobe Campaign**&#x200B;을(를) 클릭하고 조직을 선택합니다.
-   **주의**: 둘 이상의 조직이 있는 경우 올바른 조직을 선택하십시오. [&#x200B; 조직에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
+   **주의**: 둘 이상의 조직이 있는 경우 올바른 조직을 선택하십시오. [&#x200B; 조직에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ko#ims-org-id){_blank}.
 
 1. **[!UICONTROL Product profile]**&#x200B;이(가) 있는지 확인하십시오. 그렇지 않으면 만듭니다. 이 **[!UICONTROL Product profile]**&#x200B;에는 권한이 필요하지 않습니다.
 

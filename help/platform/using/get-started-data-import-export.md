@@ -46,7 +46,7 @@ Adobe Campaign Classic은 데이터를 가져오고 내보낼 수 있는 데이�
 
 >[!NOTE]
 >
->데이터를 Campaign으로 가져오고 내보내는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target=_blank}를 참조하세요.
+>데이터를 Campaign으로 가져오고 내보내는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/import){target=_blank}를 참조하세요.
 
 
 <!--

@@ -142,7 +142,7 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 �
 
 Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 확인할 수 있습니다.
 
-이러한 보고서의 내용에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}를 참조하세요.
+이러한 보고서의 내용에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ko){target=_blank}를 참조하세요.
 
 <table> 
  <tbody> 
@@ -238,7 +238,7 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 �
 
 Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 확인할 수 있습니다.
 
-이러한 보고서의 내용에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}를 참조하세요.
+이러한 보고서의 내용에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ko){target=_blank}를 참조하세요.
 
 <table> 
  <tbody> 

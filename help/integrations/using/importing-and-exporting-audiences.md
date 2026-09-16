@@ -63,7 +63,7 @@ Audience Manager에서 직접 세그먼트를 가져오는 경우 가져오기 �
 >
 >Adobe Analytics에서 Adobe Campaign으로 대상을 가져오는 경우 이러한 대상을 Audience Manager에서 먼저 공유해야 합니다. 이 프로세스는 12~24시간 걸리며, Campaign과의 24~36시간 동기화에 추가해야 합니다.
 >
->이 경우 대상 공유 기간은 최대 60시간일 수 있습니다. Audience Manager의 Adobe Analytics 대상 공유에 대한 자세한 내용은 [Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html){target="_blank"}를 참조하세요.
+>이 경우 대상 공유 기간은 최대 60시간일 수 있습니다. Audience Manager의 Adobe Analytics 대상 공유에 대한 자세한 내용은 [Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ko){target="_blank"}를 참조하세요.
 
 대상 데이터는 동기화될 때마다 완전히 대체됩니다. 세그먼트만 가져올 수 있습니다. 키-값 쌍, 트레이트 및 규칙을 포함한 세분화된 데이터는 지원되지 않습니다.
 
@@ -93,7 +93,7 @@ Audience Manager에서 직접 세그먼트를 가져오는 경우 가져오기 �
 
 그런 다음 대상을 내보냅니다. 대상자 저장 활동에는 두 개의 아웃바운드 전환이 있습니다. 기본 전환에는 성공적으로 내보낸 수신자가 포함됩니다. 추가 전환에는 방문자 ID 또는 선언된 ID로 매핑될 수 없었던 수신자가 포함됩니다.
 
-솔루션 간 동기화는 24-36시간이 소요됩니다. 이 기간이 지나면 새로운 대상을 찾아 다른 Adobe Experience Cloud 솔루션에서 다시 사용할 수 있습니다. Adobe Campaign 공유 대상 사용에 대한 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/create){target="_blank"}를 참조하세요.
+솔루션 간 동기화는 24-36시간이 소요됩니다. 이 기간이 지나면 새로운 대상을 찾아 다른 Adobe Experience Cloud 솔루션에서 다시 사용할 수 있습니다. Adobe Campaign 공유 대상 사용에 대한 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/audiences/create){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >

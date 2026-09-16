@@ -107,7 +107,7 @@ ACS 커넥터는 Campaign Standard에서 Campaign v7로 정기적으로 다음 �
 
 ACS 커넥터는 Campaign v7과 Campaign Standard 간의 격리를 동기화합니다.
 
-예를 들어 Campaign v7에서 Campaign Standard으로 복제된 프로필에는 이메일 주소가 포함됩니다. Campaign Standard에 의해 이메일 주소가 격리된 경우, 다음 동기화 중에 데이터가 Campaign v7로 전달됩니다. 격리에 대한 자세한 내용은 [격리 관리](../../delivery/using/delivery-failures-quarantine.md) 및 [Campaign Standard 격리](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html)를 참조하십시오.
+예를 들어 Campaign v7에서 Campaign Standard으로 복제된 프로필에는 이메일 주소가 포함됩니다. Campaign Standard에 의해 이메일 주소가 격리된 경우, 다음 동기화 중에 데이터가 Campaign v7로 전달됩니다. 격리에 대한 자세한 내용은 [격리 관리](../../delivery/using/delivery-failures-quarantine.md) 및 [Campaign Standard 격리](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=ko)를 참조하십시오.
 
 ### 복제된 프로필 사용 {#using-replicated-profiles}
 

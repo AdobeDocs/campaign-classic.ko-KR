@@ -58,7 +58,7 @@ Adobe은 이러한 마이그레이션 작업을 지원합니다. 아래 문서�
 >
 >사용자를 IMS로 마이그레이션한 후에는 Adobe Admin Console의 제품 프로필에 이름에 &quot;admin&quot;이라는 단어가 포함되어 있는지 확인하십시오(예: &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot; 등). 는 Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 자동으로 부여합니다. Campaign 컨트롤 패널은 Campaign 인스턴스를 크게 변경할 수 있는 셀프서비스 도구입니다.
 >
->제품 프로필 이름 지정 규칙을 주의 깊게 검토하여 승인된 사용자만 Campaign 컨트롤 패널에 액세스할 수 있도록 합니다. [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}에서 Campaign 컨트롤 패널 권한 관리에 대해 자세히 알아보세요.
+>제품 프로필 이름 지정 규칙을 주의 깊게 검토하여 승인된 사용자만 Campaign 컨트롤 패널에 액세스할 수 있도록 합니다. [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko){target="_blank"}에서 Campaign 컨트롤 패널 권한 관리에 대해 자세히 알아보세요.
 
 
 ## 호스팅 및 Managed Services 환경을 마이그레이션하는 방법 {#ims-migration-procedure}
@@ -90,7 +90,7 @@ Adobe은 이러한 마이그레이션 작업을 지원합니다. 아래 문서�
 1. 업그레이드 후에도 기본 사용자 또는 IMS와 같은 두 가지 방법을 사용하여 새 사용자를 만들 수 있습니다.
 1. 내부 Campaign 관리자는 [이 섹션](../../integrations/using/configuring-ims.md)에 자세히 설명된 대로 Adobe IMS를 구성해야 합니다.
 1. 그런 다음 Campaign 클라이언트 콘솔의 모든 기본 사용자에게 고유한 이메일을 추가합니다. 이 단계는 [이 섹션](#ims-migration-id)에 자세히 설명되어 있습니다.
-1. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/manage-permissions.html){target="_blank"}에 자세히 설명된 대로 Adobe Admin Console에서 사용자 및 제품 프로필을 만듭니다.
+1. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/manage-permissions.html?lang=ko){target="_blank"}에 자세히 설명된 대로 Adobe Admin Console에서 사용자 및 제품 프로필을 만듭니다.
 1. 모든 연산자에 대해 **Adobe ID과 연결** 옵션을 사용하도록 설정하십시오.
 1. [이 페이지](../../integrations/using/implementing-ims.md)에 자세히 설명된 대로 연결에 Adobe IMS를 구현합니다.
 

@@ -120,7 +120,7 @@ Audience manager와의 통합을 구성하려면 Campaign 추적 서버도 구�
 
 ## 4단계: 방문자 ID 서비스 구성 {#step-4--configure-the-visitor-id-service}
 
-웹 속성이나 웹 사이트에서 방문자 ID 서비스가 구성된 적이 없는 경우 다음 [문서](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html)를 참조하여 서비스 또는 다음 [비디오](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)를 구성하는 방법을 알아보십시오.
+웹 속성이나 웹 사이트에서 방문자 ID 서비스가 구성된 적이 없는 경우 다음 [문서](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=ko)를 참조하여 서비스 또는 다음 [비디오](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)를 구성하는 방법을 알아보십시오.
 
 Experience Cloud ID 서비스의 `setCustomerID` 함수를 사용하여 선언된 ID로 고객 식별자를 통합 코드 `AdobeCampaignID`과(와) 동기화합니다. `AdobeCampaignID`은(는) [2단계: 데이터 원본 구성](#step-2--configure-the-data-sources)에서 구성된 받는 사람 데이터 Source에 설정된 조정 키 값과 일치해야 합니다.
 

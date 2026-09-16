@@ -59,7 +59,7 @@ Campaign 사용자는 Adobe IMS(ID 관리 시스템)를 통해 Adobe ID를 사�
 
 IMS(Adobe Identity Management Service)를 사용하여 Campaign Classic v7 연결을 구성하려면 [이 페이지](../../integrations/using/about-adobe-id.md)를 참조하십시오.
 
-구성이 완료되면 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect){target=_blank}에서 Adobe ID을 사용하여 Campaign에 연결하는 방법을 알아보세요.
+구성이 완료되면 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/connect){target=_blank}에서 Adobe ID을 사용하여 Campaign에 연결하는 방법을 알아보세요.
 
 
 ### 로그인/암호로 연결
@@ -84,7 +84,7 @@ IMS(Adobe Identity Management Service)를 사용하여 Campaign Classic v7 연�
 
 ![](assets/s_ncs_user_connections_management.png)
 
-[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect#create-your-connection){target=_blank}에서 연결을 설정하는 방법에 대해 알아봅니다.
+[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/connect#create-your-connection){target=_blank}에서 연결을 설정하는 방법에 대해 알아봅니다.
 
 ## 운영자 및 권한 {#operators-and-permissions}
 

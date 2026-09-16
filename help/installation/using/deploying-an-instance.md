@@ -98,12 +98,12 @@ Adobe Campaign은 Adobe Campaign 클라이언트 콘솔에서 사용할 수 있�
 다음 매개 변수를 지정합니다.
 
 * **[!UICONTROL Sender name]** : 보낸 사람의 이름을 입력합니다.
-* **[!UICONTROL Sender address]** : 보낸 사람의 전자 메일 주소를 입력합니다. Adobe Campaign에서 전자 메일을 보낼 때 **보낸 사람 주소** 사서함이 모니터링되지 않으며 마케팅 사용자가 이 사서함에 액세스할 수 없습니다. Adobe Campaign은 또한 이 사서함에서 받은 전자 메일을 자동 회신 또는 자동 전달하는 기능을 제공하지 않습니다. 게재 가능성 모범 사례 [에 대한 자세한 내용은 이 설명서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform.html){_blank}를 참조하세요.
+* **[!UICONTROL Sender address]** : 보낸 사람의 전자 메일 주소를 입력합니다. Adobe Campaign에서 전자 메일을 보낼 때 **보낸 사람 주소** 사서함이 모니터링되지 않으며 마케팅 사용자가 이 사서함에 액세스할 수 없습니다. Adobe Campaign은 또한 이 사서함에서 받은 전자 메일을 자동 회신 또는 자동 전달하는 기능을 제공하지 않습니다. 게재 가능성 모범 사례 [에 대한 자세한 내용은 이 설명서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform.html?lang=ko){_blank}를 참조하세요.
 
 * **[!UICONTROL Reply address text]** : 수신자가 **[!UICONTROL Reply]** 단추를 클릭할 때 사용되는 이름을 입력합니다.
 * **[!UICONTROL Reply address]** : 수신자가 전자 메일 클라이언트 소프트웨어에서 **[!UICONTROL Reply]** 단추를 클릭할 때 사용할 전자 메일 주소를 입력합니다. **회신 주소** 필드의 목적은 받는 사람이 **보낸 사람 주소**&#x200B;가 아닌 다른 주소로 회신하도록 하기 위한 것입니다.  이 주소는 올바른 이메일 주소여야 하며, 모니터링되는 사서함에 연결되어 있고 고객이 호스팅해야 합니다.  예를 들어 `customer-care@customer.com`과(와) 같이 전자 메일을 읽고 응답하는 지원 사서함일 수 있습니다.
 
-* **[!UICONTROL Error address]** : 오류가 있는 메시지의 이메일 주소를 입력합니다. 존재하지 않는 대상 주소로 인해 Adobe Campaign 서버가 받은 이메일을 포함하여 바운스 메일을 처리하는 데 사용되는 기술 주소입니다. 이 주소는 올바른 이메일 주소여야 하며, 모니터링되는 사서함에 연결되어 있고 고객이 호스팅해야 합니다. 바운스 사서함일 수 있습니다(예: `errors@customer.com`). 이 주소는 게재 또는 게재 템플릿에서 게재/게재 템플릿 속성의 **SMTP** 탭에서 변경할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html#managing-bounce-emails){target="_blank"}를 참조하세요.
+* **[!UICONTROL Error address]** : 오류가 있는 메시지의 이메일 주소를 입력합니다. 존재하지 않는 대상 주소로 인해 Adobe Campaign 서버가 받은 이메일을 포함하여 바운스 메일을 처리하는 데 사용되는 기술 주소입니다. 이 주소는 올바른 이메일 주소여야 하며, 모니터링되는 사서함에 연결되어 있고 고객이 호스팅해야 합니다. 바운스 사서함일 수 있습니다(예: `errors@customer.com`). 이 주소는 게재 또는 게재 템플릿에서 게재/게재 템플릿 속성의 **SMTP** 탭에서 변경할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html?lang=ko#managing-bounce-emails){target="_blank"}를 참조하세요.
 
 이외에도 보낸 사람 주소 및 오류 주소에 승인된 **마스크**&#x200B;를 지정할 수 있습니다. 필요에 따라 이러한 마스크는 쉼표를 사용하여 분리할 수 있다. 이 구성은 선택 사항입니다. 필드를 입력하면 Adobe Campaign은 게재 시(분석 시, 주소에 변수가 포함되지 않은 경우) 주소가 유효한지 확인합니다. 이 운영 모드에서는 게재 문제를 트리거할 수 있는 주소가 사용되지 않습니다. 게재 서버에서 게재 주소를 구성해야 합니다.
 
@@ -413,7 +413,7 @@ Adobe Campaign을 사용하면 이러한 세 가지 URL을 구별하여 여러 �
 
 각 URL 마스크를 구분하기 위해 쉼표를 사용하여 여러 URL 마스크를 지정할 수 있습니다.
 
-* 이메일에서 이미지 사용 및 관리에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}를 참조하세요.
+* 이메일에서 이미지 사용 및 관리에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko#adding-images){target="_blank"}를 참조하세요.
 * 게재 도우미에서 이러한 URL에서 호출된 이미지는 &quot;무시됨&quot; 상태가 됩니다.
 
 ### 게시 모드 {#publication-modes}

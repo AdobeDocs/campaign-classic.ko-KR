@@ -40,7 +40,7 @@ ht-degree: 6%
 ---
 # 개인화된 콘텐츠 작성 {#build-personalized-content}
 
-메시지 콘텐츠를 디자인할 때 게재를 실행할 수 없는 일반적인 문제를 방지하십시오. 대부분의 경우 가능한 오류는 [개인화](about-personalization.md), [서식](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#message-content){target="_blank"} 및 [이미지](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}와 관련이 있습니다.
+메시지 콘텐츠를 디자인할 때 게재를 실행할 수 없는 일반적인 문제를 방지하십시오. 대부분의 경우 가능한 오류는 [개인화](about-personalization.md), [서식](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko#message-content){target="_blank"} 및 [이미지](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko#adding-images){target="_blank"}와 관련이 있습니다.
 
 ## 개인화 최적화 {#optimize-personalization}
 
@@ -83,7 +83,7 @@ Personalization 기본 사항은 [이 섹션](personalization-fields.md)에 나�
 
 ### 제목 줄
 
-열람률을 개선하기 위한 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#sender){target="_blank"}의 제목 줄에 대해 알아봅니다.
+열람률을 개선하기 위한 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko#sender){target="_blank"}의 제목 줄에 대해 알아봅니다.
 
 * 너무 긴 과목은 피하세요. 최대 50자 사용
 
@@ -140,7 +140,7 @@ Personalization 기본 사항은 [이 섹션](personalization-fields.md)에 나�
 
 * 이메일의 **승인된 문자** 사용: 이메일 주소에 대한 유효한 문자 목록이 &quot;XtkEmail_Characters&quot; 옵션에 정의되어 있습니다. 이 섹션[&#128279;](../../installation/using/configuring-campaign-options.md)에서 Campaign 옵션 에 액세스하는 방법을 알아봅니다. 특수 문자를 올바르게 처리하려면 Adobe Campaign이 유니코드에 설치되어 있어야 합니다.
 
-* **전자 메일 인증** 구성: 전자 메일 헤더에 DKIM 서명이 포함되어 있는지 확인하십시오. DKIM(Domain Keys Identified Mail) 인증을 사용하면 수신 이메일 서버에서 메시지가 전송되었다고 주장하는 사람이나 엔티티에 의해 실제로 전송되었는지 확인하고, 메시지 콘텐츠가 원래 전송된 시간(및 DKIM &quot;서명됨&quot;)과 수신된 시간 사이에 변경되었는지 여부를 확인할 수 있습니다. 이 표준은 일반적으로 보낸 사람 또는 보낸 사람 헤더의 도메인을 사용합니다. 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)를 참조하세요.
+* **전자 메일 인증** 구성: 전자 메일 헤더에 DKIM 서명이 포함되어 있는지 확인하십시오. DKIM(Domain Keys Identified Mail) 인증을 사용하면 수신 이메일 서버에서 메시지가 전송되었다고 주장하는 사람이나 엔티티에 의해 실제로 전송되었는지 확인하고, 메시지 콘텐츠가 원래 전송된 시간(및 DKIM &quot;서명됨&quot;)과 수신된 시간 사이에 변경되었는지 여부를 확인할 수 있습니다. 이 표준은 일반적으로 보낸 사람 또는 보낸 사람 헤더의 도메인을 사용합니다. 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#authentication)를 참조하세요.
 
 ### 반응형 이메일 디자인
 
@@ -176,7 +176,7 @@ Personalization 기본 사항은 [이 섹션](personalization-fields.md)에 나�
 
 * 인스턴스 구성이 공개 리소스 관리를 활성화하는지 확인할 수 있습니다. [자세히 알아보기](../../installation/using/deploying-an-instance.md#managing-public-resources)
 
-* 게재 도우미에서 이미지가 포함된 HTML 페이지를 가져오거나 **[!UICONTROL Image]** 아이콘을 통해 HTML 편집기를 사용하여 직접 이미지를 삽입할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}를 참조하세요.
+* 게재 도우미에서 이미지가 포함된 HTML 페이지를 가져오거나 **[!UICONTROL Image]** 아이콘을 통해 HTML 편집기를 사용하여 직접 이미지를 삽입할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko#adding-images){target="_blank"}를 참조하세요.
 
 * 이미지가 표시되지 않으면 서버에서 사용할 수 있는지 확인하십시오. 이렇게 하려면 게재에서 Source 탭을 클릭합니다. 이미지를 찾아 웹 브라우저에서 각 이미지의 URL을 복사하여 붙여넣습니다. 이미지가 표시되지 않으면 IT 관리자 또는 게재 콘텐츠를 제공하는 서드파티 공급업체에 문의하십시오.
 
@@ -184,6 +184,6 @@ Personalization 기본 사항은 [이 섹션](personalization-fields.md)에 나�
 
 Adobe에서는 메시지를 미리 보고 개인화와 수신자가 게재를 보는 방법을 확인할 것을 권장합니다.
 
-* 게재 도우미에서 **[!UICONTROL Preview]** 하위 탭을 사용하면 수신자에 대한 각 콘텐츠의 렌더링을 볼 수 있습니다. 개인화 필드 및 컨텐츠의 조건부 요소는 선택한 프로필에 대한 해당 정보로 대체됩니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#message-content){target="_blank"}를 참조하세요.
+* 게재 도우미에서 **[!UICONTROL Preview]** 하위 탭을 사용하면 수신자에 대한 각 콘텐츠의 렌더링을 볼 수 있습니다. 개인화 필드 및 컨텐츠의 조건부 요소는 선택한 프로필에 대한 해당 정보로 대체됩니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko#message-content){target="_blank"}를 참조하세요.
 
 * 각 미리 보기 중에 자동 스팸 방지 검사가 수행됩니다. **[!UICONTROL Preview]** 하위 탭에서 [SpamAssassin](spamassassin.md) 스팸 점수를 확인하십시오.  경고에 대한 자세한 내용을 보려면 **[!UICONTROL More...]**&#x200B;을(를) 클릭하십시오.  이렇게 하려면 먼저 Adobe Campaign 애플리케이션 서버에 SpamAssassin이 올바르게 설치 및 구성되어 있는지 확인하십시오. [자세히 알아보기](../../installation/using/configuring-spamassassin.md)

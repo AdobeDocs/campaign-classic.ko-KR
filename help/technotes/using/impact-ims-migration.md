@@ -109,7 +109,7 @@ IMS(Adobe Identify Management System)로의 마이그레이션을 완료하려�
 
 따라서 이러한 작업은 클라이언트 콘솔에서 비활성화되었습니다.
 
-운영자의 관리는 Adobe Admin Console에서 중앙 집중화되며, 이제 다음 작업이 이 콘솔을 통해 독점적으로 관리됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}에서 사용자를 만들고 권한을 할당하는 방법에 대해 알아봅니다.
+운영자의 관리는 Adobe Admin Console에서 중앙 집중화되며, 이제 다음 작업이 이 콘솔을 통해 독점적으로 관리됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}에서 사용자를 만들고 권한을 할당하는 방법에 대해 알아봅니다.
 
 ### 사용할 수 없는 옵션 {#unavailable-migration}
 

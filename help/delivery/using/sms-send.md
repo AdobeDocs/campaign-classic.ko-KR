@@ -191,6 +191,6 @@ InSMS 스키마에는 수신 SMS와 관련된 정보가 포함되어 있습니�
 
 >[!IMPORTANT]
 >
->이러한 종류의 자동 메시지는 기록을 보관하지 않습니다. 따라서 게재 대시보드에 표시되지 않습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
+>이러한 종류의 자동 메시지는 기록을 보관하지 않습니다. 따라서 게재 대시보드에 표시되지 않습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
 >
->상업적 압력 규칙에서는 이러한 메시지가 고려되지 않습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}를 참조하세요.
+>상업적 압력 규칙에서는 이러한 메시지가 고려되지 않습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ko){target="_blank"}를 참조하세요.

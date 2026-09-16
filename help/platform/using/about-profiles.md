@@ -54,30 +54,30 @@ Adobe Campaign에서 수신자는 게재(전자 메일, SMS 등)를 보낼 타�
 
 >[!NOTE]
 >
->프로필과 프로필을 만들고 편집하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}의 상세 설명서를 참조하십시오.
+>프로필과 프로필을 만들고 편집하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}의 상세 설명서를 참조하십시오.
 
 >[!BEGINTABS]
 
 >[!TAB 프로필 설명서]
 
-프로필과 프로필을 만들고 편집하는 방법에 대한 자세한 내용은 **[Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}**&#x200B;의 상세 설명서를 참조하십시오.
+프로필과 프로필을 만들고 편집하는 방법에 대한 자세한 내용은 **[Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}**&#x200B;의 상세 설명서를 참조하십시오.
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}
 
 >[!TAB 프로필 만들기 및 편집]
 
 **Campaign v8 설명서**&#x200B;에서 프로필을 편집, 관리 및 추가하는 방법을 알아보세요.
 
-* [프로필 추가](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/profile-management/adding-profiles){target=_blank}: 새 프로필을 추가하고 만드는 주요 단계를 알아봅니다.
-* [프로필 편집](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/view-profiles?lang=en#_blank){target=_blank}: 기존 프로필을 보고 편집합니다.
+* [프로필 추가](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/getting-started/profile-management/adding-profiles){target=_blank}: 새 프로필을 추가하고 만드는 주요 단계를 알아봅니다.
+* [프로필 편집](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/view-profiles?lang=en#_blank){target=_blank}: 기존 프로필을 보고 편집합니다.
 * [프로필 관리](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views?lang=en#_blank){target=_blank}: 폴더 관리 도구를 사용하여 기존 프로필에 액세스하고 관리합니다.
 
 >[!TAB 프로필 가져오기/내보내기]
 
 **Campaign v8 설명서**&#x200B;에서 프로필 및 데이터를 가져오고 내보내는 방법을 알아보세요.
 
-* [프로필 가져오기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/import-profiles){target=_blank}: 워크플로우를 사용하여 프로필을 가져올 수 있습니다.
-* [데이터 가져오기/내보내기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target=_blank}: 일반 가져오기/내보내기를 사용하여 데이터 및 프로필을 가져오거나 내보내는 방법에 대해 알아봅니다.
+* [프로필 가져오기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/add-profiles/import-profiles){target=_blank}: 워크플로우를 사용하여 프로필을 가져올 수 있습니다.
+* [데이터 가져오기/내보내기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/import){target=_blank}: 일반 가져오기/내보내기를 사용하여 데이터 및 프로필을 가져오거나 내보내는 방법에 대해 알아봅니다.
 
 >[!ENDTABS]
 
@@ -148,9 +148,9 @@ The general layout of the Adobe Campaign explorer is presented in [this page](..
 
 An active profile is a profile that customer has attempted to communicate with during the past 12 months via any channel.
 
-According to your contract, each of your Campaign instances is provisioned with a specific amount of active profiles that are counted for billing purposes. Please refer to your latest contract for reference on number of purchased active profiles. Learn more in [Adobe Campaign product description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+According to your contract, each of your Campaign instances is provisioned with a specific amount of active profiles that are counted for billing purposes. Please refer to your latest contract for reference on number of purchased active profiles. Learn more in [Adobe Campaign product description](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-You can monitor the number of active profiles on your instance directly from Campaign Control Panel. For more on this, refer to the [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.
+You can monitor the number of active profiles on your instance directly from Campaign Control Panel. For more on this, refer to the [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ko){target="_blank"}.
 
 The following guardrails and limitations apply:
 
@@ -168,11 +168,11 @@ This video also explains the compliance of Adobe Campaign Classic with General D
 
 >[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
 
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko).
 
 **See also**
 
-* [Privacy management in Campaign](https://helpx.adobe.com/campaign/kb/acc-privacy.html)
+* [Privacy management in Campaign](https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html)
 
 * [Create queries and segment data in workflows](../../workflow/using/targeting-data.md)
 
