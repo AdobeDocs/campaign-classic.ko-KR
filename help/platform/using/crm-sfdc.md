@@ -110,4 +110,4 @@ Adobe Campaign 데이터와 SFDC 간에 데이터를 동기화하려면 워크�
 
 ![](assets/crm_connectors_sfdc_wf.png)
 
-이 페이지](../../platform/using/crm-data-sync.md)에서 데이터 동기화 [에 대해 자세히 알아보세요.
+이 페이지[&#128279;](../../platform/using/crm-data-sync.md)에서 데이터 동기화 에 대해 자세히 알아보세요.

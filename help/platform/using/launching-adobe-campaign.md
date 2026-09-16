@@ -55,7 +55,7 @@ Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결�
 
 ### Adobe ID과 연결
 
-Campaign 사용자는 Adobe IMS(ID 관리 시스템)를 통해 Adobe ID를 사용하여 Adobe Campaign 콘솔에 연결합니다. 모든 Adobe 솔루션에서 동일한 ID를 사용할 수 있습니다. 다른 솔루션으로 Adobe Campaign을 사용하는 경우 연결이 저장됩니다. 이 페이지](https://helpx.adobe.com/kr/enterprise/using/identity.html)에서 Adobe IMS [에 대해 자세히 알아보세요.
+Campaign 사용자는 Adobe IMS(ID 관리 시스템)를 통해 Adobe ID를 사용하여 Adobe Campaign 콘솔에 연결합니다. 모든 Adobe 솔루션에서 동일한 ID를 사용할 수 있습니다. 다른 솔루션으로 Adobe Campaign을 사용하는 경우 연결이 저장됩니다. 이 페이지[&#128279;](https://helpx.adobe.com/kr/enterprise/using/identity.html)에서 Adobe IMS 에 대해 자세히 알아보세요.
 
 IMS(Adobe Identity Management Service)를 사용하여 Campaign Classic v7 연결을 구성하려면 [이 페이지](../../integrations/using/about-adobe-id.md)를 참조하십시오.
 

@@ -186,7 +186,7 @@ Adobe Campaign 이외의 도구를 사용하여 문자 문자열을 내보내고
 &lang=xx
 ```
 
-url의 언어 앞에 다른 매개 변수가 있는 경우. 예: **https://myserver/webApp/APP34?status=1&amp;lang=en**
+url의 언어 앞에 다른 매개 변수가 있는 경우. 예: **https://myserver/webApp/APP34?status=1&lang=en**
 
 기본적으로 사용할 수 있는 번역 언어 및 사전은 아래에 나열되어 있습니다.
 
@@ -447,7 +447,7 @@ URL 끝에 **?lang=fr**&#x200B;을(를) 추가하여 프랑스어로 표시합�
 >[!NOTE]
 >
 >이 웹 응용 프로그램에 다른 매개 변수가 이미 사용된 경우 **&amp;lang=**&#x200B;을(를) 추가합니다.\
->예: **https://myserver/webApp/APP34?status=1&amp;lang=en**
+>예: **https://myserver/webApp/APP34?status=1&lang=en**
 
 ## 고급 번역 구성 {#advanced-translation-configuration}
 
