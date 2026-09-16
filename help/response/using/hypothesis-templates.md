@@ -3,7 +3,7 @@ product: campaign
 title: 가설 템플릿
 description: 캠페인 응답 관리자에서 가설 템플릿을 만드는 방법을 알아봅니다
 feature: Campaigns, Templates
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: campaign
 content-type: reference
 topic-tags: response-manager
@@ -11,20 +11,23 @@ exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
 TQID: https://experienceleague.adobe.com/FKf9pDlOZI1NEhwmdSpcpvEbNsT28wEvgy81TBEQQgo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
 subfeature_v2:
   - id: d72afaa0-c842-48c8-9a3c-51b7911edc1b
+    internal-label: Response Management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1410
+source-wordcount: '1401'
 ht-degree: 2%
-
 ---
-
 # 가설 템플릿{#hypothesis-templates}
 
 
@@ -102,17 +105,17 @@ ht-degree: 2%
 
   스케줄을 지정하려면 다음 프로세스를 적용합니다.
 
-   1. **[!UICONTROL Frequency of execution...]** 링크를 클릭한 다음 **[!UICONTROL Change...]** 단추를 클릭합니다.
+  1. **[!UICONTROL Frequency of execution...]** 링크를 클릭한 다음 **[!UICONTROL Change...]** 단추를 클릭합니다.
 
-      ![](assets/response_frequency_execution_001.png)
+     ![](assets/response_frequency_execution_001.png)
 
-   1. 빈도, 관련 이벤트 및 유효 기간을 구성합니다.
+  1. 빈도, 관련 이벤트 및 유효 기간을 구성합니다.
 
-      ![](assets/response_frequency_execution_002.png)
+     ![](assets/response_frequency_execution_002.png)
 
-   1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭하여 일정을 저장합니다.
+  1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭하여 일정을 저장합니다.
 
-      ![](assets/response_frequency_execution_003.png)
+     ![](assets/response_frequency_execution_003.png)
 
 * **[!UICONTROL Log SQL queries in journal]**: 이 함수는 전문가 사용자용으로 예약되어 있습니다. 측정 가설 감사에 탭을 추가하여 SQL 쿼리를 표시할 수 있습니다. 이를 통해 시뮬레이션이 오류로 종료될 경우 발생 가능한 오동작을 감지할 수 있다.
 * **[!UICONTROL Keep execution workflow]**: 가설 계산이 시작될 때 자동으로 생성된 워크플로를 유지할 수 있습니다. 이 옵션이 선택된 템플릿에서 생성된 가설에서 생성된 워크플로는 프로세스를 따를 수 있습니다.
@@ -157,31 +160,31 @@ ht-degree: 2%
 
 * **트랜잭션 필터링**: **[!UICONTROL Scope]** 탭에서 가설에 대한 필터를 구성할 수 있습니다. 방법은 다음과 같습니다.
 
-   1. **[!UICONTROL Edit query]** 링크를 클릭합니다.
+  1. **[!UICONTROL Edit query]** 링크를 클릭합니다.
 
-      ![](assets/response_scope_filtering_001.png)
+     ![](assets/response_scope_filtering_001.png)
 
-   1. 필터링 조건을 지정합니다.
+  1. 필터링 조건을 지정합니다.
 
-      ![](assets/response_scope_filtering_002.png)
+     ![](assets/response_scope_filtering_002.png)
 
-   1. 가설에 관한 트랜잭션을 선택합니다.
+  1. 가설에 관한 트랜잭션을 선택합니다.
 
-      ![](assets/response_scope_filtering_003.png)
+     ![](assets/response_scope_filtering_003.png)
 
 * **받는 사람 필터링**: **[!UICONTROL Scope]** 탭에서 메시지에 연결된 정보(게재, 받는 사람, 전자 메일 주소, 서비스 등)로 가설을 제한할 수 있습니다.
 
-   1. **[!UICONTROL Add a filter]** 링크를 클릭한 다음 **[!UICONTROL Edit query]**&#x200B;을(를) 클릭합니다.
+  1. **[!UICONTROL Add a filter]** 링크를 클릭한 다음 **[!UICONTROL Edit query]**&#x200B;을(를) 클릭합니다.
 
-      ![](assets/response_scope_filtering_004.png)
+     ![](assets/response_scope_filtering_004.png)
 
-   1. 필터링 조건을 지정합니다.
+  1. 필터링 조건을 지정합니다.
 
-      ![](assets/response_scope_filtering_005.png)
+     ![](assets/response_scope_filtering_005.png)
 
-   1. 쿼리를 저장하려면 **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
+  1. 쿼리를 저장하려면 **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
-      ![](assets/response_scope_filtering_006.png)
+     ![](assets/response_scope_filtering_006.png)
 
 * **스크립트**: JavaScript 스크립트를 사용하여 실행 중에 가설 설정을 동적으로 오버로드할 수 있습니다.
 

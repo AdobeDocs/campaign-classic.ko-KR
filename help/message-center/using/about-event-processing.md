@@ -10,17 +10,17 @@ exl-id: 3d85866a-6339-458c-807a-b267cce772b8
 TQID: https://experienceleague.adobe.com/pex7wiGCNMdY86-Ug7dyLxE3RRT-ejlgz8eH7zVmZc4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 708
+source-wordcount: '708'
 ht-degree: 3%
-
 ---
-
 # 이벤트 처리 {#about-event-processing}
 
 
@@ -92,8 +92,8 @@ ht-degree: 3%
 
 * **보류 중**: 이벤트는 다음과 같을 수 있습니다.
 
-   * 방금 수집되었으며 아직 처리되지 않은 이벤트입니다. **[!UICONTROL Number of errors]** 열에 값 0이 표시됩니다. 이메일 템플릿이 아직 연결되지 않았습니다.
-   * 처리되었지만 확인이 잘못된 이벤트. **[!UICONTROL Number of errors]** 열에 0이 아닌 값이 표시됩니다. 이 이벤트가 다시 처리되는 시기를 확인하려면 **[!UICONTROL Process requested on]** 열을 참조하십시오.
+  * 방금 수집되었으며 아직 처리되지 않은 이벤트입니다. **[!UICONTROL Number of errors]** 열에 값 0이 표시됩니다. 이메일 템플릿이 아직 연결되지 않았습니다.
+  * 처리되었지만 확인이 잘못된 이벤트. **[!UICONTROL Number of errors]** 열에 0이 아닌 값이 표시됩니다. 이 이벤트가 다시 처리되는 시기를 확인하려면 **[!UICONTROL Process requested on]** 열을 참조하십시오.
 
 * **게재 보류 중**: 이벤트가 처리되었으며 게재 템플릿이 연결되어 있습니다. 이메일이 게재 보류 중이며 클래식 게재 프로세스가 적용됩니다. 자세한 내용은 게재를 열 수 있습니다.
 * **전송됨**, **무시됨** 및 **게재 오류**: 이러한 게재 상태는 **updateEventsStatus** 워크플로우를 통해 복구됩니다. 자세한 내용은 관련 게재를 열 수 있습니다.

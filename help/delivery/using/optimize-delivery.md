@@ -2,7 +2,7 @@
 product: campaign
 title: 메시지 게재 최적화
 description: 메시지 게재를 최적화하는 방법 알아보기
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 role: User
 hide: true
@@ -10,27 +10,36 @@ exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
 TQID: https://experienceleague.adobe.com/XiK0I9mZTlGWACRL-TTdDO5pByzBg-6oFdfcTNfhX44
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 758
+source-wordcount: '749'
 ht-degree: 9%
-
 ---
-
 # 게재 최적화 {#optimize-delivery}
 
 게재 만들기를 시작하기 전에 전송 프로세스 업스트림을 보호하고 최적화하는 몇 가지 작업을 수행할 수 있습니다.
@@ -63,9 +72,9 @@ ht-degree: 9%
 
 * 전달성이란 무엇입니까?
 
-   * 받는 사람의 서버에서 수락할 수 있는 전자 메일의 기능을 결정하는 요소를 말합니다. ISP(인터넷 서비스 공급자)는 스팸으로 식별되는 이메일을 필터링하거나 이미지가 다운로드되지 않도록 차단합니다. 특정 도메인에서 너무 많은 이메일을 보내고 있다고 판단되면 해당 발신자로부터 받을 이메일 수에 대한 제한을 설정합니다.
+  * 받는 사람의 서버에서 수락할 수 있는 전자 메일의 기능을 결정하는 요소를 말합니다. ISP(인터넷 서비스 공급자)는 스팸으로 식별되는 이메일을 필터링하거나 이미지가 다운로드되지 않도록 차단합니다. 특정 도메인에서 너무 많은 이메일을 보내고 있다고 판단되면 해당 발신자로부터 받을 이메일 수에 대한 제한을 설정합니다.
 
-   * 이메일의 전달성을 확인할 때는 데이터 품질, 메시지 및 콘텐츠, 전송 인프라, 신뢰도 등 네 가지 주요 카테고리에 중점을 두어야 합니다. 이 항목에 대한 자세한 내용은 [이 섹션](about-deliverability.md)을 참조하세요.
+  * 이메일의 전달성을 확인할 때는 데이터 품질, 메시지 및 콘텐츠, 전송 인프라, 신뢰도 등 네 가지 주요 카테고리에 중점을 두어야 합니다. 이 항목에 대한 자세한 내용은 [이 섹션](about-deliverability.md)을 참조하세요.
 
 * 이 문서에서 [자세히 설명한 권장 사항을 적용](about-deliverability.md)하십시오.
 

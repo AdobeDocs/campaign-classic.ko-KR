@@ -3,7 +3,7 @@ product: campaign
 title: 파일 및 리소스 관리
 feature: Installation, Application Settings
 description: Campaign에서 파일 및 리소스 관리를 구성하는 방법 알아보기
-badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
@@ -11,18 +11,19 @@ exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
 TQID: https://experienceleague.adobe.com/GyNWNrT81f8tWIQizlu3KcVgKvepCjqd6G40DKeOlGo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 675
+source-wordcount: '663'
 ht-degree: 3%
-
 ---
-
 # 파일 및 리소스 관리{#file-and-resmanagement}
 
 

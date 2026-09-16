@@ -9,24 +9,31 @@ exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
 TQID: https://experienceleague.adobe.com/0x1K997AEHhX-ozmIJH5I6NZPb388PKFkrXaK-EgoTY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1763
+source-wordcount: '1773'
 ht-degree: 24%
-
 ---
-
 # 대상 모집단 정의 {#defining-the-target-population}
 
 각 게재에 대해 여러 유형의 대상 모집단을 정의할 수 있습니다.
@@ -150,12 +157,12 @@ ht-degree: 24%
 
   예제:
 
-   * 뉴스레터 또는 전자 문서 게재. 데이터에 기본 중복 항목이 없는 경우에 따라 중복 항목을 제외하지 않습니다. 동일한 이메일 주소를 구독하는 커플은 두 개의 특정 개인화된 이메일 메시지를 받을 수 있습니다. 한 개는 이름별로 각 개인에게 주소가 지정됩니다. 이 경우 이 옵션을 선택 취소할 수 있습니다.
-   * 마케팅 캠페인 게재: 동일한 수신자에게 너무 많은 메시지를 보내지 않으려면 중복 제외가 필요합니다. 이 경우 이 옵션을 선택할 수 있습니다.
+  * 뉴스레터 또는 전자 문서 게재. 데이터에 기본 중복 항목이 없는 경우에 따라 중복 항목을 제외하지 않습니다. 동일한 이메일 주소를 구독하는 커플은 두 개의 특정 개인화된 이메일 메시지를 받을 수 있습니다. 한 개는 이름별로 각 개인에게 주소가 지정됩니다. 이 경우 이 옵션을 선택 취소할 수 있습니다.
+  * 마케팅 캠페인 게재: 동일한 수신자에게 너무 많은 메시지를 보내지 않으려면 중복 제외가 필요합니다. 이 경우 이 옵션을 선택할 수 있습니다.
 
-     이 옵션을 선택 취소하면 추가 옵션 **[!UICONTROL Keep duplicate records (same identifier)]**&#x200B;에 액세스할 수 있습니다. 이를 통해 여러 타겟팅 기준을 충족하는 수신자에게 여러 게재를 승인할 수 있습니다.
+    이 옵션을 선택 취소하면 추가 옵션 **[!UICONTROL Keep duplicate records (same identifier)]**&#x200B;에 액세스할 수 있습니다. 이를 통해 여러 타겟팅 기준을 충족하는 수신자에게 여러 게재를 승인할 수 있습니다.
 
-     ![](assets/s_ncs_user_wizard_email02j.png)
+    ![](assets/s_ncs_user_wizard_email02j.png)
 
 * **[!UICONTROL Exclude recipients who no longer want to be contacted]**, 즉 이메일 주소가 차단 목록에 있는 수신자(&#39;옵트아웃&#39;). 이 옵션은 e-마케팅의 직업 윤리와 전자 상거래에 관한 법률을 준수하기 위해 선택된 상태로 유지되어야 합니다.
 * **[!UICONTROL Exclude quarantined recipients]**. 이 옵션을 사용하면 주소가 응답하지 않는 프로필을 타겟에서 제외할 수 있습니다. 이 옵션은 계속 선택해 두는 것을 강력하게 권장합니다.

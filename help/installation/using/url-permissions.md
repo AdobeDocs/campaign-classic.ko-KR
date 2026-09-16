@@ -3,7 +3,7 @@ product: campaign
 title: URL 권한 구성
 description: URL 권한을 구성하는 방법 알아보기
 feature: Installation, Instance Settings, Permissions
-badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -11,27 +11,32 @@ exl-id: 6fe8da3b-57b9-4a69-8602-a03993630b27
 TQID: https://experienceleague.adobe.com/5F4SRt978KzXMI06t3rNt3YRnYI-EWwSkQIrAd0oDq8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
 subfeature_v2:
   - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
+    internal-label: Privacy
   - id: fb2a841f-c522-491f-9901-a1b939d252df
+    internal-label: Security
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 380
-ht-degree: 26%
-
+source-wordcount: '368'
+ht-degree: 31%
 ---
-
 # URL 권한 구성(온-프레미스){#url-permissions}
 
 
 
-JavaScript 코드(워크플로우 등)로 호출할 수 있는 기본 URL 목록 Campaign Classic 인스턴스는 제한됩니다. 인스턴스는 이러한 URL이 있어야 정상 작동합니다.
+Campaign 인스턴스에서 워크플로 등 JavaScript 코드를 통해 호출할 수 있는 URL의 기본 목록은 Campaign Classic 인스턴스는 제한됩니다. 인스턴스는 이러한 URL이 있어야 정상 작동합니다.
 
 기본적으로 인스턴스는 외부 URL에 연결할 수 없습니다. 그러나 인스턴스가 연결할 수 있도록 권한이 부여된 URL 목록에 일부 외부 URL을 추가할 수 있습니다. 이렇게 하면 파일 및/또는 데이터를 전송할 수 있도록 SFTP 서버나 웹 사이트 등의 외부 시스템에 Campaign 인스턴스를 연결할 수 있습니다.
 

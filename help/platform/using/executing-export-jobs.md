@@ -3,7 +3,7 @@ product: campaign
 title: 내보내기 작업 구성
 description: Campaign에서 내보내기 작업을 구성하고 실행하는 방법 알아보기
 feature: Overview
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -11,20 +11,24 @@ exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
 TQID: https://experienceleague.adobe.com/YkFgnO67JZr1NK1OuVeVSNT4343nji7QDwFh-B4Z5q0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 963
+source-wordcount: '954'
 ht-degree: 3%
-
 ---
-
 # 내보내기 작업 구성 {#executing-export-jobs}
 
 
@@ -117,9 +121,9 @@ ht-degree: 3%
 * 필드의 레이블을 변경하려면 수정할 필드와 일치하는 **[!UICONTROL Label]** 열의 셀을 클릭하고 새 레이블을 입력합니다. 확인하려면 키보드에서 Enter 키를 누릅니다.
 * 필드의 내용에 대/소문자 변환을 적용하려면 **[!UICONTROL Transformation]** 열에서 선택합니다. 다음을 선택할 수 있습니다.
 
-   * 소문자로 전환
-   * 대문자로 전환
-   * 첫 글자를 대문자로
+  * 소문자로 전환
+  * 대문자로 전환
+  * 첫 글자를 대문자로
 
   ![](assets/s_ncs_user_export_wizard06.png)
 

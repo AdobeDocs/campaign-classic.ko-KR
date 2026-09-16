@@ -11,22 +11,27 @@ exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
 TQID: https://experienceleague.adobe.com/UDef0tPJLGrBb-i2sVUP2kDLWNQMtbMbdIizKUOdK2Q
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
   - id: a6eada7c-dc79-4b66-a7d3-206cf47dc9d8
+    internal-label: Marketing Resource Management
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 732
+source-wordcount: '732'
 ht-degree: 0%
-
 ---
-
 # 토론 포럼{#discussion-forums}
 
 
@@ -123,7 +128,7 @@ Adobe Campaign 운영자는 토론 포럼을 사용하여 정보를 공유할 �
 * **[!UICONTROL Administration > Production > Technical workflows > Campaign processes]** 노드로 이동하여 **[!UICONTROL Jobs in discussion forums]** 워크플로가 시작되었고 오류가 없는지 확인합니다.
 * 게재 로그 보기:
 
-   * Adobe Campaign 홈페이지에서 **[!UICONTROL Campaigns > Navigation > Deliveries]**(으)로 이동한 다음 **[!UICONTROL Discussion forum notification]** 게재를 엽니다.
-   * 탐색기에서 **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**(으)로 이동한 다음 **[!UICONTROL Discussion forum notifications]**&#x200B;을(를) 클릭합니다.
+  * Adobe Campaign 홈페이지에서 **[!UICONTROL Campaigns > Navigation > Deliveries]**(으)로 이동한 다음 **[!UICONTROL Discussion forum notification]** 게재를 엽니다.
+  * 탐색기에서 **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**(으)로 이동한 다음 **[!UICONTROL Discussion forum notifications]**&#x200B;을(를) 클릭합니다.
 
   **[!UICONTROL Discussion forum notifications]** 상자의 게재 로그는 **[!UICONTROL Edit > Delivery]** 탭에 있습니다. **[!UICONTROL Tracking > Log]** 및 **[!UICONTROL Exclusion causes]** 탭도 볼 수 있습니다.

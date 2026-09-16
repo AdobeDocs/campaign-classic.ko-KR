@@ -2,28 +2,32 @@
 product: campaign
 title: 결과 분석
 description: 전용 사용 사례를 통해 A/B 테스트를 수행하는 방법에 대해 알아봅니다
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 role: User
 exl-id: e6f39180-d161-4226-810a-10bb1c3682ca
 TQID: https://experienceleague.adobe.com/WeKPxg-eyHRxKWXK4LM0djXr-HlKkpH0FnW-utZoG10
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 114
+source-wordcount: '105'
 ht-degree: 2%
-
 ---
-
 # AB 테스트: 결과 분석 {#step-8--analyzing-the-result}
 
 테스트 게재가 전송되면 전송된 수신자와 열기 여부를 확인할 수 있습니다.

@@ -10,17 +10,17 @@ exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
 TQID: https://experienceleague.adobe.com/1Je4UdKtftgQaeTX77rBrgezn2pIBRlHAG4DPavfE14
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 534
+source-wordcount: '534'
 ht-degree: 2%
-
 ---
-
 # Snowflake 액세스 구성 {#configure-access-to-snowflake}
 
 Campaign **FDA(Federated Data Access**) 옵션을 사용하여 외부 데이터베이스에 저장된 정보를 처리합니다. [!DNL Snowflake]에 대한 액세스를 구성하려면 아래 단계를 따르십시오.
@@ -102,9 +102,9 @@ Campaign 인스턴스를 [!DNL Snowflake] 외부 데이터베이스에 연결하
 
    * 계정/암호 인증의 경우 다음을 지정해야 합니다.
 
-      * **[!UICONTROL Account]**: 사용자 이름
+     * **[!UICONTROL Account]**: 사용자 이름
 
-      * **[!UICONTROL Password]**: 사용자 계정 암호입니다.
+     * **[!UICONTROL Password]**: 사용자 계정 암호입니다.
 
      ![](assets/snowflake.png)
 

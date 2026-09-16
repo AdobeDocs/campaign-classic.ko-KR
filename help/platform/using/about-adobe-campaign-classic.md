@@ -9,27 +9,35 @@ exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
 TQID: https://experienceleague.adobe.com/qngVGmYzQ0Qrr1erTTlSEO7FX6djL-mfax-N4ypchy8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 208
+source-wordcount: '208'
 ht-degree: 51%
-
 ---
-
 # Campaign Classic 시작{#about-adobe-campaign-classic}
 
 높은 수준의 고객 참여도와 훌륭한 경험을 제공하려면 브랜드는 모든 접점에서 일관된 고객 여정을 만들어야 합니다. 마케터는 이제 마케팅 투자에 대한 높은 수익을 제공하고 충성도를 높일 수 있는 크로스 채널 마케팅 캠페인을 효율적으로 디자인, 계획, 실행, 관리 및 최적화할 수 있습니다.

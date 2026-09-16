@@ -8,18 +8,19 @@ exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
 TQID: https://experienceleague.adobe.com/JEGK7xRIWwipkqKnRGEByK7pCBCkgXzOrbMPHoXCDUU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 feature_v2: []
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 617
+source-wordcount: '617'
 ht-degree: 9%
-
 ---
-
 # IMS를 사용하여 Adobe Campaign에 연결하기 위해 환경을 업데이트하는 방법 {#acc-ims-faq}
 
 
@@ -48,11 +49,11 @@ Adobe ID을 통해 [IMS(Adobe Identity Management Service)를 통해 &#x200B;](.
 
   아래 나열된 새 버전 중 하나로 업그레이드해야 합니다.
 
-   * Gold Standard 11. [자세히 알아보기](../../rn/using/gold-standard.md)
-   * Campaign 21.1.3 릴리스 [자세히 알아보기](../../rn/using/latest-release.md)
-   * Campaign 20.2.5 릴리스
-   * Campaign 20.1.4 릴리스
-   * Campaign 19.2.4 릴리스
+  * Gold Standard 11. [자세히 알아보기](../../rn/using/gold-standard.md)
+  * Campaign 21.1.3 릴리스 [자세히 알아보기](../../rn/using/latest-release.md)
+  * Campaign 20.2.5 릴리스
+  * Campaign 20.1.4 릴리스
+  * Campaign 19.2.4 릴리스
 
   이러한 릴리스는 새 연결 프로토콜과 함께 제공됩니다. Campaign 서버와 클라이언트 콘솔은 모두 업그레이드해야 합니다. 모든 인스턴스가 업그레이드되면 **2021년 6월 30일** 이후에 Campaign에 연결할 수 있도록 클라이언트 콘솔도 이 버전으로 업그레이드해야 합니다.
 

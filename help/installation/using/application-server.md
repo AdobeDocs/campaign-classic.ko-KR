@@ -3,7 +3,7 @@ product: campaign
 title: 애플리케이션 서버
 description: 애플리케이션 서버
 feature: Installation
-badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
@@ -11,15 +11,14 @@ exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
 TQID: https://experienceleague.adobe.com/QB-FFljzZBWLM17tjDhPD-zk5w96W1RfIMKX-IGDEBA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 677
+source-wordcount: '665'
 ht-degree: 3%
-
 ---
-
 # 애플리케이션 서버{#application-server}
 
 필요한 데이터베이스 액세스 계층은 서버에 설치되어 있고 Adobe Campaign 계정에서 액세스할 수 있어야 합니다.

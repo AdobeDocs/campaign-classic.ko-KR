@@ -2,28 +2,32 @@
 product: campaign
 title: AB 테스트 사용 사례
 description: 전용 사용 사례를 통해 A/B 테스트를 수행하는 방법에 대해 알아봅니다
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 role: User
 exl-id: 4eb139a0-5342-4084-9f6d-d736e05bf1c6
 TQID: https://experienceleague.adobe.com/rYG71DezWYLaFpxjPKrnCEQJgyDVjFfopNsr6aWtQ1w
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 267
+source-wordcount: '258'
 ht-degree: 4%
-
 ---
-
 # AB 테스트: A/B 테스트 이 사용 사례 {#ab-testing-use-case}
 
 이 사용 사례에서는 타겟팅 워크플로우를 통해 두 개의 이메일 게재 콘텐츠를 비교하려고 합니다. 메시지와 텍스트는 두 게재에서 동일합니다. 레이아웃만 변경됩니다.

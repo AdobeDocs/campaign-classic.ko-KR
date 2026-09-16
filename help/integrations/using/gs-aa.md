@@ -9,27 +9,35 @@ exl-id: 985cf088-7546-4875-8e11-cafe5bd3e323
 TQID: https://experienceleague.adobe.com/YuvP0m31wL-WlocUXU3rWovOiwLiA5XrEsnBLlW3nY8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 209
+source-wordcount: '209'
 ht-degree: 12%
-
 ---
-
 # Adobe Campaign 및 Adobe Analytics 작업 {#adobe-analytics-connector-gs}
 
 Adobe Analytics 커넥터를 사용하면 Adobe Campaign 및 Adobe Analytics이 **[!UICONTROL Web Analytics connectors]** 패키지를 통해 상호 작용할 수 있습니다. 캠페인 후 사용자 행동에 대한 세그먼트 형태로 데이터를 Adobe Campaign에 전달합니다. 반대로 Adobe Campaign에서 게재한 캠페인의 지표와 특성을 Adobe Analytics으로 보냅니다.
@@ -44,8 +52,8 @@ Adobe Campaign-Adobe Analytics 커넥터 작업을 시작하기 전에 다음 �
 
 * Web Analytics 커넥터 추가 기능은 전용 패키지를 통해 환경에 설치해야 합니다.
 
-   * 하이브리드 및 온-프레미스 구현의 경우 이 [페이지](adobe-analytics-provisioning.md)에서 자세히 설명하는 프로비저닝 단계를 따라야 합니다.
-   * Hoster 또는 Managed Cloud Services 사용자는 Adobe에 문의하여 Campaign을 Adobe Experience Cloud 서비스 및 솔루션에 연결합니다.
+  * 하이브리드 및 온-프레미스 구현의 경우 이 [페이지](adobe-analytics-provisioning.md)에서 자세히 설명하는 프로비저닝 단계를 따라야 합니다.
+  * Adobe Experience Cloud 서비스 사용자는 Adobe에 문의하여 Campaign을 Adobe Experience Cloud 서비스 및 솔루션에 연결합니다.
 
 
 ## 구성 및 사용 {#adobe-analytics-connector-usage}

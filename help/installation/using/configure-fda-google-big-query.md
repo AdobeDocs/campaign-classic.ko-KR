@@ -10,18 +10,19 @@ exl-id: ebaad59f-0607-4090-92d0-e457fbf9a348
 TQID: https://experienceleague.adobe.com/jmeyOWDTkOmCKOVGlNAdYzNHfaK1QeSxnIjDDnl8yj0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1042
+source-wordcount: '1051'
 ht-degree: 2%
-
 ---
-
 # Google BigQuery에 대한 액세스 구성 {#configure-fda-google-big-query}
 
 
@@ -200,9 +201,9 @@ Adobe Campaign Classic 인스턴스를 [!DNL Google BigQuery] 외부 데이터�
    * **[!UICONTROL Project]**: **[!UICONTROL Project]**&#x200B;의 이름입니다. 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/resource-manager/docs/creating-managing-projects)를 참조하세요.
 
    * **[!UICONTROL Key file Path]**:
-      * **[!UICONTROL Upload key file to the server]**: Adobe Campaign Classic을 통해 키를 업로드하도록 선택한 경우 **[!UICONTROL Click here to upload]**&#x200B;을(를) 선택하십시오.
+     * **[!UICONTROL Upload key file to the server]**: Adobe Campaign Classic을 통해 키를 업로드하도록 선택한 경우 **[!UICONTROL Click here to upload]**&#x200B;을(를) 선택하십시오.
 
-      * **[!UICONTROL Enter manually the key file path]**: 기존 키를 사용하도록 선택한 경우 이 필드에 절대 경로를 복사하거나 붙여 넣습니다.
+     * **[!UICONTROL Enter manually the key file path]**: 기존 키를 사용하도록 선택한 경우 이 필드에 절대 경로를 복사하거나 붙여 넣습니다.
 
    * **[!UICONTROL Dataset]**: **[!UICONTROL Dataset]**&#x200B;의 이름입니다. 자세한 내용은 [Google Cloud 설명서](https://cloud.google.com/bigquery/docs/datasets-intro)를 참조하세요.
 

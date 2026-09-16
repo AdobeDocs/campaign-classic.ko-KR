@@ -3,7 +3,7 @@ product: campaign
 title: Linux를 사용하여 패키지 설치
 description: Linux를 사용하여 패키지 설치
 feature: Installation, Application Settings
-badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
@@ -11,15 +11,14 @@ exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 TQID: https://experienceleague.adobe.com/mpN0TwuPILae7Y-jbkyvbBR1zdo4IvtnuzGQObLI0rc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: d711ea40185e9860ea20773ae1dfebfc7cc3e4d0
 workflow-type: tm+mt
-source-wordcount: 1152
+source-wordcount: '1140'
 ht-degree: 3%
-
 ---
-
 # Linux를 사용하여 패키지 설치 {#installing-packages-with-linux}
 
 Adobe Campaign에는 특정 버전에 대한 바이너리 및 구성 파일이 포함된 **nlserver** 패키지가 포함되어 있습니다.
@@ -164,23 +163,23 @@ touch /usr/local/neolane/nl6/unicodeenv
 
   기존 버전의 LibreOffice에서 Adobe Campaign을 실행하려면 추가 구성이 필요합니다. 설치 디렉터리에 대한 액세스 경로를 지정해야 합니다. 예:
 
-   * Debian
+  * Debian
 
-     OOO_INSTALL_DIR 및 OOO_BASIS_INSTALL_DIR의 기본값이 제공됩니다. LibreOffice 설치 레이아웃이 다른 경우 **customer.sh**&#x200B;에서 재정의할 수 있습니다.
+    OOO_INSTALL_DIR 및 OOO_BASIS_INSTALL_DIR의 기본값이 제공됩니다. LibreOffice 설치 레이아웃이 다른 경우 **customer.sh**&#x200B;에서 재정의할 수 있습니다.
 
-     ```sql
-     export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
-     export OOO_INSTALL_DIR=/usr/lib/libreoffice/
-     ```
+    ```sql
+    export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
+    export OOO_INSTALL_DIR=/usr/lib/libreoffice/
+    ```
 
-   * CentOs
+  * CentOs
 
-     다음 기본값을 사용합니다.
+    다음 기본값을 사용합니다.
 
-     ```sql
-     export OOO_BASIS_INSTALL_DIR=/usr/lib64/libreoffice/
-     export OOO_INSTALL_DIR=/usr/lib64/libreoffice/
-     ```
+    ```sql
+    export OOO_BASIS_INSTALL_DIR=/usr/lib64/libreoffice/
+    export OOO_INSTALL_DIR=/usr/lib64/libreoffice/
+    ```
 
 * Java 개발 키트(JDK)의 경우:
 

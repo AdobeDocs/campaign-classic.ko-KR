@@ -3,7 +3,7 @@ product: campaign
 title: Assets에 대한 액세스 구성
 description: Assets에 대한 액세스 구성
 feature: Asset Sharing
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
@@ -11,20 +11,24 @@ exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
 TQID: https://experienceleague.adobe.com/JU5h5wyP-DrlIlFFNClNinQYIcqvg13Z93bF4ykliB4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 522
+source-wordcount: '513'
 ht-degree: 1%
-
 ---
-
 # Assets에 대한 액세스 구성 {#configuring-access-to-assets}
 
 이 섹션에서는 Assets 또는 Adobe Experience Manager Assets(AEM Assets) 라이브러리와 통합 기능을 사용하기 위해 Adobe Campaign에서 필요한 구성 단계에 대해 자세히 설명합니다.
@@ -40,14 +44,14 @@ ht-degree: 1%
 >
 >두 패키지(**[!UICONTROL AEM Integration]** 및 **[!UICONTROL Integration with the Adobe Experience Cloud]**)가 설치된 경우 Adobe Experience Cloud 라이브러리에서 사용할 수 있는 자산만 사용할 수 있습니다.
 
-## Experience Cloud Assets과 통합 {#integrating-with-experience-cloud-assets}
+## Assets과 통합 사용 {#integrating-with-experience-cloud-assets}
 
 Adobe Campaign과 Experience Cloud Assets 간의 통합을 사용하려면 다음 사항이 있어야 합니다.
 
 * Adobe Experience Cloud 조직
 * Adobe IMS 인증 모드 활성화됨
 
-Adobe Campaign과 Adobe Experience Cloud 간에 연결을 활성화하려면 IMS(Adobe ID 연결 서비스)를 통해 연결을 구성합니다. 이 구성은 [Adobe ID을 통해 연결](../../integrations/using/about-adobe-id.md) 문서에 자세히 설명되어 있습니다. 여기에는 다음이 포함됩니다.
+Adobe Campaign과 Adobe Experience Cloud에 연결하려면 IMS(Adobe ID 연결 서비스)를 통해 연결을 구성합니다. 이 구성은 [Adobe ID을 통해 연결](../../integrations/using/about-adobe-id.md) 문서에 자세히 설명되어 있습니다. 여기에는 다음이 포함됩니다.
 
 * **[!UICONTROL Integration with the Adobe Experience Cloud]** 패키지를 설치하는 중입니다.
 * Adobe Experience Cloud 외부 계정 구성.
@@ -83,4 +87,4 @@ AEM Assets을 Adobe Campaign과 통합하려면 먼저 Adobe Experience Manager�
 
 >[!NOTE]
 >
->**[!UICONTROL Integration with the Adobe Experience Cloud]** 패키지가 Adobe Campaign 인스턴스에도 설치된 경우 Adobe Experience Cloud 라이브러리에서 사용할 수 있는 자산만 사용할 수 있습니다. AEM Assets 라이브러리의 에셋에도 액세스하려면 AEM Assets 및 Adobe Experience Cloud을 동기화해야 합니다. 그런 다음 AEM Assets의 에셋을 Adobe Experience Cloud 라이브러리에서도 사용할 수 있습니다. 이 경우 특정 게재 템플릿을 만들 필요가 없습니다.
+>**[!UICONTROL Integration with the Adobe Experience Cloud]** 패키지가 Adobe Campaign 인스턴스에도 설치된 경우 Adobe Experience Cloud 라이브러리에서 사용할 수 있는 자산만 사용할 수 있습니다. AEM Assets 라이브러리의 에셋에도 액세스하려면 AEM Assets과 Adobe Experience Cloud를 동기화해야 합니다. 그런 다음 AEM Assets의 자산을 Adobe Experience Cloud 라이브러리에서도 사용할 수 있습니다. 이 경우 특정 게재 템플릿을 만들 필요가 없습니다.

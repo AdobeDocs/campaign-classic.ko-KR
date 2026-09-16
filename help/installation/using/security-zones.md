@@ -3,7 +3,7 @@ product: campaign
 title: 보안 영역 구성
 description: 보안 영역 구성 방법 알아보기
 feature: Installation, Instance Settings
-badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -11,21 +11,25 @@ exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 TQID: https://experienceleague.adobe.com/eL2iPF1yqueza7P0yRE0KEPdxEezRW81gT4QgRno3Ys
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 1511
-ht-degree: 2%
-
+source-wordcount: '1499'
+ht-degree: 3%
 ---
-
 # 보안 영역 정의(온-프레미스){#defining-security-zones}
 
 
@@ -239,36 +243,36 @@ Adobe Campaign 서버에 액세스할 수 있는 프록시의 IP 주소를 관�
 
 * sessionTokenOnly=&quot;true&quot; 사용을 최소화하십시오.
 
-   * 경고: 이 특성이 true로 설정되면 연산자가 **CRSF 공격**&#x200B;에 노출될 수 있습니다.
-   * 또한 sessionToken 쿠키는 httpOnly 플래그로 설정되지 않으므로 일부 클라이언트측 JavaScript 코드에서 읽을 수 있습니다.
-   * 그러나 여러 실행 셀의 메시지 센터에는 sessionTokenOnly가 필요합니다. sessionTokenOnly가 &quot;true&quot;로 설정된 새 보안 영역을 만들고 이 영역에 **필요한 IP만**&#x200B;을(를) 추가하십시오.
+  * 경고: 이 특성이 true로 설정되면 연산자가 **CRSF 공격**&#x200B;에 노출될 수 있습니다.
+  * 또한 sessionToken 쿠키는 httpOnly 플래그로 설정되지 않으므로 일부 클라이언트측 JavaScript 코드에서 읽을 수 있습니다.
+  * 그러나 여러 실행 셀의 메시지 센터에는 sessionTokenOnly가 필요합니다. sessionTokenOnly가 &quot;true&quot;로 설정된 새 보안 영역을 만들고 이 영역에 **필요한 IP만**&#x200B;을(를) 추가하십시오.
 
 * 가능하면 모든 allowHTTP, showErrors를 false(localhost가 아님)로 설정하고 확인합니다.
 
-   * allowHTTP = &quot;false&quot;: 연산자가 HTTPS를 사용하도록 합니다.
-   * showErrors = &quot;false&quot;: 기술 오류(SQL 오류 포함)를 숨깁니다. 너무 많은 정보를 표시하지 않도록 하지만, 마케터가 실수를 해결하는 능력이 줄어듭니다(관리자에게 자세한 정보를 요청하지 않음)
+  * allowHTTP = &quot;false&quot;: 연산자가 HTTPS를 사용하도록 합니다.
+  * showErrors = &quot;false&quot;: 기술 오류(SQL 오류 포함)를 숨깁니다. 너무 많은 정보를 표시하지 않도록 하지만, 마케터가 실수를 해결하는 능력이 줄어듭니다(관리자에게 자세한 정보를 요청하지 않음)
 
 * 설문 조사(실제로 미리 보기), 웹 앱 및 보고서를 만들어야 하는 마케팅 사용자/관리자가 사용하는 IP에 대해서만 allowDebug를 true로 설정합니다. 이 플래그를 사용하면 이러한 IP가 릴레이 규칙을 표시하고 디버깅할 수 있습니다.
 
-   * allowDebug가 false로 설정되면 출력은 다음과 같습니다.
+  * allowDebug가 false로 설정되면 출력은 다음과 같습니다.
 
-     ```
-     <redir status='OK' date='...' sourceIP='...'/>
-     ```
+    ```
+    <redir status='OK' date='...' sourceIP='...'/>
+    ```
 
-   * allowDebug가 true로 설정되면 출력은 다음과 같습니다.
+  * allowDebug가 true로 설정되면 출력은 다음과 같습니다.
 
-     ```
-     <redir status='OK' date='...' build='...' OR version='...' sha1='...' instance='...' sourceIP='...' host='...' localHost='...'/>
-     ```
+    ```
+    <redir status='OK' date='...' build='...' OR version='...' sha1='...' instance='...' sourceIP='...' host='...' localHost='...'/>
+    ```
 
 * allowEmptyPassword, allowUserPassword, allowSQLInjection을 true로 설정하지 마십시오.
 
-   * **allowEmptyPassword**&#x200B;를 사용하면 연산자의 암호가 비어 있습니다. 이 경우 모든 운영자에게 기한을 지정하여 암호를 설정하도록 알립니다. 이 기한이 지나면 이 속성을 false로 변경하십시오.
+  * **allowEmptyPassword**&#x200B;를 사용하면 연산자의 암호가 비어 있습니다. 이 경우 모든 운영자에게 기한을 지정하여 암호를 설정하도록 알립니다. 이 기한이 지나면 이 속성을 false로 변경하십시오.
 
-   * **allowUserPassword**&#x200B;을(를) 통해 운영자는 자격 증명을 매개 변수로 전송할 수 있습니다(따라서 apache/IIS/프록시로 기록됨). 이 기능은 과거에는 API 사용을 단순화하기 위해 사용되었습니다. 일부 서드파티 애플리케이션에서 쿠키를 사용하는지 여부를 쿠키 북(또는 사양)에서 확인할 수 있습니다. 그렇다면 API 사용 방법을 변경하고 가능한 한 빨리 이 기능을 제거하도록 알려야 합니다.
+  * **allowUserPassword**&#x200B;을(를) 통해 운영자는 자격 증명을 매개 변수로 전송할 수 있습니다(따라서 apache/IIS/프록시로 기록됨). 이 기능은 과거에는 API 사용을 단순화하기 위해 사용되었습니다. 일부 서드파티 애플리케이션에서 쿠키를 사용하는지 여부를 쿠키 북(또는 사양)에서 확인할 수 있습니다. 그렇다면 API 사용 방법을 변경하고 가능한 한 빨리 이 기능을 제거하도록 알려야 합니다.
 
-   * **allowSQLInjection**&#x200B;을(를) 사용하면 이전 구문을 사용하여 SQL 주입을 수행할 수 있습니다. 이 속성은 false로 설정해야 합니다. /nl/jsp/ping.jsp?zones=true 을 사용하여 보안 영역 구성을 확인할 수 있습니다. 이 페이지에는 현재 IP에 대한 보안 조치의 활성 상태(이러한 보안 플래그로 계산)가 표시됩니다.
+  * **allowSQLInjection**&#x200B;을(를) 사용하면 이전 구문을 사용하여 SQL 주입을 수행할 수 있습니다. 이 속성은 false로 설정해야 합니다. /nl/jsp/ping.jsp?zones=true 을 사용하여 보안 영역 구성을 확인할 수 있습니다. 이 페이지에는 현재 IP에 대한 보안 조치의 활성 상태(이러한 보안 플래그로 계산)가 표시됩니다.
 
 * HttpOnly 쿠키/useSecurityToken: **sessionTokenOnly** 플래그를 참조하십시오.
 

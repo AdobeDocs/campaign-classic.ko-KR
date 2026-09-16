@@ -10,11 +10,9 @@ hide: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '2546'
+source-wordcount: '2548'
 ht-degree: 1%
-
 ---
-
 # 일반 구성{#general-configurations}
 
 이 섹션에서는 v5.11 또는 v6.02에서 마이그레이션할 때 Adobe Campaign v7에서 수행해야 하는 구성에 대해 자세히 설명합니다.

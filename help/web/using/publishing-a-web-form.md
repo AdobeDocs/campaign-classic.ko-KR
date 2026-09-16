@@ -2,28 +2,33 @@
 product: campaign
 title: 웹 양식 게시
 description: 웹 양식 게시
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
 TQID: https://experienceleague.adobe.com/2lsNN7oxSizIC1wsv5S5fwkgCcKd3so5qeq-pHr8odY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1289
+source-wordcount: '1280'
 ht-degree: 1%
-
 ---
-
 # 웹 양식 게시{#publishing-a-web-form}
 
 
@@ -192,17 +197,17 @@ ht-degree: 1%
 
 * 첫 번째 인스턴스에서 내보낼 때 웹 양식 상태가 **[!UICONTROL Pending publication]** 또는 **[!UICONTROL Online]**&#x200B;인 경우:
 
-   * 새 인스턴스에서 가져올 때 웹 양식을 **[!UICONTROL Pending publication]** 상태로 가져옵니다.
+  * 새 인스턴스에서 가져올 때 웹 양식을 **[!UICONTROL Pending publication]** 상태로 가져옵니다.
 
-   * 웹 양식이 새 인스턴스에 이미 있으면 새 버전의 양식으로 대체되며 이전 버전의 양식이 **[!UICONTROL Online]**&#x200B;인 경우에도 **[!UICONTROL Pending publication]** 상태를 사용합니다.
+  * 웹 양식이 새 인스턴스에 이미 있으면 새 버전의 양식으로 대체되며 이전 버전의 양식이 **[!UICONTROL Online]**&#x200B;인 경우에도 **[!UICONTROL Pending publication]** 상태를 사용합니다.
 
-   * 양식의 존재 여부에 관계없이 새 인스턴스에서 **[!UICONTROL Online]**&#x200B;이(가) 되고 브라우저에서 웹 양식 URL을 통해 액세스할 수 있도록 하려면 양식이 [게시됨](#publishing-a-form)이어야 합니다.
+  * 양식의 존재 여부에 관계없이 새 인스턴스에서 **[!UICONTROL Online]**&#x200B;이(가) 되고 브라우저에서 웹 양식 URL을 통해 액세스할 수 있도록 하려면 양식이 [게시됨](#publishing-a-form)이어야 합니다.
 
 * 내보낼 때 웹 양식 상태가 **[!UICONTROL Being edited]**&#x200B;인 경우:
 
-   * 패키지를 가져오는 인스턴스에서 웹 양식을 새로 만든 경우 웹 양식은 **[!UICONTROL Being edited]** 상태를 가져옵니다.
+  * 패키지를 가져오는 인스턴스에서 웹 양식을 새로 만든 경우 웹 양식은 **[!UICONTROL Being edited]** 상태를 가져옵니다.
 
-   * 새 인스턴스에 웹 양식이 이미 있는 경우 기존 양식을 수정한 것입니다. 이전 버전의 양식이 **[!UICONTROL Online]**&#x200B;인 경우 새 버전의 양식이 새 인스턴스에서 다시 [게시](#publishing-a-form)될 때까지 이전 버전은 온라인 상태로 유지됩니다.
+  * 새 인스턴스에 웹 양식이 이미 있는 경우 기존 양식을 수정한 것입니다. 이전 버전의 양식이 **[!UICONTROL Online]**&#x200B;인 경우 새 버전의 양식이 새 인스턴스에서 다시 [게시](#publishing-a-form)될 때까지 이전 버전은 온라인 상태로 유지됩니다.
 
   >[!NOTE]
   >

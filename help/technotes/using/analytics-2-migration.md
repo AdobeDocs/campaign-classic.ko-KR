@@ -8,9 +8,7 @@ source-git-commit: 64460d51b002a7821bba9c2998d9ccccab3046ad
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 1%
-
 ---
-
 # Adobe Analytics 2.0 API로 마이그레이션 {#analytics-2-migration}
 
 Adobe Analytics 1.4 API가 [수명이 종료됨](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol){target="_blank"}입니다. Campaign 인스턴스를 Adobe Analytics에 연결하는 [Web Analytics 커넥터](../../integrations/using/gs-aa.md)는 이러한 API를 사용하므로 통합을 계속 실행하려면 새 Analytics 2.0 API를 사용하는 빌드로 업그레이드해야 합니다.

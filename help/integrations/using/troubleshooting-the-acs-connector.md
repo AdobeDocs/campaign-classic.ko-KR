@@ -11,26 +11,35 @@ exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
 TQID: https://experienceleague.adobe.com/hqQ4rSZpOoCMn9sA0yu2VsHFxTGEnwGwOMi6cu6e-1Q
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 870
+source-wordcount: '870'
 ht-degree: 0%
-
 ---
-
 # ACS 커넥터 문제 해결{#troubleshooting-the-acs-connector}
 
 
@@ -84,9 +93,9 @@ ht-degree: 0%
 
   이 경우는 다음과 같은 다양한 이유로 발생할 수 있습니다.
 
-   * Campaign v7에서 방금 수신자를 만들거나 업데이트했습니다. 15분마다 동기화가 트리거됩니다. 즉, 업데이트되거나 새로 생성된 수신자는 다음 동기화 후에 Campaign Standard에 표시됩니다.
-   * 특정 폴더의 수신자만 동기화하도록 구현을 설정할 수 있습니다. 다른 폴더의 수신자는 동기화되지 않습니다.
-   * 수신자는 동기화할 수 있지만 Campaign Standard에 표시되지 않습니다. 폴더 권한 매핑을 확인합니다.
+  * Campaign v7에서 방금 수신자를 만들거나 업데이트했습니다. 15분마다 동기화가 트리거됩니다. 즉, 업데이트되거나 새로 생성된 수신자는 다음 동기화 후에 Campaign Standard에 표시됩니다.
+  * 특정 폴더의 수신자만 동기화하도록 구현을 설정할 수 있습니다. 다른 폴더의 수신자는 동기화되지 않습니다.
+  * 수신자는 동기화할 수 있지만 Campaign Standard에 표시되지 않습니다. 폴더 권한 매핑을 확인합니다.
 
 * **Campaign Standard에서 쿼리의 기반이 되는 데 필요한 프로필 필드를 찾을 수 없습니다.**
 
@@ -120,8 +129,8 @@ ht-degree: 0%
 
   연결을 테스트하여 Campaign Standard 및 Campaign v7 모두에서 외부 계정 구성을 확인합니다.
 
-   * Campaign Standard의 **[!UICONTROL acsDefaultRelayAccount]**.
-   * Campaign v7의 **[!UICONTROL acsDefaultAccount]**.
+  * Campaign Standard의 **[!UICONTROL acsDefaultRelayAccount]**.
+  * Campaign v7의 **[!UICONTROL acsDefaultAccount]**.
 
 * **Campaign v7과 Campaign Standard 간에 폴더를 매핑할 때 사용할 수 있는 보안 그룹이 없습니다.**
 

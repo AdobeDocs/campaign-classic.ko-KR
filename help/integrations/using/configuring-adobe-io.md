@@ -14,9 +14,7 @@ source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 3%
-
 ---
-
 # Adobe Experience Cloud 트리거에 대한 Developer Console 구성 {#configuring-adobe-io}
 
 <!--
@@ -36,7 +34,7 @@ This integration only applies starting **Campaign Classic 20.2.4 and above, 19.1
 
 이 구현을 시작하기 전에 다음을 확인하십시오.
 
-* 올바른 **조직 식별자**: 조직 ID는 Adobe Experience Cloud 내의 고유 식별자이며, 예를 들어 VisitorID 서비스 및 IMS SSO(Single Sign-On)에 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)
+* 유효한 **조직 식별자**: 조직 ID는 Adobe Experience Cloud 내의 고유 식별자이며, 예를 들어 방문자 ID 서비스 및 IMS SSO(Single Sign-On)에 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)
 * 조직에 대한 **개발자 액세스**. 조직의 시스템 관리자는 트리거와 연결된 Adobe Analytics 제품의 `Analytics - {tenantID}` 제품 프로필에 대한 개발자 액세스 권한을 제공하려면 **단일 제품 프로필에 개발자 추가** 절차(이 페이지의 [설명](https://helpx.adobe.com/kr/enterprise/using/manage-developers.html))를 따라야 합니다.
 
 ## 1단계: OAuth 프로젝트 만들기/업데이트 {#creating-adobe-io-project}

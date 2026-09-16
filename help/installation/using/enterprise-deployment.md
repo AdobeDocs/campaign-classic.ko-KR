@@ -10,20 +10,23 @@ exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
 TQID: https://experienceleague.adobe.com/zcSKI492m6naLPJ4i-uxfKRESZOjL74tqbsBC9yx-SI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 1251
+source-wordcount: '1251'
 ht-degree: 3%
-
 ---
-
 # 엔터프라이즈 배포{#enterprise-deployment}
 
 
@@ -69,8 +72,8 @@ ht-degree: 3%
 * POP3를 통해 액세스할 수 있는 바운스 사서함,
 * 로드 밸런서에서 두 개의 DNS 별칭 생성:
 
-   * 가상 IP 주소(VIP)에서 로드 밸런서를 추적하고 이를 가리키는 데 일반에 처음 노출된 후 두 대의 전면 서버에 배포됩니다.
-   * 두 번째는 콘솔을 통해 액세스할 수 있도록 내부 사용자에게 표시되며 가상 IP 주소(VIP)의 로드 밸런서를 가리킨 다음 두 애플리케이션 서버에 배포됩니다.
+  * 가상 IP 주소(VIP)에서 로드 밸런서를 추적하고 이를 가리키는 데 일반에 처음 노출된 후 두 대의 전면 서버에 배포됩니다.
+  * 두 번째는 콘솔을 통해 액세스할 수 있도록 내부 사용자에게 표시되며 가상 IP 주소(VIP)의 로드 밸런서를 가리킨 다음 두 애플리케이션 서버에 배포됩니다.
 
 * STMP(25), DNS(53), HTTP(80), HTTPS(443), SQL(1521 for Oracle, 5432 for PostgreSQL 등)을 열도록 구성된 방화벽 포트입니다. 자세한 내용은 [데이터베이스 액세스](../../installation/using/network-configuration.md#database-access) 섹션을 참조하십시오.
 

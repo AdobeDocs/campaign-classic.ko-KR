@@ -11,20 +11,23 @@ exl-id: e18d43b6-2a77-4881-85e7-ca36248d4634
 TQID: https://experienceleague.adobe.com/QqPQkow0oa3RgI2k7xNouJgX6OwNuObuFuk2zWxy8Lc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 feature_v2: []
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 880
-ht-degree: 4%
-
+source-wordcount: '880'
+ht-degree: 5%
 ---
-
 # TLS 1.0 및 1.1 수명 종료{#eol-tls-support}
 
 
@@ -104,6 +107,6 @@ Adobe에서는 더 낮은 버전의 TLS(TLS 1.0 및 1.1 포함)에 대한 지원
 
   TLS 1.2는 Internet Explorer 11에서 기본적으로 활성화되어 있지만 꺼져 있으면 켜면 됩니다. 이 경우 다른 선택 사항을 사용하지 않고 고급 설정 대화 상자에서 TLS 1.2를 켭니다. 다음과 같은 기타 오류도 발생할 수 있습니다.
 
-   * 서비스에 연결할 수 없음
-   * 서비스를 사용할 수 없음
-   * 연결 중 오류
+  * 서비스에 연결할 수 없음
+  * 서비스를 사용할 수 없음
+  * 연결 중 오류

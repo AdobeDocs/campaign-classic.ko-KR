@@ -9,22 +9,26 @@ exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
 TQID: https://experienceleague.adobe.com/ZHqo0izYPVfaxPIShcjgPpg-5SIGkdQAwbD6dV1r6bE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 subfeature_v2:
   - id: f863efa9-030c-4466-a2b8-a52aea6b722c
+    internal-label: Subscription services
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
-source-wordcount: 759
+source-wordcount: '759'
 ht-degree: 0%
-
 ---
-
 # 관련 문서 관리 {#managing-associated-documents}
 
 보고서, 사진, 웹 페이지, 다이어그램 등 다양한 문서를 캠페인에 연결할 수 있습니다. 이러한 문서는 모든 형식(Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF 등)으로 제공됩니다.

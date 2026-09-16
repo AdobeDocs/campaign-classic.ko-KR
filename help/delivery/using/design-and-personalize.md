@@ -2,7 +2,7 @@
 product: campaign
 title: 개인화된 콘텐츠 작성
 description: Adobe Campaign 게재에서 개인화된 콘텐츠를 작성하는 방법 알아보기
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design, Personalization
 role: User
 hide: true
@@ -10,26 +10,34 @@ exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 TQID: https://experienceleague.adobe.com/CYWaDn4S5zkM1QXQg08zHZW53nOqAv-aXDvo-Hw-v-E
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1341
-ht-degree: 4%
-
+source-wordcount: '1389'
+ht-degree: 6%
 ---
-
 # 개인화된 콘텐츠 작성 {#build-personalized-content}
 
 메시지 콘텐츠를 디자인할 때 게재를 실행할 수 없는 일반적인 문제를 방지하십시오. 대부분의 경우 가능한 오류는 [개인화](about-personalization.md), [서식](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko#message-content){target="_blank"} 및 [이미지](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko#adding-images){target="_blank"}와 관련이 있습니다.
@@ -114,7 +122,7 @@ Personalization 기본 사항은 [이 섹션](personalization-fields.md)에 나�
 기본적으로 SMS의 글자 수는 GSM(이동통신 글로벌 시스템) 표준을 충족합니다. GSM 인코딩을 사용하는 SMS 메시지는 SMS당 160자, 또는 여러 부분으로 나누어 전송되는 메시지의 경우 153자로 제한됩니다.
 
 변환은 GSM 표준에서 고려하지 않는 SMS 문자를 다른 문자로 바꾸는 작업입니다. SMS 메시지의 콘텐츠에 개인화 필드를 삽입하면 GSM 인코딩에서 고려하지 않는 문자가 들어갈 수 있습니다. 해당 **[!UICONTROL External account]**&#x200B;의 SMPP 채널 설정 탭에서 해당 상자를 선택하여 문자 변환을 승인할 수 있습니다.
-자세히 알아보기 [이 섹션](sms-set-up.md#creating-an-smpp-external-account).
+자세한 내용은 [이 섹션](sms-set-up.md#creating-an-smpp-external-account)을 참조하세요.
 
 **팁**:
 

@@ -10,25 +10,31 @@ exl-id: 28490323-41d0-4d61-b309-6892fb826d21
 TQID: https://experienceleague.adobe.com/8QWEJN9tpxBdDZlYqEmY2JIuxWPShtfRxCUf6thXXWA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 2151
+workflow-type: tm+mt
+source-wordcount: '2151'
 ht-degree: 100%
-
 ---
-
 # 2022년 릴리스{#release-2022}
 
 ## 릴리스 7.3.1 - 빌드 9352 {#release-7-3-1}
@@ -149,14 +155,14 @@ Adobe Campaign은 이제 Windows Server 2019와 호환됩니다. [캠페인 호�
 
   Microsoft Dynamics Connector 웹 API에 대해 중요한 문제를 해결했습니다.
 
-   * 워크플로에 의해 트리거된 가져오기 중에 문자열 유형 필드의 null 값이 빈 값 대신 Null로 저장되는 문제가 해결되었습니다.
-   * 웹 API 호출을 사용하여 데이터를 가져오거나 내보내는 데 다음 오류가 발생하는 문제를 수정했습니다. &amp;quot;잘못된 URI: URI 체계가 너무 깁니다.&amp;quot;
-   * Microsoft Dynamics 365에서 조회 필드가 포함된 데이터를 가져올 때 발생하는 다양한 문제를 해결했습니다.
+  * 워크플로에 의해 트리거된 가져오기 중에 문자열 유형 필드의 null 값이 빈 값 대신 Null로 저장되는 문제가 해결되었습니다.
+  * 웹 API 호출을 사용하여 데이터를 가져오거나 내보내는 데 다음 오류가 발생하는 문제를 수정했습니다. &amp;quot;잘못된 URI: URI 체계가 너무 깁니다.&amp;quot;
+  * Microsoft Dynamics 365에서 조회 필드가 포함된 데이터를 가져올 때 발생하는 다양한 문제를 해결했습니다.
 
 * Google BigQuery FDA Connector
 
-   * 이제 [호스팅 배포]에 Google BigQuery FDA Connector를 사용할 수 있습니다. [자세히 표시](../../installation/using/configure-fda-google-big-query.md)
-   * Google BigQuery FDA 커넥터용 프록시 서버에 연결할 수 있도록 지원을 추가했습니다. 필요한 프록시 옵션은 외부 계정 구성의 [옵션] 필드를 통해 설정할 수 있습니다. [자세히 표시](../../installation/using/configure-fda-google-big-query.md#google-external)
+  * 이제 [호스팅 배포]에 Google BigQuery FDA Connector를 사용할 수 있습니다. [자세히 표시](../../installation/using/configure-fda-google-big-query.md)
+  * Google BigQuery FDA 커넥터용 프록시 서버에 연결할 수 있도록 지원을 추가했습니다. 필요한 프록시 옵션은 외부 계정 구성의 [옵션] 필드를 통해 설정할 수 있습니다. [자세히 표시](../../installation/using/configure-fda-google-big-query.md#google-external)
 
 **기타 변경 사항**
 

@@ -5,19 +5,21 @@ exl-id: 84853dbe-8b6f-4875-b29a-c1b755423a3c
 TQID: https://experienceleague.adobe.com/DKwv-rLrgm0ce9cycT1QMtBgQP-2pnMNhqHlH1xJWvo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 479
+source-wordcount: '479'
 ht-degree: 6%
-
 ---
-
 # Adobe Identity Management 시스템(IMS)으로 마이그레이션 {#migrate-to-ims}
 
 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 Adobe Campaign은 최종 사용자 인증 모드를 로그인/암호 기본 인증에서 [Adobe IMS(Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}(으)로 마이그레이션할 것을 강력히 권장합니다.
@@ -31,7 +33,7 @@ ht-degree: 6%
 
 ## 마이그레이션 단계 {#ims-steps}
 
-[Adobe IMS(Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}로의 마이그레이션은 다른 Adobe Experience Cloud 솔루션과 앱의 대부분이 이미 IMS에 있으므로 환경을 안전하고 표준화하기 위해 반드시 필요한 보안입니다.
+[IMS(Adobe Identity Management System)로 마이그레이션](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}은(는) 다른 Adobe Experience Cloud 솔루션 및 앱의 대부분이 이미 IMS에 있으므로 환경을 안전하고 표준화하도록 하는 데 필수적인 보안입니다.
 
 Adobe은 이러한 마이그레이션 작업을 지원합니다. 자세한 컨텍스트와 단계별 지침은 아래 문서에서 확인할 수 있습니다.
 

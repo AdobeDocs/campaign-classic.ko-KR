@@ -10,20 +10,23 @@ exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 TQID: https://experienceleague.adobe.com/BZ4rjzbXYikNoGAVHq4Gy7tY8OugKDgsmVLkKuIB9tw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 8061
+source-wordcount: '8113'
 ht-degree: 8%
-
 ---
-
 # 서버 구성 파일{#the-server-configuration-file}
 
 Adobe Campaign의 전체 구성은 설치 디렉터리의 **conf** 디렉터리에 있는 **serverConf.xml** 파일에 정의되어 있습니다. 이 섹션에는 **serverConf.xml** 파일의 다양한 노드 및 매개 변수가 모두 나열됩니다.
@@ -550,7 +553,11 @@ Adobe Campaign의 전체 구성은 설치 디렉터리의 **conf** 디렉터리�
 
 >[!NOTE]
 >
->**nameServers**&#x200B;에 대한 참고 사항: 기본적으로 Windows에서 선언된 첫 번째 네트워크 인터페이스의 >매개 변수를 사용합니다.>UNIX에서는 정의되지 않았습니다. >a 도메인에 대해 선언된 메일 교환기를 가져오기 위해 MTA에서 사용하는 >도메인 이름 서버(DNS)를 정의합니다.
+>**nameServers**&#x200B;에 대한 참고 사항: 기본적으로 네트워크를 사용합니다.
+>Windows에서 선언된 첫 번째 네트워크 인터페이스의 매개 변수
+>UNIX에서 정의되지 않았습니다. 도메인 이름 서버(DNS)를 정의합니다.
+>MTA에서 다음에 대해 선언된 메일 교환기를 가져오는 데 사용됨
+>도메인.
 >
 >이 값이 정의되지 않으면 MTA는 호스트 네트워크 구성에서 이 정보를 찾습니다. 여러 DNS가 가능한 경우 쉼표로 다른 DNS 주소를 구분해야 합니다(예: 212.155.207.1,212.155.207.2). 게재 서버에 여러 네트워크 인터페이스가 있는 경우 MTA에서 사용하는 DNS 목록이 첫 번째 목록입니다. 이 경우 **nameServer** 매개 변수를 지정하여 명확하지 않은 상황이 발생하지 않도록 하는 것이 좋습니다.
 
@@ -1633,7 +1640,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
     &lt;dns 또는 ip&gt; 
       <code>&lbrack;</code>: 
      &lt;포트&gt; 
-       <code>&rbrack;</code>. 다음을 참조하십시오 
+       <code>&rbrack;</code>. 보기 
       <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">통계 서버의 좌표</a>. 
       <br /> 
      </td> 
@@ -3311,7 +3318,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> IMSOrgId<br /> </td> 
-   <td> 조직 ID: 특히 VisitorID 서비스 및 IMS SSO에 사용되는 Adobe Experience Cloud 내의 고유 조직 식별자입니다. <br /> </td> 
+   <td> 조직 ID: Adobe Experience Cloud 내의 고유 조직 식별자로, 특히 VisitorID 서비스 및 IMS SSO에 사용됩니다. <br /> </td> 
    <td> 문자열<br /> </td> 
    <td> <br /> </td> 
   </tr> 

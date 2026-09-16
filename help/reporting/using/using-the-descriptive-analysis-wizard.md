@@ -2,29 +2,35 @@
 product: campaign
 title: 첫 번째 기술 분석 보고서 만들기
 description: 도우미를 사용하여 첫 번째 설명 분석 보고서를 만드는 방법을 알아봅니다
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
 TQID: https://experienceleague.adobe.com/ilSq3cfWpljwwRtjgjbgJe2NmBFnPJhIK5e0PMBMJVI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1587
+source-wordcount: '1578'
 ht-degree: 1%
-
 ---
-
 # 첫 번째 기술 분석 보고서 만들기 {#using-the-descriptive-analysis-wizard}
 
 설명 분석 보고서를 만들려면 전용 도우미를 사용하십시오. 구성은 분석할 데이터와 원하는 렌더링에 따라 다릅니다.
@@ -180,17 +186,17 @@ ht-degree: 1%
 
   방법은 다음과 같습니다.
 
-   1. 구매 합계를 계산합니다.
+  1. 구매 합계를 계산합니다.
 
-      ![](assets/report_compute_data_sample2.png)
+     ![](assets/report_compute_data_sample2.png)
 
-   1. 이 통계는 테이블에 표시되지 않습니다. **[!UICONTROL Advanced]** 탭의 **[!UICONTROL Display in the table]** 옵션을 선택 취소해야 합니다.
+  1. 이 통계는 테이블에 표시되지 않습니다. **[!UICONTROL Advanced]** 탭의 **[!UICONTROL Display in the table]** 옵션을 선택 취소해야 합니다.
 
-      ![](assets/report_compute_data_sample3.png)
+     ![](assets/report_compute_data_sample3.png)
 
-   1. 새 **[!UICONTROL Calculated field]** 형식 통계를 만들고 **[!UICONTROL User function]** 필드에 다음 공식을 입력하십시오. **@purchases/@count**.
+  1. 새 **[!UICONTROL Calculated field]** 형식 통계를 만들고 **[!UICONTROL User function]** 필드에 다음 공식을 입력하십시오. **@purchases/@count**.
 
-      ![](assets/report_compute_data_sample4.png)
+     ![](assets/report_compute_data_sample4.png)
 
 ### 보고서 표시 {#displaying-the-report}
 

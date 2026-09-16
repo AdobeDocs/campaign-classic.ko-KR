@@ -3,7 +3,7 @@ product: campaign
 title: 일반적인 명령
 description: 일반적인 명령
 feature: Monitoring
-badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
@@ -11,17 +11,18 @@ exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
 TQID: https://experienceleague.adobe.com/54ErpGUWBV076fqJIdr2ZsJlKVicuFf4xNgk-qDvvmQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: '446'
 ht-degree: 7%
-
 ---
-
 # 일반적인 명령{#usual-commands}
 
 
@@ -104,21 +105,21 @@ Adobe Campaign 서비스를 중지하려면 다음 명령 중 하나를 사용�
 
 * 루트 또는 관리자 액세스 권한이 있는 경우:
 
-   * Linux에서:
+  * Linux에서:
 
-     ```sql
-     /etc/init.d/nlserver6 stop
-     ```
+    ```sql
+    /etc/init.d/nlserver6 stop
+    ```
 
-     >[!NOTE]
-     >
-     >20.1부터 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl stop nlserver**
+    >[!NOTE]
+    >
+    >20.1부터 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl stop nlserver**
 
-   * Windows에서는:
+  * Windows에서는:
 
-     ```sql
-     net stop nlserver6
-     ```
+    ```sql
+    net stop nlserver6
+    ```
 
 * 그렇지 않은 경우 Adobe Campaign 계정에서 다음을 수행합니다.
 
@@ -132,13 +133,13 @@ Adobe Campaign 서비스를 중지하려면 다음 명령 중 하나를 사용�
 
 * 루트 또는 관리자 액세스 권한이 있는 경우:
 
-   * Linux에서: `/etc/init.d/nlserver6 start`
+  * Linux에서: `/etc/init.d/nlserver6 start`
 
-     >[!NOTE]
-     >
-     >20.1부터는 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl start nlserver**
+    >[!NOTE]
+    >
+    >20.1부터는 다음 명령을 대신 사용하는 것이 좋습니다(Linux의 경우). **systemctl start nlserver**
 
-   * Windows에서: `net start nlserver6`
+  * Windows에서: `net start nlserver6`
 
 * 그렇지 않으면 Adobe Campaign 계정에서 다음을 수행합니다. **nlserver watchdog -svc -noconsole**
 

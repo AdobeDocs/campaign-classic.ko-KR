@@ -7,15 +7,16 @@ exl-id: 024a7344-9376-4ff3-926a-003148229f9f
 feature_v2: []
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 298
+source-wordcount: '298'
 ht-degree: 18%
-
 ---
-
 # 워크플로로 자동화 {#gs-workflows}
 
 Adobe Campaign의 워크플로를 통해 팀은 플랫폼 전체에서 엔드 투 엔드 비즈니스 프로세스를 간소화하고 자동화할 수 있습니다. 직관적인 그래픽 인터페이스를 통해 데이터 세분화, 캠페인 실행, 파일 처리 및 사용자 승인과 같은 작업을 조정하는 워크플로우를 한 곳에서 디자인하고 관리할 수 있습니다.

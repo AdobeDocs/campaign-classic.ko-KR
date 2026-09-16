@@ -3,7 +3,7 @@ product: campaign
 title: IMS 문제 해결
 description: IMS 문제 해결
 feature: Configuration
-badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
@@ -11,22 +11,27 @@ exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
 TQID: https://experienceleague.adobe.com/cUoMAlp8ExhammApiilFqRyrOkyyqxk1om0AifZVxb0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: '489'
 ht-degree: 5%
-
 ---
-
 # IMS 문제 해결{#ims-troubleshooting}
 
 
@@ -45,9 +50,9 @@ ht-degree: 5%
 
 외부 계정에 **제품 컨텍스트** 필드가 있는 경우 해당 값이 **dma_campaign_classic**(으)로 설정되어 있는지 확인하십시오.
 
-제품 컨텍스트가 Campaign 및 Experience Cloud에 대해 동일한지 확인합니다.
+제품 컨텍스트가 Campaign과 Experience Cloud에 대해 동일한지 확인합니다.
 
-예를 들어 **제품 컨텍스트**&#x200B;가 나타나지 않으면 Campaign과 Experience Cloud 모두에서 기본 제품 컨텍스트는 **dma_campaign**&#x200B;이어야 합니다. **제품 컨텍스트** 필드가 나타나면 Campaign과 Experience Cloud 모두에서 기본 제품 컨텍스트는 **dma_campaign_classic**&#x200B;이어야 합니다.
+예를 들어 **제품 컨텍스트**&#x200B;가 나타나지 않으면 Campaign과 Experience Cloud에서 기본 제품 컨텍스트는 **dma_campaign**&#x200B;이어야 합니다. **제품 컨텍스트** 필드가 나타나면 Campaign과 Experience Cloud 모두에서 기본 제품 컨텍스트는 **dma_campaign_classic**&#x200B;이어야 합니다.
 
 **[!UICONTROL IMS Server URL]**
 

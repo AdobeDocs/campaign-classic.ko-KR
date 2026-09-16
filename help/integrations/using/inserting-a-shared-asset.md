@@ -10,23 +10,27 @@ exl-id: 30a94bce-6d96-4a6d-a62f-7451c822f0e3
 TQID: https://experienceleague.adobe.com/5SrvIw1sYSNd4Hw1we554AfxDj3VgeTeqIOOzTTrWuY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 233
+source-wordcount: '233'
 ht-degree: 1%
-
 ---
-
 # 공유 자산 삽입{#inserting-a-shared-asset}
 
-Adobe Experience Cloud에서 공유한 Assets을 이메일 및 랜딩 페이지에서 다음과 같이 사용할 수 있습니다.
+Adobe Experience Cloud에서 공유한 Assets을 다음과 같이 이메일 및 랜딩 페이지에서 사용할 수 있습니다.
 
 1. 새 이메일 또는 새 랜딩 페이지를 만듭니다.
 

@@ -8,24 +8,31 @@ hide: true
 TQID: https://experienceleague.adobe.com/LeUJ-F5dAECUrtkbvgwL0BN88Alofnh2rBWe7hIVGgI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 323
+source-wordcount: '333'
 ht-degree: 0%
-
 ---
-
 # Campaign 및 Salesforce.com 연결{#connect-to-sfdc}
 
 
@@ -47,19 +54,19 @@ Salesforce용 CRM 커넥터를 구성하려면 아래 단계를 따르십시오.
    Adobe Campaign에서 작동하도록 Salesforce CRM 외부 계정을 구성하려면 다음 세부 정보를 제공해야 합니다.
 
    * **[!UICONTROL Account]**
-Salesforce CRM에 로그인하는 데 사용되는 계정.
+     Salesforce CRM에 로그인하는 데 사용되는 계정.
 
    * **[!UICONTROL Password]**
-Salesforce CRM 로그인에 사용되는 암호입니다.
+     Salesforce CRM 로그인에 사용되는 암호입니다.
 
    * **[!UICONTROL Client identifier]**
-클라이언트 식별자를 찾을 수 있는 위치를 확인하려면 이 [페이지](https://help.salesforce.com/articleView?id=000205876&type=1)를 참조하세요.
+     클라이언트 식별자를 찾을 수 있는 위치를 확인하려면 이 [페이지](https://help.salesforce.com/articleView?id=000205876&type=1)를 참조하세요.
 
    * **[!UICONTROL Security token]**
-보안 토큰을 찾을 위치를 확인하려면 이 [페이지](https://help.salesforce.com/articleView?id=000205876&type=1)를 참조하세요.
+     보안 토큰을 찾을 위치를 확인하려면 이 [페이지](https://help.salesforce.com/articleView?id=000205876&type=1)를 참조하세요.
 
    * **[!UICONTROL API version]**
-API 버전을 선택합니다.
+     API 버전을 선택합니다.
 1. 구성 도우미를 실행하여 사용 가능한 CRM 테이블을 생성합니다. 구성 도우미를 사용하여 테이블을 수집하고 일치하는 스키마를 생성할 수 있습니다.
 
    ![](assets/crm_connectors_sfdc_launch.png)

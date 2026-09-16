@@ -9,23 +9,28 @@ exl-id: b500bde4-6c81-4420-b1bf-e8eff1c53877
 TQID: https://experienceleague.adobe.com/5lh4PWNgXYoTWDSM0QE6q6-B1ZYrD8fDUTnAKmq8jIs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 subfeature_v2:
   - id: e5fb657f-3c0a-4fcc-9980-3589a23ab4de
+    internal-label: Typology rules
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
-source-wordcount: 113
+source-wordcount: '113'
 ht-degree: 53%
-
 ---
-
 # 캠페인 유형 분류 정보{#about-campaign-typologies}
 
 캠페인 최적화는 게재 전송을 제어, 필터링 및 모니터링할 수 있는 Adobe Campaign 모듈입니다. 캠페인 간의 충돌을 방지하기 위해 Adobe Campaign은 특정 제한 조건을 적용하여 다양한 조합을 테스트할 수 있습니다. 이를 통해 회사 커뮤니케이션 정책을 준수하면서 고객의 요구 사항과 기대치에 가장 적합한 메시지를 보내도록 보장합니다.

@@ -8,20 +8,22 @@ exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
 TQID: https://experienceleague.adobe.com/HRym19p3YGAa3PEPgFBfU3ka39l5348CkdQaWcHZOJk
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1037
+source-wordcount: '1037'
 ht-degree: 0%
-
 ---
-
 # 추가 SQL 함수 정의{#adding-additional-sql-functions}
 
 Adobe Campaign을 통해 사용자는 데이터베이스에서 제공하는 함수와 아직 콘솔에서 사용할 수 없는 함수 모두를 포함하여 SQL 함수에 액세스할 수 있는 **자체 함수**&#x200B;를 정의할 수 있습니다. 이 기능은 예를 들어 집계 함수(평균, 최대, 합계)에 유용합니다. 이 함수는 콘솔에서 표현식을 &quot;수동&quot;으로 작성(예: 날짜 관리)하는 대신, 서버에서 또는 데이터베이스가 특정 함수를 구현하는 더 쉬운 방법을 제공하는 경우에만 계산할 수 있습니다.
@@ -131,8 +133,8 @@ Adobe Campaign을 통해 사용자는 데이터베이스에서 제공하는 함�
 * **@minArgs** 및 **maxArgs**&#x200B;은(는) 매개 변수의 매개 변수 수(최소 및 최대)를 지정합니다. 예를 들어 매개 변수가 2개인 함수의 경우 minArgs와 maxArgs는 2와 2가 됩니다. 3개의 매개 변수와 1개의 선택적 매개 변수의 경우 각각 3과 4가 됩니다.
 * 마지막으로 **providerPart** 요소는 함수 구현을 제공합니다.
 
-   * **provider** 특성은 필수이며 구현이 제공되는 데이터베이스 시스템을 지정합니다. 예제에서 보듯이 표현식 구문 또는 기본 함수가 다른 경우 데이터베이스에 따라 대체 구현이 제공될 수 있습니다.
-   * **@body** 특성에 함수 구현이 포함되어 있습니다. 참고: 이 구현은 코드 블록이 아닌 데이터베이스 언어로 된 표현식이어야 합니다. 데이터베이스에 따라 표현식은 하위 쿼리(&quot;(테이블에서 열을 선택하십시오 where...)&quot;)가 될 수 있습니다. 단일 값만 반환합니다. 예를 들어 Oracle의 경우가 여기에 해당합니다(쿼리는 대괄호로 작성되어야 함).
+  * **provider** 특성은 필수이며 구현이 제공되는 데이터베이스 시스템을 지정합니다. 예제에서 보듯이 표현식 구문 또는 기본 함수가 다른 경우 데이터베이스에 따라 대체 구현이 제공될 수 있습니다.
+  * **@body** 특성에 함수 구현이 포함되어 있습니다. 참고: 이 구현은 코드 블록이 아닌 데이터베이스 언어로 된 표현식이어야 합니다. 데이터베이스에 따라 표현식은 하위 쿼리(&quot;(테이블에서 열을 선택하십시오 where...)&quot;)가 될 수 있습니다. 단일 값만 반환합니다. 예를 들어 Oracle의 경우가 여기에 해당합니다(쿼리는 대괄호로 작성되어야 함).
 
   >[!NOTE]
   >

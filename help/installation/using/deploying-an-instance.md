@@ -3,7 +3,7 @@ product: campaign
 title: 인스턴스 배포
 description: Campaign 배포 마법사에 대해 자세히 알아보기
 feature: Installation, Instance Settings, Deployment
-badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
@@ -11,23 +11,29 @@ exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
 TQID: https://experienceleague.adobe.com/M1uqZA6cfopJkJ-pg3m-1R-eBbM55zv7R-FSxOfFUwI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 3479
+source-wordcount: '3471'
 ht-degree: 2%
-
 ---
-
 # 인스턴스 배포{#deploying-an-instance}
 
 >[!NOTE]
@@ -442,16 +448,16 @@ Adobe Campaign을 사용하면 이러한 세 가지 URL을 구별하여 여러 �
 
   스크립트를 사용하여 이미지를 게시할 수 있습니다.
 
-   * 이 스크립트를 만들어야 합니다. 스크립트의 내용은 구성에 따라 다릅니다.
-   * 다음 명령을 사용하여 스크립트가 호출됩니다.
+  * 이 스크립트를 만들어야 합니다. 스크립트의 내용은 구성에 따라 다릅니다.
+  * 다음 명령을 사용하여 스크립트가 호출됩니다.
 
-     ```
-     [INSTALL]/copyToFrontal.vbs "$(XTK_INSTALL_DIR)\var\<instance>\upload\" "img1,img2,img3"
-     ```
+    ```
+    [INSTALL]/copyToFrontal.vbs "$(XTK_INSTALL_DIR)\var\<instance>\upload\" "img1,img2,img3"
+    ```
 
-     여기서 `[INSTALL]`은(는) Adobe Campaign 설치 폴더의 액세스 경로입니다.
+    여기서 `[INSTALL]`은(는) Adobe Campaign 설치 폴더의 액세스 경로입니다.
 
-   * Unix에서 스크립트가 실행 가능한지 확인합니다.
+  * Unix에서 스크립트가 실행 가능한지 확인합니다.
 
 이미지의 경우 **NmsDelivery_ImageSubDirectory** 옵션을 통해 지정된 &quot;images&quot; 폴더에서 하나 이상의 전면 서버로 복사해야 합니다. 이러한 서버는 새 구성된 URL을 통해 액세스할 수 있도록 이미지를 저장합니다.
 

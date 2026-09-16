@@ -9,23 +9,28 @@ exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
 TQID: https://experienceleague.adobe.com/mFkyDINneoodiL3Liiao0u3uZQsGaZCG1-BEu6Vqjos
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
 subfeature_v2:
   - id: f863efa9-030c-4466-a2b8-a52aea6b722c
+    internal-label: Subscription services
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1147
+source-wordcount: '1147'
 ht-degree: 3%
-
 ---
-
 # Campaign 템플릿 만들기 및 구성 {#campaign-templates}
 
 모든 마케팅 캠페인은 주요 특성과 기능을 저장하는 템플릿을 기반으로 합니다. 캠페인 템플릿이 **[!UICONTROL Resources > Templates > Campaign templates]** 노드에서 중앙 집중화되었습니다. 기본 템플릿이 표준으로 제공됩니다. 사용 가능한 모든 모듈(문서, 작업, 시드 주소 등)을 사용하여 새 캠페인을 만들 수 있지만, 제공되는 모듈은 사용자의 권한 및 Adobe Campaign 플랫폼의 구성에 따라 다릅니다.

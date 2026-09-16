@@ -2,7 +2,7 @@
 product: campaign
 title: 개인화된 쿠폰
 description: 개인화된 쿠폰을 만들고 삽입하는 방법을 알아봅니다
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 role: User
 hide: true
@@ -10,28 +10,38 @@ exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
 TQID: https://experienceleague.adobe.com/KFX8BeFujupcQEKCfHrTxf71axwDi0RMe3zquaDVG7c
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 922
+source-wordcount: '913'
 ht-degree: 1%
-
 ---
-
 # 개인화된 쿠폰{#personalized-coupons}
 
 게재에 쿠폰을 추가하면 수신자에게 제품 및 서비스에 대한 향상된 가치를 제공할 수 있습니다. Campaign 쿠폰 모듈을 사용하여 예정된 마케팅 오퍼에 추가할 쿠폰 세트를 만들 수 있습니다. 게재를 만들 준비가 되면 해당 쿠폰을 할당합니다. 쿠폰은 선택 기간 동안 유효하므로 할당된 쿠폰은 해당 게재 메시지에 고유하게 연결됩니다. 또한 Campaign은 게재를 보내기 전에 메시지 수에 대한 쿠폰이 충분한지 확인합니다.

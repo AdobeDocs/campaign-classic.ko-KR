@@ -3,7 +3,7 @@ product: campaign
 title: 대상자 가져오기 및 내보내기
 description: 대상자 가져오기 및 내보내기
 feature: Audiences
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
@@ -11,20 +11,24 @@ exl-id: c2293fc5-c9ba-4a73-8f39-fa7cdd06e8dd
 TQID: https://experienceleague.adobe.com/bOM6WFh4gyejeYtHdOSBO3jbY4LFvLB--P5pxN5t5O0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '616'
 ht-degree: 3%
-
 ---
-
 # 대상자 가져오기 및 내보내기{#importing-and-exporting-audiences}
 
 
@@ -38,7 +42,7 @@ ht-degree: 3%
 
    ![](assets/aam_import_audience.png)
 
-1. 열려 있는 창에서 **[!UICONTROL Select a shared audience]**&#x200B;을(를) 클릭하여 다른 Adobe Experience Cloud 솔루션에서 사용할 수 있는 공유 대상/세그먼트 목록으로 이동합니다.
+1. 열리는 창에서 **[!UICONTROL Select a shared audience]**&#x200B;을(를) 클릭하여 다른 Adobe Experience Cloud 솔루션에서 사용할 수 있는 공유 대상/세그먼트 목록으로 이동합니다.
 1. 대상을 선택하고 확인합니다. 대상자의 정보가 자동으로 완료됩니다.
 
    공유 대상자를 가져오려면 Admin Console에서 **[!UICONTROL Audience library]** 제품을 할당하고 Audience Manager의 관리자여야 합니다. 자세한 내용은 [Admin Console 설명서](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html)를 참조하세요.
@@ -89,7 +93,7 @@ Audience Manager에서 직접 세그먼트를 가져오는 경우 가져오기 �
 
 그런 다음 대상을 내보냅니다. 대상자 저장 활동에는 두 개의 아웃바운드 전환이 있습니다. 기본 전환에는 성공적으로 내보낸 수신자가 포함됩니다. 추가 전환에는 방문자 ID 또는 선언된 ID로 매핑될 수 없었던 수신자가 포함됩니다.
 
-솔루션 간 동기화는 24-36시간이 소요됩니다. 이 기간이 지나면 새로운 대상을 찾아 다른 Adobe Experience Cloud 솔루션에서 재사용할 수 있습니다. Adobe Campaign 공유 대상 사용에 대한 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/audiences/create){target="_blank"}를 참조하세요.
+솔루션 간 동기화는 24-36시간이 소요됩니다. 이 기간이 지나면 새로운 대상을 찾아 다른 Adobe Experience Cloud 솔루션에서 다시 사용할 수 있습니다. Adobe Campaign 공유 대상 사용에 대한 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/audiences/create){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >

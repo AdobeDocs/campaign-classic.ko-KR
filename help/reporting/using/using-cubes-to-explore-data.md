@@ -2,17 +2,15 @@
 product: campaign
 title: 큐브로 데이터 탐색
 description: 큐브로 데이터 탐색
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 hide: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '968'
 ht-degree: 2%
-
 ---
-
 # 큐브로 데이터 탐색{#using-cubes-to-explore-data}
 
 

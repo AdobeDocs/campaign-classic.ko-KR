@@ -10,18 +10,19 @@ exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 TQID: https://experienceleague.adobe.com/geVW1WFvlnZJmiLeaI01ww-TsQvEN3-zpr57jmz2Miw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 630
-ht-degree: 2%
-
+source-wordcount: '630'
+ht-degree: 4%
 ---
-
 # 서버 보안 설정 {#server-configuration}
 
 ## 파일 업로드 보호
@@ -51,7 +52,7 @@ Adobe Campaign은 파일 크기를 제한하지 않습니다. 그러나 IIS/Apac
 
 ## 발신 연결 보호
 
-JavaScript 코드(워크플로우 등)로 호출할 수 있는 기본 URL 목록 은(는) 제한적입니다. 새 URL을 허용하려면 관리자는 [serverConf.xml 파일](../../installation/using/the-server-configuration-file.md)에서 이를 참조해야 합니다.
+Campaign 인스턴스에서 워크플로 등 JavaScript 코드를 통해 호출할 수 있는 URL의 기본 목록은 은(는) 제한적입니다. 새 URL을 허용하려면 관리자는 [serverConf.xml 파일](../../installation/using/the-server-configuration-file.md)에서 이를 참조해야 합니다.
 
 세 가지 연결 보호 모드가 있습니다.
 
@@ -79,7 +80,7 @@ JavaScript 코드(워크플로우 등)로 호출할 수 있는 기본 URL 목록
 
 모든 페이지에 대해 추가 HTTP 헤더를 추가할 수 있습니다(자세한 내용은 [이 페이지](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands)를 참조하세요).
 
-* HSTS, X-FRAME-OPTIONS, CSP와 같은 일부 추가 헤더를 추가할 수 있습니다.
+* HSTS, X-FRAME-OPTIONS, CSP 등의 일부 추가 헤더를 추가할 수 있습니다.
 * 프로덕션에 적용하기 전에 테스트 환경에서 테스트해야 합니다.
 
   >[!IMPORTANT]

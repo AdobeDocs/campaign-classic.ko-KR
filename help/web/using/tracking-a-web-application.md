@@ -2,27 +2,31 @@
 product: campaign
 title: 웹 애플리케이션에서 방문 수 추적
 description: 웹 애플리케이션에서 방문 수 추적
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps, Reporting, Monitoring
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
 TQID: https://experienceleague.adobe.com/TtUrQKKVdMc4ZttsgFG9ly8hTCdqCnb3bMm2Tn3E6ww
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 411
+source-wordcount: '402'
 ht-degree: 4%
-
 ---
-
 # 웹 애플리케이션에서 방문 수 추적{#tracking-a-web-application}
 
 
@@ -44,9 +48,9 @@ Adobe Campaign에서는 추적 태그를 삽입하여 웹 애플리케이션 페
 
   주요 지표는 다음과 같습니다.
 
-   * **전환율**: 탐색 경로의 모든 단계를 표시한 사용자 수입니다.
-   * **바운스 비율**: 첫 번째 단계만 표시한 사람 수
-   * **전환 funnel**: 각 단계 간 손실률입니다.
+  * **전환율**: 탐색 경로의 모든 단계를 표시한 사용자 수입니다.
+  * **바운스 비율**: 첫 번째 단계만 표시한 사람 수
+  * **전환 funnel**: 각 단계 간 손실률입니다.
 
   또한 **Sector** 유형 차트는 해당 소스에 따라 모집단을 표시합니다.
 

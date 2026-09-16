@@ -7,15 +7,14 @@ exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
 TQID: https://experienceleague.adobe.com/fiMkJtGU90FP-G6BJhTnIrgBJ39uIJaakqKD49EhXS0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 177
+source-wordcount: '177'
 ht-degree: 12%
-
 ---
-
 # 매개 변수 요소 {#param--element}
 
 
@@ -58,34 +57,34 @@ param:==help
 
   사용 가능한 유형 목록:
 
-   * 모든
-   * bin
-   * blob
-   * 부울
-   * 바이트
-   * CDATA
-   * datetime
-   * datetimetz
-   * datetimenotz
-   * 날짜
-   * DOMDocument
-   * DOMELEMENT
-   * 중복
-   * enum
-   * 부동
-   * html
-   * int64
-   * 링크
-   * 롱
-   * 메모
-   * MNTOKEN
-   * 백분율
-   * primarykey
-   * short
-   * 문자열
-   * 시간
-   * timespan
-   * uuid
+  * 모든
+  * 빈
+  * blob
+  * 부울
+  * 바이트
+  * CDATA
+  * datetime
+  * datetimetz
+  * datetimenotz
+  * 날짜
+  * DOMDocument
+  * DOMELEMENT
+  * 중복
+  * enum
+  * 부동
+  * html
+  * int64
+  * 링크
+  * 롱
+  * 메모
+  * MNTOKEN
+  * 백분율
+  * primarykey
+  * short
+  * 문자열
+  * 시간
+  * timespan
+  * uuid
 
 ## 예제 {#examples-9}
 

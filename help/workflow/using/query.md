@@ -8,18 +8,20 @@ exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 TQID: https://experienceleague.adobe.com/Htrpo3hCrbp9H7cQD4KWTnMbA-rjgM0K1PFHh-Fak1M
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1620
+source-wordcount: '1650'
 ht-degree: 0%
-
 ---
-
 # 쿼리{#query}
 
 
@@ -231,11 +233,11 @@ SQL의 필터링 차원과 동등한 기능은 내부 조인입니다.
 * 프로덕션 플랫폼과 유사한 볼륨, 매개변수 및 아키텍처를 사용하는 개발 플랫폼을 구축합니다.
 * 개발 및 프로덕션 환경에 동일한 값을 사용합니다. 가능한 한 동일한 을 사용합니다.
 
-   * 운영 체제,
-   * 버전,
-   * 데이터,
-   * 애플리케이션,
-   * 볼륨.
+  * 운영 체제,
+  * 버전,
+  * 데이터,
+  * 애플리케이션,
+  * 볼륨.
 
   >[!NOTE]
   >

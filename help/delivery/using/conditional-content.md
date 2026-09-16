@@ -2,7 +2,7 @@
 product: campaign
 title: 조건부 콘텐츠
 description: 조건부 콘텐츠를 추가하는 방법 알아보기
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization, Multilingual Messages
 role: User
 hide: true
@@ -10,25 +10,32 @@ exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
 TQID: https://experienceleague.adobe.com/S8pQz1eOVkbkBKFzhPwzEfj50cPnBBOeYNGFg-R6EZ4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 502
+source-wordcount: '493'
 ht-degree: 9%
-
 ---
-
 # 조건부 콘텐츠{#conditional-content}
 
 조건부 콘텐츠 필드를 구성하여 예를 들어 수신자의 프로필을 기반으로 동적 개인화를 만들 수 있습니다. 특정 조건이 충족되면 텍스트 블록 및/또는 이미지가 교체됩니다.
@@ -43,10 +50,10 @@ ht-degree: 9%
 * &quot;Mr&quot;을 표시하는 표시 또는 &quot;Ms.&quot; 데이터 원본의 **[!UICONTROL Gender]** 필드 값(M 또는 F)에 따라
 * 표시되거나 감지된 관심사에 따라 뉴스레터 또는 판촉 오퍼의 개인화된 어셈블리:
 
-   * 관심 분야 1 — > 블록 1
-   * 관심 분야 2 — > 블록 2
-   * 관심 분야 3 — > 블록 3
-   * 관심 분야 4 — > 블록 4
+  * 관심 분야 1 — > 블록 1
+  * 관심 분야 2 — > 블록 2
+  * 관심 분야 3 — > 블록 3
+  * 관심 분야 4 — > 블록 4
 
 필드의 값에 따라 조건부 콘텐츠를 만들려면 다음 단계를 적용합니다.
 

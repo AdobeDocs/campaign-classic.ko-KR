@@ -3,7 +3,7 @@ product: campaign
 title: IMS 구성
 description: Adobe ID을 통해 연결하는 방법 알아보기
 feature: Configuration
-badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
@@ -11,16 +11,18 @@ exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
 feature_v2: []
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 349
+source-wordcount: '368'
 ht-degree: 12%
-
 ---
-
 # IMS 구성{#configuring-ims}
 
 >[!IMPORTANT]
@@ -63,4 +65,4 @@ ht-degree: 12%
 
 * 연결 마스크: 이 필드에서는 Enterprise Dashboard의 구성 이름을 Adobe Campaign의 그룹과 동기화할 수 있는 구문을 정의할 수 있습니다. &quot;Campaign - tenant_id - (.&#42;)&quot; 구문을 사용하는 경우 Adobe Campaign에서 만든 보안 그룹이 Enterprise Dashboard의 구성 이름 &quot;Campaign - tenant_id - internal_name&quot;에 연결됩니다.
 
-* Adobe Experience Cloud 연결 정보 - Adobe Experience Cloud 테넌트의 이름입니다.
+* Adobe Experience Cloud 테넌트의 이름인 Adobe Experience Cloud 연결 정보입니다.

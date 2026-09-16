@@ -10,15 +10,14 @@ exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
 TQID: https://experienceleague.adobe.com/keWzvD8mrha5wEUomR9FdRVTi-ryy2EVkRSAws-YKnI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 603
+source-wordcount: '604'
 ht-degree: 9%
-
 ---
-
 # 인스턴스 만들기 및 로그온{#creating-an-instance-and-logging-on}
 
 
@@ -67,7 +66,7 @@ Adobe Campaign 콘솔이 시작되면 로그인 페이지에 액세스합니다.
 
    쉼표로 구분된 값 목록을 정의할 수 있습니다.
 
-   ? 및 &#42;자를 와일드카드로 사용하여 하나 또는 여러 문자(DNS, 포트 등)를 바꿀 수 있습니다. 예를 들어 **demo&#42;** 값은 &quot;https://demo&quot; 및 &quot;https://demo:8080&quot; 및 &quot;https://demo2&quot;에서와 같이 작동합니다.
+   ? 및 &#42;자를 와일드카드로 사용하여 하나 또는 여러 문자(DNS, 포트 등)를 바꿀 수 있습니다. 예를 들어 **demo&#42;** 값은 &quot;https://demo&quot; 및 &quot;https://demo2&quot;에서와 같이 &quot;https://demo:8080&quot;에서도 작동합니다.
 
    사용된 이름을 DNS에 정의해야 합니다. Windows의 **c:/windows/system32/drivers/etc/hosts** 파일 및 Linux의 **/etc/hosts** 파일에서 DNS 이름과 IP 주소 간의 서신을 알릴 수도 있습니다. 따라서 선택한 인스턴스에 연결하려면 이 DNS 이름을 사용하도록 연결 설정을 수정해야 합니다.
 

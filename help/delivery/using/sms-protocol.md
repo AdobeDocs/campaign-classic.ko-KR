@@ -8,28 +8,38 @@ exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 TQID: https://experienceleague.adobe.com/-e39I2kK3veYtZTufN0ZZrnZPAAco47dU8HFlCtlIxY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 8283
+source-wordcount: '8527'
 ht-degree: 1%
-
 ---
-
 # SMS 커넥터 프로토콜 및 설정 {#sms-connector-protocol}
 
 >[!NOTE]
@@ -858,11 +868,11 @@ GSM 또는 ASCII 이외 문자로 SMS를 전송해야 하는 경우 가능한 �
 * **SR이 제대로 처리되었는지 확인**
 SMS는 게재 로그에 수신된 것으로 표시되어야 합니다. 게재 로그는 성공해야 하며 다음과 같습니다.
   `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
-게재 공급자 이름을 변경했는지 확인합니다. 프로덕션 환경에서는 게재 로그에 **SR 일반**&#x200B;이 포함되어서는 안 됩니다.
+  게재 공급자 이름을 변경했는지 확인합니다. 프로덕션 환경에서는 게재 로그에 **SR 일반**&#x200B;이 포함되어서는 안 됩니다.
 
 * **MO가 처리되었는지 확인**
-MO(자동 회신, 데이터베이스에 MO 저장 등)를 처리해야 하는 경우 몇 가지 테스트를 수행하십시오. 모든 자동 회신 키워드에 대해 몇 개의 SMS를 보내고 몇 초 내로 회신이 충분히 빠른지 확인합니다.
-Adobe Campaign이 성공한 `DELIVER_SM_RESP`(command_status=0)으로 답글을 남긴다는 로그를 확인하십시오.
+MO(자동 회신, 데이터베이스에 MO 저장 등)를 처리해야 하는 경우 몇 가지 테스트를 해보십시오. 모든 자동 회신 키워드에 대해 몇 개의 SMS를 보내고 몇 초 내로 회신이 충분히 빠른지 확인합니다.
+Adobe Campaign이 `DELIVER_SM_RESP`(으)로 답글을 남겼는지 로그를 확인합니다(command_status=0).
 
 ### PDU 확인 {#check-pdus}
 

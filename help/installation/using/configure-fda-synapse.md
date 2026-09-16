@@ -10,18 +10,19 @@ exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
 TQID: https://experienceleague.adobe.com/CogezJk2Xg8Pv7d7upxrVWzOAWMkPS475yPeMJ6Uw-E
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 854
+source-wordcount: '854'
 ht-degree: 1%
-
 ---
-
 # Azure Synapse 액세스 구성 {#configure-access-to-azure-synapse}
 
 
@@ -221,23 +222,23 @@ Debian에서 Azure Synapse을 구성하려면 다음을 수행하십시오.
 
    * 표준 인증의 경우 다음을 지정해야 합니다.
 
-      * **[!UICONTROL Server]**: Azure Synapse 서버의 URL
+     * **[!UICONTROL Server]**: Azure Synapse 서버의 URL
 
-      * **[!UICONTROL Account]**: 사용자 이름
+     * **[!UICONTROL Account]**: 사용자 이름
 
-      * **[!UICONTROL Password]**: 사용자 계정 암호
+     * **[!UICONTROL Password]**: 사용자 계정 암호
 
-      * **[!UICONTROL Database]**: 데이터베이스 이름
+     * **[!UICONTROL Database]**: 데이터베이스 이름
 
      ![](assets/azure_3.png)
 
    * 시스템에서 할당한 관리 ID 인증의 경우 다음을 지정해야 합니다.
 
-      * **[!UICONTROL Server]**: Azure Synapse 서버의 URL
+     * **[!UICONTROL Server]**: Azure Synapse 서버의 URL
 
-      * **[!UICONTROL Database]**: 데이터베이스 이름
+     * **[!UICONTROL Database]**: 데이터베이스 이름
 
-      * **[!UICONTROL Options]**: 다음 구문을 추가하십시오. `Authentication=ActiveDirectoryMsi`
+     * **[!UICONTROL Options]**: 다음 구문을 추가하십시오. `Authentication=ActiveDirectoryMsi`
 
      ![](assets/azure_4.png)
 

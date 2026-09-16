@@ -3,7 +3,7 @@ product: campaign
 title: 기술 이메일 구성
 description: 이메일을 게재할 때 인스턴스의 출력을 제어하도록 Campaign을 구성하는 방법에 대해 알아봅니다
 feature: Installation, Deliverability
-badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -11,23 +11,29 @@ exl-id: 515adad2-6129-450a-bb9e-fc80127835af
 TQID: https://experienceleague.adobe.com/JRN8-kfrbG-UDAJz8wShf-0vi-LyqrUBxNBa3wn83cc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 3163
+source-wordcount: '3151'
 ht-degree: 2%
-
 ---
-
 # 기술 이메일 구성{#email-deliverability}
 
 
@@ -258,14 +264,14 @@ MX에 대해 준수할 규칙이 트리의 **[!UICONTROL Administration > Campai
 
   예를 들어, 다음 주소를 입력합니다.
 
-   * a.mx.yahoo.com
-   * b.mx.yahoo.com
-   * c.mx.yahoo.com
+  * a.mx.yahoo.com
+  * b.mx.yahoo.com
+  * c.mx.yahoo.com
 
   는 다음 마스크와 호환됩니다.
 
-   * &#42;.yahoo.com
-   * ?.mx.yahoo.com
+  * &#42;.yahoo.com
+  * ?.mx.yahoo.com
 
   예를 들어 이메일 주소 foobar@gmail.com의 경우 도메인은 gmail.com이고 MX 레코드는 다음과 같습니다.
 
@@ -281,8 +287,8 @@ MX에 대해 준수할 규칙이 트리의 **[!UICONTROL Administration > Campai
 
 * **[!UICONTROL Range of identifiers]**: 이 옵션을 사용하면 규칙이 적용되는 식별자(publicID) 범위를 표시할 수 있습니다. 다음을 지정할 수 있습니다.
 
-   * 숫자: 규칙은 이 publicId에만 적용됩니다.
-   * 숫자 범위(**number1-number2**): 이 두 숫자 사이의 모든 publicId에 규칙이 적용됩니다.
+  * 숫자: 규칙은 이 publicId에만 적용됩니다.
+  * 숫자 범위(**number1-number2**): 이 두 숫자 사이의 모든 publicId에 규칙이 적용됩니다.
 
   >[!NOTE]
   >
@@ -306,14 +312,14 @@ MX에 대해 준수할 규칙이 트리의 **[!UICONTROL Administration > Campai
 * **[!UICONTROL Timeout]**: SMTP 서버와의 다른 교환에 대한 최대 대기 시간입니다.
 * **[!UICONTROL TLS]**: 전자 메일 게재를 암호화할 수 있는 TLS 프로토콜을 선택적으로 활성화할 수 있습니다. 각 MX 마스크에 대해 다음 옵션을 사용할 수 있습니다.
 
-   * **[!UICONTROL Default configuration]**: 적용되는 serverConf.xml 구성 파일에 지정된 일반 구성입니다.
+  * **[!UICONTROL Default configuration]**: 적용되는 serverConf.xml 구성 파일에 지정된 일반 구성입니다.
 
-     >[!IMPORTANT]
-     >
-     >기본 구성은 수정하지 않는 것이 좋습니다.
+    >[!IMPORTANT]
+    >
+    >기본 구성은 수정하지 않는 것이 좋습니다.
 
-   * **[!UICONTROL Disabled]** : 메시지가 암호화 없이 체계적으로 전송됩니다.
-   * **[!UICONTROL Opportunistic]** : 수신 서버(SMTP)가 TLS 프로토콜을 생성할 수 있는 경우 메시지 배달이 암호화됩니다.
+  * **[!UICONTROL Disabled]** : 메시지가 암호화 없이 체계적으로 전송됩니다.
+  * **[!UICONTROL Opportunistic]** : 수신 서버(SMTP)가 TLS 프로토콜을 생성할 수 있는 경우 메시지 배달이 암호화됩니다.
 
 구성 예:
 

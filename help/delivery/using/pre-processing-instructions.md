@@ -2,25 +2,27 @@
 product: campaign
 title: 추적된 URL에 대한 전처리 지침
 description: 이메일의 URL을 스크립팅하고 계속 추적하는 데 사용하는 전처리 지침에 대해 자세히 알아보십시오
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 role: User, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 TQID: https://experienceleague.adobe.com/cDB7CFuf6Gv0eyik3yEyJh4auo97LkazDSahUNPFtec
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 664
+source-wordcount: '655'
 ht-degree: 1%
-
 ---
-
 # 전처리 지침 {#pre-processing-instructions}
 
 게재 콘텐츠의 특정 구문을 사용하여 지침을 추가하고 추적된 이메일의 URL을 스크립팅할 수 있습니다. &lt;%@ 지침은 JavaScript이 아닙니다. 이 구문은 Adobe Campaign에만 적용됩니다.
@@ -81,10 +83,10 @@ ht-degree: 1%
 
 * **[!DNL object]**: 개체 이름(예: 게재, 공급자 등)입니다.
 객체는 다음과 같을 수 있습니다.
-   * **[!DNL delivery]**: 현재 게재용(아래 하위 섹션에서 세부 정보 및 제한 사항 참조).
-   * **[!DNL provider]**: 현재 배달 공급자/라우팅(nms:externalAccount)에 대해.
-   * 추가 스크립트 개체: **속성** > **Personalization** > **실행 컨텍스트에 개체 추가**&#x200B;를 통해 컨텍스트에 개체가 로드된 경우.
-   * foreach 루프 항목: 아래의 [Foreach](#foreach) 섹션을 참조하십시오.
+  * **[!DNL delivery]**: 현재 게재용(아래 하위 섹션에서 세부 정보 및 제한 사항 참조).
+  * **[!DNL provider]**: 현재 배달 공급자/라우팅(nms:externalAccount)에 대해.
+  * 추가 스크립트 개체: **속성** > **Personalization** > **실행 컨텍스트에 개체 추가**&#x200B;를 통해 컨텍스트에 개체가 로드된 경우.
+  * foreach 루프 항목: 아래의 [Foreach](#foreach) 섹션을 참조하십시오.
 * **[!DNL xpath]**: 필드의 xpath.
 * **[!DNL index]**(선택 사항): **[!DNL object]**&#x200B;이(가) 배열인 경우(추가 스크립트 개체의 경우) 배열의 항목 인덱스(0에서 시작)입니다.
 

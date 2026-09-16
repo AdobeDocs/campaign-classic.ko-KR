@@ -9,9 +9,7 @@ source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 12%
-
 ---
-
 # 2021년 Adobe Campaign 구성 업데이트 {#acc-config-updates}
 
 

@@ -8,20 +8,23 @@ exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
 TQID: https://experienceleague.adobe.com/mddmI88wgsUP0rd5vhnJYn83gXqwTLPkQRPmvuOX3GY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2: []
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
-source-wordcount: 1974
+source-wordcount: '1974'
 ht-degree: 3%
-
 ---
-
 # 분할{#split}
 
 **분할** 유형의 활동을 사용하면 대상을 여러 하위 집합으로 분할할 수 있습니다. 타겟은 받은 모든 결과로 구성됩니다. 따라서 이 활동을 실행하려면 모든 이전 활동이 완료되어야 합니다.

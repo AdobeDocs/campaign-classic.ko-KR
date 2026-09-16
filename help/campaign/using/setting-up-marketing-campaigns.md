@@ -9,22 +9,26 @@ exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
 TQID: https://experienceleague.adobe.com/5gH9cUkeJNozk9f14AAn6C3wUTt48329f-OIa4EVV0g
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 subfeature_v2:
   - id: f863efa9-030c-4466-a2b8-a52aea6b722c
+    internal-label: Subscription services
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1259
+source-wordcount: '1259'
 ht-degree: 5%
-
 ---
-
 # 마케팅 캠페인 시작{#setting-up-marketing-campaigns}
 
 캠페인에는 작업(게재) 및 프로세스(파일 가져오기 또는 추출)와 리소스(마케팅 문서, 게재 아웃라인)가 포함됩니다. 마케팅 캠페인에서 사용됩니다. 캠페인은 프로그램의 일부이며 프로그램은 캠페인 플랜에 포함됩니다.

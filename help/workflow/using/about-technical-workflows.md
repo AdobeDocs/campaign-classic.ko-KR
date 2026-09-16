@@ -8,24 +8,31 @@ exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
 TQID: https://experienceleague.adobe.com/XyvGCXDK-0pAX09kPyfGkZFTITlQRuMN0N-Yee-06EM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1723
+source-wordcount: '1723'
 ht-degree: 2%
-
 ---
-
 # 기술 워크플로{#about-technical-workflows}
 
 
@@ -62,11 +69,11 @@ ht-degree: 2%
 | **토론 포럼 프로세스**(뉴스그룹 관리) | 마케팅 리소스(MRM) | 이 워크플로우는 토론 포럼에서 알림 전달을 관리합니다. 승인 신호가 수신되면 트리거됩니다 |
 | **분산 마케팅 프로세스**(centralLocalMgt) | 중앙/로컬 마케팅(분산 마케팅) | 이 워크플로우는 분산 마케팅 모듈 사용과 관련된 처리를 시작합니다. 로컬 캠페인 생성을 시작하고 주문 및 캠페인 패키지 가용성과 관련된 알림을 관리합니다. |
 | **이벤트 제거**(webAnalyticsPurgeWebEvents) | 웹 분석 커넥터 | 이 워크플로우를 사용하면 수명 필드에 구성된 기간에 따라 데이터베이스 필드에서 모든 이벤트를 삭제할 수 있습니다. |
-| **Adobe Experience Cloud으로 대상 내보내기**(exportSharedAudience) | Adobe Experience Cloud과 통합 | 이 워크플로우에서는 대상을 공유 대상/세그먼트로 내보냅니다. 이러한 대상자는 사용하고 있는 여러 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다. |
+| **Adobe Experience Cloud로 대상 내보내기**(exportSharedAudience) | Adobe Experience Cloud와 통합 | 이 워크플로우에서는 대상을 공유 대상/세그먼트로 내보냅니다. 이러한 대상자는 사용하고 있는 여러 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다. |
 | **예측**(예측) | 게재 | 이 워크플로우는 임시 캘린더에 저장된 게재를 분석합니다(임시 로그 생성). 기본적으로 매일 오전 1시에 트리거됩니다. |
 | **전체 집계 계산(propositionrcp 큐브)**(agg_nmspropositionrcp_full) | 오퍼 엔진(상호 작용) | 이 워크플로우는 오퍼 제안 큐브에 대한 전체 집계를 업데이트합니다. 기본적으로 매일 오전 6시에 트리거됩니다. 이 집계는 채널, 게재, 마케팅 오퍼 및 날짜 차원을 캡처합니다. 그런 다음 오퍼 제안 큐브를 사용하여 오퍼를 기반으로 보고서를 생성합니다. 큐브에 대한 자세한 내용은 [이 섹션](../../reporting/using/ac-cubes.md)을 참조하세요. |
 | **변환된 연락처 식별**(webAnalyticsFindConverted) | 웹 분석 커넥터 | 이 워크플로우는 리마케팅 캠페인 후 구매를 완료한 사이트 방문자를 색인화합니다. 이 워크플로우에서 복구한 데이터는 리마케팅 효율성 보고서에서 액세스할 수 있습니다(이 페이지 참조). |
-| **Adobe Experience Cloud에서 대상 가져오기**(importSharedAudience) | Adobe Experience Cloud과 통합 | 이 워크플로우를 통해 다른 Adobe Experience Cloud 솔루션의 대상/세그먼트를 Adobe Campaign으로 가져올 수 있습니다. |
+| **Adobe Experience Cloud에서 대상 가져오기**(importSharedAudience) | Adobe Experience Cloud와 통합 | 이 워크플로우를 통해 다양한 Adobe Experience Cloud 솔루션의 대상/세그먼트를 Adobe Campaign으로 가져올 수 있습니다. |
 | **캠페인의 게재에 대한 작업**(deliveryMgt) | 마케팅 캠페인(캠페인) | 이 워크플로우는 승인된 게재를 트리거하고 외부 게재에 대한 서비스 공급자의 사후 처리를 시작합니다. 승인 알림과 미리 알림도 보냅니다. |
 | 서비스 공급자의 **작업**(supplierMgt) | 마케팅 캠페인(캠페인) | 게재가 승인되면 이 워크플로우는 공급자 처리(라우터로의 이메일 전송 및 사후 처리)를 시작합니다. |
 | **LINE V2 액세스 토큰 업데이트**(updateLineV2AccessToken) | LINE 채널 - Campaign v7만 해당 | 이 워크플로우는 액세스 토큰을 LINE V2로 새로 고칩니다. |

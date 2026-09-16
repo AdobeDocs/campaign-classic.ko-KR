@@ -3,7 +3,7 @@ product: campaign
 title: 관리
 description: 관리
 feature: Monitoring
-badge-v7-prem: label="온-프레미스/하이브리드만" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="온-프레미스 및 하이브리드 배포에만 적용"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
@@ -11,20 +11,23 @@ exl-id: 12a255fe-66f9-40ce-b19e-c24322c2e009
 TQID: https://experienceleague.adobe.com/s-FvcKmvrRP7l91MkglXI2ITjrFQYbV5Lj92k6UO7WE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 449
+source-wordcount: '437'
 ht-degree: 5%
-
 ---
-
 # 관리{#administration}
 
 Adobe Campaign 모듈(**web**, **mta**, **wfserver** 등)의 자동 시작 은(는) **nlserver** 서버에서 제공합니다.
@@ -35,13 +38,13 @@ Adobe Campaign을 설치하면 부팅 순서 중에 **nlserver** 서비스가 �
 
 * Windows에서는:
 
-   * **net start nlserver6**
-   * **net stop nlserver6**
+  * **net start nlserver6**
+  * **net stop nlserver6**
 
 * Linux에서(루트로):
 
-   * **/etc/init.d/nlserver6 start**
-   * **/etc/init.d/nlserver6 중지**
+  * **/etc/init.d/nlserver6 start**
+  * **/etc/init.d/nlserver6 중지**
 
 >[!NOTE]
 >

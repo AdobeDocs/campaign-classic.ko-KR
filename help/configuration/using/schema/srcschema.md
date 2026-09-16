@@ -10,18 +10,20 @@ exl-id: bc4329b4-d272-4d32-bdaa-290cb9912af4
 TQID: https://experienceleague.adobe.com/nUdM-iVzh7yI2Z3ZnFh5JK8FDZpmHAR1crzEb9S5xYg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
+    internal-label: Schema extension
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 459
+source-wordcount: '459'
 ht-degree: 1%
-
 ---
-
 # srcschema 요소 {#srcschema--element}
 
 
@@ -71,10 +73,10 @@ created (datetime), createdBy-id (long), desc (string), entitySchema (string), e
 * **라이브러리(부울)**: 엔터티가 아닌 라이브러리로 스키마를 사용합니다. 따라서 &quot;@ref&quot; 및 &quot;@template&quot; 속성 덕분에 다른 스키마에서 이 스키마를 참조할 수 있습니다.
 * **mappingType(문자열)**:
 
-   * &quot;sql&quot;: 데이터베이스 매핑
-   * &quot;textFile&quot;: 텍스트 파일 매핑
-   * &quot;xmlFile&quot;: XML 형식 텍스트 파일 매핑
-   * &quot;binaryFile&quot;: 이진 파일 매핑
+  * &quot;sql&quot;: 데이터베이스 매핑
+  * &quot;textFile&quot;: 텍스트 파일 매핑
+  * &quot;xmlFile&quot;: XML 형식 텍스트 파일 매핑
+  * &quot;binaryFile&quot;: 이진 파일 매핑
 
 * **modifiedBy-id(long)**: 스키마를 변경한 연산자의 식별자와 일치합니다.
 * **이름(문자열)**: 고유한 스키마 이름입니다.

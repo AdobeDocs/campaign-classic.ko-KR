@@ -3,7 +3,7 @@ product: campaign
 title: 파이프라인 모니터링
 description: 파이프라인 모니터링
 feature: Triggers
-badge-v8: label="v8에도 적용됩니다." type="Positive" tooltip="Campaign v8에도 적용됩니다."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 level: Intermediate, Experienced
@@ -11,25 +11,32 @@ exl-id: 84399496-33fd-4936-85e7-32de8503740f
 TQID: https://experienceleague.adobe.com/JfrzR2a-nKDQBMQJlZ8snVIEavWU1FdJ-oPR-K3RaSg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: '492'
 ht-degree: 1%
-
 ---
-
 # 파이프라인 모니터링 {#pipeline-monitoring}
 
 
@@ -50,28 +57,28 @@ ht-degree: 1%
 
 * 소비자: 트리거를 적용하는 클라이언트의 이름입니다. 파이프라인 옵션에서 구성됩니다.
 * http 요청
-   * last-alive-ms-ago: 연결 확인 이후 ms의 시간.
-   * last-failed-cnx-ms-ago: 연결 검사가 마지막으로 실패한 이후 ms 단위 시간입니다.
-   * pipeline-host: 파이프라인 데이터를 가져오는 호스트의 이름입니다.
+  * last-alive-ms-ago: 연결 확인 이후 ms의 시간.
+  * last-failed-cnx-ms-ago: 연결 검사가 마지막으로 실패한 이후 ms 단위 시간입니다.
+  * pipeline-host: 파이프라인 데이터를 가져오는 호스트의 이름입니다.
 * 포인터
-   * current-offsets: 하위 스레드당 파이프라인에 있는 포인터의 값입니다.
-   * last-flush-ms-ago: 트리거 일괄 처리가 검색된 이후의 시간(ms)입니다.
-   * next-offsets-flush: 완료되면 다음 배치까지 대기할 시간입니다.
-   * processed-since-last-flush: 마지막 배치에서 처리된 트리거 수입니다.
+  * current-offsets: 하위 스레드당 파이프라인에 있는 포인터의 값입니다.
+  * last-flush-ms-ago: 트리거 일괄 처리가 검색된 이후의 시간(ms)입니다.
+  * next-offsets-flush: 완료되면 다음 배치까지 대기할 시간입니다.
+  * processed-since-last-flush: 마지막 배치에서 처리된 트리거 수입니다.
 * 라우팅
-   * 트리거: 트리거 목록을 검색했습니다. [!DNL pipelined] 옵션에서 구성됩니다.
+  * 트리거: 트리거 목록을 검색했습니다. [!DNL pipelined] 옵션에서 구성됩니다.
 * 통계
-   * average-pointer-flush-time-ms: 트리거 배치 1개에 대한 평균 처리 시간입니다.
-   * average-trigger-processing-time-ms: 트리거 데이터를 구문 분석하는 데 걸린 평균 시간입니다.
-   * bytes-read: 프로세스가 시작된 후 큐에서 읽은 바이트 수입니다.
-   * current-messages: 대기열에서 가져와서 처리 대기 중인 보류 중인 현재 메시지 수입니다. **이 표시기는 0에 가깝습니다**.
-   * current-retries: 처리에 실패하여 재시도 대기 중인 현재 메시지 수입니다.
-   * 피크 메시지: 프로세스가 시작된 후 처리한 최대 보류 메시지 수입니다.
-   * 포인터 플러시: 시작 이후 처리된 메시지 배치 수입니다.
-   * routing-JS-custom: 사용자 지정 JS에서 처리된 메시지 수입니다.
-   * trigger-discarded: 처리 오류로 인해 너무 많은 다시 시도 후 삭제된 메시지 수입니다.
-   * trigger-processed: 오류 없이 처리된 메시지 수.
-   * trigger-received: 큐에서 받은 메시지 수입니다.
+  * average-pointer-flush-time-ms: 트리거 배치 1개에 대한 평균 처리 시간입니다.
+  * average-trigger-processing-time-ms: 트리거 데이터를 구문 분석하는 데 걸린 평균 시간입니다.
+  * bytes-read: 프로세스가 시작된 후 큐에서 읽은 바이트 수입니다.
+  * current-messages: 대기열에서 가져와서 처리 대기 중인 보류 중인 현재 메시지 수입니다. **이 표시기는 0에 가깝습니다**.
+  * current-retries: 처리에 실패하여 재시도 대기 중인 현재 메시지 수입니다.
+  * 피크 메시지: 프로세스가 시작된 후 처리한 최대 보류 메시지 수입니다.
+  * 포인터 플러시: 시작 이후 처리된 메시지 배치 수입니다.
+  * routing-JS-custom: 사용자 지정 JS에서 처리된 메시지 수입니다.
+  * trigger-discarded: 처리 오류로 인해 너무 많은 다시 시도 후 삭제된 메시지 수입니다.
+  * trigger-processed: 오류 없이 처리된 메시지 수.
+  * trigger-received: 큐에서 받은 메시지 수입니다.
 
 이러한 통계는 처리 스레드별로 표시됩니다.
 
@@ -82,12 +89,12 @@ ht-degree: 1%
 * trigger-received: 큐에서 받은 메시지 수입니다.
 
 * 설정: 구성 파일에 설정됩니다.
-   * flush-pointer-msg-count: 일괄 처리의 메시지 수입니다.
-   * flush-pointer-period-ms: 두 배치 사이의 시간(밀리초)입니다.
-   * processing-threads-JS: 사용자 지정 JS를 실행하는 처리 스레드 수입니다.
-   * 재시도 기간-ms: 처리 오류가 발생할 때 두 재시도 사이의 시간입니다.
-   * retry-validity-duration-ms: 메시지가 삭제될 때까지 처리를 재시도할 때까지의 기간입니다.
-   * 파이프라인 메시지 보고서
+  * flush-pointer-msg-count: 일괄 처리의 메시지 수입니다.
+  * flush-pointer-period-ms: 두 배치 사이의 시간(밀리초)입니다.
+  * processing-threads-JS: 사용자 지정 JS를 실행하는 처리 스레드 수입니다.
+  * 재시도 기간-ms: 처리 오류가 발생할 때 두 재시도 사이의 시간입니다.
+  * retry-validity-duration-ms: 메시지가 삭제될 때까지 처리를 재시도할 때까지의 기간입니다.
+  * 파이프라인 메시지 보고서
 
 ## 파이프라인 메시지 보고서 {#pipeline-report}
 

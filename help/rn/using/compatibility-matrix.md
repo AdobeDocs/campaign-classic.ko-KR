@@ -9,24 +9,29 @@ exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 TQID: https://experienceleague.adobe.com/-ce7KIsnadlLZHVYtwAJs0X7rZqNBbXLJUdt6powbIw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 feature_v2: []
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 912
+workflow-type: tm+mt
+source-wordcount: '912'
 ht-degree: 100%
-
 ---
-
 # 호환성 매트릭스 {#compatibility-matrix}
 
 Adobe Campaign Classic v7 [최신 빌드](../../rn/using/latest-release.md)는 이 페이지의 목록에 있는 모든 시스템 및 도구와 호환됩니다. 이 서드파티 시스템 및 도구의 특정 버전이 각 제작자가 발표한 EOL(End-of-Life)에 도달하면 해당 버전은 더 이상 Adobe Campaign과 호환되지 않으며, 이후 제품 릴리스의 호환성 매트릭스에서 제거됩니다. 문제가 생기지 않도록 호환성 매트릭스에 나와 있는 모든 시스템에 대해 지원 버전을 사용하고 있는지 확인하십시오. 더 이상 사용되지 않는 항목에 대한 자세한 내용은 [이 페이지](../../rn/using/deprecated-features.md)를 참조하십시오.

@@ -8,28 +8,38 @@ exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
 TQID: https://experienceleague.adobe.com/IRAgAQvquHFcfGDRU9Sof8NpSn3khyRRPOdpIRKUOzg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 885
-ht-degree: 2%
-
+source-wordcount: '948'
+ht-degree: 4%
 ---
-
 # 게재 모니터링 시작 {#about-delivery-monitoring}
 
 >[!IMPORTANT]
@@ -81,8 +91,8 @@ Adobe Campaign Classic에서 **게재 가능성 모니터링**&#x200B;은(는) *
 
 * **[!UICONTROL Delivery throughput]** 보고서는 지정된 기간 동안 전체 플랫폼의 처리량에 대한 개요를 제공합니다. 자세한 내용은 [이 섹션](../../reporting/using/global-reports.md#delivery-throughput)을 참조하십시오.
 * 각 게재는 다른 인터넷 서비스 공급자(ISP)에 대한 브로드캐스트 통계 보고서를 생성합니다. 다음 숫자를 포함하여 전달성에 영향을 줄 수 있는 일부 데이터 품질 및 신뢰도 지표를 표시합니다.
-   * **[!UICONTROL Hard bounces]**&#x200B;은(는) 데이터 품질을 나타냅니다. 이 숫자는 2% 미만이어야 합니다.
-   * **[!UICONTROL Soft bounces]**&#x200B;은(는) 평판을 나타냅니다. 이 숫자는 특정 ISP의 경우 10%보다 커서는 안 됩니다.
+  * **[!UICONTROL Hard bounces]**&#x200B;은(는) 데이터 품질을 나타냅니다. 이 숫자는 2% 미만이어야 합니다.
+  * **[!UICONTROL Soft bounces]**&#x200B;은(는) 평판을 나타냅니다. 이 숫자는 특정 ISP의 경우 10%보다 커서는 안 됩니다.
 
   자세한 내용은 [게재 통계](../../reporting/using/global-reports.md#delivery-statistics) 섹션을 참조하십시오.
 

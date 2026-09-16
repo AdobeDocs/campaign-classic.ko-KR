@@ -9,23 +9,29 @@ exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
 TQID: https://experienceleague.adobe.com/VpmfQdFoJ2Lfzetqx-s5MAdFdTTEsHxz2ISL15wNXIo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 177
+source-wordcount: '177'
 ht-degree: 14%
-
 ---
-
 # 대상 매핑 선택{#selecting-a-target-mapping}
 
 기본적으로 게재 템플릿은 **[!UICONTROL Recipients]**&#x200B;을(를) 대상으로 합니다. 따라서 대상 매핑은 **nms:recipient** 테이블의 필드를 사용합니다. Adobe Campaign은 필요에 따라 사용할 게재에 대한 다른 target 매핑을 제공합니다.

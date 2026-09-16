@@ -10,17 +10,17 @@ exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
 TQID: https://experienceleague.adobe.com/TSJbp95dm2tysQBxN7E7JktnHmMJndR1hXVvKkLzRIg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1146
-ht-degree: 18%
-
+source-wordcount: '1169'
+ht-degree: 19%
 ---
-
 # Campaign 클라이언트 콘솔 설치 및 업데이트{#installing-the-client-console}
 
 Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결할 수 있는 리치 클라이언트입니다.
