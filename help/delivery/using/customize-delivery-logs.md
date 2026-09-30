@@ -33,7 +33,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: 72ba334fe01dfcf701438e8550ae14abae7bd323
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 1%
@@ -117,9 +117,9 @@ Campaign UI에서 게재를 모니터링하려면 [Campaign v8 Campaign UI 설�
 
    ![](assets/start-database-update.png)
 
->[!NOTE]
->
->데이터베이스의 물리적 구조 업데이트가 성공적으로 완료되면 수정 사항을 고려하도록 연결을 끊고 다시 연결해야 합니다.
+   >[!NOTE]
+   >
+   >데이터베이스의 물리적 구조 업데이트가 성공적으로 완료되면 수정 사항을 고려하도록 연결을 끊고 다시 연결해야 합니다.
 
 ### 3단계: 수정 사항 유효성 검사
 

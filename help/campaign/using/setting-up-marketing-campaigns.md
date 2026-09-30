@@ -24,7 +24,7 @@ topic_v2:
 subfeature_v2:
   - id: f863efa9-030c-4466-a2b8-a52aea6b722c
     internal-label: Subscription services
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: 72ba334fe01dfcf701438e8550ae14abae7bd323
 workflow-type: tm+mt
 source-wordcount: '1259'
 ht-degree: 5%
@@ -137,15 +137,15 @@ ht-degree: 5%
 
 1. 이 유형의 캠페인에는 템플릿 실행 일정을 만들기 위해 **[!UICONTROL Schedule]** 탭이 추가됩니다.
 
-이 탭에서 이 템플릿을 기반으로 캠페인의 계획된 실행 날짜를 지정합니다.
+   이 탭에서 이 템플릿을 기반으로 캠페인의 계획된 실행 날짜를 지정합니다.
 
-![](assets/s_ncs_user_op_template_recur_planning.png)
+   ![](assets/s_ncs_user_op_template_recur_planning.png)
 
-실행 예약의 구성 모드가 워크플로의 **[!UICONTROL Scheduler]** 개체와 일치합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/architecture.md)을 참조하십시오.
+   실행 예약의 구성 모드가 워크플로의 **[!UICONTROL Scheduler]** 개체와 일치합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/architecture.md)을 참조하십시오.
 
->[!IMPORTANT]
->
->데이터베이스를 오버로드할 수 없도록 실행 일정 구성을 신중하게 수행해야 합니다. 반복 캠페인은 지정된 일정에 따라 템플릿의 워크플로우를 복제합니다. 지나치게 빈번한 워크플로우 생성을 구현하면 데이터베이스 작업이 방해될 수 있습니다.
+   >[!IMPORTANT]
+   >
+   >데이터베이스를 오버로드할 수 없도록 실행 일정 구성을 신중하게 수행해야 합니다. 반복 캠페인은 지정된 일정에 따라 템플릿의 워크플로우를 복제합니다. 지나치게 빈번한 워크플로우 생성을 구현하면 데이터베이스 작업이 방해될 수 있습니다.
 
 1. 표시된 기간 동안 해당 워크플로우를 만들려면 **[!UICONTROL Create in advance for]** 필드에 값을 지정하십시오.
 1. 타겟팅 매개 변수 및 하나 이상의 일반 게재와 함께 이 템플릿을 기반으로 캠페인에 사용할 워크플로우 템플릿을 만듭니다.
