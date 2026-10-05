@@ -5,10 +5,12 @@ description: 워크플로우의 데이터 타겟팅에 대해 자세히 알아�
 feature: Query Editor, Data Management, Workflows
 hide: true
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-TQID: https://experienceleague.adobe.com/K-RxfMfggibrXC1g6kF03-cSuF-acyg085uWwHJyBBQ
+TQID: 'https://experienceleague.adobe.com/K-RxfMfggibrXC1g6kF03-cSuF-acyg085uWwHJyBBQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
     internal-label: Data management
@@ -16,11 +18,13 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-    internal-label: Workflow HeatMap
+    internal-label: HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
     internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
     internal-label: Data Management activities
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
@@ -28,7 +32,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '1931'
 ht-degree: 4%
@@ -155,7 +159,7 @@ ht-degree: 4%
 
 필요한 경우 인바운드 테이블을 조작할 수 있습니다. 다른 차원에서 대상을 제외하려면 이 대상을 기본 대상과 동일한 타겟팅 차원으로 반환해야 합니다. 이렇게 하려면 **[!UICONTROL Add]** 단추를 클릭하고 차원 변경 조건을 지정합니다.
 
-데이터 조정은 식별자, 축 변경 또는 조인을 통해 수행됩니다. [목록의 데이터를 사용하는 경우 &#x200B;](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list) 목록을 읽을 수 있습니다.
+데이터 조정은 식별자, 축 변경 또는 조인을 통해 수행됩니다. [목록의 데이터를 사용하는 경우 ](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list) 목록을 읽을 수 있습니다.
 
 ![](assets/exclusion_edit_add_rule_01.png)
 
@@ -199,9 +203,9 @@ ht-degree: 4%
 
    자세한 내용은 Campaign 버전에 따라 다음 섹션을 참조하십시오.
 
-   ![](assets/do-not-localize/v7.jpeg) [Campaign v7 설명서](../../installation/using/about-fda.md)
+   ![](assets/do-not-localize/v7.jpeg)[Campaign v7 설명서](../../installation/using/about-fda.md)
 
-   ![](assets/do-not-localize/v8.png) [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ko)
+   ![](assets/do-not-localize/v8.png)[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ko)
 
 그런 다음 새 하위 집합을 추가해야 합니다.
 

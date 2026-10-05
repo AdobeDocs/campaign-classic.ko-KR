@@ -5,10 +5,12 @@ description: 새로운 Campaign 게재 기능 서버로 업데이트하는 방�
 feature: Technote, Deliverability
 hide: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-TQID: https://experienceleague.adobe.com/ktbzQKuNSjctRAyH-hbZyYajuoZFJy4Yt01y34X-tnk
+TQID: 'https://experienceleague.adobe.com/ktbzQKuNSjctRAyH-hbZyYajuoZFJy4Yt01y34X-tnk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -16,11 +18,15 @@ feature_v2:
     internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
+  - id: ab81f6c3-9317-564f-af92-6670a8784294
+    internal-label: Technote
+  - id: 63876777-85c3-57e1-a2da-81f02956c63c
+    internal-label: Deliverability
 subfeature_v2:
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
     internal-label: Triggers
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration
+    internal-label: Analytics integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
@@ -30,7 +36,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 4%
@@ -94,10 +100,10 @@ Adobe은 보안 규정 준수를 이유로 오래된 데이터 센터를 폐기�
 온-프레미스 고객은 조직에 Campaign **[!UICONTROL Product profile]**&#x200B;을(를) 사용할 수 있는지도 확인해야 합니다. 이렇게 하려면 아래 단계를 수행합니다.
 
 1. 관리자는 [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}에 연결합니다.
-1. **제품 및 서비스** 섹션에 액세스하여 **Adobe Campaign**&#x200B;이(가) 나열되는지 확인하십시오.
+1. **제품 및 서비스** 섹션에 액세스하여 **Adobe Campaign**이(가) 나열되는지 확인하십시오.
 **Adobe Campaign**&#x200B;이 표시되지 않으면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}에 문의하여 추가하십시오.
-1. **Adobe Campaign**&#x200B;을(를) 클릭하고 조직을 선택합니다.
-   **주의**: 둘 이상의 조직이 있는 경우 올바른 조직을 선택하십시오. [&#x200B; 조직에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ko#ims-org-id){_blank}.
+1. **Adobe Campaign**을(를) 클릭하고 조직을 선택합니다.
+   **주의**: 둘 이상의 조직이 있는 경우 올바른 조직을 선택하십시오. [ 조직에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
 
 1. **[!UICONTROL Product profile]**&#x200B;이(가) 있는지 확인하십시오. 그렇지 않으면 만듭니다. 이 **[!UICONTROL Product profile]**&#x200B;에는 권한이 필요하지 않습니다.
 

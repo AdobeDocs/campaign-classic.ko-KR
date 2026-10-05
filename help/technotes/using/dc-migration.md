@@ -6,15 +6,26 @@ feature: Technote, Upgrade
 role: User
 level: Beginner
 exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
-TQID: https://experienceleague.adobe.com/aoayco5jy1djmO-FNlofnJFE-inpeMOVE1UBVC-pkFc
+TQID: 'https://experienceleague.adobe.com/aoayco5jy1djmO-FNlofnJFE-inpeMOVE1UBVC-pkFc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
+  - id: ab81f6c3-9317-564f-af92-6670a8784294
+    internal-label: Technote
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Analytics integration
+  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,10 +41,7 @@ topic_v2:
     internal-label: Security
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-subfeature_v2:
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '1557'
 ht-degree: 2%
@@ -103,7 +111,7 @@ ht-degree: 2%
 
 이러한 노력을 시작하기 위해 이 마이그레이션이 필요한 계정은 타임라인과 문서에 대한 액세스 권한을 제공하는 Adobe의 이메일 커뮤니케이션을 수신하게 됩니다. 계정이 마이그레이션되도록 예약되었다는 알림이 됩니다.
 
-[새 고객 지원 티켓을 열기](https://experienceleague.adobe.com/ko?support-solution=Campaign#support)하여 마이그레이션을 시작할 수 있습니다. 제목란 &quot;AWS으로 마이그레이션&quot;을 사용합니다.
+[새 고객 지원 티켓을 열기](https://experienceleague.adobe.com/?support-solution=Campaign#support)하여 마이그레이션을 시작할 수 있습니다. 제목란 &quot;AWS으로 마이그레이션&quot;을 사용합니다.
 
 ### 이 마이그레이션은 필수입니까?
 

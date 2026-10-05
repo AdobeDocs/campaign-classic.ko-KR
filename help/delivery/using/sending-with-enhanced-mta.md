@@ -5,10 +5,12 @@ description: Adobe Campaign Enhanced MTA로 이메일 전송 범위 및 특성�
 feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-TQID: https://experienceleague.adobe.com/d6tF02X7K9j9mDk90wyH-3iXm8iBZzMo1da2PPkYHGs
+TQID: 'https://experienceleague.adobe.com/d6tF02X7K9j9mDk90wyH-3iXm8iBZzMo1da2PPkYHGs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -16,6 +18,17 @@ feature_v2:
     internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
     internal-label: Prepare and test messages
+  - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
+    internal-label: Email
+subfeature_v2:
+  - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
+  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
+  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,16 +43,7 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-subfeature_v2:
-  - id: e95a583b-fcfa-4524-8666-46a29c828119
-    internal-label: Email messaging
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-    internal-label: Email design
-  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-    internal-label: A/B testing
-  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
-    internal-label: Manage deliverability
-source-git-commit: c8d13469884744554fd504fed8842dd0c9ab5feb
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '1428'
 ht-degree: 1%
@@ -169,13 +173,13 @@ Campaign 게재의 유효 기간 설정은 **3.5일 이하**(으)로 설정된 �
 ### DKIM 서명
 
 DKIM(DomainKeys Identified Mail) 전자 메일 인증 서명은 Enhanced MTA에서 수행합니다. 기본 Campaign MTA에 의한 DKIM 서명은 Enhanced MTA 업그레이드의 일부로 도메인 관리 테이블 내에서 꺼집니다.
-DKIM에 대한 자세한 내용은 [Adobe 게재 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#authentication)를 참조하세요.
+DKIM에 대한 자세한 내용은 [Adobe 게재 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)를 참조하세요.
 
 ### 게재 성공 보고
 
-이메일 게재 [대시보드](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}의 **[!UICONTROL Summary]** 보기에서 **[!UICONTROL Success]** 백분율은 100%에서 시작되며 게재 [유효 기간](communication-channels.md) 동안 점진적으로 낮아집니다. 이때 소프트 및 하드 바운스가 Enhanced MTA에서 Campaign으로 다시 보고됩니다.
+이메일 게재 [대시보드](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}의 **[!UICONTROL Summary]** 보기에서 **[!UICONTROL Success]** 백분율은 100%에서 시작되며 게재 [유효 기간](communication-channels.md) 동안 점진적으로 낮아집니다. 이때 소프트 및 하드 바운스가 Enhanced MTA에서 Campaign으로 다시 보고됩니다.
 
-실제로 모든 메시지는 Campaign에서 Enhanced MTA로 성공적으로 릴레이되는 즉시 [전송 로그](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}에 **[!UICONTROL Sent]**(으)로 표시됩니다. 해당 메시지에 대한 [바운스](delivery-failures-quarantine.md#delivery-failure-types-and-reasons)가 Enhanced MTA에서 Campaign으로 다시 통신되지 않는 한 또는 통신될 때까지 이 상태는 유지됩니다.
+실제로 모든 메시지는 Campaign에서 Enhanced MTA로 성공적으로 릴레이되는 즉시 [전송 로그](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}에 **[!UICONTROL Sent]**(으)로 표시됩니다. 해당 메시지에 대한 [바운스](delivery-failures-quarantine.md#delivery-failure-types-and-reasons)가 Enhanced MTA에서 Campaign으로 다시 통신되지 않는 한 또는 통신될 때까지 이 상태는 유지됩니다.
 
 하드 바운스 메시지가 Enhanced MTA에서 다시 보고되면 상태가 **[!UICONTROL Sent]**&#x200B;에서 **[!UICONTROL Failed]**(으)로 변경되고 **[!UICONTROL Success]** 비율이 그에 따라 감소합니다.
 

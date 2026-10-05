@@ -5,10 +5,12 @@ description: ACS 커넥터 원칙 및 데이터 주기
 feature: ACS Connector
 hide: true
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-TQID: https://experienceleague.adobe.com/RtHbWmOkqE00JOIy3-JIrZdLMJFE-cyv3LsgF7TWhz8
+TQID: 'https://experienceleague.adobe.com/RtHbWmOkqE00JOIy3-JIrZdLMJFE-cyv3LsgF7TWhz8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
@@ -16,13 +18,15 @@ feature_v2:
     internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration
+    internal-label: Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
-    internal-label: Adobe Experience Manager integration
+    internal-label: Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
-    internal-label: Adobe Experience Platform integration
+    internal-label: Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
-    internal-label: Adobe Target integration
+    internal-label: Target integration
+  - id: bea9e610-36b4-4df2-94bb-0fb6fe46cb50
+    internal-label: ACS Connector
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
@@ -32,7 +36,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%
@@ -107,7 +111,7 @@ ACS 커넥터는 Campaign Standard에서 Campaign v7로 정기적으로 다음 �
 
 ACS 커넥터는 Campaign v7과 Campaign Standard 간의 격리를 동기화합니다.
 
-예를 들어 Campaign v7에서 Campaign Standard으로 복제된 프로필에는 이메일 주소가 포함됩니다. Campaign Standard에 의해 이메일 주소가 격리된 경우, 다음 동기화 중에 데이터가 Campaign v7로 전달됩니다. 격리에 대한 자세한 내용은 [격리 관리](../../delivery/using/delivery-failures-quarantine.md) 및 [Campaign Standard 격리](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=ko)를 참조하십시오.
+예를 들어 Campaign v7에서 Campaign Standard으로 복제된 프로필에는 이메일 주소가 포함됩니다. Campaign Standard에 의해 이메일 주소가 격리된 경우, 다음 동기화 중에 데이터가 Campaign v7로 전달됩니다. 격리에 대한 자세한 내용은 [격리 관리](../../delivery/using/delivery-failures-quarantine.md) 및 [Campaign Standard 격리](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html)를 참조하십시오.
 
 ### 복제된 프로필 사용 {#using-replicated-profiles}
 

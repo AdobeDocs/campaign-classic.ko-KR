@@ -8,16 +8,19 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
-TQID: https://experienceleague.adobe.com/mnkVYu3ibG6yFi1Zd5q1b1-CnzdheG8xvmM8q92-8vQ
+TQID: 'https://experienceleague.adobe.com/mnkVYu3ibG6yFi1Zd5q1b1-CnzdheG8xvmM8q92-8vQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-    internal-label: Data management
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
     internal-label: Profiles and audiences
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
     internal-label: Profiles
@@ -27,7 +30,12 @@ subfeature_v2:
     internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+  - id: d0dbac2b-cbd2-42b3-956e-60af02966728
+    internal-label: Encryption
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 10%
@@ -38,7 +46,7 @@ Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 내보낼 �
 
 다음을 수행할 수 있습니다.
 
-1. [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ko#encrypting-data)을(를) 사용하여 인스턴스에 대한 GPG 키 쌍을 설치합니다.
+1. [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)을(를) 사용하여 인스턴스에 대한 GPG 키 쌍을 설치합니다.
 
    >[!NOTE]
    >
@@ -53,7 +61,7 @@ Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 내보낼 �
 **관련 항목:**
 
 * [처리하기 전에 파일 압축 풀기 또는 암호 해독](../../platform/using/unzip-decrypt.md)
-* [데이터 추출(파일) 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=ko){target="_blank"}
+* [데이터 추출(파일) 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"}
 
 ## 사용 사례: Campaign 컨트롤 패널에 설치된 키를 사용하여 데이터 암호화 및 내보내기 {#use-case-gpg-encrypt}
 
@@ -63,7 +71,7 @@ Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 내보낼 �
 
 이 사용 사례를 수행하는 단계는 다음과 같습니다.
 
-1. GPG 유틸리티를 사용하여 GPG 키 쌍(공개/비공개)을 생성한 다음 공개 키를 Campaign 컨트롤 패널에 설치합니다. 자세한 단계는 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ko#encrypting-data)에서 확인할 수 있습니다.
+1. GPG 유틸리티를 사용하여 GPG 키 쌍(공개/비공개)을 생성한 다음 공개 키를 Campaign 컨트롤 패널에 설치합니다. 자세한 단계는 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)에서 확인할 수 있습니다.
 
 1. Campaign Classic에서 데이터를 내보내고 Campaign 컨트롤 패널을 통해 설치된 개인 키를 사용하여 데이터를 암호화하는 워크플로우를 빌드합니다. 이를 위해 다음과 같은 워크플로우를 빌드합니다.
 
@@ -74,9 +82,9 @@ Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 내보낼 �
    * **[!UICONTROL JavaScript code]** 활동: 추출할 데이터를 암호화합니다.
    * **[!UICONTROL File transfer]** 활동: 외부 소스(이 예에서는 SFTP 서버)로 데이터를 보냅니다.
 
-1. 데이터베이스에서 원하는 데이터를 타겟팅하도록 **[!UICONTROL Query]** 활동을 구성하십시오. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"}를 참조하세요.
+1. 데이터베이스에서 원하는 데이터를 타겟팅하도록 **[!UICONTROL Query]** 활동을 구성하십시오. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}를 참조하세요.
 
-1. **[!UICONTROL Data extraction (file)]** 활동을 연 다음 필요에 따라 구성합니다. 활동을 구성하는 방법에 대한 전체적인 개념은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=ko){target="_blank"}에서 확인할 수 있습니다.
+1. **[!UICONTROL Data extraction (file)]** 활동을 연 다음 필요에 따라 구성합니다. 활동을 구성하는 방법에 대한 전체적인 개념은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"}에서 확인할 수 있습니다.
 
    ![](assets/gpg-data-extraction.png)
 
@@ -98,7 +106,7 @@ Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 내보낼 �
 
    ![](assets/gpg-script.png)
 
-1. **[!UICONTROL File transfer]** 활동을 연 다음 파일을 보낼 SFTP 서버를 지정합니다. 활동을 구성하는 방법에 대한 전체적인 개념은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ko){target="_blank"}에서 확인할 수 있습니다.
+1. **[!UICONTROL File transfer]** 활동을 연 다음 파일을 보낼 SFTP 서버를 지정합니다. 활동을 구성하는 방법에 대한 전체적인 개념은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}에서 확인할 수 있습니다.
 
    ![](assets/gpg-file-transfer.png)
 
@@ -108,6 +116,6 @@ Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 내보낼 �
 
 이 비디오는에서 GPG 키를 사용하여 데이터를 암호화하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/41333?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

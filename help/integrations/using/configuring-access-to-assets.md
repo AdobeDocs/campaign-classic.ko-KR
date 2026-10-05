@@ -8,23 +8,27 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
-TQID: https://experienceleague.adobe.com/JU5h5wyP-DrlIlFFNClNinQYIcqvg13Z93bF4ykliB4
+TQID: 'https://experienceleague.adobe.com/JU5h5wyP-DrlIlFFNClNinQYIcqvg13Z93bF4ykliB4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration
+    internal-label: Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
-    internal-label: Adobe Experience Manager integration
+    internal-label: Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
-    internal-label: Adobe Experience Platform integration
+    internal-label: Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
-    internal-label: Adobe Target integration
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+    internal-label: Target integration
+  - id: 2e08b477-1993-5928-975d-5f4cabe8fbe0
+    internal-label: Asset Sharing
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 1%
@@ -65,7 +69,7 @@ Adobe Campaign과 Adobe Experience Cloud에 연결하려면 IMS(Adobe ID 연결 
 
 >[!CAUTION]
 >
->이 기능은 Adobe Experience Manager 6.4부터 사용 중단되었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/deprecated-removed-features.html?lang=ko#removed-features)
+>이 기능은 Adobe Experience Manager 6.4부터 사용 중단되었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/deprecated-removed-features.html#removed-features)
 
 AEM Assets을 Adobe Campaign과 통합하려면 먼저 Adobe Experience Manager과 Adobe Campaign 간의 통합을 구성해야 합니다. 이 구성은 주로 다음을 필요로 합니다.
 
@@ -76,7 +80,7 @@ AEM Assets을 Adobe Campaign과 통합하려면 먼저 Adobe Experience Manager�
 
 이 통합이 설정되면 Adobe Campaign에서 AEM Assets 라이브러리를 사용하도록 새 게재 템플릿을 구성할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
-1. 새 게재 템플릿을 만들거나 기존 템플릿을 복제합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ko){target="_blank"}를 참조하세요.
+1. 새 게재 템플릿을 만들거나 기존 템플릿을 복제합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}를 참조하세요.
 1. 이 템플릿의 **속성**&#x200B;을(를) 편집합니다.
 1. **[!UICONTROL Advanced]** 탭에서 **[!UICONTROL Content editing mode]**&#x200B;을(를) **DCE**(으)로 설정합니다.
 1. AEM Assets 라이브러리에 액세스하는 데 사용해야 하는 외부 **[!UICONTROL AEM account]**&#x200B;을(를) 선택하십시오.

@@ -8,17 +8,26 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
-feature_v2: []
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration
+    internal-label: Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
-    internal-label: Adobe Experience Manager integration
+    internal-label: Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
-    internal-label: Adobe Experience Platform integration
+    internal-label: Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
-    internal-label: Adobe Target integration
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+    internal-label: Target integration
+  - id: a14877cc-63b1-41d9-bf0b-5f97cadd0417
+    internal-label: Configuration guidelines
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 12%
@@ -33,7 +42,7 @@ ht-degree: 12%
 ## 필수 구성 요소 {#prerequisites}
 
 * Adobe Experience Cloud 조직 이름과 ID가 있어야 합니다. 조직 ID를 찾으려면 [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko){_blank}를 참조하세요.
-* Experience Cloud에서 사용자를 추가해야 합니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko){_blank}를 참조하십시오.
+* Experience Cloud에서 사용자를 추가해야 합니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html){_blank}를 참조하십시오.
 
 >[!NOTE]
 >
@@ -57,7 +66,7 @@ ht-degree: 12%
 
 다음 정보를 입력합니다.
 
-* 사용된 IMS 서버의 연결 정보(ID 및 암호). 이 정보는 Adobe 고객 지원 센터에서 제공합니다. 자세한 내용은 [Adobe Experience Cloud 관리자를 위한 FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html?lang=ko)를 참조하십시오.
+* 사용된 IMS 서버의 연결 정보(ID 및 암호). 이 정보는 Adobe 고객 지원 센터에서 제공합니다. 자세한 내용은 [Adobe Experience Cloud 관리자를 위한 FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html)를 참조하십시오.
 
   **[!UICONTROL Callback server]** 주소는 **https**&#x200B;에 지정해야 합니다. 이 필드는 Adobe Campaign 인스턴스의 액세스 URL에 해당합니다.
 

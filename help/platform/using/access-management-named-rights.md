@@ -6,10 +6,12 @@ feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0
-TQID: https://experienceleague.adobe.com/GApH-ZtovMX--PzISD-Pvafo3pfcbG-OqHzp5kCvcNQ
+TQID: 'https://experienceleague.adobe.com/GApH-ZtovMX--PzISD-Pvafo3pfcbG-OqHzp5kCvcNQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
     internal-label: Data management
@@ -26,6 +28,8 @@ subfeature_v2:
     internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -41,7 +45,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 4%
@@ -58,13 +62,13 @@ ht-degree: 4%
 
   >[!IMPORTANT]
   >
-  >**IMS로 마이그레이션한 후:** Adobe Identity Management System(IMS)로 마이그레이션하면 이름에 &quot;admin&quot;이라는 단어가 포함된 제품 프로필 또는 명명된 권한(예: &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot; 등)이 은(는) Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 자동으로 부여합니다. 이러한 사용자가 Campaign 컨트롤 패널 액세스 권한을 보유하지 않는 한 명명된 권한 또는 역할 이름에서 &quot;관리자&quot;를 사용하지 않는 것이 좋습니다. [IMS 마이그레이션](../../technotes/using/migrate-users-to-ims.md) 및 [Campaign 컨트롤 패널 액세스 관리](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
+  >**IMS로 마이그레이션한 후:** Adobe Identity Management System(IMS)로 마이그레이션하면 이름에 &quot;admin&quot;이라는 단어가 포함된 제품 프로필 또는 명명된 권한(예: &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot; 등)이 은(는) Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 자동으로 부여합니다. 이러한 사용자가 Campaign 컨트롤 패널 액세스 권한을 보유하지 않는 한 명명된 권한 또는 역할 이름에서 &quot;관리자&quot;를 사용하지 않는 것이 좋습니다. [IMS 마이그레이션](../../technotes/using/migrate-users-to-ims.md) 및 [Campaign 컨트롤 패널 액세스 관리](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}에 대해 자세히 알아보세요.
 
 * **[!UICONTROL APPROVAL ADMINISTRATION]**: 워크플로 및 게재 내에서 여러 승인 단계를 설정하여 현재 상태가 할당된 운영자 또는 그룹에 의해 승인되었는지 확인할 수 있습니다. **[!UICONTROL APPROVAL ADMINISTRATION]** 권한이 있는 사용자는 승인 단계를 설정하고 해당 단계를 승인해야 하는 운영자 또는 운영자 그룹을 할당할 수 있습니다.
 
   >[!IMPORTANT]
   >
-  >**IMS로 마이그레이션한 후:** &quot;admin&quot;이라는 단어가 포함된 제품 프로필 또는 명명된 권한(예: &quot;승인 관리자&quot;)이 Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 부여합니다. [IMS 마이그레이션](../../technotes/using/migrate-users-to-ims.md) 및 [Campaign 컨트롤 패널 액세스 관리](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
+  >**IMS로 마이그레이션한 후:** &quot;admin&quot;이라는 단어가 포함된 제품 프로필 또는 명명된 권한(예: &quot;승인 관리자&quot;)이 Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 부여합니다. [IMS 마이그레이션](../../technotes/using/migrate-users-to-ims.md) 및 [Campaign 컨트롤 패널 액세스 관리](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}에 대해 자세히 알아보세요.
 
 * **[!UICONTROL CENTRAL]**: 중앙 관리(분산 마케팅)에 적합합니다.
 
@@ -96,7 +100,7 @@ ht-degree: 4%
 
 * **[!UICONTROL START DELIVERIES]**: 이전에 분석된 게재를 승인할 수 있는 권한. 게재 분석 후 게재는 다양한 승인 단계에서 일시 중지되며 재개하려면 승인을 받아야 합니다. **[!UICONTROL START DELIVERIES]** 권한이 있는 사용자는 게재를 승인할 수 있습니다.
 
-* **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY]**: 작업 테이블을 만들고 채우기 위해 SQL 데이터 관리 활동을 사용하여 고유한 SQL 스크립트를 작성할 수 있는 권한. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-data-management.html?lang=ko){target="_blank"}를 참조하세요.
+* **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY]**: 작업 테이블을 만들고 채우기 위해 SQL 데이터 관리 활동을 사용하여 고유한 SQL 스크립트를 작성할 수 있는 권한. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-data-management.html){target="_blank"}를 참조하세요.
 
 * **[!UICONTROL WORKFLOW]**: 워크플로우를 실행할 수 있는 권한. 이 권한이 없으면 사용자는 워크플로우를 시작, 중지 또는 다시 시작할 수 없습니다.
 
@@ -112,4 +116,4 @@ ht-degree: 4%
 
 Adobe Campaign 액세스 권한 매트릭스는 [여기](/help/platform/using/assets/access-rights-matrix.pdf)에서 사용할 수 있습니다.
 
-[![이미지](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=ko)
+[![이미지](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf)

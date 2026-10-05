@@ -7,23 +7,21 @@ feature: Email, Push
 role: User, Developer
 hide: true
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
-TQID: https://experienceleague.adobe.com/QtOpkl4Sa6PJe5IGz4ffvpQdl2QfKA5J47WBKtIg2j8
+TQID: 'https://experienceleague.adobe.com/QtOpkl4Sa6PJe5IGz4ffvpQdl2QfKA5J47WBKtIg2j8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-    internal-label: Developer
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-    internal-label: Administration
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
     internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
     internal-label: Prepare and test messages
+  - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
+    internal-label: Email
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -33,7 +31,17 @@ subfeature_v2:
     internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
     internal-label: Manage deliverability
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+  - id: a4657621-810c-498b-8a27-7ced9c176dda
+    internal-label: Push notifications
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 3%
@@ -43,7 +51,7 @@ ht-degree: 3%
 팝업에 표시되는 이모티콘 목록은 열거형에 의해 제어되며, 열거형을 통해 목록에 값을 표시하여 사용자가 지정된 필드에 대해 선택할 수 있는 사항을 제한할 수 있습니다.
 이모티콘 목록 순서는 사용자 지정할 수 있으며, 목록에 다른 이모티콘을 추가할 수도 있습니다.
 
-이모티콘은 이메일 및 푸시에만 사용할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko#inserting-emoticons){target="_blank"}를 참조하세요.
+이모티콘은 이메일 및 푸시에만 사용할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#inserting-emoticons){target="_blank"}를 참조하세요.
 
 
 ## 새 이모티콘 추가 {#add-new-emoticon}
@@ -73,7 +81,7 @@ ht-degree: 3%
 
    ![](assets/emoticon_5.png)
 
-1. 구성이 완료되면 **[!UICONTROL Ok]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. 구성이 완료되면 **[!UICONTROL Ok]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**을(를) 클릭합니다.
 새 이모티콘이 스토어에 자동으로 삽입됩니다.
 
 1. 게재의 **[!UICONTROL Insert emoticon]** 창에 표시하려면 새로 만든 이모티콘을 두 번 클릭하여 선택합니다.
@@ -88,7 +96,7 @@ ht-degree: 3%
 
 1. 변경 사항을 고려하려면 연결을 끊고 Adobe Campaign Classic에서 다시 연결합니다. 새 이모티콘이 **[!UICONTROL Insert emoticon]** 팝업 창에 계속 나타나지 않으면 캐시를 지워야 할 수도 있습니다. 자세한 정보는 이 [섹션](../../platform/using/faq-campaign-classic-v7.md#how-do-i-clear-console-cache)을 참조하십시오.
 
-1. 이제 이전 단계에서 구성한 대로 61번째 위치의 **[!UICONTROL Insert emoticon]** 팝업 창에서 게재에서 새 이모티콘을 찾을 수 있습니다. 게재에서 이모티콘을 사용하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko#inserting-emoticons){target="_blank"}를 참조하세요.
+1. 이제 이전 단계에서 구성한 대로 61번째 위치의 **[!UICONTROL Insert emoticon]** 팝업 창에서 게재에서 새 이모티콘을 찾을 수 있습니다. 게재에서 이모티콘을 사용하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#inserting-emoticons){target="_blank"}를 참조하세요.
 
    ![](assets/emoticon_4.png)
 

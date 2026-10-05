@@ -6,18 +6,19 @@ feature: Delivery Templates
 role: User
 hide: true
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
-TQID: https://experienceleague.adobe.com/Pk7P-N4pOwS9bP2HcL4Y6etV3tVK8-80FyZZQUNASwg
+TQID: 'https://experienceleague.adobe.com/Pk7P-N4pOwS9bP2HcL4Y6etV3tVK8-80FyZZQUNASwg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
     internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
     internal-label: Prepare and test messages
+  - id: fc09322a-8f3d-5905-be3d-96adfa806a40
+    internal-label: Delivery Templates
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -27,7 +28,10 @@ subfeature_v2:
     internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
     internal-label: Manage deliverability
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 4%
@@ -45,4 +49,4 @@ ht-degree: 4%
 1. 사전 정의된 게재 템플릿 - Adobe Campaign 관리자는 새 게재 템플릿을 만들 수 있습니다. 운영자(적절한 액세스 권한이 있는 사람)가 사용하거나 서버 프로세스에 의해 자동으로 재사용할 수 있습니다. 예를 들어 이메일 게재 템플릿을 구성할 수 있으며, 사용자가 이 템플릿을 사용하여 게재를 만들 때 텍스트 또는 HTML 콘텐츠를 입력한 다음 게재하면 됩니다. 다른 선택 사항은 관리자가 이미 정의했습니다.
 
 
-[Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/create-templates){target="_blank"}에서 게재 템플릿을 만들고 사용하는 방법을 알아봅니다.
+[Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-templates){target="_blank"}에서 게재 템플릿을 만들고 사용하는 방법을 알아봅니다.

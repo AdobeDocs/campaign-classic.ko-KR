@@ -4,10 +4,12 @@ title: 데이터 모델 모범 사례
 description: Campaign Classic 데이터 모델을 사용하여 작업하는 방법에 대해 알아봅니다
 feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-TQID: https://experienceleague.adobe.com/O5LgBFV-0Mw3nzVyD2mxCCPxjZ07Ss9sS4K5MrdYdns
+TQID: 'https://experienceleague.adobe.com/O5LgBFV-0Mw3nzVyD2mxCCPxjZ07Ss9sS4K5MrdYdns'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
     internal-label: Data management
@@ -43,7 +45,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '4078'
 ht-degree: 1%
@@ -183,7 +185,7 @@ Adobe Campaign에서 기본 키를 autoPK로 사용하여 사용자 지정 테�
 
 기본적으로 사용자 지정 시퀀스의 값은 +1,000에서 +2.1BB입니다. 기술적으로 음수 ID를 활성화하여 4BB의 전체 범위를 가져올 수 있습니다. 이 변수는 주의하여 사용해야 하며 음수에서 양수로 교차하면 ID 하나가 손실됩니다. 레코드 0은 일반적으로 생성된 SQL 쿼리에서 Adobe Campaign에서 무시됩니다.
 
-시퀀스 소모에 대한 자세한 내용은 [이 비디오](https://helpx.adobe.com/kr/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html)를 시청하세요.
+시퀀스 소모에 대한 자세한 내용은 [이 비디오](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html)를 시청하세요.
 
 ## 색인 {#indexes}
 

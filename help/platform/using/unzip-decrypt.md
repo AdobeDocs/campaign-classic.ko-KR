@@ -8,13 +8,19 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-TQID: https://experienceleague.adobe.com/bKs1NqCHtMzrqdNZFCYQuj659V6GOHfD-LKClp3aacE
+TQID: 'https://experienceleague.adobe.com/bKs1NqCHtMzrqdNZFCYQuj659V6GOHfD-LKClp3aacE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
     internal-label: Profiles and audiences
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
     internal-label: Profiles
@@ -24,14 +30,18 @@ subfeature_v2:
     internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: d0dbac2b-cbd2-42b3-956e-60af02966728
+    internal-label: Encryption
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 14%
 ---
 # 파일 압축 풀기 또는 암호 해독 {#unzipping-or-decrypting-a-file-before-processing}
 
-Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 가져올 수 있습니다. [데이터 로드(파일)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ko){target="_blank"}) 활동에서 읽기 전에 압축 풀기 또는 파일 해독 전처리를 정의할 수 있습니다.
+Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 가져올 수 있습니다. [데이터 로드(파일)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}) 활동에서 읽기 전에 압축 풀기 또는 파일 해독 전처리를 정의할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -39,7 +49,7 @@ Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 가져올 �
 
 다음을 수행할 수 있습니다.
 
-1. 파일 암호 해독을 허용하려면 [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ko#decrypting-data)을(를) 사용하여 공개/개인 키 쌍을 생성하십시오.
+1. 파일 암호 해독을 허용하려면 [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)을(를) 사용하여 공개/개인 키 쌍을 생성하십시오.
 
    >[!NOTE]
    >
@@ -64,8 +74,8 @@ Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 가져올 �
 
 **관련 항목:**
 
-* [데이터 로드(파일) 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ko){target="_blank"}.
-* [파일 압축 또는 암호화](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=ko){target="_blank"}.
+* [데이터 로드(파일) 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}.
+* [파일 압축 또는 암호화](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"}.
 
 ## 사용 사례: Campaign 컨트롤 패널에서 생성한 키를 사용하여 암호화된 데이터 가져오기 {#use-case-gpg-decrypt}
 
@@ -75,7 +85,7 @@ Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 가져올 �
 
 이 사용 사례를 수행하는 단계는 다음과 같습니다.
 
-1. Campaign 컨트롤 패널을 사용하여 키 쌍(공개/비공개)을 생성합니다. 자세한 단계는 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ko#decrypting-data)에서 확인할 수 있습니다.
+1. Campaign 컨트롤 패널을 사용하여 키 쌍(공개/비공개)을 생성합니다. 자세한 단계는 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)에서 확인할 수 있습니다.
 
    * 공개 키는 외부 시스템과 공유되며, 외부 시스템은 이 키를 사용하여 Campaign으로 전송할 데이터를 암호화합니다.
    * 개인 키는 Campaign Classic에서 수신 암호화된 데이터를 해독하는 데 사용됩니다.
@@ -95,10 +105,10 @@ Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 가져올 �
 
    ![](assets/gpg_key_transfer.png)
 
-   활동을 구성하는 방법에 대한 전체적인 개념은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ko){target="_blank"}에서 확인할 수 있습니다.
+   활동을 구성하는 방법에 대한 전체적인 개념은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}에서 확인할 수 있습니다.
 
 
-1. **[!UICONTROL Data loading (file)]** 활동을 연 다음 필요에 따라 구성합니다. 활동을 구성하는 방법에 대한 전체적인 개념은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ko){target="_blank"}에서 확인할 수 있습니다.
+1. **[!UICONTROL Data loading (file)]** 활동을 연 다음 필요에 따라 구성합니다. 활동을 구성하는 방법에 대한 전체적인 개념은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}에서 확인할 수 있습니다.
 
    들어오는 데이터를 해독하기 위해 활동에 전처리 단계를 추가합니다. 이렇게 하려면 **[!UICONTROL Pre-process the file]** 옵션을 선택한 다음 **[!UICONTROL Command]** 드롭다운 목록에서 **[!UICONTROL Decrypt]**&#x200B;을(를) 선택합니다.
 
@@ -120,6 +130,6 @@ Adobe Campaign을 사용하면 압축 또는 암호화된 파일을 가져올 �
 
 이 비디오는 GPG 키를 사용하여 데이터를 해독하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/41364?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

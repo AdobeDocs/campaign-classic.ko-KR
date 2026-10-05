@@ -5,7 +5,20 @@ description: Adobe Campaign 구성 업데이트
 feature: Technote, Upgrade
 hide: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: ab81f6c3-9317-564f-af92-6670a8784294
+    internal-label: Technote
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 12%
@@ -42,7 +55,7 @@ ht-degree: 12%
 * Campaign 19.2.4 릴리스
 * Campaign 19.1.8 릴리스
 
-이 섹션[&#128279;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 을(를) 확인하는 방법을 알아보세요.
+이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 [을(를) 확인하는 방법을 알아보세요.
 
 **업데이트 방법**
 
@@ -70,7 +83,7 @@ ht-degree: 12%
 
 ## Adobe Identity Management 시스템(IMS) 업데이트
 
-IMS(Adobe Identity Service)는 **2021년 6월 30일**&#x200B;부터 이전 Internet Explorer 버전의 지원을 중단합니다. [자세히 알아보기](https://helpx.adobe.com/kr/x-productkb/global/update-operating-system-and-browser.html).
+IMS(Adobe Identity Service)는 **2021년 6월 30일**&#x200B;부터 이전 Internet Explorer 버전의 지원을 중단합니다. [자세히 알아보기](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html).
 
 Adobe IMS와의 호환성을 보장하려면 Campaign 클라이언트 콘솔을 업그레이드해야 합니다.
 
@@ -87,7 +100,7 @@ Adobe ID을 통해 [Campaign에 연결](../../integrations/using/about-adobe-id.
 
 이러한 릴리스는 새 연결 프로토콜과 함께 제공됩니다. **2021년 6월 30일** 이후에 Campaign 서버 및 클라이언트 콘솔에서 Campaign에 연결하려면 업그레이드가 필요합니다.
 
-이 섹션[&#128279;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 을(를) 확인하는 방법을 알아보세요.
+이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 [을(를) 확인하는 방법을 알아보세요.
 
 **업데이트 방법**
 
@@ -116,7 +129,7 @@ Adobe은 호스팅 고객으로서 귀하와 함께 인스턴스를 최신 버�
 * Campaign 20.2.5 릴리스
 * Campaign 19.1.8 릴리스
 
-이 섹션[&#128279;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 을(를) 확인하는 방법을 알아보세요.
+이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 [을(를) 확인하는 방법을 알아보세요.
 
 **업데이트 방법**
 
@@ -136,7 +149,7 @@ Adobe은 호스팅 고객으로서 귀하와 함께 인스턴스를 최신 버�
 
 인스턴스가 Campaign 21.1,**보다 이전**&#x200B;버전에서 실행 중이고 레거시 Apple 이진 프로토콜로 푸시 알림을 보내는 경우 HTTP/2 기반 APNs 공급자 API로 업데이트해야 합니다.
 
-이 섹션[&#128279;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 을(를) 확인하는 방법을 알아보세요.
+이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 [을(를) 확인하는 방법을 알아보세요.
 
 **업데이트 방법**
 

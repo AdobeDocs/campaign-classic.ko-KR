@@ -6,23 +6,19 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-TQID: https://experienceleague.adobe.com/d0fFXi4Ma-PwY8vsSBOmvbhRD4631kUoagNXlf4Rmek
+TQID: 'https://experienceleague.adobe.com/d0fFXi4Ma-PwY8vsSBOmvbhRD4631kUoagNXlf4Rmek'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-    internal-label: Personalization
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-    internal-label: Administration
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
     internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
     internal-label: Prepare and test messages
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -32,7 +28,21 @@ subfeature_v2:
     internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
     internal-label: Manage deliverability
-source-git-commit: 709336f05e114ae380d71381bef4b2e7a776b402
+  - id: 2317b1ea-6db4-58c7-851f-717a69c0f5c0
+    internal-label: Inbox Rendering
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
+  - id: aef0b685-fc31-54d4-b831-a87fdb9d69de
+    internal-label: Email Rendering
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 9%
@@ -55,7 +65,7 @@ Adobe Campaign에서 **받은 편지함 렌더링**&#x200B;에 사용할 수 있
 
 >[!NOTE]
 >
->받은 편지함 렌더링은 게재에서 개인화를 테스트하는 데 필요하지 않습니다. Personalization은 **[!UICONTROL Preview]** 및 증명과 같은 Adobe Campaign 도구를 사용하여 확인할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ko){target="_blank"}를 참조하세요.
+>받은 편지함 렌더링은 게재에서 개인화를 테스트하는 데 필요하지 않습니다. Personalization은 **[!UICONTROL Preview]** 및 증명과 같은 Adobe Campaign 도구를 사용하여 확인할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}를 참조하세요.
 
 ## 받은 편지함 렌더링 활성화 {#activating-inbox-rendering}
 
@@ -131,7 +141,7 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰으로 알려
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   증명이 전송되었습니다. 이메일을 보낸 후 몇 분 후에 해당 증명에서 렌더링 축소판에 액세스할 수 있습니다. 증명 전송에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=ko){target="_blank"}를 참조하세요.
+   증명이 전송되었습니다. 이메일을 보낸 후 몇 분 후에 해당 증명에서 렌더링 축소판에 액세스할 수 있습니다. 증명 전송에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}를 참조하세요.
 
 1. 전송되면 게재 목록에 증명이 표시됩니다. 두 번 클릭합니다.
 

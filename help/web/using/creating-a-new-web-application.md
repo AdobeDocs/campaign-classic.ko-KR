@@ -5,10 +5,12 @@ description: 새 웹 애플리케이션 만들기
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps
 exl-id: 5ccf5a21-48aa-4c0d-8cc8-457eb07d9f74
-TQID: https://experienceleague.adobe.com/EvhB-JVuROCW1JnW7d647ijdo9p2AA1f-nCsNayssr4
+TQID: 'https://experienceleague.adobe.com/EvhB-JVuROCW1JnW7d647ijdo9p2AA1f-nCsNayssr4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -28,7 +30,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 20%
@@ -45,7 +47,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->개인 정보가 포함될 수 있는 페이지는 항상 보호하십시오. [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html#privacy)을 참조하세요.
+>개인 정보가 포함될 수 있는 페이지는 항상 보호하십시오. [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/campaign/kb/acc-security.html#privacy)을 참조하세요.
 
 이 템플릿은 웹 응용 프로그램의 유형을 결정합니다. 다음을 만들 수 있습니다.
 

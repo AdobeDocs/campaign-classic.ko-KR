@@ -7,16 +7,17 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: a93bac61-f615-4178-bc12-0f056e48687d
-TQID: https://experienceleague.adobe.com/FamgSPCsG0flxP4eUriwPD3SCzGvvsfnqQXZwiMpnYI
+TQID: 'https://experienceleague.adobe.com/FamgSPCsG0flxP4eUriwPD3SCzGvvsfnqQXZwiMpnYI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-    internal-label: Privacy
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
     internal-label: Profiles and audiences
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
     internal-label: Profiles
@@ -26,7 +27,14 @@ subfeature_v2:
     internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
-source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
+  - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
+    internal-label: Privacy
+  - id: ac72e249-ebbf-4bb6-96c9-596af925419a
+    internal-label: Privacy tools
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 91%
@@ -37,7 +45,7 @@ ht-degree: 91%
 
 Adobe Campaign은 자동 개인 정보 보호 요청 프로세스를 설정할 수 있는 **API**&#x200B;를 제공합니다.
 
-API를 사용하면 일반 개인 정보 보호 프로세스는 인터페이스[&#128279;](privacy-requests-ui.md)를 사용하는 과 동일합니다. 유일한 차이점은 개인 정보 보호 요청을 생성하는 것입니다. Adobe Campaign에서 요청을 생성하는 대신 요청 정보가 포함된 POST가 Campaign으로 전송됩니다. 모든 요청에 대해 새 항목이 **[!UICONTROL Privacy Requests]** 화면에 추가됩니다. 그런 다음 개인 정보 기술 워크플로에서는 인터페이스를 사용하여 추가된 요청과 동일한 방법으로 요청을 처리합니다.
+API를 사용하면 일반 개인 정보 보호 프로세스는 인터페이스](privacy-requests-ui.md)를 사용하는 [과 동일합니다. 유일한 차이점은 개인 정보 보호 요청을 생성하는 것입니다. Adobe Campaign에서 요청을 생성하는 대신 요청 정보가 포함된 POST가 Campaign으로 전송됩니다. 모든 요청에 대해 새 항목이 **[!UICONTROL Privacy Requests]** 화면에 추가됩니다. 그런 다음 개인 정보 기술 워크플로에서는 인터페이스를 사용하여 추가된 요청과 동일한 방법으로 요청을 처리합니다.
 
 API를 사용하여 개인 정보 보호 요청을 제출하는 경우 반환된 데이터를 테스트하려면 첫 번째 DELETE 요청에 대해 **2단계 프로세스**&#x200B;가 활성화된 상태로 두는 것이 좋습니다. 테스트가 완료되면 DELETE 요청 프로세스가 자동으로 실행되도록 2단계 프로세스를 비활성화할 수 있습니다.
 

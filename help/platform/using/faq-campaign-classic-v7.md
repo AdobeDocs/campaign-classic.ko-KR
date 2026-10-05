@@ -7,15 +7,19 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 89356b5a-d99c-43d1-892b-5a1d003e76cc
-TQID: https://experienceleague.adobe.com/FL-v5m07U-OzscVIiQONAa-RMu323ZpTuBrL29ukMc4
+TQID: 'https://experienceleague.adobe.com/FL-v5m07U-OzscVIiQONAa-RMu323ZpTuBrL29ukMc4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
     internal-label: Profiles and audiences
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
     internal-label: Profiles
@@ -25,6 +29,10 @@ subfeature_v2:
     internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
+  - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+    internal-label: Troubleshooting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -36,7 +44,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '1517'
 ht-degree: 6%
@@ -47,7 +55,7 @@ ht-degree: 6%
 >
 >이 FAQ는 Adobe Campaign Classic v7 아키텍처, 배포 모델 및 v7 관련 기능과 관련된 질문을 해결합니다.
 >
->**일반적인 Campaign 질문에 대한 포괄적인 답변**(워크플로우, 게재, 대상, 보고, 개인화 등)은 주제별로 구성된 자세한 답변을 제공하는 [**Campaign v8 포괄적인 FAQ**](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-faq-comprehensive){target="_blank"}를 참조하십시오.
+>**일반적인 Campaign 질문에 대한 포괄적인 답변**(워크플로우, 게재, 대상, 보고, 개인화 등)은 주제별로 구성된 자세한 답변을 제공하는 [**Campaign v8 포괄적인 FAQ**](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-faq-comprehensive){target="_blank"}를 참조하십시오.
 
 ## Campaign Classic v7 아키텍처 및 배포 {#v7-architecture}
 
@@ -65,7 +73,7 @@ Adobe Campaign Classic v7은 다음 세 가지 배포 모델을 제공합니다.
 
 호스팅 모델 및 차이점에 대해 [자세히 알아보려면 여기를 클릭하세요](../../installation/using/hosting-models.md).
 
-**참고:** Campaign v8은 관리 클라우드 서비스로만 사용할 수 있습니다. [Campaign v8에 대해 알아봅니다](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html?lang=ko){target="_blank"}.
+**참고:** Campaign v8은 관리 클라우드 서비스로만 사용할 수 있습니다. [Campaign v8에 대해 알아봅니다](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html){target="_blank"}.
 
 +++
 
@@ -96,7 +104,7 @@ Adobe Managed Services으로 마이그레이션하면 확장성, 보안이 향�
 
 **시작하기:** Adobe 담당자에게 문의하여 환경을 평가하고 Adobe Professional Services을 통한 자세한 마이그레이션 계획을 개발하십시오.
 
-[Managed Services으로 마이그레이션](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605?profile.language=ko){target="_blank"}에 대해 자세히 알아보세요.
+[Managed Services으로 마이그레이션](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605){target="_blank"}에 대해 자세히 알아보세요.
 
 +++
 
@@ -122,7 +130,7 @@ Campaign v8은 Adobe의 전략 플랫폼으로, 대용량 캠페인, 최신 웹 
 
 자세히 알아보기:
 
-* [Campaign v8 개요](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html?lang=ko){target="_blank"}
+* [Campaign v8 개요](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html){target="_blank"}
 * [Campaign Classic v7에서 v8로 전환](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/v7-to-v8.html){target="_blank"}
 * [Campaign v8 포괄적인 FAQ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html){target="_blank"}
 
@@ -280,7 +288,7 @@ Campaign 클라이언트 콘솔 캐시를 지우면 많은 일반적인 표시 �
 
 **커뮤니티 및 지원:**
 
-* [Campaign 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ko){target="_blank"}
+* [Campaign 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
 * [Adobe 지원](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
 
 +++

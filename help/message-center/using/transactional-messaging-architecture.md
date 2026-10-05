@@ -4,16 +4,26 @@ title: 트랜잭션 메시지 아키텍처
 description: 이 섹션에서는 Adobe Campaign Classic 트랜잭션 메시지 아키텍처 및 트랜잭션 메시지를 전달하는 데 사용할 수 있는 채널에 대해 설명합니다
 feature: Transactional Messaging, Message Center, Architecture
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-TQID: https://experienceleague.adobe.com/37Nw8x5SwRELOeJd8BXvE-tcN66Kb1vraEgkkzeaKI8
+TQID: 'https://experienceleague.adobe.com/37Nw8x5SwRELOeJd8BXvE-tcN66Kb1vraEgkkzeaKI8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: 6d358f27-4f3c-5ddf-9159-05192e672ba7
+    internal-label: Message Center
+  - id: bae31391-3416-5fbd-bc4b-2cdcae2922db
+    internal-label: Architecture
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+    internal-label: Transactional messaging
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-feature_v2: []
-subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 1%
@@ -93,7 +103,7 @@ Adobe에서는 트랜잭션 메시지 패키지를 설치하기 전에 **항상 
 >이 절차는 작업 중인 시스템과 동일한 시스템에 설치된 Windows NLServer를 사용하는 고객에게만 적용됩니다.
 
 1. 패키지 가져오기 도우미(**[!UICONTROL Tools > Advanced > Import package... > Adobe Campaign Package]**)를 사용하여 필요한 채널(예: **모바일 채널**)을 설치합니다.
-1. 파일 가져오기(**[!UICONTROL Tools > Advanced > Import package... > File]**)를 수행하고 **datakitnms &#x200B;**`[Your language]`**packagemessageCenter.xml** 파일을 선택하십시오.
+1. 파일 가져오기(**[!UICONTROL Tools > Advanced > Import package... > File]**)를 수행하고 **datakitnms **`[Your language]`**packagemessageCenter.xml** 파일을 선택하십시오.
 1. **[!UICONTROL XML content of the data to import]**&#x200B;에서 추가된 채널에 해당하는 게재 템플릿만 유지합니다. 예를 들어 **Mobile 채널**&#x200B;을 추가한 경우 **[!UICONTROL Mobile transactional message]**(smsTriggerMessage)에 해당하는 **entities** 요소만 유지합니다. **모바일 앱 채널**&#x200B;을 추가한 경우 **iOS 트랜잭션 메시지**(iosTriggerMessage) 및 **Android 트랜잭션 메시지**(androidTriggerMessage)만 유지합니다.
 
    ![](assets/messagecenter_install_channel.png)

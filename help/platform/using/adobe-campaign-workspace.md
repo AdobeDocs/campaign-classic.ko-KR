@@ -6,19 +6,17 @@ feature: Overview
 role: Developer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-TQID: https://experienceleague.adobe.com/eM26PQIIHJHC-7-QqVYaC9uHcvrYIpi87vMB4eTmVlg
+TQID: 'https://experienceleague.adobe.com/eM26PQIIHJHC-7-QqVYaC9uHcvrYIpi87vMB4eTmVlg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
     internal-label: Profiles and audiences
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-    internal-label: Developer
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-    internal-label: Beginner
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
     internal-label: Profiles
@@ -28,7 +26,15 @@ subfeature_v2:
     internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 5%
@@ -79,7 +85,7 @@ Adobe Campaign Classic 인스턴스를 설치할 때 언어가 선택됩니다.
 * 독일어
 * 일본어
 
-Adobe Campaign Classic 인스턴스에 대해 선택한 언어는 날짜 및 시간 형식에 영향을 줄 수 있습니다. 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}를 참조하세요.
+Adobe Campaign Classic 인스턴스에 대해 선택한 언어는 날짜 및 시간 형식에 영향을 줄 수 있습니다. 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}를 참조하세요.
 
 인스턴스를 만드는 방법에 대한 자세한 내용은 이 [페이지](../../installation/using/creating-an-instance-and-logging-on.md)를 참조하세요.
 
@@ -130,7 +136,7 @@ Adobe Campaign 탐색기는 도구 모음 아이콘을 통해 액세스할 수 �
 
 Adobe Campaign 탐색기에 대한 자세한 내용은 **Campaign v8(콘솔) 설명서**&#x200B;에서 다음 페이지를 참조하십시오.
 
-* [Campaign 사용자 인터페이스 개요](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
+* [Campaign 사용자 인터페이스 개요](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
 
 * [Campaign UI 설정](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
 
@@ -145,7 +151,7 @@ Adobe Campaign 탐색기에 대한 자세한 내용은 **Campaign v8(콘솔) 설
 
 Campaign을 검색할 때 데이터가 목록에 표시됩니다. 기본 제공 필터를 적용하여 격리된 주소, 타깃팅되지 않은 수신자 또는 특정 기간 범위 또는 생성 날짜 내의 레코드와 같은 정의된 하위 집합에 빠르게 액세스할 수 있습니다. 또한 사용자 정의 필터를 만들고 나중에 사용할 수 있도록 저장하고 다른 Campaign 사용자와 공유할 수 있습니다.
 
-[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-filters){target=_blank}에서 **필터에 액세스, 디자인 및 공유**&#x200B;하는 방법에 대해 알아봅니다.
+[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}에서 **필터에 액세스, 디자인 및 공유**&#x200B;하는 방법에 대해 알아봅니다.
 
 ### 데이터베이스 쿼리{#about-queries-in-campaign}
 
@@ -165,23 +171,23 @@ Campaign을 검색할 때 데이터가 목록에 표시됩니다. 기본 제공 
 
 >[!TAB 데이터베이스 쿼리]
 
-쿼리를 만드는 단계는 **[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}**&#x200B;에 자세히 설명되어 있습니다.
+쿼리를 만드는 단계는 **[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}**&#x200B;에 자세히 설명되어 있습니다.
 
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}
 
 
 >[!TAB 워크플로우에 쿼리 추가]
 
-**[Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}**&#x200B;에서 워크플로우 컨텍스트에서 쿼리 만들기와 관련된 주요 단계를 알아봅니다
+**[Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}**&#x200B;에서 워크플로우 컨텍스트에서 쿼리 만들기와 관련된 주요 단계를 알아봅니다
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
 
 >[!TAB 필터 조건]
 
-쿼리를 디자인하려면 쿼리 편집기에서 필터링 조건을 선택해야 합니다. 사용 가능한 기능 및 사용 사례는 **[Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}**&#x200B;에 자세히 설명되어 있습니다.
+쿼리를 디자인하려면 쿼리 편집기에서 필터링 조건을 선택해야 합니다. 사용 가능한 기능 및 사용 사례는 **[Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}**&#x200B;에 자세히 설명되어 있습니다.
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
 
 >[!ENDTABS]
 
@@ -197,10 +203,10 @@ Campaign 클라이언트 콘솔에서 데이터가 목록에 표시됩니다. �
 
 정의된 값은 드롭다운 목록에 표시됩니다. 값을 직접 선택하거나 일치하는 항목을 제안하고 완료하는 예측 입력을 사용하여 입력할 수 있습니다. 일부 필드에는 사전 정의된 열거형이 포함되어 있으며, 필요한 경우 추가 열거형을 만들 수 있습니다.
 
-[Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}에서 **열거형으로 작업**&#x200B;하는 방법에 대해 자세히 알아보세요.
+[Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}에서 **열거형으로 작업**&#x200B;하는 방법에 대해 자세히 알아보세요.
 
 ## 튜토리얼 비디오 {#video}
 
 이 비디오에서는 Campaign Classic 작업 영역에 대해 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/39536?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)

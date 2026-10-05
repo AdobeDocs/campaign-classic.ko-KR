@@ -5,10 +5,12 @@ description: Adobe Campaign에서의 추적을 위한 일반 지침 자세히 �
 feature: Monitoring, Email
 role: User
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
-TQID: https://experienceleague.adobe.com/nuJsXyGxw2iGUoxFn03ui0DPPxoZ7qW7Ba26BZn7-eY
+TQID: 'https://experienceleague.adobe.com/nuJsXyGxw2iGUoxFn03ui0DPPxoZ7qW7Ba26BZn7-eY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
@@ -18,6 +20,8 @@ feature_v2:
     internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
     internal-label: Prepare and test messages
+  - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
+    internal-label: Email
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -27,6 +31,8 @@ subfeature_v2:
     internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
     internal-label: Manage deliverability
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -37,7 +43,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 3%
@@ -48,10 +54,10 @@ ht-degree: 3%
 >
 >Campaign Classic v7 및 Campaign v8에 모두 적용되는 **일반 추적 지침**&#x200B;에 대해서는 [Campaign v8 메시지 추적 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"}를 참조하세요.
 >
->* [추적된 링크 구성](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"}
->* [URL 추적 옵션 구성](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"}
->* [개인화된 링크 추적](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/personalized-links){target="_blank"}
->* [추적 로그 액세스](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"}
+>* [추적된 링크 구성](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"}
+>* [URL 추적 옵션 구성](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"}
+>* [개인화된 링크 추적](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/personalized-links){target="_blank"}
+>* [추적 로그 액세스](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"}
 >* [테스트 추적](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/testing-tracking){target="_blank"}
 >* [보고서 추적](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/reporting/delivery-reports#tracking-indicators){target="_blank"}
 >
@@ -112,7 +118,7 @@ Campaign에는 두 가지 유형의 추적이 있습니다.
 
 다음 문제 해결 팁은 **Campaign Classic v7 하이브리드/온-프레미스 배포**&#x200B;에 적용됩니다. 일부 정보는 Campaign v8 온-프레미스 배포에도 적용될 수 있습니다. Campaign v8 관리 클라우드 서비스의 경우 Adobe 담당자에게 지원을 요청하십시오.
 
-Campaign v8의 기본 추적 문제 해결 단계는 Campaign v8 설명서의 [추적 문제 해결](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracking-logs#troubleshooting){target="_blank"}을 참조하십시오.
+Campaign v8의 기본 추적 문제 해결 단계는 Campaign v8 설명서의 [추적 문제 해결](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking-logs#troubleshooting){target="_blank"}을 참조하십시오.
 
 ### 기본 검사 {#basic-checks}
 

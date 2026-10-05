@@ -8,17 +8,21 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
-TQID: https://experienceleague.adobe.com/54ErpGUWBV076fqJIdr2ZsJlKVicuFf4xNgk-qDvvmQ
+TQID: 'https://experienceleague.adobe.com/54ErpGUWBV076fqJIdr2ZsJlKVicuFf4xNgk-qDvvmQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-feature_v2: []
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
     internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
     internal-label: Monitoring guidelines
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 7%
@@ -31,7 +35,7 @@ ht-degree: 7%
 
 **nlserver** 명령은 전체 Adobe Campaign 응용 프로그램에 대한 입력 명령입니다.
 
-이 명령에는 다음 구문이 있습니다. **nlserver &#x200B;**`<command>`**&#x200B;**`<arguments>`**&#x200B;**
+이 명령에는 다음 구문이 있습니다. **nlserver **`<command>`****`<arguments>`****
 
 **`<command>`** 매개 변수는 모듈에 해당합니다.
 

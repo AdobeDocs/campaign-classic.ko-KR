@@ -5,13 +5,12 @@ description: '활용 사례: 필드 대체 구성'
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
-TQID: https://experienceleague.adobe.com/IJ-Kie5L-2m-7GDoYregJNglQRPeWsCnXaWjUcDT6TU
+TQID: 'https://experienceleague.adobe.com/IJ-Kie5L-2m-7GDoYregJNglQRPeWsCnXaWjUcDT6TU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-    internal-label: Personalization
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
     internal-label: Campaign Email Designer
@@ -22,7 +21,12 @@ subfeature_v2:
     internal-label: Email messaging
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+  - id: f852274f-9e3d-5d58-ae48-3ec2fd81baf0
+    internal-label: Seed Address
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 5%
@@ -48,7 +52,7 @@ ht-degree: 5%
 
 ## 게재 만들기 {#step-1---creating-a-delivery}
 
-게재를 만드는 단계는 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html?lang=ko){target="_blank"}에 자세히 설명되어 있습니다.
+게재를 만드는 단계는 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html){target="_blank"}에 자세히 설명되어 있습니다.
 
 이 예에서는 게재 관리자가 뉴스레터를 생성했습니다.
 

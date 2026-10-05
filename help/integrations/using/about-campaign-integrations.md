@@ -9,29 +9,37 @@ content-type: reference
 level: Intermediate, Experienced
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
-TQID: https://experienceleague.adobe.com/PUFoWjnwax8oHM3dH-FJDH7b26p4qNBMaJfm2qWGNz0
+TQID: 'https://experienceleague.adobe.com/PUFoWjnwax8oHM3dH-FJDH7b26p4qNBMaJfm2qWGNz0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration
+    internal-label: Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
-    internal-label: Adobe Experience Manager integration
+    internal-label: Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
-    internal-label: Adobe Experience Platform integration
+    internal-label: Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
-    internal-label: Adobe Target integration
+    internal-label: Target integration
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 5%
@@ -40,7 +48,7 @@ ht-degree: 5%
 
 Adobe Experience Cloud는 강력한 솔루션 및 앱의 공통 세트를 사용하여 공통 데이터 플랫폼에 구축된 포괄적인 최고급 통합 솔루션 세트입니다.
 
-[이 페이지](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/integrations){_blank}에서 Adobe Campaign과 Adobe Experience Cloud 솔루션 간에 사용할 수 있는 기능 통합에 대해 자세히 알아보십시오.
+[이 페이지](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/integrations){_blank}에서 Adobe Campaign과 Adobe Experience Cloud 솔루션 간에 사용할 수 있는 기능 통합에 대해 자세히 알아보십시오.
 
 Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 앱 서비스와 관련 문서의 전체 목록은 [이 섹션](#experience-cloud-integrations)에서 확인할 수 있습니다.
 
@@ -53,17 +61,17 @@ Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 앱 서비스와 관�
 
 여러 솔루션을 Adobe Experience Cloud에 연결할 수 있습니다. **조직**&#x200B;은(는) 관리자가 그룹과 사용자를 구성하고 Adobe Experience Cloud에서 SSO(Single Sign-On)를 제어할 수 있도록 하는 고객 엔터티입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 역할을 합니다. 대부분의 경우 조직은 회사의 이름입니다. 하지만 회사는 여러 조직을 가질 수 있습니다.
 
-조직 관리 및 Adobe Experience Cloud 계정 연결에 대한 자세한 내용은 [Adobe Experience Cloud 도움말 포털](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations){_blank}을 참조하세요.
+조직 관리 및 Adobe Experience Cloud 계정 연결에 대한 자세한 내용은 [Adobe Experience Cloud 도움말 포털](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations){_blank}을 참조하세요.
 
 ## ID 및 쿠키 관리 {#id-and-cookies}
 
-Adobe Campaign을 설치하거나 기존 설치를 Adobe Experience Cloud와 통합할 때 [Adobe Experience Cloud ID 서비스](https://experienceleague.adobe.com/ko/docs/id-service/using/home){_blank}가 활성화됩니다. 이 서비스는 추적 기능으로 Adobe Campaign이 가장 먼저 사용하는 영구 쿠키를 대체합니다.
+Adobe Campaign을 설치하거나 기존 설치를 Adobe Experience Cloud와 통합할 때 [Adobe Experience Cloud ID 서비스](https://experienceleague.adobe.com/en/docs/id-service/using/home){_blank}가 활성화됩니다. 이 서비스는 추적 기능으로 Adobe Campaign이 가장 먼저 사용하는 영구 쿠키를 대체합니다.
 
 Adobe Experience Cloud ID 서비스(ID 서비스)는 Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다.
 
 추적 로그를 생성하는 수신자에게 고유 방문자 ID가 할당됩니다. 이 ID는 **[!UICONTROL nms:trackingLogRcp]** 테이블의 **[!UICONTROL Requester UUID (@sourceID)]** 필드에 저장됩니다. **방문자 ID 서비스가 구현되기 전에 있었던 수신자의 추적 데이터를 더 이상 사용할 수 없습니다**.
 
-그러면 동일한 CNAME을 사용하는 다른 Adobe Experience Cloud 솔루션에서 ID를 인식합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/id-service/using/reference/analytics-reference/cname){_blank}.
+그러면 동일한 CNAME을 사용하는 다른 Adobe Experience Cloud 솔루션에서 ID를 인식합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/id-service/using/reference/analytics-reference/cname){_blank}.
 
 ## Experience Cloud 통합 {#experience-cloud-integrations}
 

@@ -5,20 +5,28 @@ description: Adobe Campaign - Apache 버전 보안 업데이트
 feature: Technote, Upgrade
 hide: true
 exl-id: 3d2f5d1d-4b31-4cc6-b6fb-13589856e00c
-TQID: https://experienceleague.adobe.com/iTszfeybA8gTvgRCpTAXNEKQIbTeGHUDx-1plG77NUo
+TQID: 'https://experienceleague.adobe.com/iTszfeybA8gTvgRCpTAXNEKQIbTeGHUDx-1plG77NUo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
+  - id: ab81f6c3-9317-564f-af92-6670a8784294
+    internal-label: Technote
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Analytics integration
+  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-subfeature_v2:
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 0%
@@ -36,7 +44,7 @@ Adobe Campaign 팀은 이 Apache 취약성을 완화하고 인스턴스 환경�
 
 이 업그레이드는 정상 업무 시간 외에 자동으로 실행되므로 Campaign 서비스를 중단 없이 계속 사용할 수 있습니다.
 
-Adobe에서 비프로덕션 인스턴스를 먼저 업그레이드한 다음 프로덕션 인스턴스를 업그레이드합니다. Adobe이 소유한 자동 업그레이드 프로세스이므로 사용자 측에서 필요한 작업이 없습니다. 그러나 문제가 발생하는 경우 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=Campaign#support)에 문의하십시오.
+Adobe에서 비프로덕션 인스턴스를 먼저 업그레이드한 다음 프로덕션 인스턴스를 업그레이드합니다. Adobe이 소유한 자동 업그레이드 프로세스이므로 사용자 측에서 필요한 작업이 없습니다. 그러나 문제가 발생하는 경우 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support)에 문의하십시오.
 
 
 >[!NOTE]
@@ -67,7 +75,7 @@ Adobe에서 비프로덕션 인스턴스를 먼저 업그레이드한 다음 프
 
 * **고객이 실행해야 하는 유효성 검사는 무엇입니까?**
 
-  이 보안 업그레이드에 특정 테스트가 필요하지 않습니다. 문제가 발생하는 경우 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=Campaign#support)에 문의하십시오.
+  이 보안 업그레이드에 특정 테스트가 필요하지 않습니다. 문제가 발생하는 경우 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support)에 문의하십시오.
 
 
 * **예약된 보안 업그레이드 슬롯에 대한 날짜/시간 변경을 요청할 수 있습니까?**
@@ -75,4 +83,4 @@ Adobe에서 비프로덕션 인스턴스를 먼저 업그레이드한 다음 프
   이는 보안 수정 사항이므로 기존 일정에 적응하는 것이 좋습니다.
 
 
-기타 문의 사항은 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=Campaign#support)에 문의하십시오.
+기타 문의 사항은 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support)에 문의하십시오.

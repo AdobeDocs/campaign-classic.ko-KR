@@ -6,10 +6,12 @@ role: User
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 hide: true
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-TQID: https://experienceleague.adobe.com/1fiKNiq5Q2q4cN-wCMLSnZdW-IDA-bw6KwJGhSJYZkY
+TQID: 'https://experienceleague.adobe.com/1fiKNiq5Q2q4cN-wCMLSnZdW-IDA-bw6KwJGhSJYZkY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -17,6 +19,13 @@ feature_v2:
     internal-label: Administration
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
     internal-label: Profiles and audiences
+  - id: 8d5d4b17-44c6-5e7b-891c-b4277613013d
+    internal-label: Resource Management
+  - id: 237333ba-90fa-554c-bc8d-2047e6173477
+    internal-label: Cross Channel Orchestration
+subfeature_v2:
+  - id: f863efa9-030c-4466-a2b8-a52aea6b722c
+    internal-label: Subscription services
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -25,10 +34,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-subfeature_v2:
-  - id: f863efa9-030c-4466-a2b8-a52aea6b722c
-    internal-label: Subscription services
-source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '1511'
 ht-degree: 1%
@@ -39,7 +45,7 @@ ht-degree: 1%
 
 캠페인에서 생성되면 게재는 이 캠페인에 연결되고 캠페인 수준에서 통합됩니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#create-email-video)
+![](assets/do-not-localize/how-to-video.png)[비디오에서 이 기능 살펴보기](#create-email-video)
 
 ## 게재 만들기 {#creating-deliveries}
 
@@ -136,7 +142,7 @@ ht-degree: 1%
 
 ## 관련 문서 관리 {#managing-associated-documents}
 
-보고서, 사진, 웹 페이지, 다이어그램 등 다양한 문서를 캠페인과 연결할 수 있습니다. 이러한 문서는 모든 형식(Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF 등)으로 제공됩니다. 문서를 [&#x200B; 캠페인과 연결하는 방법은 이 섹션](../../campaign/using/marketing-campaign-assets.md)에서 알아보세요.
+보고서, 사진, 웹 페이지, 다이어그램 등 다양한 문서를 캠페인과 연결할 수 있습니다. 이러한 문서는 모든 형식(Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF 등)으로 제공됩니다. 문서를 [ 캠페인과 연결하는 방법은 이 섹션](../../campaign/using/marketing-campaign-assets.md)에서 알아보세요.
 
 >[!IMPORTANT]
 >
@@ -257,7 +263,7 @@ ht-degree: 1%
 
 이 비디오에서는 Adobe Campaign에서 캠페인 및 이메일을 만드는 방법을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31872?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
 

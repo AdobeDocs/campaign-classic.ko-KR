@@ -7,16 +7,26 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
-TQID: https://experienceleague.adobe.com/o9F-VJpel6oYo-4N8nd25xW69ZAN-RpH9TaZ2jJeq-k
+TQID: 'https://experienceleague.adobe.com/o9F-VJpel6oYo-4N8nd25xW69ZAN-RpH9TaZ2jJeq-k'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
+  - id: ee3dfd63-9a21-4961-9f24-ea3385284a21
+    internal-label: Federated Data Access
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-feature_v2: []
-subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 1%
@@ -37,13 +47,13 @@ ht-degree: 1%
 
 여러 Adobe Campaign 워크플로우 활동에서 외부 데이터베이스에 저장된 데이터를 사용할 수 있습니다.
 
-* **외부 데이터 필터링** - 쿼리 활동을 통해 외부 데이터를 추가하고 정의된 필터 구성에서 사용할 수 있습니다. 자세한 내용은 [Campaign v8 설명서]https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ko){target="_blank"}를 참조하세요.
+* **외부 데이터 필터링** - 쿼리 활동을 통해 외부 데이터를 추가하고 정의된 필터 구성에서 사용할 수 있습니다. 자세한 내용은 [Campaign v8 설명서]https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html){target="_blank"}를 참조하세요.
 
-* **하위 집합 만들기** - 분할 활동을 사용하면 하위 집합을 만들 수 있습니다. 외부 데이터를 사용하여 사용할 필터링 기준을 정의할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ko){target="_blank"}를 참조하세요.
+* **하위 집합 만들기** - 분할 활동을 사용하면 하위 집합을 만들 수 있습니다. 외부 데이터를 사용하여 사용할 필터링 기준을 정의할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"}를 참조하세요.
 
-* **외부 데이터베이스 로드** - RDBMS(데이터 로드) 활동에서 외부 데이터를 사용할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-rdbms.html?lang=ko){target="_blank"}를 참조하세요.
+* **외부 데이터베이스 로드** - RDBMS(데이터 로드) 활동에서 외부 데이터를 사용할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-rdbms.html){target="_blank"}를 참조하세요.
 
-* **정보 및 링크 추가** - 데이터 보강 활동을 통해 워크플로우의 작업 테이블에 데이터를 추가하고 외부 테이블에 대한 링크를 추가할 수 있습니다. 이 컨텍스트에서는 외부 데이터베이스의 데이터를 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ko){target="_blank"}를 참조하세요.
+* **정보 및 링크 추가** - 데이터 보강 활동을 통해 워크플로우의 작업 테이블에 데이터를 추가하고 외부 테이블에 대한 링크를 추가할 수 있습니다. 이 컨텍스트에서는 외부 데이터베이스의 데이터를 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}를 참조하세요.
 
 ## 가드레일 및 제한 사항 {#fda-limitations}
 

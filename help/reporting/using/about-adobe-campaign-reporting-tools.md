@@ -5,22 +5,19 @@ description: 빌드-인 또는 사용자 정의 보고서에서 캠페인의 성
 feature: Reporting, Monitoring
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
-TQID: https://experienceleague.adobe.com/4D-bCeMQakNjr7OXhiZ1u0Sfp5MZWwzZzHtykBfFzZ8
+TQID: 'https://experienceleague.adobe.com/4D-bCeMQakNjr7OXhiZ1u0Sfp5MZWwzZzHtykBfFzZ8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-    internal-label: Dynamic Reporting
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-    internal-label: Implementation
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-    internal-label: Data management
+    internal-label: Dynamic reporting
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
     internal-label: Reporting interface
@@ -28,7 +25,16 @@ subfeature_v2:
     internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
     internal-label: Cubes and multidimensional analysis
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 19%
@@ -41,7 +47,7 @@ ht-degree: 19%
 
 Adobe Campaign은 전문 보고 도구가 아닙니다. Adobe Campaign에서 생성된 보고서는 주로 집계된 데이터를 볼 수 있도록 해줍니다. 데이터 분석 및 표시 전용인 Adobe Campaign 보고서는 데이터베이스 내보내기를 위해 설계되지 않았습니다.
 
-Adobe Campaign 데이터베이스에서 데이터를 내보내려면 워크플로우를 만들고 데이터 내보내기 활동을 사용해야 합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html?lang=ko){target="_blank"}를 참조하십시오.
+Adobe Campaign 데이터베이스에서 데이터를 내보내려면 워크플로우를 만들고 데이터 내보내기 활동을 사용해야 합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"}를 참조하십시오.
 
 Adobe Campaign은 다음과 같은 몇 가지 보고 도구를 제공합니다.
 

@@ -2,10 +2,12 @@
 title: IMS 마이그레이션 후 Campaign 인터페이스 업데이트
 description: Adobe Identity Management 시스템 마이그레이션 인터페이스가 미치는 영향을 활성화하는 방법에 대해 알아봅니다
 exl-id: 8b13fe4d-d8d3-43b3-bbe4-c8c5574f585a
-TQID: https://experienceleague.adobe.com/RkgX2M0BnO5pjgI7oAp7NlycXY551manwFHhcA1LMjw
+TQID: 'https://experienceleague.adobe.com/RkgX2M0BnO5pjgI7oAp7NlycXY551manwFHhcA1LMjw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
@@ -13,13 +15,13 @@ subfeature_v2:
   - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
     internal-label: Troubleshooting
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration
+    internal-label: Analytics integration
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
@@ -109,7 +111,7 @@ IMS(Adobe Identify Management System)로의 마이그레이션을 완료하려�
 
 따라서 이러한 작업은 클라이언트 콘솔에서 비활성화되었습니다.
 
-운영자의 관리는 Adobe Admin Console에서 중앙 집중화되며, 이제 다음 작업이 이 콘솔을 통해 독점적으로 관리됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}에서 사용자를 만들고 권한을 할당하는 방법에 대해 알아봅니다.
+운영자의 관리는 Adobe Admin Console에서 중앙 집중화되며, 이제 다음 작업이 이 콘솔을 통해 독점적으로 관리됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}에서 사용자를 만들고 권한을 할당하는 방법에 대해 알아봅니다.
 
 ### 사용할 수 없는 옵션 {#unavailable-migration}
 

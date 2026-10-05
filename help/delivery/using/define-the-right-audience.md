@@ -7,18 +7,19 @@ feature: Audiences
 role: User
 hide: true
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
-TQID: https://experienceleague.adobe.com/bA0bwsoCEGaC0-R64f08j8vLzGFDI7hhN3rFYnKdRWA
+TQID: 'https://experienceleague.adobe.com/bA0bwsoCEGaC0-R64f08j8vLzGFDI7hhN3rFYnKdRWA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
     internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
     internal-label: Prepare and test messages
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -28,7 +29,12 @@ subfeature_v2:
     internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
     internal-label: Manage deliverability
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 7%
@@ -51,13 +57,13 @@ Campaign Classic에서 기본적으로 게재 템플릿은 **수신자**&#x200B;
 
 예를 들어 소셜 네트워크를 통해 프로필이 수집된 방문자 또는 정보 서비스를 구독한 방문자에게 를 제공할 수 있습니다.
 
-이러한 매핑은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ko){target="_blank"}에 나와 있습니다.
+이러한 매핑은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}에 나와 있습니다.
 
 사용자 지정된 대상 매핑을 만들고 사용할 수도 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../configuration/using/target-mapping.md)을 참조하십시오.
 
 ## 외부 수신자 {#external-recipients}
 
-데이터베이스에 저장되지 않고 외부 파일에 저장된 수신자에게 전달할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#selecting-external-recipients){target="_blank"}를 참조하세요.
+데이터베이스에 저장되지 않고 외부 파일에 저장된 수신자에게 전달할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#selecting-external-recipients){target="_blank"}를 참조하세요.
 
 ## 구독자에게 보내기 {#send-to-subscribers}
 
@@ -68,7 +74,7 @@ Campaign Classic에서 기본적으로 게재 템플릿은 **수신자**&#x200B;
 
 게재를 테스트하려면 주요 타겟에게 보내기 전에 증명을 사용하십시오.
 
-적절한 증명 수신자를 선택해야 합니다. 메시지 양식 및 내용의 유효성을 검사하기 때문입니다. 증명 수신자를 정의하는 단계는 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#select-the-proof-target){target="_blank"}에 나와 있습니다.
+적절한 증명 수신자를 선택해야 합니다. 메시지 양식 및 내용의 유효성을 검사하기 때문입니다. 증명 수신자를 정의하는 단계는 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#select-the-proof-target){target="_blank"}에 나와 있습니다.
 
 시드 주소는 기본 대상으로 보내기 전에 게재를 테스트하기 위해 정의된 대상 기준과 일치하지 않는 수신자를 타겟팅하는 데 사용됩니다. [이 섹션](about-seed-addresses.md)에 표시됩니다.
 

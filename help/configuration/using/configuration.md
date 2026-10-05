@@ -5,10 +5,12 @@ feature: Application Settings
 description: Campaign 탐색기 탐색 트리를 구성하는 방법 알아보기
 role: Developer
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
-TQID: https://experienceleague.adobe.com/K2bUgEoNSbVfc5hs1O-V36yNrjUFKQEO00-clOYc5u4
+TQID: 'https://experienceleague.adobe.com/K2bUgEoNSbVfc5hs1O-V36yNrjUFKQEO00-clOYc5u4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
     internal-label: APIs
@@ -17,13 +19,15 @@ feature_v2:
 subfeature_v2:
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 1%
@@ -32,7 +36,7 @@ ht-degree: 1%
 
 전문가 사용자는 탐색기 트리에 폴더를 추가하고 사용자 정의할 수 있습니다.
 
-[Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}에서 Campaign 사용자 인터페이스에 대해 자세히 알아보세요.
+[Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}에서 Campaign 사용자 인터페이스에 대해 자세히 알아보세요.
 
 탐색 목록에 사용되는 폴더 유형은 **xtk:navtree** 스키마의 문법을 따르는 XML 문서에 설명되어 있습니다.
 

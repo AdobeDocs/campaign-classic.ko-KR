@@ -5,10 +5,12 @@ description: Adobe API 계정을 만드는 방법에 대해 자세히 알아보�
 role: User, Admin
 level: Intermediate, Experienced
 exl-id: 5d830ea0-a0a3-4b35-8dc4-e955380431fb
-TQID: https://experienceleague.adobe.com/cZi5LdGtTnT8wMtI8nmg3Ue5LPfTkn3OKFZkxxdg3F0
+TQID: 'https://experienceleague.adobe.com/cZi5LdGtTnT8wMtI8nmg3Ue5LPfTkn3OKFZkxxdg3F0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
     internal-label: APIs
@@ -16,13 +18,13 @@ feature_v2:
     internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration
+    internal-label: Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
-    internal-label: Adobe Experience Manager integration
+    internal-label: Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
-    internal-label: Adobe Experience Platform integration
+    internal-label: Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
-    internal-label: Adobe Target integration
+    internal-label: Target integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -31,7 +33,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 6%
@@ -54,7 +58,7 @@ JWT(서비스 계정) 자격 증명은 Adobe에서 더 이상 사용되지 않�
 
 1. Adobe Developer 콘솔에 액세스하고 조직의 **시스템 관리자**(으)로 로그인합니다.
 
-   관리자 역할에 대한 자세한 내용은 이 [페이지](https://helpx.adobe.com/kr/enterprise/using/admin-roles.html)를 참조하세요.
+   관리자 역할에 대한 자세한 내용은 이 [페이지](https://helpx.adobe.com/enterprise/using/admin-roles.html)를 참조하세요.
 
 1. **[!UICONTROL Create a new project]**&#x200B;을(를) 클릭합니다.
 
@@ -72,7 +76,7 @@ JWT(서비스 계정) 자격 증명은 Adobe에서 더 이상 사용되지 않�
 
 1. 프로젝트에 대한 **[!UICONTROL Product profile]** 링크를 선택하십시오.
 
-   필요한 경우 새 폴더를 만들 수 있습니다. [자세히 알아보기](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html)
+   필요한 경우 새 폴더를 만들 수 있습니다. [자세히 알아보기](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)
 
 1. **[!UICONTROL Save Configured API]**&#x200B;을(를) 클릭합니다.
 
