@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '884'
 ht-degree: 4%
 ---
 # 추가 구성 {#mc-additional-configurations}
@@ -39,7 +39,7 @@ ht-degree: 4%
 
 ## 임계값 모니터링 {#monitoring-thresholds}
 
-**메시지 센터 서비스 수준** 및 **메시지 센터 처리 시간** 보고서에 표시되는 표시기의 경고 임계값(주황색) 및 경고 임계값(빨간색)을 구성할 수 있습니다([트랜잭션 메시지 보고서 액세스](../../message-center/using/about-transactional-messaging-reports.md) 참조).
+**메시지 센터 서비스 수준** 및 **메시지 센터 처리 시간** 보고서에 표시되는 표시기의 경고 임계값(주황색) 및 경고 임계값(빨간색)을 구성할 수 있습니다([트랜잭션 메시지 보고서 액세스](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"}(Campaign v8 설명서).
 
 이렇게 하려면 아래 단계를 수행합니다.
 

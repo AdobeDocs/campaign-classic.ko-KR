@@ -19,6 +19,10 @@ feature_v2:
     internal-label: Security and privacy
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
     internal-label: Profiles and audiences
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
     internal-label: Profiles
@@ -37,7 +41,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 80%
@@ -198,7 +202,7 @@ Regulations such as the General Data Protection Regulation (GDPR) state that com
 
 Adobe Campaign lets you track the emails sent and the behavior of your delivery recipients: opening, clicks on links, unsubscriptions, etc. For more on this, see [About message tracking](../../delivery/using/about-message-tracking.md).
 
-To do this, add tracked links to your messages in order to measure the impact of your delivery and recipient behavior in the [Tracking](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#tracking-logs){target="_blank"} tab of the delivery dashboard. Learn how to [configure tracked links in Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracked-links){target="_blank"}. Tracking data is interpreted in the [Tracking indicators](../../reporting/using/delivery-reports.md#tracking-indicators) report.
+To do this, add tracked links to your messages in order to measure the impact of your delivery and recipient behavior in the [Tracking](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#tracking-logs){target="_blank"} tab of the delivery dashboard. Learn how to [configure tracked links in Campaign v8](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/tracked-links){target="_blank"}. Tracking data is interpreted in the [Tracking indicators](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports#tracking-indicators){target="_blank"} (Campaign v8 documentation) report.
 
 ### Web tracking {#web-tracking}
 

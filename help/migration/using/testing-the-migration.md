@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '739'
 ht-degree: 0%
 ---
 # 마이그레이션 테스트{#testing-the-migration}
@@ -176,13 +176,13 @@ nlserver.exe config -postupgrade -check -instance:<instance-name>
    <td> 오류<br /> </td> 
    <td> 이 유형의 배포는 더 이상 지원되지 않습니다. Office 365 및 온-프레미스 Microsoft CRM 커넥터 배포 유형은 이제 사용되지 않습니다. 
    </br>외부 계정에서 더 이상 사용되지 않는 배포 형식 중 하나를 사용하는 경우 이 외부 계정을 삭제한 다음 <b>postupgrade</b> 명령을 실행해야 합니다. 
-   </br>웹 API 배포를 변경하려면 <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">웹 응용 프로그램</a>.<br />을 참조하세요. </td>
+   </br>웹 API 배포를 변경하려면 <a href="../../platform/using/crm-connectors.md">웹 응용 프로그램</a>.<br />을 참조하세요. </td>
   </tr> 
   <tr> 
    <td> CRM v1(mscrmWorkflow/sfdcWorkflow)<br /> </td> 
    <td> PU-0008<br /> </td> 
    <td> 오류<br /> </td> 
-   <td> Microsoft CRM, Salesforce, Oracle CRM On Demand 작업 활동을 더 이상 사용할 수 없습니다. Adobe Campaign과 CRM 시스템 간의 데이터 동기화를 구성하려면 <a href="../../workflow/using/crm-connector.md" target="_blank">CRM 커넥터</a> 타깃팅 활동을 사용해야 합니다.<br /> </td>
+   <td> Microsoft CRM, Salesforce, Oracle CRM On Demand 작업 활동을 더 이상 사용할 수 없습니다. Adobe Campaign과 CRM 시스템 간의 데이터 동기화를 구성하려면 <a href="https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector" target="_blank">CRM 커넥터</a>(Campaign v8 설명서) 타깃팅 활동을 사용해야 합니다.<br /> </td>
   </tr> 
  </tbody> 
 </table>

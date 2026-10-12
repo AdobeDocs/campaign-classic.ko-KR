@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Profiles and audiences
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
     internal-label: Profiles
@@ -30,7 +32,7 @@ subfeature_v2:
     internal-label: Access management
   - id: e8d937ec-9046-41b5-834b-d22a624e0d37
     internal-label: Campaign overview
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
 workflow-type: tm+mt
 source-wordcount: '3000'
 ht-degree: 0%
@@ -314,7 +316,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
      >[!NOTE]
      >
-     >연산자의 기본 폴더는 연산자가 쓰기 액세스 권한을 갖는 첫 번째 폴더입니다. [폴더 액세스 관리](../../platform/using/access-management-folders.md)에서 자세히 알아보세요.
+     >연산자의 기본 폴더는 연산자가 쓰기 액세스 권한을 갖는 첫 번째 폴더입니다. [폴더 액세스 관리](access-management.md)에서 자세히 알아보세요.
 
      가져오기 폴더를 선택하려면 **[!UICONTROL Folder]** 필드 오른쪽에 있는 화살표를 클릭하고 관련 폴더를 선택합니다. **[!UICONTROL Select link]** 아이콘을 사용하여 새 창에 트리를 표시하거나 새 폴더를 만들 수도 있습니다.
 

@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-TQID: https://experienceleague.adobe.com/ivE0WuT3rnpH0ro0cBHgJXxXRiRELmJLwHrYVi-Md6Y
+TQID: 'https://experienceleague.adobe.com/ivE0WuT3rnpH0ro0cBHgJXxXRiRELmJLwHrYVi-Md6Y'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
@@ -16,6 +16,19 @@ feature_v2:
     internal-label: Integrations
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
     internal-label: Profiles and audiences
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
+  - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
@@ -27,16 +40,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-subfeature_v2:
-  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
-    internal-label: Profiles
-  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
-    internal-label: Audiences
-  - id: f5293531-9312-4099-bfa3-9e67df6a8750
-    internal-label: Query Editor
-  - id: efa38731-2723-4334-8d8b-a778af834835
-    internal-label: Access management
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: 4bc1e76d129c6a6aa15b7e3915232043bd6f4286
 workflow-type: tm+mt
 source-wordcount: '2105'
 ht-degree: 2%
@@ -47,7 +51,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->워크플로우, 게재, 대상자 등에 대한 일반적인 Campaign 질문에 대한 포괄적인 답변은 [Campaign v8 포괄적인 FAQ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html){target="_blank"}를 참조하십시오.
+>워크플로우, 게재, 대상자 등에 대한 일반적인 Campaign 질문에 대한 포괄적인 답변은 [Campaign v8 포괄적인 FAQ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html?lang=ko){target="_blank"}를 참조하십시오.
 
 Adobe Campaign은 정기적으로 업데이트됩니다. 게시된 [릴리스 정보](../../rn/using/rn-overview.md)에 익숙하다면 새로운 기능, 개선 사항 및 수정 사항이 포함된 평균 2/3부 버전이 매년 릴리스된다는 사실을 알고 있을 것입니다. 또한, 누적 수정 사항만 있는 빌드를 주기적으로 릴리스합니다. 이러한 정기적인 업데이트 케이던스는 고객의 최신 정보를 최대한 활용하고, 환경을 완벽하게 안전하게 유지하며, 당사 제품에 대한 고객의 경험을 확실하게 개선하는 것을 목표로 합니다.
 
@@ -208,7 +212,7 @@ Adobe은 시스템의 최적의 성능, 가용성 및 보안을 보장하기 위
 
 빌드 업그레이드 후 문제가 발생하면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오. 고객 지원 센터에서 빌드 날짜를 예약하고 빌드 업그레이드 관련 티켓을 엽니다.
 
-[Campaign Classic 도움말 및 지원 옵션](../../support.md)에서 자세히 알아보기
+[Campaign Classic 도움말 및 지원 옵션](../../campaign-classic-home.md)에서 자세히 알아보기
 
 ## 빌드 업그레이드 검사 목록 {#check-list}
 
@@ -248,5 +252,5 @@ API를 통해 새 레코드를 삽입할 수 있는지 확인합니다.
 
 * [빌드 업그레이드 수행](../../production/using/build-upgrade.md)
 * [Campaign Classic 릴리스 노트](../../rn/using/rn-overview.md)
-* [Campaign Classic에 대한 도움말 및 지원 옵션](../../support.md)
+* [Campaign Classic에 대한 도움말 및 지원 옵션](../../campaign-classic-home.md)
 * [연간 업그레이드 프로그램](../../rn/using/rn-overview.md#yearly-upgrade)

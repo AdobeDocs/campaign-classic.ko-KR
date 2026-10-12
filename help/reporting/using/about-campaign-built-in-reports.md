@@ -28,9 +28,9 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '322'
 ht-degree: 0%
 ---
 # Campaign 기본 제공 보고서 정보{#about-campaign-built-in-reports}
@@ -49,34 +49,14 @@ Adobe Campaign은 고객 콘솔 또는 인터넷 브라우저를 통해 액세�
 
 다음 유형의 보고서를 사용할 수 있습니다.
 
-* 전체 플랫폼에 대한 보고서는 [글로벌 보고서](../../reporting/using/global-reports.md)를 참조하십시오.
-* 게재 보고서는 [게재 보고서](../../reporting/using/delivery-reports.md)를 참조하십시오.
-* 누적 보고서입니다. [누적 보고서](../../reporting/using/cumulative-reports.md)를 참조하십시오.
+* 전체 플랫폼에 대한 보고서는 [글로벌 보고서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports){target="_blank"}를 참조하십시오(Campaign v8 설명서).
+* 게재 보고서는 [게재 보고서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"}를 참조하십시오(Campaign v8 설명서).
+* 누적 보고서는 [누적 보고서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"}를 참조하십시오(Campaign v8 설명서).
 
 클라이언트 콘솔 홈 페이지, 보고서 대시보드 또는 게재 목록에서 보고서에 액세스할 수 있습니다. 보고서의 표시 모드는 그 컨텍스트에 따라 다릅니다. 기본 보고서 목록은 홈페이지에서 사용할 수 있으며, 이를 통해 게재 데이터에 빠르게 액세스할 수 있습니다. 이 목록은 필요에 따라 변경할 수 있습니다. 자세한 내용은 [이 섹션](../../reporting/using/about-reports-creation-in-campaign.md)을 참조하세요.
 
-Campaign 기본 제공 보고서에 액세스하려면:
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 기본 제공 보고서에 액세스하고 사용하는 방법을 알아보려면 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}를 참조하세요.
 
-1. Adobe Campaign 인터페이스의 **[!UICONTROL Reports]** 탭을 선택합니다.
-
-   ![](assets/reporting_access_from_home.png)
-
-1. 검색 필드를 사용하여 표시된 보고서를 필터링합니다.
-
-1. 그런 다음 표시할 보고서를 클릭합니다.
-
-   ![](assets/reporting_edit_a_report.png)
-
-1. 화면 상단의 **[!UICONTROL Back]** 링크를 클릭하면 보고서 목록으로 돌아갑니다.
-
-   ![](assets/reporting_back_button.png)
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}
 
 편집 중인 보고서에 대해 가능한 다른 작업은 [이 페이지](../../reporting/using/actions-on-reports.md)에 자세히 설명되어 있습니다.
-
-캠페인 또는 게재와 관련된 보고서는 해당 대시보드를 통해 액세스할 수 있습니다.
-
-![](assets/reporting_on_a_delivery.png)
-
-원칙은 아래와 같이 목록, 서비스, 오퍼 등에 대해 동일합니다.
-
-![](assets/reporting_on_an_offer.png)

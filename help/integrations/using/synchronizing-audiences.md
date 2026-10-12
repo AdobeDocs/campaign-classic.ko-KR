@@ -42,9 +42,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1178'
 ht-degree: 1%
 ---
 # 대상자 동기화{#synchronizing-audiences}
@@ -89,7 +89,7 @@ Campaign Standard에서 복제되지 않는 추가 데이터를 포함하는 복
 
    ![](assets/acs_connect_query1.png)
 
-1. 쿼리 내에서 데이터를 더 추가합니다. 자세한 내용은 [데이터 추가](../../workflow/using/query.md#adding-data) 섹션을 참조하십시오.
+1. 쿼리 내에서 데이터를 더 추가합니다. 자세한 내용은 [데이터 추가](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/targeting-activities/query#adding-data){target="_blank"}(Campaign v8 설명서) 섹션을 참조하십시오.
 
    이 예에서는 합계를 추가하여 한 해에 받은 게재 수를 계산하는 방법을 보여 줍니다.
 

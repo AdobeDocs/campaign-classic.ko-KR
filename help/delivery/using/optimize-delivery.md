@@ -20,6 +20,8 @@ feature_v2:
     internal-label: Prepare and test messages
   - id: 63876777-85c3-57e1-a2da-81f02956c63c
     internal-label: Deliverability
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -39,9 +41,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '766'
 ht-degree: 9%
 ---
 # 게재 최적화 {#optimize-delivery}
@@ -60,7 +62,7 @@ ht-degree: 9%
 
   **팁** - 이를 방지하려면 최상의 성능을 보장하도록 팀의 다른 구성원과 게재 일정을 조정하십시오.
 
-* 워크플로우 실행: 플랫폼 성능 문제를 방지하려면 워크플로우를 모니터링해야 합니다. 이 문서의 [에 나열된 지침](../../workflow/using/workflow-best-practices.md#execution-and-performance)을(를) 따르십시오.
+* 워크플로우 실행: 플랫폼 성능 문제를 방지하려면 워크플로우를 모니터링해야 합니다. 이 문서[&#128279;](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/introduction/workflow-best-practices#execution-and-performance){target="_blank"}에 나열된 지침을 따르십시오(Campaign v8 설명서).
 
 * 자격이 있는 경우 [Campaign Campaign 컨트롤 패널 기능](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko)을 활용하여 [성능 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ko) 기능을 사용하여 플랫폼을 모니터링할 수 있습니다.
 

@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 12%
+source-wordcount: '946'
+ht-degree: 11%
 ---
 # Android용 구성 단계
 
@@ -195,7 +195,7 @@ HTTP v1 API 버전을 구성하려면 아래 단계를 수행합니다.
 
 앱의 매개 변수를 Campaign 데이터베이스에 저장하려면 **appsubscriptionRcp**&#x200B;을(를) 확장하여 새 추가 필드를 정의해야 합니다. 이러한 필드는 예를 들어 개인화에 사용됩니다. 방법은 다음과 같습니다.
 
-1. **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** 스키마의 확장을 만들고 새 필드를 정의합니다. [이 페이지](../../configuration/using/about-schema-edition.md)에서 스키마 확장에 대해 자세히 알아보기
+1. **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** 스키마의 확장을 만들고 새 필드를 정의합니다. [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}에서 스키마 확장에 대해 자세히 알아보기(Campaign v8 설명서)
 
 1. **[!UICONTROL Subscription parameters]** 탭에서 매핑을 정의합니다.
 

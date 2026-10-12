@@ -23,6 +23,8 @@ feature_v2:
     internal-label: Prepare and test messages
   - id: 63876777-85c3-57e1-a2da-81f02956c63c
     internal-label: Deliverability
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -46,10 +48,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 86e1df82ff7fe9142b0ba75b697d3262e8d7a9d5
 workflow-type: tm+mt
-source-wordcount: '1658'
-ht-degree: 9%
+source-wordcount: '1685'
+ht-degree: 8%
 ---
 # 게재 유효성 검사 {#validating-the-delivery}
 
@@ -230,7 +232,7 @@ ht-degree: 9%
 
 이 노드에서 새 규칙을 만들고 새 유형화를 정의할 수 있습니다. 그러나 이러한 작업은 JavaScript을 아는 전문가 사용자용으로 예약되어 있습니다.
 
-유형화 규칙에 대한 자세한 내용은 [이 페이지](../../campaign-opt/using/about-campaign-typologies.md)를 참조하세요.
+유형화 규칙에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}(Campaign v8 설명서)를 참조하세요.
 
 현재 유형화를 편집하려면 **[!UICONTROL Typology]** 필드 오른쪽에 있는 **[!UICONTROL Edit link]** 아이콘을 클릭합니다.
 
@@ -242,7 +244,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->**[!UICONTROL Arbitration]** 유형 유형화는 판매 압력 관리 프레임워크 내에서 사용됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../mrm/using/about-marketing-resource-management.md)을 참조하십시오.
+>**[!UICONTROL Arbitration]** 유형 유형화는 판매 압력 관리 프레임워크 내에서 사용됩니다. 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/automation/mrm/about-marketing-resource-management){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 ## 승인 모드 변경 {#changing-the-approval-mode}
 

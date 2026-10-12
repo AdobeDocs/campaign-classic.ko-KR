@@ -8,9 +8,9 @@ user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: df5d87ca4fccb927f770957ec1c00157d14e95dc
+source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
 workflow-type: tm+mt
-source-wordcount: '2717'
+source-wordcount: '1953'
 ht-degree: 100%
 ---
 
@@ -29,7 +29,6 @@ ht-degree: 100%
     + {hide-from-toc}[[!DNL Gold Standard - HIDDEN]](rn/using/gold-standard.md)
   + [사용되지 않는 기능](rn/using/deprecated-features.md)
   + [호환성 매트릭스](rn/using/compatibility-matrix.md)
-  + {hide-from-toc}[설명서 업데이트 - 숨김](rn/using/documentation-updates.md)
 + 시작 {#getting-started}
   + [Adobe Campaign Classic 시작](platform/using/about-adobe-campaign-classic.md)
   + [Adobe Campaign 시작](platform/using/launching-adobe-campaign.md)
@@ -52,11 +51,7 @@ ht-degree: 100%
     + [개인 정보 판매 옵트아웃](platform/using/privacy-requests-ccpa.md)
   + 프로필 관리 {#profile-management}
     + [프로필 정보](platform/using/about-profiles.md)
-    + {hide-from-toc}[프로필 편집 - 숨김](platform/using/editing-a-profile.md)
-    + {hide-from-toc}[프로필 추가 - 숨김](platform/using/adding-profiles.md)
-    + {hide-from-toc}[프로필 관리 - 숨김](platform/using/managing-profiles.md)
     + [데이터 업데이트](platform/using/updating-data.md)
-    + {hide-from-toc}[프로필 가져오기 및 내보내기 - 숨김](platform/using/exporting-and-importing-profiles.md)
     + [목록 만들기 및 관리](platform/using/creating-and-managing-lists.md)
   + 데이터 가져오기 및 내보내기 {#importing-and-exporting-data}
     + [데이터 가져오기 및 내보내기 시작](platform/using/get-started-data-import-export.md)
@@ -76,9 +71,7 @@ ht-degree: 100%
       + [가져오기 및 내보내기 모범 사례](platform/using/import-export-best-practices.md)
       + [SFTP 서버 모범 사례 및 문제 해결](platform/using/sftp-server-usage.md)
   + 데이터 필터링 {#filtering-data}
-    + {hide-from-toc}[필터링 옵션 - 숨김](platform/using/filtering-options.md)
     + {hide-from-toc}[필터 만들기 - 숨김](platform/using/creating-filters.md)
-    + {hide-from-toc}[사용 사례 - 숨김](platform/using/use-case.md)
   + {hide-from-toc}[쿼리 만드는 단계 - 숨김](platform/using/steps-to-create-a-query.md)
   + {hide-from-toc}[필터 조건 정의 - 숨김](platform/using/defining-filter-conditions.md)
   + 권한 {#permissions}
@@ -87,13 +80,8 @@ ht-degree: 100%
       + [운영자 만들기 및 관리](platform/using/access-management-operators.md)
       + [그룹 만들기 및 관리](platform/using/access-management-groups.md)
     + [명명된 권한을 사용하여 사용 권한 설정](platform/using/access-management-named-rights.md)
-    + {hide-from-toc}[폴더 액세스 관리 - 숨김](platform/using/access-management-folders.md)
   + CRM 커넥터 {#connectors}
     + [CRM 커넥터 시작](platform/using/crm-connectors.md)
-    + {hide-from-toc}[Microsoft Dynamics 365와 연결](platform/using/crm-ms-dynamics.md)
-    + {hide-from-toc}[Salesforce.com과 연결](platform/using/crm-sfdc.md)
-    + {hide-from-toc}[CRM과 데이터 동기화](platform/using/crm-data-sync.md)
-  + {hide-from-toc}[도움말 및 지원 옵션 - 숨김](support.md)
 + 메시지 만들기 및 보내기 {#sending-messages}
   + [메시지 시작](delivery/using/communication-channels.md)
   + {hide-from-toc}[게재 설정 - 숨김](delivery/using/delivery-settings.md)
@@ -208,42 +196,6 @@ ht-degree: 100%
     + [콘텐츠 강화](delivery/using/enriching-content.md)
     + [워크플로를 통한 자동화](delivery/using/automating-via-workflows.md)
 + [마케팅 캠페인 오케스트레이션](campaign/using/about-marketing-campaigns.md)
-+ 마케팅 캠페인 오케스트레이션 {#orchestrating-campaigns}
-  + {hide-from-toc}[캠페인 최적화 정보 - 숨김](campaign-opt/using/about-campaign-optimization.md)
-  + 마케팅 캠페인 정보 {#about-marketing-campaigns}
-    + {hide-from-toc}[마케팅 캠페인 디자인 - 숨김](campaign/using/designing-marketing-campaigns.md)
-    + {hide-from-toc}[마케팅 캠페인 액세스 - 숨김](campaign/using/accessing-marketing-campaigns.md)
-  + 캠페인 오케스트레이션 {#orchestrate-campaigns}
-    + {hide-from-toc}[마케팅 캠페인 시작 - 숨김](campaign/using/setting-up-marketing-campaigns.md)
-    + {hide-from-toc}[템플릿 만들기 및 구성 - 숨김](campaign/using/marketing-campaign-templates.md)
-    + {hide-from-toc}[게재 추가 - 숨김](campaign/using/marketing-campaign-deliveries.md)
-    + {hide-from-toc}[대상자 선택 - 숨김](campaign/using/marketing-campaign-target.md)
-    + {hide-from-toc}[문서 및 자산 관리 - 숨김](campaign/using/marketing-campaign-assets.md)
-    + {hide-from-toc}[승인 설정 및 관리 - 숨김](campaign/using/marketing-campaign-approval.md)
-    + {hide-from-toc}[캠페인 모니터링 - 숨김](campaign/using/marketing-campaign-monitoring.md)
-    + {hide-from-toc}[공급자, 스톡, 예산 - 숨김](campaign/using/providers-stocks-and-budgets.md)
-  + 캠페인 최적화 {#campaign-optimization}
-    + {hide-from-toc}[캠페인 유형 분류 정보 - 숨김](campaign-opt/using/about-campaign-typologies.md)
-    + {hide-from-toc}[부담 규칙 - 숨김](campaign-opt/using/pressure-rules.md)
-    + {hide-from-toc}[일관성 규칙 - 숨김](campaign-opt/using/consistency-rules.md)
-    + {hide-from-toc}[제어 규칙 - 숨김](campaign-opt/using/control-rules.md)
-    + {hide-from-toc}[필터링 규칙 - 숨김](campaign-opt/using/filtering-rules.md)
-    + {hide-from-toc}[규칙 적용 - 숨김](campaign-opt/using/applying-rules.md)
-    + {hide-from-toc}[캠페인 시뮬레이션 - 숨김](campaign-opt/using/campaign-simulations.md)
-+ 마케팅 리소스 관리 {#mrm}
-  + {hide-from-toc}[마케팅 리소스 관리 정보 - 숨김](mrm/using/about-marketing-resource-management.md)
-  + {hide-from-toc}[작업 만들기 및 관리 - 숨김](mrm/using/creating-and-managing-tasks.md)
-  + {hide-from-toc}[비용 제어 - 숨김](mrm/using/controlling-costs.md)
-  + {hide-from-toc}[마케팅 리소스 관리 - 숨김](mrm/using/managing-marketing-resources.md)
-  + {hide-from-toc}[토론 포럼 - 숨김](mrm/using/discussion-forums.md)
-+ 분산 마케팅 {#distributed-marketing}
-  + {hide-from-toc}[분산 마케팅 정보 - 숨김](distributed/using/about-distributed-marketing.md)
-  + {hide-from-toc}[로컬 캠페인 만들기 - 숨김](distributed/using/creating-a-local-campaign.md)
-  + {hide-from-toc}[공동 작업 캠페인 만들기 - 숨김](distributed/using/creating-a-collaborative-campaign.md)
-  + {hide-from-toc}[캠페인 패키지 게시 - 숨김](distributed/using/publishing-the-campaign-package.md)
-  + {hide-from-toc}[캠페인 액세스 - 숨김](distributed/using/accessing-campaigns.md)
-  + {hide-from-toc}[캠페인 추적 - 숨김](distributed/using/tracking-a-campaign.md)
-  + {hide-from-toc}[사용 사례 - 숨김](distributed/using/examples.md)
 + 응답 매니저 {#response-manager}
   + [응답 관리자 시작](response/using/about-response-manager.md)
   + [구성](response/using/configuration.md)
@@ -252,18 +204,12 @@ ht-degree: 100%
   + [가설 추적](response/using/hypothesis-tracking.md)
 + 보고서 디자인 및 공유 {#reporting}
   + 보고 시작 {#reporting-in-adobe-campaign}
-    + [보고 도구](reporting/using/about-adobe-campaign-reporting-tools.md)
     + [보고 모범 사례](reporting/using/best-practices.md)
   + 기본 제공 보고서 액세스 {#accessing-built-in-reports}
     + [기본 제공 보고서 정보](reporting/using/about-campaign-built-in-reports.md)
     + [보고서 목록](reporting/using/list-of-reports.md)
   + 게재 보고서{#reports-on-deliveries}
-    + [게재 보고서 정보](reporting/using/reports-on-deliveries.md)
-    + [전반적 보고서](reporting/using/global-reports.md)
-    + [게재 보고서](reporting/using/delivery-reports.md)
-    + [누적 보고서](reporting/using/cumulative-reports.md)
     + [지표 계산](reporting/using/indicator-calculation.md)
-    + [사람 및 수신자](reporting/using/person-people-recipients.md)
   + 모집단 분석 {#analyzing-populations}
     + [기술 분석의 정의](reporting/using/about-descriptive-analysis.md)
     + [첫 번째 기술 분석 보고서 만들기](reporting/using/using-the-descriptive-analysis-wizard.md)
@@ -363,143 +309,10 @@ ht-degree: 100%
     + {hide-from-toc}[웹 애플리케이션 동기화 - 숨김](integrations/using/synchronizing-web-applications.md)
     + {hide-from-toc}[ [!DNL ACS Connector] 문제 해결 - 숨김](integrations/using/troubleshooting-the-acs-connector.md)
 + [워크플로로 자동화](workflow/using/about-workflows.md)
-+ 워크플로로 자동화 {#automating-with-workflows}
-  + 워크플로 시작 {#introduction}
-    + {hide-from-toc}[활동 정보 - 숨김](workflow/using/about-activities.md)
-    + {hide-from-toc}[워크플로 작성 - 숨김](workflow/using/building-a-workflow.md)
-    + {hide-from-toc}[대상 데이터 - 숨김](workflow/using/targeting-data.md)
-    + {hide-from-toc}[워크플로 데이터 사용 - 숨김](workflow/using/how-to-use-workflow-data.md)
-    + {hide-from-toc}[워크플로 모범 사례 - 숨김](workflow/using/workflow-best-practices.md)
-  + 워크플로 실행 {#executing-a-workflow}
-    + {hide-from-toc}[워크플로 시작 - 숨김](workflow/using/starting-a-workflow.md)
-    + {hide-from-toc}[워크플로 라이프사이클 - 숨김](workflow/using/workflow-life-cycle.md)
-    + {hide-from-toc}[데이터 라이프사이클 - 숨김](workflow/using/data-life-cycle.md)
-    + {hide-from-toc}[승인 정의 - 숨김](workflow/using/defining-approvals.md)
-    + {hide-from-toc}[아키텍처 - 숨김](workflow/using/architecture.md)
-  + 타겟팅 활동 {#targeting-activities}
-    + {hide-from-toc}[타기팅 활동 정보 - 숨김](workflow/using/about-targeting-activities.md)
-    + {hide-from-toc}[쿼리 - 숨김](workflow/using/query.md)
-    + {hide-from-toc}[증분 쿼리 - 숨김](workflow/using/incremental-query.md)
-    + {hide-from-toc}[읽기 목록 - 숨김](workflow/using/read-list.md)
-    + {hide-from-toc}[합집합 - 숨김](workflow/using/union.md)
-    + {hide-from-toc}[교집합 - 숨김](workflow/using/intersection.md)
-    + {hide-from-toc}[제외 - 숨김](workflow/using/exclusion.md)
-    + {hide-from-toc}[분할 - 숨김](workflow/using/split.md)
-    + {hide-from-toc}[셀 - 숨김](workflow/using/cells.md)
-    + {hide-from-toc}[셀별 오퍼 - 숨김](workflow/using/offers-by-cell.md)
-    + {hide-from-toc}[게재 개요 - 숨김](workflow/using/delivery-outline.md)
-    + {hide-from-toc}[데이터 보강 - 숨김](workflow/using/enrichment.md)
-    + {hide-from-toc}[스키마 편집 - 숨김](workflow/using/edit-schema.md)
-    + {hide-from-toc}[오퍼 엔진 - 숨김](workflow/using/offer-engine.md)
-    + {hide-from-toc}[중복 제거 - 숨김](workflow/using/deduplication.md)
-    + {hide-from-toc}[차원 변경 - 숨김](workflow/using/change-dimension.md)
-    + {hide-from-toc}[목록 업데이트 - 숨김](workflow/using/list-update.md)
-    + {hide-from-toc}[구독 서비스 - 숨김](workflow/using/subscription-services.md)
-    + {hide-from-toc}[데이터 업데이트 - 숨김](workflow/using/update-data.md)
-    + {hide-from-toc}[CRM 커넥터 - 숨김](workflow/using/crm-connector.md)
-    + {hide-from-toc}[데이터 소스 변경 - 숨김](workflow/using/change-data-source.md)
-  + 흐름 제어 활동 {#flow-control-activities}
-    + {hide-from-toc}[흐름 제어 활동 정보 - 숨김](workflow/using/about-flow-control-activities.md)
-    + {hide-from-toc}[시작 및 종료 - 숨김](workflow/using/start-and-end.md)
-    + {hide-from-toc}[포크 - 숨김](workflow/using/fork.md)
-    + {hide-from-toc}[AND 결합 - 숨김](workflow/using/and-join.md)
-    + {hide-from-toc}[스케줄러 - 숨김](workflow/using/scheduler.md)
-    + {hide-from-toc}[테스트 - 숨김](workflow/using/test.md)
-    + {hide-from-toc}[대기 - 숨김](workflow/using/wait.md)
-    + {hide-from-toc}[시간 제한 - 숨김](workflow/using/time-constraint.md)
-    + {hide-from-toc}[하위 워크플로 - 숨김](workflow/using/sub-workflow.md)
-    + {hide-from-toc}[이동(시작 지점 및 종료 지점) - 숨김](workflow/using/jump-start-point-and-end-point.md)
-    + {hide-from-toc}[외부 신호 - 숨김](workflow/using/external-signal.md)
-    + {hide-from-toc}[승인 - 숨김](workflow/using/approval.md)
-    + {hide-from-toc}[경고 - 숨김](workflow/using/alert.md)
-    + {hide-from-toc}[작업 - 숨김](workflow/using/task.md)
-  + 작업 활동 {#action-activities}
-    + {hide-from-toc}[액션 활동 정보 - 숨김](workflow/using/about-action-activities.md)
-    + {hide-from-toc}[게재 - 숨김](workflow/using/delivery.md)
-    + {hide-from-toc}[게재 관리 - 숨김](workflow/using/delivery-control.md)
-    + {hide-from-toc}[연속 게재 - 숨김](workflow/using/continuous-delivery.md)
-    + {hide-from-toc}[반복 게재 - 숨김](workflow/using/recurring-delivery.md)
-    + {hide-from-toc}[크로스 채널 게재 - 숨김](workflow/using/cross-channel-deliveries.md)
-    + {hide-from-toc}[로컬 승인 - 숨김](workflow/using/local-approval.md)
-    + {hide-from-toc}[데이터 로딩(RDBMS) - 숨김](workflow/using/data-loading-rdbms.md)
-    + {hide-from-toc}[로딩(SOAP) - 숨김](workflow/using/loading-soap.md)
-    + {hide-from-toc}[데이터 로딩(파일) - 숨김](workflow/using/data-loading-file.md)
-    + {hide-from-toc}[콘텐츠 관리 - 숨김](workflow/using/content-management.md)
-    + {hide-from-toc}[데이터 추출(파일) - 숨김](workflow/using/extraction-file.md)
-    + {hide-from-toc}[SQL 코드 및 JavaScript 코드 - 숨김](workflow/using/sql-code-and-javascript-code.md)
-    + {hide-from-toc}[SQL 데이터 관리 - 숨김](workflow/using/sql-data-management.md)
-    + {hide-from-toc}[Nlserver 모듈 - 숨김](workflow/using/nlserver-module.md)
-    + {hide-from-toc}[집계 업데이트 - 숨김](workflow/using/update-aggregate.md)
-  + 이벤트 활동 {#event-activities}
-    + {hide-from-toc}[이벤트 활동 정보 - 숨김](workflow/using/about-event-activities.md)
-    + {hide-from-toc}[파일 수집기 - 숨김](workflow/using/file-collector.md)
-    + {hide-from-toc}[파일 전송 - 숨김](workflow/using/file-transfer.md)
-    + {hide-from-toc}[웹 다운로드 - 숨김](workflow/using/web-download.md)
-    + {hide-from-toc}[인바운드 이메일 - 숨김](workflow/using/inbound-emails.md)
-    + {hide-from-toc}[인바운드 SMS - 숨김](workflow/using/inbound-sms.md)
-  + 사용 사례 {#use-cases}
-    + {hide-from-toc}[워크플로 사용 사례 정보 - 숨김](workflow/using/about-workflow-use-cases.md)
-    + 게재 {#deliveries}
-      + {hide-from-toc}[로컬 승인 활동 사용 - 숨김](workflow/using/using-the-local-approval-activity.md)
-      + {hide-from-toc}[생일 이메일 보내기 - 숨김](workflow/using/sending-a-birthday-email.md)
-      + {hide-from-toc}[게재 콘텐츠 로드 - 숨김](workflow/using/loading-delivery-content.md)
-      + {hide-from-toc}[크로스 채널 게재 워크플로 - 숨김](workflow/using/cross-channel-delivery-workflow.md)
-      + {hide-from-toc}[사용자 정의 날짜 필드를 통한 이메일 보강 - 숨김](workflow/using/email-enrichment-with-custom-date-fields.md)
-  + 모니터링 {#monitoring}
-    + {hide-from-toc}[목록으로 보고서 보내기 - 숨김](workflow/using/sending-a-report-to-a-list.md)
-    + {hide-from-toc}[워크플로 감독 - 숨김](workflow/using/supervising-workflows.md)
-    + {hide-from-toc}[운영자에게 개인화된 경고 보내기 - 숨김](workflow/using/sending-personalized-alerts-to-operators.md)
-  + 데이터 관리 {#data-management}
-    + {hide-from-toc}[데이터 업데이트 조정 - 숨김](workflow/using/coordinating-data-updates.md)
-    + {hide-from-toc}[요약 목록 만들기 - 숨김](workflow/using/creating-a-summary-list.md)
-    + {hide-from-toc}[데이터 보강 - 숨김](workflow/using/enriching-data.md)
-    + {hide-from-toc}[집계 사용 - 숨김](workflow/using/using-aggregates.md)
-    + {hide-from-toc}[중복 제거 활동의 병합 기능 사용 - 숨김](workflow/using/deduplication-merge.md)
-    + {hide-from-toc}[반복 가져오기 워크플로 설정 - 숨김](workflow/using/recurring-import-workflow.md)
-  + 쿼리 디자인 {#designing-queries}
-    + {hide-from-toc}[증분 쿼리를 사용한 분기별 목록 업데이트 - 숨김](workflow/using/quarterly-list-update.md)
-  + 쿼리 및 필터 {#query-and-filter-hidden}
-    + {hide-from-toc}[수신자 테이블 쿼리 - 숨김](workflow/using/querying-recipient-table.md)
-    + {hide-from-toc}[게재 정보 쿼리 - 숨김](workflow/using/querying-delivery-information.md)
-    + {hide-from-toc}[집계 컴퓨팅 수행 - 숨김](workflow/using/performing-aggregate-computing.md)
-    + {hide-from-toc}[그룹화 관리를 사용한 쿼리 - 숨김](workflow/using/querying-using-grouping-management.md)
-    + {hide-from-toc}[다대다 관계를 사용한 쿼리 - 숨김](workflow/using/querying-using-many-to-many-relationship.md)
-    + {hide-from-toc}[열거형 계산 필드 추가 - 숨김](workflow/using/adding-enumeration-type-calculated-field.md)
-    + {hide-from-toc}[필터 만들기 - 숨김](workflow/using/creating-a-filter.md)
-    + {hide-from-toc}[중복 수신자 필터링 - 숨김](workflow/using/filtering-duplicated-recipients.md)
-  + 워크플로 모니터링 {#monitoring-workflows}
-    + {hide-from-toc}[워크플로 실행 모니터링 - 숨김](workflow/using/monitoring-workflow-execution.md)
-    + {hide-from-toc}[기술 워크플로 모니터링 - 숨김](workflow/using/monitoring-technical-workflows.md)
-    + {hide-from-toc}[워크플로 히트맵 - 숨김](workflow/using/heatmap.md)
-  + 고급 관리 {#advanced-management}
-    + {hide-from-toc}[워크플로 속성 - 숨김](workflow/using/workflow-properties.md)
-    + {hide-from-toc}[고급 매개 변수 - 숨김](workflow/using/advanced-parameters.md)
-    + {hide-from-toc}[JavaScript 스크립트 및 템플릿 - 숨김](workflow/using/javascript-scripts-and-templates.md)
-    + {hide-from-toc}[워크플로의 JavaScript 코드 예 - 숨김](workflow/using/javascript-in-workflows.md)
-    + {hide-from-toc}[외부 데이터베이스 액세스 - 숨김](workflow/using/accessing-an-external-database-fda.md)
-    + {hide-from-toc}[권한 관리 - 숨김](workflow/using/managing-rights.md)
-    + {hide-from-toc}[활동 이미지 변경 - 숨김](workflow/using/managing-activity-images.md)
-    + {hide-from-toc}[표준 시간대 관리 - 숨김](workflow/using/managing-time-zones.md)
-    + {hide-from-toc}[기술 워크플로 - 숨김](workflow/using/about-technical-workflows.md)
 + 오퍼 관리 {#managing-offers}
   + 상호 작용 시작 {#interaction-overview}
     + [상호 작용 및 오퍼 관리](interaction/using/interaction-and-offer-management.md)
-    + [용어집](interaction/using/i-glossary.md)
-    + [상호 작용 모범 사례](interaction/using/interaction-best-practices.md)
-  + 일반 작업 {#general-operation}
-    + [구현 단계](interaction/using/implementation-steps.md)
-    + [기본 원칙](interaction/using/fundamental-principles.md)
-  + 환경 관리 {#managing-environments}
-    + [환경 개요](interaction/using/environments-overview.md)
-    + [운영자 프로필](interaction/using/operator-profiles.md)
-    + [라이브/디자인 환경](interaction/using/live-design-environments.md)
-    + [오퍼 공간 만들기](interaction/using/creating-offer-spaces.md)
-    + [사전 정의 필터 만들기](interaction/using/creating-predefined-filters.md)
   + 오퍼 카탈로그 관리 {#managing-an-offer-catalog}
-    + [오퍼 카탈로그 개요](interaction/using/offer-catalog-overview.md)
-    + [오퍼 카테고리 만들기](interaction/using/creating-offer-categories.md)
-    + [카테고리 추천](interaction/using/recommending-a-category.md)
-    + [오퍼 만들기](interaction/using/creating-an-offer.md)
     + [오퍼 승인 및 활성화](interaction/using/approving-and-activating-an-offer.md)
     + [오퍼 템플릿 관리](interaction/using/managing-offer-templates.md)
     + [오퍼 프레젠테이션 관리](interaction/using/managing-offer-presentation.md)
@@ -508,18 +321,6 @@ ht-degree: 100%
     + [실행 설정](interaction/using/execution-settings.md)
     + [시뮬레이션 범위](interaction/using/simulation-scope.md)
     + [시뮬레이션 추적](interaction/using/simulation-tracking.md)
-  + 오퍼 게재 {#delivering-an-offer}
-    + [아웃바운드 채널 정보](interaction/using/about-outbound-channels.md)
-    + [도우미를 통한 오퍼 통합](interaction/using/integrating-an-offer-via-the-wizard.md)
-    + [워크플로를 통한 오퍼 통합](interaction/using/integrating-an-offer-via-a-workflow.md)
-  + 단일 상호 작용 {#unitary-interactions}
-    + [인바운드 채널 정보](interaction/using/about-inbound-channels.md)
-    + [JavaScript를 통한 통합(클라이언트측)](interaction/using/integration-via-javascript-client-side.md)
-    + [SOAP를 통한 통합(서버측)](interaction/using/integration-via-soap-server-side.md)
-    + [익명의 상호 작용](interaction/using/anonymous-interactions.md)
-  + 오퍼 추적 {#tracking-offers}
-    + [오퍼 제안 내역](interaction/using/offer-proposition-history.md)
-    + [오퍼 분석 보고서](interaction/using/offer-analysis-report.md)
   + 고급 매개 변수 {#advanced-parameters}
     + [고급 매개 변수 사용](interaction/using/using-advanced-parameters.md)
     + [추가 데이터](interaction/using/additional-data.md)
@@ -539,19 +340,7 @@ ht-degree: 100%
     + [인스턴스 구성](message-center/using/configuring-instances.md)
     + [추가 구성](message-center/using/additional-configurations.md)
   + 메시지 템플릿 {#message-templates}
-    + [이벤트 유형 만들기](message-center/using/creating-event-types.md)
-    + [메시지 템플릿 디자인](message-center/using/creating-the-message-template.md)
     + [메시지 템플릿 테스트](message-center/using/testing-message-templates.md)
-    + [메시지 템플릿 게시](message-center/using/publishing-message-templates.md)
-  + 트랜잭션 이벤트 처리 {#processing}
-    + [이벤트 설명](message-center/using/event-description.md)
-    + [이벤트 처리](message-center/using/about-event-processing.md)
-    + [게재 실행](message-center/using/delivery-execution.md)
-  + 보고서 {#reports}
-    + [트랜잭션 메시지 보고서 액세스](message-center/using/about-transactional-messaging-reports.md)
-    + [메시지 센터 이벤트 내역](message-center/using/history-of-message-center-events.md)
-    + [메시지 센터 서비스 수준](message-center/using/message-center-service-level.md)
-    + [메시지 센터 처리 시간](message-center/using/message-center-processing-time.md)
   + [사용 사례](message-center/using/transactional-email-with-attachments.md)
 + 소셜 미디어와 통합 {#integrating-with-social-media}
   + [소셜 마케팅 정보](social/using/about-social-marketing.md)
@@ -709,7 +498,6 @@ ht-degree: 100%
 + 개발자 안내서 {#configuring-campaign-classic}
   + [데이터 패키지](platform/using/working-with-data-packages.md)
   + 데이터 모델 {#data-model}
-    + [데이터 모델 정보](configuration/using/about-data-model.md)
     + [데이터 모델 설명](configuration/using/data-model-description.md)
     + [모범 사례](configuration/using/data-model-best-practices.md)
   + 스키마 작업 {#schema-reference}
@@ -717,7 +505,6 @@ ht-degree: 100%
     + [스키마 구조](configuration/using/schema-structure.md)
     + [데이터베이스 매핑](configuration/using/database-mapping.md)
     + [키 관리](configuration/using/database-keys.md)
-    + [링크 관리](configuration/using/database-links.md)
     + 요소 및 속성 {#elements-attributes}
       + [소개](configuration/using/schema-introduction.md)
       + [속성](configuration/using/schema/attribute.md)
@@ -738,21 +525,15 @@ ht-degree: 100%
       + [Sysfilter](configuration/using/schema/sysfilter.md)
       + [값](configuration/using/schema/value.md)
   + 스키마 편집 {#editing-schemas}
-    + [스키마 편집 정보](configuration/using/about-schema-edition.md)
-    + [데이터 스키마](configuration/using/data-schemas.md)
     + [기존 테이블의 스키마](configuration/using/schema-of-an-existing-table.md)
     + [스키마 확장](configuration/using/extending-a-schema.md)
-    + [스키마 필터링](configuration/using/filtering-schemas.md)
-    + [PII 보기 제한](configuration/using/restricting-pii-view.md)
     + [데이터베이스 구조 업데이트](configuration/using/updating-the-database-structure.md)
     + [새 필드 도우미](configuration/using/new-field-wizard.md)
     + [데이터 스키마 구조](configuration/using/structure-of-a-data-schema.md)
     + [스키마 다시 생성](configuration/using/regenerating-schemas.md)
     + [스키마 편집 사례](configuration/using/examples-of-schemas-edition.md)
   + 입력 양식 {#input-forms}
-    + [양식 식별](configuration/using/identifying-a-form.md)
     + [양식 편집](configuration/using/editing-forms.md)
-    + [양식 구조](configuration/using/form-structure.md)
   + API {#api}
     + [웹 서비스 정보](configuration/using/about-web-services.md)
     + [웹 서비스 호출](configuration/using/web-service-calls.md)
@@ -804,13 +585,11 @@ ht-degree: 100%
     + [기술 운영자를 Developer Console로 마이그레이션](technotes/using/ims-migration.md)
     + [IMS 마이그레이션이 인터페이스에 미치는 영향](technotes/using/impact-ims-migration.md)
   + 업그레이드 및 호환성{#technote-migration}
-    + {hide-from-toc}[기술 노트](technotes/using/technote.md)
     + [Microsoft Edge Chromium 사용](technotes/using/edge-chromium.md)
     + {hide-from-toc}[새로운 전달성 서버](technotes/using/deliverability-server.md)
     + {hide-from-toc}[Apache 보안 업그레이드](technotes/using/acc-apache-upgrade.md)
     + {hide-from-toc}[2023년 시스템 업그레이드](technotes/using/tech-stack-upgrade.md)
     + {hide-from-toc}[IMS 업데이트](technotes/using/ims-updates.md)
-    + {hide-from-toc}[TLS 1.0 및 1.1 지원 종료](technotes/using/eol-tls-support.md)
     + {hide-from-toc}[Adobe Analytics 2.0 API로 마이그레이션](technotes/using/analytics-2-migration.md)
   + 이메일 및 푸시 알림{#technotes-email}
     + [Apple iOS의 메일 개인 정보 보호](technotes/using/apple-mail-app-privacy-protection.md)

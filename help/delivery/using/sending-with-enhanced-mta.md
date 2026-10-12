@@ -20,6 +20,8 @@ feature_v2:
     internal-label: Prepare and test messages
   - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
     internal-label: Email
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -43,9 +45,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1446'
 ht-degree: 1%
 ---
 # Enhanced MTA로 보내기 {#sending-with-enhanced-mta}
@@ -152,7 +154,7 @@ Campaign에 **[!UICONTROL Stopped]** 상태로 표시되더라도 Enhanced MTA�
 
 Campaign 게재 처리량 그래프는 이메일 수신자에게 더 이상 처리량을 표시하지 않습니다. 이제 이 그래프는 Campaign에서 Enhanced MTA로 메시지를 릴레이하는 처리량 속도를 보여 줍니다.
 
-게재 처리량에 대한 자세한 내용은 [이 섹션](../../reporting/using/global-reports.md#delivery-throughput)을 참조하세요.
+게재 처리량에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"}(Campaign v8 설명서)을 참조하십시오.
 
 ### 재시도
 

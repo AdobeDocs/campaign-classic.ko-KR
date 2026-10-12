@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 86e1df82ff7fe9142b0ba75b697d3262e8d7a9d5
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1071'
 ht-degree: 4%
 ---
 # 새 게재 기능 서버로 업데이트 {#acc-deliverability}
@@ -150,4 +150,4 @@ Adobe Analytics 커넥터 구성을 계속하려면 Adobe Developer 콘솔에 �
 
 환경을 업그레이드하지 않으면 이메일 설정 동기화가 중지됩니다(MX 관리 규칙, 인바운드 이메일 규칙, 도메인 관리 규칙 및 반송 자격 규칙). 이는 시간이 지남에 따라 게재 가능성에 영향을 줄 수 있습니다. 이러한 규칙에 중요한 변경이 이루어진 경우 이 시점부터 수동으로 적용해야 합니다.
 
-MKT 인스턴스의 경우 [전역 비표시 목록](../../campaign-opt/using/filtering-rules.md#default-deliverability-exclusion-rules)만 영향을 받습니다.
+MKT 인스턴스의 경우 [전역 제외 목록](https://experienceleague.adobe.com/ko/docs/campaign/automation/campaign-optimization/filtering-rules#default-deliverability-exclusion-rules){target="_blank"}(Campaign v8 설명서)만 영향을 받습니다.

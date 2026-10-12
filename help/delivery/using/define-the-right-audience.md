@@ -20,6 +20,8 @@ feature_v2:
     internal-label: Prepare and test messages
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
     internal-label: Profiles and audiences
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -34,10 +36,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 7%
+source-wordcount: '576'
+ht-degree: 6%
 ---
 # 적합한 대상자 정의 {#define-the-right-audience}
 
@@ -90,8 +92,8 @@ Campaign Classic에서 기본적으로 게재 템플릿은 **수신자**&#x200B;
 
 **관련 항목:**
 
-* [중복 제거 활동](../../workflow/using/deduplication.md).
-* [사용 사례: 중복 제거 활동의 병합 기능 사용](../../workflow/using/deduplication-merge.md)
+* [중복 제거 활동](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication){target="_blank"}(Campaign v8 설명서).
+* [사용 사례: 중복 제거 활동의 병합 기능 사용](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/use-cases/data-management/deduplication-merge){target="_blank"}(Campaign v8 설명서)
 
 ## 이메일 주소 색인 지정 {#index-addresses}
 

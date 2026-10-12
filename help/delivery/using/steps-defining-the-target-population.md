@@ -21,6 +21,8 @@ feature_v2:
     internal-label: Prepare and test messages
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
     internal-label: Profiles and audiences
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -37,9 +39,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 86e1df82ff7fe9142b0ba75b697d3262e8d7a9d5
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '1791'
 ht-degree: 24%
 ---
 # 대상 모집단 정의 {#defining-the-target-population}
@@ -49,7 +51,7 @@ ht-degree: 24%
 * **주 대상자**: 메시지를 받을 프로필. [자세히 알아보기](steps-defining-the-target-population.md#selecting-the-main-target)
 * **증명**: 유효성 검사 주기와 관련된 증명 메시지를 받는 사람입니다. [자세히 알아보기](steps-defining-the-target-population.md#defining-a-specific-proof-target)
 * **시드 주소**: 게재 대상에서 제외되었지만 게재를 받을 수신자(마케팅 캠페인의 컨텍스트에서만). [자세히 알아보기](about-seed-addresses.md)
-* **컨트롤 그룹**: 게재를 받지 못하는 모집단으로, 동작 및 캠페인 영향을 추적하는 데 사용됩니다(마케팅 캠페인의 컨텍스트에서만). [자세히 알아보기](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
+* **컨트롤 그룹**: 게재를 받지 못하는 모집단으로, 동작 및 캠페인 영향을 추적하는 데 사용됩니다(마케팅 캠페인의 컨텍스트에서만). [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#add-a-control-group){target="_blank"}(Campaign v8 설명서).
 
 ## 게재의 주 수신자 선택 {#selecting-the-main-target}
 

@@ -20,6 +20,8 @@ feature_v2:
     internal-label: Prepare and test messages
   - id: 13af5358-448e-5a4a-850b-0db592bb0f8f
     internal-label: Personalization
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -35,9 +37,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '992'
 ht-degree: 6%
 ---
 # 개인화 블록{#personalization-blocks}
@@ -143,7 +145,7 @@ HTML 소스 코드는 게재 콘텐츠에 삽입됩니다. 예를 들어 **[!UIC
 * **[!UICONTROL Registration confirmation]** : 구독을 확인할 수 있는 링크를 삽입합니다.
 * **[!UICONTROL Social network sharing links]** : 받는 사람이 전자 메일 클라이언트, Facebook, X(이전 Twitter) 및 LinkedIn과 미러 페이지 콘텐츠에 대한 링크를 공유할 수 있는 단추를 삽입합니다([Viral marketing: forward to a friend](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend) 참조).
 * **[!UICONTROL Style of content emails]** 및 **[!UICONTROL Notification style]** : 미리 정의된 HTML 스타일로 전자 메일의 서식을 지정하는 코드를 생성합니다. 이러한 블록은 **[!UICONTROL ...]** 섹션의 게재 소스 코드에 **`<style>...</style>`** 태그에 삽입되어야 합니다.
-* **[!UICONTROL Offer acceptance URL in unitary mode]** : 상호 작용 오퍼를 **[!UICONTROL Accepted]**(으)로 설정할 수 있는 URL을 삽입합니다([이 섹션](../../interaction/using/offer-analysis-report.md) 참조).
+* **[!UICONTROL Offer acceptance URL in unitary mode]** : 상호 작용 오퍼를 **[!UICONTROL Accepted]**(으)로 설정할 수 있는 URL을 삽입합니다([이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-tracking){target="_blank"} 참조(Campaign v8 설명서).
 
 ## 사용자 지정 개인화 블록 정의 {#defining-custom-personalization-blocks}
 

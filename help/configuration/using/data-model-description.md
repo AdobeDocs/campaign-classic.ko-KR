@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '2390'
 ht-degree: 2%
 ---
 # Campaign 데이터 모델 설명{#data-model-description}
@@ -73,7 +73,7 @@ iFolderId 필드는 수신자를 해당 실행 폴더에 연결하는 외래 키
 
 sCountryCode 필드는 수신자와 연결된 국가의 3166-1 Alpha 2 ISO 코드(2자)입니다. 이 필드는 국가 레이블 및 기타 국가 코드 데이터를 포함하는 국가 참조 테이블(NmsCountry)의 외래 키입니다. 국가를 채우지 않으면 값 &#39;XX&#39;가 저장됩니다(0 ID 레코드 대신 사용됨).
 
-받는 사람 테이블에 대한 자세한 내용은 [이 섹션](../../configuration/using/about-data-model.md#default-recipient-table)을 참조하세요.
+받는 사람 테이블에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"}(Campaign v8 설명서)을 참조하십시오.
 
 ### Nms 그룹 {#NmsGroup}
 

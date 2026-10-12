@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Technote
   - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
     internal-label: Security and privacy
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI
@@ -39,10 +41,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
 workflow-type: tm+mt
-source-wordcount: '2101'
-ht-degree: 1%
+source-wordcount: '2138'
+ht-degree: 0%
 ---
 # Apple 메일 앱의 메일 개인 정보 보호
 
@@ -93,7 +95,7 @@ Adobe Campaign 데이터에서 인사이트를 수집하려면 기본 제공 보
 
 * **[!UICONTROL Operating Systems]** 보고서
 
-  운영 체제 및 버전당 방문자 수를 파악하려면 이 보고서를 사용합니다. [자세히 보기](../../reporting/using/global-reports.md#operating-systems)
+  운영 체제 및 버전당 방문자 수를 파악하려면 이 보고서를 사용합니다. [자세히 보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#operating-systems){target="_blank"}(Campaign v8 설명서).
 
   총 방문자 수와 관련하여 운영 체제당 방문자 수 분류를 볼 수 있습니다.
 
@@ -105,7 +107,7 @@ Adobe Campaign 데이터에서 인사이트를 수집하려면 기본 제공 보
 
 * **[!UICONTROL Breakdown of opens]** 보고서
 
-  운영 체제당 이메일 열람수 비율을 식별하려면 이 보고서를 사용합니다. [자세히 보기](../../reporting/using/global-reports.md#breakdown-of-opens)
+  운영 체제당 이메일 열람수 비율을 식별하려면 이 보고서를 사용합니다. [자세히 보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#breakdown-of-opens){target="_blank"}(Campaign v8 설명서).
 
   ![](../../reporting/using/assets/dlv_useragent_report.png)
 

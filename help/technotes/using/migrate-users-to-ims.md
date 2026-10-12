@@ -13,6 +13,8 @@ feature_v2:
     internal-label: APIs
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
@@ -23,10 +25,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 4bc1e76d129c6a6aa15b7e3915232043bd6f4286
 workflow-type: tm+mt
-source-wordcount: '1266'
-ht-degree: 3%
+source-wordcount: '676'
+ht-degree: 2%
 ---
 # 캠페인 운영자를 Adobe Identity Management System(IMS)으로 마이그레이션 {#migrate-users-to-ims}
 
@@ -63,27 +65,6 @@ Adobe은 이러한 마이그레이션 작업을 지원합니다. 아래 문서�
 >제품 프로필 이름 지정 규칙을 주의 깊게 검토하여 승인된 사용자만 Campaign 컨트롤 패널에 액세스할 수 있도록 합니다. [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko){target="_blank"}에서 Campaign 컨트롤 패널 권한 관리에 대해 자세히 알아보세요.
 
 
-## 호스팅 및 Managed Services 환경을 마이그레이션하는 방법 {#ims-migration-procedure}
-
-### 필수 구성 요소 {#ims-migration-prerequisites}
-
-마이그레이션 프로세스를 시작하기 전에 Adobe 기술 팀이 기존 운영자 그룹 및 명명된 권한을 Adobe Identity Management System(IMS)으로 마이그레이션할 수 있도록 Adobe 전환 관리자(Managed Services 고객용) 또는 Adobe 고객 지원 센터(다른 호스트된 고객용)에 연락해야 합니다.
-
-### 주요 단계 {#ims-migration-steps}
-
-이 마이그레이션에 대한 주요 단계는 아래에 나와 있습니다.
-
-1. Adobe은 환경을 Campaign v7.4.1(또는 [IMS 마이그레이션 호환 버전](ac-ims.md#ims-versions))로 업그레이드합니다.
-1. 업그레이드 후에도 기본 사용자 또는 IMS와 같은 두 가지 방법을 사용하여 새 사용자를 만들 수 있습니다.
-1. 내부 Campaign 관리자는 Campaign 클라이언트 콘솔의 모든 기본 사용자에게 고유한 이메일을 추가하고, 이 작업이 완료되면 Adobe 담당자/고객 지원 센터에 확인해야 합니다.  이 단계는 [이 섹션](#ims-migration-id)에 자세히 설명되어 있습니다.
-1. Adobe 담당자/고객 지원 팀과 협력하여 Adobe이 비기술 사용자(운영자) 및 제품 프로필에 대해 자동화된 마이그레이션을 실행할 수 있는 날짜를 확보하십시오. 이 단계에는 서비스에 대한 다운타임 없이 1시간 동안의 시간이 필요합니다.
-1. 내부 Campaign 관리자가 이러한 변경 사항을 확인하고 승인을 제공합니다. 이 마이그레이션 후에는 더 이상 이 로그인 및 암호로 인증하는 연산자를 만들지 않아야 합니다.
-
-[이 기술 문서](ims-migration.md)에 설명된 대로 기술 연산자를 Adobe Developer Console으로 마이그레이션할 수도 있습니다.
-
-이 마이그레이션이 완료되면 Adobe 전환 관리자(Managed Services 사용자용) 또는 Adobe 고객 지원 센터(호스팅된 고객용)에 문의하십시오. 그런 다음 Adobe은 마이그레이션을 완료된 것으로 표시합니다. 그런 다음 환경을 보호하고 표준화합니다.
-
-
 ## 하이브리드 및 온-프레미스 환경을 마이그레이션하는 방법 {#ims-migration-procedure-on-prem}
 
 이 마이그레이션에 대한 주요 단계는 아래에 나와 있습니다.
@@ -91,71 +72,16 @@ Adobe은 이러한 마이그레이션 작업을 지원합니다. 아래 문서�
 1. 환경을 Campaign v7.4.1(또는 [IMS 마이그레이션 호환 버전](#ims-versions))로 업그레이드하십시오.
 1. 업그레이드 후에도 기본 사용자 또는 IMS와 같은 두 가지 방법을 사용하여 새 사용자를 만들 수 있습니다.
 1. 내부 Campaign 관리자는 [이 섹션](../../integrations/using/configuring-ims.md)에 자세히 설명된 대로 Adobe IMS를 구성해야 합니다.
-1. 그런 다음 Campaign 클라이언트 콘솔의 모든 기본 사용자에게 고유한 이메일을 추가합니다. 이 단계는 [이 섹션](#ims-migration-id)에 자세히 설명되어 있습니다.
+1. 그런 다음 Campaign 클라이언트 콘솔의 모든 기본 사용자에게 고유한 이메일을 추가합니다. 이 단계는 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims#ims-migration-id){target="_blank"}에 자세히 설명되어 있습니다(Campaign v8 설명서).
 1. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/manage-permissions.html?lang=ko){target="_blank"}에 자세히 설명된 대로 Adobe Admin Console에서 사용자 및 제품 프로필을 만듭니다.
 1. 모든 연산자에 대해 **Adobe ID과 연결** 옵션을 사용하도록 설정하십시오.
 1. [이 페이지](../../integrations/using/implementing-ims.md)에 자세히 설명된 대로 연결에 Adobe IMS를 구현합니다.
 
 [이 기술 문서](ims-migration.md)에 설명된 대로 기술 연산자를 Adobe Developer Console으로 마이그레이션할 수도 있습니다.
 
-
 ## 자주 묻는 질문 {#ims-migration-faq}
 
-### 마이그레이션 후 사용자를 만드는 방법 {#ims-migration-native}
-
-Adobe은 Campaign Classic v7.4.1(또는 [IMS 마이그레이션 호환 버전](#ims-versions))로 업그레이드한 후 IMS 사용자만 만들 것을 권장합니다.
-Campaign v7.4.1을 시작하면 [이 페이지](impact-ims-migration.md)에 설명된 대로 인스턴스 구성을 업데이트하여 기본 연산자 생성을 방지할 수 있습니다.
-
-Campaign 관리자는 Adobe Admin Console 및 Campaign 클라이언트 콘솔을 통해 조직의 사용자에게 권한을 부여할 수 있습니다. 사용자가 Adobe ID으로 Adobe Campaign에 로그온합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ko){target="_blank"}에서 IMS를 사용하여 권한을 설정하는 방법에 대해 알아봅니다.
-
-### 현재 기본 사용자의 이메일을 추가하는 방법 {#ims-migration-id}
-
-Campaign 관리자는 클라이언트 콘솔에서 모든 기본 사용자에게 이메일 ID를 추가해야 합니다. 이렇게 하려면 아래 단계를 수행합니다.
-
-1. 클라이언트 콘솔에 연결하고 **관리 > 액세스 관리 > 연산자**&#x200B;로 이동합니다.
-1. 연산자 목록에서 업데이트할 연산자를 선택합니다.
-1. 연산자 양식의 **연락처** 섹션에 연산자의 전자 메일을 입력합니다.
-1. 변경 내용을 저장합니다.
-
-<!--You can also import a CSV file to update all your operator profiles with their email.-->
-
-
-### IMS를 통해 Campaign에 로그인하는 방법 {#ims-migration-log}
-
-[이 섹션](../../integrations/using/implementing-ims.md)에서 Adobe ID을 사용하여 Campaign에 연결하는 방법을 알아봅니다.
-
-### 이 마이그레이션 도중 중단 시간이 발생합니까? {#ims-migration-downtime}
-
-호스팅 및 Managed Services 고객의 경우 마이그레이션을 완료하려면(사용자 및 제품 프로필 마이그레이션) Adobe에는 인스턴스(워크플로 등)에 대한 다운타임 없이 1시간 정도의 시간이 필요합니다.
-
-이 기간 동안 IMS로의 마이그레이션이 완료되면 모든 Campaign 사용자는 로그오프한 후 Adobe ID으로 다시 로그인해야 합니다.
-
-Adobe은 마이그레이션 기간 동안 모든 사용자를 로그오프할 것을 강력히 권장합니다.
-
-### 조직의 사용자가 이미 IMS를 사용하고 있습니다. IMS 마이그레이션을 수행해야 합니까?{#ims-migration-needed}
-
-이 마이그레이션에는 최종 사용자 마이그레이션(및 제품 프로필 포함)과 기술 사용자 마이그레이션(사용자 지정 코드의 API에 사용됨)의 두 가지 측면이 있습니다.
-
-모든 사용자(Campaign 운영자)가 IMS에 있는 경우에도 Adobe 담당자/고객 지원 센터에 문의하여 제품 프로필 마이그레이션을 계획해야 합니다. 사용자 지정 코드에서 사용했을 수 있는 기술 사용자를 마이그레이션해야 합니다. [이 페이지](ims-migration.md)에서 자세히 알아보십시오.
-
-### 운영자의 인증 유형을 보는 방법
-
-Campaign에서 연산자의 인증 유형을 보는 방법을 알아봅니다.
-
-1. **탐색기**&#x200B;에서 **관리** `>` **액세스 관리** `>` **연산자**&#x200B;에 액세스합니다.
-
-1. 머리글 행을 마우스 오른쪽 단추로 클릭하고 **목록 구성** 메뉴를 선택합니다.
-
-   ![](assets/ims_2.png)
-
-1. **계정 사용 안 함** 및 **인증 유형**&#x200B;을(를) **출력 열**(으)로 추가하십시오.
-
-   ![](assets/ims_1.png)
-
-이제 **연산자** 목록과 해당 **인증 유형**&#x200B;을 볼 수 있습니다.
-
-![](assets/ims_3.png)
-
+마이그레이션에 대한 일반적인 질문(마이그레이션 후 사용자 만들기, 기본 사용자를 위한 이메일 추가, IMS를 통해 로그인, 가동 중지, 이미 IMS를 사용하는 조직, 운영자의 인증 유형 보기)에 대한 답변은 [Campaign v8 기술 정보](https://experienceleague.adobe.com/ko/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims#ims-migration-faq){target=_blank}(Campaign v8 설명서)를 참조하십시오.
 
 >[!MORELIKETHIS]
 >

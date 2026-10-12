@@ -17,9 +17,9 @@ feature_v2:
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
     internal-label: Analytics integration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '889'
 ht-degree: 1%
 ---
 # Adobe Analytics 2.0 API로 마이그레이션 {#analytics-2-migration}
@@ -28,7 +28,7 @@ Adobe Analytics 1.4 API가 [수명이 종료됨](https://developer.adobe.com/ana
 
 >[!CAUTION]
 >
->업그레이드를 하면 커넥터 [!UICONTROL webAnalyticsSendMetrics]과(와) [!UICONTROL webAnalyticsGetWebEvents]을(를) 구동하는 기본 제공 기술 워크플로우 두 개를 다시 가져옵니다([Web Analytics 워크플로우 참조](../../workflow/using/web-analytics.md)에서 수행하는 작업 참조). 이러한 워크플로우 위에서 만든 모든 사용자 지정은 다시 가져오기로 덮어씁니다. 이러한 기본 제공 워크플로를 직접 수정하지 마십시오. 대신 별도의 사용자 지정 워크플로에서 사용자 지정을 빌드하십시오. 이렇게 하면 향후 업그레이드시 덮어쓰지 않습니다. 또한 업그레이드는 기본 제공 Analytics JavaScript 파일도 업데이트합니다. 사용자 지정 워크플로우가 이러한 파일을 참조하는 경우 이들 파일은 중단되고 새 코드에 맞게 조정되어야 합니다.
+>업그레이드를 하면 커넥터 [!UICONTROL webAnalyticsSendMetrics] 및 [!UICONTROL webAnalyticsGetWebEvents]을(를) 구동하는 기본 제공 기술 워크플로우 두 개를 다시 가져옵니다([Web Analytics 워크플로우 참조](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"}(Campaign v8 설명서). 각 워크플로우가 수행하는 작업은 해당 워크플로우 참조). 이러한 워크플로우 위에서 만든 모든 사용자 지정은 다시 가져오기로 덮어씁니다. 이러한 기본 제공 워크플로를 직접 수정하지 마십시오. 대신 별도의 사용자 지정 워크플로에서 사용자 지정을 빌드하십시오. 이렇게 하면 향후 업그레이드시 덮어쓰지 않습니다. 또한 업그레이드는 기본 제공 Analytics JavaScript 파일도 업데이트합니다. 사용자 지정 워크플로우가 이러한 파일을 참조하는 경우 이들 파일은 중단되고 새 코드에 맞게 조정되어야 합니다.
 
 ## 영향을 받습니까? {#are-you-impacted}
 

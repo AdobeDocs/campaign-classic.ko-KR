@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 6%
+source-wordcount: '439'
+ht-degree: 3%
 ---
 # 상호 작용 및 오퍼 관리{#interaction-and-offer-management}
 
@@ -39,6 +39,12 @@ ht-degree: 6%
 
 상호 작용을 사용하면 오퍼 카탈로그를 만들고 관리하고 여기에 연결된 자격 규칙 및 애플리케이션 테마를 구성할 수 있습니다. 선택한 채널에 따라 다양한 렌더링 기능으로 오퍼 콘텐츠를 개인화할 수 있습니다. 마지막으로 시뮬레이션 모듈을 사용하여 오퍼 표시의 영향을 계산할 수 있습니다.
 
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 상호 작용에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction){target=_blank}를 참조하세요.
+
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction){target=_blank}
+
+이 섹션에서는 Campaign v8 설명서에 설명되어 있지 않은 상호 작용 기능만 다룹니다. [오퍼 시뮬레이션](about-offers-simulation.md), [오퍼 프레젠테이션](managing-offer-presentation.md), [오퍼 승인](approving-and-activating-an-offer.md), [오퍼 템플릿](managing-offer-templates.md) 및 [고급 설정](using-advanced-parameters.md).
+
 ![](assets/Offermgt2.png)
 
 ![](assets/do-not-localize/how-to-video.png) Campaign 상호 작용에 사용되는 상호 작용 기능 및 용어를 숙지하려면 [이 비디오](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com)를 시청하세요.
@@ -47,6 +53,6 @@ ht-degree: 6%
 
 | 유용한 페이지 | 추가 리소스 |
 |---|---|
-| [상호 작용 구현 단계](../../interaction/using/implementation-steps.md) | [오퍼 배포 테스트](../../interaction/using/about-offers-simulation.md) |
-| [라이브/디자인 환경](../../interaction/using/live-design-environments.md) | [전자 메일에 오퍼 추가](../../interaction/using/integrating-an-offer-via-the-wizard.md) |
-| [오퍼 공간 만들기](../../interaction/using/creating-offer-spaces.md) | [사용 사례: 웹 사이트에 오퍼 추가](../../interaction/using/offers-on-an-inbound-channel.md) |
+| [상호 작용 구현 단계](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction){target="_blank"}(Campaign v8 설명서) | [오퍼 배포 테스트](../../interaction/using/about-offers-simulation.md) |
+| [라이브/디자인 환경](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env){target="_blank"}(Campaign v8 설명서) | [전자 메일에 오퍼 추가](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"}(Campaign v8 설명서) |
+| [오퍼 공간 만들기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"}(Campaign v8 설명서) | [사용 사례: 웹 사이트에 오퍼 추가](../../interaction/using/offers-on-an-inbound-channel.md) |

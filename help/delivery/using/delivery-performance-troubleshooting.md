@@ -20,6 +20,8 @@ feature_v2:
     internal-label: Deliverability
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -45,10 +47,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 2%
+source-wordcount: '807'
+ht-degree: 1%
 ---
 # 게재 성능 및 문제 해결 {#delivery-performance-troubleshooting}
 
@@ -122,7 +124,7 @@ Error during the call of method 'AppendDeliveryPart' on the mid sourcing server:
 
 **온-프레미스 설치의 경우**&#x200B;데이터베이스에 대해 진공을 수행하고 다시 인덱싱합니다. 데이터베이스 유지 관리에 대한 자세한 내용은 [이 섹션](../../production/using/recommendations.md)을 참조하세요.
 
-또한 예약된 활동이 있는 모든 워크플로우와 실패 상태에 있는 모든 워크플로우를 다시 시작해야 합니다. [이 섹션](../../workflow/using/scheduler.md)을 참조하십시오.
+또한 예약된 활동이 있는 모든 워크플로우와 실패 상태에 있는 모든 워크플로우를 다시 시작해야 합니다. [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"}을 참조하세요(Campaign v8 설명서).
 
 ### 기술 워크플로우 모니터링
 

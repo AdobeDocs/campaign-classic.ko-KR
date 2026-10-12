@@ -45,18 +45,18 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '4078'
+source-wordcount: '4118'
 ht-degree: 1%
 ---
 # 데이터 모델 모범 사례{#data-model-best-practices}
 
 이 문서에서는 Adobe Campaign 데이터 모델을 디자인하는 동안 주요 권장 사항에 대해 간략하게 설명합니다.
 
-Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 [이 섹션](../../configuration/using/about-data-model.md) 섹션을 참조하십시오.
+Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}(Campaign v8 설명서) 섹션을 참조하십시오.
 
-Campaign 스키마를 시작하려면 [이 설명서](../../configuration/using/about-schema-reference.md)를 읽어 보십시오. [이 문서](../../configuration/using/about-schema-edition.md)에서 Adobe Campaign 데이터베이스의 개념 데이터 모델을 확장하기 위해 확장 스키마를 구성하는 방법을 알아봅니다.
+Campaign 스키마를 시작하려면 [이 설명서](../../configuration/using/about-schema-reference.md)를 읽어 보십시오. [이 문서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}에서 Adobe Campaign 데이터베이스의 개념 데이터 모델을 확장하기 위해 확장 스키마를 구성하는 방법(Campaign v8 설명서)을 알아봅니다.
 
 ## 개요 {#overview}
 
@@ -82,7 +82,7 @@ Adobe Campaign 기본 데이터 모델은 [이 문서](../../configuration/using
 
 >[!NOTE]
 >
->Adobe Campaign Classic을 사용하면 사용자 지정 고객 테이블을 작성할 수 있습니다. 그러나 대부분의 경우 이미 사전 빌드된 추가 테이블 및 기능이 있는 표준 [받는 사람 테이블](../../configuration/using/about-data-model.md#default-recipient-table)을 활용하는 것이 좋습니다.
+>Adobe Campaign Classic을 사용하면 사용자 지정 고객 테이블을 작성할 수 있습니다. 그러나 대부분의 경우 이미 사전 빌드된 추가 테이블 및 기능이 있는 표준 [수신자 테이블](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"}(Campaign v8 설명서)을 활용하는 것이 좋습니다.
 
 ### Adobe Campaign용 데이터 {#data-for-campaign}
 

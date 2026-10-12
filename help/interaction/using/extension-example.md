@@ -21,12 +21,14 @@ feature_v2:
     internal-label: Interaction
   - id: ea08db70-4682-59a2-9408-9aedd9548e07
     internal-label: Offers
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '165'
 ht-degree: 3%
 ---
 # 확장 예제{#extension-example}
@@ -47,4 +49,4 @@ ht-degree: 3%
 
   ![](assets/s_ncs_configuration_offer_context.png)
 
-* SOAP 호출을 구성할 때는 상호 작용 스키마에 추가된 컨텍스트 정보를 참조하도록 **context** XML 요소를 삽입합니다. 자세한 내용은 [SOAP을 통한 통합(서버측)](../../interaction/using/integration-via-soap-server-side.md)을 참조하세요.
+* SOAP 호출을 구성할 때는 상호 작용 스키마에 추가된 컨텍스트 정보를 참조하도록 **context** XML 요소를 삽입합니다. 자세한 내용은 [SOAP을 통한 통합(서버측)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/inbound/interaction-integration){target="_blank"}(Campaign v8 설명서)을 참조하십시오.

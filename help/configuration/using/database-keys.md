@@ -28,122 +28,18 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 2%
+source-wordcount: '591'
+ht-degree: 1%
 ---
 # 스키마의 키 관리 {#management-of-keys}
 
-데이터 스키마와 연결된 각 테이블에는 테이블의 레코드를 식별하기 위한 하나 이상의 키가 있어야 합니다.
+데이터 스키마와 연결된 각 테이블에는 테이블의 레코드를 식별하기 위한 하나 이상의 키가 있어야 합니다. 이 페이지에서는 Campaign Classic v7 테이블에 사용되는 자동 증분 키에 대해 설명합니다.
 
-데이터 스키마의 주 요소에서 키가 선언됩니다.
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 키 관리에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/database-keys){target=_blank}를 참조하세요.
 
-```sql
-<key name="name_of_key">
-  <keyfield xpath="xpath_of_field1"/>
-  <keyfield xpath="xpath_of_field2"/>
-  ...
-</key>
-```
-
-스키마에서 처음 채울 때 또는 &quot;true&quot;로 설정된 `internal` 특성이 포함된 경우 키를 &#39;기본 키&#39;라고 합니다.
-
-키에는 다음 규칙이 적용됩니다.
-
-* 키는 테이블에서 하나 이상의 필드를 참조할 수 있습니다
-* 고유 인덱스는 각 키 정의에 대해 암시적으로 선언됩니다. `noDbIndex` 특성을 &quot;true&quot;로 설정하여 키에 인덱스를 만들 수 없습니다.
-
->[!NOTE]
->
->* 표준으로 키는 인덱스가 정의된 후 스키마의 기본 요소에서 선언되는 요소입니다.
->
->* 테이블 매핑(표준 또는 FDA) 중에 키가 생성되면 Adobe Campaign은 고유한 색인을 찾습니다.
-
-**예**:
-
-* 이메일 주소 및 구/군/시에 키 추가:
-
-  ```sql
-  <srcSchema name="recipient" namespace="cus">
-    <element name="recipient">
-      <key name="email">
-        <keyfield xpath="@email"/> 
-        <keyfield xpath="location/@city"/> 
-      </key>
-  
-      <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
-      <element name="location" label="Location">
-        <attribute name="city" type="string" length="50" label="City" userEnum="city"/>
-      </element>
-    </element>
-  </srcSchema>
-  ```
-
-  생성된 스키마:
-
-  ```sql
-  <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
-    <element name="recipient" sqltable="CusRecipient">    
-     <dbindex name="email" unique="true">      
-       <keyfield xpath="@email"/>      
-       <keyfield xpath="location/@city"/>    
-     </dbindex>    
-  
-     <key name="email">      
-      <keyfield xpath="@email"/>      
-      <keyfield xpath="location/@city"/>    
-     </key>    
-  
-     <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
-     <element label="Location" name="location">      
-       <attribute label="City" length="50" name="city" sqlname="sCity" type="string" userEnum="city"/>    
-     </element>  
-    </element>
-  </schema>
-  ```
-
-* &quot;id&quot; 이름 필드에 기본 키 또는 내부 키 추가:
-
-  ```sql
-  <srcSchema name="recipient" namespace="cus">
-    <element name="recipient">
-      <key name="id" internal="true">
-        <keyfield xpath="@id"/> 
-      </key>
-  
-      <key name="email" noDbIndex="true">
-        <keyfield xpath="@email"/> 
-      </key>
-  
-      <attribute name="id" type="long" label="Identifier"/>
-      <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
-    </element>
-  </srcSchema>
-  ```
-
-  생성된 스키마:
-
-  ```sql
-  <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
-    <element name="recipient" sqltable="CusRecipient">    
-      <key name="email">      
-        <keyfield xpath="@email"/>    
-      </key>    
-  
-      <dbindex name="id" unique="true">      
-        <keyfield xpath="@id"/>    
-      </dbindex>    
-  
-      <key internal="true" name="id">      
-       <keyfield xpath="@id"/>    
-      </key>    
-  
-      <attribute label="Identifier" name="id" sqlname="iRecipientId" type="long"/>    
-      <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>  
-    </element>
-  </schema>
-  ```
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/database-keys){target=_blank}
 
 ## 자동 증분 키 {#auto-incremental-key}
 
@@ -207,5 +103,5 @@ Adobe Campaign 스키마에서 참조된 시퀀스(예: **NmsTrackingLogId**)는
 * [스키마 시작하기](about-schema-reference.md)
 * [스키마 구조](schema-structure.md)
 * [데이터베이스 매핑](database-mapping.md)
-* [링크 관리](database-links.md)
-* [Campaign 데이터 모델](about-data-model.md)
+* [링크 관리](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/database-links){target="_blank"}(Campaign v8 설명서)
+* [Campaign 데이터 모델](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}(Campaign v8 설명서)

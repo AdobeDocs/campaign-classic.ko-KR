@@ -21,6 +21,10 @@ feature_v2:
     internal-label: Profiles and audiences
   - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
     internal-label: Security and privacy
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
     internal-label: Profiles
@@ -37,10 +41,10 @@ subfeature_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 94%
+source-wordcount: '610'
+ht-degree: 86%
 ---
 # 개인 정보 판매 옵트아웃(CCPA) {#sale-of-personal-information-ccpa}
 
@@ -66,7 +70,7 @@ Adobe Campaign이 제공하는 [동의 관리](privacy-management.md#consent-man
 
 사용자 지정 수신자 테이블을 사용하는 경우 이 작업도 수행해야 합니다.
 
-새 필드를 만드는 방법에 대한 자세한 내용은 [스키마 버전 설명서](../../configuration/using/about-schema-edition.md)를 참조하십시오.
+새 필드를 만드는 방법에 대한 자세한 내용은 [스키마 버전 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}(Campaign v8 설명서)를 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -84,7 +88,7 @@ Adobe Campaign이 제공하는 [동의 관리](privacy-management.md#consent-man
 
    ![](assets/privacy-ccpa-3.png)
 
-1. 탐색기의 **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]** 노드를 클릭합니다. **[!UICONTROL Recipient (nms)]**&#x200B;의 &quot;일반 패키지&quot;에서 `<input>` 요소를 추가하고 2단계에서 정의된 상대 경로인 xpath 값에 사용합니다. 양식 식별에 대한 자세한 내용은 [이 섹션](../../configuration/using/identifying-a-form.md)을 참조하십시오.
+1. 탐색기의 **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]** 노드를 클릭합니다. **[!UICONTROL Recipient (nms)]**&#x200B;의 &quot;일반 패키지&quot;에서 `<input>` 요소를 추가하고 2단계에서 정의된 상대 경로인 xpath 값에 사용합니다. 양식 식별에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}(Campaign v8 설명서)을 참조하십시오.
 
    ```
    <input  colspan="2" type="checkbox" xpath="@OPTOUTCCPA"/>

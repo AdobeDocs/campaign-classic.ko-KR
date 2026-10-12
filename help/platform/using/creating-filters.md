@@ -13,6 +13,10 @@ product_v2:
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
     internal-label: Profiles and audiences
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
     internal-label: Profiles
@@ -22,7 +26,7 @@ subfeature_v2:
     internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 4%
@@ -33,7 +37,7 @@ ht-degree: 4%
 
 홈 페이지의 **[!UICONTROL Explorer]** 메뉴에서 Adobe Campaign 트리를 탐색하면 데이터베이스에 포함된 데이터가 목록에 표시됩니다. 이러한 목록은 연산자가 필요로 하는 데이터만 표시하도록 구성할 수 있다. 그런 다음 필터링된 데이터에 대해 작업을 실행할 수 있습니다. 필터 구성을 통해 **[!UICONTROL dynamically]** 목록에서 데이터를 선택할 수 있습니다. 데이터가 수정되면 필터링된 데이터가 업데이트됩니다.
 
-[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}에서 **필터 및 사용 방법**&#x200B;에 대해 자세히 알아보세요.
+[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}에서 **필터 및 사용 방법**&#x200B;에 대해 자세히 알아보세요.
 
 
 <!--
@@ -209,7 +213,7 @@ Advanced filters can use functions; **filters with functions** are created via a
 
       >[!NOTE]
       >
-      >For an example of filter creation based on an expression, refer to [this section](../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is).
+      >For an example of filter creation based on an expression, refer to [this section](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email#identifying-recipients-whose-birthday-it-is){target="_blank"} (Campaign v8 documentation).
 
 ## Save a filter {#saving-a-filter}
 
@@ -245,7 +249,7 @@ Select a filter to display its definition and to access a preview of the filtere
 
 >[!NOTE]
 >
->For a detailed example of predefined filter creation, refer to [Use case](../../platform/using/use-case.md).
+>For a detailed example of predefined filter creation, refer to [Use case](creating-filters.md).
 
 The predefined filters are:
 

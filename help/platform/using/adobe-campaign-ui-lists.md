@@ -16,6 +16,8 @@ feature_v2:
     internal-label: Profiles and audiences
   - id: a658c786-869b-4194-a780-2594d663adda
     internal-label: Data management
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
     internal-label: Profiles
@@ -28,7 +30,7 @@ subfeature_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 0%
@@ -41,7 +43,7 @@ Campaign 클라이언트 콘솔에서 데이터가 목록에 표시됩니다. �
 
 >[!NOTE]
 >
->Adobe Campaign에서 목록을 관리하고 사용자 지정하는 방법에 대해 알아보려면 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}를 참조하세요.
+>Adobe Campaign에서 목록을 관리하고 사용자 지정하는 방법에 대해 알아보려면 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}를 참조하세요.
 
 <!--
 ## Count records {#counting-records}
@@ -111,7 +113,7 @@ Another way to add columns, for example if you want to display data which is not
    >
    >Fields are identified by specific icons: SQL fields, linked tables, calculated fields, etc. For each field selected, the description is displayed under the list of available fields. [Learn more](#configuring-lists).  
    >
-   >You can also sort and filter data. See [this section](../../platform/using/filtering-options.md).
+   >You can also sort and filter data. See [this section](creating-filters.md).
 
 1. Repeat for each column to be displayed.
 1. Use the arrows to modify the **display order**. The highest column will be on the left in the list of records.

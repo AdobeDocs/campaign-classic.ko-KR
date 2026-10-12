@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1211'
 ht-degree: 0%
 ---
 # 사용 사례: 콘텐츠 관리 만들기{#use-case-creating-content-management}
@@ -82,7 +82,7 @@ Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합
 
 >[!NOTE]
 >
->Adobe Campaign에서 데이터 스키마를 만들고 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../configuration/using/about-schema-edition.md)을 참조하세요.
+>Adobe Campaign에서 데이터 스키마를 만들고 구성하는 방법에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}(Campaign v8 설명서)을 참조하십시오.
 >
 >콘텐츠 관리와 관련된 구성 요소는 [데이터 스키마](data-schemas.md)에 자세히 설명되어 있습니다.
 
@@ -194,7 +194,7 @@ Adobe Campaign에서 컨텐츠 관리를 만들려면 다음 단계가 필요합
 
 >[!NOTE]
 >
->Adobe Campaign에서 양식을 만들고 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../configuration/using/identifying-a-form.md)을 참조하세요.
+>Adobe Campaign에서 양식을 만들고 구성하는 방법에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}(Campaign v8 설명서)을 참조하십시오.
 >
 >콘텐츠 관리와 관련된 구성 요소는 [입력 양식](input-forms.md)에 자세히 설명되어 있습니다.
 

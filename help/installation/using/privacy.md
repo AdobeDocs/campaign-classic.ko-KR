@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 4%
+source-wordcount: '912'
+ht-degree: 3%
 ---
 # 개인화 및 개인 정보 보호 {#privacy}
 
@@ -117,7 +117,7 @@ URL 서명을 활성화하려면 모든 Campaign 서버에서 동시에 다음 �
 
 권한이 낮은 인증된 사용자가 암호화된 암호에 액세스할 수 없도록 해야 합니다. 이렇게 하려면 암호 필드에만 또는 전체 엔터티(빌드 >= 8770 필요)에 대한 액세스를 제한하십시오.
 
-이 제한 사항을 사용하면 암호 필드를 제거할 수 있지만 모든 사용자의 인터페이스에서 외부 계정에 액세스할 수 있습니다. [자세히 알아보기](../../configuration/using/restricting-pii-view.md).
+이 제한 사항을 사용하면 암호 필드를 제거할 수 있지만 모든 사용자의 인터페이스에서 외부 계정에 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/restrict-pi-view){target="_blank"}(Campaign v8 설명서).
 
 이렇게 하려면 아래 단계를 수행합니다.
 

@@ -15,6 +15,8 @@ product_v2:
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
     internal-label: Release notes
@@ -31,7 +33,7 @@ topic_v2:
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 4bc1e76d129c6a6aa15b7e3915232043bd6f4286
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 100%
@@ -181,7 +183,7 @@ Adobe 팀이 사용자의 조직에 업그레이드 여정을 안내해 드리�
 ## 추가 리소스{#support}
 
 * [Campaign 버전을 확인합니다](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
-* [도움말 및 지원](../../support.md)
+* [도움말 및 지원](../../campaign-classic-home.md)
 * [컨트롤 패널 릴리스](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko)
 * [사용되지 않거나 제거된 기능](../../rn/using/deprecated-features.md)
 * [빌드 업그레이드 FAQ](../../platform/using/faq-build-upgrade.md)

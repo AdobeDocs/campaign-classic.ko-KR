@@ -18,6 +18,8 @@ feature_v2:
     internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
     internal-label: Prepare and test messages
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -28,9 +30,9 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '866'
 ht-degree: 3%
 ---
 # 활용 사례: 기준 시드 주소 선택{#use-case-selecting-seed-addresses-on-criteria}
@@ -63,7 +65,7 @@ ht-degree: 3%
 
 ### 데이터 스키마 확장 {#extending-the-data-schema}
 
-스키마 확장에 대한 자세한 내용은 [이 섹션](../../configuration/using/data-schemas.md)을 참조하세요.
+스키마 확장에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 1. **[!UICONTROL Administration > Configuration > Data schemas]** 노드에서 **[!UICONTROL New]** 아이콘을 클릭합니다.
 1. **[!UICONTROL Creation of a data schema]** 창에서 **[!UICONTROL Extension of a schema]** 옵션을 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.

@@ -21,6 +21,8 @@ feature_v2:
     internal-label: Prepare and test messages
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -35,16 +37,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 86e1df82ff7fe9142b0ba75b697d3262e8d7a9d5
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1567'
 ht-degree: 11%
 ---
 # 게재 구성 및 보내기 {#configuring-and-sending-the-delivery}
 
 ## 권한{#delivery-permissions}
 
-게재 소유자만 게재를 시작할 수 있습니다. 다른 연산자(또는 연산자 그룹)가 게재를 시작하려면 **[!UICONTROL Delivery start:]** 필드에 검토자로 추가하십시오. [자세히 알아보기](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
+게재 소유자만 게재를 시작할 수 있습니다. 다른 연산자(또는 연산자 그룹)가 게재를 시작하려면 **[!UICONTROL Delivery start:]** 필드에 검토자로 추가하십시오. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval#select-reviewers){target="_blank"}(Campaign v8 설명서).
 
 ## 게재 추가 매개 변수 {#delivery-additiona-parameters}
 

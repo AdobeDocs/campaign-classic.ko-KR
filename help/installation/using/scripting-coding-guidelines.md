@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '786'
 ht-degree: 5%
 ---
 # 스크립팅 및 코딩 지침 {#scripting-coding-guidelines}
@@ -96,7 +96,7 @@ SQL 주입을 방지하려면 Adobe Campaign에서 사용할 SQL 함수를 SQL �
 
 폴더 기반 보안 모델 외에도 명명된 권한을 사용하여 연산자 작업을 제한할 수 있습니다.
 
-* 데이터를 읽거나 쓰지 못하도록 일부 시스템 필터(sysFilter)를 추가할 수 있습니다([이 페이지](../../configuration/using/filtering-schemas.md) 참조).
+* 데이터를 읽거나 쓰지 못하도록 일부 시스템 필터(sysFilter)를 추가할 수 있습니다([이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/filter-schema){target="_blank"} 참조)(Campaign v8 설명서).
 
   ```
   <sysFilter name="writeAccess">    

@@ -20,6 +20,8 @@ feature_v2:
     internal-label: Prepare and test messages
   - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
     internal-label: Email
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -32,7 +34,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 912ece3122704a20ea9f7f69163a64d71f9a13c5
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 3%
@@ -56,8 +58,8 @@ ht-degree: 3%
 
 다음 섹션에서는 전자 메일 게재와 관련된 설정 및 구성에 대해 자세히 설명합니다.
 <!--
-* [Generating the mirror page](generating-mirror-page.md)
-* [Email BCC](email-bcc.md)
+* [Generating the mirror page](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/emails/mirror-page){target="_blank"} (Campaign v8 documentation)
+* [Email BCC](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/emails/email-bcc){target="_blank"} (Campaign v8 documentation)
 -->
 * [이메일 매개변수](email-parameters.md)
 * [Enhanced MTA로 이메일 보내기](sending-with-enhanced-mta.md)

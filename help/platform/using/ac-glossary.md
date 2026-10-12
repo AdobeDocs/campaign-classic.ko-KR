@@ -20,6 +20,8 @@ feature_v2:
     internal-label: Profiles and audiences
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
     internal-label: Profiles
@@ -48,9 +50,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '6654'
+source-wordcount: '6917'
 ht-degree: 4%
 ---
 # Adobe Campaign 용어{#ac-glossary}
@@ -125,7 +127,7 @@ Learn more about [ACS Connector](../../integrations/using/acs-connector-principl
 
 Campaigns that run on a schedule, such as for targeting recipients who have a birthday or an anniversary. Can also be used to execute look-ahead and look-back logic, such as who purchased yesterday or who has a payment due tomorrow.
 
-Learn more about [Campaigns](../../campaign/using/designing-marketing-campaigns.md).
+Learn more about [Campaigns](https://experienceleague.adobe.com/ko/docs/campaign/automation/campaign-orchestration/set-up-campaigns){target="_blank"} (Campaign v8 documentation).
 +++
 -->
 
@@ -206,14 +208,14 @@ Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결�
 
 Adobe Campaign에는 다양한 패키지 설치를 통해 데이터 유형을 정의하는 사전 정의된 데이터 모델이 포함되어 있습니다. 연산자는 리소스를 확장하여 제공되는 데이터 모델을 보강하여 트랜잭션 또는 제품 테이블과 같은 사용자 지정 필드 또는 사용자 지정 테이블을 추가할 수 있습니다.
 
-[사용자 지정 리소스](../../configuration/using/about-schema-edition.md)에 대해 자세히 알아보세요.
+[사용자 지정 리소스](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 +++
 
 +++**데이터 모델**
 
 Campaign 데이터 모델은 데이터 유형 및 해당 관계(링크)를 정의하는 스키마 세트입니다. 데이터 모델은 실제 데이터가 포함된 데이터베이스로 물리적으로 구현된 추상적인 정의입니다.
 
-[데이터 모델](../../configuration/using/about-data-model.md)에 대해 자세히 알아보세요.
+[데이터 모델](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 +++
 
 +++**데이터베이스 정리 워크플로**
@@ -428,7 +430,7 @@ Federated Data Access는 타사 데이터베이스를 포함하도록 클라이�
 
 파일 추출 승인은 DM(Direct Mail) 게재와 같이, 추출한 파일을 외부 공급업체에 보내기 전에 별도의 운영자 또는 운영자 그룹이 해당 파일의 내용과 구성을 승인하도록 하는 프로세스입니다.
 
-[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html#validating){target="_blank"}에서 파일 추출 승인에 대해 자세히 알아보세요.
+[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html?lang=ko#validating){target="_blank"}에서 파일 추출 승인에 대해 자세히 알아보세요.
 +++
 
 +++**차원 필터링**
@@ -457,7 +459,7 @@ Federated Data Access는 타사 데이터베이스를 포함하도록 클라이�
 
 Forms은 특정 스키마 유형에 대한 인터페이스 표현을 정의합니다. Forms은 수신자, 게재 및 캠페인과 같이 제품에서 데이터 요소를 쉽게 만들고 편집하는 데 사용되는 수단입니다. Adobe Campaign의 모든 인터페이스 요소는 Forms을 사용하여 제품 자체에서 만들어집니다. 양식은 선택 사항이며 모든 스키마에 양식이 있는 것은 아닙니다.
 
-[Forms](../../configuration/using/identifying-a-form.md)에 대해 자세히 알아보세요.
+[Forms](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 +++
 
 <!--
@@ -517,7 +519,7 @@ Learn more about [Image serving](../../delivery/using/defining-the-email-content
 
 인바운드 상호 작용은 웹, 콜 센터 또는 모바일과 같은 채널에서 연락처의 동작으로 생성된 수신 전화 다음에 이어지는 상호 작용입니다. 이러한 유형의 상호 작용은 일반적으로 단일 모드에서(즉, 수신자마다) 처리된다.
 
-[인바운드 상호 작용](../../interaction/using/about-inbound-channels.md)에 대해 자세히 알아보세요.
+[인바운드 상호 작용](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 +++
 
 +++**받은 편지함 렌더링**
@@ -586,7 +588,7 @@ This template type is used to manage multilingual messages.  It is available for
 
 네임스페이스는 데이터 모델에서 고객 데이터 유형을 Adobe Campaign의 기본 데이터 유형과 구분하는 파티션입니다. 개발 인스턴스에서 프로덕션 인스턴스로 스키마 또는 템플릿을 이동하는 것과 같이 한 인스턴스에서 다른 인스턴스로 정의를 쉽게 마이그레이션하는 데에도 사용됩니다.
 
-[네임스페이스](../../configuration/using/about-schema-reference.md#identification-of-a-schema)에 대해 자세히 알아보세요.
+[네임스페이스](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/schemas#identification-of-a-schema){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 +++
 
 <!--
@@ -622,7 +624,7 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 오퍼 카탈로그는 Adobe Campaign에 정의된 오퍼 세트로 상호 작용 중에 선택할 수 있습니다. 카탈로그는 카테고리에 해당하는 각 노드와 계층적으로 구성됩니다.
 
-[오퍼 카탈로그](../../interaction/using/offer-catalog-overview.md)에 대해 자세히 알아보세요.
+[오퍼 카탈로그](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-offer-catalog){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 +++
 
 +++**오퍼 연락처**
@@ -643,7 +645,7 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 오퍼 **디자인 환경**&#x200B;은(는) 운영자가 오퍼를 만들고, 유형화 규칙을 정의하고, 오퍼가 타깃팅할 스키마를 선택하는 환경입니다. 생성된 오퍼 제안을 저장하는 테이블은 환경에 의해서도 정의됩니다. 기본적으로 상호 작용 추가 기능에는 **디자인** 환경 및 **라이브** 환경이 연결되어 있습니다. 두 환경 모두 기본 제공 수신자 테이블을 타겟팅하도록 사전 구성되어 있습니다.
 
-[오퍼 디자인 환경](../../interaction/using/fundamental-principles.md)에 대해 자세히 알아보세요.
+[오퍼 디자인 환경](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-architecture){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 +++
 
 +++**오퍼 엔진 중재**
@@ -670,7 +672,7 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 오퍼 환경은 오퍼 카탈로그, 사용 가능한 공간 및 환경의 사전 정의된 필터를 정의하는 루트 폴더입니다. 연산자는 각 타겟팅 차원에 대해 하나의 환경을 생성해야 합니다. 오퍼 환경에는 디자인과 라이브의 두 가지 유형이 있습니다.
 
-[오퍼 환경](../../interaction/using/fundamental-principles.md)에 대해 자세히 알아보세요.
+[오퍼 환경](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-architecture){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 +++
 
 +++**라이브 환경 제공**
@@ -679,7 +681,7 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 Offer Live 환경이 Campaign **디자인 환경**&#x200B;에 연결되어 있습니다. **디자인 환경**&#x200B;을 통해 콘텐츠 및 자격이 승인된 읽기 전용 오퍼가 포함되어 있습니다. 웹 사이트에 프레젠테이션하거나 아웃바운드 메시지에 삽입하도록 선택할 수 있습니다.
 
-[라이브 환경 제공](../../interaction/using/fundamental-principles.md)에 대해 자세히 알아보세요.
+[라이브 환경 제공](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-architecture){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 +++
 
 +++**오퍼 표시 규칙**
@@ -697,7 +699,7 @@ Offer Live 환경이 Campaign **디자인 환경**&#x200B;에 연결되어 있�
 
 폴더에 표시되는 오퍼의 미리보기입니다. 오퍼 미리보기 탭 또는 연락처 프로필에서 액세스할 수 있습니다.
 
-[오퍼 미리 보기](../../interaction/using/creating-an-offer.md#previewing-the-offer)에 대해 자세히 알아보세요.
+[오퍼 미리 보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-offer#previewing-the-offer){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 +++
 
 +++**오퍼 제안**
@@ -706,7 +708,7 @@ Offer Live 환경이 Campaign **디자인 환경**&#x200B;에 연결되어 있�
 
 오퍼 제안은 주어진 오퍼 공간(예: 웹 사이트의 배너, 이메일 또는 SMS 콘텐츠)에서 담당자에게 오퍼를 제시하는 것으로 구성된 작업의 결과입니다. 이 결과는 오퍼, 수신자 및 타임스탬프를 정의하는 오퍼 제안 테이블에 저장되며, 수신자가 받은 모든 오퍼에 대한 레코드를 제공합니다.
 
-[오퍼 제안](../../interaction/using/creating-offer-spaces.md#offer-proposition-statuses)에 대해 자세히 알아보세요.
+[제안](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces#offer-proposition-statuses){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 +++
 
 +++**오퍼 표시**
@@ -733,7 +735,7 @@ Offer Live 환경이 Campaign **디자인 환경**&#x200B;에 연결되어 있�
 
 오퍼 공간은 오퍼가 노출되는 위치를 정의하는 폴더입니다. 공간을 정의하면 사용되는 채널을 지정하고, 오퍼의 콘텐츠를 작성하고, 제공된 오퍼를 지정할 수 있습니다. 오퍼 공간은 채널과 오퍼 엔진 간의 인터페이스입니다.
 
-[오퍼 스페이스](../../interaction/using/creating-offer-spaces.md)에 대해 자세히 알아보세요.
+[오퍼 공간](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 +++
 
 +++**오퍼 테마**
@@ -742,7 +744,7 @@ Offer Live 환경이 Campaign **디자인 환경**&#x200B;에 연결되어 있�
 
 오퍼 테마는 카테고리에 정의된 키워드이며, 이를 통해 운영자는 오퍼가 표시될 때 오퍼를 필터링할 수 있습니다. 테마를 사용하면 카탈로그 구조에서 오퍼를 계층적이지 않게 선택할 수 있습니다.
 
-[오퍼 테마](../../interaction/using/integrating-an-offer-via-the-wizard.md)에 대해 자세히 알아보세요.
+[오퍼 테마](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 +++
 
 +++**오퍼 가중치**
@@ -751,7 +753,7 @@ Offer Live 환경이 Campaign **디자인 환경**&#x200B;에 연결되어 있�
 
 오퍼 가중치는 엔진에서 가장 연관성이 높은 오퍼를 선택할 수 있도록 오퍼의 관련성을 정확하게 정의하는 수식을 기반으로 합니다. 가중치는 오퍼에 정의되어 있으며 승수는 카테고리에 정의되어 있습니다. 적격 오퍼는 체중 감소 순서로 고려됩니다.
 
-[오퍼 가중치](../../interaction/using/creating-an-offer.md#offer-weight)에 대해 자세히 알아보세요.
+[오퍼 가중치](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-offer#offer-weight){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 +++
 
 +++**연산자**
@@ -781,7 +783,7 @@ Offer Live 환경이 Campaign **디자인 환경**&#x200B;에 연결되어 있�
 
 아웃바운드 상호 작용은 연락처 목록에서 상호 작용 엔진에 대한 호출입니다(이메일, DM 등을 게재하는 데 사용됨). 각 연락처에 대해 동일한 규칙과 프로세스가 적용됩니다. 이러한 유형의 상호 작용은 일반적으로 배치 모드에서 처리됩니다.
 
-[아웃바운드 상호 작용](../../interaction/using/about-outbound-channels.md)에 대해 자세히 알아보세요.
+[아웃바운드 상호 작용](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 +++
 
 +++**패키지 내보내기/가져오기**
@@ -893,7 +895,7 @@ Adobe Campaign의 공개 리소스 폴더에는 애플리케이션 서버가 호
 
 Adobe Campaign에서 수신자는 게재(이메일, SMS 등)를 전송할 타겟팅된 기본 프로필입니다 고객에게 전달합니다. 데이터베이스에 저장된 수신자 데이터를 사용하면 타겟을 필터링하고 개인화 데이터를 추가할 수 있습니다. 일반적으로 개인, 연락처, 인구 통계학적 및 트랜잭션 정보이지만, 마케팅 및 분석을 지원하는 모든 유형의 정보일 수 있습니다.
 
-[받는 사람](../../configuration/using/about-data-model.md)에 대해 자세히 알아보세요.
+[받는 사람](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 +++
 
 +++**렌더링 함수**
@@ -902,7 +904,7 @@ Adobe Campaign에서 수신자는 게재(이메일, SMS 등)를 전송할 타겟
 
 렌더링 함수는 오퍼 공간에서 정의됩니다. 오퍼에 정의된 속성을 기반으로 오퍼 표현을 구성하는 데 사용됩니다. 렌더링 함수 모드에는 HTML, XML 및 텍스트의 세 가지 렌더링 함수 모드가 있습니다.
 
-[렌더링 함수](../../interaction/using/creating-offer-spaces.md)에 대해 자세히 알아보세요.
+[렌더링 함수](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 +++
 
 <!--
@@ -1051,7 +1053,7 @@ Learn more about [Total database storage](../../workflow/using/about-workflows.m
 
 추적 기술 워크플로우는 게재가 전송되고 추적이 활성화되면 추적 데이터를 검색합니다. 이 데이터는 게재의 추적 탭에서 찾을 수 있습니다. 이메일의 열람 및 클릭 또는 수신자가 받은 메시지와의 기타 상호 작용에 대한 정보를 찾을 수 있습니다.
 
-[Campaign v8의 추적 로그](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracking-logs){target="_blank"}에 대해 자세히 알아보세요.
+[Campaign v8의 추적 로그](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/tracking-logs){target="_blank"}에 대해 자세히 알아보세요.
 +++
 
 +++**트랜잭션 메시지**
@@ -1105,7 +1107,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 
 단일 모드에서 단일 연락처는 런타임 시 오퍼 엔진에 의해 처리됩니다. 이 모드는 일반적으로 인바운드 상호 작용 및 트랜잭션 메시지에 사용됩니다.
 
-[단일 모드](../../interaction/using/about-inbound-channels.md)에 대해 자세히 알아보세요.
+[단일 모드](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 +++
 
 +++**웹 응용 프로그램**

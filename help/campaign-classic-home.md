@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 79%
 ---
 # Campaign Classic v7 설명서 {#campaign-classic-documentation}
 
@@ -109,7 +109,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>고객 경험</strong><br/><a href="workflow/using/about-workflows.md">워크플로를 사용한 자동화</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko" target="_blank">마케팅 캠페인</a> - <a href="interaction/using/interaction-and-offer-management.md">상호 작용 및 오퍼 관리</a> - <a href="delivery/using/about-personalization.md">개인화</a> - <a href="reporting/using/about-adobe-campaign-reporting-tools.md">보고</a>
+      <strong>고객 경험</strong><br/><a href="workflow/using/about-workflows.md">워크플로우 자동화</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko" target="_blank">마케팅 캠페인</a> - <a href="interaction/using/interaction-and-offer-management.md">상호 작용 및 오퍼 관리</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank">보고</a>(Campaign v8 설명서)
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
@@ -131,7 +131,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
       <br/>
-      <strong>개발자 리소스</strong><br/><a href="configuration/using/about-data-model.md">데이터 모델 설명</a> - <a href="configuration/using/about-schema-reference.md">스키마 구조</a> - <a href="configuration/using/editing-forms.md">스키마 구조</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/ko/tools/campaign-api">JSAPI 참조 설명서</a> - <a href="configuration/using/about-custom-recipient-table.md">사용자 정의 수신자 테이블</a>
+      <strong>개발자 리소스</strong><br/><a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/datamodel" target="_blank">데이터 모델 설명</a>(Campaign v8 설명서) - <a href="configuration/using/about-schema-reference.md">스키마 구조</a> - <a href="configuration/using/editing-forms.md">스키마 구조</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/ko/tools/campaign-api">JSAPI 참조 설명서</a> - <a href="configuration/using/about-custom-recipient-table.md">사용자 지정 수신자 테이블</a>
     </td>
   </tr>
 </table>

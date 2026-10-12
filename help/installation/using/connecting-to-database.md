@@ -30,9 +30,9 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '658'
 ht-degree: 1%
 ---
 # 데이터베이스에 연결 {#connecting-to-the-database}
@@ -126,4 +126,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Adobe Campaign에서 스키마를 만들고 새 데이터 매핑을 정의하는 방법에 대한 자세한 내용은 [이 페이지](../../configuration/using/about-schema-edition.md)를 참조하십시오.
+>Adobe Campaign에서 스키마를 만들고 새 데이터 매핑을 정의하는 방법에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}(Campaign v8 설명서)를 참조하십시오.

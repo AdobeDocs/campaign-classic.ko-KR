@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
 workflow-type: tm+mt
 source-wordcount: '1959'
 ht-degree: 7%
@@ -345,7 +345,7 @@ Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하려면 **[!UICONTROL 
 
 **[!UICONTROL Microsoft Dynamics CRM]** 외부 계정을 사용하면 Microsoft Dynamics 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다.
 
-이 [페이지](../../platform/using/crm-ms-dynamics.md)에서 Campaign - Microsoft Dynamics CRM 커넥터에 대해 자세히 알아보세요.
+이 [페이지](../../platform/using/crm-connectors.md)에서 Campaign - Microsoft Dynamics CRM 커넥터에 대해 자세히 알아보세요.
 
 **[!UICONTROL Web API]** 배포 유형 및 **[!UICONTROL Password credentials]** 인증을 사용하는 경우 다음 세부 정보를 제공해야 합니다.
 

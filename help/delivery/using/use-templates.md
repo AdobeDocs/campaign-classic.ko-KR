@@ -21,6 +21,8 @@ feature_v2:
     internal-label: Prepare and test messages
   - id: fc09322a-8f3d-5905-be3d-96adfa806a40
     internal-label: Delivery Templates
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -33,9 +35,9 @@ subfeature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 86e1df82ff7fe9142b0ba75b697d3262e8d7a9d5
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '620'
 ht-degree: 1%
 ---
 # 템플릿 사용 {#use-templates}
@@ -80,7 +82,7 @@ Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 따르
 
 ### 컨트롤 그룹 설정
 
-게재가 전송되면 제외된 수신자의 행동을 게재를 받은 수신자와 비교할 수 있습니다. 그런 다음 캠페인의 효율성을 측정할 수 있습니다. 컨트롤 그룹 [이 섹션](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)에 대해 자세히 알아보세요.
+게재가 전송되면 제외된 수신자의 행동을 게재를 받은 수신자와 비교할 수 있습니다. 그런 다음 캠페인의 효율성을 측정할 수 있습니다. 컨트롤 그룹 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#add-a-control-group){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 
 컨트롤 그룹을 설정하려면 **[!UICONTROL To]** 링크를 클릭하십시오. **[!UICONTROL Select target]** 창에서 **[!UICONTROL Control group]** 탭을 선택합니다. 대상의 일부, 예를 들어 5% 무작위 샘플을 추출할 수 있다.
 
@@ -94,4 +96,4 @@ Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 따르
 
 예를 들어 아웃바운드 트래픽을 더 잘 제어하기 위해 하위 도메인당 하나의 선호도를 정의하고 선호도당 하나의 유형화를 만들어 사용할 수 있는 IP 주소를 정의할 수 있습니다. 관심도는 인스턴스의 구성 파일에 정의됩니다. Adobe Campaign 관리자에게 문의하십시오.
 
-유형화에 대한 자세한 내용은 [이 섹션](../../campaign-opt/using/about-campaign-typologies.md)을 참조하세요.
+유형화에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}(Campaign v8 설명서)을 참조하세요.

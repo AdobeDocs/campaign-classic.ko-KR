@@ -14,6 +14,8 @@ product_v2:
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
     internal-label: Schema extension
@@ -24,9 +26,9 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '702'
 ht-degree: 2%
 ---
 # 스키마 편집 사례{#examples-of-schemas-edition}
@@ -353,7 +355,7 @@ xtkschema="xtk:srcSchema">
 
 * [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}에서 **열거형으로 작업**&#x200B;하는 방법에 대해 자세히 알아보세요.
 
-* [Campaign 스키마 시작](../../configuration/using/about-schema-edition.md)
+* [Campaign 스키마 시작](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}(Campaign v8 설명서)
 
 * [데이터베이스 구조 업데이트](../../configuration/using/updating-the-database-structure.md)
 

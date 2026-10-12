@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 7%
+source-wordcount: '334'
+ht-degree: 4%
 ---
 # 시드 주소{#seed-addresses}
 
@@ -107,7 +107,7 @@ ht-degree: 7%
    >    
    >
 
-1. **[!UICONTROL Seed addresses]** 창에서 새 &quot;내부 수신자&quot; 탭을 정의하도록 **[!UICONTROL seedMember]** 양식을 적절하게 수정하십시오. 자세한 정보는 이 [페이지](../../configuration/using/form-structure.md)를 참조하십시오.
+1. **[!UICONTROL Seed addresses]** 창에서 새 &quot;내부 수신자&quot; 탭을 정의하도록 **[!UICONTROL seedMember]** 양식을 적절하게 수정하십시오. 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}(Campaign v8 설명서)를 참조하세요.
 
    ```
    <container colcount="2" label="Internal recipient" name="internal"
