@@ -162,7 +162,7 @@ Adobe Campaign은 이제 Windows Server 2019와 호환됩니다. [캠페인 호�
   Microsoft Dynamics Connector 웹 API에 대해 중요한 문제를 해결했습니다.
 
   * 워크플로에 의해 트리거된 가져오기 중에 문자열 유형 필드의 null 값이 빈 값 대신 Null로 저장되는 문제가 해결되었습니다.
-  * 웹 API 호출을 사용하여 데이터를 가져오거나 내보내는 데 다음 오류가 발생하는 문제를 수정했습니다. &amp;quot;잘못된 URI: URI 체계가 너무 깁니다.&amp;quot;
+  * 웹 API 호출을 사용하여 데이터를 가져오거나 내보내는 데 다음 오류가 발생하는 문제를 수정했습니다. &quot;잘못된 URI: URI 체계가 너무 깁니다.&quot;
   * Microsoft Dynamics 365에서 조회 필드가 포함된 데이터를 가져올 때 발생하는 다양한 문제를 해결했습니다.
 
 * Google BigQuery FDA Connector

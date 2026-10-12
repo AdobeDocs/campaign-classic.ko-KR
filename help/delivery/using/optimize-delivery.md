@@ -62,7 +62,7 @@ ht-degree: 9%
 
   **팁** - 이를 방지하려면 최상의 성능을 보장하도록 팀의 다른 구성원과 게재 일정을 조정하십시오.
 
-* 워크플로우 실행: 플랫폼 성능 문제를 방지하려면 워크플로우를 모니터링해야 합니다. 이 문서](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/workflow-best-practices#execution-and-performance){target="_blank"}에 [나열된 지침을 따르십시오(Campaign v8 설명서).
+* 워크플로우 실행: 플랫폼 성능 문제를 방지하려면 워크플로우를 모니터링해야 합니다. 이 문서[&#128279;](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/workflow-best-practices#execution-and-performance){target="_blank"}에 나열된 지침을 따르십시오(Campaign v8 설명서).
 
 * 자격이 있는 경우 [Campaign Campaign 컨트롤 패널 기능](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko)을 활용하여 [성능 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ko) 기능을 사용하여 플랫폼을 모니터링할 수 있습니다.
 
