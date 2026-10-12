@@ -8,9 +8,9 @@ user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: 4bc1e76d129c6a6aa15b7e3915232043bd6f4286
+source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1953'
 ht-degree: 100%
 ---
 
@@ -51,11 +51,7 @@ ht-degree: 100%
     + [개인 정보 판매 옵트아웃](platform/using/privacy-requests-ccpa.md)
   + 프로필 관리 {#profile-management}
     + [프로필 정보](platform/using/about-profiles.md)
-    + {hide-from-toc}[프로필 편집 - 숨김](platform/using/editing-a-profile.md)
-    + {hide-from-toc}[프로필 추가 - 숨김](platform/using/adding-profiles.md)
-    + {hide-from-toc}[프로필 관리 - 숨김](platform/using/managing-profiles.md)
     + [데이터 업데이트](platform/using/updating-data.md)
-    + {hide-from-toc}[프로필 가져오기 및 내보내기 - 숨김](platform/using/exporting-and-importing-profiles.md)
     + [목록 만들기 및 관리](platform/using/creating-and-managing-lists.md)
   + 데이터 가져오기 및 내보내기 {#importing-and-exporting-data}
     + [데이터 가져오기 및 내보내기 시작](platform/using/get-started-data-import-export.md)
@@ -75,9 +71,7 @@ ht-degree: 100%
       + [가져오기 및 내보내기 모범 사례](platform/using/import-export-best-practices.md)
       + [SFTP 서버 모범 사례 및 문제 해결](platform/using/sftp-server-usage.md)
   + 데이터 필터링 {#filtering-data}
-    + {hide-from-toc}[필터링 옵션 - 숨김](platform/using/filtering-options.md)
     + {hide-from-toc}[필터 만들기 - 숨김](platform/using/creating-filters.md)
-    + {hide-from-toc}[사용 사례 - 숨김](platform/using/use-case.md)
   + {hide-from-toc}[쿼리 만드는 단계 - 숨김](platform/using/steps-to-create-a-query.md)
   + {hide-from-toc}[필터 조건 정의 - 숨김](platform/using/defining-filter-conditions.md)
   + 권한 {#permissions}
@@ -86,12 +80,8 @@ ht-degree: 100%
       + [운영자 만들기 및 관리](platform/using/access-management-operators.md)
       + [그룹 만들기 및 관리](platform/using/access-management-groups.md)
     + [명명된 권한을 사용하여 사용 권한 설정](platform/using/access-management-named-rights.md)
-    + {hide-from-toc}[폴더 액세스 관리 - 숨김](platform/using/access-management-folders.md)
   + CRM 커넥터 {#connectors}
     + [CRM 커넥터 시작](platform/using/crm-connectors.md)
-    + {hide-from-toc}[Microsoft Dynamics 365와 연결](platform/using/crm-ms-dynamics.md)
-    + {hide-from-toc}[Salesforce.com과 연결](platform/using/crm-sfdc.md)
-    + {hide-from-toc}[CRM과 데이터 동기화](platform/using/crm-data-sync.md)
 + 메시지 만들기 및 보내기 {#sending-messages}
   + [메시지 시작](delivery/using/communication-channels.md)
   + {hide-from-toc}[게재 설정 - 숨김](delivery/using/delivery-settings.md)

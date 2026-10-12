@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 21%
@@ -61,9 +61,9 @@ Adobe Campaign을 사용하면 다양한 운영자에 할당된 권한을 정의
 
 >[!TAB 사용 권한 설명서]
 
-**Adobe Campaign의 권한**&#x200B;에 대한 자세한 내용은 **[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}**&#x200B;를 참조하세요.
+**Adobe Campaign의 권한**&#x200B;에 대한 자세한 내용은 **[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}**&#x200B;를 참조하세요.
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}
 
 
 >[!TAB 폴더에 대한 권한 관리]
@@ -97,8 +97,8 @@ There are two types of permissions you can grant to a user:
 
 >[!NOTE]
 >
-> * Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://helpx.adobe.com/kr/campaign/kb/acc-security.html).
-> * To learn more about permissions, please refer to the detailed explanation on the [Campaign v8 documentation](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}.
+> * Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://helpx.adobe.com/campaign/kb/acc-security.html).
+> * To learn more about permissions, please refer to the detailed explanation on the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}.
 
 Learn how to grant access and set up permissions in these sections:
 
@@ -108,16 +108,16 @@ Learn how to grant access and set up permissions in these sections:
 
 * [Add Named rights](access-management-named-rights.md)
 
-* [Manage Campaign folder access](access-management-folders.md)
+* [Manage Campaign folder access](access-management.md)
 
 * [Access rights matrix](access-management-named-rights.md#access-rights-matrix)
 
 
 See also:
 
-* [Manage permissions for workflows](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/advanced-management/managing-rights){target="_blank"} (Campaign v8 documentation)
-* [Manage permissions for distributed marketing](https://experienceleague.adobe.com/ko/docs/campaign/automation/distributed-marketing/about-distributed-marketing#operators-and-entities){target="_blank"} (Campaign v8 documentation)
-* [Manage permissions for the interaction module](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators){target="_blank"} (Campaign v8 documentation)
-* [Filter access to schemas](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/filter-schema){target="_blank"} (Campaign v8 documentation)
-* [Restricting PI view](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/restrict-pi-view){target="_blank"} (Campaign v8 documentation)
+* [Manage permissions for workflows](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/managing-rights){target="_blank"} (Campaign v8 documentation)
+* [Manage permissions for distributed marketing](https://experienceleague.adobe.com/en/docs/campaign/automation/distributed-marketing/about-distributed-marketing#operators-and-entities){target="_blank"} (Campaign v8 documentation)
+* [Manage permissions for the interaction module](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators){target="_blank"} (Campaign v8 documentation)
+* [Filter access to schemas](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/filter-schema){target="_blank"} (Campaign v8 documentation)
+* [Restricting PI view](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/restrict-pi-view){target="_blank"} (Campaign v8 documentation)
 -->

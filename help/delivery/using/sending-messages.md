@@ -58,8 +58,8 @@ ht-degree: 3%
 
 다음 섹션에서는 전자 메일 게재와 관련된 설정 및 구성에 대해 자세히 설명합니다.
 <!--
-* [Generating the mirror page](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/emails/mirror-page){target="_blank"} (Campaign v8 documentation)
-* [Email BCC](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/emails/email-bcc){target="_blank"} (Campaign v8 documentation)
+* [Generating the mirror page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/mirror-page){target="_blank"} (Campaign v8 documentation)
+* [Email BCC](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-bcc){target="_blank"} (Campaign v8 documentation)
 -->
 * [이메일 매개변수](email-parameters.md)
 * [Enhanced MTA로 이메일 보내기](sending-with-enhanced-mta.md)

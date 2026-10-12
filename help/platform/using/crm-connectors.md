@@ -38,7 +38,7 @@ subfeature_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 27%
@@ -56,7 +56,7 @@ Adobe Campaign은 Adobe Campaign 플랫폼을 타사 시스템에 연결하는 �
 >[!NOTE]
 >
 >* 이 기능은 **CRM 커넥터** 전용 패키지를 통해 Adobe Campaign에서 사용할 수 있습니다.
->* CRM 커넥터와 Microsoft Dynamics 및 Salesforce에 연결하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/ac-crm/crm){target=_blank}를 참조하세요.
+>* CRM 커넥터와 Microsoft Dynamics 및 Salesforce에 연결하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-crm/crm){target=_blank}를 참조하세요.
 
 <!--
 ### Compatible systems {#compatible-crm-systems-and-limitations}
@@ -69,9 +69,9 @@ Supported CRM and versions are detailed in Campaign [Compatibility matrix](../..
 
 ### Implementation steps {#crm-implementation-steps}
 
-Learn step-by-step procedure to connect Campaign and Microsoft Dynamics [in this section](../../platform/using/crm-ms-dynamics.md)
+Learn step-by-step procedure to connect Campaign and Microsoft Dynamics [in this section](crm-connectors.md)
 
 
-Learn step-by-step procedure to connect Campaign and Salesforce [in this section](../../platform/using/crm-sfdc.md)
+Learn step-by-step procedure to connect Campaign and Salesforce [in this section](crm-connectors.md)
 
 -->
