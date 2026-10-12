@@ -43,7 +43,7 @@ Campaign 클라이언트 콘솔에서 데이터가 목록에 표시됩니다. �
 
 >[!NOTE]
 >
->Adobe Campaign에서 목록을 관리하고 사용자 지정하는 방법에 대해 알아보려면 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}를 참조하세요.
+>Adobe Campaign에서 목록을 관리하고 사용자 지정하는 방법에 대해 알아보려면 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}를 참조하세요.
 
 <!--
 ## Count records {#counting-records}
