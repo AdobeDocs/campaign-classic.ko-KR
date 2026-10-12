@@ -23,9 +23,9 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1119'
 ht-degree: 1%
 ---
 # 트랜잭션 메시지 아키텍처 {#transactional-messaging-architecture}
@@ -103,7 +103,7 @@ Adobe에서는 트랜잭션 메시지 패키지를 설치하기 전에 **항상 
 >이 절차는 작업 중인 시스템과 동일한 시스템에 설치된 Windows NLServer를 사용하는 고객에게만 적용됩니다.
 
 1. 패키지 가져오기 도우미(**[!UICONTROL Tools > Advanced > Import package... > Adobe Campaign Package]**)를 사용하여 필요한 채널(예: **모바일 채널**)을 설치합니다.
-1. 파일 가져오기(**[!UICONTROL Tools > Advanced > Import package... > File]**)를 수행하고 **datakitnms &#x200B;**`[Your language]`**packagemessageCenter.xml** 파일을 선택하십시오.
+1. 파일 가져오기(**[!UICONTROL Tools > Advanced > Import package... > File]**)를 수행하고 **datakitnms **`[Your language]`**packagemessageCenter.xml** 파일을 선택하십시오.
 1. **[!UICONTROL XML content of the data to import]**&#x200B;에서 추가된 채널에 해당하는 게재 템플릿만 유지합니다. 예를 들어 **Mobile 채널**&#x200B;을 추가한 경우 **[!UICONTROL Mobile transactional message]**(smsTriggerMessage)에 해당하는 **entities** 요소만 유지합니다. **모바일 앱 채널**&#x200B;을 추가한 경우 **iOS 트랜잭션 메시지**(iosTriggerMessage) 및 **Android 트랜잭션 메시지**(androidTriggerMessage)만 유지합니다.
 
    ![](assets/messagecenter_install_channel.png)
@@ -142,7 +142,7 @@ Create your delivery templates the way you would for an email campaign:
 * Add the offer to your transactional message template.
 * Check the preview, send a proof and publish the template.
 
-You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](../../interaction/using/creating-offer-spaces.md).
+You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"} (Campaign v8 documentation).
 
 -->
 
@@ -264,4 +264,4 @@ LINE과 함께 트랜잭션 메시지 모듈을 사용하려면 **마케팅** �
    * **[!UICONTROL Create the archiving workflow]** 버튼을 클릭합니다.
    * LINE 데이터 동기화 워크플로를 만들려면 **[!UICONTROL Create data synchronization workflow]** 단추를 클릭하십시오.
 
-1. 이제 [트랜잭션 메시지 만들기](../../message-center/using/creating-the-message-template.md)를 시작할 수 있습니다.
+1. 이제 [트랜잭션 메시지 만들기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"}를 시작할 수 있습니다(Campaign v8 설명서).

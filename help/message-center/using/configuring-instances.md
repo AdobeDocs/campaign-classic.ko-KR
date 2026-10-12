@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1274'
 ht-degree: 2%
 ---
 # 인스턴스 구성 {#creating-a-shared-connection}
@@ -44,7 +44,7 @@ ht-degree: 2%
 
 
 트랜잭션 메시지 기능을 사용하려면 컨트롤 및 실행 인스턴스를 구성해야 합니다. 다음 중 하나를 사용할 수 있습니다.
-* 하나 또는 여러 실행 인스턴스와 연결된 [컨트롤 인스턴스 &#x200B;](#control-instance)
+* 하나 또는 여러 실행 인스턴스와 연결된 [컨트롤 인스턴스 ](#control-instance)
 * 여러 실행 인스턴스와 연결된 [여러 컨트롤 인스턴스](#using-several-control-instances)
 
 >[!IMPORTANT]
@@ -61,7 +61,7 @@ ht-degree: 2%
 
 ## 컨트롤 인스턴스 구성 {#control-instance}
 
-컨트롤 인스턴스와 실행 인스턴스를 연결하려면 먼저 컨트롤 인스턴스에서 **[!UICONTROL Execution instance]** 유형 외부 계정 **을(를) 만들고 구성해야 합니다**. 따라서 [게시](../../message-center/using/publishing-message-templates.md#template-publication)되면 트랜잭션 메시지 템플릿을 실행 인스턴스에 배포할 수 있습니다.
+컨트롤 인스턴스와 실행 인스턴스를 연결하려면 먼저 컨트롤 인스턴스에서 **[!UICONTROL Execution instance]** 유형 외부 계정 **을(를) 만들고 구성해야 합니다**. 따라서 [게시](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template#publish-message-template){target="_blank"}(Campaign v8 설명서)하면 트랜잭션 메시지 템플릿을 실행 인스턴스에 배포할 수 있습니다.
 
 실행 인스턴스를 여러 개 사용하는 경우 실행 인스턴스가 있는 만큼의 외부 계정을 만들어야 합니다.
 

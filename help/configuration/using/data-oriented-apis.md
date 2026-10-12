@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1818'
 ht-degree: 0%
 ---
 # 데이터 지향 API{#data-oriented-apis}
@@ -54,7 +54,7 @@ XML 문서는 데이터베이스의 메모 유형 필드에 저장됩니다.
 
 이렇게 하면 기본 SQL을 격리할 수 있습니다. 쿼리 언어는 기본 엔진에 따라 달라지지 않습니다. 일부 함수는 다시 매핑되어 여러 SELECT SQL 주문을 생성할 수 있습니다.
 
-자세한 내용은 스키마 &#39;xtk:queryDef&#39;[&#128279;](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-)의 &#39;ExecuteQuery&#39; 메서드에 대한 예제를 참조하십시오.
+자세한 내용은 스키마 &#39;xtk:queryDef&#39;](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-)의 &#39;ExecuteQuery&#39; 메서드에 대한 [예제를 참조하십시오.
 
 **ExecuteQuery** 메서드가 [ExecuteQuery(xtk:queryDef)](#executequery--xtk-querydef-)에 있습니다.
 
@@ -147,7 +147,7 @@ Write 메서드가 [Write/WriteCollection(xtk:session)](#write---writecollection
 * **select**: 여러 레코드를 반환하는 커서를 만들고 데이터가 없으면 빈 문서를 반환합니다.
 * **count**: 데이터 개수를 반환합니다.
 
-**XPath** 구문을 사용하여 입력 스키마를 기준으로 데이터를 찾습니다. XPath에 대한 자세한 내용은 [데이터 스키마](../../configuration/using/data-schemas.md)를 참조하세요.
+**XPath** 구문을 사용하여 입력 스키마를 기준으로 데이터를 찾습니다. XPath에 대한 자세한 내용은 [데이터 스키마](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 #### &#39;get&#39; 작업의 예 {#example-with-the--get--operation}
 

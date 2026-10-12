@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '927'
 ht-degree: 1%
 ---
 # 개인화된 쿠폰{#personalized-coupons}
@@ -185,9 +185,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->기본적으로 쿠폰 관리 모듈은 **nms:recipient** 테이블을 사용합니다. [자세히 알아보기](../../configuration/using/about-data-model.md#default-recipient-table).
+>기본적으로 쿠폰 관리 모듈은 **nms:recipient** 테이블을 사용합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"}(Campaign v8 설명서).
 >
->이 페이지[&#128279;](../../configuration/using/about-custom-recipient-table.md)에서 사용자 지정 받는 사람 테이블 을(를) 사용하는 방법을 알아보세요.
+>이 페이지](../../configuration/using/about-custom-recipient-table.md)에서 사용자 지정 받는 사람 테이블 [을(를) 사용하는 방법을 알아보세요.
 
 ## 부족한 쿠폰 관리 {#managing-insufficient-coupons}
 

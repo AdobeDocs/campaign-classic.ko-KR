@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '278'
 ht-degree: 3%
 ---
 # 오퍼 시뮬레이션 정보{#about-offers-simulation}
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 **시뮬레이션** 모듈을 사용하면 제안을 수신자에게 보내기 전에 카테고리 또는 환경에 속한 오퍼의 배포를 테스트할 수 있습니다.
 
-시뮬레이션은 오퍼에 이전에 적용된 컨텍스트 및 자격 규칙과 해당 프레젠테이션 규칙([오퍼 카탈로그 개요](../../interaction/using/offer-catalog-overview.md) 참조)을 고려합니다([오퍼 프레젠테이션 관리](../../interaction/using/managing-offer-presentation.md) 참조). 시뮬레이션은 타겟팅된 수신자에게 영향을 주지 않으므로 실제로 오퍼를 사용하지 않거나 대상을 초과/요청하지 않고 오퍼 제안의 다양한 버전을 테스트하고 세분화할 수 있습니다.
+시뮬레이션은 오퍼에 이전에 적용된 컨텍스트 및 자격 규칙([오퍼 카탈로그 개요](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-offer-catalog){target="_blank"}(Campaign v8 설명서) 참조)과 프레젠테이션 규칙([오퍼 프레젠테이션 관리](../../interaction/using/managing-offer-presentation.md) 참조)을 고려합니다. 시뮬레이션은 타겟팅된 수신자에게 영향을 주지 않으므로 실제로 오퍼를 사용하지 않거나 대상을 초과/요청하지 않고 오퍼 제안의 다양한 버전을 테스트하고 세분화할 수 있습니다.
 
 오퍼를 시뮬레이션하는 방법을 알아보려면 아래 단계를 참조하십시오.
 

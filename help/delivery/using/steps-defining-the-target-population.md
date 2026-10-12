@@ -39,9 +39,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 86e1df82ff7fe9142b0ba75b697d3262e8d7a9d5
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '1791'
 ht-degree: 24%
 ---
 # 대상 모집단 정의 {#defining-the-target-population}
@@ -51,7 +51,7 @@ ht-degree: 24%
 * **주 대상자**: 메시지를 받을 프로필. [자세히 알아보기](steps-defining-the-target-population.md#selecting-the-main-target)
 * **증명**: 유효성 검사 주기와 관련된 증명 메시지를 받는 사람입니다. [자세히 알아보기](steps-defining-the-target-population.md#defining-a-specific-proof-target)
 * **시드 주소**: 게재 대상에서 제외되었지만 게재를 받을 수신자(마케팅 캠페인의 컨텍스트에서만). [자세히 알아보기](about-seed-addresses.md)
-* **컨트롤 그룹**: 게재를 받지 못하는 모집단으로, 동작 및 캠페인 영향을 추적하는 데 사용됩니다(마케팅 캠페인의 컨텍스트에서만). [자세히 알아보기](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
+* **컨트롤 그룹**: 게재를 받지 못하는 모집단으로, 동작 및 캠페인 영향을 추적하는 데 사용됩니다(마케팅 캠페인의 컨텍스트에서만). [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#add-a-control-group){target="_blank"}(Campaign v8 설명서).
 
 ## 게재의 주 수신자 선택 {#selecting-the-main-target}
 
@@ -78,7 +78,7 @@ ht-degree: 24%
 
    기본적으로 제공되는 타겟 유형은 다음과 같습니다.
 
-   * **[!UICONTROL Filtering conditions]** : 이 옵션을 사용하면 쿼리를 정의하고 결과를 표시할 수 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
+   * **[!UICONTROL Filtering conditions]** : 이 옵션을 사용하면 쿼리를 정의하고 결과를 표시할 수 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
    * **[!UICONTROL Subscribers of an information service]** : 이 옵션을 사용하면 수신자가 구독해야 하는 특정 뉴스레터가 만드는 게재에서 타기팅되도록 선택할 수 있습니다.
 
      ![](assets/s_ncs_user_wizard_email02c.png)
@@ -102,7 +102,7 @@ ht-degree: 24%
    * **[!UICONTROL Recipients included in a folder]** : 이 옵션을 사용하면 트리의 특정 폴더에 포함된 프로필을 타겟팅할 수 있습니다.
    * **[!UICONTROL A recipient]** : 이 옵션을 사용하면 데이터베이스의 프로필에서 특정 받는 사람을 선택할 수 있습니다.
    * **[!UICONTROL A list of recipients]** : 이 옵션을 사용하면 받는 사람 목록을 타깃팅할 수 있습니다. 목록은 [이 섹션](../../platform/using/creating-and-managing-lists.md)에 표시됩니다.
-   * **[!UICONTROL User filters]** : 이 옵션을 사용하면 사전 구성된 필터에 액세스하여 데이터베이스의 프로필에 대한 필터링 기준으로 사용할 수 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
+   * **[!UICONTROL User filters]** : 이 옵션을 사용하면 사전 구성된 필터에 액세스하여 데이터베이스의 프로필에 대한 필터링 기준으로 사용할 수 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
    * **[!UICONTROL Exclude recipients corresponding to this segment]** 옵션을 사용하면 정의된 대상 기준을 충족하지 않는 수신자를 타깃팅할 수 있습니다. 이 옵션을 사용하려면 적절한 상자를 선택한 다음 앞에서 정의한 대로 타기팅을 적용하여 결과 프로필을 제외합니다.
 
      ![](assets/s_ncs_user_wizard_email02g.png)
@@ -281,6 +281,6 @@ ht-degree: 24%
 
 이 비디오에서는 기존 이메일에 시드 및 증명을 추가하는 방법과 이를 보내는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/35559?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

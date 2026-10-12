@@ -38,16 +38,16 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 2%
+source-wordcount: '892'
+ht-degree: 1%
 ---
 # 입력 양식{#input-forms}
 
 다음은 Adobe Campaign의 입력 양식 사용에 대한 몇 가지 일반 원칙입니다.
 
-Forms은 [이 섹션](../../configuration/using/identifying-a-form.md)에 자세히 설명되어 있습니다.
+Forms은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}에 자세히 설명되어 있습니다(Campaign v8 설명서).
 
 ## 양식 구조 {#form-structure}
 
@@ -105,7 +105,7 @@ XPath는 XML 문서의 트리에서 노드를 찾을 수 있는 구문입니다.
 
 서로 상대적인 컨트롤 배열은 HTML 테이블에 사용된 배열과 비슷하며, 컨트롤을 여러 열로 나누거나, 요소를 인터레이싱하거나, 사용 가능한 공간을 지정할 수 있습니다. 그러나 형식을 지정하면 비율의 분포만 인증된다는 점을 유념하십시오. 객체에 대해 고정된 치수를 지정할 수 없습니다.
 
-이 작업에 대한 자세한 정보는 [이 섹션](../../configuration/using/form-structure.md#formatting)을 참조하십시오.
+자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#formatting){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 ## 목록 유형 컨트롤 {#list-type-controls}
 
@@ -214,7 +214,7 @@ XPath는 XML 문서의 트리에서 노드를 찾을 수 있는 구문입니다.
 
 컨테이너를 사용하여 컨트롤 집합을 그룹화할 수 있습니다. **`<container>`** 요소를 통해 존재합니다. 이 컨트롤은 이미 여러 열의 컨트롤 서식을 지정하는 데 사용되었으며 탭 목록의 컨트롤에도 사용되었습니다.
 
-컨테이너 및 입력 양식에서 컨테이너를 사용하는 방법에 대한 자세한 내용은 [이 섹션](../../configuration/using/form-structure.md#containers)을 참조하세요.
+컨테이너 및 입력 양식에서 컨테이너를 사용하는 방법에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 ## 양식 편집 {#editing-forms}
 
@@ -226,4 +226,4 @@ XPath는 XML 문서의 트리에서 노드를 찾을 수 있는 구문입니다.
 
 ![](assets/d_ncs_content_form13.png)
 
-[양식 편집](../../configuration/using/editing-forms.md) 및 [양식 구조](../../configuration/using/form-structure.md)에 대해 자세히 알아보세요.
+[양식 편집](../../configuration/using/editing-forms.md) 및 [양식 구조](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}에 대해 자세히 알아보십시오(Campaign v8 설명서).

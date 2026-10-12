@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1040'
 ht-degree: 2%
 ---
 # 보고서 목록{#list-of-reports}
@@ -45,7 +45,7 @@ ht-degree: 2%
 
 Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 확인할 수 있습니다.
 
-이 보고서의 내용에 대한 자세한 정보는 [이 섹션](../../reporting/using/delivery-reports.md)을 참조하세요.
+이러한 보고서의 내용에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 <table> 
  <tbody> 
@@ -148,7 +148,7 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 �
 
 Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 확인할 수 있습니다.
 
-이러한 보고서의 내용에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ko){target=_blank}를 참조하세요.
+이러한 보고서의 내용에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}를 참조하세요.
 
 <table> 
  <tbody> 
@@ -244,7 +244,7 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 �
 
 Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 확인할 수 있습니다.
 
-이러한 보고서의 내용에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ko){target=_blank}를 참조하세요.
+이러한 보고서의 내용에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}를 참조하세요.
 
 <table> 
  <tbody> 

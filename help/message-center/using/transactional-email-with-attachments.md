@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '700'
 ht-degree: 1%
 ---
 # 사용 사례: 첨부 파일이 있는 트랜잭션 이메일 보내기 {#transactional-email-with-attachments}
@@ -81,13 +81,13 @@ Adobe은 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 
 
 트랜잭션 메시지에 이메일 첨부 파일을 즉시 추가하려면 아래 단계를 따르십시오.
 
-1. 먼저 첨부 파일을 디자인합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html?lang=ko#attach-a-personalized-file){target="_blank"}를 참조하세요.
+1. 먼저 첨부 파일을 디자인합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html#attach-a-personalized-file){target="_blank"}를 참조하세요.
 
    이렇게 하면 실행 인스턴스에서 호스팅되지 않는 파일도 이메일에 첨부할 수 있습니다.
 
 1. SOAP 메시지 트리거를 통해 이메일을 보낼 수 있습니다. SOAP 호출에는 URL 매개 변수(attachmentURL)가 있습니다.
 
-   SOAP 요청에 대한 자세한 내용은 [이벤트 설명](../../message-center/using/event-description.md)을 참조하세요.
+   SOAP 요청에 대한 자세한 내용은 [이벤트 설명](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/event-description){target="_blank"}(Campaign v8 설명서)을 참조하십시오.
 
 1. 전자 메일을 디자인할 때 **[!UICONTROL Attachment]**&#x200B;을(를) 클릭합니다.
 

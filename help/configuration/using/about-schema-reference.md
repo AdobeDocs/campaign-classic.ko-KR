@@ -28,10 +28,10 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 2%
+source-wordcount: '264'
+ht-degree: 3%
 ---
 # 스키마 시작하기 {#about-schema-reference}
 
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 이 장에서는 Adobe Campaign 데이터베이스의 개념 데이터 모델을 확장하기 위해 확장 스키마를 구성하는 방법에 대해 설명합니다.
 
-Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 [Campaign Classic 데이터 모델](about-data-model.md)을 참조하세요.
+Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 [Campaign Classic 데이터 모델](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 Adobe Campaign에서 애플리케이션에 포함된 데이터의 물리적 및 논리적 구조는 XML에 설명되어 있습니다. **스키마**&#x200B;은(는) 데이터베이스 테이블과 연결된 XML 문서입니다. 데이터 구조를 정의하고 테이블의 SQL 정의를 설명합니다.
 
@@ -62,45 +62,6 @@ Adobe Campaign에서 애플리케이션에 포함된 데이터의 물리적 및 
 
 ![](assets/reference_schema_intro.png)
 
-## 스키마 구문 {#syntax-of-schemas}
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 스키마의 구문 및 식별에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target=_blank}를 참조하세요.
 
-스키마의 루트 요소는 **`<srcschema>`**&#x200B;입니다. **`<element>`** 및 **`<attribute>`** 하위 요소가 포함되어 있습니다.
-
-첫 번째 **`<element>`** 하위 요소는 엔터티의 루트와 일치합니다.
-
-```
-<srcSchema name="recipient" namespace="cus">
-  <element name="recipient">  
-    <attribute name="lastName"/>
-    <attribute name="email"/>
-    <element name="location">
-      <attribute name="city"/>
-   </element>
-  </element>
-</srcSchema>
-```
-
->[!NOTE]
->
->엔티티의 루트 요소는 스키마와 동일한 이름을 갖습니다.
-
-![](assets/s_ncs_configuration_schema_and_entity.png)
-
-**`<element>`** 태그는 엔터티 요소의 이름을 정의합니다. 스키마의 **`<attribute>`** 태그는 연결된 **`<element>`** 태그의 특성 이름을 정의합니다.
-
-## 스키마 식별 {#identification-of-a-schema}
-
-데이터 스키마는 이름 및 네임스페이스로 식별됩니다.
-
-네임스페이스를 사용하면 관심 영역별로 스키마 세트를 그룹화할 수 있습니다. 예를 들어 **cus** 네임스페이스는 고객별 구성(**customers**)에 사용됩니다.
-
-스키마의 식별 키는 네임스페이스와 콜론으로 구분된 이름을 사용하여 만들어진 문자열입니다(예: **cus:recipient**).
-
->[!IMPORTANT]
->
->* 네임스페이스 이름은 간결해야 하며 XML 이름 지정 규칙에 따라 승인된 문자만 포함해야 합니다.
->
->* 식별자는 숫자로 시작할 수 없습니다.
->
->* 다음 네임스페이스는 Adobe Campaign 응용 프로그램 작업에 필요한 시스템 엔터티의 설명에 예약되어 있으며 사용해서는 안 됩니다. **xtk**, **nl**, **nms**, **ncm**, **temp**, **ncl**, **crm**, **xxl**.
->
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target=_blank}

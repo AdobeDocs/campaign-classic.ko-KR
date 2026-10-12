@@ -44,10 +44,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 4%
+source-wordcount: '604'
+ht-degree: 3%
 ---
 # 운영자 그룹 만들기 및 관리 {#operator-groups}
 
@@ -135,7 +135,7 @@ ht-degree: 4%
 
 1. **[!UICONTROL Offer managers]**
 
-   이 그룹의 운영자는 오퍼를 만들고 유지 관리할 수 있습니다. 자세한 내용은 이 [페이지](../../interaction/using/operator-profiles.md)를 참조하세요.
+   이 그룹의 운영자는 오퍼를 만들고 유지 관리할 수 있습니다. 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators){target="_blank"}(Campaign v8 설명서)를 참조하세요.
    이 그룹에는 다음과 같은 명명된 권한이 포함되어 있습니다.
 
    * **[!UICONTROL INSERT FOLDERS]**: 관련 분기에 대한 편집 권한이 있는 경우 폴더를 Adobe Campaign 트리에 삽입할 수 있는 권한,

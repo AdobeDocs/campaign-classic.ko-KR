@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
 workflow-type: tm+mt
-source-wordcount: '2101'
-ht-degree: 1%
+source-wordcount: '2138'
+ht-degree: 0%
 ---
 # Apple 메일 앱의 메일 개인 정보 보호
 
@@ -95,7 +95,7 @@ Adobe Campaign 데이터에서 인사이트를 수집하려면 기본 제공 보
 
 * **[!UICONTROL Operating Systems]** 보고서
 
-  운영 체제 및 버전당 방문자 수를 파악하려면 이 보고서를 사용합니다. [자세히 보기](../../reporting/using/global-reports.md#operating-systems)
+  운영 체제 및 버전당 방문자 수를 파악하려면 이 보고서를 사용합니다. [자세히 보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#operating-systems){target="_blank"}(Campaign v8 설명서).
 
   총 방문자 수와 관련하여 운영 체제당 방문자 수 분류를 볼 수 있습니다.
 
@@ -107,7 +107,7 @@ Adobe Campaign 데이터에서 인사이트를 수집하려면 기본 제공 보
 
 * **[!UICONTROL Breakdown of opens]** 보고서
 
-  운영 체제당 이메일 열람수 비율을 식별하려면 이 보고서를 사용합니다. [자세히 보기](../../reporting/using/global-reports.md#breakdown-of-opens)
+  운영 체제당 이메일 열람수 비율을 식별하려면 이 보고서를 사용합니다. [자세히 보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#breakdown-of-opens){target="_blank"}(Campaign v8 설명서).
 
   ![](../../reporting/using/assets/dlv_useragent_report.png)
 
@@ -127,7 +127,7 @@ Adobe Campaign 데이터에서 인사이트를 수집하려면 기본 제공 보
 
   ![](assets/identify-email-open-tracking-2.png)
 
-* 사전 정의된 필터를 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=ko){target="_blank"}를 참조하세요.
+* 사전 정의된 필터를 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}를 참조하세요.
 
   ![](assets/identify-email-open-tracking-3.png)
 

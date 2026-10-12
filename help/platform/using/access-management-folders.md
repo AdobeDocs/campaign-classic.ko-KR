@@ -42,9 +42,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '547'
 ht-degree: 4%
 ---
 # 폴더 액세스 관리{#folder-access-management}
@@ -66,7 +66,7 @@ Explorer 탐색 트리의 각 폴더에는 읽기, 쓰기 및 삭제 액세스 �
 
 ![](assets/s_ncs_user_add_folder_in_tree.png)
 
-Explorer 탐색 트리를 사용자 지정할 수 있습니다. 구성 단계 및 모범 사례를 이 섹션[&#128279;](adobe-campaign-workspace.md)에서 알아봅니다.
+Explorer 탐색 트리를 사용자 지정할 수 있습니다. 구성 단계 및 모범 사례를 이 섹션](adobe-campaign-workspace.md)에서 [알아봅니다.
 
 ### 보기란 무엇입니까? {#about-views}
 
@@ -120,7 +120,7 @@ Explorer 탐색 트리를 사용자 지정할 수 있습니다. 구성 단계 �
 
 >[!NOTE]
 >
->[트랜잭션 메시지](../../message-center/using/about-transactional-messaging.md) 이벤트를 관리할 때 액세스 권한 문제로 이어질 수 있으므로 **[!UICONTROL Real time events]** 또는 **[!UICONTROL Batch events]** 폴더를 실행 인스턴스의 보기로 설정하지 않아야 합니다. 이벤트 컬렉션에 대한 자세한 내용은 [이 섹션](../../message-center/using/about-event-processing.md#event-collection)을 참조하세요.
+>[트랜잭션 메시지](../../message-center/using/about-transactional-messaging.md) 이벤트를 관리할 때 액세스 권한 문제로 이어질 수 있으므로 **[!UICONTROL Real time events]** 또는 **[!UICONTROL Batch events]** 폴더를 실행 인스턴스의 보기로 설정하지 않아야 합니다. 이벤트 컬렉션에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-collection){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 <!--
 ## Permissions on a folder
