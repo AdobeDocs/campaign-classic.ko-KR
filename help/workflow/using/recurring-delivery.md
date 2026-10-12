@@ -14,6 +14,8 @@ product_v2:
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
     internal-label: Data management
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
     internal-label: HeatMap
@@ -26,7 +28,7 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 14%
@@ -73,6 +75,6 @@ ht-degree: 14%
 
 이 비디오에서는 반복 게재 및 예약 활동을 구성하는 방법을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/27507?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

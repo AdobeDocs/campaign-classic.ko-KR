@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Prepare and test messages
   - id: fc09322a-8f3d-5905-be3d-96adfa806a40
     internal-label: Delivery Templates
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -34,7 +36,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 11%
@@ -99,18 +101,18 @@ ht-degree: 11%
 
 다음 비디오에서는 임시 게재용 템플릿을 구성하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31900?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24066?quality=12)
 
 ### 게재 템플릿 속성을 설정하는 방법
 
 다음 비디오는 게재 템플릿 속성을 설정하는 방법을 보여 주며 각 속성에 대해 자세히 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/34560?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24067?quality=12)
 
 ### 임시 게재 템플릿을 배포하는 방법
 
 이 비디오에서는 임시 이메일 게재 템플릿을 배포하는 방법을 설명하고 이메일 게재와 게재 워크플로우의 차이점을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31901?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24065?quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

@@ -20,6 +20,8 @@ feature_v2:
     internal-label: Prepare and test messages
   - id: 13af5358-448e-5a4a-850b-0db592bb0f8f
     internal-label: Personalization
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -37,7 +39,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 9%
@@ -140,6 +142,6 @@ ht-degree: 9%
 
 다중 언어 뉴스레터의 예에 따라 게재에 조건부 콘텐츠를 추가하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31880?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

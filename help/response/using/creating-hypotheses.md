@@ -17,6 +17,8 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
 subfeature_v2:
   - id: d72afaa0-c842-48c8-9a3c-51b7911edc1b
     internal-label: Response Management
@@ -25,7 +27,7 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 3%
@@ -171,7 +173,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >자세한 내용은 관련 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ko#add-a-control-group){target="_blank"}를 참조하십시오.
+   >자세한 내용은 관련 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target="_blank"}를 참조하십시오.
 
 1. **[!UICONTROL Direct mail delivery]**&#x200B;을(를) 열고 **[!UICONTROL Delivery measurement]** 아이콘을 클릭한 다음 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
@@ -193,7 +195,7 @@ ht-degree: 3%
 
    ![](assets/response_hypothesis_delivery_example_008.png)
 
-1. 타겟팅 워크플로우를 시작하고 캠페인이 완료될 때까지 필요한 검사를 실행합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ko#start-a-delivery){target=_blank}를 참조하세요.
+1. 타겟팅 워크플로우를 시작하고 캠페인이 완료될 때까지 필요한 검사를 실행합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html#start-a-delivery){target=_blank}를 참조하세요.
 
    ![](assets/response_hypothesis_delivery_example_009.png)
 

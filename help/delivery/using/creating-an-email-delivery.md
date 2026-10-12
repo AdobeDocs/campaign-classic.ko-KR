@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Prepare and test messages
   - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
     internal-label: Email
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -31,7 +33,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 13%
@@ -49,5 +51,5 @@ ht-degree: 13%
 
    ![](assets/s_ncs_user_wizard_email01_1.png)
 
-1. 레이블, 코드 및 설명을 사용하여 게재를 식별합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko#create-the-delivery){target="_blank"}에서 이 섹션을 참조하세요.
+1. 레이블, 코드 및 설명을 사용하여 게재를 식별합니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#create-the-delivery){target="_blank"}에서 이 섹션을 참조하세요.
 1. **계속**&#x200B;을 클릭하여 이 정보를 확인하고 메시지 구성 창을 표시합니다.

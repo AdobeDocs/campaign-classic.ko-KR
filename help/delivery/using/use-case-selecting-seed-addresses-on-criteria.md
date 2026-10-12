@@ -18,6 +18,8 @@ feature_v2:
     internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
     internal-label: Prepare and test messages
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -28,7 +30,7 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 3%
@@ -51,7 +53,7 @@ ht-degree: 3%
 
 ## 1단계 - 게재 만들기 {#step-1---creating-a-delivery}
 
-게재를 만드는 단계는 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html?lang=ko){target="_blank"}에 자세히 설명되어 있습니다.
+게재를 만드는 단계는 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html){target="_blank"}에 자세히 설명되어 있습니다.
 
 이 예에서 게재 관리자는 뉴스레터를 생성하고 수신자를 선택했습니다.
 

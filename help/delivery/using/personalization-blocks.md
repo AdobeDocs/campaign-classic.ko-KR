@@ -20,6 +20,8 @@ feature_v2:
     internal-label: Prepare and test messages
   - id: 13af5358-448e-5a4a-850b-0db592bb0f8f
     internal-label: Personalization
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -35,7 +37,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 6%
@@ -175,6 +177,6 @@ HTML 소스 코드는 게재 콘텐츠에 삽입됩니다. 예를 들어 **[!UIC
 
 다이내믹 콘텐츠 블록을 만드는 방법과 이 블록을 사용하여 이메일 게재의 콘텐츠를 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31878?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

@@ -14,6 +14,8 @@ product_v2:
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
     internal-label: Data management
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
     internal-label: HeatMap
@@ -28,7 +30,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 5%
@@ -47,9 +49,9 @@ ht-degree: 5%
 
   자세한 내용은 Campaign 버전에 따라 다음 섹션을 참조하십시오.
 
-  ![](assets/do-not-localize/v7.jpeg) [Campaign v7 설명서](../../installation/using/about-fda.md)
+  ![](assets/do-not-localize/v7.jpeg)[Campaign v7 설명서](../../installation/using/about-fda.md)
 
-  ![](assets/do-not-localize/v8.png) [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ko)
+  ![](assets/do-not-localize/v8.png)[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ko)
 
 * 아웃바운드 스키마는 데이터베이스에 있어야 하며 FDA 데이터베이스에 연결되어 있어야 합니다.
 * 워크플로우를 실행하는 연산자에는 이름이 **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]**&#x200B;인 권한이 있어야 합니다. [자세히 알아보기](../../platform/using/access-management-named-rights.md).

@@ -11,6 +11,8 @@ product_v2:
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
     internal-label: Troubleshooting
@@ -21,7 +23,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
@@ -111,7 +113,7 @@ IMS(Adobe Identify Management System)로의 마이그레이션을 완료하려�
 
 따라서 이러한 작업은 클라이언트 콘솔에서 비활성화되었습니다.
 
-운영자의 관리는 Adobe Admin Console에서 중앙 집중화되며, 이제 다음 작업이 이 콘솔을 통해 독점적으로 관리됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}에서 사용자를 만들고 권한을 할당하는 방법에 대해 알아봅니다.
+운영자의 관리는 Adobe Admin Console에서 중앙 집중화되며, 이제 다음 작업이 이 콘솔을 통해 독점적으로 관리됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}에서 사용자를 만들고 권한을 할당하는 방법에 대해 알아봅니다.
 
 ### 사용할 수 없는 옵션 {#unavailable-migration}
 

@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Campaigns
   - id: baf8e746-117b-5e73-b179-0a83edc0295f
     internal-label: Templates
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
 subfeature_v2:
   - id: d72afaa0-c842-48c8-9a3c-51b7911edc1b
     internal-label: Response Management
@@ -27,7 +29,7 @@ topic_v2:
     internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 2%
@@ -82,7 +84,7 @@ ht-degree: 2%
   >
   >제어 그룹을 고려하도록 템플릿을 구성했지만 가설에 관련된 게재에 그룹이 정의되지 않은 경우 결과는 타겟팅된 수신자만 기반으로 합니다.
 
-  컨트롤 그룹 정의 및 구성에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ko#add-a-control-group){target=_blank}를 참조하세요.
+  컨트롤 그룹 정의 및 구성에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target=_blank}를 참조하세요.
 
 * **[!UICONTROL Channel]**: 드롭다운 목록에서 **[!UICONTROL All channels]**&#x200B;을(를) 선택하여 Adobe Campaign 콘솔의 모든 채널에서 특정 채널을 선택하거나 가설 템플릿을 사용할 수 있도록 할 수 있습니다. 특정 채널에 대해 템플릿을 구성하는 경우 가설을 생성할 때 채널당 게재를 자동으로 필터링할 수 있습니다. [자세히 알아보기](creating-hypotheses.md)
 

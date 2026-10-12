@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Profiles and audiences
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
     internal-label: Profiles
@@ -30,7 +32,7 @@ subfeature_v2:
     internal-label: Access management
   - id: e8d937ec-9046-41b5-834b-d22a624e0d37
     internal-label: Campaign overview
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
 workflow-type: tm+mt
 source-wordcount: '3000'
 ht-degree: 0%
@@ -43,7 +45,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 >[!NOTE]
 >
->**[!UICONTROL Import a list]** 함수를 사용하여 데이터베이스 데이터와 매핑하지 않고 데이터를 가져올 수 있습니다. 그런 다음 **[!UICONTROL Read list]** 개체를 통해 워크플로우에서만 데이터를 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html?lang=ko){target="_blank"}를 참조하세요.
+>**[!UICONTROL Import a list]** 함수를 사용하여 데이터베이스 데이터와 매핑하지 않고 데이터를 가져올 수 있습니다. 그런 다음 **[!UICONTROL Read list]** 개체를 통해 워크플로우에서만 데이터를 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html){target="_blank"}를 참조하세요.
 
 가져오기 도우미에서 가져오기를 구성하고, 해당 옵션(예: 데이터 변환)을 정의하고, 실행을 시작할 수 있습니다. 가져오기 유형(단순 또는 다중)과 운영자의 권한에 따라 콘텐츠가 달라지는 일련의 화면입니다.
 
@@ -107,7 +109,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
   * **[!UICONTROL Do not update enumerations]**
 
-    데이터베이스에 열거형 값 목록이 보강되지 않도록 하려면 이 옵션을 선택합니다. [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}에서 **열거형으로 작업**&#x200B;하는 방법에 대해 자세히 알아보세요.
+    데이터베이스에 열거형 값 목록이 보강되지 않도록 하려면 이 옵션을 선택합니다. [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}에서 **열거형으로 작업**&#x200B;하는 방법에 대해 자세히 알아보세요.
 
 
 * **[!UICONTROL Variables]** 탭

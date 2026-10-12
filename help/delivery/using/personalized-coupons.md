@@ -24,6 +24,8 @@ feature_v2:
     internal-label: Prepare and test messages
   - id: 13af5358-448e-5a4a-850b-0db592bb0f8f
     internal-label: Personalization
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -41,7 +43,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 1%
@@ -185,7 +187,7 @@ ht-degree: 1%
 >
 >기본적으로 쿠폰 관리 모듈은 **nms:recipient** 테이블을 사용합니다. [자세히 알아보기](../../configuration/using/about-data-model.md#default-recipient-table).
 >
->이 페이지[&#128279;](../../configuration/using/about-custom-recipient-table.md)에서 사용자 지정 받는 사람 테이블 을(를) 사용하는 방법을 알아보세요.
+>이 페이지](../../configuration/using/about-custom-recipient-table.md)에서 사용자 지정 받는 사람 테이블 [을(를) 사용하는 방법을 알아보세요.
 
 ## 부족한 쿠폰 관리 {#managing-insufficient-coupons}
 

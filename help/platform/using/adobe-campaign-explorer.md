@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Profiles and audiences
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
     internal-label: Profiles
@@ -30,7 +32,7 @@ subfeature_v2:
     internal-label: Access management
   - id: e8d937ec-9046-41b5-834b-d22a624e0d37
     internal-label: Campaign overview
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 10%
@@ -42,7 +44,7 @@ Adobe Campaign 탐색기는 도구 모음 아이콘을 통해 액세스할 수 �
 
 >[!NOTE]
 >
->Adobe Campaign 탐색기에 대한 자세한 내용은 Campaign v8 설명서의 다음 페이지를 참조하십시오. [사용자 인터페이스에 대해](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target=_blank}, [설정](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank} 또는 [탐색기에서 폴더 및 보기를 관리하는 방법](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}에 대해 자세히 알아보십시오.
+>Adobe Campaign 탐색기에 대한 자세한 내용은 Campaign v8 설명서의 다음 페이지를 참조하십시오. [사용자 인터페이스에 대해](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target=_blank}, [설정](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank} 또는 [탐색기에서 폴더 및 보기를 관리하는 방법](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}에 대해 자세히 알아보십시오.
 
 
 <!--

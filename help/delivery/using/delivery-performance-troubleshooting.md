@@ -20,6 +20,8 @@ feature_v2:
     internal-label: Deliverability
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -45,7 +47,7 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 2%
@@ -98,8 +100,8 @@ ht-degree: 2%
 >
 >게재 문제 해결에 대한 포괄적인 지침은 Campaign Classic v7 및 Campaign v8 사용자 모두에게 해당되는 Campaign v8 설명서에 기재되어 있습니다.
 >
->* 일반적인 배달 오류 및 솔루션: [배달 오류 이해](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}
->* 느린 게재 진단: [Campaign UI에서 게재 모니터링](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}
+>* 일반적인 배달 오류 및 솔루션: [배달 오류 이해](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}
+>* 느린 게재 진단: [Campaign UI에서 게재 모니터링](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}
 >* 게재 모범 사례: [게재 모범 사례](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}
 >
 >이 섹션에서는 하이브리드 및 온-프레미스 배포에 대한 **Campaign Classic v7 관련 문제 해결**&#x200B;에 대해 설명합니다.
@@ -138,13 +140,13 @@ Error during the call of method 'AppendDeliveryPart' on the mid sourcing server:
 
 >[!NOTE]
 >
->Campaign v8 Managed Cloud Services 사용자의 경우 기술 워크플로우 및 인프라 모니터링은 Adobe에서 관리합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}에 설명된 대로 게재 콘텐츠 및 타깃팅에 집중하십시오.
+>Campaign v8 Managed Cloud Services 사용자의 경우 기술 워크플로우 및 인프라 모니터링은 Adobe에서 관리합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}에 설명된 대로 게재 콘텐츠 및 타깃팅에 집중하십시오.
 
 ## 관련 항목
 
-* [게재 실패 이해](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}(Campaign v8 설명서)
+* [게재 실패 이해](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}(Campaign v8 설명서)
 * [게재 모범 사례](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}(Campaign v8 설명서)
-* [Campaign UI에서 게재 모니터링](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}(Campaign v8 설명서)
+* [Campaign UI에서 게재 모니터링](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}(Campaign v8 설명서)
 * [데이터베이스 유지 관리](../../production/using/recommendations.md)(v7 하이브리드/온-프레미스)
 * [이메일 전달성](../../installation/using/email-deliverability.md)(v7 하이브리드/온-프레미스)
 * [데이터베이스 성능](../../production/using/database-performances.md)(v7 하이브리드/온-프레미스)

@@ -14,13 +14,15 @@ product_v2:
 feature_v2:
   - id: ab81f6c3-9317-564f-af92-6670a8784294
     internal-label: Technote
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
     internal-label: Analytics integration
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 33%
@@ -50,7 +52,7 @@ Campaign에서 URL 서명이 활성 상태인 경우 최근 변경 사항에 따
 * Campaign 19.1.5(빌드 9033) - 19.1.7(빌드 9036) 릴리스.
 
 
-이 섹션[&#128279;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 을(를) 확인하는 방법을 알아보세요.
+이 섹션](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)에서 사용 중인 버전 [을(를) 확인하는 방법을 알아보세요.
 
 **업데이트 방법**
 
