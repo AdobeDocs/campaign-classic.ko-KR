@@ -65,15 +65,15 @@ v7.4.1용 Linux 패키지 설치가 업데이트되었습니다. [자세히 보�
 
 릴리스 정보 섹션에 7.4.1의 개선 사항, 호환성 업데이트, 패치 내역을 업데이트했습니다. [자세히 알아보기](latest-release.md)
 
-워크플로를 다시 시작할 때 인스턴스 변수를 지우는 방법을 안내하는 메모가 추가되었습니다. [자세히 보기](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow){target="_blank"}(Campaign v8 설명서)
+워크플로를 다시 시작할 때 인스턴스 변수를 지우는 방법을 안내하는 메모가 추가되었습니다. [자세히 보기](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow){target="_blank"}(Campaign v8 설명서)
 
 ### 2024년 4월 {#apr-2024}
 
 Adobe IMS(Identity Management System)를 사용한 사용자 만들기에 대한 주의 사항이 추가되었습니다. [자세히 보기](../../platform/using/access-management.md)
 
-웹 다운로드 워크플로 활동에 대한 누락된 옵션이 추가되었습니다. [자세히 보기](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/event-activities/web-download){target="_blank"}(Campaign v8 설명서)
+웹 다운로드 워크플로 활동에 대한 누락된 옵션이 추가되었습니다. [자세히 보기](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/event-activities/web-download){target="_blank"}(Campaign v8 설명서)
 
-**차원 변경** 및 **데이터 소스 변경** 활동에 워크플로에서의 사용에 대한 주의 사항이 추가되었습니다. [자세히 보기](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source){target="_blank"}(Campaign v8 설명서)
+**차원 변경** 및 **데이터 소스 변경** 활동에 워크플로에서의 사용에 대한 주의 사항이 추가되었습니다. [자세히 보기](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source){target="_blank"}(Campaign v8 설명서)
 
 ### 2024년 3월 {#mar-2024}
 

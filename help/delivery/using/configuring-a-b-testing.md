@@ -40,11 +40,11 @@ ht-degree: 3%
 
 이 섹션에서는 A/B 테스트를 수행하는 워크플로우를 구축하는 방법에 대해 자세히 설명합니다.
 
-1. 새 워크플로우를 만든 다음 원하는 모집단을 타겟팅하도록 쿼리 활동을 구성합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}를 참조하세요.
+1. 새 워크플로우를 만든 다음 원하는 모집단을 타겟팅하도록 쿼리 활동을 구성합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"}를 참조하세요.
 
-1. 분할 활동을 추가하여 타겟팅된 모집단을 여러 하위 세트로 나눕니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"}를 참조하세요.
+1. 분할 활동을 추가하여 타겟팅된 모집단을 여러 하위 세트로 나눕니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ko){target="_blank"}를 참조하세요.
 
-1. 활동을 열고 필요에 따라 각 하위 세트를 구성합니다. **[!UICONTROL Split]** 활동을 구성하는 방법에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/split){target="_blank"}(Campaign v8 설명서)을 참조하세요.
+1. 활동을 열고 필요에 따라 각 하위 세트를 구성합니다. **[!UICONTROL Split]** 활동을 구성하는 방법에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/targeting-activities/split){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
    이 예제에서는 뉴스레터에 대한 2개의 새로운 주제를 대상 모집단의 10%에게 각각 제시하여 테스트하려고 합니다.
 

@@ -59,7 +59,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->스케줄러에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}를 참조하세요.
+>스케줄러에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=ko){target="_blank"}를 참조하세요.
 
 기본적으로 **[!UICONTROL Database cleanup]** 워크플로우는 매일 오전 4시에 시작되도록 구성되어 있습니다. 스케줄러를 사용하여 워크플로우 트리거 빈도를 변경할 수 있습니다. 다음 빈도를 사용할 수 있습니다.
 
@@ -349,7 +349,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**일 단위 기록** 필드의 각 워크플로우에 대해 내역의 제거 빈도가 지정됩니다(기본값: 30일). 이 필드는 워크플로우 속성의 **실행** 탭에서 찾을 수 있습니다. 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/workflow-properties#execution){target="_blank"}(Campaign v8 설명서)을 참조하세요.
+>**일 단위 기록** 필드의 각 워크플로우에 대해 내역의 제거 빈도가 지정됩니다(기본값: 30일). 이 필드는 워크플로우 속성의 **실행** 탭에서 찾을 수 있습니다. 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/advanced-management/workflow-properties#execution){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 1. 삭제할 워크플로우 목록을 복구하려면 다음 쿼리가 사용됩니다.
 

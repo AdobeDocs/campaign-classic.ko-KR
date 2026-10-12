@@ -364,8 +364,8 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 이제 압력 규칙을 적용할 각 게재에 대한 워크플로우를 만들고 구성합니다.
 
 1. 캠페인을 만듭니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)을 참조하십시오.
-1. 캠페인의 **[!UICONTROL Targeting and workflows]** 탭에서 **쿼리** 활동을 워크플로우에 추가합니다. 이 활동 사용에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"}(Campaign v8 설명서)을 참조하세요.
-1. 워크플로우에 **[!UICONTROL Email delivery]** 활동을 추가하고 엽니다. 이 활동 사용에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}(Campaign v8 설명서)을 참조하세요.
+1. 캠페인의 **[!UICONTROL Targeting and workflows]** 탭에서 **쿼리** 활동을 워크플로우에 추가합니다. 이 활동 사용에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"}(Campaign v8 설명서)을 참조하세요.
+1. 워크플로우에 **[!UICONTROL Email delivery]** 활동을 추가하고 엽니다. 이 활동 사용에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 1. **[!UICONTROL Delivery properties]**&#x200B;의 **[!UICONTROL Approvals]** 탭으로 이동하여 모든 승인을 비활성화합니다.
 
    ![](assets/campaign_opt_pressure_example_2.png)

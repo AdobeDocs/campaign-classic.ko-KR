@@ -147,7 +147,7 @@ ht-degree: 5%
 
    ![](assets/s_ncs_user_op_template_recur_planning.png)
 
-   실행 예약의 구성 모드가 워크플로의 **[!UICONTROL Scheduler]** 개체와 일치합니다. 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"}(Campaign v8 설명서)을 참조하세요.
+   실행 예약의 구성 모드가 워크플로의 **[!UICONTROL Scheduler]** 개체와 일치합니다. 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
    >[!IMPORTANT]
    >

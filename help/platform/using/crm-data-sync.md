@@ -45,7 +45,7 @@ ht-degree: 1%
 
 
 
-Adobe Campaign과 CRM 간의 데이터 동기화는 전용 워크플로우 활동 [CRM 커넥터](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector){target="_blank"}(Campaign v8 설명서)을 통해 수행됩니다.
+Adobe Campaign과 CRM 간의 데이터 동기화는 전용 워크플로우 활동 [CRM 커넥터](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector){target="_blank"}(Campaign v8 설명서)을 통해 수행됩니다.
 
 예를 들어 Microsoft Dynamics 데이터를 Adobe Campaign으로 가져오려면 다음 유형의 워크플로우를 만듭니다.
 

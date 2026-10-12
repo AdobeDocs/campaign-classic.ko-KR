@@ -77,7 +77,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**[!UICONTROL Delivery outline]** 활동에서 워크플로우에 유형화 및 필터링 규칙을 사용할 수 있습니다. 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/delivery-outline){target="_blank"}(Campaign v8 설명서)을 참조하세요.
+>**[!UICONTROL Delivery outline]** 활동에서 워크플로우에 유형화 및 필터링 규칙을 사용할 수 있습니다. 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/targeting-activities/delivery-outline){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 ## 필터링 유형화 만들기 및 사용 {#creating-and-using-a-filtering-typology}
 

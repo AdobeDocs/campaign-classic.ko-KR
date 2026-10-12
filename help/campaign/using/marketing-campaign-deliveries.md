@@ -83,7 +83,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Campaign 패키지와 관련된 기술 워크플로는 [기술 워크플로 목록](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"}에 나와 있습니다(Campaign v8 설명서).
+>Campaign 패키지와 관련된 기술 워크플로는 [기술 워크플로 목록](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"}에 나와 있습니다(Campaign v8 설명서).
 
 **1단계 - 파일 승인**
 
