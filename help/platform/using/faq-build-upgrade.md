@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 4bc1e76d129c6a6aa15b7e3915232043bd6f4286
 workflow-type: tm+mt
 source-wordcount: '2105'
 ht-degree: 2%
@@ -212,7 +212,7 @@ Adobe은 시스템의 최적의 성능, 가용성 및 보안을 보장하기 위
 
 빌드 업그레이드 후 문제가 발생하면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오. 고객 지원 센터에서 빌드 날짜를 예약하고 빌드 업그레이드 관련 티켓을 엽니다.
 
-[Campaign Classic 도움말 및 지원 옵션](../../support.md)에서 자세히 알아보기
+[Campaign Classic 도움말 및 지원 옵션](../../campaign-classic-home.md)에서 자세히 알아보기
 
 ## 빌드 업그레이드 검사 목록 {#check-list}
 
@@ -252,5 +252,5 @@ API를 통해 새 레코드를 삽입할 수 있는지 확인합니다.
 
 * [빌드 업그레이드 수행](../../production/using/build-upgrade.md)
 * [Campaign Classic 릴리스 노트](../../rn/using/rn-overview.md)
-* [Campaign Classic에 대한 도움말 및 지원 옵션](../../support.md)
+* [Campaign Classic에 대한 도움말 및 지원 옵션](../../campaign-classic-home.md)
 * [연간 업그레이드 프로그램](../../rn/using/rn-overview.md#yearly-upgrade)
