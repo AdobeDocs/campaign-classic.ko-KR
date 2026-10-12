@@ -31,9 +31,9 @@ ht-degree: 8%
 
 **트랜잭션 메시지**(메시지 센터)는 외부 정보 시스템에서 보낸 이벤트에서 생성된 사용자 지정 트리거 알림을 관리하기 위해 고안된 캠페인 모듈입니다.
 
-Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 트랜잭션 메시지에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target=_blank}를 참조하세요.
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 트랜잭션 메시지에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional){target=_blank}를 참조하세요.
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional){target=_blank}
 
 이 섹션에서는 온-프레미스 및 하이브리드 배포에 대한 트랜잭션 메시지 아키텍처와 제어 및 실행 인스턴스의 구성을 다룹니다.
 
@@ -65,10 +65,10 @@ Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 
 
 **컨트롤 인스턴스**&#x200B;에서 다음 작업을 수행해야 합니다.
 
-1. [이벤트 유형 만들기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}(Campaign v8 설명서).
-1. [메시지 템플릿을 만들고 디자인](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"}(Campaign v8 설명서). 이 단계에서 메시지에 이벤트를 연결해야 합니다.
+1. [이벤트 유형 만들기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}(Campaign v8 설명서).
+1. [메시지 템플릿을 만들고 디자인](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"}(Campaign v8 설명서). 이 단계에서 메시지에 이벤트를 연결해야 합니다.
 1. [메시지를 테스트합니다](../../message-center/using/testing-message-templates.md).
-1. [메시지 템플릿을 게시](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"}(Campaign v8 설명서).
+1. [메시지 템플릿을 게시](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"}(Campaign v8 설명서).
 
 >[!NOTE]
 >
@@ -78,13 +78,13 @@ Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 
 
 트랜잭션 메시지 템플릿을 디자인하고 게시하면 해당 이벤트가 트리거되는 경우 **실행 인스턴스**&#x200B;에서 아래의 기본 단계가 수행됩니다.
 
-1. 외부 정보 시스템에서 이벤트가 생성되면 관련 데이터가 **PushEvent** 및 **PushEvents** 메서드를 통해 Campaign으로 전송됩니다. [이벤트 컬렉션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-collection){target="_blank"}(Campaign v8 설명서)을 참조하세요.
-1. 이벤트가 적절한 메시지 템플릿에 연결됩니다. [템플릿을 향해 라우팅](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-to-template){target="_blank"}(Campaign v8 설명서)을 참조하십시오.
-1. 데이터 보강 단계가 완료되면 게재가 전송됩니다. [게재 실행](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"}(Campaign v8 설명서)을 참조하세요. 타겟팅된 각 수신자는 개인화된 메시지를 수신합니다.
+1. 외부 정보 시스템에서 이벤트가 생성되면 관련 데이터가 **PushEvent** 및 **PushEvents** 메서드를 통해 Campaign으로 전송됩니다. [이벤트 컬렉션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-collection){target="_blank"}(Campaign v8 설명서)을 참조하세요.
+1. 이벤트가 적절한 메시지 템플릿에 연결됩니다. [템플릿을 향해 라우팅](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-to-template){target="_blank"}(Campaign v8 설명서)을 참조하십시오.
+1. 데이터 보강 단계가 완료되면 게재가 전송됩니다. [게재 실행](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"}(Campaign v8 설명서)을 참조하세요. 타겟팅된 각 수신자는 개인화된 메시지를 수신합니다.
 
 ## 관련 항목 {#related-topics}
 
 * [소통 채널 시작](../../delivery/using/communication-channels.md)
 * [게재 만들기 주요 단계](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ko){target="_blank"}
 * [트랜잭션 메시지 아키텍처](../../message-center/using/transactional-messaging-architecture.md)
-* [트랜잭션 메시지 보고서 액세스](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"}(Campaign v8 설명서)
+* [트랜잭션 메시지 보고서 액세스](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"}(Campaign v8 설명서)

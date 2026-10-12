@@ -120,7 +120,7 @@ Explorer 탐색 트리를 사용자 지정할 수 있습니다. 구성 단계 �
 
 >[!NOTE]
 >
->[트랜잭션 메시지](../../message-center/using/about-transactional-messaging.md) 이벤트를 관리할 때 액세스 권한 문제로 이어질 수 있으므로 **[!UICONTROL Real time events]** 또는 **[!UICONTROL Batch events]** 폴더를 실행 인스턴스의 보기로 설정하지 않아야 합니다. 이벤트 컬렉션에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-collection){target="_blank"}(Campaign v8 설명서)을 참조하세요.
+>[트랜잭션 메시지](../../message-center/using/about-transactional-messaging.md) 이벤트를 관리할 때 액세스 권한 문제로 이어질 수 있으므로 **[!UICONTROL Real time events]** 또는 **[!UICONTROL Batch events]** 폴더를 실행 인스턴스의 보기로 설정하지 않아야 합니다. 이벤트 컬렉션에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-collection){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 <!--
 ## Permissions on a folder

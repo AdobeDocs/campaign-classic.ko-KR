@@ -70,7 +70,7 @@ Adobe Campaign이 제공하는 [동의 관리](privacy-management.md#consent-man
 
 사용자 지정 수신자 테이블을 사용하는 경우 이 작업도 수행해야 합니다.
 
-새 필드를 만드는 방법에 대한 자세한 내용은 [스키마 버전 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}(Campaign v8 설명서)를 참조하십시오.
+새 필드를 만드는 방법에 대한 자세한 내용은 [스키마 버전 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}(Campaign v8 설명서)를 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -88,7 +88,7 @@ Adobe Campaign이 제공하는 [동의 관리](privacy-management.md#consent-man
 
    ![](assets/privacy-ccpa-3.png)
 
-1. 탐색기의 **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]** 노드를 클릭합니다. **[!UICONTROL Recipient (nms)]**&#x200B;의 &quot;일반 패키지&quot;에서 `<input>` 요소를 추가하고 2단계에서 정의된 상대 경로인 xpath 값에 사용합니다. 양식 식별에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}(Campaign v8 설명서)을 참조하십시오.
+1. 탐색기의 **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]** 노드를 클릭합니다. **[!UICONTROL Recipient (nms)]**&#x200B;의 &quot;일반 패키지&quot;에서 `<input>` 요소를 추가하고 2단계에서 정의된 상대 경로인 xpath 값에 사용합니다. 양식 식별에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}(Campaign v8 설명서)을 참조하십시오.
 
    ```
    <input  colspan="2" type="checkbox" xpath="@OPTOUTCCPA"/>
@@ -118,7 +118,7 @@ Adobe Campaign이 제공하는 [동의 관리](privacy-management.md#consent-man
 
    ![](assets/privacy-ccpa-6.png)
 
-1. 이 열을 클릭하여 옵트아웃 정보에 따라 수신자를 정렬할 수 있습니다. 옵트아웃한 수신자만 표시하는 필터를 만들 수도 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
+1. 이 열을 클릭하여 옵트아웃 정보에 따라 수신자를 정렬할 수 있습니다. 옵트아웃한 수신자만 표시하는 필터를 만들 수도 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
 
 
    ![](assets/privacy-ccpa-7.png)

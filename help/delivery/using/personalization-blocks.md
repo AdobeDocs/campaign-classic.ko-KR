@@ -145,7 +145,7 @@ HTML 소스 코드는 게재 콘텐츠에 삽입됩니다. 예를 들어 **[!UIC
 * **[!UICONTROL Registration confirmation]** : 구독을 확인할 수 있는 링크를 삽입합니다.
 * **[!UICONTROL Social network sharing links]** : 받는 사람이 전자 메일 클라이언트, Facebook, X(이전 Twitter) 및 LinkedIn과 미러 페이지 콘텐츠에 대한 링크를 공유할 수 있는 단추를 삽입합니다([Viral marketing: forward to a friend](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend) 참조).
 * **[!UICONTROL Style of content emails]** 및 **[!UICONTROL Notification style]** : 미리 정의된 HTML 스타일로 전자 메일의 서식을 지정하는 코드를 생성합니다. 이러한 블록은 **[!UICONTROL ...]** 섹션의 게재 소스 코드에 **`<style>...</style>`** 태그에 삽입되어야 합니다.
-* **[!UICONTROL Offer acceptance URL in unitary mode]** : 상호 작용 오퍼를 **[!UICONTROL Accepted]**(으)로 설정할 수 있는 URL을 삽입합니다([이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-tracking){target="_blank"} 참조(Campaign v8 설명서).
+* **[!UICONTROL Offer acceptance URL in unitary mode]** : 상호 작용 오퍼를 **[!UICONTROL Accepted]**(으)로 설정할 수 있는 URL을 삽입합니다([이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-tracking){target="_blank"} 참조(Campaign v8 설명서).
 
 ## 사용자 지정 개인화 블록 정의 {#defining-custom-personalization-blocks}
 

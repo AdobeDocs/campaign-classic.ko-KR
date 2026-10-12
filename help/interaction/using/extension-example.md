@@ -49,4 +49,4 @@ ht-degree: 3%
 
   ![](assets/s_ncs_configuration_offer_context.png)
 
-* SOAP 호출을 구성할 때는 상호 작용 스키마에 추가된 컨텍스트 정보를 참조하도록 **context** XML 요소를 삽입합니다. 자세한 내용은 [SOAP을 통한 통합(서버측)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-integration){target="_blank"}(Campaign v8 설명서)을 참조하십시오.
+* SOAP 호출을 구성할 때는 상호 작용 스키마에 추가된 컨텍스트 정보를 참조하도록 **context** XML 요소를 삽입합니다. 자세한 내용은 [SOAP을 통한 통합(서버측)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/inbound/interaction-integration){target="_blank"}(Campaign v8 설명서)을 참조하십시오.

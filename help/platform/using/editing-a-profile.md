@@ -56,11 +56,11 @@ ht-degree: 2%
 >
 >프로필 테이블의 필드와 관련된 XML 스키마와 양식은 Adobe Campaign 트리의 **[!UICONTROL Administration > Configuration > Data schemas]** 노드를 통해 액세스됩니다. 전문가 사용자만 이러한 스키마를 변경할 수 있습니다.
 >
->자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}(Campaign v8 설명서)를 참조하세요.
+>자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}(Campaign v8 설명서)를 참조하세요.
 
 >[!NOTE]
 >
->프로필을 편집하고 액세스하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/view-profiles){target=_blank}의 상세 설명서를 참조하십시오.
+>프로필을 편집하고 액세스하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/view-profiles){target=_blank}의 상세 설명서를 참조하십시오.
 
 
 
@@ -129,6 +129,6 @@ The list is configurable, and usually contains: the URL clicked, date and time o
 
 >[!NOTE]
 >
->For more on tracking functionality, please refer to [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
+>For more on tracking functionality, please refer to [this page](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
 
 -->

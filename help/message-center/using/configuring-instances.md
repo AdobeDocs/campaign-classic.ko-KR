@@ -61,7 +61,7 @@ ht-degree: 2%
 
 ## 컨트롤 인스턴스 구성 {#control-instance}
 
-컨트롤 인스턴스와 실행 인스턴스를 연결하려면 먼저 컨트롤 인스턴스에서 **[!UICONTROL Execution instance]** 유형 외부 계정 **을(를) 만들고 구성해야 합니다**. 따라서 [게시](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template#publish-message-template){target="_blank"}(Campaign v8 설명서)하면 트랜잭션 메시지 템플릿을 실행 인스턴스에 배포할 수 있습니다.
+컨트롤 인스턴스와 실행 인스턴스를 연결하려면 먼저 컨트롤 인스턴스에서 **[!UICONTROL Execution instance]** 유형 외부 계정 **을(를) 만들고 구성해야 합니다**. 따라서 [게시](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional-template#publish-message-template){target="_blank"}(Campaign v8 설명서)하면 트랜잭션 메시지 템플릿을 실행 인스턴스에 배포할 수 있습니다.
 
 실행 인스턴스를 여러 개 사용하는 경우 실행 인스턴스가 있는 만큼의 외부 계정을 만들어야 합니다.
 

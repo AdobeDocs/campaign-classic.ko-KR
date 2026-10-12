@@ -33,11 +33,11 @@ ht-degree: 1%
 ---
 # 트랜잭션 메시지 템플릿 테스트 {#testing-message-templates}
 
-[메시지 템플릿](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"}(Campaign v8 설명서)이 준비되면 아래 단계에 따라 미리 보고 테스트하십시오.
+[메시지 템플릿](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"}(Campaign v8 설명서)이 준비되면 아래 단계에 따라 미리 보고 테스트하십시오.
 
-Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 시드 주소를 추가하고 트랜잭션 메시지를 미리 보고 증명을 보내는 방법은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template#test-message-template){target=_blank}를 참조하세요.
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 시드 주소를 추가하고 트랜잭션 메시지를 미리 보고 증명을 보내는 방법은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional-template#test-message-template){target=_blank}를 참조하세요.
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template#test-message-template){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional-template#test-message-template){target=_blank}
 
 ## 개인화 데이터 {#personalization-data}
 
@@ -47,7 +47,7 @@ Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명
 
 ![](assets/messagecenter_create_custo_006.png)
 
-이 정보를 통해 개인화 태그를 사용하여 메시지 콘텐츠를 개인화할 수 있습니다. 자세한 내용은 [메시지 콘텐츠 만들기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template#create-message-content){target="_blank"}(Campaign v8 설명서)를 참조하십시오.
+이 정보를 통해 개인화 태그를 사용하여 메시지 콘텐츠를 개인화할 수 있습니다. 자세한 내용은 [메시지 콘텐츠 만들기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional-template#create-message-content){target="_blank"}(Campaign v8 설명서)를 참조하십시오.
 
 1. 트랜잭션 메시지 템플릿을 선택합니다.
 

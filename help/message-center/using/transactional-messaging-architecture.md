@@ -142,7 +142,7 @@ Create your delivery templates the way you would for an email campaign:
 * Add the offer to your transactional message template.
 * Check the preview, send a proof and publish the template.
 
-You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"} (Campaign v8 documentation).
+You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"} (Campaign v8 documentation).
 
 -->
 
@@ -264,4 +264,4 @@ LINE과 함께 트랜잭션 메시지 모듈을 사용하려면 **마케팅** �
    * **[!UICONTROL Create the archiving workflow]** 버튼을 클릭합니다.
    * LINE 데이터 동기화 워크플로를 만들려면 **[!UICONTROL Create data synchronization workflow]** 단추를 클릭하십시오.
 
-1. 이제 [트랜잭션 메시지 만들기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"}를 시작할 수 있습니다(Campaign v8 설명서).
+1. 이제 [트랜잭션 메시지 만들기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"}를 시작할 수 있습니다(Campaign v8 설명서).

@@ -37,7 +37,7 @@ ht-degree: 2%
 1. 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL Actions > Regenerate selected schemas...]** 을(를) 선택합니다.
 1. 프로세스를 확인하고 시작하려면 **[!UICONTROL OK]**&#x200B;을(를) 클릭하십시오.
 
-그런 다음 미리보기 및 설명서 탭에서 생성된 스키마의 구조를 확인할 수 있습니다. 자세한 내용은 [원칙](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"}(Campaign v8 설명서) 섹션을 참조하십시오.
+그런 다음 미리보기 및 설명서 탭에서 생성된 스키마의 구조를 확인할 수 있습니다. 자세한 내용은 [원칙](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"}(Campaign v8 설명서) 섹션을 참조하십시오.
 
 >[!NOTE]
 >

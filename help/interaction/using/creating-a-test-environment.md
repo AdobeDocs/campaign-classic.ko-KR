@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->테스트 환경에만 이 환경 생성 방법을 사용하십시오. 다른 모든 경우에는 대상 매핑 도우미를 사용하십시오. 자세한 내용은 [오퍼 환경 만들기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}(Campaign v8 설명서)를 참조하세요.
+>테스트 환경에만 이 환경 생성 방법을 사용하십시오. 다른 모든 경우에는 대상 매핑 도우미를 사용하십시오. 자세한 내용은 [오퍼 환경 만들기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}(Campaign v8 설명서)를 참조하세요.
 
 1. Adobe Campaign 탐색기를 시작하고 인스턴스 루트로 이동합니다.
 1. 마우스 오른쪽 단추를 클릭하고 드롭다운 메뉴를 사용하여 **[!UICONTROL Generic folder]**&#x200B;을(를) 추가합니다.

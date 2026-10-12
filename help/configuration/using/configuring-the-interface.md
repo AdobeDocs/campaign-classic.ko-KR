@@ -57,7 +57,7 @@ Adobe Campaign은 &quot;Nms_DefaultRcpSchema&quot; 전역 변수를 사용하여
 
    >[!NOTE]
    >
-   >**양식** 형식 파일에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}(Campaign v8 설명서)를 참조하세요.
+   >**양식** 형식 파일에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}(Campaign v8 설명서)를 참조하세요.
 
    현재 예제에서 **form** 파일은 **cus:individual** 스키마를 기반으로 해야 하므로 다음 레이아웃이 있어야 합니다.
 

@@ -31,9 +31,9 @@ ht-degree: 6%
 
 이 페이지에서는 스키마 필드에서 인덱스를 선언하는 방법을 설명합니다.
 
-Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 스키마의 SQL 매핑에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/database-mapping){target=_blank}를 참조하세요.
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 스키마의 SQL 매핑에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/database-mapping){target=_blank}를 참조하세요.
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/database-mapping){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/database-mapping){target=_blank}
 
 ## 인덱싱된 필드 {#indexed-fields}
 
@@ -107,4 +107,4 @@ Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명
 * [스키마 시작하기](about-schema-reference.md)
 * [스키마 구조](schema-structure.md)
 * [키 관리](database-keys.md)
-* [링크 관리](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/database-links){target="_blank"}(Campaign v8 설명서)
+* [링크 관리](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/database-links){target="_blank"}(Campaign v8 설명서)

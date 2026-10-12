@@ -135,7 +135,7 @@ ht-degree: 3%
 
 1. **[!UICONTROL Offer managers]**
 
-   이 그룹의 운영자는 오퍼를 만들고 유지 관리할 수 있습니다. 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators){target="_blank"}(Campaign v8 설명서)를 참조하세요.
+   이 그룹의 운영자는 오퍼를 만들고 유지 관리할 수 있습니다. 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators){target="_blank"}(Campaign v8 설명서)를 참조하세요.
    이 그룹에는 다음과 같은 명명된 권한이 포함되어 있습니다.
 
    * **[!UICONTROL INSERT FOLDERS]**: 관련 분기에 대한 편집 권한이 있는 경우 폴더를 Adobe Campaign 트리에 삽입할 수 있는 권한,

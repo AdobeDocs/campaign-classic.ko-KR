@@ -73,7 +73,7 @@ iFolderId 필드는 수신자를 해당 실행 폴더에 연결하는 외래 키
 
 sCountryCode 필드는 수신자와 연결된 국가의 3166-1 Alpha 2 ISO 코드(2자)입니다. 이 필드는 국가 레이블 및 기타 국가 코드 데이터를 포함하는 국가 참조 테이블(NmsCountry)의 외래 키입니다. 국가를 채우지 않으면 값 &#39;XX&#39;가 저장됩니다(0 ID 레코드 대신 사용됨).
 
-받는 사람 테이블에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"}(Campaign v8 설명서)을 참조하십시오.
+받는 사람 테이블에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"}(Campaign v8 설명서)을 참조하십시오.
 
 ### Nms 그룹 {#NmsGroup}
 
@@ -133,7 +133,7 @@ sInternalName 게재 또는 시나리오의 내부 이름을 나타내는 고유
 
 ## 캠페인 관리 {#campaign-management}
 
-이 테이블 집합은 **마케팅 캠페인** 모듈에 연결되어 통신 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}를 참조하십시오.
+이 테이블 집합은 **마케팅 캠페인** 모듈에 연결되어 통신 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ko){target=_blank}를 참조하십시오.
 
 ![](assets/data-model_campaign.png)
 

@@ -98,7 +98,7 @@ ht-degree: 1%
 
 ### 유효성 검사 프로세스 진행
 
-Adobe Campaign 연산자 및 그룹을 포함하는 전체 유효성 검사 프로세스를 정의하여 대상과 메시지 콘텐츠의 유효성을 모두 검사할 수 있습니다. 이를 통해 타겟팅, 콘텐츠, 예산, 추출 및 증명 전송과 같은 캠페인의 다양한 프로세스를 완벽하게 모니터링하고 제어할 수 있습니다. 사용자는 권한에 따라 알림을 받고 증명을 받으며 메시지를 확인 또는 거부할 수 있습니다. 자세히 알아보기 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval){target="_blank"}(Campaign v8 설명서).
+Adobe Campaign 연산자 및 그룹을 포함하는 전체 유효성 검사 프로세스를 정의하여 대상과 메시지 콘텐츠의 유효성을 모두 검사할 수 있습니다. 이를 통해 타겟팅, 콘텐츠, 예산, 추출 및 증명 전송과 같은 캠페인의 다양한 프로세스를 완벽하게 모니터링하고 제어할 수 있습니다. 사용자는 권한에 따라 알림을 받고 증명을 받으며 메시지를 확인 또는 거부할 수 있습니다. 자세히 알아보기 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval){target="_blank"}(Campaign v8 설명서).
 
 ### 예약된 일괄 처리 사용
 
@@ -126,7 +126,7 @@ Adobe Campaign 연산자 및 그룹을 포함하는 전체 유효성 검사 프�
 
 * 각 IPAffinity 요소에 대해 사용할 수 있는 IP 주소를 선언합니다. [자세히 알아보기](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
-* 선택한 [유형화](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}(Campaign v8 설명서)에서 **[!UICONTROL Managing affinities with IP addresses]** 필드를 사용하여 해당 선호도를 관리하는 게재 서버(MTA)에 게재를 연결합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/apply-rules#control-outgoing-smtp-traffic){target="_blank"}(Campaign v8 설명서).
+* 선택한 [유형화](https://experienceleague.adobe.com/ko/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}(Campaign v8 설명서)에서 **[!UICONTROL Managing affinities with IP addresses]** 필드를 사용하여 해당 선호도를 관리하는 게재 서버(MTA)에 게재를 연결합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/automation/campaign-optimization/apply-rules#control-outgoing-smtp-traffic){target="_blank"}(Campaign v8 설명서).
 
 * 이메일이 전송되면 헤더를 확인하여 게재가 전송된 IP 주소를 확인하십시오. 이메일 관리자가 헤더 정보를 얻는 데 도움을 줄 수 있습니다.
 
@@ -138,7 +138,7 @@ Adobe Campaign 연산자 및 그룹을 포함하는 전체 유효성 검사 프�
 
 ### 유형화 사용
 
-유형화 규칙을 사용하여 특정 기준에 따라 대상의 일부를 제외할 수 있습니다. 따라서 회사 커뮤니케이션 정책을 준수하면서 고객의 요구 사항과 기대치에 가장 적합한 메시지를 보낼 수 있습니다. 예를 들어 뉴스레터의 대상에서 미성년인 수신자를 필터링할 수 있습니다. 자세한 내용은 [이 예제](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/filtering-rules){target="_blank"}을(를) 참조하십시오(Campaign v8 설명서).
+유형화 규칙을 사용하여 특정 기준에 따라 대상의 일부를 제외할 수 있습니다. 따라서 회사 커뮤니케이션 정책을 준수하면서 고객의 요구 사항과 기대치에 가장 적합한 메시지를 보낼 수 있습니다. 예를 들어 뉴스레터의 대상에서 미성년인 수신자를 필터링할 수 있습니다. 자세한 내용은 [이 예제](https://experienceleague.adobe.com/ko/docs/campaign/automation/campaign-optimization/filtering-rules){target="_blank"}을(를) 참조하십시오(Campaign v8 설명서).
 
 ### 첨부 파일 방지
 

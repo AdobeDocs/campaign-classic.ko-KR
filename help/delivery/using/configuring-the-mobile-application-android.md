@@ -102,7 +102,7 @@ Android의 경우 두 개의 커넥터를 사용할 수 있습니다.
 
 ## Android 서비스 구성 {#configuring-android-service}
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 Android 서비스를 구성하는 방법에 대해 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}.
+![](assets/do-not-localize/how-to-video.png) [비디오에서 Android 서비스를 구성하는 방법에 대해 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=ko#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}.
 
 1. **[!UICONTROL Profiles and Targets > Services and subscriptions]** 노드로 이동하여 **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
@@ -191,11 +191,11 @@ HTTP v1 API 버전을 구성하려면 아래 단계를 수행합니다.
 
 ## appsubscriptionRcp 스키마 확장 {#extend-subscription-schema}
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 appsubscriptionRcp 스키마를 확장하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html#extending-the-app-subscription-schema-to-personalize-push-notifications)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 appsubscriptionRcp 스키마를 확장하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html?lang=ko#extending-the-app-subscription-schema-to-personalize-push-notifications)
 
 앱의 매개 변수를 Campaign 데이터베이스에 저장하려면 **appsubscriptionRcp**&#x200B;을(를) 확장하여 새 추가 필드를 정의해야 합니다. 이러한 필드는 예를 들어 개인화에 사용됩니다. 방법은 다음과 같습니다.
 
-1. **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** 스키마의 확장을 만들고 새 필드를 정의합니다. [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}에서 스키마 확장에 대해 자세히 알아보기(Campaign v8 설명서)
+1. **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** 스키마의 확장을 만들고 새 필드를 정의합니다. [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}에서 스키마 확장에 대해 자세히 알아보기(Campaign v8 설명서)
 
 1. **[!UICONTROL Subscription parameters]** 탭에서 매핑을 정의합니다.
 

@@ -58,7 +58,7 @@ Adobe Campaign을 사용하면 패키지 시스템을 통해 플랫폼 구성 �
 
 >[!NOTE]
 >
->데이터 패키지에 대한 자세한 내용은 [Campaign v8 설명서를 참조하세요.](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/packages){target=_blank}
+>데이터 패키지에 대한 자세한 내용은 [Campaign v8 설명서를 참조하세요.](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/packages){target=_blank}
 
 
 <!--
@@ -168,7 +168,7 @@ This mechanism is defined by two rules:
 
 >[!NOTE]
 >
->Integrity types linked to schema elements are defined in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/database-links){target="_blank"} (Campaign v8 documentation).
+>Integrity types linked to schema elements are defined in [this section](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/database-links){target="_blank"} (Campaign v8 documentation).
 
 #### Export a campaign {#exporting-a-campaign}
 

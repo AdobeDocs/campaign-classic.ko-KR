@@ -103,7 +103,7 @@ Adobe은 보안 규정 준수를 이유로 오래된 데이터 센터를 폐기�
 1. **제품 및 서비스** 섹션에 액세스하여 **Adobe Campaign**&#x200B;이(가) 나열되는지 확인하십시오.
 **Adobe Campaign**&#x200B;이 표시되지 않으면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}에 문의하여 추가하십시오.
 1. **Adobe Campaign**&#x200B;을(를) 클릭하고 조직을 선택합니다.
-   **주의**: 둘 이상의 조직이 있는 경우 올바른 조직을 선택하십시오. [&#x200B; 조직에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
+   **주의**: 둘 이상의 조직이 있는 경우 올바른 조직을 선택하십시오. [&#x200B; 조직에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ko#ims-org-id){_blank}.
 
 1. **[!UICONTROL Product profile]**&#x200B;이(가) 있는지 확인하십시오. 그렇지 않으면 만듭니다. 이 **[!UICONTROL Product profile]**&#x200B;에는 권한이 필요하지 않습니다.
 
@@ -150,4 +150,4 @@ Adobe Analytics 커넥터 구성을 계속하려면 Adobe Developer 콘솔에 �
 
 환경을 업그레이드하지 않으면 이메일 설정 동기화가 중지됩니다(MX 관리 규칙, 인바운드 이메일 규칙, 도메인 관리 규칙 및 반송 자격 규칙). 이는 시간이 지남에 따라 게재 가능성에 영향을 줄 수 있습니다. 이러한 규칙에 중요한 변경이 이루어진 경우 이 시점부터 수동으로 적용해야 합니다.
 
-MKT 인스턴스의 경우 [전역 제외 목록](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/filtering-rules#default-deliverability-exclusion-rules){target="_blank"}(Campaign v8 설명서)만 영향을 받습니다.
+MKT 인스턴스의 경우 [전역 제외 목록](https://experienceleague.adobe.com/ko/docs/campaign/automation/campaign-optimization/filtering-rules#default-deliverability-exclusion-rules){target="_blank"}(Campaign v8 설명서)만 영향을 받습니다.

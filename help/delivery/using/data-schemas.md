@@ -48,7 +48,7 @@ ht-degree: 1%
 
 다음은 Adobe Campaign의 데이터 스키마 사용과 관련된 몇 가지 일반 원칙입니다.
 
-Adobe Campaign에서 데이터 스키마를 만들고 구성하는 방법에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}(Campaign v8 설명서)을 참조하십시오.
+Adobe Campaign에서 데이터 스키마를 만들고 구성하는 방법에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}(Campaign v8 설명서)을 참조하십시오.
 
 ## 스키마 구조 {#schema-structure}
 

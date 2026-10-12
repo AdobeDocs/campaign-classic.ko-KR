@@ -53,7 +53,7 @@ JavaScript에서 SOAP 메서드를 만들 수 있습니다. 이 함수는 응용
 
 ### 선언 {#declaration}
 
-먼저 스키마에서 메서드를 선언합니다. 스키마를 만들고 편집하는 방법에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}(Campaign v8 설명서)을 참조하세요.
+먼저 스키마에서 메서드를 선언합니다. 스키마를 만들고 편집하는 방법에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 이 선언은 기본 메서드의 선언과 유사하지만, 정의가 있는 메서드 라이브러리의 이름을 지정하는 &#39;library&#39; 특성을 추가해야 합니다.
 

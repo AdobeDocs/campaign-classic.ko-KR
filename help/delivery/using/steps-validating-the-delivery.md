@@ -232,7 +232,7 @@ ht-degree: 8%
 
 이 노드에서 새 규칙을 만들고 새 유형화를 정의할 수 있습니다. 그러나 이러한 작업은 JavaScript을 아는 전문가 사용자용으로 예약되어 있습니다.
 
-유형화 규칙에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}(Campaign v8 설명서)를 참조하세요.
+유형화 규칙에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}(Campaign v8 설명서)를 참조하세요.
 
 현재 유형화를 편집하려면 **[!UICONTROL Typology]** 필드 오른쪽에 있는 **[!UICONTROL Edit link]** 아이콘을 클릭합니다.
 
@@ -244,7 +244,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->**[!UICONTROL Arbitration]** 유형 유형화는 판매 압력 관리 프레임워크 내에서 사용됩니다. 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/mrm/about-marketing-resource-management){target="_blank"}(Campaign v8 설명서)을 참조하세요.
+>**[!UICONTROL Arbitration]** 유형 유형화는 판매 압력 관리 프레임워크 내에서 사용됩니다. 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/automation/mrm/about-marketing-resource-management){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 ## 승인 모드 변경 {#changing-the-approval-mode}
 
