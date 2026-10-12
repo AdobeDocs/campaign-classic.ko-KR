@@ -21,9 +21,9 @@ subfeature_v2:
     internal-label: Reporting interface
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
     internal-label: Monitoring guidelines
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1526'
 ht-degree: 1%
 ---
 # 큐브에 대한 우수 사례{#concepts-and-methodology}
@@ -162,7 +162,7 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 
    ![](assets/s_advuser_cube_agregate_04.png)
 
-   * **[!UICONTROL Scheduler]** 활동을 통해 계산 업데이트 빈도를 정의할 수 있습니다. 스케줄러는 [이 섹션](../../workflow/using/scheduler.md)에 자세히 설명되어 있습니다.
+   * **[!UICONTROL Scheduler]** 활동을 통해 계산 업데이트 빈도를 정의할 수 있습니다. 스케줄러는 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"}에 자세히 설명되어 있습니다(Campaign v8 설명서).
    * **[!UICONTROL Aggregate update]** 활동을 사용하면 적용할 업데이트 모드를 전체 또는 일부 중에서 선택할 수 있습니다.
 
      기본적으로 각 계산 중에 전체 업데이트가 수행됩니다. 부분 업데이트를 활성화하려면 관련 옵션을 선택하고 업데이트 조건을 정의합니다.

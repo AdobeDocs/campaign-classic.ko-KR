@@ -42,9 +42,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1178'
 ht-degree: 1%
 ---
 # 대상자 동기화{#synchronizing-audiences}
@@ -89,7 +89,7 @@ Campaign Standard에서 복제되지 않는 추가 데이터를 포함하는 복
 
    ![](assets/acs_connect_query1.png)
 
-1. 쿼리 내에서 데이터를 더 추가합니다. 자세한 내용은 [데이터 추가](../../workflow/using/query.md#adding-data) 섹션을 참조하십시오.
+1. 쿼리 내에서 데이터를 더 추가합니다. 자세한 내용은 [데이터 추가](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query#adding-data){target="_blank"}(Campaign v8 설명서) 섹션을 참조하십시오.
 
    이 예에서는 합계를 추가하여 한 해에 받은 게재 수를 계산하는 방법을 보여 줍니다.
 
@@ -157,7 +157,7 @@ Campaign Standard에서 게재 워크플로우를 만들면 이 대상과 게재
 
    이 활동은 선택한 대상자의 데이터를 검색하는 데 사용됩니다. 필요한 경우 이 활동의 해당 탭을 사용하여 **[!UICONTROL Source Filtering]**&#x200B;을(를) 추가로 적용할 수도 있습니다.
 
-1. **[!UICONTROL Email delivery]** 활동을 추가하고 다른 [이메일 게재 활동](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html?lang=ko)&#x200B;(으)로 구성합니다.
+1. **[!UICONTROL Email delivery]** 활동을 추가하고 다른 [이메일 게재 활동](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html)&#x200B;(으)로 구성합니다.
 1. 게재 콘텐츠를 엽니다.
 1. 개인화 필드 추가. 팝업에서 **[!UICONTROL Additional data (targetData)]** 노드를 찾습니다. 이 노드에는 초기 타겟팅 워크플로우에서 계산된 대상자의 추가 데이터가 포함되어 있습니다. 다른 개인화 필드로 사용할 수 있습니다.
 
@@ -179,9 +179,9 @@ Campaign Standard에서 게재 워크플로우를 만들면 이 대상과 게재
 1. 게재 대시보드에서 게재를 보낼 수 있는지 수동으로 확인합니다.
 1. 게재의 보고서 및 로그 모니터링:
 
-   * **Campaign Standard에서**: 모든 게재에 대해 게재와 관련된 [보고서](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html?lang=ko) 및 [로그](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=ko)에 액세스합니다.
+   * **Campaign Standard에서**: 모든 게재에 대해 게재와 관련된 [보고서](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html) 및 [로그](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html)에 액세스합니다.
    * **Campaign v7 및 Campaign Standard**: 게재 ID, 전자 메일 브로드 로그 및 전자 메일 추적 로그가 Campaign v7에 동기화됩니다. 그런 다음 Campaign v7에서 마케팅 캠페인을 360° 각도로 볼 수 있습니다.
 
      격리는 자동으로 다시 Campaign v7에 동기화됩니다. 이렇게 하면 Campaign v7에서 수행된 다음 타깃팅을 위해 전달할 수 없는 정보를 고려할 수 있습니다.
 
-     Campaign Standard의 격리 관리에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=ko)을 참조하세요.
+     Campaign Standard의 격리 관리에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html)을 참조하세요.

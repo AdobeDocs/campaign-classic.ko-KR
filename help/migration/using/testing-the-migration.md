@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '739'
 ht-degree: 0%
 ---
 # 마이그레이션 테스트{#testing-the-migration}
@@ -182,7 +182,7 @@ nlserver.exe config -postupgrade -check -instance:<instance-name>
    <td> CRM v1(mscrmWorkflow/sfdcWorkflow)<br /> </td> 
    <td> PU-0008<br /> </td> 
    <td> 오류<br /> </td> 
-   <td> Microsoft CRM, Salesforce, Oracle CRM On Demand 작업 활동을 더 이상 사용할 수 없습니다. Adobe Campaign과 CRM 시스템 간의 데이터 동기화를 구성하려면 <a href="../../workflow/using/crm-connector.md" target="_blank">CRM 커넥터</a> 타깃팅 활동을 사용해야 합니다.<br /> </td>
+   <td> Microsoft CRM, Salesforce, Oracle CRM On Demand 작업 활동을 더 이상 사용할 수 없습니다. Adobe Campaign과 CRM 시스템 간의 데이터 동기화를 구성하려면 <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector" target="_blank">CRM 커넥터</a>(Campaign v8 설명서) 타깃팅 활동을 사용해야 합니다.<br /> </td>
   </tr> 
  </tbody> 
 </table>

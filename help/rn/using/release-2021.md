@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '2670'
-ht-degree: 100%
+source-wordcount: '2702'
+ht-degree: 98%
 ---
 # 2021년 릴리스{#release-2021}
 
@@ -124,7 +124,7 @@ _2021년 6월 5일_
 <td>
 <p>새로 추가된 <b>데이터 소스 변경</b> 워크플로 활동을 사용하면 워크플로의 작업 테이블의 데이터 소스를 변경할 수 있습니다. 이를 통해 다양한 데이터 소스(FDA 및 로컬 데이터베이스)에서 데이터를 유연하게 관리할 수 있습니다.</p>
 <p>Adobe Campaign 워크플로에서 데이터는 작업(또는 임시) 테이블을 사용하여 관리됩니다. 워크플로를 실행하면 작업 테이블이 여러 워크플로 활동 간에 데이터를 공유합니다. 기본 설정에서 작업 테이블은 쿼리하는 데이터의 소스와 동일한 데이터베이스에 생성됩니다.</p>
-<p>자세한 내용은 <a href="../../workflow/using/change-data-source.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source" target="_blank">자세한 설명서</a>(Campaign v8 설명서)를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -226,7 +226,7 @@ _2021년 6월 5일_
 **개선 사항**
 
 * 워크플로를 저장할 때 활동 이름이 고유하고 전환 뒤에 활동이 표시되는지 확인하기 위한 추가 검사가 추가되었습니다.
-* 이제 **청구(billing)** 기술 워크플로에는 이전에 제거되었던 **활성 청구 프로필 수**(billingActiveContactCount) 워크플로에서 원래 수행한 작업이 포함됩니다. 워크플로가 매월 보내는 이메일 보고서는 이제 인스턴스의 활성 프로필 수에 대한 정보를 제공합니다. [자세한 내용](../../workflow/using/about-technical-workflows.md).
+* 이제 **청구(billing)** 기술 워크플로에는 이전에 제거되었던 **활성 청구 프로필 수**(billingActiveContactCount) 워크플로에서 원래 수행한 작업이 포함됩니다. 워크플로가 매월 보내는 이메일 보고서는 이제 인스턴스의 활성 프로필 수에 대한 정보를 제공합니다. [자세히 보기](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"}(Campaign v8 설명서).
 * 메모 데이터 작업에 키를 사용할 수 있도록 새 **_keyOnMData** 속성이 추가되었습니다.
 
 **기타 변경 사항**

@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 2%
+source-wordcount: '525'
+ht-degree: 0%
 ---
 # 필터링 규칙{#filtering-rules}
 
@@ -77,7 +77,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->**[!UICONTROL Delivery outline]** 활동에서 워크플로우에 유형화 및 필터링 규칙을 사용할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/delivery-outline.md)을 참조하십시오.
+>**[!UICONTROL Delivery outline]** 활동에서 워크플로우에 유형화 및 필터링 규칙을 사용할 수 있습니다. 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/delivery-outline){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 ## 필터링 유형화 만들기 및 사용 {#creating-and-using-a-filtering-typology}
 

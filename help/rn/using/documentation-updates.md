@@ -31,10 +31,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '464'
+ht-degree: 88%
 ---
 # 설명서 업데이트{#documentation-updates}
 
@@ -65,15 +65,15 @@ v7.4.1용 Linux 패키지 설치가 업데이트되었습니다. [자세히 보�
 
 릴리스 정보 섹션에 7.4.1의 개선 사항, 호환성 업데이트, 패치 내역을 업데이트했습니다. [자세히 알아보기](latest-release.md)
 
-워크플로를 다시 시작할 때 인스턴스 변수를 지우는 방법을 안내하는 메모가 추가되었습니다. [자세히 보기](../../workflow/using/starting-a-workflow.md)
+워크플로를 다시 시작할 때 인스턴스 변수를 지우는 방법을 안내하는 메모가 추가되었습니다. [자세히 보기](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow){target="_blank"}(Campaign v8 설명서)
 
 ### 2024년 4월 {#apr-2024}
 
 Adobe IMS(Identity Management System)를 사용한 사용자 만들기에 대한 주의 사항이 추가되었습니다. [자세히 보기](../../platform/using/access-management.md)
 
-웹 다운로드 워크플로 활동에 대한 누락된 옵션이 추가되었습니다. [자세히 보기](../../workflow/using/web-download.md)
+웹 다운로드 워크플로 활동에 대한 누락된 옵션이 추가되었습니다. [자세히 보기](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/event-activities/web-download){target="_blank"}(Campaign v8 설명서)
 
-**차원 변경** 및 **데이터 소스 변경** 활동에 워크플로에서의 사용에 대한 주의 사항이 추가되었습니다. [자세히 보기](../../workflow/using/change-data-source.md)
+**차원 변경** 및 **데이터 소스 변경** 활동에 워크플로에서의 사용에 대한 주의 사항이 추가되었습니다. [자세히 보기](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source){target="_blank"}(Campaign v8 설명서)
 
 ### 2024년 3월 {#mar-2024}
 

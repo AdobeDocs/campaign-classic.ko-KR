@@ -20,9 +20,9 @@ topic_v2:
 subfeature_v2:
   - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
     internal-label: Distributed Marketing
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '943'
 ht-degree: 3%
 ---
 # 공동 캠페인 만들기{#creating-a-collaborative-campaign-intro}
@@ -93,7 +93,7 @@ ht-degree: 3%
 * **[!UICONTROL Distribution context]** : 명시적.
 * **[!UICONTROL Data distribution]** : 로컬 엔터티 배포.
 
-**로컬 엔터티 배포** 형식 데이터 배포를 만들어야 합니다. 데이터 배포 템플릿을 사용하면 그룹화 값 목록에서 레코드 수를 제한할 수 있습니다. **[!UICONTROL Resources > Campaign management > Data distribution]**&#x200B;에서 **[!UICONTROL New]** 아이콘을 클릭하여 새 **[!UICONTROL Data distribution]**&#x200B;을(를) 만듭니다. 데이터 배포에 대한 자세한 내용은 [워크플로](../../workflow/using/using-the-local-approval-activity.md#step-1--creating-the-data-distribution-template-) 안내서를 참조하세요.
+**로컬 엔터티 배포** 형식 데이터 배포를 만들어야 합니다. 데이터 배포 템플릿을 사용하면 그룹화 값 목록에서 레코드 수를 제한할 수 있습니다. **[!UICONTROL Resources > Campaign management > Data distribution]**&#x200B;에서 **[!UICONTROL New]** 아이콘을 클릭하여 새 **[!UICONTROL Data distribution]**&#x200B;을(를) 만듭니다. 데이터 배포에 대한 자세한 내용은 [워크플로](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/deliveries/local-approval-activity#step-1--creating-the-data-distribution-template-){target="_blank"}(Campaign v8 설명서) 안내서를 참조하세요.
 
 ![](assets/mkg_dist_data_distribution.png)
 

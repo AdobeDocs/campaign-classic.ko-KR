@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 10%
+source-wordcount: '1082'
+ht-degree: 9%
 ---
 # 개인화 필드{#personalization-fields}
 
@@ -104,7 +104,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >게재가 워크플로우의 일부인 경우 임시 워크플로우 테이블의 데이터를 사용할 수 있습니다. 이 데이터는 **[!UICONTROL Target extension]** 메뉴에 그룹화되어 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/data-life-cycle.md#target-data)을 참조하십시오.
+   >게재가 워크플로우의 일부인 경우 임시 워크플로우 테이블의 데이터를 사용할 수 있습니다. 이 데이터는 **[!UICONTROL Target extension]** 메뉴에 그룹화되어 있습니다. 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/use-workflow-data){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 ## 개인화 최적화 {#optimizing-personalization}
 
@@ -119,8 +119,8 @@ ht-degree: 10%
 이 옵션을 사용하려면 아래 단계를 따르십시오.
 
 1. 캠페인을 만듭니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko){target=_blank}를 참조하십시오.
-1. 캠페인의 **[!UICONTROL Targeting and workflows]** 탭에서 **쿼리** 활동을 워크플로우에 추가합니다. 이 활동 사용에 대한 자세한 내용은 [이 섹션](../../workflow/using/query.md)을 참조하세요.
-1. 워크플로우에 **[!UICONTROL Email delivery]** 활동을 추가하고 엽니다. 이 활동 사용에 대한 자세한 내용은 [이 섹션](../../workflow/using/delivery.md)을 참조하세요.
+1. 캠페인의 **[!UICONTROL Targeting and workflows]** 탭에서 **쿼리** 활동을 워크플로우에 추가합니다. 이 활동 사용에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"}(Campaign v8 설명서)을 참조하세요.
+1. 워크플로우에 **[!UICONTROL Email delivery]** 활동을 추가하고 엽니다. 이 활동 사용에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 1. **[!UICONTROL Delivery properties]**&#x200B;의 **[!UICONTROL Analysis]** 탭으로 이동하여 **[!UICONTROL Prepare the personalization data with a workflow]** 옵션을 선택합니다.
 
    ![](assets/perso_optimization.png)
@@ -173,6 +173,6 @@ ht-degree: 10%
 
 제목 줄과 이메일 전달 컨텐츠에 개인화 필드를 추가하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31879?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.

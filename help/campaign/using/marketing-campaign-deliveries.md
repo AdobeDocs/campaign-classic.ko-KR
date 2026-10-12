@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1526'
 ht-degree: 1%
 ---
 # 마케팅 캠페인 게재 {#marketing-campaign-deliveries}
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 캠페인에서 생성되면 게재는 이 캠페인에 연결되고 캠페인 수준에서 통합됩니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#create-email-video)
+![](assets/do-not-localize/how-to-video.png)[비디오에서 이 기능 살펴보기](#create-email-video)
 
 ## 게재 만들기 {#creating-deliveries}
 
@@ -83,7 +83,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Campaign 패키지와 관련된 기술 워크플로는 [기술 워크플로 목록](../../workflow/using/about-technical-workflows.md)에 표시됩니다.
+>Campaign 패키지와 관련된 기술 워크플로는 [기술 워크플로 목록](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"}에 나와 있습니다(Campaign v8 설명서).
 
 **1단계 - 파일 승인**
 
@@ -142,7 +142,7 @@ ht-degree: 1%
 
 ## 관련 문서 관리 {#managing-associated-documents}
 
-보고서, 사진, 웹 페이지, 다이어그램 등 다양한 문서를 캠페인과 연결할 수 있습니다. 이러한 문서는 모든 형식(Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF 등)으로 제공됩니다. 문서를 [&#x200B; 캠페인과 연결하는 방법은 이 섹션](../../campaign/using/marketing-campaign-assets.md)에서 알아보세요.
+보고서, 사진, 웹 페이지, 다이어그램 등 다양한 문서를 캠페인과 연결할 수 있습니다. 이러한 문서는 모든 형식(Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF 등)으로 제공됩니다. 문서를 [ 캠페인과 연결하는 방법은 이 섹션](../../campaign/using/marketing-campaign-assets.md)에서 알아보세요.
 
 >[!IMPORTANT]
 >
@@ -263,7 +263,7 @@ ht-degree: 1%
 
 이 비디오에서는 Adobe Campaign에서 캠페인 및 이메일을 만드는 방법을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31872?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
 

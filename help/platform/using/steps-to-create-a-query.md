@@ -31,10 +31,10 @@ subfeature_v2:
     internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 10%
+source-wordcount: '165'
+ht-degree: 9%
 ---
 # 쿼리를 만드는 단계{#steps-to-create-a-query}
 
@@ -52,8 +52,8 @@ Adobe Campaign에서 쿼리를 작성하는 단계는 다음과 같습니다.
 >[!NOTE]
 >
 >* 이러한 모든 단계는 일반 쿼리 편집기에서 사용할 수 있습니다. 쿼리가 다른 컨텍스트에서 작성되면 일부 단계를 생략할 수 있습니다.\
->쿼리 활동이 [이 섹션](../../workflow/using/query.md)에 표시됩니다.
->* 쿼리 및 쿼리 만들기 방법에 대한 자세한 내용은 [Campaign v8 설명서](../../workflow/using/query.md)를 참조하세요.
+>쿼리 활동은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"}에 표시됩니다(Campaign v8 설명서).
+>* 쿼리 및 쿼리 만들기 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"}를 참조하세요.
 
 <!--
 ## Step 1 - Choose a table {#step-1---choose-a-table}
@@ -74,13 +74,13 @@ You can edit an expression by inserting a formula into it or running a process o
 
 ![](assets/query_editor_nveau_97.png)
 
-It is possible to group output column data: to do this, check **[!UICONTROL Yes]** in the **[!UICONTROL Group]** column of the **[!UICONTROL Data to extract]** window. This function generates a result around the checked grouping axis. An example of a query with grouping is available in [this section](../../workflow/using/querying-delivery-information.md).
+It is possible to group output column data: to do this, check **[!UICONTROL Yes]** in the **[!UICONTROL Group]** column of the **[!UICONTROL Data to extract]** window. This function generates a result around the checked grouping axis. An example of a query with grouping is available in [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info){target="_blank"} (Campaign v8 documentation).
 
 ![](assets/query_editor_nveau_56.png)
 
 * The **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** function lets you "group by" and select what has been grouped ("having"). This function applies to all fields in the output column. For example, this option lets you group all choices of an output column and recover a specific type of information, such as recipients between 35 and 50.
 
-  For more on this, refer to [this section](../../workflow/using/querying-using-grouping-management.md).
+  For more on this, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/designing-queries/query-grouping-management){target="_blank"} (Campaign v8 documentation).
 
 * The **[!UICONTROL Remove duplicate rows (DISTINCT)]** function lets you deduplicate identical results obtained in the output column. For example, if you take a census by selecting the Last name, First name and Email fields in the output column, those with identical data will be eliminated, since it means the same contact has been entered several times in the database: only one result will be taken into account.
 

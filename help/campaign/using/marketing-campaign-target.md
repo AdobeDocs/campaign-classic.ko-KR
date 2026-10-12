@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1581'
 ht-degree: 1%
 ---
 # 캠페인 대상자 선택 {#marketing-campaign-deliveries}
@@ -75,7 +75,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_user_edit_op_wf_link.png)
 
-대상 모집단은 워크플로우에 배치된 하나 이상의 쿼리를 통해 Adobe Campaign 데이터베이스에서 추출됩니다. 쿼리를 만드는 방법에 대해 알아보려면 [이 섹션](../../workflow/using/query.md)을 참조하세요.
+대상 모집단은 워크플로우에 배치된 하나 이상의 쿼리를 통해 Adobe Campaign 데이터베이스에서 추출됩니다. 쿼리를 만드는 방법에 대해 알아보려면 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 유니온, 교차, 공유, 제외 등의 상자를 통해 쿼리를 시작하고 모집단을 공유할 수 있습니다.
 
@@ -87,7 +87,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->쿼리를 정의하는 예제와 프로시저는 [이 섹션](../../workflow/using/query.md)에 나와 있습니다.
+>쿼리를 정의하는 예제와 절차는 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"}에 나와 있습니다(Campaign v8 설명서).
 
 편집기의 왼쪽 섹션에는 활동을 나타내는 그래픽 객체 라이브러리가 포함되어 있습니다. 첫 번째 탭에는 타깃팅 활동이 포함되어 있고 두 번째 탭에는 타깃팅 활동을 조정하는 데 간혹 사용되는 흐름 제어 활동이 포함되어 있습니다.
 
@@ -97,7 +97,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->다이어그램을 만드는 데 사용할 수 있는 활동과 모든 표시 및 레이아웃 기능은 [워크플로우로 자동화](../../workflow/using/architecture.md) 안내서에 자세히 설명되어 있습니다.
+>다이어그램을 만드는 데 사용할 수 있는 활동과 모든 표시 및 레이아웃 기능은 [워크플로우로 자동화](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target="_blank"}(Campaign v8 설명서) 안내서에 자세히 설명되어 있습니다.
 
 단일 캠페인에 대해 여러 타겟팅 워크플로우를 만들 수 있습니다. 워크플로우를 추가하려면 다음 작업을 수행하십시오.
 
@@ -250,7 +250,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_user_edit_op_target_param.png)
 
-이 구성은 타겟을 하위 집합으로 나눌 수 있는 워크플로우의 공유 활동과 같습니다. 컨트롤 그룹은 이러한 하위 집합 중 하나입니다. 자세한 내용은 [이 섹션](../../workflow/using/architecture.md)을 참조하세요.
+이 구성은 타겟을 하위 집합으로 나눌 수 있는 워크플로우의 공유 활동과 같습니다. 컨트롤 그룹은 이러한 하위 집합 중 하나입니다. 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/split){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 ### 새 모집단을 컨트롤 그룹으로 사용 {#adding-a-population}
 
@@ -260,13 +260,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Adobe Campaign 쿼리 편집기가 [이 섹션](../../workflow/using/query.md)에 표시됩니다.
+>Adobe Campaign 쿼리 편집기는 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"}에 표시됩니다(Campaign v8 설명서).
 
 
 #### 튜토리얼 비디오 {#create-email-video}
 
 이 비디오에서는 Adobe Campaign에서 캠페인 및 이메일을 만드는 방법을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31872?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

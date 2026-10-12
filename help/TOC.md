@@ -8,9 +8,9 @@ user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: df5d87ca4fccb927f770957ec1c00157d14e95dc
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '2717'
+source-wordcount: '2298'
 ht-degree: 100%
 ---
 
@@ -363,124 +363,6 @@ ht-degree: 100%
     + {hide-from-toc}[웹 애플리케이션 동기화 - 숨김](integrations/using/synchronizing-web-applications.md)
     + {hide-from-toc}[ [!DNL ACS Connector] 문제 해결 - 숨김](integrations/using/troubleshooting-the-acs-connector.md)
 + [워크플로로 자동화](workflow/using/about-workflows.md)
-+ 워크플로로 자동화 {#automating-with-workflows}
-  + 워크플로 시작 {#introduction}
-    + {hide-from-toc}[활동 정보 - 숨김](workflow/using/about-activities.md)
-    + {hide-from-toc}[워크플로 작성 - 숨김](workflow/using/building-a-workflow.md)
-    + {hide-from-toc}[대상 데이터 - 숨김](workflow/using/targeting-data.md)
-    + {hide-from-toc}[워크플로 데이터 사용 - 숨김](workflow/using/how-to-use-workflow-data.md)
-    + {hide-from-toc}[워크플로 모범 사례 - 숨김](workflow/using/workflow-best-practices.md)
-  + 워크플로 실행 {#executing-a-workflow}
-    + {hide-from-toc}[워크플로 시작 - 숨김](workflow/using/starting-a-workflow.md)
-    + {hide-from-toc}[워크플로 라이프사이클 - 숨김](workflow/using/workflow-life-cycle.md)
-    + {hide-from-toc}[데이터 라이프사이클 - 숨김](workflow/using/data-life-cycle.md)
-    + {hide-from-toc}[승인 정의 - 숨김](workflow/using/defining-approvals.md)
-    + {hide-from-toc}[아키텍처 - 숨김](workflow/using/architecture.md)
-  + 타겟팅 활동 {#targeting-activities}
-    + {hide-from-toc}[타기팅 활동 정보 - 숨김](workflow/using/about-targeting-activities.md)
-    + {hide-from-toc}[쿼리 - 숨김](workflow/using/query.md)
-    + {hide-from-toc}[증분 쿼리 - 숨김](workflow/using/incremental-query.md)
-    + {hide-from-toc}[읽기 목록 - 숨김](workflow/using/read-list.md)
-    + {hide-from-toc}[합집합 - 숨김](workflow/using/union.md)
-    + {hide-from-toc}[교집합 - 숨김](workflow/using/intersection.md)
-    + {hide-from-toc}[제외 - 숨김](workflow/using/exclusion.md)
-    + {hide-from-toc}[분할 - 숨김](workflow/using/split.md)
-    + {hide-from-toc}[셀 - 숨김](workflow/using/cells.md)
-    + {hide-from-toc}[셀별 오퍼 - 숨김](workflow/using/offers-by-cell.md)
-    + {hide-from-toc}[게재 개요 - 숨김](workflow/using/delivery-outline.md)
-    + {hide-from-toc}[데이터 보강 - 숨김](workflow/using/enrichment.md)
-    + {hide-from-toc}[스키마 편집 - 숨김](workflow/using/edit-schema.md)
-    + {hide-from-toc}[오퍼 엔진 - 숨김](workflow/using/offer-engine.md)
-    + {hide-from-toc}[중복 제거 - 숨김](workflow/using/deduplication.md)
-    + {hide-from-toc}[차원 변경 - 숨김](workflow/using/change-dimension.md)
-    + {hide-from-toc}[목록 업데이트 - 숨김](workflow/using/list-update.md)
-    + {hide-from-toc}[구독 서비스 - 숨김](workflow/using/subscription-services.md)
-    + {hide-from-toc}[데이터 업데이트 - 숨김](workflow/using/update-data.md)
-    + {hide-from-toc}[CRM 커넥터 - 숨김](workflow/using/crm-connector.md)
-    + {hide-from-toc}[데이터 소스 변경 - 숨김](workflow/using/change-data-source.md)
-  + 흐름 제어 활동 {#flow-control-activities}
-    + {hide-from-toc}[흐름 제어 활동 정보 - 숨김](workflow/using/about-flow-control-activities.md)
-    + {hide-from-toc}[시작 및 종료 - 숨김](workflow/using/start-and-end.md)
-    + {hide-from-toc}[포크 - 숨김](workflow/using/fork.md)
-    + {hide-from-toc}[AND 결합 - 숨김](workflow/using/and-join.md)
-    + {hide-from-toc}[스케줄러 - 숨김](workflow/using/scheduler.md)
-    + {hide-from-toc}[테스트 - 숨김](workflow/using/test.md)
-    + {hide-from-toc}[대기 - 숨김](workflow/using/wait.md)
-    + {hide-from-toc}[시간 제한 - 숨김](workflow/using/time-constraint.md)
-    + {hide-from-toc}[하위 워크플로 - 숨김](workflow/using/sub-workflow.md)
-    + {hide-from-toc}[이동(시작 지점 및 종료 지점) - 숨김](workflow/using/jump-start-point-and-end-point.md)
-    + {hide-from-toc}[외부 신호 - 숨김](workflow/using/external-signal.md)
-    + {hide-from-toc}[승인 - 숨김](workflow/using/approval.md)
-    + {hide-from-toc}[경고 - 숨김](workflow/using/alert.md)
-    + {hide-from-toc}[작업 - 숨김](workflow/using/task.md)
-  + 작업 활동 {#action-activities}
-    + {hide-from-toc}[액션 활동 정보 - 숨김](workflow/using/about-action-activities.md)
-    + {hide-from-toc}[게재 - 숨김](workflow/using/delivery.md)
-    + {hide-from-toc}[게재 관리 - 숨김](workflow/using/delivery-control.md)
-    + {hide-from-toc}[연속 게재 - 숨김](workflow/using/continuous-delivery.md)
-    + {hide-from-toc}[반복 게재 - 숨김](workflow/using/recurring-delivery.md)
-    + {hide-from-toc}[크로스 채널 게재 - 숨김](workflow/using/cross-channel-deliveries.md)
-    + {hide-from-toc}[로컬 승인 - 숨김](workflow/using/local-approval.md)
-    + {hide-from-toc}[데이터 로딩(RDBMS) - 숨김](workflow/using/data-loading-rdbms.md)
-    + {hide-from-toc}[로딩(SOAP) - 숨김](workflow/using/loading-soap.md)
-    + {hide-from-toc}[데이터 로딩(파일) - 숨김](workflow/using/data-loading-file.md)
-    + {hide-from-toc}[콘텐츠 관리 - 숨김](workflow/using/content-management.md)
-    + {hide-from-toc}[데이터 추출(파일) - 숨김](workflow/using/extraction-file.md)
-    + {hide-from-toc}[SQL 코드 및 JavaScript 코드 - 숨김](workflow/using/sql-code-and-javascript-code.md)
-    + {hide-from-toc}[SQL 데이터 관리 - 숨김](workflow/using/sql-data-management.md)
-    + {hide-from-toc}[Nlserver 모듈 - 숨김](workflow/using/nlserver-module.md)
-    + {hide-from-toc}[집계 업데이트 - 숨김](workflow/using/update-aggregate.md)
-  + 이벤트 활동 {#event-activities}
-    + {hide-from-toc}[이벤트 활동 정보 - 숨김](workflow/using/about-event-activities.md)
-    + {hide-from-toc}[파일 수집기 - 숨김](workflow/using/file-collector.md)
-    + {hide-from-toc}[파일 전송 - 숨김](workflow/using/file-transfer.md)
-    + {hide-from-toc}[웹 다운로드 - 숨김](workflow/using/web-download.md)
-    + {hide-from-toc}[인바운드 이메일 - 숨김](workflow/using/inbound-emails.md)
-    + {hide-from-toc}[인바운드 SMS - 숨김](workflow/using/inbound-sms.md)
-  + 사용 사례 {#use-cases}
-    + {hide-from-toc}[워크플로 사용 사례 정보 - 숨김](workflow/using/about-workflow-use-cases.md)
-    + 게재 {#deliveries}
-      + {hide-from-toc}[로컬 승인 활동 사용 - 숨김](workflow/using/using-the-local-approval-activity.md)
-      + {hide-from-toc}[생일 이메일 보내기 - 숨김](workflow/using/sending-a-birthday-email.md)
-      + {hide-from-toc}[게재 콘텐츠 로드 - 숨김](workflow/using/loading-delivery-content.md)
-      + {hide-from-toc}[크로스 채널 게재 워크플로 - 숨김](workflow/using/cross-channel-delivery-workflow.md)
-      + {hide-from-toc}[사용자 정의 날짜 필드를 통한 이메일 보강 - 숨김](workflow/using/email-enrichment-with-custom-date-fields.md)
-  + 모니터링 {#monitoring}
-    + {hide-from-toc}[목록으로 보고서 보내기 - 숨김](workflow/using/sending-a-report-to-a-list.md)
-    + {hide-from-toc}[워크플로 감독 - 숨김](workflow/using/supervising-workflows.md)
-    + {hide-from-toc}[운영자에게 개인화된 경고 보내기 - 숨김](workflow/using/sending-personalized-alerts-to-operators.md)
-  + 데이터 관리 {#data-management}
-    + {hide-from-toc}[데이터 업데이트 조정 - 숨김](workflow/using/coordinating-data-updates.md)
-    + {hide-from-toc}[요약 목록 만들기 - 숨김](workflow/using/creating-a-summary-list.md)
-    + {hide-from-toc}[데이터 보강 - 숨김](workflow/using/enriching-data.md)
-    + {hide-from-toc}[집계 사용 - 숨김](workflow/using/using-aggregates.md)
-    + {hide-from-toc}[중복 제거 활동의 병합 기능 사용 - 숨김](workflow/using/deduplication-merge.md)
-    + {hide-from-toc}[반복 가져오기 워크플로 설정 - 숨김](workflow/using/recurring-import-workflow.md)
-  + 쿼리 디자인 {#designing-queries}
-    + {hide-from-toc}[증분 쿼리를 사용한 분기별 목록 업데이트 - 숨김](workflow/using/quarterly-list-update.md)
-  + 쿼리 및 필터 {#query-and-filter-hidden}
-    + {hide-from-toc}[수신자 테이블 쿼리 - 숨김](workflow/using/querying-recipient-table.md)
-    + {hide-from-toc}[게재 정보 쿼리 - 숨김](workflow/using/querying-delivery-information.md)
-    + {hide-from-toc}[집계 컴퓨팅 수행 - 숨김](workflow/using/performing-aggregate-computing.md)
-    + {hide-from-toc}[그룹화 관리를 사용한 쿼리 - 숨김](workflow/using/querying-using-grouping-management.md)
-    + {hide-from-toc}[다대다 관계를 사용한 쿼리 - 숨김](workflow/using/querying-using-many-to-many-relationship.md)
-    + {hide-from-toc}[열거형 계산 필드 추가 - 숨김](workflow/using/adding-enumeration-type-calculated-field.md)
-    + {hide-from-toc}[필터 만들기 - 숨김](workflow/using/creating-a-filter.md)
-    + {hide-from-toc}[중복 수신자 필터링 - 숨김](workflow/using/filtering-duplicated-recipients.md)
-  + 워크플로 모니터링 {#monitoring-workflows}
-    + {hide-from-toc}[워크플로 실행 모니터링 - 숨김](workflow/using/monitoring-workflow-execution.md)
-    + {hide-from-toc}[기술 워크플로 모니터링 - 숨김](workflow/using/monitoring-technical-workflows.md)
-    + {hide-from-toc}[워크플로 히트맵 - 숨김](workflow/using/heatmap.md)
-  + 고급 관리 {#advanced-management}
-    + {hide-from-toc}[워크플로 속성 - 숨김](workflow/using/workflow-properties.md)
-    + {hide-from-toc}[고급 매개 변수 - 숨김](workflow/using/advanced-parameters.md)
-    + {hide-from-toc}[JavaScript 스크립트 및 템플릿 - 숨김](workflow/using/javascript-scripts-and-templates.md)
-    + {hide-from-toc}[워크플로의 JavaScript 코드 예 - 숨김](workflow/using/javascript-in-workflows.md)
-    + {hide-from-toc}[외부 데이터베이스 액세스 - 숨김](workflow/using/accessing-an-external-database-fda.md)
-    + {hide-from-toc}[권한 관리 - 숨김](workflow/using/managing-rights.md)
-    + {hide-from-toc}[활동 이미지 변경 - 숨김](workflow/using/managing-activity-images.md)
-    + {hide-from-toc}[표준 시간대 관리 - 숨김](workflow/using/managing-time-zones.md)
-    + {hide-from-toc}[기술 워크플로 - 숨김](workflow/using/about-technical-workflows.md)
 + 오퍼 관리 {#managing-offers}
   + 상호 작용 시작 {#interaction-overview}
     + [상호 작용 및 오퍼 관리](interaction/using/interaction-and-offer-management.md)

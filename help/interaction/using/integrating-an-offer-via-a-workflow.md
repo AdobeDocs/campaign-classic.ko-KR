@@ -25,9 +25,9 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1092'
 ht-degree: 1%
 ---
 # 워크플로우를 통해 오퍼 통합{#integrating-an-offer-via-a-workflow}
@@ -71,7 +71,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->데이터 보강 활동에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ko){target="_blank"}를 참조하세요.
+>데이터 보강 활동에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}를 참조하세요.
 
 예를 들어 게재 전에 수신자 쿼리에 대한 데이터를 보강할 수 있습니다.
 
@@ -84,7 +84,7 @@ ht-degree: 1%
 
 ### 오퍼 엔진에 대한 오퍼 또는 호출 지정 {#specifying-an-offer-or-a-call-to-the-offer-engine}
 
-쿼리를 구성한 후([Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"} 참조):
+쿼리를 구성한 후([Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"} 참조):
 
 1. 데이터 보강 활동을 추가하고 엽니다.
 1. **[!UICONTROL Enrichment]** 탭에서 **[!UICONTROL Add data]**&#x200B;을(를) 선택합니다.
@@ -162,7 +162,7 @@ ht-degree: 1%
 
 ![](assets/int_offerengine_activity2.png)
 
-쿼리를 구성한 후([워크플로 안내서](../../workflow/using/query.md) 참조):
+쿼리를 구성한 후([워크플로 가이드](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"}(Campaign v8 설명서) 참조):
 
 1. **[!UICONTROL Offer engine]** 활동을 추가하고 엽니다.
 1. 사용 가능한 다양한 필드를 완료하여 오퍼 엔진 매개 변수(오퍼 공간, 카테고리 또는 테마, 연락 날짜, 유지할 오퍼 수)에 대한 호출을 지정합니다. 엔진은 이러한 매개 변수에 따라 추가할 오퍼를 자동으로 계산합니다.

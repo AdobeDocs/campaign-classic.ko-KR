@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1275'
 ht-degree: 5%
 ---
 # 마케팅 캠페인 시작{#setting-up-marketing-campaigns}
@@ -147,7 +147,7 @@ ht-degree: 5%
 
    ![](assets/s_ncs_user_op_template_recur_planning.png)
 
-   실행 예약의 구성 모드가 워크플로의 **[!UICONTROL Scheduler]** 개체와 일치합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../workflow/using/architecture.md)을 참조하십시오.
+   실행 예약의 구성 모드가 워크플로의 **[!UICONTROL Scheduler]** 개체와 일치합니다. 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
    >[!IMPORTANT]
    >
@@ -245,6 +245,6 @@ ht-degree: 5%
 
 이 비디오에서는 마케팅 계획, 프로그램 및 캠페인을 만드는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/326561?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35132?quality=12)
 
 추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
