@@ -45,7 +45,7 @@ ht-degree: 4%
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
-시드 주소 사용에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/test-profiles){target="_blank"}을(를) 참조하십시오(Campaign v8 설명서).
+시드 주소 사용에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/add-profiles/test-profiles){target="_blank"}을(를) 참조하십시오(Campaign v8 설명서).
 
 ## 구현 {#implementation}
 
@@ -107,7 +107,7 @@ ht-degree: 4%
    >    
    >
 
-1. **[!UICONTROL Seed addresses]** 창에서 새 &quot;내부 수신자&quot; 탭을 정의하도록 **[!UICONTROL seedMember]** 양식을 적절하게 수정하십시오. 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}(Campaign v8 설명서)를 참조하세요.
+1. **[!UICONTROL Seed addresses]** 창에서 새 &quot;내부 수신자&quot; 탭을 정의하도록 **[!UICONTROL seedMember]** 양식을 적절하게 수정하십시오. 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}(Campaign v8 설명서)를 참조하세요.
 
    ```
    <container colcount="2" label="Internal recipient" name="internal"

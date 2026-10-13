@@ -60,7 +60,7 @@ _2022년 7월 1일_
 <tbody> 
 <tr> 
 <td> <p>iOS 15에서 Apple은 알림이 긴급하다고 간주되어 사용자에게 실시간으로 연락해야 할 때 앱 개발자에게 포커스 모드를 무시하도록 제어하는 긴급한 알림 개념을 추가했습니다.</p>
-<p>중요한 알림을 만드는 방법은 <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios" target="_blank">자세한 설명서</a>(Campaign v8 설명서)를 참조하세요.</p>
+<p>중요한 알림을 만드는 방법은 <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios" target="_blank">자세한 설명서</a>(Campaign v8 설명서)를 참조하세요.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -172,10 +172,10 @@ Adobe Campaign은 이제 Windows Server 2019와 호환됩니다. [캠페인 호�
 
 **기타 변경 사항**
 
-* Microsoft CRM, Salesforce, Oracle CRM On Demand 작업 활동의 사용이 중단됨에 따라 인터페이스에서 제거했습니다. CRM 커넥터 활동을 사용하여 Adobe Campaign과 CRM 시스템 간의 데이터 동기화를 구성할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector){target="_blank"}(Campaign v8 설명서)
+* Microsoft CRM, Salesforce, Oracle CRM On Demand 작업 활동의 사용이 중단됨에 따라 인터페이스에서 제거했습니다. CRM 커넥터 활동을 사용하여 Adobe Campaign과 CRM 시스템 간의 데이터 동기화를 구성할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector){target="_blank"}(Campaign v8 설명서)
 * **[!UICONTROL Encrypted identifier]** 필드가 방문자 스키마(nms:visitor)에 추가되었습니다. 이 필드는 계산되며 웹 애플리케이션에 사용할 수 있습니다. 중간 소싱 인스턴스에 Line 채널을 구성한 경우에 적용됩니다.
 * 이제 CRM 데이터 소스를 **데이터 소스 변경** 활동으로 사용할 수 있습니다.
-* 워크플로 활동의 **오류 관리** 속성에 새로운 옵션을 추가했습니다. **오류 시 중단** 옵션을 사용하면 자동으로 워크플로를 중지합니다. 중지한 워크플로우는 나중에 다시 시작할 수 없습니다(NEO-29661). [자세히 보기](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/advanced-parameters#in-case-of-errors){target="_blank"}(Campaign v8 설명서)
+* 워크플로 활동의 **오류 관리** 속성에 새로운 옵션을 추가했습니다. **오류 시 중단** 옵션을 사용하면 자동으로 워크플로를 중지합니다. 중지한 워크플로우는 나중에 다시 시작할 수 없습니다(NEO-29661). [자세히 보기](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/advanced-management/advanced-parameters#in-case-of-errors){target="_blank"}(Campaign v8 설명서)
 * 이제 수신자의 통계 그룹을 만드는 데 사용되는 nmsGroup 테이블의 기본 키를 생성할 때 전용 시퀀스를 사용합니다. 이전에는 xtknewId 시퀀스를 사용했습니다. (NEO-30832)
 * CRM 커넥터 활동을 사용한 배치 업데이트 작업에 대한 지원을 추가했습니다.
 * 트랜잭션 메시지 처리 시간 관련 성능을 개선했습니다. (NEO-40370)

@@ -61,7 +61,7 @@ ht-degree: 4%
 1. [iOS 서비스 구성](#configuring-ios-service)
 1. [Campaign에서 iOS 모바일 앱 통합](#creating-ios-app)
 
-그러면 [iOS 장치에 대한 푸시 알림을 만듭니다](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios){target="_blank"}(Campaign v8 설명서).
+그러면 [iOS 장치에 대한 푸시 알림을 만듭니다](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios){target="_blank"}(Campaign v8 설명서).
 
 ## iOS 외부 계정 구성 {#configuring-external-account-ios}
 
@@ -133,7 +133,7 @@ iOS의 경우 iOS HTTP/2 커넥터가 HTTP/2 APNs에 알림을 보냅니다.
 
 1. 개발 응용 프로그램 구성을 시작하려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하십시오.
 
-1. Adobe Campaign 및 SDK을 통한 응용 프로그램 코드에서 동일한 **[!UICONTROL Integration key]**&#x200B;이(가) 정의되어 있는지 확인하십시오. <!--For more on this, refer to [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).--> 각 애플리케이션에 해당하는 이 통합 키를 사용하면 모바일 애플리케이션을 Adobe Campaign 플랫폼에 연결할 수 있습니다.
+1. Adobe Campaign 및 SDK을 통한 응용 프로그램 코드에서 동일한 **[!UICONTROL Integration key]**&#x200B;이(가) 정의되어 있는지 확인하십시오. <!--For more on this, refer to [this page](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).--> 각 애플리케이션에 해당하는 이 통합 키를 사용하면 모바일 애플리케이션을 Adobe Campaign 플랫폼에 연결할 수 있습니다.
 
    >[!NOTE]
    >

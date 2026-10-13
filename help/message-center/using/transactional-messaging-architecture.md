@@ -142,7 +142,7 @@ Create your delivery templates the way you would for an email campaign:
 * Add the offer to your transactional message template.
 * Check the preview, send a proof and publish the template.
 
-You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"} (Campaign v8 documentation).
+You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"} (Campaign v8 documentation).
 
 -->
 
@@ -201,7 +201,7 @@ LINE과 함께 트랜잭션 메시지 모듈을 사용하려면 **마케팅** �
 
 * 두 인스턴스에 **[!UICONTROL LINE Connect]** 패키지를 설치합니다.
 * 마케팅 인스턴스에 **[!UICONTROL Transactional message control]** 패키지를 설치하고 실행 인스턴스에 **[!UICONTROL Transactional message execution]** 패키지를 설치합니다.
-* 동기화할 동일한 이름을 가진 두 인스턴스에 LINE **외부 계정** 및 **서비스**&#x200B;을(를) 만듭니다. LINE 외부 계정 및 서비스를 만드는 방법에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line#setting-up-line-channel){target="_blank"}(Campaign v8 설명서)을 참조하세요.
+* 동기화할 동일한 이름을 가진 두 인스턴스에 LINE **외부 계정** 및 **서비스**&#x200B;을(를) 만듭니다. LINE 외부 계정 및 서비스를 만드는 방법에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/other-channels/line#setting-up-line-channel){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 그런 다음 **[!UICONTROL Explorer]** 의 **[!UICONTROL Platform]** > **[!UICONTROL External account]**&#x200B;에서 두 인스턴스에 서로 다른 외부 계정을 구성해야 합니다.
 
@@ -264,4 +264,4 @@ LINE과 함께 트랜잭션 메시지 모듈을 사용하려면 **마케팅** �
    * **[!UICONTROL Create the archiving workflow]** 버튼을 클릭합니다.
    * LINE 데이터 동기화 워크플로를 만들려면 **[!UICONTROL Create data synchronization workflow]** 단추를 클릭하십시오.
 
-1. 이제 [트랜잭션 메시지 만들기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"}를 시작할 수 있습니다(Campaign v8 설명서).
+1. 이제 [트랜잭션 메시지 만들기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"}를 시작할 수 있습니다(Campaign v8 설명서).

@@ -53,9 +53,9 @@ ht-degree: 1%
 >이 문서를 통해 프로토콜, 필드 이름 및 값에 대한 세부 정보에 대한 모든 참조는 [SMPP 3.4 사양](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)을 참조합니다.
 >
 
-Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. SMS 커넥터 설정에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account){target=_blank}를 참조하세요.
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. SMS 커넥터 설정에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account){target=_blank}를 참조하세요.
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account){target=_blank}
 
 ## 개요 {#overview}
 
@@ -181,7 +181,7 @@ SMSC를 준수하는 경우 연결을 닫으면 안 됩니다. TCP 연결은 Ado
 
 * **registered_delivery**: SR이 요청되었는지 여부를 알려줍니다. Adobe Campaign은 자동 회신을 제외하고 항상 이 플래그를 설정합니다. 다중 파트 메시지의 경우 플래그는 첫 번째 파트에만 설정됩니다. 모든 버전의 비헤이비어가 동일합니다.
 
-* **data_coding**: 텍스트 필드에 사용된 인코딩을 나타냅니다. 자세한 내용은 [SMS 텍스트 인코딩](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms-channel#sms-text-encoding){target="_blank"}(Campaign v8 설명서) 섹션을 참조하십시오.
+* **data_coding**: 텍스트 필드에 사용된 인코딩을 나타냅니다. 자세한 내용은 [SMS 텍스트 인코딩](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/sms/sms-channel#sms-text-encoding){target="_blank"}(Campaign v8 설명서) 섹션을 참조하십시오.
 
 * **짧은 메시지**: 메시지 텍스트입니다. UDH를 사용하는 경우 여기에 UHD 헤더도 포함됩니다.
 
@@ -243,7 +243,7 @@ Adobe Campaign Classic은 SR 및 MO가 데이터베이스에 삽입되면 이를
 
 대부분의 공급업체는 각 SMPP 연결에 대해 처리량 제한을 필요로 합니다. 이 작업은 외부 계정에서 SMS 수를 설정하여 수행할 수 있습니다. 처리량 제한은 접속당 발생하며, 총 유효 처리량은 접속당 한도에 총 접속 수를 곱한 값입니다. 자세한 내용은 [동시 연결](sms-protocol.md#connection-settings) 섹션을 참조하십시오.
 
-가능한 최대 처리량에 도달하려면 최대 전송 창을 미세 조정해야 합니다. 전송 기간은 `SUBMIT_SM_RESP`을(를) 기다리지 않고 보낼 수 있는 `SUBMIT_SM PDU`의 수입니다. 자세한 내용은 [전송 창 설정](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account#smpp-delays){target="_blank"}(Campaign v8 설명서) 섹션을 참조하십시오.
+가능한 최대 처리량에 도달하려면 최대 전송 창을 미세 조정해야 합니다. 전송 기간은 `SUBMIT_SM_RESP`을(를) 기다리지 않고 보낼 수 있는 `SUBMIT_SM PDU`의 수입니다. 자세한 내용은 [전송 창 설정](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account#smpp-delays){target="_blank"}(Campaign v8 설명서) 섹션을 참조하십시오.
 
 ### SR 및 오류 관리 (&quot;부록 B&quot;) {#sr-error-management}
 
