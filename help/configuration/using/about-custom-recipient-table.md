@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '698'
 ht-degree: 2%
 ---
 # 사용자 정의 수신자 테이블 사용{#about-custom-recipient-table}
@@ -84,7 +84,7 @@ ht-degree: 2%
 
 * 목록에 프로필을 수동으로 추가할 수 없습니다.
 
-  따라서 [이 섹션](../../platform/using/creating-and-managing-lists.md)에 설명된 프로시저는 추가 구성이 없으면 적용할 수 없습니다.
+  따라서 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target="_blank"}에 자세히 설명된 절차(Campaign v8 설명서)는 추가 구성 없이는 적용할 수 없습니다.
 
   >[!NOTE]
   >

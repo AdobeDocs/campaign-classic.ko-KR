@@ -32,10 +32,10 @@ subfeature_v2:
     internal-label: Access management
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
     internal-label: Monitoring guidelines
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 3%
+source-wordcount: '203'
+ht-degree: 1%
 ---
 # 작업 실행 모니터링 {#monitoring-job-execution}
 
@@ -46,7 +46,7 @@ ht-degree: 3%
 ![](assets/s_ncs_user_export_list_and_details.png)
 
 * **[!UICONTROL Journal]** 탭에서는 실행과 관련된 로그 메시지를 볼 수 있습니다.
-* **[!UICONTROL Rejects]** 탭에 거부된 레코드가 있습니다. [이 섹션](../../platform/using/executing-import-jobs.md#behavior-in-the-event-of-an-error)을 참조하십시오.
+* **[!UICONTROL Rejects]** 탭에 거부된 레코드가 있습니다. [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import#behavior-in-the-event-of-an-error){target="_blank"}을(를) 참조하십시오(Campaign v8 설명서).
 
 **[!UICONTROL General]** 탭에서 **[!UICONTROL Status]** 필드는 작업의 현재 상태를 나타냅니다.
 

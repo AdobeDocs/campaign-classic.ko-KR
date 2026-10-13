@@ -27,9 +27,9 @@ subfeature_v2:
     internal-label: Target integration
   - id: 2e08b477-1993-5928-975d-5f4cabe8fbe0
     internal-label: Asset Sharing
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '248'
 ht-degree: 1%
 ---
 # 공유 자산 삽입{#inserting-a-shared-asset}
@@ -44,7 +44,7 @@ Adobe Experience Cloud에서 공유한 Assets을 다음과 같이 이메일 및 
 
 1. 편집 창에서 이미지를 추가할 옵션을 선택합니다.
 
-   * [표준 편집 모드](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko#adding-images){target="_blank"}를 사용하는 경우 **[!UICONTROL Image]** > **[!UICONTROL Select a shared asset]**&#x200B;을(를) 선택하십시오.
+   * [표준 편집 모드](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}를 사용하는 경우 **[!UICONTROL Image]** > **[!UICONTROL Select a shared asset]**&#x200B;을(를) 선택하십시오.
 
      ![](assets/dam_insert_image_standard.png)
 
@@ -54,7 +54,7 @@ Adobe Experience Cloud에서 공유한 Assets을 다음과 같이 이메일 및 
 
      >[!NOTE]
      >
-     >DCE를 사용할 때는 [웹 액세스](../../platform/using/adobe-campaign-workspace.md#console-and-web-access)에서 Adobe Campaign의 공유 이미지를 삽입할 수 없습니다.
+     >DCE를 사용할 때는 [웹 액세스](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"}(Campaign v8 설명서)에서 Adobe Campaign의 공유 이미지를 삽입할 수 없습니다.
 
 1. 선택 창이 열리면 이미지를 선택한 다음 확인합니다.
 

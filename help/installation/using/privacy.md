@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '926'
 ht-degree: 3%
 ---
 # 개인화 및 개인 정보 보호 {#privacy}
@@ -60,11 +60,11 @@ ht-degree: 3%
 
 ### 추천
 
-위의 항목을 사용하고 있지 않은지 확인하고 확인하려면 [Campaign 일반 쿼리 편집기](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)를 통해 URL 추적 테이블에서 쿼리를 실행하거나 쿼리 활동에서 필터 조건을 사용하는 워크플로우를 만드십시오. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"}를 참조하세요.
+위의 기능을 사용하고 있지 않은지 확인하고 확인하려면 [Campaign 일반 쿼리 편집기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"}(Campaign v8 설명서)를 통해 URL 추적 테이블에서 쿼리를 실행하거나 쿼리 활동에서 필터 조건을 사용하는 워크플로우를 만드십시오. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}를 참조하세요.
 
 예:
 
-1. 워크플로우를 만들고 **쿼리** 활동을 추가합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"}를 참조하세요.
+1. 워크플로우를 만들고 **쿼리** 활동을 추가합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}를 참조하세요.
 
 1. **Query** 활동을 열고 `nmsTrackingUrl` 테이블에 다음과 같이 필터를 만듭니다.
 
@@ -117,7 +117,7 @@ URL 서명을 활성화하려면 모든 Campaign 서버에서 동시에 다음 �
 
 권한이 낮은 인증된 사용자가 암호화된 암호에 액세스할 수 없도록 해야 합니다. 이렇게 하려면 암호 필드에만 또는 전체 엔터티(빌드 >= 8770 필요)에 대한 액세스를 제한하십시오.
 
-이 제한 사항을 사용하면 암호 필드를 제거할 수 있지만 모든 사용자의 인터페이스에서 외부 계정에 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/restrict-pi-view){target="_blank"}(Campaign v8 설명서).
+이 제한 사항을 사용하면 암호 필드를 제거할 수 있지만 모든 사용자의 인터페이스에서 외부 계정에 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/restrict-pi-view){target="_blank"}(Campaign v8 설명서).
 
 이렇게 하려면 아래 단계를 수행합니다.
 

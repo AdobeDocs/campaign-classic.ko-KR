@@ -8,9 +8,9 @@ user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1657'
 ht-degree: 100%
 ---
 
@@ -32,36 +32,22 @@ ht-degree: 100%
 + 시작 {#getting-started}
   + [Adobe Campaign Classic 시작](platform/using/about-adobe-campaign-classic.md)
   + [Adobe Campaign 시작](platform/using/launching-adobe-campaign.md)
-  + [Campaign UI 살펴보기](platform/using/adobe-campaign-workspace.md)
-  + {hide-from-toc}[Campaign 탐색기 사용 - 숨김](platform/using/adobe-campaign-explorer.md)
-  + {hide-from-toc}[목록 찾아보기 및 사용자 정의 - 숨김](platform/using/adobe-campaign-ui-lists.md)
-  + {hide-from-toc}[열거형 - 숨김](platform/using/managing-enumerations.md)
   + [Campaign 커넥터](platform/using/about-connectors.md)
   + 자주 묻는 질문 {#faq}
     + [Campaign Classic FAQ](platform/using/faq-campaign-classic-v7.md)
     + [빌드 업그레이드](platform/using/faq-build-upgrade.md)
-  + {hide-from-toc}[용어집 - 숨김](platform/using/ac-glossary.md)
   + 개인 정보 {#privacy}
     + [개인 정보 보호 및 동의](platform/using/privacy-and-recommendations.md)
     + [개인 정보 보호 관리](platform/using/privacy-management.md)
     + 개인 정보 보호 요청 {#privacy-requests}
-      + [개인 정보 보호 요청 정보](platform/using/privacy-requests.md)
       + [개인 정보 보호 요청 생성 및 관리](platform/using/privacy-requests-ui.md)
       + [자동 개인 정보 보호 요청 프로세스](platform/using/privacy-requests-api.md)
     + [개인 정보 판매 옵트아웃](platform/using/privacy-requests-ccpa.md)
   + 프로필 관리 {#profile-management}
     + [프로필 정보](platform/using/about-profiles.md)
     + [데이터 업데이트](platform/using/updating-data.md)
-    + [목록 만들기 및 관리](platform/using/creating-and-managing-lists.md)
   + 데이터 가져오기 및 내보내기 {#importing-and-exporting-data}
-    + [데이터 가져오기 및 내보내기 시작](platform/using/get-started-data-import-export.md)
-    + [워크플로를 사용하여 데이터 가져오기 및 내보내기](platform/using/import-export-workflows.md)
     + 일반 가져오기 및 내보내기 만들기 {#generic-imports-exports}
-      + [일반 가져오기 및 내보내기 시작](platform/using/about-generic-imports-exports.md)
-      + [가져오기 및 내보내기 템플릿 만들기](platform/using/creating-import-export-templates.md)
-      + [가져오기 및 내보내기 작업 만들기](platform/using/creating-import-export-jobs.md)
-      + [가져오기 작업 구성](platform/using/executing-import-jobs.md)
-      + [내보내기 작업 구성](platform/using/executing-export-jobs.md)
       + [작업 실행 모니터링](platform/using/monitoring-jobs-execution.md)
       + [일반 가져오기 샘플](platform/using/import-operations-samples.md)
     + 데이터 암호화 및 압축 관리 {#managing-data-encryption-compression}
@@ -70,16 +56,11 @@ ht-degree: 100%
     + 모범 사례 및 문제 해결 {#best-practices}
       + [가져오기 및 내보내기 모범 사례](platform/using/import-export-best-practices.md)
       + [SFTP 서버 모범 사례 및 문제 해결](platform/using/sftp-server-usage.md)
-  + 데이터 필터링 {#filtering-data}
-    + {hide-from-toc}[필터 만들기 - 숨김](platform/using/creating-filters.md)
-  + {hide-from-toc}[쿼리 만드는 단계 - 숨김](platform/using/steps-to-create-a-query.md)
-  + {hide-from-toc}[필터 조건 정의 - 숨김](platform/using/defining-filter-conditions.md)
   + 권한 {#permissions}
     + [사용 권한 시작](platform/using/access-management.md)
     + 기본 인증(이전) {#native}
       + [운영자 만들기 및 관리](platform/using/access-management-operators.md)
       + [그룹 만들기 및 관리](platform/using/access-management-groups.md)
-    + [명명된 권한을 사용하여 사용 권한 설정](platform/using/access-management-named-rights.md)
   + CRM 커넥터 {#connectors}
     + [CRM 커넥터 시작](platform/using/crm-connectors.md)
 + 메시지 만들기 및 보내기 {#sending-messages}
