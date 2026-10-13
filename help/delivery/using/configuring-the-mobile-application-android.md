@@ -52,9 +52,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '963'
 ht-degree: 11%
 ---
 # Android용 구성 단계
@@ -68,7 +68,7 @@ ht-degree: 11%
 1. [Campaign에서 모바일 앱 만들기](#creating-android-app)
 1. [추가 데이터로 앱 스키마 확장](#extend-subscription-schema)
 
-그런 다음 [Android 리치 알림을 만듭니다](create-notifications-android.md).
+그런 다음 [Android 리치 알림을 만듭니다](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/rich-push/rich-push-android){target="_blank"}(Campaign v8 설명서).
 
 >[!IMPORTANT]
 >
@@ -135,7 +135,7 @@ Android의 경우 두 개의 커넥터를 사용할 수 있습니다.
 
    ![](assets/nmac_android.png)
 
-1. Adobe Campaign 및 SDK을 통한 응용 프로그램 코드에서 동일한 **[!UICONTROL Integration key]**&#x200B;이(가) 정의되어 있는지 확인하십시오. <!--For more on this, refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->
+1. Adobe Campaign 및 SDK을 통한 응용 프로그램 코드에서 동일한 **[!UICONTROL Integration key]**&#x200B;이(가) 정의되어 있는지 확인하십시오. <!--For more on this, refer to [this section](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).-->
 
    >[!NOTE]
    >
@@ -201,4 +201,4 @@ HTTP v1 API 버전을 구성하려면 아래 단계를 수행합니다.
 
    >[!CAUTION]
    >
-   >**[!UICONTROL Subscription parameters]** 탭의 구성 이름이 모바일 애플리케이션 코드의 구성 이름과 같은지 확인하십시오. <!--Refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->
+   >**[!UICONTROL Subscription parameters]** 탭의 구성 이름이 모바일 애플리케이션 코드의 구성 이름과 같은지 확인하십시오. <!--Refer to [this section](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).-->

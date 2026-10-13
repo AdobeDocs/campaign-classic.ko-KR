@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '546'
 ht-degree: 2%
 ---
 # 가져오기 및 내보내기 모범 사례 {#import-export-best-practices}
@@ -56,7 +56,7 @@ ht-degree: 2%
 
 들어오는 데이터가 일관되고 정확하다거나 IT 부서나 Adobe Campaign 감독자가 처리한다는 가정 하에 머무르지 마십시오. 프로젝트 진행 중에는 데이터 정리를 염두에 두십시오. 데이터를 가져올 때 중복 제거, 조정 및 일관성 유지
 
-데이터를 가져오도록 디자인된 일반 워크플로 템플릿의 예는 [예제: 데이터를 가져오는 워크플로 템플릿](../../platform/using/creating-import-export-templates.md) 섹션에서 확인할 수 있습니다.
+데이터를 가져오기 위해 디자인된 일반 워크플로 템플릿의 예는 [예제: 데이터를 가져오기 위한 워크플로 템플릿](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/import){target="_blank"}(Campaign v8 설명서) 섹션에서 확인할 수 있습니다.
 
 ## 플랫 파일 형식 사용 {#using-flat-file-formats}
 

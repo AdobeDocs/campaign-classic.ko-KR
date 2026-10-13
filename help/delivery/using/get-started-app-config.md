@@ -41,10 +41,10 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 13%
+source-wordcount: '368'
+ht-degree: 11%
 ---
 # 앱 구성 시작
 
@@ -56,7 +56,7 @@ Adobe Campaign에서 푸시 알림을 전송하려면 다음을 수행해야 합
 
 * Neotrips 모바일 응용 프로그램에 대한 **[!UICONTROL Mobile application]** 형식 정보 서비스를 만듭니다. [iOS에 대한 이 섹션](configuring-the-mobile-application.md#configuring-ios-service)을 참조하세요. 및 [Android에 대한 이 섹션](configuring-the-mobile-application-android.md#configuring-android-service)입니다.
 * 애플리케이션의 iOS 및 Android 버전을 이 서비스에 추가합니다.
-* [iOS](create-notifications-ios.md) 및 [Android](create-notifications-android.md)에 대한 게재를 만듭니다.
+* [iOS](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios){target="_blank"}(Campaign v8 설명서) 및 [Android](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/rich-push/rich-push-android){target="_blank"}(Campaign v8 설명서)에 대한 게재를 만듭니다.
 
 ![](assets/nmac_service_diagram.png)
 

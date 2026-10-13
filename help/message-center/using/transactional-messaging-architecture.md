@@ -23,9 +23,9 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1137'
 ht-degree: 1%
 ---
 # 트랜잭션 메시지 아키텍처 {#transactional-messaging-architecture}
@@ -201,7 +201,7 @@ LINE과 함께 트랜잭션 메시지 모듈을 사용하려면 **마케팅** �
 
 * 두 인스턴스에 **[!UICONTROL LINE Connect]** 패키지를 설치합니다.
 * 마케팅 인스턴스에 **[!UICONTROL Transactional message control]** 패키지를 설치하고 실행 인스턴스에 **[!UICONTROL Transactional message execution]** 패키지를 설치합니다.
-* 동기화할 동일한 이름을 가진 두 인스턴스에 LINE **외부 계정** 및 **서비스**&#x200B;을(를) 만듭니다. LINE 외부 계정 및 서비스를 만드는 방법에 대한 자세한 내용은 [이 섹션](../../delivery/using/line-channel.md#setting-up-line-channel)을 참조하세요.
+* 동기화할 동일한 이름을 가진 두 인스턴스에 LINE **외부 계정** 및 **서비스**&#x200B;을(를) 만듭니다. LINE 외부 계정 및 서비스를 만드는 방법에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/other-channels/line#setting-up-line-channel){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 그런 다음 **[!UICONTROL Explorer]** 의 **[!UICONTROL Platform]** > **[!UICONTROL External account]**&#x200B;에서 두 인스턴스에 서로 다른 외부 계정을 구성해야 합니다.
 

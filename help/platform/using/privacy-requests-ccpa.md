@@ -41,10 +41,10 @@ subfeature_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 86%
+source-wordcount: '626'
+ht-degree: 82%
 ---
 # 개인 정보 판매 옵트아웃(CCPA) {#sale-of-personal-information-ccpa}
 
@@ -114,7 +114,7 @@ Adobe Campaign이 제공하는 [동의 관리](privacy-management.md#consent-man
 
    ![](assets/privacy-ccpa-5.png)
 
-1. 옵트아웃 열이 표시되도록 수신자 목록을 구성합니다. 목록을 구성하는 방법을 알아보려면 [자세한 설명서](../../platform/using/adobe-campaign-ui-lists.md#configuring-lists)를 참조하십시오.
+1. 옵트아웃 열이 표시되도록 수신자 목록을 구성합니다. 목록을 구성하는 방법은 [자세한 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/ui-settings#customize-lists){target="_blank"}(Campaign v8 설명서)를 참조하세요.
 
    ![](assets/privacy-ccpa-6.png)
 

@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '2185'
-ht-degree: 98%
+source-wordcount: '2202'
+ht-degree: 97%
 ---
 # 2022년 릴리스{#release-2022}
 
@@ -60,7 +60,7 @@ _2022년 7월 1일_
 <tbody> 
 <tr> 
 <td> <p>iOS 15에서 Apple은 알림이 긴급하다고 간주되어 사용자에게 실시간으로 연락해야 할 때 앱 개발자에게 포커스 모드를 무시하도록 제어하는 긴급한 알림 개념을 추가했습니다.</p>
-<p>긴급한 알림을 만드는 방법은 <a href="../../delivery/using/create-notifications-ios.md">세부 설명서</a>에서 확인하세요.</p>
+<p>중요한 알림을 만드는 방법은 <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios" target="_blank">자세한 설명서</a>(Campaign v8 설명서)를 참조하세요.</p>
 </td> 
 </tr> 
 </tbody> 

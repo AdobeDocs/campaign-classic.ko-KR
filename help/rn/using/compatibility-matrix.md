@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 100%
@@ -474,7 +474,7 @@ Campaign 클라이언트 콘솔을 사용하려면 Microsoft Edge WebView2 런�
 
 데이터 수집 UI에서 Adobe Campaign 확장을 구성하여 Adobe Experience Platform 모바일 SDK를 통해 Campaign을 [푸시 알림 보내기](../../delivery/using/about-mobile-app-channel.md)에 사용할 수 있습니다.
 
-Campaign SDK는 Campaign v7.4부터 [사용 중지](deprecated-features.md)됩니다. 기존 구현을 AEP Mobile SDK로 원활하게 전환하기 위해 아래 목록의 운영 체제에서 계속 사용할 수 있습니다<!--, using the associated [mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)-->.
+Campaign SDK는 Campaign v7.4부터 [사용 중지](deprecated-features.md)됩니다. 기존 구현을 AEP Mobile SDK로 원활하게 전환하기 위해 아래 목록의 운영 체제에서 계속 사용할 수 있습니다<!--, using the associated [mobile SDK](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation)-->.
 
 
 <table>

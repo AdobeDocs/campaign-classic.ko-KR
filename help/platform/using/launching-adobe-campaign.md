@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '464'
 ht-degree: 15%
 ---
 # Adobe Campaign 시작 {#launching-adobe-campaign}
@@ -82,7 +82,7 @@ IMS(Adobe Identity Management Service)를 사용하여 Campaign Classic v7 연�
 
 1. **[!UICONTROL LOG IN]**&#x200B;을(를) 클릭하여 확인합니다.
 
-이제 [Adobe Campaign 작업 영역](../../platform/using/adobe-campaign-workspace.md)에 액세스할 수 있습니다.
+이제 [Adobe Campaign 작업 영역](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}(Campaign v8 설명서)에 액세스할 수 있습니다.
 
 ## 연결 설정 {#setting-up-connections}
 

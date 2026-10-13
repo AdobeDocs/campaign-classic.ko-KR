@@ -30,9 +30,9 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '469'
 ht-degree: 5%
 ---
 # 활용 사례: 필드 대체 구성{#use-case-configuring-the-field-substitution}
@@ -85,7 +85,7 @@ ht-degree: 5%
 
    ![](assets/dlv_seeds_usecase_25.png)
 
-1. 게재 목록 및 시드 주소를 구성합니다. [대상 모집단 식별](steps-defining-the-target-population.md)을 참조하세요.
+1. 게재 목록 및 시드 주소를 구성합니다. [대상 모집단 식별](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/create-message){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
    이 예제에서 사용자는 **즐겨 찾는 문학 장르**&#x200B;이(가) Sf인 사용자를 주 대상 모집단으로 선택합니다.
 

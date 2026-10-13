@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1787'
-ht-degree: 100%
+source-wordcount: '1814'
+ht-degree: 97%
 ---
 # 사용이 중단되거나 제거된 기능 {#deprecated-and-removed-features}
 
@@ -181,11 +181,11 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   </tr> 
    <tr> 
    <td>모바일 채널 - MMS 및 WAP 푸시 메시지</td>
-   <td>Campaign 18.4 릴리스를 시작하면 MMS 및 Wap 푸시 채널을 더 이상 사용할 수 없습니다. 대신 <a href="../../delivery/using/sms-channel.md">SMS</a> 및 <a href="../../delivery/using/about-mobile-app-channel.md">푸시</a> 게재를 활용할 수 있습니다.</td>
+   <td>Campaign 18.4 릴리스를 시작하면 MMS 및 Wap 푸시 채널을 더 이상 사용할 수 없습니다. 대신 <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/sms/sms" target="_blank">SMS</a>(Campaign v8 설명서) 및 <a href="../../delivery/using/about-mobile-app-channel.md">푸시</a> 게재를 활용할 수 있습니다.</td>
   </tr> 
    <tr> 
    <td>모바일 채널 - LINE v1</td>
-   <td>Campaign 18.4 릴리스를 시작하는 경우 LINE Connect 패키지를 더 이상 사용할 수 없습니다. 새 LINE 채널 패키지를 대체용으로 사용하는 것이 좋습니다. <a href="../../delivery/using/line-channel.md">자세히 알아보기</a></td>
+   <td>Campaign 18.4 릴리스를 시작하는 경우 LINE Connect 패키지를 더 이상 사용할 수 없습니다. 새 LINE 채널 패키지를 대체용으로 사용하는 것이 좋습니다. <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">자세히 알아보기</a>(Campaign v8 설명서)</td>
   </tr>
  </tbody> 
 </table>

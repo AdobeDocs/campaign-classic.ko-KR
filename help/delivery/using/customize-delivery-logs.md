@@ -41,9 +41,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '565'
 ht-degree: 1%
 ---
 # 고급: 게재 로그 사용자 정의 {#customize-delivery-logs}
@@ -139,7 +139,7 @@ Campaign UI에서 게재를 모니터링하려면 [Campaign v8 Campaign UI 설�
 
 >[!NOTE]
 >
->Campaign Classic 인터페이스에서 목록을 구성하는 방법에 대해 알아보려면 [이 페이지](../../platform/using/adobe-campaign-workspace.md)를 참조하세요.
+>Campaign Classic 인터페이스에서 목록을 구성하는 방법에 대해 알아보려면 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}(Campaign v8 설명서)를 참조하십시오.
 
 수정 후 **[!UICONTROL Delivery]** 탭에 표시되는 내용은 다음과 같습니다.
 

@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '651'
 ht-degree: 1%
 ---
 # 전처리 지침 {#pre-processing-instructions}
@@ -44,6 +44,10 @@ ht-degree: 1%
 * **[!DNL foreach]**: 사용자 지정 개체로 로드된 배열을 루프합니다. [자세히 알아보기](#foreach)
 
 게재 도우미에서 직접 테스트할 수 있습니다. 이러한 속성은 콘텐츠 미리 보기에서, 그리고 URL 목록을 보기 위해 추적 단추를 클릭할 때 적용됩니다.
+
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 전처리 지침에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/personalized-links#pre-processing-instructions){target=_blank}를 참조하세요.
+
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/personalized-links#pre-processing-instructions){target=_blank}
 
 ## [!DNL include] {#include}
 
@@ -150,19 +154,6 @@ Javascript 섹션에서 &lt;%@ 값 사용을 허용하려면 두 개의 특수 �
 ## [!DNL foreach] {#foreach}
 
 이 명령을 사용하면 게재에 로드된 개체 배열에서 반복을 사용하여 개체와 관련된 개별 링크를 추적할 수 있습니다.
-
-구문:
-
-```
-<%@ foreach object="myObject" xpath="myLink" index="3" item="myItem" %> <%@ end %>
-```
-
-위치:
-
-* **[!DNL object]**: 시작할 개체의 이름(일반적으로 추가 스크립트 개체)이지만 게재가 될 수 있습니다.
-* **[!DNL xpath]**(선택 사항): 반복할 컬렉션의 xpath입니다. 기본값은 &quot;.&quot;입니다. 즉, 개체는 반복할 배열입니다.
-* **[!DNL index]**(선택 사항): xpath가 &quot;.&quot;가 아닌 경우 그리고 개체는 배열 자체이며, 개체의 항목 인덱스입니다(0에서 시작).
-* **[!DNL item]**(선택 사항): foreach 루프 내의 &lt;%@ 값을 사용하여 액세스할 수 있는 새 개체의 이름입니다. 스키마에 링크 이름이 있는 기본값.
 
 예:
 

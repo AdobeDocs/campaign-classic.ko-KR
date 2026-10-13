@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 79%
+source-wordcount: '707'
+ht-degree: 54%
 ---
 # Campaign Classic v7 설명서 {#campaign-classic-documentation}
 
@@ -104,7 +104,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>시작</strong><br/><a href="platform/using/adobe-campaign-workspace.md">사용자 인터페이스</a> - <a href="platform/using/launching-adobe-campaign.md">Campaign에 연결</a> - <a href="platform/using/get-started-data-import-export.md">데이터 가져오기 및 내보내기</a> - <a href="platform/using/access-management.md">권한</a>
+      <strong>시작하기</strong><br/><a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui" target="_blank">사용자 인터페이스</a>(Campaign v8 설명서) - <a href="platform/using/launching-adobe-campaign.md">Campaign에 연결</a> - <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/import" target="_blank">데이터 가져오기 및 내보내기</a>(Campaign v8 설명서) - <a href="platform/using/access-management.md">권한</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
@@ -114,14 +114,14 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>메시지 보내기</strong><br/><a href="delivery/using/communication-channels.md">커뮤니케이션 채널</a> - <a href="delivery/using/steps-about-delivery-creation-steps.md#sending-a-proof">교정쇄 보내기</a> - <a href="delivery/using/get-started-a-b-testing.md">A/B 테스트</a> - <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">메시지 추적</a> - <a href="delivery/using/about-deliverability.md">전달성</a> - <a href="message-center/using/about-transactional-messaging.md">트랜잭션 메시지</a>
+      <strong>메시지 보내기</strong><br/><a href="delivery/using/communication-channels.md">통신 채널</a> - <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/create-message" target="_blank">증명 보내기</a>(Campaign v8 설명서) - <a href="delivery/using/get-started-a-b-testing.md">A/B 테스트</a> - <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">메시지 추적</a> - <a href="delivery/using/about-deliverability.md">게재 기능</a> - <a href="message-center/using/about-transactional-messaging.md">트랜잭션 메시지</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
       <br/>
-      <strong>프로필 및 대상자</strong><br/> <a href="platform/using/creating-and-managing-lists.md">목록 만들기</a> - <a href="delivery/using/about-services-and-subscriptions.md">서비스 및 구독</a> - <a href="platform/using/privacy-management.md">개인 정보 및 동의</a>
+      <strong>프로필 및 대상자</strong><br/> <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-audiences/create-audiences" target="_blank">목록 만들기</a>(Campaign v8 설명서) - <a href="delivery/using/about-services-and-subscriptions.md">서비스 및 구독</a> - <a href="platform/using/privacy-management.md">개인 정보 및 동의</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px">

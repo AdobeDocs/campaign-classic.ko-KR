@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1413'
 ht-degree: 7%
 ---
 # Campaign Classic 기본 제공 패키지 설치{#installing-campaign-standard-packages}
@@ -133,7 +133,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> LINE 채널<br /> </td> 
-   <td> Adobe Campaign에서 LINE 채널을 사용하여 게재를 전송합니다. 선택 사항입니다. 트랜잭션 메시지(메시지 센터 패키지)는 필수입니다. <a href="../../delivery/using/line-channel.md">자세히 알아보기</a> <br /> </td> 
+   <td> Adobe Campaign에서 LINE 채널을 사용하여 게재를 전송합니다. 선택 사항입니다. 트랜잭션 메시지(메시지 센터 패키지)는 필수입니다. <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">자세히 알아보기</a>(Campaign v8 설명서) <br /> </td> 
    <td> 모두<br /> </td> 
   </tr> 
   <tr> 
@@ -143,7 +143,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> 모바일 채널(SMS) <br /> </td> 
-   <td> Adobe Campaign과 모바일/SMS 채널을 사용하여 게재를 전송합니다. 선택 사항입니다. <a href="../../delivery/using/sms-channel.md">자세히 알아보기</a> <br /> </td> 
+   <td> Adobe Campaign과 모바일/SMS 채널을 사용하여 게재를 전송합니다. 선택 사항입니다. <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/sms/sms" target="_blank">자세히 알아보기</a>(Campaign v8 설명서) <br /> </td> 
    <td> 모두<br /> </td> 
   </tr> 
    <tr> 
@@ -283,7 +283,7 @@ ht-degree: 7%
 
 * Marketing 및 MID 인스턴스에 모두 [!DNL LINE] 패키지 설치
 
-* 게재 모드를 변경하여 mid 인스턴스를 가리키도록 mkt 인스턴스에서 [!DNL LINE] 외부 계정을 설정합니다. [자세히 알아보기](../../delivery/using/line-channel.md#configure-line-external)
+* 게재 모드를 변경하여 mid 인스턴스를 가리키도록 mkt 인스턴스에서 [!DNL LINE] 외부 계정을 설정합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"}(Campaign v8 설명서)
 
 * MID 인스턴스의 외부 계정에 [!DNL LINE] 자격 증명을 설정합니다.
 

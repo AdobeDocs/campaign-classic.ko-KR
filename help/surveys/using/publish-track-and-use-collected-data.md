@@ -22,9 +22,9 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '872'
 ht-degree: 2%
 ---
 # 수집된 데이터 게시, 추적 및 사용{#publish-track-and-use-collected-data}
@@ -125,7 +125,7 @@ URL 매개 변수에 대한 자세한 정보는 [이 페이지](../../web/using/
 
    >[!NOTE]
    >
-   >데이터 내보내기 및 구성 단계는 [이 섹션](../../platform/using/about-generic-imports-exports.md)에 자세히 설명되어 있습니다.
+   >데이터 내보내기 및 구성 단계는 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/import){target="_blank"}에 자세히 설명되어 있습니다(Campaign v8 설명서).
 
 ## 수집된 데이터 사용 {#using-the-collected-data}
 

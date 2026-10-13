@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1695'
-ht-degree: 3%
+source-wordcount: '1721'
+ht-degree: 2%
 ---
 # 게재 실패 및 격리 관리 {#delivery-failures-quarantine}
 
@@ -105,7 +105,7 @@ Adobe Campaign은 이 메시지를 필터링하여 변수 콘텐츠(예: ID, 날
 
 >[!NOTE]
 >
->ISP가 중단되는 경우 Campaign을 통해 전송된 이메일이 바운스로 잘못 표시됩니다. 이 문제를 해결하려면 바운스 자격을 업데이트해야 합니다. 자세한 내용은 [이 페이지](update-bounce-qualification.md)를 참조하십시오.
+>ISP가 중단되는 경우 Campaign을 통해 전송된 이메일이 바운스로 잘못 표시됩니다. 이 문제를 해결하려면 바운스 자격을 업데이트해야 합니다. 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}(Campaign v8 설명서)를 참조하십시오.
 
 ### 이메일 관리 규칙 구성 {#email-management-rules}
 
@@ -241,11 +241,11 @@ SMS 격리 시나리오 및 오류 유형에 대한 자세한 내용은 포괄�
 
 * [게재 실패 이해](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}(Campaign v8 설명서)
 * [격리 관리](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}(Campaign v8 설명서)
-* [게재 모범 사례](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}(Campaign v8 설명서)
+* [게재 모범 사례](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}(Campaign v8 설명서)
 * [게재 상태](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"}(Campaign v8 설명서)
 * [데이터베이스 정리 워크플로우](../../production/using/database-cleanup-workflow.md)(v7 하이브리드/온-프레미스)
 * [게재 다시 시도 구성](communication-channels.md)(v7 하이브리드/온-프레미스)
-* [바운스 자격 업데이트](update-bounce-qualification.md)(v7 하이브리드/온-프레미스)
+* [바운스 자격 업데이트](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}(Campaign v8 설명서)(v7 하이브리드/온-프레미스)
 * [전자 메일 게재 기능 구성](../../installation/using/email-deliverability.md)(v7 하이브리드/온-프레미스)
 * [인스턴스 배포](../../installation/using/deploying-an-instance.md#managing-bounced-emails)(v7 하이브리드/온-프레미스)
 

@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Customer engagement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
+source-git-commit: 7b7f6d2ad5e5d09880f05c7e99ea8ede770532ab
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 51%
+source-wordcount: '241'
+ht-degree: 44%
 ---
 # Campaign Classic 시작{#about-adobe-campaign-classic}
 
@@ -57,9 +57,9 @@ Adobe Campaign을 사용하면 대화형 마케팅 캠페인 만들기를 조정
 
 >[!TAB Campaign으로 시작]
 
-Adobe Campaign 기능 및 시작 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/get-started){target=_blank}를 참조하세요.
+Adobe Campaign 클라이언트 콘솔 및 해당 사용자 인터페이스를 시작하는 방법에 대해 알아보려면 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}를 참조하세요.
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/get-started){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
 
 >[!TAB 캠페인 시작]
 
@@ -69,9 +69,9 @@ Adobe Campaign 기능 및 시작 방법에 대한 자세한 내용은 [Campaign 
 
 >[!TAB Campaign UI 찾아보기]
 
-* 이 페이지에서 Adobe Campaign 사용자 인터페이스 [을(를) 살펴보세요](adobe-campaign-workspace.md).
+* 이 페이지에서 Adobe Campaign 사용자 인터페이스 [을(를) 살펴보세요](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}(Campaign v8 설명서).
 
-* [캠페인 탐색기](adobe-campaign-workspace.md#using-adobe-campaign-explorer)를 사용하여 작업하는 방법을 알아봅니다.
+* [Campaign 탐색기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target="_blank"}를 사용하여 작업하는 방법을 알아봅니다(Campaign v8 설명서).
 
 >[!ENDTABS]
 
@@ -95,7 +95,7 @@ Profile management basics are explained in [About profiles](../../platform/using
 
 ### Targeted segmentation {#targeted-segmentation}
 
-Adobe Campaign has powerful, user-friendly segmentation and targeting features that let you create highly targeted, differentiated offers. The descriptive analysis functionality lets you analyze information upstream and downstream of your marketing campaigns, and the filter management and [graphical query editor](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign) functionality lets you filter your subscriber population and sample or create target groups based on an unlimited number of criteria. The analysis and targeting features are described in [this page](../../reporting/using/about-descriptive-analysis.md) and in the [Creating filters](../../platform/using/creating-filters.md) section.
+Adobe Campaign has powerful, user-friendly segmentation and targeting features that let you create highly targeted, differentiated offers. The descriptive analysis functionality lets you analyze information upstream and downstream of your marketing campaigns, and the filter management and [graphical query editor](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} (Campaign v8 documentation) functionality lets you filter your subscriber population and sample or create target groups based on an unlimited number of criteria. The analysis and targeting features are described in [this page](../../reporting/using/about-descriptive-analysis.md) and in the [Creating filters](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-filters){target="_blank"} (Campaign v8 documentation) section.
 
 The advanced Data Management functionality extends the data processing capabilities. It simplifies and optimizes the targeting process by including data not modeled in the datamart. This functionality is detailed in [this page](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows){target="_blank"} (Campaign v8 documentation).
 
@@ -121,7 +121,7 @@ Adobe Campaign offers a set of capabilities to help you implementing and optimiz
 
 The following capabilities are available. Depending on your license agreement, some of these capabilities can be available or not in your instance.
 
-* [Channels](../../delivery/using/steps-about-delivery-creation-steps.md) - design and send deliveries on various channels: email, SMS, Line, mobile app, direct mail,
+* [Channels](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/create-message){target="_blank"} (Campaign v8 documentation) - design and send deliveries on various channels: email, SMS, Line, mobile app, direct mail,
 * [Campaign](https://experienceleague.adobe.com/ko/docs/campaign/automation/campaign-orchestration/set-up-campaigns){target="_blank"} (Campaign v8 documentation) - orchestrate cross-channel campaigns,
 * [MRM](https://experienceleague.adobe.com/ko/docs/campaign/automation/mrm/about-marketing-resource-management){target="_blank"} (Campaign v8 documentation) - manage marketing resources and budgets,
 * [Interaction](../../interaction/using/interaction-and-offer-management.md) - managing offers with Campaign,

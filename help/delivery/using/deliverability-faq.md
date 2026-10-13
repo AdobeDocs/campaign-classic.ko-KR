@@ -41,14 +41,18 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '598'
 ht-degree: 2%
 ---
 # 전달성 문제 해결{#deliverability-faq}
 
 전달에 문제가 있습니까? 여기에서 해결책을 찾을 수 있습니다.
+
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 격리 및 격리 주소 제거 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/quarantines){target=_blank}를 참조하세요.
+
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/quarantines){target=_blank}
 
 ## MX 규칙 오류 {#mx-rule-error}
 
@@ -75,29 +79,7 @@ ISP에 대해 항상 동일한 오류 메시지가 표시되는 경우 ISP에서
 
 문제가 지속되면 상업용 또는 게재 서비스, [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
 
-## 격리 대 격리 {#denylist-versus-quarantine}
-
-* **전자 메일 주소와 격리된 전자 메일 주소의 차이점은 무엇입니까?**
-
-  * **[!UICONTROL Denylisted]** 상태는 피드백 루프(사용자가 메시지를 스팸으로 보고할 때)의 결과입니다.
-
-  * 상태 **[!UICONTROL Quarantined]**&#x200B;은(는) 소프트 또는 하드 바운스의 결과입니다.
-
-  자세한 내용은 [이 섹션](delivery-failures-quarantine.md#quarantine-vs-denylist)을 참조하십시오.
-
-* **다른 격리 오류 이유는 무엇을 의미합니까?**
-
-  정의되지 않음, 잘못된 도메인, 알 수 없는 사용자, 거부, 오류 무시, 연결할 수 없음, 계정 비활성화, 사서함 가득 참, 연결되지 않음 등 10가지 가능한 이유가 있습니다.
-
-  자세한 내용은 [격리 관리 이해](delivery-failures-quarantine.md)를 참조하십시오.
-
-## 차단 목록 제거 {#remove-from-denylist}
-
-* **받는 사람 중 한 명이 실수로 차단 목록에 추가하다에 추가되었습니다. 메시지를 다시 보낼 수 있도록 차단 목록에서 해당 메시지를 제거하려면 어떻게 해야 합니까?**
-
-  * **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**(으)로 이동합니다.
-  * 해당 레코드의 세부 정보에서 **[!UICONTROL Status]** 필드의 값을 **[!UICONTROL Valid]**(으)로 설정합니다.
-  * 레코드를 저장합니다.
+## 차단 목록에서 IP 제거 {#remove-from-denylist}
 
 * **IP 중 하나가 차단 목록에 추가하다에 있는지 어떻게 확인할 수 있습니까? 차단 목록에 추가하다에서 IP를 제거하려면 어떻게 해야 합니까?**
 

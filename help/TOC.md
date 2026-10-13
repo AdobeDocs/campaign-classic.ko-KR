@@ -8,9 +8,9 @@ user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1657'
 ht-degree: 100%
 ---
 
@@ -32,36 +32,22 @@ ht-degree: 100%
 + 시작 {#getting-started}
   + [Adobe Campaign Classic 시작](platform/using/about-adobe-campaign-classic.md)
   + [Adobe Campaign 시작](platform/using/launching-adobe-campaign.md)
-  + [Campaign UI 살펴보기](platform/using/adobe-campaign-workspace.md)
-  + {hide-from-toc}[Campaign 탐색기 사용 - 숨김](platform/using/adobe-campaign-explorer.md)
-  + {hide-from-toc}[목록 찾아보기 및 사용자 정의 - 숨김](platform/using/adobe-campaign-ui-lists.md)
-  + {hide-from-toc}[열거형 - 숨김](platform/using/managing-enumerations.md)
   + [Campaign 커넥터](platform/using/about-connectors.md)
   + 자주 묻는 질문 {#faq}
     + [Campaign Classic FAQ](platform/using/faq-campaign-classic-v7.md)
     + [빌드 업그레이드](platform/using/faq-build-upgrade.md)
-  + {hide-from-toc}[용어집 - 숨김](platform/using/ac-glossary.md)
   + 개인 정보 {#privacy}
     + [개인 정보 보호 및 동의](platform/using/privacy-and-recommendations.md)
     + [개인 정보 보호 관리](platform/using/privacy-management.md)
     + 개인 정보 보호 요청 {#privacy-requests}
-      + [개인 정보 보호 요청 정보](platform/using/privacy-requests.md)
       + [개인 정보 보호 요청 생성 및 관리](platform/using/privacy-requests-ui.md)
       + [자동 개인 정보 보호 요청 프로세스](platform/using/privacy-requests-api.md)
     + [개인 정보 판매 옵트아웃](platform/using/privacy-requests-ccpa.md)
   + 프로필 관리 {#profile-management}
     + [프로필 정보](platform/using/about-profiles.md)
     + [데이터 업데이트](platform/using/updating-data.md)
-    + [목록 만들기 및 관리](platform/using/creating-and-managing-lists.md)
   + 데이터 가져오기 및 내보내기 {#importing-and-exporting-data}
-    + [데이터 가져오기 및 내보내기 시작](platform/using/get-started-data-import-export.md)
-    + [워크플로를 사용하여 데이터 가져오기 및 내보내기](platform/using/import-export-workflows.md)
     + 일반 가져오기 및 내보내기 만들기 {#generic-imports-exports}
-      + [일반 가져오기 및 내보내기 시작](platform/using/about-generic-imports-exports.md)
-      + [가져오기 및 내보내기 템플릿 만들기](platform/using/creating-import-export-templates.md)
-      + [가져오기 및 내보내기 작업 만들기](platform/using/creating-import-export-jobs.md)
-      + [가져오기 작업 구성](platform/using/executing-import-jobs.md)
-      + [내보내기 작업 구성](platform/using/executing-export-jobs.md)
       + [작업 실행 모니터링](platform/using/monitoring-jobs-execution.md)
       + [일반 가져오기 샘플](platform/using/import-operations-samples.md)
     + 데이터 암호화 및 압축 관리 {#managing-data-encryption-compression}
@@ -70,89 +56,38 @@ ht-degree: 100%
     + 모범 사례 및 문제 해결 {#best-practices}
       + [가져오기 및 내보내기 모범 사례](platform/using/import-export-best-practices.md)
       + [SFTP 서버 모범 사례 및 문제 해결](platform/using/sftp-server-usage.md)
-  + 데이터 필터링 {#filtering-data}
-    + {hide-from-toc}[필터 만들기 - 숨김](platform/using/creating-filters.md)
-  + {hide-from-toc}[쿼리 만드는 단계 - 숨김](platform/using/steps-to-create-a-query.md)
-  + {hide-from-toc}[필터 조건 정의 - 숨김](platform/using/defining-filter-conditions.md)
   + 권한 {#permissions}
     + [사용 권한 시작](platform/using/access-management.md)
     + 기본 인증(이전) {#native}
       + [운영자 만들기 및 관리](platform/using/access-management-operators.md)
       + [그룹 만들기 및 관리](platform/using/access-management-groups.md)
-    + [명명된 권한을 사용하여 사용 권한 설정](platform/using/access-management-named-rights.md)
   + CRM 커넥터 {#connectors}
     + [CRM 커넥터 시작](platform/using/crm-connectors.md)
 + 메시지 만들기 및 보내기 {#sending-messages}
   + [메시지 시작](delivery/using/communication-channels.md)
   + {hide-from-toc}[게재 설정 - 숨김](delivery/using/delivery-settings.md)
   + 빠른 시작 {#key-steps-when-creating-a-delivery}
-    + {hide-from-toc}[게재 시작 - 숨김](delivery/using/steps-about-delivery-creation-steps.md)
-    + {hide-from-toc}[게재 만들기 및 식별 - 숨김](delivery/using/steps-create-and-identify-the-delivery.md)
-    + {hide-from-toc}[대상자 정의 - 숨김](delivery/using/steps-defining-the-target-population.md)
-    + {hide-from-toc}[게재 유효성 검사 - 숨김](delivery/using/steps-validating-the-delivery.md)
     + {hide-from-toc}[게재 보내기 - 숨김](delivery/using/steps-sending-the-delivery.md)
-    + {hide-from-toc}[게재 모범 사례 - 숨김](delivery/using/delivery-best-practices.md)
-  + 게재 모범 사례 {#delivery-bestpractices}
-    + {hide-from-toc}[게재 최적화 - 숨김](delivery/using/optimize-delivery.md)
-    + {hide-from-toc}[템플릿 사용 - 숨김](delivery/using/use-templates.md)
-    + {hide-from-toc}[개인화된 콘텐츠 작성 - 숨김](delivery/using/design-and-personalize.md)
-    + {hide-from-toc}[적합한 대상자 정의 - 숨김](delivery/using/define-the-right-audience.md)
-    + {hide-from-toc}[보내기 전 확인 - 숨김](delivery/using/check-before-sending.md)
   + [이메일 보내기](delivery/using/about-email-channel.md)
-  + 이메일 보내기 {#sending-emails}
-    + {hide-from-toc}[이메일 게재 만들기 - 숨김](delivery/using/creating-an-email-delivery.md)
-    + {hide-from-toc}[이메일 콘텐츠 정의 - 숨김](delivery/using/defining-the-email-content.md)
-    + {hide-from-toc}[인터랙티브한 콘텐츠 정의 - 숨김](delivery/using/defining-interactive-content.md)
-    + 이메일 게재 보내기 {#sending-an-email}
-      + {hide-from-toc}[이메일을 보내는 주요 단계 - 숨김](delivery/using/sending-messages.md)
-      + {hide-from-toc}[이메일 매개 변수 - 숨김](delivery/using/email-parameters.md)
-      + {hide-from-toc}[일본어 모바일에서 보내기 - 숨김](delivery/using/sending-emails-on-japanese-mobiles.md)
-    + {hide-from-toc}[파일 첨부 - 숨김](delivery/using/attaching-files.md)
   + SMS 보내기 {#sending-messages-on-mobiles}
-    + [SMS 시작](delivery/using/sms-channel.md)
     + SMS 채널 구성 {#sms-set-up}
       + [독립형 인스턴스에서 SMS 구성](delivery/using/sms-set-up.md)
       + [중간 소싱 인프라에 SMS 구성](delivery/using/sms-set-up-mid.md)
       + [SMS 커넥터 프로토콜 및 설정](delivery/using/sms-protocol.md)
       + [추가 구성](delivery/using/sms-send.md)
       + [SMS 문제 해결](delivery/using/troubleshooting-sms.md)
-    + {hide-from-toc}[SMS 게재 만들기 - 숨김](delivery/using/sms-create.md)
     + {hide-from-toc}[Extended Generic SMPP 커넥터로 마이그레이션](delivery/using/unsupported-connector-migration.md)
-  + [LINE 메시지 보내기](delivery/using/line-channel.md)
   + [푸시 알림 보내기](delivery/using/about-mobile-app-channel.md)
   + 푸시 알림 보내기 {#sending-push-notifications}
-    + {hide-from-toc}[모바일 애플리케이션에 Campaign SDK 통합](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
     + 모바일 애플리케이션 구성{#configure-the-mobile-app}
       + {hide-from-toc}[앱 구성 시작 - 숨김](delivery/using/get-started-app-config.md)
       + {hide-from-toc}[iOS용 구성 단계 - 숨김](delivery/using/configuring-the-mobile-application.md)
       + {hide-from-toc}[Android용 구성 단계 - 숨김](delivery/using/configuring-the-mobile-application-android.md)
-    + 푸시 알림 만들기{#create-a-push-msg}
-      + {hide-from-toc}[iOS용 푸시 메시지 만들기 - 숨김](delivery/using/create-notifications-ios.md)
-      + {hide-from-toc}[Android용 푸시 메시지 만들기 - 숨김](delivery/using/create-notifications-android.md)
     + {hide-from-toc}[문제 해결 - 숨김](delivery/using/troubleshooting.md)
   + [다이렉트 메일 보내기](delivery/using/about-direct-mail-channel.md)
-  + 다이렉트 메일 보내기 {#sending-direct-mail}
-    + {hide-from-toc}[다이렉트 메일 게재 만들기 - 숨김](delivery/using/creating-a-direct-mail-delivery.md)
-    + {hide-from-toc}[다이렉트 메일 콘텐츠 정의 - 숨김](delivery/using/defining-the-direct-mail-content.md)
-    + {hide-from-toc}[유효성 검사 - 숨김](delivery/using/validating.md)
-  + 게재 템플릿 사용 {#using-delivery-templates}
-    + {hide-from-toc}[게재 템플릿 작업 - 숨김](delivery/using/about-templates.md)
-    + {hide-from-toc}[게재 템플릿 만들기 - 숨김](delivery/using/creating-a-delivery-template.md)
-    + {hide-from-toc}[대상 매핑 선택 - 숨김](delivery/using/selecting-a-target-mapping.md)
-    + {hide-from-toc}[템플릿에서 게재 만들기 - 숨김](delivery/using/creating-a-delivery-from-a-template.md)
   + 게재 개인화 {#personalizing-deliveries}
     + [개인화 정보](delivery/using/about-personalization.md)
-    + {hide-from-toc}[개인화 필드 - 숨김](delivery/using/personalization-fields.md)
-    + {hide-from-toc}[개인화 블록 - 숨김](delivery/using/personalization-blocks.md)
-    + {hide-from-toc}[조건부 콘텐츠 - 숨김](delivery/using/conditional-content.md)
-    + {hide-from-toc}[개인화된 쿠폰 - 숨김](delivery/using/personalized-coupons.md)
-    + {hide-from-toc}[개인화된 PDF 문서 생성 - 숨김](delivery/using/generating-personalized-pdf-documents.md)
-    + {hide-from-toc}[이모티콘 목록 사용자 정의](delivery/using/customizing-emoticon-list.md)
   + 시드 주소 사용 {#using-seed-addresses}
-    + [시드 주소 정보](delivery/using/about-seed-addresses.md)
-    + [시드 주소 만들기](delivery/using/creating-seed-addresses.md)
-    + [시드 주소 추가](delivery/using/adding-seed-addresses.md)
-    + [외부 수신자 테이블 사용](delivery/using/using-an-external-recipient-table.md)
     + [활용 사례: 기준 시드 주소 선택](delivery/using/use-case-selecting-seed-addresses-on-criteria.md)
     + [활용 사례: 필드 대체 구성](delivery/using/use-case-configuring-the-field-substitution.md)
   + A/B 테스트 {#a-b-testing}
@@ -180,9 +115,7 @@ ht-degree: 100%
     + [고급: 게재 로그 사용자 정의](delivery/using/customize-delivery-logs.md)
   + 전달성 관리 {#deliverability-management}
     + [전달성의 정의](delivery/using/about-deliverability.md)
-    + [메시지 콘텐츠 제어](delivery/using/control-message-content.md)
     + [받은 편지함 렌더링](delivery/using/inbox-rendering.md)
-    + [SpamAssassin](delivery/using/spamassassin.md)
     + [문제 해결](delivery/using/deliverability-faq.md)
   + 콘텐츠 관리 모듈 {#content-management}
     + [콘텐츠 관리 정보](delivery/using/about-content-management.md)
@@ -593,8 +526,6 @@ ht-degree: 100%
     + {hide-from-toc}[Adobe Analytics 2.0 API로 마이그레이션](technotes/using/analytics-2-migration.md)
   + 이메일 및 푸시 알림{#technotes-email}
     + [Apple iOS의 메일 개인 정보 보호](technotes/using/apple-mail-app-privacy-protection.md)
-    + [잘못된 하드 바운스를 업데이트하는 방법](delivery/using/update-bounce-qualification.md)
-    + {hide-from-toc}[ISP 중단 후 잘못된 하드 바운스 업데이트](delivery/using/update-bounces.md)
     + [iOS 인증서 업데이트](technotes/using/ios-certificate-update.md)
     + {hide-from-toc}[추적 URL 업데이트](technotes/using/tracked-urls.md)
   + Adobe Managed Services로 마이그레이션{#dc-migration}

@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '2702'
-ht-degree: 98%
+source-wordcount: '2716'
+ht-degree: 97%
 ---
 # 2021년 릴리스{#release-2021}
 
@@ -162,7 +162,7 @@ _2021년 6월 5일_
 <li><p>LINE 파트너 등록 API 지원</p></li>
 <li><p>LINE 서버 측 오류 또는 네트워크 시간제한 이벤트에서 메시지 전송을 다시 시도할 수 있도록 지원합니다.</p></li>
 </ul>
-<p>자세한 내용은 <a href="../../delivery/using/line-channel.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">자세한 설명서</a>(Campaign v8 설명서)를 참조하세요.</p>
 </td> 
 </tr> 
 </tbody> 

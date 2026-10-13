@@ -29,30 +29,18 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 2%
+source-wordcount: '247'
+ht-degree: 3%
 ---
 # 추적 URL 감지
 
-## 불검출의 예
+Adobe Campaign은 게재 분석 중에 콘텐츠에서 추적할 URL을 감지합니다.
 
-`<%= getURL("http://mynewsletter.com") %>`이(가) 작동하여 웹 페이지의 실제 콘텐츠를 전자 메일로 수신자에게 보냅니다. 하지만 어떤 링크도 추적되지 않습니다. MTA에서 보내기 전에 각 이메일에 대해 `"<%=getURL(..."`을(를) 실행하기 때문입니다. 수신자마다 다를 수 있으므로 Adobe Campaign은 추적을 위한 URL을 알고 태그 ID를 할당할 수 없습니다.
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. URL 검색 방법과 사용할 패턴에 대해 알아보려면 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/personalized-links#url-detection){target=_blank}를 참조하세요.
 
-다운로드할 페이지가 모든 수신자에게 동일한 경우 가장 좋은 방법은 다음을 수행하는 것입니다.
-
-`<%@ include url="http://mynewsletter.com" %>`
-
-이 경우 페이지는 분석 중에 추적 감지 전에 다운로드됩니다. 이를 통해 Adobe Campaign은 링크를 검색하고, 태그 ID를 할당하고, 추적할 수 있습니다.
-
-## 권장 패턴
-
-`<%@` 명령을 처리한 후 추적할 URL의 구문은 다음과 같습니다. `<a href="http://myurl.com/a.php?param1=aaa&param2=<%=escapeUrl(recipient.xxx)%>&param3=<%=escapeUrl(recipient.xxx)%>">`
-
->[!IMPORTANT]
->
->다른 모든 패턴은 Adobe에서 지원되지 않으므로 잠재적인 보안 공백을 방지하기 위해 피해야 합니다.
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/personalized-links#url-detection){target=_blank}
 
 ## 비보안 패턴
 

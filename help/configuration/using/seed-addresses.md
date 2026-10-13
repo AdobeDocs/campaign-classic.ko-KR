@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '349'
 ht-degree: 4%
 ---
 # 시드 주소{#seed-addresses}
@@ -45,7 +45,7 @@ ht-degree: 4%
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
-시드 주소 사용에 대한 자세한 내용은 [이 섹션](../../delivery/using/about-seed-addresses.md)을 참조하세요.
+시드 주소 사용에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/add-profiles/test-profiles){target="_blank"}을(를) 참조하십시오(Campaign v8 설명서).
 
 ## 구현 {#implementation}
 

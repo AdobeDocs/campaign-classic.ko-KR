@@ -32,9 +32,9 @@ subfeature_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '750'
 ht-degree: 2%
 ---
 # 데이터 업데이트{#updating-data}
@@ -118,7 +118,7 @@ ht-degree: 2%
 
    ![](assets/s_ncs_user_export_list_start.png)
 
-   내보내기 도우미를 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../platform/using/executing-export-jobs.md)을 참조하세요.
+   내보내기 도우미를 구성하는 방법에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/import){target="_blank"}(Campaign v8 설명서)을 참조하십시오.
 
 ## 서비스 구독 {#subscribing-to-a-service}
 

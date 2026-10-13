@@ -29,9 +29,9 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: 7b7f6d2ad5e5d09880f05c7e99ea8ede770532ab
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '458'
 ht-degree: 2%
 ---
 # 감사 추적{#audit-trail}
@@ -55,7 +55,7 @@ Adobe Campaign에서 **[!UICONTROL Audit trail]**&#x200B;을(를) 사용하면 �
 
 * **스키마 감사 추적**: 스키마에 대한 변경 내용을 살펴보고 수정한 사람과 수정한 시기를 식별할 수 있습니다.
 
-  스키마에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"}(Campaign v8 설명서)를 참조하세요.
+  스키마에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}(Campaign v8 설명서)를 참조하세요.
 
 * **워크플로 감사 추적**&#x200B;은(는) 다음을 포함하여 워크플로와 관련된 모든 작업을 추적합니다.
 

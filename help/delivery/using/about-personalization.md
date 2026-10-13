@@ -36,7 +36,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 2%
@@ -72,7 +72,7 @@ Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명
 
 다음 페이지를 참조하여 개인화된 쿠폰, PDF 문서 및 이모티콘 사용자 지정에 대해 알아보십시오. **Campaign v8 설명서**:
 
-* [개인화된 쿠폰](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/ppersonalized-coupons.html){target="_blank"}: 전자 메일 게재에서 개인화된 또는 익명 쿠폰을 만들고 할당하는 방법을 알아봅니다.
+* [개인화된 쿠폰](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/ppersonalized-coupons.html?lang=ko){target="_blank"}: 전자 메일 게재에서 개인화된 또는 익명 쿠폰을 만들고 할당하는 방법을 알아봅니다.
 * [개인화된 PDF 문서 생성](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/generating-personalized-pdf-documents.html?lang=ko){target="_blank"}: 각 수신자에 대해 개인화된 콘텐츠를 사용하여 PDF 첨부 파일을 생성하는 방법에 대해 알아봅니다.
 * [이모티콘 목록 사용자 지정](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/customizing-emoticon-list.html?lang=ko){target="_blank"}: 이메일 메시지를 개선하기 위해 이모티콘을 추가하고 관리하는 방법에 대해 알아봅니다.
 
@@ -88,16 +88,16 @@ Adobe Campaign lets you mass deliver personalized electronic messages to a targe
 Before starting sending emails:
 
 * Make sure recipient profiles contain at least an email address.
-* Learn more about the Adobe Campaign [Delivery best practices](delivery-best-practices.md).
+* Learn more about the Adobe Campaign [Delivery best practices](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/delivery-best-practices){target="_blank"} (Campaign v8 documentation).
 * Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko).
 
 The key steps to send an email are as follows:
 
-* [Create an email delivery](creating-an-email-delivery.md)
-* [Define the target population](steps-defining-the-target-population.md)
-* [Define the email content](defining-the-email-content.md)
-* [Send the email](sending-messages.md)
+* [Create an email delivery](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/emails/email){target="_blank"} (Campaign v8 documentation)
+* [Define the target population](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/create-message){target="_blank"} (Campaign v8 documentation)
+* [Define the email content](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/emails/defining-the-email-content){target="_blank"} (Campaign v8 documentation)
+* [Send the email](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/emails/send){target="_blank"} (Campaign v8 documentation)
 * [Monitor the delivery](about-delivery-monitoring.md)
 
-The sections below provide information that is specific to the email channel. For global information on how to create a delivery, refer to [this section](steps-about-delivery-creation-steps.md).
+The sections below provide information that is specific to the email channel. For global information on how to create a delivery, refer to [this section](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/create-message){target="_blank"} (Campaign v8 documentation).
 -->

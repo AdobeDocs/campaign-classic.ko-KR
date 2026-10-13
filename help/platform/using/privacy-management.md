@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 80%
+source-wordcount: '919'
+ht-degree: 77%
 ---
 # 개인 정보 보호 관리 {#privacy-management}
 
@@ -97,7 +97,7 @@ Adobe Campaign을 사용하면 개인정보 보호 준비를 원활히 수행할
 
 * 데이터 삭제라고도 하는 **잊혀질 권리**(삭제 요청)는 데이터 주체에게 자신의 개인 데이터를 지우고, 데이터의 추가 배포를 중단하고, 제3자로 하여금 데이터 처리를 중단하도록 할 수 있는 권한을 부여합니다.
 
-**액세스** 및 **삭제** 요청을 만드는 방법과 Adobe Campaign에서 이 요청을 처리하는 원리는 [구현 단계](../../platform/using/privacy-requests.md)를 참조하세요.
+**액세스** 및 **삭제** 요청을 만드는 방법과 Adobe Campaign에서 요청을 처리하는 방법에 대해 알아보려면 [구현 단계](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/privacy/privacy){target="_blank"}(Campaign v8 설명서)를 참조하세요.
 
 <!--
 Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=ko).
@@ -123,7 +123,7 @@ Adobe Campaign은 최신 **액세스 권한** 및 **잊혀질 권리** 기능 �
 
 동의 관리에 대한 자세한 내용은 [자세한 설명서](../../delivery/using/managing-subscriptions.md)를 참조하십시오.
 
-Adobe Campaign이 제공하는 동의 관리 도구 외에도, 소비자가 개인 정보 판매를 옵트아웃했는지 여부를 추적할 수 있습니다. [이 섹션](../../platform/using/privacy-requests.md#sale-of-personal-information-ccpa)을 참조하십시오.
+Adobe Campaign이 제공하는 동의 관리 도구 외에도, 소비자가 개인 정보 판매를 옵트아웃했는지 여부를 추적할 수 있습니다. [이 섹션](privacy-requests-ccpa.md)을 참조하십시오.
 
 ### 데이터 보존 {#data-retention}
 
