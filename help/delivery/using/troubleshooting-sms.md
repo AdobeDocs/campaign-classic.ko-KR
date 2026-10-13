@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
 source-wordcount: '3088'
 ht-degree: 0%
@@ -148,7 +148,7 @@ Adobe Campaign은 외부 계정을 관련 없는 엔티티로 취급합니다.
 
 ## MT(일반 사용자에게 전송된 SMS)를 전송할 때 문제 발생{#issue-MT}
 
-* 연결이 안정적인지 확인합니다. SMPP 연결은 Adobe Campaign Classic의 송신기를 제외하고 최소 1시간 동안 지속적으로 유지되어야 합니다. [연결이 불안정한 문제](sms-protocol.md#issues-unstable-connection) 섹션을 참조하십시오.
+* 연결이 안정적인지 확인합니다. SMPP 연결은 Adobe Campaign Classic의 송신기를 제외하고 최소 1시간 동안 지속적으로 유지되어야 합니다. [연결이 불안정한 문제](#issues-unstable-connection) 섹션을 참조하십시오.
 
 * MTA를 다시 시작하면 MT를 다시 보내는 데 시간이 조금 걸리는 경우 연결이 불안정하여 전송률이 저하될 수 있습니다. [연결이 불안정한 문제](troubleshooting-sms.md#issues-unstable-connection) 섹션을 참조하십시오.
 

@@ -26,7 +26,7 @@ subfeature_v2:
     internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
-source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 4%
@@ -37,7 +37,7 @@ ht-degree: 4%
 
 홈 페이지의 **[!UICONTROL Explorer]** 메뉴에서 Adobe Campaign 트리를 탐색하면 데이터베이스에 포함된 데이터가 목록에 표시됩니다. 이러한 목록은 연산자가 필요로 하는 데이터만 표시하도록 구성할 수 있다. 그런 다음 필터링된 데이터에 대해 작업을 실행할 수 있습니다. 필터 구성을 통해 **[!UICONTROL dynamically]** 목록에서 데이터를 선택할 수 있습니다. 데이터가 수정되면 필터링된 데이터가 업데이트됩니다.
 
-[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}에서 **필터 및 사용 방법**&#x200B;에 대해 자세히 알아보세요.
+[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}에서 **필터 및 사용 방법**&#x200B;에 대해 자세히 알아보세요.
 
 
 <!--
@@ -213,7 +213,7 @@ Advanced filters can use functions; **filters with functions** are created via a
 
       >[!NOTE]
       >
-      >For an example of filter creation based on an expression, refer to [this section](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email#identifying-recipients-whose-birthday-it-is){target="_blank"} (Campaign v8 documentation).
+      >For an example of filter creation based on an expression, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email#identifying-recipients-whose-birthday-it-is){target="_blank"} (Campaign v8 documentation).
 
 ## Save a filter {#saving-a-filter}
 
@@ -221,7 +221,7 @@ Filters are specific to each operator and are re-initialized each time the opera
 
 You can create an **application filter** by saving an advanced filter: it can be re-used by right-clicking in any list or via the **[!UICONTROL Filters]** button located above the lists.
 
-These filters can also be accessed directly via the delivery assistant, in the target selection stage (refer to [this section](../../delivery/using/creating-an-email-delivery.md) for more on creating deliveries). To create the application filter, you can:
+These filters can also be accessed directly via the delivery assistant, in the target selection stage (refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target="_blank"} (Campaign v8 documentation) for more on creating deliveries). To create the application filter, you can:
 
 * Convert an advanced filter to an application filter. To do this, click **[!UICONTROL Save]** before closing the advanced filter editor.
 

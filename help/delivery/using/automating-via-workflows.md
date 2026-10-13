@@ -37,71 +37,18 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '915'
 ht-degree: 0%
 ---
 # 워크플로로 자동화{#automating-via-workflows}
 
-## 콘텐츠 관리 활동 {#content-management-activity}
+워크플로우를 사용하여 콘텐츠 관리 콘텐츠를 작성, 편집 및 게시할 수 있습니다.
 
-Adobe Campaign 클라이언트 인터페이스를 통해 구성된 워크플로우를 사용하여 콘텐츠 만들기, 편집 및 게시를 자동화할 수 있습니다.
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. **콘텐츠 관리** 활동을 구성하는 방법에 대해 알아보려면 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}를 참조하세요.
 
-**콘텐츠 관리** 활동은 워크플로우 다이어그램의 **[!UICONTROL Tools]** 도구 모음을 통해 액세스할 수 있습니다.
-
-활동 속성은 다음 네 단계로 분류됩니다.
-
-* **[!UICONTROL Content]** : 기존 콘텐츠를 입력하거나 콘텐츠를 만들 수 있도록 해줍니다.
-* **[!UICONTROL Update content]** : XML 데이터 흐름을 통해 콘텐츠의 제목을 수정하거나 콘텐츠를 업데이트할 수 있습니다.
-* **[!UICONTROL Action to execute]** : 콘텐츠를 저장하거나 생성할 수 있습니다.
-* **[!UICONTROL Transition]** : 출력 전환을 생성하고 이름을 지정할지 여부를 선택할 수 있습니다.
-
-![](assets/d_ncs_content_wf.png)
-
-### 콘텐츠 {#content}
-
-* **전환에서 지정됨**
-
-  사용할 컨텐츠가 이전에 생성되었습니다. 프로세스는 수신 이벤트에 의해 전파된 콘텐츠 인스턴스와 관련이 있습니다. 콘텐츠 식별자는 이벤트의 &quot;contentId&quot; 변수를 통해 액세스합니다.
-
-* **명시적**
-
-  이전에 만든 콘텐츠를 선택할 수 있습니다.
-
-* **스크립트로 계산됨**
-
-  JavaScript 템플릿을 기반으로 콘텐츠 인스턴스를 선택합니다. 평가할 코드를 사용하면 콘텐츠 식별자를 검색할 수 있습니다.
-
-* **새로 만들기, 게시 템플릿을 통해 만들기**
-
-  게시 템플릿을 통해 새 컨텐츠를 만듭니다. 콘텐츠 인스턴스는 채워진 &quot;String&quot; 폴더에 저장됩니다.
-
-### 콘텐츠 업데이트 {#update-the-content}
-
-* **제목**
-
-  게시할 때 게재 작업의 제목을 수정할 수 있습니다.
-
-* **XML 피드의 데이터에 액세스**
-
-  외부 소스의 XML 피드에서 콘텐츠가 업데이트됩니다. 데이터 다운로드가 수행되도록 하려면 URL을 입력해야 합니다.
-
-  XSL 스타일시트를 사용하여 들어오는 XML 데이터를 변환할 수 있습니다.
-
-### 실행할 작업 {#action-to-execute}
-
-* **저장**
-
-  생성 또는 수정된 콘텐츠를 저장합니다. 저장된 콘텐츠의 식별자가 발신 이벤트의 &quot;contentId&quot; 변수에 전파됩니다.
-
-* **생성**
-
-  &quot;파일&quot; 유형의 게시가 있는 각 변환 템플릿에 대한 출력 파일을 생성합니다. 나가는 전환은 생성된 각 파일에 대해 활성화되며, 다음 매개 변수를 사용합니다. &quot;contentId&quot; 변수에 저장된 콘텐츠의 식별자 및 &quot;filename&quot; 변수의 파일 이름.
-
-### 전환 {#transition}
-
-**출력 전환 생성** 옵션을 사용하면 **[!UICONTROL Content management]** 활동에 출력 전환을 추가하여 새 활동을 워크플로우 실행에 연결할 수 있습니다. 이 옵션을 선택한 후 전환의 레이블을 입력합니다.
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}
 
 ## 예제 {#examples}
 
@@ -241,14 +188,9 @@ Adobe Campaign 클라이언트 인터페이스를 통해 구성된 워크플로�
 
 활동의 마지막 작업은 게재를 준비하고 시작하는 것입니다.
 
-### FTP에서 콘텐츠 가져오기 {#importing-content-from-ftp}
-
-게재 콘텐츠를 FTP 또는 SFTP 서버에 있는 HTML 파일에서 사용할 수 있는 경우 이 콘텐츠를 Adobe Campaign 게재에 쉽게 로드할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ko){target="_blank"}를 참조하세요.
-
-
 ### Amazon Simple Storage Service(S3) 커넥터에서 컨텐츠 가져오기 {#importing-content-from-amazon-simple-storage-service--s3--connector}
 
-게재 콘텐츠가 Amazon Simple Storage Service (S3) 버킷에 있는 경우, 이 콘텐츠를 Adobe Campaign 게재에 쉽게 로드할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ko){target="_blank"}를 참조하세요.
+게재 콘텐츠가 Amazon Simple Storage Service (S3) 버킷에 있는 경우, 이 콘텐츠를 Adobe Campaign 게재에 쉽게 로드할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}를 참조하세요.
 
 
 ## 반자동 업데이트 {#semi-automatic-update}

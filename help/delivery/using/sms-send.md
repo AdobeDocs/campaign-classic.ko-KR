@@ -39,12 +39,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '907'
 ht-degree: 1%
 ---
 # 추가 구성{#sms-properties}
+
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. SMS 게재 설정에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/config-sms/sms-delivery-settings){target=_blank}를 참조하세요.
+
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/config-sms/sms-delivery-settings){target=_blank}
 
 <!--
 ## Send SMS messages {#sending-sms-messages}
@@ -53,7 +57,7 @@ To approve your message and send it to the recipients of the delivery being crea
 
 The detailed process when validating and sending a delivery is presented in the sections below:
 
-* [Validate the delivery](steps-validating-the-delivery.md)
+* [Validate the delivery](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/validate/delivery-analysis){target="_blank"} (Campaign v8 documentation)
 * [Send the delivery](steps-sending-the-delivery.md)
 -->
 
@@ -73,7 +77,6 @@ The detailed process when validating and sending a delivery is presented in the 
   >
   >보낸 사람 이름 편집에 대해서는 해당 국가의 법을 확인하십시오. 또한 운영자가 이 기능을 제공하는지 여부를 확인해야 합니다.
 
-* **전송 모드**: SMS로 메시지를 전송합니다.
 * **우선 순위**: 메시지에 할당된 중요도 수준입니다. 기본적으로 **[!UICONTROL Normal]** 우선 순위가 선택되어 있습니다. 서비스 공급업체에 **[!UICONTROL High]** 우선 순위로 보낸 SMS 비용에 대해 문의하십시오.
 * **응용 프로그램 유형**: SMS 게재에 할당할 응용 프로그램을 선택합니다. **[!UICONTROL Direct Marketing]** 옵션은 기본적으로 선택되어 있으며 가장 일반적으로 사용됩니다.
 
@@ -82,12 +85,6 @@ The detailed process when validating and sending a delivery is presented in the 
 ![](assets/s_user_mobile_sms_adv_netsize.png)
 
 * **단일 메시지에 여러 SMS 사용**: 여러 SMS 메시지를 통해 160자를 초과하는 메시지를 보낼 수 있습니다.
-
-**SMPP 커넥터와 관련된 매개 변수**
-
-![](assets/s_user_mobile_sms_adv_smpp.png)
-
-* **메시지당 최대 SMS 수**: 이 옵션을 사용하면 메시지를 보내는 데 사용할 SMS 수를 설정할 수 있습니다. 이 수를 0으로 설정하면 SMS를 사용하여 메시지를 전달할 수 있습니다. 예를 들어 SMS 수가 1 또는 2로 설정되어 있고 메시지가 이 임계값을 초과하는 경우 전송되지 않습니다.
 
 <!--
 ## Monitor and track SMS {#monitoring-and-tracking-sms-deliveries}
@@ -197,6 +194,6 @@ InSMS 스키마에는 수신 SMS와 관련된 정보가 포함되어 있습니�
 
 >[!IMPORTANT]
 >
->이러한 종류의 자동 메시지는 기록을 보관하지 않습니다. 따라서 게재 대시보드에 표시되지 않습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
+>이러한 종류의 자동 메시지는 기록을 보관하지 않습니다. 따라서 게재 대시보드에 표시되지 않습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
 >
->상업적 압력 규칙에서는 이러한 메시지가 고려되지 않습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ko){target="_blank"}를 참조하세요.
+>상업적 압력 규칙에서는 이러한 메시지가 고려되지 않습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}를 참조하세요.

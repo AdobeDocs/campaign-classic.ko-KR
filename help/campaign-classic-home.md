@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 79%
+source-wordcount: '679'
+ht-degree: 69%
 ---
 # Campaign Classic v7 설명서 {#campaign-classic-documentation}
 
@@ -109,12 +109,12 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>고객 경험</strong><br/><a href="workflow/using/about-workflows.md">워크플로우 자동화</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko" target="_blank">마케팅 캠페인</a> - <a href="interaction/using/interaction-and-offer-management.md">상호 작용 및 오퍼 관리</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank">보고</a>(Campaign v8 설명서)
+      <strong>고객 경험</strong><br/><a href="workflow/using/about-workflows.md">워크플로우 자동화</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko" target="_blank">마케팅 캠페인</a> - <a href="interaction/using/interaction-and-offer-management.md">상호 작용 및 오퍼 관리</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank">보고</a>(Campaign v8 설명서)
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>메시지 보내기</strong><br/><a href="delivery/using/communication-channels.md">커뮤니케이션 채널</a> - <a href="delivery/using/steps-about-delivery-creation-steps.md#sending-a-proof">교정쇄 보내기</a> - <a href="delivery/using/get-started-a-b-testing.md">A/B 테스트</a> - <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">메시지 추적</a> - <a href="delivery/using/about-deliverability.md">전달성</a> - <a href="message-center/using/about-transactional-messaging.md">트랜잭션 메시지</a>
+      <strong>메시지 보내기</strong><br/><a href="delivery/using/communication-channels.md">통신 채널</a> - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-message" target="_blank">증명 보내기</a>(Campaign v8 설명서) - <a href="delivery/using/get-started-a-b-testing.md">A/B 테스트</a> - <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">메시지 추적</a> - <a href="delivery/using/about-deliverability.md">게재 기능</a> - <a href="message-center/using/about-transactional-messaging.md">트랜잭션 메시지</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -131,7 +131,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
       <br/>
-      <strong>개발자 리소스</strong><br/><a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/datamodel" target="_blank">데이터 모델 설명</a>(Campaign v8 설명서) - <a href="configuration/using/about-schema-reference.md">스키마 구조</a> - <a href="configuration/using/editing-forms.md">스키마 구조</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/ko/tools/campaign-api">JSAPI 참조 설명서</a> - <a href="configuration/using/about-custom-recipient-table.md">사용자 지정 수신자 테이블</a>
+      <strong>개발자 리소스</strong><br/><a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel" target="_blank">데이터 모델 설명</a>(Campaign v8 설명서) - <a href="configuration/using/about-schema-reference.md">스키마 구조</a> - <a href="configuration/using/editing-forms.md">스키마 구조</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/ko/tools/campaign-api">JSAPI 참조 설명서</a> - <a href="configuration/using/about-custom-recipient-table.md">사용자 지정 수신자 테이블</a>
     </td>
   </tr>
 </table>

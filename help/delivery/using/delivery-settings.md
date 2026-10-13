@@ -35,14 +35,18 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 12%
+source-wordcount: '714'
+ht-degree: 7%
 ---
 # 게재 설정 {#about-delivery-settings}
 
-다음 설정은 Campaign Classic에만 적용됩니다. 다른 게재 설정은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=ko){target="_blank"}를 참조하세요.
+다음 설정은 Campaign Classic에만 적용됩니다. 다른 게재 설정은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html){target="_blank"}를 참조하세요.
+
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 게재 설정에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-settings){target=_blank}를 참조하세요.
+
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-settings){target=_blank}
 
 ## 게재 분석 {#delivery-analysis}
 
@@ -79,8 +83,6 @@ ht-degree: 12%
 
 ### 다시 시도 구성 {#configuring-retries}
 
-**소프트** 또는 **무시됨** 오류로 인해 일시적으로 게재되지 않은 메시지는 자동 다시 시도될 수 있습니다. 게재 실패 유형 및 이유는 이 [섹션](delivery-failures-quarantine.md#delivery-failure-types-and-reasons)에 나와 있습니다.
-
 >[!IMPORTANT]
 >
 >호스팅 또는 하이브리드 설치의 경우 [향상된 MTA](sending-with-enhanced-mta.md)(으)로 업그레이드한 경우 게재의 다시 시도 설정은 Campaign에서 더 이상 사용되지 않습니다. 소프트 바운스 재시도 및 재시도 간 시간은 메시지 이메일 도메인에서 돌아오는 바운스 응답의 유형 및 심각도에 따라 고급 MTA에 의해 결정됩니다.
@@ -98,8 +100,6 @@ ht-degree: 12%
 ![](assets/s_ncs_user_email_del_valid_period.png)
 
 * **[!UICONTROL Delivery duration]** 필드를 사용하면 전역 게재 다시 시도에 대한 제한을 입력할 수 있습니다. 즉, Adobe Campaign은 시작 날짜부터 메시지를 전송하고 나서 메시지가 오류만 반환하는 경우 유효성 검사 제한에 도달할 때까지 구성 가능한 일반 재시도를 수행합니다.
-
-  날짜를 지정할 수도 있습니다. 이렇게 하려면 **[!UICONTROL Explicitly set validity dates]**&#x200B;을(를) 선택합니다. 이 경우 게재 및 유효성 검사 제한 날짜를 통해 시간을 지정할 수도 있습니다. 기본적으로 현재 시간이 사용되지만 입력 필드에서 직접 수정할 수 있습니다.
 
   >[!IMPORTANT]
   >
