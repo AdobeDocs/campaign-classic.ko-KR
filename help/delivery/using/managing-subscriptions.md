@@ -156,7 +156,7 @@ ht-degree: 1%
 * 수신자 집합을 이 서비스에 자동으로 구독합니다. 수신자 목록은 필터링 작업, 그룹, 폴더, 가져오기 또는 마우스를 사용한 직접 선택에서 가져올 수 있습니다. 이러한 수신자를 구독하려면 프로필을 선택하고 마우스 오른쪽 단추를 클릭합니다. **[!UICONTROL Actions > Subscribe selection to a service...]**&#x200B;을(를) 선택하고 관련 서비스를 선택한 다음 작업을 시작합니다.
 * 수신자를 가져와 정보 서비스에 자동으로 가입합니다. 이렇게 하려면 가져오기 도우미의 마지막 단계에서 관련 서비스를 선택합니다.
 
-  자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"}(Campaign v8 설명서)을 참조하세요.
+  자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/import){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 * 수신자가 서비스에 가입할 수 있도록 웹 양식을 사용하십시오.
 
@@ -176,7 +176,7 @@ ht-degree: 1%
 
 기본 구독 취소 링크는 게재 도우미에 제공된 콘텐츠 편집기의 도구 모음에 있는 마지막 단추를 통해 삽입됩니다([개인화 정보](about-personalization.md) 참조). 수신자가 이 링크를 클릭하면 프로필이 차단 목록에 추가하다(옵트아웃)에 추가됩니다. 즉, 이 수신자는 더 이상 게재 작업에 의해 타겟팅되지 않습니다.
 
-그러나 수신자는 모든 서비스의 구독을 취소하지 않고 서비스 구독을 취소할 수 있습니다. 이를 허용하려면 웹 양식을 사용하거나([이 섹션](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes) 참조) 개인화된 구독 취소 링크를 삽입할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}를 참조하세요.
+그러나 수신자는 모든 서비스의 구독을 취소하지 않고 서비스 구독을 취소할 수 있습니다. 이를 허용하려면 웹 양식을 사용하거나([이 섹션](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes) 참조) 개인화된 구독 취소 링크를 삽입할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ko){target="_blank"}를 참조하세요.
 
 수신자 프로필에서 수동으로 수신자의 가입을 해지할 수도 있습니다. 이렇게 하려면 관련 받는 사람의 **[!UICONTROL Subscriptions]** 탭을 클릭하고 관련 정보 서비스를 선택한 다음 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 

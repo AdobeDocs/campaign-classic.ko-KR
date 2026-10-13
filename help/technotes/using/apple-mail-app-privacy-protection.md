@@ -95,7 +95,7 @@ Adobe Campaign 데이터에서 인사이트를 수집하려면 기본 제공 보
 
 * **[!UICONTROL Operating Systems]** 보고서
 
-  운영 체제 및 버전당 방문자 수를 파악하려면 이 보고서를 사용합니다. [자세히 보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#operating-systems){target="_blank"}(Campaign v8 설명서).
+  운영 체제 및 버전당 방문자 수를 파악하려면 이 보고서를 사용합니다. [자세히 보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#operating-systems){target="_blank"}(Campaign v8 설명서).
 
   총 방문자 수와 관련하여 운영 체제당 방문자 수 분류를 볼 수 있습니다.
 
@@ -107,7 +107,7 @@ Adobe Campaign 데이터에서 인사이트를 수집하려면 기본 제공 보
 
 * **[!UICONTROL Breakdown of opens]** 보고서
 
-  운영 체제당 이메일 열람수 비율을 식별하려면 이 보고서를 사용합니다. [자세히 보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#breakdown-of-opens){target="_blank"}(Campaign v8 설명서).
+  운영 체제당 이메일 열람수 비율을 식별하려면 이 보고서를 사용합니다. [자세히 보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#breakdown-of-opens){target="_blank"}(Campaign v8 설명서).
 
   ![](../../reporting/using/assets/dlv_useragent_report.png)
 
@@ -127,7 +127,7 @@ Adobe Campaign 데이터에서 인사이트를 수집하려면 기본 제공 보
 
   ![](assets/identify-email-open-tracking-2.png)
 
-* 사전 정의된 필터를 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}를 참조하세요.
+* 사전 정의된 필터를 사용할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=ko){target="_blank"}를 참조하세요.
 
   ![](assets/identify-email-open-tracking-3.png)
 
@@ -369,7 +369,7 @@ Adobe Campaign 데이터에서 인사이트를 수집하려면 기본 제공 보
 
 #### 추적 데이터를 보존하려면 어떻게 해야 합니까?
 
-추적 데이터를 유지하려면 Adobe Campaign에서 정보 시스템으로 내보내야 합니다. [자세히 보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"}(Campaign v8 설명서).
+추적 데이터를 유지하려면 Adobe Campaign에서 정보 시스템으로 내보내야 합니다. [자세히 보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/import){target="_blank"}(Campaign v8 설명서).
 
 >[!IMPORTANT]
 >

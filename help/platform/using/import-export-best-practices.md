@@ -56,7 +56,7 @@ ht-degree: 2%
 
 들어오는 데이터가 일관되고 정확하다거나 IT 부서나 Adobe Campaign 감독자가 처리한다는 가정 하에 머무르지 마십시오. 프로젝트 진행 중에는 데이터 정리를 염두에 두십시오. 데이터를 가져올 때 중복 제거, 조정 및 일관성 유지
 
-데이터를 가져오기 위해 디자인된 일반 워크플로 템플릿의 예는 [예제: 데이터를 가져오기 위한 워크플로 템플릿](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"}(Campaign v8 설명서) 섹션에서 확인할 수 있습니다.
+데이터를 가져오기 위해 디자인된 일반 워크플로 템플릿의 예는 [예제: 데이터를 가져오기 위한 워크플로 템플릿](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/import){target="_blank"}(Campaign v8 설명서) 섹션에서 확인할 수 있습니다.
 
 ## 플랫 파일 형식 사용 {#using-flat-file-formats}
 
@@ -85,8 +85,8 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 **관련 항목:**
 
-* [데이터 로드(파일) 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}
-* [데이터 추출(파일) 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"}.
+* [데이터 로드(파일) 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ko){target="_blank"}
+* [데이터 추출(파일) 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=ko){target="_blank"}.
 
 ## 델타 모드에서 가져오기 {#importing-in-delta-mode}
 

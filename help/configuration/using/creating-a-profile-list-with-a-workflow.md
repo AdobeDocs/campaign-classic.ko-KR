@@ -35,9 +35,9 @@ ht-degree: 7%
 
 새 받는 사람 테이블을 기반으로 **[!UICONTROL List]** 형식 목록을 만들려면 목록을 생성할 타깃팅 워크플로우를 만들어야 합니다.
 
-Campaign의 목록에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences#create-a-list-of-contacts){target="_blank"}(Campaign v8 설명서)을 참조하세요.
+Campaign의 목록에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-audiences/create-audiences#create-a-list-of-contacts){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences#create-a-list-wf){target="_blank"}(Campaign v8 설명서)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-audiences/create-audiences#create-a-list-wf){target="_blank"}(Campaign v8 설명서)
 
 타겟팅 워크플로우를 만들고 사용자 지정 수신자 테이블에서 수신자를 업데이트하려면 아래 단계를 수행합니다.
 

@@ -97,12 +97,12 @@ Adobe Campaign을 사용하면 개인정보 보호 준비를 원활히 수행할
 
 * 데이터 삭제라고도 하는 **잊혀질 권리**(삭제 요청)는 데이터 주체에게 자신의 개인 데이터를 지우고, 데이터의 추가 배포를 중단하고, 제3자로 하여금 데이터 처리를 중단하도록 할 수 있는 권한을 부여합니다.
 
-**액세스** 및 **삭제** 요청을 만드는 방법과 Adobe Campaign에서 요청을 처리하는 방법에 대해 알아보려면 [구현 단계](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/privacy){target="_blank"}(Campaign v8 설명서)를 참조하세요.
+**액세스** 및 **삭제** 요청을 만드는 방법과 Adobe Campaign에서 요청을 처리하는 방법에 대해 알아보려면 [구현 단계](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/privacy/privacy){target="_blank"}(Campaign v8 설명서)를 참조하세요.
 
 <!--
-Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
+Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=ko).
 
-https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html
+https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=ko
 -->
 
 ## 동의, 보존 및 역할 {#consent-retention-roles}

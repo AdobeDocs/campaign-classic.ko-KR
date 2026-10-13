@@ -63,7 +63,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->이 절차는 기본 인증을 사용하여 Campaign에 연결하는 운영자에만 적용됩니다. Adobe IMS 인증의 경우 [이 설명서](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#_blank)를 참조하세요.
+>이 절차는 기본 인증을 사용하여 Campaign에 연결하는 운영자에만 적용됩니다. Adobe IMS 인증의 경우 [이 설명서](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html#_blank)를 참조하세요.
 
 운영자는 로그인하고 작업을 수행할 수 있는 권한이 있는 Adobe Campaign 사용자입니다.
 
@@ -151,7 +151,7 @@ Adobe Campaign 및 LDAP 통합에 대한 자세한 내용은 [이 페이지](../
   >
   >계정이 비활성화된 경우에도 운영자는 Campaign에서 경고 또는 알림을 계속 받을 수 있습니다. 이 운영자에게 Campaign 알림 전송을 중단하려면 해당 프로필에서 이메일 주소를 제거하는 것이 좋습니다.
 
-* **[!UICONTROL Forbid access from the rich client]** 옵션을 사용하면 Adobe Campaign 사용을 [웹 액세스](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"}(Campaign v8 설명서) 또는 API를 통해 제한할 수 있습니다. Adobe Campaign 클라이언트 콘솔에 더 이상 액세스할 수 없습니다.
+* **[!UICONTROL Forbid access from the rich client]** 옵션을 사용하면 Adobe Campaign 사용을 [웹 액세스](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"}(Campaign v8 설명서) 또는 API를 통해 제한할 수 있습니다. Adobe Campaign 클라이언트 콘솔에 더 이상 액세스할 수 없습니다.
 * 작업자에게 안전구역을 연결시켜 줄 수 있습니다. 자세한 정보는 이 [페이지](../../installation/using/security-zones.md)를 참조하십시오.
 * 적절한 링크를 사용하여 신뢰할 수 있는 IP 마스크를 정의할 수도 있습니다.
 

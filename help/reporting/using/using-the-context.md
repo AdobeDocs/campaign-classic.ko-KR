@@ -55,7 +55,7 @@ ht-degree: 0%
 
 다음 예제에서는 프랑스에 거주하고 해당 연도 동안 구매한 수신자 프로필만 차트에 표시하도록 하려고 합니다.
 
-이 필터를 정의하려면 차트에 페이지를 배치한 다음 편집합니다. **[!UICONTROL Filter data]** 링크를 클릭하고 표시할 데이터와 일치하는 필터를 만듭니다. Adobe Campaign에서 쿼리를 작성하는 방법에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"}(Campaign v8 설명서)을 참조하십시오.
+이 필터를 정의하려면 차트에 페이지를 배치한 다음 편집합니다. **[!UICONTROL Filter data]** 링크를 클릭하고 표시할 데이터와 일치하는 필터를 만듭니다. Adobe Campaign에서 쿼리를 작성하는 방법에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"}(Campaign v8 설명서)을 참조하십시오.
 
 ![](assets/s_ncs_advuser_report_wizard_029.png)
 

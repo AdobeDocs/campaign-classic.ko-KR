@@ -47,7 +47,7 @@ ht-degree: 2%
 
 ## 자동 업데이트 설정 {#setting-up-an-automatic-update}
 
-워크플로우를 통해 자동 업데이트를 구성할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"}를 참조하십시오.
+워크플로우를 통해 자동 업데이트를 구성할 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=ko){target="_blank"}를 참조하십시오.
 
 ## 대량 업데이트 수행 {#performing-a-mass-update}
 
@@ -118,7 +118,7 @@ ht-degree: 2%
 
    ![](assets/s_ncs_user_export_list_start.png)
 
-   내보내기 도우미를 구성하는 방법에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"}(Campaign v8 설명서)을 참조하십시오.
+   내보내기 도우미를 구성하는 방법에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/import){target="_blank"}(Campaign v8 설명서)을 참조하십시오.
 
 ## 서비스 구독 {#subscribing-to-a-service}
 

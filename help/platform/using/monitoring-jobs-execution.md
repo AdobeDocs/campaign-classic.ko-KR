@@ -46,7 +46,7 @@ ht-degree: 1%
 ![](assets/s_ncs_user_export_list_and_details.png)
 
 * **[!UICONTROL Journal]** 탭에서는 실행과 관련된 로그 메시지를 볼 수 있습니다.
-* **[!UICONTROL Rejects]** 탭에 거부된 레코드가 있습니다. [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import#behavior-in-the-event-of-an-error){target="_blank"}을(를) 참조하십시오(Campaign v8 설명서).
+* **[!UICONTROL Rejects]** 탭에 거부된 레코드가 있습니다. [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/import#behavior-in-the-event-of-an-error){target="_blank"}을(를) 참조하십시오(Campaign v8 설명서).
 
 **[!UICONTROL General]** 탭에서 **[!UICONTROL Status]** 필드는 작업의 현재 상태를 나타냅니다.
 

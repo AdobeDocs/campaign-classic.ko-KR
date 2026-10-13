@@ -84,7 +84,7 @@ ht-degree: 2%
 
 * 목록에 프로필을 수동으로 추가할 수 없습니다.
 
-  따라서 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target="_blank"}에 자세히 설명된 절차(Campaign v8 설명서)는 추가 구성 없이는 적용할 수 없습니다.
+  따라서 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target="_blank"}에 자세히 설명된 절차(Campaign v8 설명서)는 추가 구성 없이는 적용할 수 없습니다.
 
   >[!NOTE]
   >

@@ -53,7 +53,7 @@ ht-degree: 3%
 
 ## 1단계 - 게재 만들기 {#step-1---creating-a-delivery}
 
-게재를 만드는 단계는 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html){target="_blank"}에 자세히 설명되어 있습니다.
+게재를 만드는 단계는 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html?lang=ko){target="_blank"}에 자세히 설명되어 있습니다.
 
 이 예에서 게재 관리자는 뉴스레터를 생성하고 수신자를 선택했습니다.
 
@@ -65,7 +65,7 @@ ht-degree: 3%
 
 ### 데이터 스키마 확장 {#extending-the-data-schema}
 
-스키마 확장에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/extend-schema){target="_blank"}(Campaign v8 설명서)을 참조하세요.
+스키마 확장에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/extend-schema){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 1. **[!UICONTROL Administration > Configuration > Data schemas]** 노드에서 **[!UICONTROL New]** 아이콘을 클릭합니다.
 1. **[!UICONTROL Creation of a data schema]** 창에서 **[!UICONTROL Extension of a schema]** 옵션을 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.

@@ -147,7 +147,7 @@ Write 메서드가 [Write/WriteCollection(xtk:session)](#write---writecollection
 * **select**: 여러 레코드를 반환하는 커서를 만들고 데이터가 없으면 빈 문서를 반환합니다.
 * **count**: 데이터 개수를 반환합니다.
 
-**XPath** 구문을 사용하여 입력 스키마를 기준으로 데이터를 찾습니다. XPath에 대한 자세한 내용은 [데이터 스키마](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure#reference-with-xpath){target="_blank"}(Campaign v8 설명서)을 참조하세요.
+**XPath** 구문을 사용하여 입력 스키마를 기준으로 데이터를 찾습니다. XPath에 대한 자세한 내용은 [데이터 스키마](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure#reference-with-xpath){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 #### &#39;get&#39; 작업의 예 {#example-with-the--get--operation}
 

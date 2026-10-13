@@ -108,7 +108,7 @@ Adobe Campaign의 모든 웹 양식에 공통되는 표준 저장소 모드(데�
 
 >[!NOTE]
 >
->다른 필드 형식의 경우 구문은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"}에 자세히 설명되어 있습니다(Campaign v8 설명서).
+>다른 필드 형식의 경우 구문은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"}에 자세히 설명되어 있습니다(Campaign v8 설명서).
 
 ### 저장소 설정 {#storage-settings}
 
