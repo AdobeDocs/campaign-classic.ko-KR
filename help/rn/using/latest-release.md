@@ -35,20 +35,50 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 63ece0ce7bfca75468776da84e2eac8b34b13af8
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 98%
+source-wordcount: '1449'
+ht-degree: 90%
 ---
 # 최신 릴리스 {#latest-release}
 
 이 페이지에서는 **최신 Campaign v7 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 버그 해결 사항 목록을 확인할 수 있습니다. 모든 새 빌드는 색상으로 상태가 표시됩니다. [이 페이지](rn-overview.md)에서 Campaign Classic v7 빌드 상태에 대해 자세히 알아보십시오.
 
+## 릴리스 7.4.5 {#release-7-4-5}
+
+### 빌드 9420 {#build-9420}
+
+[!BADGE 일반 가용성]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="일반 공급"}
+
+_2026년 10월 15일_
+
+#### 해결 사항 {#fixes-7-4-5}
+
+* Analytics 외부 계정이 &quot;없어짐&quot;(410) 오류로 인해 실패할 수 있는 문제를 해결했습니다. (NEO-99019)
+* 해당 메시지가 성공적으로 전송되었더라도 일부 게재가 개인화 보류 중 상태에서 멈출 수 있는 문제를 해결했습니다. (NEO-94471)
+* 내부 잠금 메커니즘이 재시도 루프로 진입하여 서버에서 높은 CPU 사용량을 유발할 수 있는 문제를 해결했습니다. (NEO-94845)
+* 데이터 모델 업데이트가 간헐적으로 실패하는 문제를 해결했습니다. (NEO-84347, NEO-84824)
+* 게재를 만들거나 편집하는 동안 &quot;스팸 확인 실패&quot; 오류가 잘못 나타날 수 있는 문제를 해결했습니다. (NEO-53888)
+* 되풀이하는 소프트 바운스 후에 수신자가 예상대로 격리되지 않던 문제를 수정했습니다. (NEO-94422)
+
 ## 릴리스 7.4.4 {#release-7-4-4}
+
+### 빌드 9403 {#build-9403}
+
+[!BADGE 일반 가용성]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="일반 공급"}
+
+_2026년 10월 15일_
+
+#### 보안 개선 사항 {#security-7-4-4-9403}
+
+Adobe는 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업데이트를 릴리스했습니다. 온프레미스 및 하이브리드 배포 모드의 고객은 업데이트를 가능한 한 빨리 설치하는 것이 좋습니다. Adobe 호스팅 인스턴스는 이미 수정되었으며 고객 조치가 필요하지 않습니다.
+
+빌드를 로드하고 배포를 완료하려면 Adobe Campaign 서버(nlserver)를 다시 시작해야 합니다. 다시 시작하면 수정 사항이 기본적으로 활성화됩니다.
+
 
 ### 빌드 9402 {#build-9402}
 
-[!BADGE 일반 가용성]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="일반 공급"}
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2026년 9월 11일_
 
@@ -60,7 +90,7 @@ Adobe는 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업�
 
 ### 빌드 9401 {#build-9401}
 
-[!BADGE 일반 가용성]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="일반 공급"}
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2026년 8월 25일_
 
