@@ -56,11 +56,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->게재 성능 및 모범 사례에 대한 포괄적인 지침은 [Campaign v8 게재 모범 사례](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices) 페이지에 설명되어 있습니다. 이 콘텐츠는 Campaign Classic v7 및 Campaign v8 사용자 모두에게 적용됩니다.
+>게재 성능 및 모범 사례에 대한 포괄적인 지침은 [Campaign v8 게재 모범 사례](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/start/delivery-best-practices) 페이지에 설명되어 있습니다. 이 콘텐츠는 Campaign Classic v7 및 Campaign v8 사용자 모두에게 적용됩니다.
 >
 >이 페이지에서는 하이브리드 및 온-프레미스 배포의 성능 최적화 및 문제 해결을 위한 **Campaign Classic v7 관련 구성**&#x200B;에 대해 설명합니다.
 
-게재 성능, 플랫폼 최적화, 격리 관리, 데이터베이스 유지 관리 및 예약 권장 사항에 대한 포괄적인 모범 사례는 [Campaign v8 게재 모범 사례 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}를 참조하세요.
+게재 성능, 플랫폼 최적화, 격리 관리, 데이터베이스 유지 관리 및 예약 권장 사항에 대한 포괄적인 모범 사례는 [Campaign v8 게재 모범 사례 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}를 참조하세요.
 
 ## 성능 최적화 {#performance-optimization}
 
@@ -76,7 +76,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Campaign v8 Managed Cloud Services 사용자의 경우 인프라 최적화 및 MTA 구성은 Adobe에서 관리합니다. 배포에 적용할 수 있는 성능 권장 사항은 [Campaign v8 게재 모범 사례](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}를 참조하세요.
+>Campaign v8 Managed Cloud Services 사용자의 경우 인프라 최적화 및 MTA 구성은 Adobe에서 관리합니다. 배포에 적용할 수 있는 성능 권장 사항은 [Campaign v8 게재 모범 사례](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}를 참조하세요.
 
 ### 데이터베이스 유지 관리 {#database-maintenance}
 
@@ -92,7 +92,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Campaign v8 Managed Cloud Services 사용자의 경우 데이터베이스 유지 관리 및 기술 워크플로우는 Adobe에서 모니터링 및 관리됩니다. [Campaign v8 모니터 게재 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitoring-deliverability){target="_blank"}에 설명된 대로 게재별 모니터링에 집중합니다.
+>Campaign v8 Managed Cloud Services 사용자의 경우 데이터베이스 유지 관리 및 기술 워크플로우는 Adobe에서 모니터링 및 관리됩니다. [Campaign v8 모니터 게재 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitoring-deliverability){target="_blank"}에 설명된 대로 게재별 모니터링에 집중합니다.
 
 ## 게재 문제 해결 {#troubleshooting}
 
@@ -102,7 +102,7 @@ ht-degree: 1%
 >
 >* 일반적인 배달 오류 및 솔루션: [배달 오류 이해](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}
 >* 느린 게재 진단: [Campaign UI에서 게재 모니터링](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}
->* 게재 모범 사례: [게재 모범 사례](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}
+>* 게재 모범 사례: [게재 모범 사례](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}
 >
 >이 섹션에서는 하이브리드 및 온-프레미스 배포에 대한 **Campaign Classic v7 관련 문제 해결**&#x200B;에 대해 설명합니다.
 
@@ -145,7 +145,7 @@ Error during the call of method 'AppendDeliveryPart' on the mid sourcing server:
 ## 관련 항목
 
 * [게재 실패 이해](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}(Campaign v8 설명서)
-* [게재 모범 사례](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}(Campaign v8 설명서)
+* [게재 모범 사례](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}(Campaign v8 설명서)
 * [Campaign UI에서 게재 모니터링](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}(Campaign v8 설명서)
 * [데이터베이스 유지 관리](../../production/using/recommendations.md)(v7 하이브리드/온-프레미스)
 * [이메일 전달성](../../installation/using/email-deliverability.md)(v7 하이브리드/온-프레미스)
