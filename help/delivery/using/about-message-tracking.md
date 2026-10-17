@@ -60,8 +60,8 @@ ht-degree: 3%
 >* [URL 추적 옵션 구성](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"}
 >* [개인화된 링크 추적](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/personalized-links){target="_blank"}
 >* [추적 로그 액세스](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"}
->* [테스트 추적](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/testing-tracking){target="_blank"}
->* [보고서 추적](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/reporting/delivery-reports#tracking-indicators){target="_blank"}
+>* [테스트 추적](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/testing-tracking){target="_blank"}
+>* [보고서 추적](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/reporting/delivery-reports#tracking-indicators){target="_blank"}
 >
 >**이 페이지에서는 주로 하이브리드 및 온-프레미스 배포에 대해 Campaign Classic v7별 추적 기능만 문서화합니다**.
 

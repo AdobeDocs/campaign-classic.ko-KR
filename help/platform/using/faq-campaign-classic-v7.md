@@ -133,10 +133,10 @@ Campaign v8은 Adobe의 전략 플랫폼으로, 대용량 캠페인, 최신 웹 
 자세히 알아보기:
 
 * [Campaign v8 개요](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html?lang=ko){target="_blank"}
-* [Campaign Classic v7에서 v8로 전환](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/v7-to-v8.html){target="_blank"}
-* [Campaign v8 포괄적인 FAQ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html){target="_blank"}
+* [Campaign Classic v7에서 v8로 전환](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/v7-to-v8.html?lang=ko){target="_blank"}
+* [Campaign v8 포괄적인 FAQ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html?lang=ko){target="_blank"}
 
-**워크플로우, 게재, 대상자, 보고, 개인화 등에 대한 일반적인 Campaign 질문에 대한 자세한 답변을 보려면 [Campaign v8 종합 FAQ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html){target="_blank"}를 참조하세요.**
+**워크플로우, 게재, 대상자, 보고, 개인화 등에 대한 일반적인 Campaign 질문에 대한 자세한 답변을 보려면 [Campaign v8 종합 FAQ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html?lang=ko){target="_blank"}를 참조하세요.**
 
 +++
 
@@ -158,7 +158,7 @@ Campaign v7을 설치할 때 미국 영어 또는 영국 영어 중 하나를 �
 
 [이 섹션에서 자세히 알아보십시오](../../installation/using/creating-an-instance-and-logging-on.md).
 
-**참고:** Campaign v8 Web UI를 통해 사용자는 인터페이스 언어를 개별적으로 변경할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/connect.html#language-pref){target="_blank"}.
+**참고:** Campaign v8 Web UI를 통해 사용자는 인터페이스 언어를 개별적으로 변경할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/connect.html?lang=ko#language-pref){target="_blank"}.
 
 +++
 
@@ -273,7 +273,7 @@ Campaign 클라이언트 콘솔 캐시를 지우면 많은 일반적인 표시 �
 
 **일반적인 캠페인 질문:**
 
-다음에 대한 자세한 답변을 제공하는 [**Campaign v8 종합 FAQ**](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html){target="_blank"}를 참조하십시오.
+다음에 대한 자세한 답변을 제공하는 [**Campaign v8 종합 FAQ**](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html?lang=ko){target="_blank"}를 참조하십시오.
 
 * Campaign 시작
 * 프로필 및 대상자
