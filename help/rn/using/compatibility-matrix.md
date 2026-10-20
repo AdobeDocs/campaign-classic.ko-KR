@@ -474,7 +474,7 @@ Campaign 클라이언트 콘솔을 사용하려면 Microsoft Edge WebView2 런�
 
 데이터 수집 UI에서 Adobe Campaign 확장을 구성하여 Adobe Experience Platform 모바일 SDK를 통해 Campaign을 [푸시 알림 보내기](../../delivery/using/about-mobile-app-channel.md)에 사용할 수 있습니다.
 
-Campaign SDK는 Campaign v7.4부터 [사용 중지](deprecated-features.md)됩니다. 기존 구현을 AEP Mobile SDK로 원활하게 전환하기 위해 아래 목록의 운영 체제에서 계속 사용할 수 있습니다<!--, using the associated [mobile SDK](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation)-->.
+Campaign SDK는 Campaign v7.4부터 [사용 중지](deprecated-features.md)됩니다. 기존 구현을 AEP Mobile SDK로 원활하게 전환하기 위해 아래 목록의 운영 체제에서 계속 사용할 수 있습니다<!--, using the associated [mobile SDK](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation)-->.
 
 
 <table>
