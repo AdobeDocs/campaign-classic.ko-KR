@@ -77,7 +77,7 @@ HTML 편집기를 사용하여 양식 페이지에 삽입할 콘텐츠를 입력
 ![](assets/s_ncs_admin_survey_add_link.png)
 
 * **[!UICONTROL Label]**&#x200B;은(는) 양식 페이지에 표시되는 하이퍼텍스트 링크의 콘텐츠입니다.
-* **[!UICONTROL URL]**&#x200B;은(는) 원하는 주소입니다(예: 웹 사이트의 경우 [https://www.adobe.com](https://www.adobe.com), 메시지를 보낼 경우 [info@adobe.com](mailto:info@adobe.com)).
+* **[!UICONTROL URL]**&#x200B;은(는) 원하는 주소입니다(예: 웹 사이트의 경우 [https://www.adobe.com/kr](https://www.adobe.com/kr), 메시지를 보낼 경우 [info@adobe.com](mailto:info@adobe.com)).
 * **[!UICONTROL Window]** 필드를 사용하면 사이트의 경우 링크에 대한 표시 모드를 선택할 수 있습니다. 새 창, 현재 창 또는 다른 창에서 링크를 열도록 결정할 수 있습니다.
 * 아래와 같이 도구 설명을 추가할 수 있습니다.
 
