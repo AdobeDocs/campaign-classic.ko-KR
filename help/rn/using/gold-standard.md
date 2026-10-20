@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: '[!DNL Gold Standard] 릴리스'
-description: Campaign Classic [!DNL Gold Standard]의 릴리스 정보 및 호환성 매트릭스
+description: Campaign Classic 릴리스 정보 및 호환성 매트릭스 [!DNL Gold Standard]
 feature: Release Notes
 role: User
 level: Beginner
@@ -45,9 +45,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2018'
-ht-degree: 99%
+ht-degree: 100%
 ---
 # [!DNL Gold Standard] 릴리스{#gold-standard}
 

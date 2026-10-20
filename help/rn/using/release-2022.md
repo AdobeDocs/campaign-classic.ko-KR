@@ -37,9 +37,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2202'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # 2022년 릴리스{#release-2022}
 
@@ -60,7 +60,7 @@ _2022년 7월 1일_
 <tbody> 
 <tr> 
 <td> <p>iOS 15에서 Apple은 알림이 긴급하다고 간주되어 사용자에게 실시간으로 연락해야 할 때 앱 개발자에게 포커스 모드를 무시하도록 제어하는 긴급한 알림 개념을 추가했습니다.</p>
-<p>중요한 알림을 만드는 방법은 <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios" target="_blank">자세한 설명서</a>(Campaign v8 설명서)를 참조하세요.</p>
+<p><a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios" target="_blank">세부 설명서</a>(Campaign v8 설명서)에서 민감한 알림을 만드는 방법을 알아보세요.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -162,7 +162,7 @@ Adobe Campaign은 이제 Windows Server 2019와 호환됩니다. [캠페인 호�
   Microsoft Dynamics Connector 웹 API에 대해 중요한 문제를 해결했습니다.
 
   * 워크플로에 의해 트리거된 가져오기 중에 문자열 유형 필드의 null 값이 빈 값 대신 Null로 저장되는 문제가 해결되었습니다.
-  * 웹 API 호출을 사용하여 데이터를 가져오거나 내보내는 데 다음 오류가 발생하는 문제를 수정했습니다. &quot;잘못된 URI: URI 체계가 너무 깁니다.&quot;
+  * 웹 API 호출을 사용하여 데이터를 가져오거나 내보내는 데 다음 오류가 발생하는 문제를 수정했습니다. &amp;quot;잘못된 URI: URI 체계가 너무 깁니다.&amp;quot;
   * Microsoft Dynamics 365에서 조회 필드가 포함된 데이터를 가져올 때 발생하는 다양한 문제를 해결했습니다.
 
 * Google BigQuery FDA Connector
