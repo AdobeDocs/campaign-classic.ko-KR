@@ -44,9 +44,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1814'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # 사용이 중단되거나 제거된 기능 {#deprecated-and-removed-features}
 
@@ -185,7 +185,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   </tr> 
    <tr> 
    <td>모바일 채널 - LINE v1</td>
-   <td>Campaign 18.4 릴리스를 시작하는 경우 LINE Connect 패키지를 더 이상 사용할 수 없습니다. 새 LINE 채널 패키지를 대체용으로 사용하는 것이 좋습니다. <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">자세히 알아보기</a>(Campaign v8 설명서)</td>
+   <td>Campaign 18.4 릴리스를 시작하는 경우 LINE Connect 패키지를 더 이상 사용할 수 없습니다. 새 LINE 채널 패키지를 대체용으로 사용하는 것이 좋습니다. <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">자세히 보기</a>(Campaign v8 설명서)</td>
   </tr>
  </tbody> 
 </table>

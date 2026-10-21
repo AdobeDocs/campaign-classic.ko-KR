@@ -9,7 +9,7 @@ sub-product: adobe campaign classic
 type: Documentation
 nudge: false
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1657'
 ht-degree: 100%
 ---
@@ -76,7 +76,7 @@ ht-degree: 100%
       + [SMS 커넥터 프로토콜 및 설정](delivery/using/sms-protocol.md)
       + [추가 구성](delivery/using/sms-send.md)
       + [SMS 문제 해결](delivery/using/troubleshooting-sms.md)
-    + {hide-from-toc}[Extended Generic SMPP 커넥터로 마이그레이션](delivery/using/unsupported-connector-migration.md)
+    + {hide-from-toc}[확장된 일반 SMPP 커넥터로 마이그레이션](delivery/using/unsupported-connector-migration.md)
   + [푸시 알림 보내기](delivery/using/about-mobile-app-channel.md)
   + 푸시 알림 보내기 {#sending-push-notifications}
     + 모바일 애플리케이션 구성{#configure-the-mobile-app}
