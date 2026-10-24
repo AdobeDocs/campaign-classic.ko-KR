@@ -20,7 +20,7 @@ subfeature_v2:
 source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
 source-wordcount: '889'
-ht-degree: 1%
+ht-degree: 3%
 ---
 # Adobe Analytics 2.0 API로 마이그레이션 {#analytics-2-migration}
 
