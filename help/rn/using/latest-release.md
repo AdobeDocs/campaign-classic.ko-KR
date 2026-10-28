@@ -36,9 +36,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: 63ece0ce7bfca75468776da84e2eac8b34b13af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1449'
-ht-degree: 91%
+ht-degree: 100%
 ---
 # 최신 릴리스 {#latest-release}
 
@@ -54,12 +54,12 @@ _2026년 10월 15일_
 
 #### 해결 사항 {#fixes-7-4-5}
 
-* Analytics 외부 계정이 &quot;없어짐&quot;(410) 오류로 인해 실패할 수 있는 문제를 해결했습니다. (NEO-99019)
-* 해당 메시지가 성공적으로 전송되었더라도 일부 게재가 개인화 보류 중 상태에서 멈출 수 있는 문제를 해결했습니다. (NEO-94471)
-* 내부 잠금 메커니즘이 재시도 루프로 진입하여 서버에서 높은 CPU 사용량을 유발할 수 있는 문제를 해결했습니다. (NEO-94845)
-* 데이터 모델 업데이트가 간헐적으로 실패하는 문제를 해결했습니다. (NEO-84347, NEO-84824)
-* 게재를 만들거나 편집하는 동안 &quot;스팸 확인 실패&quot; 오류가 잘못 나타날 수 있는 문제를 해결했습니다. (NEO-53888)
-* 되풀이하는 소프트 바운스 후에 수신자가 예상대로 격리되지 않던 문제를 수정했습니다. (NEO-94422)
+* Analytics 외부 계정이 &quot;Gone&quot;(410) 오류로 실패할 수 있는 문제를 해결했습니다. (NEO-99019)
+* 해당 메시지가 성공적으로 전송되었음에도 일부 게재가 개인화 보류 중 상태에 멈춰 있는 문제를 해결했습니다. (NEO-94471)
+* 내부 잠금 메커니즘이 재시도 루프에 진입하여 서버에서 높은 CPU 사용량을 유발할 수 있는 문제를 해결했습니다. (NEO-94845)
+* 데이터 모델 업데이트가 간헐적으로 실패할 수 있는 문제를 해결했습니다. (NEO-84347, NEO-84824)
+* 게재를 만들거나 편집할 때 &quot;스팸 확인 실패&quot; 오류가 잘못 표시될 수 있는 문제를 해결했습니다. (NEO-53888)
+* 소프트 바운스가 반복적으로 발생한 후 수신자가 예상대로 격리되지 않던 문제를 수정했습니다. (NEO-94422)
 
 ## 릴리스 7.4.4 {#release-7-4-4}
 
@@ -78,7 +78,7 @@ Adobe는 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업�
 
 ### 빌드 9402 {#build-9402}
 
-[!BADGE 사용 중단됨]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2026년 9월 11일_
 
@@ -90,7 +90,7 @@ Adobe는 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업�
 
 ### 빌드 9401 {#build-9401}
 
-[!BADGE 사용 중단됨]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2026년 8월 25일_
 
@@ -108,7 +108,7 @@ Adobe는 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업�
 
 ### 빌드 9400 {#build-9400}
 
-[!BADGE 사용 중단됨]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2026년 8월 11일_
 
@@ -128,7 +128,7 @@ Adobe Analytics 1.4 API가 서비스 종료를 앞두고 있습니다. Adobe Ana
 
 ### 빌드 9399 {#build-9399}
 
-[!BADGE 사용 중단됨]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2026년 8월 3일_
 
@@ -140,7 +140,7 @@ Adobe는 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업�
 
 ### 빌드 9398 {#build-9398}
 
-[!BADGE 사용 중단됨]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2026년 7월 29일_
 
@@ -152,7 +152,7 @@ Adobe는 심각한 취약점을 해결하는 Adobe Campaign Classic 보안 업�
 
 ### 빌드 9397 {#build-9397}
 
-[!BADGE 사용 중단됨]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
+[!BADGE 사용되지 않음]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ko#rn-statuses" tooltip="사용되지 않음"}
 
 _2026년 6월 30일_
 
