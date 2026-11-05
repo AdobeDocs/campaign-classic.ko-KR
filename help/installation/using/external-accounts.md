@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
+source-git-commit: a119d402631c5d2dd3ab8d6d11dfd0cdba0d662f
 workflow-type: tm+mt
-source-wordcount: '1959'
+source-wordcount: '2010'
 ht-degree: 7%
 ---
 # 외부 계정{#external-accounts}
@@ -484,3 +484,7 @@ Adobe Campaign에서 작동하도록 **[!UICONTROL Azure external account]**&#x2
 * **[!UICONTROL Access key]**
 
   **[!UICONTROL Access key]**&#x200B;을(를) 찾을 수 있는 위치를 확인하려면 이 [페이지](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)를 참조하세요.
+
+  >[!NOTE]
+  >
+  >Azure Blob 저장소는 패턴이 아닌 이름 접두사로 파일을 필터링합니다. 파일 마스크에서 끝에 있는 별표(`*`)가 제거되므로 `TEST_EXPORT_AZURE_*`은(는) `TEST_EXPORT_AZURE_`(으)로 시작하는 모든 파일과 일치합니다. `TEST_EXPORT_AZURE_*.csv`에서와 같이 별표 뒤에 오는 문자는 지원되지 않습니다. [Microsoft 설명서에서 자세히 알아보기](https://learn.microsoft.com/en-us/rest/api/storageservices/list-blobs){target="_blank"}.
