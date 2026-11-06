@@ -40,10 +40,10 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 4ae19a379120bb39444c3e81392a7dbb0b6da3ba
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 0%
+source-wordcount: '123'
+ht-degree: 9%
 ---
 # 문제 해결{#troubleshooting}
 
@@ -60,4 +60,4 @@ HTTP/2 커넥터: 다음 서버와의 통신을 허용해야 합니다.
 
 >[!NOTE]
 >
->두 커넥터에 대한 자세한 내용은 [Adobe Campaign에서 모바일 응용 프로그램 구성](configuring-the-mobile-application.md)을 참조하세요.
+>두 커넥터에 대한 자세한 내용은 [Adobe Campaign에서 모바일 애플리케이션 구성](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/push-settings){target="_blank"}(Campaign v8 설명서)을 참조하세요.

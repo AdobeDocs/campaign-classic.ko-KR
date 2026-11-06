@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a119d402631c5d2dd3ab8d6d11dfd0cdba0d662f
+source-git-commit: 3d6f0751869871f811046dd52bab59dbcf587350
 workflow-type: tm+mt
-source-wordcount: '2010'
-ht-degree: 7%
+source-wordcount: '1897'
+ht-degree: 6%
 ---
 # 외부 계정{#external-accounts}
 
 Adobe Campaign에는 미리 정의된 외부 계정 집합이 포함되어 있습니다. 외부 시스템과의 연결을 설정하기 위해 새 외부 계정을 만들 수 있습니다.
+
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 외부 계정에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/external-accounts){target=_blank}를 참조하세요.
+
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/external-accounts){target=_blank}
 
 외부 계정은 기술 워크플로 또는 캠페인 워크플로와 같은 기술 프로세스에서 사용됩니다. 예를 들어 워크플로우에서 파일 전송을 설정하거나 다른 애플리케이션(Adobe Target, Experience Manager 등)과의 데이터 교환을 설정할 때 외부 계정을 선택해야 합니다.
 
@@ -333,7 +337,7 @@ Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하려면 **[!UICONTROL 
 
   Adobe Experience Manager 작성 인스턴스에 연결하는 데 사용되는 암호입니다.
 
-자세한 정보는 이 [섹션](../../integrations/using/about-adobe-experience-manager.md)을 참조하십시오.
+자세한 내용은 이 [섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 ## CRM 커넥터 외부 계정
 
@@ -432,38 +436,6 @@ Adobe Campaign에서 작동하도록 Salesforce CRM 외부 계정을 구성하�
 이 구성에 대한 자세한 내용은 이 [페이지](../../platform/using/crm-connectors.md)를 참조하세요.
 
 ## 외부 계정 데이터 전송
-
-### Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
-
-Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. 워크플로우 활동에서 설정할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ko){target="_blank"}를 참조하세요.
-
-![](assets/ext_account_3.png)
-
-이 새 외부 계정을 설정할 때 다음 세부 사항을 제공해야 합니다.
-
-* **[!UICONTROL AWS S3 Account Server]**
-
-  서버의 URL은 다음과 같이 채워야 합니다.
-
-  ```
-  <S3bucket name>.s3.amazonaws.com/<s3object path>
-  ```
-
-* **[!UICONTROL AWS access key ID]**
-
-  AWS 액세스 키 ID를 찾을 수 있는 위치를 파악하려면 이 [페이지](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) 를 참조하세요.
-
-* **[!UICONTROL Secret access key to AWS]**
-
-  AWS에 대한 비밀 액세스 키를 찾을 수 있는 위치를 파악하려면 이 [페이지](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/)를 참조하세요.
-
-* **[!UICONTROL AWS Region]**
-
-  AWS 지역에 대한 자세한 내용은 이 [페이지](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)를 참조하세요.
-
-* **[!UICONTROL Use server side encryption]** 확인란을 사용하면 파일을 S3 암호화 모드로 저장할 수 있습니다.
-
-액세스 키 ID 및 비밀 액세스 키를 찾을 수 있는 위치를 알아보려면 Amazon 웹 서비스 [설명서](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)를 참조하세요.
 
 ### Azure Blob 스토리지 {#azure-blob-external-account}
 

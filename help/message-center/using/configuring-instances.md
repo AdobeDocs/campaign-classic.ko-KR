@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
+source-git-commit: 9753491edbeba9df2c0a9dcf53b3bd5ea87c32ca
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1291'
 ht-degree: 2%
 ---
 # 인스턴스 구성 {#creating-a-shared-connection}
@@ -49,7 +49,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->스키마 확장은 제어 또는 실행 인스턴스의 [메시지 센터 기술 워크플로우](../../message-center/using/additional-configurations.md#technical-workflows)에서 사용하는 리소스에 영향을 주었고, 트랜잭션 메시지 모듈에서 사용하는 다른 인스턴스에서 복제해야 합니다.
+>스키마 확장은 트랜잭션 메시지 모듈에서 사용하는 다른 인스턴스에 복제해야 하는 제어 또는 실행 인스턴스의 [메시지 센터 기술 워크플로우](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/transactional-msg-settings#technical-workflows){target="_blank"}(Campaign v8 설명서)에 사용되는 리소스에 영향을 주었습니다.
 
 실행 인스턴스를 지정하여 제어 인스턴스에 연결해야 합니다.
 

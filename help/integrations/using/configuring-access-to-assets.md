@@ -28,9 +28,9 @@ subfeature_v2:
     internal-label: Target integration
   - id: 2e08b477-1993-5928-975d-5f4cabe8fbe0
     internal-label: Asset Sharing
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '526'
 ht-degree: 1%
 ---
 # Assets에 대한 액세스 구성 {#configuring-access-to-assets}
@@ -76,7 +76,7 @@ AEM Assets을 Adobe Campaign과 통합하려면 먼저 Adobe Experience Manager�
 * **[!UICONTROL AEM Integration]** 기본 제공 패키지 설치 중
 * Adobe Experience Manager 전용 외부 계정 구성
 
-[자세한 설명서](../../integrations/using/about-adobe-experience-manager.md)에서 Adobe Campaign과 Adobe Experience Manager을 통합하는 방법을 알아보세요.
+[자세한 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}(Campaign v8 설명서)에서 Adobe Campaign과 Adobe Experience Manager을 통합하는 방법을 알아보세요.
 
 이 통합이 설정되면 Adobe Campaign에서 AEM Assets 라이브러리를 사용하도록 새 게재 템플릿을 구성할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
 

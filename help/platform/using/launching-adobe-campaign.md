@@ -36,14 +36,18 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
+source-git-commit: cce1f22c34cbd13d063850a7ca636a3b0dfc62f6
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 15%
+source-wordcount: '407'
+ht-degree: 9%
 ---
 # Adobe Campaign 시작 {#launching-adobe-campaign}
 
 Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결할 수 있는 리치 클라이언트입니다. [이 페이지](../../installation/using/installing-the-client-console.md)에서 클라이언트 콘솔을 다운로드하고 구성하는 방법에 대해 알아봅니다.
+
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. Campaign 연결에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/connect){target=_blank}를 참조하세요.
+
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/connect){target=_blank}
 
 >[!CAUTION]
 >
@@ -61,12 +65,7 @@ Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결�
 
 ### Adobe ID과 연결
 
-Campaign 사용자는 Adobe IMS(ID 관리 시스템)를 통해 Adobe ID를 사용하여 Adobe Campaign 콘솔에 연결합니다. 모든 Adobe 솔루션에서 동일한 ID를 사용할 수 있습니다. 다른 솔루션으로 Adobe Campaign을 사용하는 경우 연결이 저장됩니다. 이 페이지[&#128279;](https://helpx.adobe.com/kr/enterprise/using/identity.html)에서 Adobe IMS 에 대해 자세히 알아보세요.
-
 IMS(Adobe Identity Management Service)를 사용하여 Campaign Classic v7 연결을 구성하려면 [이 페이지](../../integrations/using/about-adobe-id.md)를 참조하십시오.
-
-구성이 완료되면 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/connect){target=_blank}에서 Adobe ID을 사용하여 Campaign에 연결하는 방법을 알아보세요.
-
 
 ### 로그인/암호로 연결
 
@@ -83,14 +82,6 @@ IMS(Adobe Identity Management Service)를 사용하여 Campaign Classic v7 연�
 1. **[!UICONTROL LOG IN]**&#x200B;을(를) 클릭하여 확인합니다.
 
 이제 [Adobe Campaign 작업 영역](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}(Campaign v8 설명서)에 액세스할 수 있습니다.
-
-## 연결 설정 {#setting-up-connections}
-
-입력 영역 위의 링크를 통해 서버 연결 설정에 액세스할 수 있습니다.
-
-![](assets/s_ncs_user_connections_management.png)
-
-[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/connect#create-your-connection){target=_blank}에서 연결을 설정하는 방법에 대해 알아봅니다.
 
 ## 운영자 및 권한 {#operators-and-permissions}
 

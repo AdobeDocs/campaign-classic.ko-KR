@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: cce1f22c34cbd13d063850a7ca636a3b0dfc62f6
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '146'
 ht-degree: 4%
 ---
 # 워크플로 관리{#managing-workflows}
@@ -42,6 +42,6 @@ ht-degree: 4%
 
 따라서 워크플로우에 사용된 모든 활동은 추가적인 수동 구성 없이 사용자 지정 테이블을 사용합니다.
 
-워크플로우에 대한 자세한 내용은 [이 섹션](../../workflow/using/about-workflows.md)을 참조하세요.
+워크플로우에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 ![](assets/cfg_external_table_workflow.png)

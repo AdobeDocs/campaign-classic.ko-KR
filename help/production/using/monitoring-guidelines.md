@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a26a9642d4b60f0f095596584929ba5e98c3180a
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 19%
+source-wordcount: '861'
+ht-degree: 18%
 ---
 # 모니터링 지침 {#monitoring-guidelines}
 
@@ -65,7 +65,7 @@ Campaign Classic 홈 페이지에서 액세스할 수 있는 **[!UICONTROL Monit
 
 **감사 추적**
 
-감사 추적을 사용하면 인스턴스 내에서 옵션, 워크플로우 및 스키마와 관련된 변경 사항의 전체 내역을 시각화할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](../../production/using/audit-trail.md)하십시오.
+감사 추적을 사용하면 인스턴스 내에서 옵션, 워크플로우 및 스키마와 관련된 변경 사항의 전체 내역을 시각화할 수 있습니다. 자세한 내용은 [여기를 클릭](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/audit-trail){target="_blank"}(Campaign v8 설명서)하십시오.
 
 **컨트롤 패널**
 
@@ -87,7 +87,7 @@ Campaign 컨트롤 패널을 사용하면 인스턴스의 여러 설정을 관�
 
 **감사 추적**
 
-감사 추적을 사용하면 워크플로우에서 수정된 모든 사항과 현재 상태를 시각화할 수 있습니다. [여기를 클릭하세요](../../production/using/audit-trail.md).
+감사 추적을 사용하면 워크플로우에서 수정된 모든 사항과 현재 상태를 시각화할 수 있습니다. [여기를 클릭하세요](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/audit-trail){target="_blank"}(Campaign v8 설명서).
 
 **워크플로우 문제 해결**
 

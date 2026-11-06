@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
+source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 7%
+source-wordcount: '1426'
+ht-degree: 9%
 ---
 # Campaign Classic 기본 제공 패키지 설치{#installing-campaign-standard-packages}
 
@@ -218,7 +218,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> AEM 통합<br /> </td> 
-   <td> Adobe Experience Manager에서 이메일 게재 콘텐츠와 양식을 직접 관리할 수 있으므로 AEM의 콘텐츠 편집 기능과 Adobe Campaign의 게재 기능을 활용할 수 있습니다. <a href="../../integrations/using/about-adobe-experience-manager.md">자세히 알아보기</a> <br /> </td> 
+   <td> Adobe Experience Manager에서 이메일 게재 콘텐츠와 양식을 직접 관리할 수 있으므로 AEM의 콘텐츠 편집 기능과 Adobe Campaign의 게재 기능을 활용할 수 있습니다. <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/ac-aem" target="_blank">자세히 알아보기</a>(Campaign v8 설명서) <br /> </td> 
    <td> 마케팅</td> 
   </tr> 
   <tr> 
@@ -283,7 +283,7 @@ ht-degree: 7%
 
 * Marketing 및 MID 인스턴스에 모두 [!DNL LINE] 패키지 설치
 
-* 게재 모드를 변경하여 mid 인스턴스를 가리키도록 mkt 인스턴스에서 [!DNL LINE] 외부 계정을 설정합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"}(Campaign v8 설명서)
+* 게재 모드를 변경하여 mid 인스턴스를 가리키도록 mkt 인스턴스에서 [!DNL LINE] 외부 계정을 설정합니다. [자세히 보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"}(Campaign v8 설명서)
 
 * MID 인스턴스의 외부 계정에 [!DNL LINE] 자격 증명을 설정합니다.
 

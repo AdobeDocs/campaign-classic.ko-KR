@@ -38,10 +38,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
+source-git-commit: cce1f22c34cbd13d063850a7ca636a3b0dfc62f6
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 1%
+source-wordcount: '1138'
+ht-degree: 2%
 ---
 # 구독 관리{#managing-subscriptions}
 
@@ -166,7 +166,7 @@ ht-degree: 1%
 
   ![](assets/s_ncs_user_subscribe_from_wf.png)
 
-  워크플로 및 사용 방법은 [이 섹션](../../workflow/using/about-workflows.md)에 자세히 설명되어 있습니다.
+  워크플로우와 워크플로우 사용 방법은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"}에 자세히 설명되어 있습니다(Campaign v8 설명서).
 
 ### 서비스에서 수신자 구독 취소 {#unsubscribing-a-recipient-from-a-service}
 

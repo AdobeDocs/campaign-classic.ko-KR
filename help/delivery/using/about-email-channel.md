@@ -32,9 +32,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
+source-git-commit: d679815c3415f1d7603ae5fe87e1c587208b6a8f
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '454'
 ht-degree: 0%
 ---
 # 이메일 채널 시작{#about-email-channel}
@@ -71,7 +71,7 @@ Campaign v8 설명서에서 전자 메일 게재 만들기와 관련된 주요 �
 다음 페이지를 참조하여 Campaign v8 설명서에서 전자 메일 매개 변수 **에 대해 알아보십시오**.
 
 * [미러 페이지에 연결](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html?lang=ko){target="_blank"}: 클라이언트가 항상 최상의 렌더링 환경을 얻을 수 있도록 미러 페이지를 구성하십시오.
-* [BCC 주소 추가](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=ko){target="_blank"}: 플랫폼에서 보낸 전자 메일의 복사본을 유지하도록 Adobe Campaign을 구성합니다.
+* [BCC 주소 추가](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/emails/email-bcc){target="_blank"}: 플랫폼에서 보낸 전자 메일의 복사본을 유지하도록 Adobe Campaign을 구성합니다.
 * [추가 전자 메일 매개 변수 정의](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html?lang=ko){target="_blank"}: 게재 속성에서 사용할 수 있는 옵션 및 매개 변수에 대해 자세히 알아보세요.
 
 또한 이 [페이지](sending-with-enhanced-mta.md)를 참조하여 Enhanced MTA에 대해 알아보십시오.

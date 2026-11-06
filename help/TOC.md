@@ -8,9 +8,9 @@ user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: ht
-source-wordcount: '1657'
+source-git-commit: b2b42bcbab0d09197126d140da3ecb1f4aa0d869
+workflow-type: tm+mt
+source-wordcount: '1560'
 ht-degree: 100%
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 100%
   + 이전 릴리스 {#previous-releases}
     + [2025](rn/using/release-2025.md)
     + [2024](rn/using/release-2024.md)
-    + {hide-from-toc}[2023 - 숨김](rn/using/release-2023.md)
-    + {hide-from-toc}[2022 - 숨김](rn/using/release-2022.md)
-    + {hide-from-toc}[2021 - 숨김](rn/using/release-2021.md)
-    + {hide-from-toc}[[!DNL Gold Standard - HIDDEN]](rn/using/gold-standard.md)
   + [사용되지 않는 기능](rn/using/deprecated-features.md)
   + [호환성 매트릭스](rn/using/compatibility-matrix.md)
 + 시작 {#getting-started}
@@ -66,8 +62,6 @@ ht-degree: 100%
 + 메시지 만들기 및 보내기 {#sending-messages}
   + [메시지 시작](delivery/using/communication-channels.md)
   + {hide-from-toc}[게재 설정 - 숨김](delivery/using/delivery-settings.md)
-  + 빠른 시작 {#key-steps-when-creating-a-delivery}
-    + {hide-from-toc}[게재 보내기 - 숨김](delivery/using/steps-sending-the-delivery.md)
   + [이메일 보내기](delivery/using/about-email-channel.md)
   + SMS 보내기 {#sending-messages-on-mobiles}
     + SMS 채널 구성 {#sms-set-up}
@@ -76,13 +70,8 @@ ht-degree: 100%
       + [SMS 커넥터 프로토콜 및 설정](delivery/using/sms-protocol.md)
       + [추가 구성](delivery/using/sms-send.md)
       + [SMS 문제 해결](delivery/using/troubleshooting-sms.md)
-    + {hide-from-toc}[확장된 일반 SMPP 커넥터로 마이그레이션](delivery/using/unsupported-connector-migration.md)
   + [푸시 알림 보내기](delivery/using/about-mobile-app-channel.md)
   + 푸시 알림 보내기 {#sending-push-notifications}
-    + 모바일 애플리케이션 구성{#configure-the-mobile-app}
-      + {hide-from-toc}[앱 구성 시작 - 숨김](delivery/using/get-started-app-config.md)
-      + {hide-from-toc}[iOS용 구성 단계 - 숨김](delivery/using/configuring-the-mobile-application.md)
-      + {hide-from-toc}[Android용 구성 단계 - 숨김](delivery/using/configuring-the-mobile-application-android.md)
     + {hide-from-toc}[문제 해결 - 숨김](delivery/using/troubleshooting.md)
   + [다이렉트 메일 보내기](delivery/using/about-direct-mail-channel.md)
   + 게재 개인화 {#personalizing-deliveries}
@@ -128,7 +117,6 @@ ht-degree: 100%
     + [콘텐츠 템플릿 사용](delivery/using/using-a-content-template.md)
     + [콘텐츠 강화](delivery/using/enriching-content.md)
     + [워크플로를 통한 자동화](delivery/using/automating-via-workflows.md)
-+ [마케팅 캠페인 오케스트레이션](campaign/using/about-marketing-campaigns.md)
 + 응답 매니저 {#response-manager}
   + [응답 관리자 시작](response/using/about-response-manager.md)
   + [구성](response/using/configuration.md)
@@ -140,9 +128,6 @@ ht-degree: 100%
     + [보고 모범 사례](reporting/using/best-practices.md)
   + 기본 제공 보고서 액세스 {#accessing-built-in-reports}
     + [기본 제공 보고서 정보](reporting/using/about-campaign-built-in-reports.md)
-    + [보고서 목록](reporting/using/list-of-reports.md)
-  + 게재 보고서{#reports-on-deliveries}
-    + [지표 계산](reporting/using/indicator-calculation.md)
   + 모집단 분석 {#analyzing-populations}
     + [기술 분석의 정의](reporting/using/about-descriptive-analysis.md)
     + [첫 번째 기술 분석 보고서 만들기](reporting/using/using-the-descriptive-analysis-wizard.md)
@@ -228,20 +213,9 @@ ht-degree: 100%
     + [ [!DNL Assets] 액세스 구성](integrations/using/configuring-access-to-assets.md)
     + [공유 에셋 삽입](integrations/using/inserting-a-shared-asset.md)
   + Adobe Experience Manager {#adobe-experience-manager}
-    + [ [!DNL Adobe Experience Manager]로 작업](integrations/using/about-adobe-experience-manager.md)
     + [통합 구성](integrations/using/configuring-the-integration.md)
-    + [ [!DNL Experience Manager]  뉴스레터 만들기](integrations/using/creating-an-experience-manager-newsletter.md)
   + Adobe Target {#adobe-target}
-    + [ [!DNL Adobe Target]으로 작업](integrations/using/integrating-with-adobe-target.md)
     + [ [!DNL Adobe Target]과의 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
-    + [동적 이미지 삽입](integrations/using/inserting-a-dynamic-image.md)
-  + ACS 커넥터 {#acs-connector}
-    + {hide-from-toc}[시작 [!DNL ACS Connector] - 숨김](integrations/using/acs-connector-principles-and-data-cycle.md)
-    + {hide-from-toc}[프로필 동기화 - 숨김](integrations/using/synchronizing-profiles.md)
-    + {hide-from-toc}[대상자 동기화 - 숨김](integrations/using/synchronizing-audiences.md)
-    + {hide-from-toc}[웹 애플리케이션 동기화 - 숨김](integrations/using/synchronizing-web-applications.md)
-    + {hide-from-toc}[ [!DNL ACS Connector] 문제 해결 - 숨김](integrations/using/troubleshooting-the-acs-connector.md)
-+ [워크플로로 자동화](workflow/using/about-workflows.md)
 + 오퍼 관리 {#managing-offers}
   + 상호 작용 시작 {#interaction-overview}
     + [상호 작용 및 오퍼 관리](interaction/using/interaction-and-offer-management.md)
@@ -344,7 +318,6 @@ ht-degree: 100%
     + [외부 계정 구성](installation/using/external-accounts.md)
     + Federated Data Access 구성{#configure-fda}
       + [Federated Data Access 시작](installation/using/about-fda.md)
-      + [모범 사례 및 제한 사항](installation/using/fda-best-practices.md)
       + 구성 지침 {#config-databases}
         + [구성 단계](installation/using/configure-fda.md)
         + [Amazon Redshift 구성](installation/using/configure-fda-redshift.md)
@@ -385,7 +358,6 @@ ht-degree: 100%
     + [파일 로깅](production/using/log-files.md)
     + [프로세스 모니터링](production/using/monitoring-processes.md)
     + [일반적인 명령](production/using/usual-commands.md)
-    + [감사 추적](production/using/audit-trail.md)
   + 데이터 처리 {#data-processing}
     + [백업](production/using/backup.md)
     + [복원](production/using/restoration.md)
@@ -519,15 +491,12 @@ ht-degree: 100%
     + [IMS 마이그레이션이 인터페이스에 미치는 영향](technotes/using/impact-ims-migration.md)
   + 업그레이드 및 호환성{#technote-migration}
     + [Microsoft Edge Chromium 사용](technotes/using/edge-chromium.md)
-    + {hide-from-toc}[새로운 전달성 서버](technotes/using/deliverability-server.md)
     + {hide-from-toc}[Apache 보안 업그레이드](technotes/using/acc-apache-upgrade.md)
     + {hide-from-toc}[2023년 시스템 업그레이드](technotes/using/tech-stack-upgrade.md)
-    + {hide-from-toc}[IMS 업데이트](technotes/using/ims-updates.md)
     + {hide-from-toc}[Adobe Analytics 2.0 API로 마이그레이션](technotes/using/analytics-2-migration.md)
   + 이메일 및 푸시 알림{#technotes-email}
     + [Apple iOS의 메일 개인 정보 보호](technotes/using/apple-mail-app-privacy-protection.md)
     + [iOS 인증서 업데이트](technotes/using/ios-certificate-update.md)
-    + {hide-from-toc}[추적 URL 업데이트](technotes/using/tracked-urls.md)
   + Adobe Managed Services로 마이그레이션{#dc-migration}
     + [공개 클라우드로 마이그레이션](technotes/using/dc-migration.md)
     + [FAQ](technotes/using/dc-migration-faq.md)

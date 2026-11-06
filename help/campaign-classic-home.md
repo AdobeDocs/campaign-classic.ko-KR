@@ -30,12 +30,14 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: ht
-source-wordcount: '707'
-ht-degree: 100%
+source-git-commit: c1f8b6661065c8d5c75e38d80f6986e0c6fbdfa8
+workflow-type: tm+mt
+source-wordcount: '940'
+ht-degree: 59%
 ---
 # Campaign Classic v7 설명서 {#campaign-classic-documentation}
+
+이 설명서는 **온-프레미스 및 하이브리드** 배포를 위한 Campaign Classic v7에 대해 설명합니다. 설치, 구성, 업그레이드, 작업 및 v7에만 해당하는 기능. 인스턴스가 Adobe(Managed Cloud Services)에서 호스팅되는 경우 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home){target="_blank"}를 참조하세요. Campaign v8 문서를 같은 방식으로 복사하는 콘텐츠는 더 이상 여기에서 복제되지 않습니다. [v7에서 v8까지](#from-v7-to-v8)를 참조하세요.
 
 <!--![](platform/using/assets/do-not-localize/banner_acc_doc.jpg) -->
 
@@ -46,9 +48,9 @@ Adobe Campaign Classic v7 제품 및 설명서의 최신 개선 사항을 살펴
 >[!BEGINTABS]
 
 
->[!TAB 2026년 8월 릴리스가 공개되었습니다!]
+>[!TAB 2026년 10월 릴리스가 공개되었습니다!]
 
-Campaign Classic v7.4.4 - 2026년 8월 빌드는 보안 업데이트를 제공하고 Adobe Analytics 커넥터를 Analytics 2.0 API로 업그레이드합니다.
+Campaign Classic v7.4.5 - 2026년 10월 빌드(빌드 9420)는 Analytics 외부 계정에 대한 수정 사항, 개인화 보류 상태에서 중단된 게재, 서버 CPU 사용, 간헐적인 데이터 모델 업데이트 오류, 게재 만들기의 스팸 확인 오류 및 반복되는 소프트 바운스 격리를 제공합니다.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
@@ -57,13 +59,6 @@ Campaign Classic v7.4.4 - 2026년 8월 빌드는 보안 업데이트를 제공�
 보안 및 인증 프로세스를 강화하기 위해 Adobe Campaign은 최종 사용자 인증 모드를 로그인/암호 기본 인증에서 Adobe IMS(Identity Management System)로 마이그레이션할 것을 강력히 권장합니다.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](technotes/using/ac-ims.md)
-
-
->[!TAB 푸시 채널 변경 사항]
-
-Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 미칠 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다. 미리 확인하고 조치를 취할 수 있습니다.
-
-[![이미지](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=ko){target="_blank"}
 
 
 >[!ENDTABS]
@@ -81,7 +76,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
     <div><strong>프로필 추가 및 관리</strong><br/>Adobe Campaign v7 데이터베이스의 프로필 관리를 쉽게 살펴볼 수 있습니다. 수동으로 또는 가져오기를 통해 프로필을 추가하여 고객 데이터를 세분화하고 캠페인을 손쉽게 사용자 지정할 수 있습니다.</div>
     </td>
     <td>
-    <a href="workflow/using/about-workflows.md"><img src="assets/do-not-localize/start-workflows.jpeg"></a>
+    <a href="https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank"><img src="assets/do-not-localize/start-workflows.jpeg"></a>
     <div><strong>워크플로로 자동화</strong><br/>워크플로를 활용하여 세분화, 캠페인 실행, 파일 처리, 인원 참여 등의 프로세스를 디자인하는 방법을 알아봅니다.
     </div></td>
     <td>
@@ -92,7 +87,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
   <tr style="border: 0;">
     <td align="center"><a href="platform/using/launching-adobe-campaign.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="platform/using/about-profiles.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="workflow/using/about-workflows.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="delivery/using/communication-channels.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
@@ -109,7 +104,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>고객 경험</strong><br/><a href="workflow/using/about-workflows.md">워크플로를 통한 자동화</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko" target="_blank">마케팅 캠페인</a> - <a href="interaction/using/interaction-and-offer-management.md">상호 작용 및 오퍼 관리</a> - <a href="delivery/using/about-personalization.md">개인화</a> - <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank">보고</a>(Campaign v8 설명서)
+      <strong>고객 경험</strong><br/><a href="https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank">워크플로우 자동화</a>(Campaign v8 설명서) - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko" target="_blank">마케팅 캠페인</a> - <a href="interaction/using/interaction-and-offer-management.md">상호 작용 및 오퍼 관리</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank">보고</a>(Campaign v8 설명서)
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
@@ -131,10 +126,25 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
       <br/>
-      <strong>개발자 리소스</strong><br/><a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/datamodel" target="_blank">데이터 모델 설명</a> (Campaign v8 설명서) - <a href="configuration/using/about-schema-reference.md">스키마 구조</a> - <a href="configuration/using/editing-forms.md">스키마 구조</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/ko/tools/campaign-api">JSAPI 참조 설명서</a> - <a href="configuration/using/about-custom-recipient-table.md">사용자 정의 수신자 테이블</a>
+      <strong>개발자 리소스</strong><br/><a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/datamodel" target="_blank">데이터 모델 설명</a>(Campaign v8 설명서) - <a href="configuration/using/about-schema-reference.md">스키마 구조</a> - <a href="configuration/using/editing-forms.md">입력 양식</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/ko/tools/campaign-api">JSAPI 참조 설명서</a> - <a href="configuration/using/about-custom-recipient-table.md">사용자 지정 수신자 테이블</a>
     </td>
   </tr>
 </table>
+
+## v7에서 v8까지 {#from-v7-to-v8}
+
+Campaign v8 설명서에 설명된 콘텐츠는 v7 설명서에서 제거되었습니다. 이 표를 사용하여 찾아보십시오.
+
+| 찾고 있는 경우... | Campaign v8 설명서로 이동 |
+| --- | --- |
+| 사용자 인터페이스 | [사용자 인터페이스 검색](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} |
+| 프로필, 목록, 가져오기 및 내보내기 | [프로필 및 데이터 가져오기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/import){target="_blank"} |
+| 워크플로 | [워크플로우 정보](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} |
+| 마케팅 캠페인 | [마케팅 캠페인 시작](https://experienceleague.adobe.com/ko/docs/campaign/automation/campaign-orchestration/set-up-campaigns){target="_blank"} |
+| 게재 만들기 및 보내기 | [메시지 만들기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/create-message){target="_blank"} |
+| 기본 제공 보고서 | [보고 시작](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"} |
+| 권한 | [사용 권한 시작](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/permissions/gs-permissions){target="_blank"} |
+| 입력 양식 | [입력 양식 시작](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} |
 
 ## 추가 리소스
 

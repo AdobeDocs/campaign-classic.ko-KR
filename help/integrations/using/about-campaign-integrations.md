@@ -39,9 +39,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '823'
 ht-degree: 5%
 ---
 # Adobe Campaign 통합 시작 {#about-campaign-integrations}
@@ -51,6 +51,10 @@ Adobe Experience Cloud는 강력한 솔루션 및 앱의 공통 세트를 사용
 [이 페이지](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/integrations){_blank}에서 Adobe Campaign과 Adobe Experience Cloud 솔루션 간에 사용할 수 있는 기능 통합에 대해 자세히 알아보십시오.
 
 Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 앱 서비스와 관련 문서의 전체 목록은 [이 섹션](#experience-cloud-integrations)에서 확인할 수 있습니다.
+
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 솔루션과 Campaign 연결에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/integration){target=_blank}를 참조하세요.
+
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/integration){target=_blank}
 
 >[!CAUTION]
 >
@@ -95,11 +99,11 @@ Adobe Experience Cloud ID 서비스(ID 서비스)는 Experience Cloud의 모든 
   </tr> 
   <tr> 
    <td> <strong>Adobe Experience Manager</strong><br /> </td> 
-   <td> <strong>Adobe Experience Manager</strong>에서 직접 Adobe Campaign 데이터베이스에 매핑된 전자 메일 콘텐츠 또는 양식을 만들려면 이 통합을 구성하십시오.<br /> <p>Adobe Campaign - Adobe Experience Manager 통합에 대해 <a href="../../integrations/using/about-adobe-experience-manager.md">자세히 알아보기</a>.</p><br /> </td> 
+   <td> <strong>Adobe Experience Manager</strong>에서 직접 Adobe Campaign 데이터베이스에 매핑된 전자 메일 콘텐츠 또는 양식을 만들려면 이 통합을 구성하십시오.<br /> <p>Adobe Campaign - Adobe Experience Manager 통합에 대해 <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/ac-aem" target="_blank">자세히 알아보기</a>(Campaign v8 설명서).</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Target</strong><br /> </td> 
-   <td> Adobe Campaign에서 만들고 보낸 전자 메일을 열 때 <strong>Adobe Target</strong>에서 동적으로 계산된 이미지를 삽입하도록 이 통합을 구성하십시오.<br /> <p>Adobe Campaign - Adobe Target 통합에 대해 <a href="../../integrations/using/integrating-with-adobe-target.md">자세히 알아보기</a>.</p><br /> </td> 
+   <td> Adobe Campaign에서 만들고 보낸 전자 메일을 열 때 <strong>Adobe Target</strong>에서 동적으로 계산된 이미지를 삽입하도록 이 통합을 구성하십시오.<br /> <p>Adobe Campaign - Adobe Target 통합에 대해 <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/ac-at" target="_blank">자세히 알아보기</a>(Campaign v8 설명서).</p><br /> </td> 
   </tr> 
   <tr> 
    <td><strong>Adobe Audience Manager</strong><br /> </td> 
