@@ -61,7 +61,7 @@ ht-degree: 6%
    * 기존 보고서에 지표 추가. [이 섹션에서](../../reporting/using/about-reports-creation-in-campaign.md) 자세히 알아보기
    * 데이터베이스에서 데이터를 봅니다. [이 섹션에서](../../reporting/using/about-descriptive-analysis.md) 자세히 알아보기
    * 새 게재 보고서를 만듭니다. 자세히 알아보기 [이 섹션](../../reporting/using/about-reports-creation-in-campaign.md)),
-   * 워크플로우를 통해 Adobe Campaign 데이터베이스에서 데이터를 내보냅니다. [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"}(Campaign v8 설명서)
+   * 워크플로우를 통해 Adobe Campaign 데이터베이스에서 데이터를 내보냅니다. [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"}(Campaign v8 설명서)
    * 피벗 테이블을 만듭니다. [이 섹션에서](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table) 자세히 알아보기
    * 집계된 데이터를 탐색합니다. [이 섹션에서](../../reporting/using/ac-cubes.md) 자세히 알아보기
    * 도우미를 사용하여 데이터를 분석합니다. [이 섹션에서](../../reporting/using/about-descriptive-analysis.md) 자세히 알아보기

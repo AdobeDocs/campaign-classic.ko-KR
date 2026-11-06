@@ -42,6 +42,6 @@ ht-degree: 4%
 
 따라서 워크플로우에 사용된 모든 활동은 추가적인 수동 구성 없이 사용자 지정 테이블을 사용합니다.
 
-워크플로우에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"}(Campaign v8 설명서)을 참조하세요.
+워크플로우에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 ![](assets/cfg_external_table_workflow.png)

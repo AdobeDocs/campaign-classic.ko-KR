@@ -41,16 +41,16 @@ ht-degree: 3%
 
 마케터와 연산자는 입력 양식을 사용하여 레코드를 만들고, 수정하고, 미리 봅니다. Forms은 정보를 시각적으로 표시합니다.
 
-Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 입력 양식에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target=_blank}를 참조하세요.
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 입력 양식에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms){target=_blank}를 참조하세요.
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms){target=_blank}
 
 입력 양식을 만들고 수정할 수 있습니다.
 
 * 기본적으로 제공되는 출고 시 입력 양식을 수정할 수 있습니다. 팩터리 입력 양식은 팩터리 데이터 스키마를 기반으로 합니다.
 * 정의한 데이터 스키마를 기반으로 하여 사용자 정의 입력 양식을 생성할 수 있습니다.
 
-Forms은 `xtk:form` 유형의 엔터티입니다. `xtk:form` 스키마에서 입력 양식 구조를 볼 수 있습니다. 이 스키마를 보려면 메뉴에서 **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**&#x200B;을(를) 선택하십시오. [양식 구조](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
+Forms은 `xtk:form` 유형의 엔터티입니다. `xtk:form` 스키마에서 입력 양식 구조를 볼 수 있습니다. 이 스키마를 보려면 메뉴에서 **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**&#x200B;을(를) 선택하십시오. [양식 구조](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 
 입력 양식에 액세스하려면 메뉴에서 **[!UICONTROL Administration]> [!UICONTROL Configuration] >[!UICONTROL Input forms]**&#x200B;을(를) 선택하십시오.
 
@@ -60,7 +60,7 @@ Forms은 `xtk:form` 유형의 엔터티입니다. `xtk:form` 스키마에서 입
 
 ![](assets/d_ncs_integration_form_edit.png)
 
-[자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#formatting){target="_blank"}(Campaign v8 설명서).
+[자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms#formatting){target="_blank"}(Campaign v8 설명서).
 
 양식을 미리 보려면 **[!UICONTROL Preview]** 탭을 클릭하십시오.
 
@@ -84,7 +84,7 @@ Forms은 `xtk:form` 유형의 엔터티입니다. `xtk:form` 스키마에서 입
 
 * 어시스턴트
 
-  이 양식은 특정 시퀀스로 순서가 지정된 여러 부동 화면으로 구성됩니다. 사용자는 한 화면에서 다음 화면으로 이동합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#wizards){target="_blank"}(Campaign v8 설명서).
+  이 양식은 특정 시퀀스로 순서가 지정된 여러 부동 화면으로 구성됩니다. 사용자는 한 화면에서 다음 화면으로 이동합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms#wizards){target="_blank"}(Campaign v8 설명서).
 
 * 아이콘 상자
 
@@ -170,7 +170,7 @@ Forms은 `xtk:form` 유형의 엔터티입니다. `xtk:form` 스키마에서 입
 
 1. 양식 요소를 삽입합니다.
 
-   예를들어 입력 필드를 삽입하려면 `<input>` 요소를 사용합니다. `xpath` 특성을 필드 참조로 XPath 식으로 설정합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure#reference-with-xpath){target="_blank"}(Campaign v8 설명서).
+   예를들어 입력 필드를 삽입하려면 `<input>` 요소를 사용합니다. `xpath` 특성을 필드 참조로 XPath 식으로 설정합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure#reference-with-xpath){target="_blank"}(Campaign v8 설명서).
 
    이 예제에서는 `nms:recipient` 스키마를 기반으로 하는 입력 필드를 보여줍니다.
 
@@ -203,7 +203,7 @@ Forms은 `xtk:form` 유형의 엔터티입니다. `xtk:form` 스키마에서 입
    | 확인란 | `type="checkbox"` |
    | 트리 편집 | `type="tree"` |
 
-   [메모리 목록 컨트롤](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#memory-list-controls){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
+   [메모리 목록 컨트롤](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms#memory-list-controls){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 
 1. 필드에 대한 액세스를 정의합니다(선택적).
 
@@ -241,7 +241,7 @@ Forms은 `xtk:form` 유형의 엔터티입니다. `xtk:form` 스키마에서 입
 
 ## 다중 페이지 양식 만들기 {#create-multipage-form}
 
-다중 페이지 양식을 만들 수 있습니다. 다른 양식 내에 양식을 중첩할 수도 있습니다. [컨테이너, 전자 필기장 및 iconbox 양식에 대해 자세히 알아보세요](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"}(Campaign v8 설명서).
+다중 페이지 양식을 만들 수 있습니다. 다른 양식 내에 양식을 중첩할 수도 있습니다. [컨테이너, 전자 필기장 및 iconbox 양식에 대해 자세히 알아보세요](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"}(Campaign v8 설명서).
 
 ## 팩터리 입력 양식 수정 {#modify-factory-form}
 
@@ -278,11 +278,11 @@ Forms은 `xtk:form` 유형의 엔터티입니다. `xtk:form` 스키마에서 입
 </leave>
 ```
 
-[표현식 필드](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#expression-field){target="_blank"}(Campaign v8 설명서) 및 [양식 컨텍스트](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"}(Campaign v8 설명서)에 대해 자세히 알아보십시오.
+[표현식 필드](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms#expression-field){target="_blank"}(Campaign v8 설명서) 및 [양식 컨텍스트](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"}(Campaign v8 설명서)에 대해 자세히 알아보십시오.
 
 ### 값 유효성 검사
 
-JavaScript SOAP 호출을 사용하여 콘솔에서 양식 데이터의 유효성을 검사할 수 있습니다. 예를 들어 복잡한 유효성 검사에 이러한 호출을 사용하여 승인된 값 목록에 대해 값을 확인합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#soap-methods){target="_blank"}(Campaign v8 설명서).
+JavaScript SOAP 호출을 사용하여 콘솔에서 양식 데이터의 유효성을 검사할 수 있습니다. 예를 들어 복잡한 유효성 검사에 이러한 호출을 사용하여 승인된 값 목록에 대해 값을 확인합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms#soap-methods){target="_blank"}(Campaign v8 설명서).
 
 1. JS 파일에 유효성 검사 함수를 만듭니다.
 
@@ -339,4 +339,4 @@ JavaScript SOAP 호출을 사용하여 콘솔에서 양식 데이터의 유효�
 </enter>
 ```
 
-이 예에서 입력은 기본 키인 ID입니다. 사용자가 이 ID의 양식을 채우면 이 ID를 입력 매개 변수로 하는 SOAP 호출이 수행됩니다. 출력은 이 필드에 기록되는 부울입니다. `/tmp/@count`. 양식 내에서 이 부울을 사용할 수 있습니다. [양식 컨텍스트](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
+이 예에서 입력은 기본 키인 ID입니다. 사용자가 이 ID의 양식을 채우면 이 ID를 입력 매개 변수로 하는 SOAP 호출이 수행됩니다. 출력은 이 필드에 기록되는 부울입니다. `/tmp/@count`. 양식 내에서 이 부울을 사용할 수 있습니다. [양식 컨텍스트](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
