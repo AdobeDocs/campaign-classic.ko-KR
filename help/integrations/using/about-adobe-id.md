@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 4ae19a379120bb39444c3e81392a7dbb0b6da3ba
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 16%
@@ -65,16 +65,16 @@ Campaign 사용자는 [기본 사용자/암호 인증](../../platform/using/acce
 >
 >Depending on your current version, you must upgrade to one of the following releases: 
 >
-> * [Campaign [!DNL Gold Standard] 11](../../rn/using/gold-standard.md)
+> * [Campaign [!DNL Gold Standard] 11](../../rn/using/rn-overview.md)
 > * [Campaign 21.1.4](../../rn/using/latest-release.md)
 >
->[Learn more about IMS updates](../../technotes/using/ims-updates.md)
+>[Learn more about IMS updates](../../technotes/using/ac-ims.md)
 -->
 
 ## 추가 리소스
 
 | 유용한 페이지 | 추가 리소스 |
 |---|---|
-| [IMS 구성](../../integrations/using/configuring-ims.md) | [Experience Cloud FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html?lang=ko) |
+| [IMS 구성](../../integrations/using/configuring-ims.md) | [Experience Cloud FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html) |
 | [IMS 구현](../../integrations/using/implementing-ims.md) | [액세스 관리](../../platform/using/access-management.md) |
 | [IMS 문제 해결](../../integrations/using/ims-troubleshooting.md) | [Campaign 패키지 설치](../../installation/using/installing-campaign-standard-packages.md) |

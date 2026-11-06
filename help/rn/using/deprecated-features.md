@@ -43,8 +43,8 @@ topic_v2:
     internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: ht
+source-git-commit: 4ae19a379120bb39444c3e81392a7dbb0b6da3ba
+workflow-type: tm+mt
 source-wordcount: '1814'
 ht-degree: 100%
 ---
@@ -80,7 +80,7 @@ Campaign Classic 기능을 제거/교체하기 위해 다음 규칙이 적용됩
   </tr>
   <tr>
  <td>Netsize SMPP 커넥터</td>
- <td><p>이제 Netsize SMPP 커넥터는 더 이상 사용되지 않습니다. <strong>확장된 일반 SMPP</strong> 커넥터로 마이그레이션하는 것을 권장합니다. 자세한 정보는 <a href="../../delivery/using/unsupported-connector-migration.md">이 페이지</a>를 참조하세요.</p>
+ <td><p>이제 Netsize SMPP 커넥터는 더 이상 사용되지 않습니다. <strong>확장된 일반 SMPP</strong> 커넥터로 마이그레이션하는 것을 권장합니다. 자세한 정보는 <a href="../../delivery/using/sms-set-up.md">이 페이지</a>를 참조하세요.</p>
 <p>제거 예정일: 2027년 1월</p>
 </td>
 </tr>
