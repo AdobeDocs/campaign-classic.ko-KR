@@ -23,12 +23,16 @@ subfeature_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: ca8baf1913cbc7f91cd34019dcaa5e499079e9e7
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '500'
 ht-degree: 4%
 ---
 # 마이그레이션 시작{#about-migration}
+
+>[!NOTE]
+>
+>이 안내서에서는 Campaign Classic v5 및 v6에서 v7으로의 마이그레이션에 대해 설명합니다. 더 이상 유지 관리되지 않으며 참조용으로만 유지됩니다. v7 플랫폼을 새 빌드로 업데이트하려면 [새 빌드로 업그레이드](../../production/using/upgrading.md)를 참조하세요.
 
 
 

@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a26a9642d4b60f0f095596584929ba5e98c3180a
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 18%
@@ -166,7 +166,7 @@ SMTP 보고서에는 도메인별 게재 통계 및 SMTP 오류가 표시됩니�
 
 **일반 원칙**
 
-* [Campaign Classic 아키텍처](../../production/using/general-architecture.md)
+* [Campaign Classic 아키텍처](../../production/using/architecture-and-open-ports.md)
 * [Campaign Classic 모듈](../../production/using/operating-principle.md)
 * [Campaign Classic 옵션](../../installation/using/configuring-campaign-options.md)
 * [모듈의 자동 시작을 설정하는 방법](../../production/using/administration.md)
