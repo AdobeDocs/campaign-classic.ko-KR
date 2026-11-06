@@ -24,7 +24,7 @@ subfeature_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 4%
@@ -57,7 +57,7 @@ Adobe Campaign에서는 마케팅 캠페인의 성공 및 수익성을 측정하
 
 ## 구현 단계 {#method}
 
-응답 관리자를 사용하기 전에 [구성](configuration.md)을(를) 참조하여 필요한 구성을 수행하십시오.
+응답 관리자를 사용하기 전에 [구성](configure-response-manager.md)을(를) 참조하여 필요한 구성을 수행하십시오.
 
 게재 또는 오퍼에 대한 가설을 시작하려면 만드는 각 가설에 사용될 템플릿에서 그 컨텍스트를 정의해야 합니다.
 

@@ -27,7 +27,7 @@ subfeature_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 13%
@@ -75,7 +75,7 @@ ht-degree: 13%
   <tr> 
    <td> syslogd </td> 
    <td> 로그 쓰기<br /> </td> 
-   <td> 일부 로그가 로그 파일에 없는 경우 모듈이 포트 6666을 사용하고 있는지 확인하십시오. <a href="../../production/using/general-architecture.md#list-of-open-ports" target="_blank">열린 포트 목록</a>.<br />을 참조하세요. </td> 
+   <td> 일부 로그가 로그 파일에 없는 경우 모듈이 포트 6666을 사용하고 있는지 확인하십시오. <a href="../../production/using/architecture-and-open-ports.md#list-of-open-ports" target="_blank">열린 포트 목록</a>.<br />을 참조하세요. </td> 
   </tr> 
   <tr> 
    <td> 추적 </td> 

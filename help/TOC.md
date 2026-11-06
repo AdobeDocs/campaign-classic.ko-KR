@@ -8,10 +8,10 @@ user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: 186021e65b592522f3c491fb518594b5bac5d003
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
 workflow-type: tm+mt
-source-wordcount: '1563'
-ht-degree: 98%
+source-wordcount: '1577'
+ht-degree: 97%
 ---
 
 # Adobe Campaign Classic v7 설명서 {#using}
@@ -75,7 +75,7 @@ ht-degree: 98%
   + 보안 및 개인 정보 설정 {#security-privacy}
     + [보안 및 개인 정보 보호에 대해 확인할 사항](installation/using/get-started-security-privacy.md)
     + [개인화 및 개인 정보 보호](installation/using/privacy.md)
-    + [보안 액세스 관리](installation/using/access-management.md)
+    + [보안 액세스 관리](installation/using/secure-access-management.md)
     + [스크립팅 및 코딩 지침](installation/using/scripting-coding-guidelines.md)
     + [네트워크, 데이터베이스 및 SSL/TLS](installation/using/network-database.md)
     + [서버 보안 설정](installation/using/server-configuration.md)
@@ -166,13 +166,13 @@ ht-degree: 98%
 + 운영 및 모니터링 {#monitoring-campaign-classic}
   + 소개 {#introduction}
     + [서문](production/using/foreword.md)
-    + [일반 아키텍처](production/using/general-architecture.md)
+    + [아키텍처 및 오픈 포트](production/using/architecture-and-open-ports.md)
     + [모니터링 지침](production/using/monitoring-guidelines.md)
   + 프로덕션 절차 {#production-procedures}
     + [구성 원칙](production/using/configuration-principle.md)
     + [운영 원칙](production/using/operating-principle.md)
     + [관리](production/using/administration.md)
-    + [구성](production/using/configuration.md)
+    + [Syslogd 포트 및 보안 영역](production/using/syslogd-port-and-security-zones.md)
     + [파일 로깅](production/using/log-files.md)
     + [프로세스 모니터링](production/using/monitoring-processes.md)
     + [일반적인 명령](production/using/usual-commands.md)
@@ -182,7 +182,7 @@ ht-degree: 98%
     + [환경 복제](production/using/duplicating-environments.md)
     + [데이터베이스 정리 워크플로](production/using/database-cleanup-workflow.md)
   + Adobe Campaign 업데이트 {#updating-adobe-campaign}
-    + [소개](production/using/introduction.md)
+    + [Campaign 업데이트 정보](production/using/introduction.md)
     + [빌드 업그레이드 수행](production/using/build-upgrade.md)
     + [업그레이드 절차(온-프레미스)](production/using/upgrading.md)
     + [유니코드로 전환](production/using/switching-to-unicode.md)
@@ -229,7 +229,7 @@ ht-degree: 98%
     + [데이터베이스 매핑](configuration/using/database-mapping.md)
     + [키 관리](configuration/using/database-keys.md)
     + 요소 및 속성 {#elements-attributes}
-      + [소개](configuration/using/schema-introduction.md)
+      + [요소 및 속성 소개](configuration/using/schema-introduction.md)
       + [속성](configuration/using/schema/attribute.md)
       + [계산 문자열](configuration/using/schema/compute-string.md)
       + [조건](configuration/using/schema/condition.md)
@@ -301,7 +301,7 @@ ht-degree: 98%
       + [SMS 문제 해결](delivery/using/troubleshooting-sms.md)
   + [푸시 알림 보내기](delivery/using/about-mobile-app-channel.md)
   + 푸시 알림 보내기 {#sending-push-notifications}
-    + {hide-from-toc}[문제 해결 - 숨김](delivery/using/troubleshooting.md)
+    + {hide-from-toc}[문제 해결 - 숨김](delivery/using/push-troubleshooting.md)
   + [다이렉트 메일 보내기](delivery/using/about-direct-mail-channel.md)
   + 게재 개인화 {#personalizing-deliveries}
     + [개인화 정보](delivery/using/about-personalization.md)
@@ -420,7 +420,7 @@ ht-degree: 98%
     + [아웃바운드 채널에 대한 오퍼](interaction/using/offers-on-an-outbound-channel.md)
 + 응답 매니저 {#response-manager}
   + [응답 관리자 시작](response/using/about-response-manager.md)
-  + [구성](response/using/configuration.md)
+  + [응답 관리자 구성](response/using/configure-response-manager.md)
   + [가설 템플릿](response/using/hypothesis-templates.md)
   + [가설 만들기](response/using/creating-hypotheses.md)
   + [가설 추적](response/using/hypothesis-tracking.md)
@@ -452,7 +452,7 @@ ht-degree: 98%
   + [Campaign 통합 시작](integrations/using/about-campaign-integrations.md)
   + [Adobe 기술 계정 만들기](integrations/using/oauth-technical-account.md)
   + Adobe Experience Cloud 트리거 {#experience-triggers}
-    + [&#x200B; [!DNL Experience Cloud Triggers]로 작업](integrations/using/about-triggers.md)
+    + [ [!DNL Experience Cloud Triggers]로 작업](integrations/using/about-triggers.md)
     + [파이프라인 구성](integrations/using/configuring-pipeline.md)
     + [사용자 정의 구현을 위한 이벤트 구성](integrations/using/events.md)
     + [파이프라인 모니터링](integrations/using/pipeline-monitoring.md)
@@ -465,19 +465,19 @@ ht-degree: 98%
     + [Adobe Analytics 커넥터 시작](integrations/using/gs-aa.md)
     + [Adobe Analytics 커넥터 프로비전](integrations/using/adobe-analytics-provisioning.md)
   + 대상자 공유 {#audience-sharing}
-    + [&#x200B; [!DNL Adobe Experience Cloud]와 대상자 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+    + [ [!DNL Adobe Experience Cloud]와 대상자 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
     + [Adobe에 요청 제출](integrations/using/submitting-request-to-adobe.md)
-    + [&#x200B; [!DNL Adobe Campaign]에서 공유 대상자 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
-    + {hide-from-toc}[문제 해결](integrations/using/troubleshooting.md)
+    + [ [!DNL Adobe Campaign]에서 공유 대상자 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+    + {hide-from-toc}[문제 해결](integrations/using/integrations-troubleshooting.md)
     + [대상자 가져오기 및 내보내기](integrations/using/importing-and-exporting-audiences.md)
   + 자산 공유 {#asset-sharing}
-    + [&#x200B; [!DNL Adobe Experience Cloud]와 에셋 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-    + [&#x200B; [!DNL Assets] 액세스 구성](integrations/using/configuring-access-to-assets.md)
+    + [ [!DNL Adobe Experience Cloud]와 에셋 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+    + [ [!DNL Assets] 액세스 구성](integrations/using/configuring-access-to-assets.md)
     + [공유 에셋 삽입](integrations/using/inserting-a-shared-asset.md)
   + Adobe Experience Manager {#adobe-experience-manager}
     + [통합 구성](integrations/using/configuring-the-integration.md)
   + Adobe Target {#adobe-target}
-    + [&#x200B; [!DNL Adobe Target]과의 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
+    + [ [!DNL Adobe Target]과의 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
 + 소셜 미디어와 통합 {#integrating-with-social-media}
   + [소셜 마케팅 정보](social/using/about-social-marketing.md)
 + 기술 노트 {#technotes}

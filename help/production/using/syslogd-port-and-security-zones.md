@@ -1,0 +1,68 @@
+---
+product: campaign
+title: Syslogd 포트 및 보안 영역
+description: 구성
+feature: Monitoring, Configuration
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ko" tooltip="Applies to on-premise and hybrid deployments only"
+exl-id: 80d388fd-873c-4a08-b8b6-697988f2a18c
+TQID: 'https://experienceleague.adobe.com/gzcQquM9q71NIOt8mScgRpLtwffxvopslrrpLxxIang'
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
+  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
+  - id: a14877cc-63b1-41d9-bf0b-5f97cadd0417
+    internal-label: Configuration guidelines
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 10%
+---
+# Syslogd 포트 및 보안 영역{#configuration}
+
+
+
+## syslogd 수신 포트 변경 {#changing-the-syslogd-listening-port}
+
+기본적으로 **syslogd** 수신 포트는 666(udp)입니다. 필요한 경우 환경 변수를 사용하여 변경할 수 있습니다.
+
+구성하고 나면 모든 Adobe Campaign 모듈에서 이 변수를 고려합니다.
+
+### Linux에서 {#in-linux}
+
+**customer.sh** 파일을 편집하고 다음 줄을 추가합니다.
+
+```sql
+export TRACE_ADDR=localhost:<listening port>
+```
+
+### Windows {#in-windows}
+
+**localhost** 값으로 **TRACE_ADDR** 환경 변수를 만들어야 합니다. **`<listening port="" />`**.
+
+>[!IMPORTANT]
+>
+>이 환경 변수를 만든 후 플랫폼이 작동하는지 확인하려면 몇 가지 테스트를 실행하는 것이 좋습니다.
+
+## 보안 영역 구성 {#configuring-security-zones}
+
+각 연산자는 영역에 연결되어 인스턴스에 로그온해야 하며 연산자 IP는 보안 영역에 정의된 주소 또는 주소 집합에 포함되어야 합니다. 기술 영역 구성은 Adobe Campaign 서버의 구성 파일에서 수행됩니다. 연산자와 보안 영역 간의 연결을 콘솔(**[!UICONTROL Administration > Access management > Operators]** 노드)에서 정의해야 합니다.
+
+>[!NOTE]
+>
+>보안 영역 구성에 대한 자세한 내용은 [이 섹션](../../installation/using/security-zones.md)을 참조하세요.

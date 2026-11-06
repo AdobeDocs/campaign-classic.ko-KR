@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 7%
@@ -72,7 +72,7 @@ ht-degree: 7%
 * 각 운영자에게 적절한 액세스 권한이 있는지 확인합니다
 * 관리 연산자를 사용하지 말고 관리 그룹에 연산자가 너무 많지 않도록 하십시오
 
-[자세히 표시](../../installation/using/access-management.md)
+[자세히 표시](../../installation/using/secure-access-management.md)
 
 ## 스크립팅 및 코딩 지침
 
