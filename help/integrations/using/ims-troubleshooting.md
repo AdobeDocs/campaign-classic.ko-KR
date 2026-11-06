@@ -43,9 +43,9 @@ ht-degree: 5%
 
 다음 문제 해결 팁은 **온-프레미스** 및 **하이브리드** 고객이 IMS 통합을 사용할 때 발생하는 가장 일반적인 문제를 해결하는 데 도움이 됩니다. **호스팅** 고객의 경우 Adobe에 문의하십시오.
 
-Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. Adobe ID으로 로그인 및 로그인 문제 해결에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect){target=_blank}를 참조하세요.
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. Adobe ID으로 로그인 및 로그인 문제 해결에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/connect){target=_blank}를 참조하세요.
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/connect){target=_blank}
 
 **외부 계정**
 
