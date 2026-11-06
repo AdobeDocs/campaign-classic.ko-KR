@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: c1f8b6661065c8d5c75e38d80f6986e0c6fbdfa8
+source-git-commit: 186021e65b592522f3c491fb518594b5bac5d003
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 59%
+source-wordcount: '924'
+ht-degree: 40%
 ---
 # Campaign Classic v7 설명서 {#campaign-classic-documentation}
 
@@ -76,7 +76,7 @@ Campaign Classic v7.4.5 - 2026년 10월 빌드(빌드 9420)는 Analytics 외부 
     <div><strong>프로필 추가 및 관리</strong><br/>Adobe Campaign v7 데이터베이스의 프로필 관리를 쉽게 살펴볼 수 있습니다. 수동으로 또는 가져오기를 통해 프로필을 추가하여 고객 데이터를 세분화하고 캠페인을 손쉽게 사용자 지정할 수 있습니다.</div>
     </td>
     <td>
-    <a href="https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank"><img src="assets/do-not-localize/start-workflows.jpeg"></a>
+    <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank"><img src="assets/do-not-localize/start-workflows.jpeg"></a>
     <div><strong>워크플로로 자동화</strong><br/>워크플로를 활용하여 세분화, 캠페인 실행, 파일 처리, 인원 참여 등의 프로세스를 디자인하는 방법을 알아봅니다.
     </div></td>
     <td>
@@ -87,7 +87,7 @@ Campaign Classic v7.4.5 - 2026년 10월 빌드(빌드 9420)는 Analytics 외부 
   <tr style="border: 0;">
     <td align="center"><a href="platform/using/launching-adobe-campaign.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="platform/using/about-profiles.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="delivery/using/communication-channels.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
@@ -97,36 +97,19 @@ Campaign Classic v7.4.5 - 2026년 10월 빌드(빌드 9420)는 Analytics 외부 
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
-      <img src="assets/do-not-localize/icon-start.svg" width="35px">
-    <br/>
-      <strong>시작</strong><br/><a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui" target="_blank">사용자 인터페이스</a>(Campaign v8 설명서) - <a href="platform/using/launching-adobe-campaign.md">Campaign에 연결</a> - <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/import" target="_blank">데이터 가져오기 및 내보내기</a>(Campaign v8 설명서) - <a href="platform/using/access-management.md">권한</a>
-    </td>
-    <td>
-      <img src="assets/do-not-localize/icon-experience.svg" width="35px">
-    <br/>
-      <strong>고객 경험</strong><br/><a href="https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank">워크플로우 자동화</a>(Campaign v8 설명서) - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko" target="_blank">마케팅 캠페인</a> - <a href="interaction/using/interaction-and-offer-management.md">상호 작용 및 오퍼 관리</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank">보고</a>(Campaign v8 설명서)
+      <img src="assets/do-not-localize/icon-configure.svg" width="35px">
+      <br/>
+      <strong>관리자</strong><br/><a href="production/using/general-architecture.md">아키텍처 원칙</a> - <a href="production/using/configuration.md">Campaign 구성</a> - <a href="platform/using/launching-adobe-campaign.md">Campaign에 연결</a> - <a href="installation/using/external-accounts.md">외부 시스템에 연결</a> - <a href="platform/using/access-management.md">권한</a> - <a href="platform/using/privacy-management.md">개인 정보 및 동의</a> - <a href="production/using/build-upgrade.md">빌드 업그레이드 수행</a> - <a href="delivery/using/about-deliverability.md">전달성</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
-    <br/>
-      <strong>메시지 전송</strong><br/><a href="delivery/using/communication-channels.md">커뮤니케이션 채널</a> - <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/create-message" target="_blank">교정쇄 전송</a>(Campaign v8 설명서) - <a href="delivery/using/get-started-a-b-testing.md">A/B 테스트</a> - <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">메시지 추적</a> - <a href="delivery/using/about-deliverability.md">전달성</a> - <a href="message-center/using/about-transactional-messaging.md">트랜잭션 메시지</a>
-    </td>
-  </tr>
-  <tr style="border: 0;">
-    <td>
-      <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
       <br/>
-      <strong>프로필 및 대상자</strong><br/> <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-audiences/create-audiences" target="_blank">목록 생성</a>(Campaign v8 설명서) - <a href="delivery/using/about-services-and-subscriptions.md">서비스 및 구독</a> - <a href="platform/using/privacy-management.md">개인정보 보호 및 동의</a>
-    </td>
-    <td>
-      <img src="assets/do-not-localize/icon-configure.svg" width="35px">
-      <br/>
-      <strong>아키텍처 및 구성</strong><br/><a href="production/using/general-architecture.md">아키텍처 원칙</a> - <a href="production/using/build-upgrade.md">빌드 업그레이드 수행</a> - <a href="production/using/configuration.md">Campaign 구성</a> - <a href="installation/using/external-accounts.md">외부 시스템에 연결</a>
+      <strong>마케터</strong><br/><a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui" target="_blank">사용자 인터페이스</a>(Campaign v8 설명서) - <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/import" target="_blank">데이터 가져오기 및 내보내기</a>(Campaign v8 설명서) - <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-audiences/create-audiences" target="_blank">목록 만들기</a>(Campaign v8 설명서) - <a href="delivery/using/about-services-and-subscriptions.md">서비스 및 구독</a> - <a href="delivery/using/communication-channels.md">통신 채널</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/create-message" target="_blank">증명 보내기</a>(Campaign v8 설명서) - <a href="delivery/using/get-started-a-b-testing.md">A/B 테스트</a> - <a href="message-center/using/about-transactional-messaging.md">트랜잭션 메시지</a> - <a href="interaction/using/interaction-and-offer-management.md">상호 작용 및 오퍼 관리</a> - <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank">워크플로우 자동화</a>(Campaign v8 설명서) - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko" target="_blank">마케팅 campaign</a> - <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">메시지 추적</a>(Campaign v8 설명서) - <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank">보고</a>(Campaign v8 설명서)
     </td>
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
       <br/>
-      <strong>개발자 리소스</strong><br/><a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/datamodel" target="_blank">데이터 모델 설명</a>(Campaign v8 설명서) - <a href="configuration/using/about-schema-reference.md">스키마 구조</a> - <a href="configuration/using/editing-forms.md">입력 양식</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/ko/tools/campaign-api">JSAPI 참조 설명서</a> - <a href="configuration/using/about-custom-recipient-table.md">사용자 지정 수신자 테이블</a>
+      <strong>개발자</strong><br/><a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/datamodel" target="_blank">데이터 모델 설명</a>(Campaign v8 설명서) - <a href="configuration/using/about-schema-reference.md">스키마 구조</a> - <a href="configuration/using/editing-forms.md">입력 양식</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/ko/tools/campaign-api" target="_blank">JSAPI 참조 설명서</a> - <a href="configuration/using/about-custom-recipient-table.md">사용자 지정 수신자 테이블</a>
     </td>
   </tr>
 </table>
@@ -139,12 +122,12 @@ Campaign v8 설명서에 설명된 콘텐츠는 v7 설명서에서 제거되었�
 | --- | --- |
 | 사용자 인터페이스 | [사용자 인터페이스 검색](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} |
 | 프로필, 목록, 가져오기 및 내보내기 | [프로필 및 데이터 가져오기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/import){target="_blank"} |
-| 워크플로 | [워크플로우 정보](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} |
-| 마케팅 캠페인 | [마케팅 캠페인 시작](https://experienceleague.adobe.com/ko/docs/campaign/automation/campaign-orchestration/set-up-campaigns){target="_blank"} |
+| 워크플로 | [워크플로우 정보](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} |
+| 마케팅 캠페인 | [마케팅 캠페인 시작](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/set-up-campaigns){target="_blank"} |
 | 게재 만들기 및 보내기 | [메시지 만들기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/create-message){target="_blank"} |
 | 기본 제공 보고서 | [보고 시작](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"} |
-| 권한 | [사용 권한 시작](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/permissions/gs-permissions){target="_blank"} |
-| 입력 양식 | [입력 양식 시작](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} |
+| 권한 | [사용 권한 시작](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/gs-permissions){target="_blank"} |
+| 입력 양식 | [입력 양식 시작](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} |
 
 ## 추가 리소스
 
