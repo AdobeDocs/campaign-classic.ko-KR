@@ -41,12 +41,20 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
+source-git-commit: 9753491edbeba9df2c0a9dcf53b3bd5ea87c32ca
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '848'
 ht-degree: 3%
 ---
 # 개인화 및 개인 정보 보호 {#privacy}
+
+이 페이지에서는 URL 개인화, URL 서명 및 개인 정보가 포함된 페이지의 보호를 다룹니다.
+
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 데이터 제한 및 개인 정보 보호 요청에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}를 참조하세요.
+
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}
+
+Campaign Classic v7에서 전체 엔티티에 대한 액세스를 제한하려면 빌드 8770 이상이 필요합니다.
 
 ## URL PERSONALIZATION {#url-personalization}
 
@@ -60,11 +68,11 @@ ht-degree: 3%
 
 ### 추천
 
-위의 기능을 사용하고 있지 않은지 확인하고 확인하려면 [Campaign 일반 쿼리 편집기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"}(Campaign v8 설명서)를 통해 URL 추적 테이블에서 쿼리를 실행하거나 쿼리 활동에서 필터 조건을 사용하는 워크플로우를 만드십시오. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"}를 참조하세요.
+위의 기능을 사용하고 있지 않은지 확인하고 확인하려면 [Campaign 일반 쿼리 편집기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"}(Campaign v8 설명서)를 통해 URL 추적 테이블에서 쿼리를 실행하거나 쿼리 활동에서 필터 조건을 사용하는 워크플로우를 만드십시오. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}를 참조하세요.
 
 예:
 
-1. 워크플로우를 만들고 **쿼리** 활동을 추가합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"}를 참조하세요.
+1. 워크플로우를 만들고 **쿼리** 활동을 추가합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}를 참조하세요.
 
 1. **Query** 활동을 열고 `nmsTrackingUrl` 테이블에 다음과 같이 필터를 만듭니다.
 
@@ -113,79 +121,6 @@ URL 서명을 활성화하려면 모든 Campaign 서버에서 동시에 다음 �
 1. **nlserver** 서비스를 다시 시작합니다.
 1. `tracking` 서버에서 `web` 서버를 다시 시작합니다(Debian의 apache2, CentOS/RedHat의 httpd, Windows의 IIS).
 
-## 데이터 제한
-
-권한이 낮은 인증된 사용자가 암호화된 암호에 액세스할 수 없도록 해야 합니다. 이렇게 하려면 암호 필드에만 또는 전체 엔터티(빌드 >= 8770 필요)에 대한 액세스를 제한하십시오.
-
-이 제한 사항을 사용하면 암호 필드를 제거할 수 있지만 모든 사용자의 인터페이스에서 외부 계정에 액세스할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/restrict-pi-view){target="_blank"}(Campaign v8 설명서).
-
-이렇게 하려면 아래 단계를 수행합니다.
-
-1. Campaign 탐색기의 **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]** 폴더로 이동합니다.
-
-1. 데이터 스키마를 **[!UICONTROL Extension of a schema]**(으)로 만듭니다.
-
-   ![](assets/privacy-data-restriction.png)
-
-1. **[!UICONTROL External Account]**(extAccount)을 선택합니다.
-
-1. 마지막 지원 화면에서 새 &#39;srcSchema&#39;를 편집하여 모든 암호 필드에 대한 액세스를 제한합니다.
-
-   주 요소(`<element name="extAccount" ... >`)를 다음과 같이 바꿀 수 있습니다.
-
-   ```sql
-   <element name="extAccount">
-       <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-       <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-   
-       <element name="s3Account">
-           <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="awsSecret"/>
-       </element>
-       <element name="wapPush">
-           <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-           <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-       </element>
-       <element name="mms">
-           <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-           <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-       </element>
-   </element>
-   ```
-
-   이렇게 확장된 srcSchema는 다음과 같이 표시됩니다.
-
-   ```sql
-   <srcSchema _cs="External Accounts (cus)" created="2017-05-12 07:53:49.691Z" createdBy-id="0"
-               desc="Definition of external accounts (Email, SMS...) used by the modules"
-               entitySchema="xtk:srcSchema" extendedSchema="nms:extAccount" img="" label="External Accounts"
-               labelSingular="External account" lastModified="2017-05-12 08:33:49.365Z"
-               mappingType="sql" md5="E9BB0CD6A4375F500027C86EA854E101" modifiedBy-id="0"
-               name="extAccount" namespace="cus" xtkschema="xtk:srcSchema">
-       <createdBy _cs="Administrator (admin)"/>
-       <modifiedBy _cs="Administrator (admin)"/>
-       <element name="extAccount">
-           <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-           <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-   
-           <element name="s3Account">
-               <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="awsSecret"/>
-           </element>
-           <element name="wapPush">
-               <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-               <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-           </element>
-           <element name="mms">
-               <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-               <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-           </element>
-       </element>
-   </srcSchema>    
-   ```
-
-   >[!NOTE]
-   >
-   >`$(loginId) = 0 or $(login) = 'admin'`을(를) `hasNamedRight('admin')`(으)로 바꾸면 관리자 권한이 있는 모든 사용자가 이러한 암호를 볼 수 있습니다.
-
 ## PI로 페이지 보호
 
 미러 페이지, 웹 애플리케이션 등과 같은 개인 정보(PI)가 포함될 수 있는 페이지를 보호하도록 온-프레미스 고객에게 강력히 권장합니다.
@@ -214,8 +149,3 @@ URL 서명을 활성화하려면 모든 Campaign 서버에서 동시에 다음 �
    **robots.txt** 파일 외에 **X-Robots-Tag** 헤더를 추가하는 것이 좋습니다. Apache 또는 IIS와 **serverConf.xml** 구성 파일에서 수행할 수 있습니다.
 
    자세한 내용은 [이 문서](https://developers.google.com/search/reference/robots_meta_tag)를 참조하세요.
-
-
-## 개인정보 보호 요청
-
-개인 정보 관리의 정의와 Adobe Campaign의 구현 단계에 대한 일반적인 정보는 [이 페이지](../../platform/using/privacy-management.md)를 참조하십시오. 또한 모범 사례와 사용자 프로세스 및 가상 사용자에 대한 개요를 살펴볼 수 있습니다.

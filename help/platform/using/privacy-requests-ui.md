@@ -40,16 +40,18 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 9753491edbeba9df2c0a9dcf53b3bd5ea87c32ca
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 100%
+source-wordcount: '718'
+ht-degree: 89%
 ---
 # 개인 정보 보호 요청 생성 및 관리 {#privacy-request-ui}
 
-
-
 이 섹션에서는 액세스 및 삭제 요청을 생성하는 방법뿐만 아니라 Adobe Campaign이 요청을 처리하는 방법도 설명합니다.
+
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 개인 정보 보호 요청을 처리할 때 검색된 표에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/privacy#list-of-tables){target=_blank}를 참조하세요.
+
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/privacy#list-of-tables){target=_blank}
 
 ## 개인 정보 보호 요청 생성 {#create-privacy-request-ui}
 
@@ -74,24 +76,7 @@ ht-degree: 100%
 
 ![](assets/privacy-request-download.png)
 
-## 테이블 목록 {#list-of-tables}
-
-Adobe Campaign은 Delete 또는 Access 개인 정보 보호 요청을 수행할 때 수신자 테이블(고유 유형)에 대한 링크가 있는 모든 테이블의 **[!UICONTROL Reconciliation value]**&#x200B;을(를) 기준으로 모든 데이터 주체의 데이터를 검색합니다.
-
-다음은 개인 정보 보호 요청을 수행할 때 고려할 수 있는 기본 제공 테이블 목록입니다.
-
-* 수신자(recipient)
-* 수신자 게재 로그(broadLogRcp)
-* 수신자 추적 로그(trackingLogRcp)
-* 보관된 이벤트 게재 로그(broadLogEventHisto)
-* 수신자 목록 콘텐츠(rcpGrpRel)
-* 방문자 오퍼 제안(propositionVisitor)
-* 방문자(visitor)
-* 구독 내역(subHisto)
-* 구독(subscription)
-* 수신자 오퍼 제안(propositionRcp)
-
-수신자 테이블(고유 유형)에 대한 링크가 있는 사용자 지정 테이블를 만든 경우, 해당 테이블도 고려됩니다. 예를 들어 수신자 테이블과 연결된 트랜잭션 테이블과 트랜잭션 테이블과 연결된 트랜잭션 세부 정보가 있는 경우, 이 두 가지 모두 고려됩니다.
+## 워크플로우를 통한 일괄 요청
 
 >[!IMPORTANT]
 >

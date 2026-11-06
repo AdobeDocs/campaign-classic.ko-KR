@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: 9753491edbeba9df2c0a9dcf53b3bd5ea87c32ca
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 1%
+source-wordcount: '1269'
+ht-degree: 3%
 ---
 # 양식 편집{#editing-forms}
 
@@ -41,12 +41,16 @@ ht-degree: 1%
 
 마케터와 연산자는 입력 양식을 사용하여 레코드를 만들고, 수정하고, 미리 봅니다. Forms은 정보를 시각적으로 표시합니다.
 
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 입력 양식에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target=_blank}를 참조하세요.
+
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target=_blank}
+
 입력 양식을 만들고 수정할 수 있습니다.
 
 * 기본적으로 제공되는 출고 시 입력 양식을 수정할 수 있습니다. 팩터리 입력 양식은 팩터리 데이터 스키마를 기반으로 합니다.
 * 정의한 데이터 스키마를 기반으로 하여 사용자 정의 입력 양식을 생성할 수 있습니다.
 
-Forms은 `xtk:form` 유형의 엔터티입니다. `xtk:form` 스키마에서 입력 양식 구조를 볼 수 있습니다. 이 스키마를 보려면 메뉴에서 **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**&#x200B;을(를) 선택하십시오. [양식 구조](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
+Forms은 `xtk:form` 유형의 엔터티입니다. `xtk:form` 스키마에서 입력 양식 구조를 볼 수 있습니다. 이 스키마를 보려면 메뉴에서 **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**&#x200B;을(를) 선택하십시오. [양식 구조](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 
 입력 양식에 액세스하려면 메뉴에서 **[!UICONTROL Administration]> [!UICONTROL Configuration] >[!UICONTROL Input forms]**&#x200B;을(를) 선택하십시오.
 
@@ -56,7 +60,7 @@ Forms은 `xtk:form` 유형의 엔터티입니다. `xtk:form` 스키마에서 입
 
 ![](assets/d_ncs_integration_form_edit.png)
 
-[자세히 보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms#formatting){target="_blank"}(Campaign v8 설명서).
+[자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#formatting){target="_blank"}(Campaign v8 설명서).
 
 양식을 미리 보려면 **[!UICONTROL Preview]** 탭을 클릭하십시오.
 
@@ -80,7 +84,7 @@ Forms은 `xtk:form` 유형의 엔터티입니다. `xtk:form` 스키마에서 입
 
 * 어시스턴트
 
-  이 양식은 특정 시퀀스로 순서가 지정된 여러 부동 화면으로 구성됩니다. 사용자는 한 화면에서 다음 화면으로 이동합니다. [자세히 보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms#wizards){target="_blank"}(Campaign v8 설명서).
+  이 양식은 특정 시퀀스로 순서가 지정된 여러 부동 화면으로 구성됩니다. 사용자는 한 화면에서 다음 화면으로 이동합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#wizards){target="_blank"}(Campaign v8 설명서).
 
 * 아이콘 상자
 
@@ -101,72 +105,6 @@ Forms은 `xtk:form` 유형의 엔터티입니다. `xtk:form` 스키마에서 입
 * 가로 창
 
   이 양식에는 항목 목록이 표시됩니다.
-
-## 컨테이너
-
-양식에서 다양한 용도로 컨테이너를 사용할 수 있습니다.
-
-* 양식 내에서 컨텐츠 구성
-* 입력 필드에 대한 액세스 정의
-* 다른 양식 내에 양식 중첩
-
-[자세히 보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"}(Campaign v8 설명서).
-
-### 컨텐츠 구성
-
-컨테이너를 사용하여 양식 내에서 콘텐츠를 구성합니다.
-
-* 필드를 섹션으로 그룹화할 수 있습니다.
-* 다중 페이지 양식에 페이지를 추가할 수 있습니다.
-
-컨테이너를 삽입하려면 `<container>` 요소를 사용합니다. [자세히 보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"}(Campaign v8 설명서).
-
-#### 그룹 필드
-
-컨테이너를 사용하여 입력 필드를 구성된 섹션으로 그룹화합니다.
-
-양식에 섹션을 삽입하려면 이 요소 `<container type="frame">`을(를) 사용합니다. 필요한 경우 섹션 제목을 추가하려면 `label` 특성을 사용하십시오.
-
-구문: `<container type="frame" label="`*section_title*`"> […] </container>`
-
-이 예제에서 컨테이너는 **[!UICONTROL Created by]** 및 **[!UICONTROL Name]** 입력 필드를 구성하는 **Creation** 섹션을 정의합니다.
-
-```xml
-<form _cs="Coupons (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Coupons"
-      name="coupon" namespace="nms" type="default" xtkschema="xtk:form">
-  <input xpath="@code"/>
-  <input xpath="@type"/>
-  <container label="Creation" type="frame">
-    <input xpath="createdBy"/>
-    <input xpath="createdBy/@name"/>
-  </container>
-</form>
-```
-
-![](assets/console_screen_form.png)
-
-#### 다중 페이지 양식에 페이지 추가
-
-다중 페이지 양식의 경우 컨테이너를 사용하여 양식 페이지를 만듭니다.
-
-다음 예제에서는 양식의 **일반** 및 **세부 정보** 페이지에 대한 컨테이너를 보여 줍니다.
-
-```xml
-<container img="ncm:book.png" label="General">
-[…]
-</container>
-<container img="ncm:detail.png" label="Details">
-[…]
-</container>
-```
-
-### 필드에 대한 액세스 정의
-
-컨테이너를 사용하여 표시되는 항목을 정의하고 필드에 대한 액세스를 정의합니다. 필드 그룹을 켜거나 끌 수 있습니다.
-
-### 양식 중첩
-
-컨테이너를 사용하여 양식을 다른 양식 내에 중첩합니다. [자세히 보기](#add-pages-to-multipage-forms)
 
 ## 이미지에 대한 참조
 
@@ -232,7 +170,7 @@ Forms은 `xtk:form` 유형의 엔터티입니다. `xtk:form` 스키마에서 입
 
 1. 양식 요소를 삽입합니다.
 
-   예를들어 입력 필드를 삽입하려면 `<input>` 요소를 사용합니다. `xpath` 특성을 필드 참조로 XPath 식으로 설정합니다. [자세히 보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure#reference-with-xpath){target="_blank"}(Campaign v8 설명서).
+   예를들어 입력 필드를 삽입하려면 `<input>` 요소를 사용합니다. `xpath` 특성을 필드 참조로 XPath 식으로 설정합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure#reference-with-xpath){target="_blank"}(Campaign v8 설명서).
 
    이 예제에서는 `nms:recipient` 스키마를 기반으로 하는 입력 필드를 보여줍니다.
 
@@ -265,7 +203,7 @@ Forms은 `xtk:form` 유형의 엔터티입니다. `xtk:form` 스키마에서 입
    | 확인란 | `type="checkbox"` |
    | 트리 편집 | `type="tree"` |
 
-   [메모리 목록 컨트롤](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms#memory-list-controls){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
+   [메모리 목록 컨트롤](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#memory-list-controls){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
 
 1. 필드에 대한 액세스를 정의합니다(선택적).
 
@@ -303,165 +241,7 @@ Forms은 `xtk:form` 유형의 엔터티입니다. `xtk:form` 스키마에서 입
 
 ## 다중 페이지 양식 만들기 {#create-multipage-form}
 
-다중 페이지 양식을 만들 수 있습니다. 다른 양식 내에 양식을 중첩할 수도 있습니다.
-
-### `iconbox` 양식 만들기
-
-`iconbox` 양식 유형을 사용하여 양식의 왼쪽에 아이콘을 표시합니다. 이 아이콘은 사용자가 양식의 다른 페이지로 이동하는 데 사용됩니다.
-
-![](assets/iconbox_form_preview.png)
-
-기존 양식의 유형을 `iconbox`(으)로 변경하려면 다음 단계를 수행하십시오.
-
-1. `<form>` 요소의 `type` 특성을 `iconbox`(으)로 변경합니다.
-
-   ```xml
-   <form […] type="iconbox">
-   ```
-
-1. 각 양식 페이지에 대한 컨테이너를 설정합니다.
-
-   1. `<container>` 요소를 `<form>` 요소의 자식으로 추가합니다.
-   1. 아이콘의 레이블과 이미지를 정의하려면 `label` 및 `img` 특성을 사용합니다.
-
-      ```xml
-      <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="iconbox" xtkschema="xtk:form">
-          <container img="xtk:properties.png" label="General">
-              <input xpath="@label"/>
-              <input xpath="@name"/>
-              […]
-          </container>
-          <container img="nms:msgfolder.png" label="Details">
-              <input xpath="@address"/>
-              […]
-          </container>
-          <container img="nms:supplier.png" label="Services">
-              […]
-          </container>
-      </form>
-      ```
-
-   또는 기존 `<container>` 요소에서 `type="frame"` 특성을 제거합니다.
-
-### 전자 필기장 양식 만들기
-
-`notebook` 양식 유형을 사용하여 다른 페이지로 이동하는 탭을 양식 맨 위에 표시합니다.
-
-![](assets/notebook_form_preview.png)
-
-기존 양식의 유형을 `notebook`(으)로 변경하려면 다음 단계를 수행하십시오.
-
-1. `<form>` 요소의 `type` 특성을 `notebook`(으)로 변경합니다.
-
-   ```xml
-   <form […] type="notebook">
-   ```
-
-1. 각 양식 페이지에 대한 컨테이너 추가:
-
-   1. `<container>` 요소를 `<form>` 요소의 자식으로 추가합니다.
-   1. 아이콘의 레이블과 이미지를 정의하려면 `label` 및 `img` 특성을 사용합니다.
-
-   ```xml
-     <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="notebook" xtkschema="xtk:form">
-         <container label="General">
-             <input xpath="@label"/>
-             <input xpath="@name"/>
-             […]
-         </container>
-         <container label="Details">
-             <input xpath="@address"/>
-             […]
-         </container>
-         <container label="Services">
-             […]
-         </container>
-     </form>
-   ```
-
-   또는 기존 `<container>` 요소에서 `type="frame"` 특성을 제거합니다.
-
-### 양식 중첩
-
-다른 양식 내에 양식을 중첩할 수 있습니다. 예를 들어 전자 필기장 양식을 iconbox 양식 내에 중첩할 수 있습니다.
-
-중첩 수준은 탐색을 제어합니다. 사용자는 하위 양식으로 드릴다운할 수 있습니다.
-
-다른 폼에 폼을 중첩하려면 `<container>` 요소를 삽입하고 `type` 특성을 폼 형식으로 설정합니다. 최상위 폼의 경우 외부 컨테이너 또는 `<form>` 요소에서 폼 형식을 설정할 수 있습니다.
-
-### 예제
-
-다음 예에서는 복잡한 양식을 보여 줍니다.
-
-* 최상위 양식은 iconbox 양식입니다. 이 양식은 레이블이 **일반** 및 **세부 정보**&#x200B;인 두 개의 컨테이너로 구성됩니다.
-
-  따라서 외부 양식에는 최상위 수준의 **일반** 및 **세부 정보** 페이지가 표시됩니다. 이러한 페이지에 액세스하려면 양식 왼쪽에 있는 아이콘을 클릭합니다.
-
-* 하위 양식은 **일반** 컨테이너 내에 중첩된 전자 필기장 양식입니다. 하위 폼은 **이름** 및 **연락처** 레이블이 지정된 두 개의 컨테이너로 구성됩니다.
-
-```xml
-<form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
-  <container type="iconbox">
-    <container img="ncm:general.png" label="General">
-      <container type="notebook">
-        <container label="Name">
-          <input xpath="@firstName"/>
-          <input xpath="@lastName"/>
-        </container>
-        <container label="Contact">
-          <input xpath="@email"/>
-        </container>
-      </container>
-    </container>
-    <container img="ncm:detail.png" label="Details">
-      <input xpath="@birthDate"/>
-    </container>
-  </container>
-</form>
-```
-
-따라서 외부 양식의 **일반** 페이지에는 **이름** 및 **연락처** 탭이 표시됩니다.
-
-![](assets/nested_forms_preview.png)
-
-다른 폼에 폼을 중첩하려면 `<container>` 요소를 삽입하고 `type` 특성을 폼 형식으로 설정합니다. 최상위 폼의 경우 외부 컨테이너 또는 `<form>` 요소에서 폼 형식을 설정할 수 있습니다.
-
-### 예제
-
-다음 예에서는 복잡한 양식을 보여 줍니다.
-
-* 최상위 양식은 iconbox 양식입니다. 이 양식은 레이블이 **일반** 및 **세부 정보**&#x200B;인 두 개의 컨테이너로 구성됩니다.
-
-  따라서 외부 양식에는 최상위 수준의 **일반** 및 **세부 정보** 페이지가 표시됩니다. 이러한 페이지에 액세스하려면 양식 왼쪽에 있는 아이콘을 클릭합니다.
-
-* 하위 양식은 **일반** 컨테이너 내에 중첩된 전자 필기장 양식입니다. 하위 폼은 **이름** 및 **연락처** 레이블이 지정된 두 개의 컨테이너로 구성됩니다.
-
-```xml
-<form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
-  <container type="iconbox">
-    <container img="ncm:general.png" label="General">
-      <container type="notebook">
-        <container label="Name">
-          <input xpath="@firstName"/>
-          <input xpath="@lastName"/>
-        </container>
-        <container label="Contact">
-          <input xpath="@email"/>
-        </container>
-      </container>
-    </container>
-    <container img="ncm:detail.png" label="Details">
-      <input xpath="@birthDate"/>
-    </container>
-  </container>
-</form>
-```
-
-따라서 외부 양식의 **일반** 페이지에는 **이름** 및 **연락처** 탭이 표시됩니다.
-
-![](assets/nested_forms_preview.png)
-
-
+다중 페이지 양식을 만들 수 있습니다. 다른 양식 내에 양식을 중첩할 수도 있습니다. [컨테이너, 전자 필기장 및 iconbox 양식에 대해 자세히 알아보세요](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"}(Campaign v8 설명서).
 
 ## 팩터리 입력 양식 수정 {#modify-factory-form}
 
@@ -479,16 +259,6 @@ Forms은 `xtk:form` 유형의 엔터티입니다. `xtk:form` 스키마에서 입
 ## 양식 유효성 검사 {#validate-forms}
 
 양식에 유효성 검사 컨트롤을 포함할 수 있습니다.
-
-### 필드에 읽기 전용 액세스 권한 부여
-
-필드에 읽기 전용 액세스 권한을 부여하려면 `readOnly="true"` 특성을 사용하십시오. 예를 들어, 읽기 전용 액세스 권한이 있는 레코드의 기본 키를 표시할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms#non-editable-fields){target="_blank"}(Campaign v8 설명서).
-
-이 예제에서는 `nms:recipient` 스키마의 기본 키(`iRecipientId`)가 읽기 전용 액세스로 표시됩니다.
-
-```xml
-<value xpath="@iRecipientId" readOnly="true"/>
-```
 
 ### 필수 필드 확인
 
@@ -508,11 +278,11 @@ Forms은 `xtk:form` 유형의 엔터티입니다. `xtk:form` 스키마에서 입
 </leave>
 ```
 
-[표현식 필드](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms#expression-field){target="_blank"}(Campaign v8 설명서) 및 [양식 컨텍스트](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"}(Campaign v8 설명서)에 대해 자세히 알아보십시오.
+[표현식 필드](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#expression-field){target="_blank"}(Campaign v8 설명서) 및 [양식 컨텍스트](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"}(Campaign v8 설명서)에 대해 자세히 알아보십시오.
 
 ### 값 유효성 검사
 
-JavaScript SOAP 호출을 사용하여 콘솔에서 양식 데이터의 유효성을 검사할 수 있습니다. 예를 들어 복잡한 유효성 검사에 이러한 호출을 사용하여 승인된 값 목록에 대해 값을 확인합니다. [자세히 보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms#soap-methods){target="_blank"}(Campaign v8 설명서).
+JavaScript SOAP 호출을 사용하여 콘솔에서 양식 데이터의 유효성을 검사할 수 있습니다. 예를 들어 복잡한 유효성 검사에 이러한 호출을 사용하여 승인된 값 목록에 대해 값을 확인합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#soap-methods){target="_blank"}(Campaign v8 설명서).
 
 1. JS 파일에 유효성 검사 함수를 만듭니다.
 
@@ -569,4 +339,4 @@ JavaScript SOAP 호출을 사용하여 콘솔에서 양식 데이터의 유효�
 </enter>
 ```
 
-이 예에서 입력은 기본 키인 ID입니다. 사용자가 이 ID의 양식을 채우면 이 ID를 입력 매개 변수로 하는 SOAP 호출이 수행됩니다. 출력은 이 필드에 기록되는 부울입니다. `/tmp/@count`. 양식 내에서 이 부울을 사용할 수 있습니다. [양식 컨텍스트](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).
+이 예에서 입력은 기본 키인 ID입니다. 사용자가 이 ID의 양식을 채우면 이 ID를 입력 매개 변수로 하는 SOAP 호출이 수행됩니다. 출력은 이 필드에 기록되는 부울입니다. `/tmp/@count`. 양식 내에서 이 부울을 사용할 수 있습니다. [양식 컨텍스트](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"}에 대해 자세히 알아보세요(Campaign v8 설명서).

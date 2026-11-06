@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: cce1f22c34cbd13d063850a7ca636a3b0dfc62f6
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '870'
 ht-degree: 6%
 ---
 # 보고 우수 사례{#best-practices-reporting}
@@ -61,7 +61,7 @@ ht-degree: 6%
    * 기존 보고서에 지표 추가. [이 섹션에서](../../reporting/using/about-reports-creation-in-campaign.md) 자세히 알아보기
    * 데이터베이스에서 데이터를 봅니다. [이 섹션에서](../../reporting/using/about-descriptive-analysis.md) 자세히 알아보기
    * 새 게재 보고서를 만듭니다. 자세히 알아보기 [이 섹션](../../reporting/using/about-reports-creation-in-campaign.md)),
-   * 워크플로우를 통해 Adobe Campaign 데이터베이스에서 데이터를 내보냅니다. [이 섹션](../../workflow/using/about-workflows.md) 참조
+   * 워크플로우를 통해 Adobe Campaign 데이터베이스에서 데이터를 내보냅니다. [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"}(Campaign v8 설명서)
    * 피벗 테이블을 만듭니다. [이 섹션에서](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table) 자세히 알아보기
    * 집계된 데이터를 탐색합니다. [이 섹션에서](../../reporting/using/ac-cubes.md) 자세히 알아보기
    * 도우미를 사용하여 데이터를 분석합니다. [이 섹션에서](../../reporting/using/about-descriptive-analysis.md) 자세히 알아보기
