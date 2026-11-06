@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
+source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 7%
+source-wordcount: '1426'
+ht-degree: 9%
 ---
 # Campaign Classic 기본 제공 패키지 설치{#installing-campaign-standard-packages}
 
@@ -85,7 +85,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> 마케팅 캠페인(캠페인)<br /> </td> 
-   <td> 커뮤니케이션 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석합니다. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=ko" target="_blank">자세히 알아보기</a><br /> </td> 
+   <td> 커뮤니케이션 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석합니다. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html" target="_blank">자세히 알아보기</a><br /> </td> 
    <td> 마케팅</td>
   </tr> 
   <tr> 
@@ -178,7 +178,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> 외부 데이터에 액세스(페더레이션 데이터 액세스)<br /> </td> 
-   <td> Adobe Campaign 데이터의 구조를 변경하지 않고 외부 데이터에 액세스할 수 있도록 하나 이상의 외부 데이터베이스에 저장된 정보를 처리하기 위한 FDA(Federated Data Access) 옵션을 제공합니다.  선택 사항입니다. <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html?lang=ko" target="_blank">자세히 알아보기</a> <br /> </td> 
+   <td> Adobe Campaign 데이터의 구조를 변경하지 않고 외부 데이터에 액세스할 수 있도록 하나 이상의 외부 데이터베이스에 저장된 정보를 처리하기 위한 FDA(Federated Data Access) 옵션을 제공합니다.  선택 사항입니다. <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html" target="_blank">자세히 알아보기</a> <br /> </td> 
    <td> 모두<br /> </td> 
   </tr> 
   <tr> 
@@ -193,7 +193,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> 쿠폰 관리<br /> </td> 
-   <td> 예정된 마케팅 오퍼에 추가할 쿠폰 세트를 만듭니다. 선택 사항입니다. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html?lang=ko" target="_blank">자세히 알아보기</a> <br /> </td> 
+   <td> 예정된 마케팅 오퍼에 추가할 쿠폰 세트를 만듭니다. 선택 사항입니다. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html" target="_blank">자세히 알아보기</a> <br /> </td> 
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 
@@ -218,7 +218,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> AEM 통합<br /> </td> 
-   <td> Adobe Experience Manager에서 이메일 게재 콘텐츠와 양식을 직접 관리할 수 있으므로 AEM의 콘텐츠 편집 기능과 Adobe Campaign의 게재 기능을 활용할 수 있습니다. <a href="../../integrations/using/about-adobe-experience-manager.md">자세히 알아보기</a> <br /> </td> 
+   <td> Adobe Experience Manager에서 이메일 게재 콘텐츠와 양식을 직접 관리할 수 있으므로 AEM의 콘텐츠 편집 기능과 Adobe Campaign의 게재 기능을 활용할 수 있습니다. <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem" target="_blank">자세히 알아보기</a>(Campaign v8 설명서) <br /> </td> 
    <td> 마케팅</td> 
   </tr> 
   <tr> 
@@ -248,7 +248,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> AMP 지원<br /> </td> 
-   <td> 이메일 형식에 새로운 대화형 AMP를 사용하고 다이내믹 이메일을 보낼 수 있습니다. 선택 사항입니다. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html?lang=ko" target="_blank">자세히 알아보기</a> <br /> </td> 
+   <td> 이메일 형식에 새로운 대화형 AMP를 사용하고 다이내믹 이메일을 보낼 수 있습니다. 선택 사항입니다. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html" target="_blank">자세히 알아보기</a> <br /> </td> 
    <td> 모두 </td> 
   </tr> 
   <tr> 
@@ -283,7 +283,7 @@ ht-degree: 7%
 
 * Marketing 및 MID 인스턴스에 모두 [!DNL LINE] 패키지 설치
 
-* 게재 모드를 변경하여 mid 인스턴스를 가리키도록 mkt 인스턴스에서 [!DNL LINE] 외부 계정을 설정합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"}(Campaign v8 설명서)
+* 게재 모드를 변경하여 mid 인스턴스를 가리키도록 mkt 인스턴스에서 [!DNL LINE] 외부 계정을 설정합니다. [자세히 보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"}(Campaign v8 설명서)
 
 * MID 인스턴스의 외부 계정에 [!DNL LINE] 자격 증명을 설정합니다.
 

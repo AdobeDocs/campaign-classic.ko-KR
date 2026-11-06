@@ -22,9 +22,9 @@ feature_v2:
 subfeature_v2:
   - id: e656c701-3899-4db3-989c-de0980ddfffa
     internal-label: Installation
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '726'
 ht-degree: 4%
 ---
 # 네트워크 구성{#network-configuration}
@@ -236,7 +236,7 @@ Adobe Campaign 리치 클라이언트(**nlclient**)의 경우 다음 포트가 �
 
 ## Adobe Experience Manager과 통합 {#integration-with-adobe-experience-manager}
 
-Adobe Campaign과 Adobe Experience Manager을 통합하려면 설치가 &quot;온프레미스&quot;인 경우 여러 포트를 열어야 합니다. 이 통합 구성에 대한 자세한 내용은 [자세한 설명서](../../integrations/using/about-adobe-experience-manager.md)를 참조하세요.
+Adobe Campaign과 Adobe Experience Manager을 통합하려면 설치가 &quot;온프레미스&quot;인 경우 여러 포트를 열어야 합니다. 이 통합 구성에 대한 자세한 내용은 [자세한 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}(Campaign v8 설명서)를 참조하세요.
 
 <table> 
  <tbody> 

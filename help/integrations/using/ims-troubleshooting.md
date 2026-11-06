@@ -33,15 +33,19 @@ subfeature_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '492'
 ht-degree: 5%
 ---
 # IMS 문제 해결{#ims-troubleshooting}
 
 
 다음 문제 해결 팁은 **온-프레미스** 및 **하이브리드** 고객이 IMS 통합을 사용할 때 발생하는 가장 일반적인 문제를 해결하는 데 도움이 됩니다. **호스팅** 고객의 경우 Adobe에 문의하십시오.
+
+Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. Adobe ID으로 로그인 및 로그인 문제 해결에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect){target=_blank}를 참조하세요.
+
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect){target=_blank}
 
 **외부 계정**
 
@@ -106,16 +110,3 @@ Campaign 외부 계정의 위의 설정이 변경되면 서버를 다시 시작�
 * Adobe ID 로그인 페이지에 액세스할 수 없습니다.
 
   범위 구성을 확인하려면 이전 단계를 참조하십시오.
-
-**WebView2 캐시 문제**
-
-Adobe ID으로 **[!UICONTROL Client Console]**&#x200B;에 로그인할 때 문제가 발생하면 로컬 WebView2 캐시를 지우십시오. 대부분의 경우 이렇게 하면 문제가 해결됩니다. 아래의 단계를 수행하십시오.
-
-1. **[!UICONTROL Client Console]**&#x200B;을(를) 닫고 실행 중인 `nlclient` 프로세스를 중지합니다.
-
-1. 다음 위치에서 `webview2` 및 `webview2Cache` 폴더를 모두 삭제하십시오.
-
-   * `C:\ProgramData\Neolane\NL_5\nlclient\`
-   * `C:\Users\<username>\AppData\Roaming\Neolane\NL_5\nlclient\`
-
-1. **[!UICONTROL Client Console]**&#x200B;을(를) 다시 시작하고 Adobe ID으로 로그인합니다. 캐시 폴더는 다음 실행 시 자동으로 다시 만들어집니다.
