@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3d6f0751869871f811046dd52bab59dbcf587350
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
 workflow-type: tm+mt
 source-wordcount: '1897'
 ht-degree: 6%
@@ -37,9 +37,11 @@ ht-degree: 6%
 
 Adobe Campaign에는 미리 정의된 외부 계정 집합이 포함되어 있습니다. 외부 시스템과의 연결을 설정하기 위해 새 외부 계정을 만들 수 있습니다.
 
-Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 외부 계정에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/external-accounts){target=_blank}를 참조하세요.
-
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/external-accounts){target=_blank}
+>[!NOTE]
+>
+>Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 외부 계정에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/external-accounts){target=_blank}를 참조하세요.
+>
+>[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/external-accounts){target=_blank}
 
 외부 계정은 기술 워크플로 또는 캠페인 워크플로와 같은 기술 프로세스에서 사용됩니다. 예를 들어 워크플로우에서 파일 전송을 설정하거나 다른 애플리케이션(Adobe Target, Experience Manager 등)과의 데이터 교환을 설정할 때 외부 계정을 선택해야 합니다.
 
@@ -70,7 +72,7 @@ Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명
 
 ### 바운스 메일 {#bounce-mails-external-account}
 
-**바운스 메일** 외부 계정은 전자 메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. 이 외부 계정에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=ko){target="_blank"}를 참조하세요.
+**바운스 메일** 외부 계정은 전자 메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. 이 외부 계정에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}를 참조하세요.
 
 POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는 데 사용할 수 있습니다.
 
@@ -142,7 +144,7 @@ POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는
 * [DM](../../delivery/using/about-direct-mail-channel.md)
 * [에이전시](../../delivery/using/communication-channels.md#other-channels)
 * [X(이전 Twitter라고 함)](../../social/using/about-social-marketing.md)
-* [iOS 및 Android 채널](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html?lang=ko){target="_blank"}
+* [iOS 및 Android 채널](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html){target="_blank"}
 
 ### 이메일 라우팅 {#email-routing-external-account}
 
@@ -182,7 +184,7 @@ POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는
 
 ### FTP {#ftp-external-account}
 
-FTP 외부 계정을 사용하여 Adobe Campaign 외부의 서버에 대한 액세스를 구성하고 테스트할 수 있습니다. 파일 전송에 사용되는 FTP 서버 898과 같은 외부 시스템과의 연결을 설정하기 위해 자체 외부 계정을 만들 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ko){target="_blank"}를 참조하십시오.
+FTP 외부 계정을 사용하여 Adobe Campaign 외부의 서버에 대한 액세스를 구성하고 테스트할 수 있습니다. 파일 전송에 사용되는 FTP 서버 898과 같은 외부 시스템과의 연결을 설정하기 위해 자체 외부 계정을 만들 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}를 참조하십시오.
 
 이렇게 하려면 이 외부 계정에서 FTP 서버 연결을 설정하는 데 사용되는 주소와 자격 증명을 지정합니다
 
@@ -212,7 +214,7 @@ FTP 외부 계정을 사용하여 Adobe Campaign 외부의 서버에 대한 액�
 
 ### SFTP {#sftp-external-account}
 
-SFTP 외부 계정을 사용하여 Adobe Campaign 외부의 서버에 대한 액세스를 구성하고 테스트할 수 있습니다. 파일 전송에 사용되는 SFTP와 같은 외부 시스템과의 연결을 설정하려면 고유한 외부 계정을 만들 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ko){target="_blank"}를 참조하십시오.
+SFTP 외부 계정을 사용하여 Adobe Campaign 외부의 서버에 대한 액세스를 구성하고 테스트할 수 있습니다. 파일 전송에 사용되는 SFTP와 같은 외부 시스템과의 연결을 설정하려면 고유한 외부 계정을 만들 수 있습니다. 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}를 참조하십시오.
 
 ![](assets/ext_account_4.png)
 
@@ -337,7 +339,7 @@ Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하려면 **[!UICONTROL 
 
   Adobe Experience Manager 작성 인스턴스에 연결하는 데 사용되는 암호입니다.
 
-자세한 내용은 이 [섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}(Campaign v8 설명서)을 참조하세요.
+자세한 내용은 이 [섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 ## CRM 커넥터 외부 계정
 
@@ -439,7 +441,7 @@ Adobe Campaign에서 작동하도록 Salesforce CRM 외부 계정을 구성하�
 
 ### Azure Blob 스토리지 {#azure-blob-external-account}
 
-**Azure Blob 저장소** 외부 계정을 사용하여 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 Adobe Campaign으로 데이터를 가져오거나 내보낼 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ko){target="_blank"}를 참조하세요.
+**Azure Blob 저장소** 외부 계정을 사용하여 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 Adobe Campaign으로 데이터를 가져오거나 내보낼 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}를 참조하세요.
 
 ![](assets/ext_account_23.png)
 
