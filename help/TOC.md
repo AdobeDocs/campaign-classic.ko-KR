@@ -8,9 +8,9 @@ user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
+source-git-commit: 77efa1dcdb82a478e93565e84099d568f6a5f5fe
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1353'
 ht-degree: 97%
 ---
 
@@ -357,27 +357,13 @@ ht-degree: 97%
 + 오퍼 관리 {#managing-offers}
   + 상호 작용 시작 {#interaction-overview}
     + [상호 작용 및 오퍼 관리](interaction/using/interaction-and-offer-management.md)
-  + 오퍼 카탈로그 관리 {#managing-an-offer-catalog}
-    + [오퍼 승인 및 활성화](interaction/using/approving-and-activating-an-offer.md)
-    + [오퍼 템플릿 관리](interaction/using/managing-offer-templates.md)
-    + [오퍼 프레젠테이션 관리](interaction/using/managing-offer-presentation.md)
-  + 오퍼 시뮬레이션{#simulating-offers}
-    + [오퍼 시뮬레이션 정보](interaction/using/about-offers-simulation.md)
-    + [실행 설정](interaction/using/execution-settings.md)
-    + [시뮬레이션 범위](interaction/using/simulation-scope.md)
-    + [시뮬레이션 추적](interaction/using/simulation-tracking.md)
   + 고급 매개 변수 {#advanced-parameters}
     + [고급 매개 변수 사용](interaction/using/using-advanced-parameters.md)
     + [추가 데이터](interaction/using/additional-data.md)
-    + [확장 예제](interaction/using/extension-example.md)
     + [테스트 환경 만들기](interaction/using/creating-a-test-environment.md)
     + [표준 엔진 동작 수정](interaction/using/hooks.md)
     + [분산 아키텍처](interaction/using/distributed-architectures.md)
     + [데이터 버퍼 구성](installation/using/interaction-data-buffer.md)
-  + 사용 사례 {#case-study}
-    + [프레젠테이션 규칙](interaction/using/presentation-rules.md)
-    + [인바운드 채널에 대한 오퍼](interaction/using/offers-on-an-inbound-channel.md)
-    + [아웃바운드 채널에 대한 오퍼](interaction/using/offers-on-an-outbound-channel.md)
 + 보고서 디자인 및 공유 {#reporting}
   + 보고 시작 {#reporting-in-adobe-campaign}
     + [보고 모범 사례](reporting/using/best-practices.md)
@@ -406,7 +392,7 @@ ht-degree: 97%
   + [Campaign 통합 시작](integrations/using/about-campaign-integrations.md)
   + [Adobe 기술 계정 만들기](integrations/using/oauth-technical-account.md)
   + Adobe Experience Cloud 트리거 {#experience-triggers}
-    + [&#x200B; [!DNL Experience Cloud Triggers]로 작업](integrations/using/about-triggers.md)
+    + [ [!DNL Experience Cloud Triggers]로 작업](integrations/using/about-triggers.md)
     + [파이프라인 구성](integrations/using/configuring-pipeline.md)
     + [사용자 정의 구현을 위한 이벤트 구성](integrations/using/events.md)
     + [파이프라인 모니터링](integrations/using/pipeline-monitoring.md)
@@ -419,19 +405,19 @@ ht-degree: 97%
     + [Adobe Analytics 커넥터 시작](integrations/using/gs-aa.md)
     + [Adobe Analytics 커넥터 프로비전](integrations/using/adobe-analytics-provisioning.md)
   + 대상자 공유 {#audience-sharing}
-    + [&#x200B; [!DNL Adobe Experience Cloud]와 대상자 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+    + [ [!DNL Adobe Experience Cloud]와 대상자 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
     + [Adobe에 요청 제출](integrations/using/submitting-request-to-adobe.md)
-    + [&#x200B; [!DNL Adobe Campaign]에서 공유 대상자 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+    + [ [!DNL Adobe Campaign]에서 공유 대상자 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
     + {hide-from-toc}[문제 해결](integrations/using/integrations-troubleshooting.md)
     + [대상자 가져오기 및 내보내기](integrations/using/importing-and-exporting-audiences.md)
   + 자산 공유 {#asset-sharing}
-    + [&#x200B; [!DNL Adobe Experience Cloud]와 에셋 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-    + [&#x200B; [!DNL Assets] 액세스 구성](integrations/using/configuring-access-to-assets.md)
+    + [ [!DNL Adobe Experience Cloud]와 에셋 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+    + [ [!DNL Assets] 액세스 구성](integrations/using/configuring-access-to-assets.md)
     + [공유 에셋 삽입](integrations/using/inserting-a-shared-asset.md)
   + Adobe Experience Manager {#adobe-experience-manager}
     + [통합 구성](integrations/using/configuring-the-integration.md)
   + Adobe Target {#adobe-target}
-    + [&#x200B; [!DNL Adobe Target]과의 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
+    + [ [!DNL Adobe Target]과의 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
 + 소셜 미디어와 통합 {#integrating-with-social-media}
   + [소셜 마케팅 정보](social/using/about-social-marketing.md)
 + 기술 노트 {#technotes}
