@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+source-git-commit: 0fdce84d7da1ff42a406ace8f1a180f6a426646a
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 2%
@@ -39,13 +39,13 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 트랜잭션 메시지 이벤트 제거 및 기술 워크플로우에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/transactional-msg-settings){target=_blank}를 참조하세요.
+>Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 트랜잭션 메시지 이벤트 제거 및 기술 워크플로우에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/transactional-msg-settings){target=_blank}를 참조하세요.
 >
->[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/transactional-msg-settings){target=_blank}
+>[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/transactional-msg-settings){target="_blank"}
 
 ## 임계값 모니터링 {#monitoring-thresholds}
 
-**메시지 센터 서비스 수준** 및 **메시지 센터 처리 시간** 보고서에 표시되는 표시기의 경고 임계값(주황색) 및 경고 임계값(빨간색)을 구성할 수 있습니다([트랜잭션 메시지 보고서 액세스](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"}(Campaign v8 설명서).
+**메시지 센터 서비스 수준** 및 **메시지 센터 처리 시간** 보고서에 표시되는 표시기의 경고 임계값(주황색) 및 경고 임계값(빨간색)을 구성할 수 있습니다([트랜잭션 메시지 보고서 액세스](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"}(Campaign v8 설명서).
 
 이렇게 하려면 아래 단계를 수행합니다.
 
@@ -77,7 +77,7 @@ ht-degree: 2%
 
 ### 호환성 정보 {#compatibility-note}
 
-이 레거시 브랜딩 구성은 Campaign v8에 도입된 새 [중앙 브랜딩](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=ko){target="_blank"} 모델과 호환되지 않습니다.
+이 레거시 브랜딩 구성은 Campaign v8에 도입된 새 [중앙 브랜딩](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"} 모델과 호환되지 않습니다.
 
 기존 환경에서 이 레거시 구성을 사용하는 경우 이를 새 중앙 집중식 브랜딩 모델로 직접 마이그레이션할 수 없습니다. 새 시스템을 채택하려면 브랜딩 설정을 완전히 다시 구현해야 합니다.
 
@@ -148,6 +148,6 @@ ht-degree: 2%
 
 1. [실행 인스턴스](#execution-instance)에 정의된 내부 이름과 동일한 외부 계정을 브랜드당 하나씩 만듭니다(1단계).
 
-1. 브랜드별 게재 템플릿을 만듭니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ko){target="_blank"}를 참조하세요.
+1. 브랜드별 게재 템플릿을 만듭니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}를 참조하세요.
 
 1. 게재 템플릿의 **[!UICONTROL Properties]**&#x200B;에서 라우팅을 브랜드의 외부 계정으로 설정합니다.

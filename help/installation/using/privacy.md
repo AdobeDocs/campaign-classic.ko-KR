@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+source-git-commit: 0fdce84d7da1ff42a406ace8f1a180f6a426646a
 workflow-type: tm+mt
 source-wordcount: '848'
 ht-degree: 3%
@@ -52,9 +52,9 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 데이터 제한 및 개인 정보 보호 요청에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}를 참조하세요.
+>Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 데이터 제한 및 개인 정보 보호 요청에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}를 참조하세요.
 >
->[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}
+>[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security#data-restriction){target="_blank"}
 
 Campaign Classic v7에서 전체 엔티티에 대한 액세스를 제한하려면 빌드 8770 이상이 필요합니다.
 
@@ -70,11 +70,11 @@ Campaign Classic v7에서 전체 엔티티에 대한 액세스를 제한하려�
 
 ### 추천
 
-위의 기능을 사용하고 있지 않은지 확인하고 확인하려면 [Campaign 일반 쿼리 편집기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"}(Campaign v8 설명서)를 통해 URL 추적 테이블에서 쿼리를 실행하거나 쿼리 활동에서 필터 조건을 사용하는 워크플로우를 만드십시오. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"}를 참조하세요.
+위의 기능을 사용하고 있지 않은지 확인하고 확인하려면 [Campaign 일반 쿼리 편집기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"}(Campaign v8 설명서)를 통해 URL 추적 테이블에서 쿼리를 실행하거나 쿼리 활동에서 필터 조건을 사용하는 워크플로우를 만드십시오. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}를 참조하세요.
 
 예:
 
-1. 워크플로우를 만들고 **쿼리** 활동을 추가합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"}를 참조하세요.
+1. 워크플로우를 만들고 **쿼리** 활동을 추가합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}를 참조하세요.
 
 1. **Query** 활동을 열고 `nmsTrackingUrl` 테이블에 다음과 같이 필터를 만듭니다.
 

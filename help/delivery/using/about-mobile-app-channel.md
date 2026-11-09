@@ -37,7 +37,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+source-git-commit: 0fdce84d7da1ff42a406ace8f1a180f6a426646a
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 6%
@@ -48,15 +48,15 @@ Adobe Campaign을 사용하여 푸시 알림 게재를 만들어 개인화된 �
 
 >[!NOTE]
 >
->Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 푸시 알림 채널에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/push){target=_blank}를 참조하세요.
+>Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 푸시 알림 채널에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push){target=_blank}를 참조하세요.
 >
->[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/push){target=_blank}
+>[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push){target="_blank"}
 
 다음 정보는 Campaign Classic에만 해당됩니다.
 
 +++ **패키지 설치**
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 모바일 앱 패키지를 설치하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html?lang=ko#sending-messages)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 모바일 앱 패키지를 설치하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html#sending-messages)
 
 하이브리드/호스팅 고객은 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 팀에 문의하여 Campaign의 푸시 알림 채널에 액세스하십시오.
 
@@ -86,7 +86,7 @@ Adobe Campaign을 사용하여 푸시 알림 게재를 만들어 개인화된 �
 
 1. **[!UICONTROL Close]** 설치 창을 엽니다.
 
-이 단계를 완료하면 Android 및 iOS 앱을 구성할 수 있습니다. Campaign v8 [설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html?lang=ko){target="_blank"}를 참조하세요.
+이 단계를 완료하면 Android 및 iOS 앱을 구성할 수 있습니다. Campaign v8 [설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html){target="_blank"}를 참조하세요.
 
 +++
 
@@ -105,6 +105,6 @@ HTTP/2 커넥터: 다음 서버와의 통신을 허용해야 합니다.
 
 >[!NOTE]
 >
->두 커넥터에 대한 자세한 내용은 Campaign v8 [설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html?lang=ko){target="_blank"}를 참조하세요.
+>두 커넥터에 대한 자세한 내용은 Campaign v8 [설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html){target="_blank"}를 참조하세요.
 
 +++
