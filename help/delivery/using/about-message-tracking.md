@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1399'
 ht-degree: 3%
 ---
 # 메시지 추적 시작 {#get-started-tracking}
@@ -56,12 +56,12 @@ ht-degree: 3%
 >
 >Campaign Classic v7 및 Campaign v8에 모두 적용되는 **일반 추적 지침**&#x200B;에 대해서는 [Campaign v8 메시지 추적 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"}를 참조하세요.
 >
->* [추적된 링크 구성](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"}
->* [URL 추적 옵션 구성](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"}
->* [개인화된 링크 추적](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/personalized-links){target="_blank"}
->* [추적 로그 액세스](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"}
->* [테스트 추적](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/testing-tracking){target="_blank"}
->* [보고서 추적](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/reporting/delivery-reports#tracking-indicators){target="_blank"}
+>* [추적된 링크 구성](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"}
+>* [URL 추적 옵션 구성](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"}
+>* [개인화된 링크 추적](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/personalized-links){target="_blank"}
+>* [추적 로그 액세스](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"}
+>* [테스트 추적](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/testing-tracking){target="_blank"}
+>* [보고서 추적](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/reporting/delivery-reports#tracking-indicators){target="_blank"}
 >
 >**이 페이지에서는 주로 하이브리드 및 온-프레미스 배포에 대해 Campaign Classic v7별 추적 기능만 문서화합니다**.
 
@@ -108,11 +108,11 @@ Campaign에는 두 가지 유형의 추적이 있습니다.
 
 **웹 애플리케이션 추적**
 
-추적 태그를 사용하여 웹 애플리케이션 페이지에서 방문을 추적하고 측정할 수도 있습니다. 이 기능은 양식 및 랜딩 페이지와 같은 모든 웹 애플리케이션 유형에 사용할 수 있습니다. [자세히 알아보기](../../web/using/tracking-a-web-application.md)
+추적 태그를 사용하여 웹 애플리케이션 페이지에서 방문을 추적하고 측정할 수도 있습니다. 이 기능은 양식 및 랜딩 페이지와 같은 모든 웹 애플리케이션 유형에 사용할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/tracking-a-web-application){target="_blank"}(Campaign v8 설명서)
 
 **웹 애플리케이션 추적 옵트아웃**
 
-웹 애플리케이션 추적 옵트아웃을 사용하면 행동 추적을 옵트아웃한 최종 사용자의 웹 행동 추적을 중지할 수 있습니다. 웹 애플리케이션이나 랜딩 페이지에 배너를 표시하여 사용자가 옵트아웃할 수 있도록 하는 기능을 포함할 수 있습니다. [자세히 알아보기](../../web/using/web-application-tracking-opt-out.md)
+웹 애플리케이션 추적 옵트아웃을 사용하면 행동 추적을 옵트아웃한 최종 사용자의 웹 행동 추적을 중지할 수 있습니다. 웹 애플리케이션이나 랜딩 페이지에 배너를 표시하여 사용자가 옵트아웃할 수 있도록 하는 기능을 포함할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/web-application-tracking-opt-out){target="_blank"}(Campaign v8 설명서)
 
 ## 추적 문제 해결 {#tracking-troubleshooting}
 
@@ -120,7 +120,7 @@ Campaign에는 두 가지 유형의 추적이 있습니다.
 
 다음 문제 해결 팁은 **Campaign Classic v7 하이브리드/온-프레미스 배포**&#x200B;에 적용됩니다. 일부 정보는 Campaign v8 온-프레미스 배포에도 적용될 수 있습니다. Campaign v8 관리 클라우드 서비스의 경우 Adobe 담당자에게 지원을 요청하십시오.
 
-Campaign v8의 기본 추적 문제 해결 단계는 Campaign v8 설명서의 [추적 문제 해결](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/tracking-logs#troubleshooting){target="_blank"}을 참조하십시오.
+Campaign v8의 기본 추적 문제 해결 단계는 Campaign v8 설명서의 [추적 문제 해결](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking-logs#troubleshooting){target="_blank"}을 참조하십시오.
 
 ### 기본 검사 {#basic-checks}
 

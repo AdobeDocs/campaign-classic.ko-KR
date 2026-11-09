@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 8%
+source-wordcount: '285'
+ht-degree: 4%
 ---
 # 조건부 콘텐츠 정의{#defining-a-conditional-content}
 
@@ -49,7 +49,7 @@ ht-degree: 8%
 
 가시성 조건은 운영자 상태, 보고서 페이지에서 선택하거나 입력한 항목에 따라 달라질 수 있습니다.
 
-페이지에 항목을 조건부로 표시하는 예는 [이 섹션](../../web/using/form-rendering.md#defining-fields-conditional-display)에 나와 있습니다.
+페이지에 있는 항목의 조건부 표시를 보여주는 예제는 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/form-rendering#defining-fields-conditional-display){target="_blank"}에 제공됩니다(Campaign v8 설명서).
 
 다음 예에서 표시 조건은 언어에 따라 다릅니다.
 
@@ -72,6 +72,6 @@ ht-degree: 8%
 
 1. 구성된 조건 중 하나가 충족되지 않는 경우 전환을 추가하려면 **[!UICONTROL Enable default transition]**&#x200B;을(를) 선택하십시오.
 
-   이 작업에 대한 자세한 정보는 [이 섹션](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display)을 참조하십시오.
+   자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-page-sequencing#conditional-page-display){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 차트 시작 부분에 **[!UICONTROL Test]** 활동을 배치하여 컨텍스트 또는 연산자 프로필에 따라 표시를 조정할 수 있습니다.

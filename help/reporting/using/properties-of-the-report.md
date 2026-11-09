@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Reporting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
     internal-label: Accessibility
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '448'
 ht-degree: 2%
 ---
 # 보고서의 속성{#properties-of-the-report}
@@ -43,7 +43,7 @@ ht-degree: 2%
 
 ![](assets/s_ncs_advuser_report_properties_01.png)
 
-일반 속성은 아래에 설명되어 있습니다. **[!UICONTROL Parameters]**, **[!UICONTROL Variables]** 및 **[!UICONTROL Scripts]** 탭에 구성된 고급 기능은 이 섹션[&#128279;](../../reporting/using/advanced-functionalities.md)에서 에 설명되어 있습니다.
+일반 속성은 아래에 설명되어 있습니다. **[!UICONTROL Parameters]**, **[!UICONTROL Variables]** 및 **[!UICONTROL Scripts]** 탭에 구성된 고급 기능은 이 섹션](../../reporting/using/advanced-functionalities.md)에서 [에 설명되어 있습니다.
 
 ## 일반 속성 {#overall-properties}
 
@@ -86,7 +86,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Campaign의 웹 페이지 로컬라이제이션에 대한 자세한 정보는 [이 섹션](../../web/using/translating-a-web-form.md)을 참조하세요.
+>Campaign의 웹 페이지 지역화에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/translating-a-web-form){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 ## HTML 렌더링 개인화 {#personalizing-html-rendering}
 

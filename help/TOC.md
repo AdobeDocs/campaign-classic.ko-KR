@@ -8,9 +8,9 @@ user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: aeb8e44e8183cad6557fe2f27565cad0343777e5
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1395'
 ht-degree: 97%
 ---
 
@@ -354,45 +354,6 @@ ht-degree: 97%
   + 메시지 템플릿 {#message-templates}
     + [메시지 템플릿 테스트](message-center/using/testing-message-templates.md)
   + [사용 사례](message-center/using/transactional-email-with-attachments.md)
-+ 웹 콘텐츠 디자인 {#designing-content}
-  + 웹 애플리케이션 {#web-applications}
-    + [웹 애플리케이션 시작](web/using/about-web-applications.md)
-    + [새 웹 애플리케이션 만들기](web/using/creating-a-new-web-application.md)
-    + [웹 애플리케이션 디자인](web/using/designing-a-web-application.md)
-    + [활용 사례: 개요 만들기](web/using/use-cases-creating-overviews.md)
-    + [웹 애플리케이션 번역](web/using/translating-a-web-application.md)
-    + [웹 애플리케이션에서 방문 수 추적](web/using/tracking-a-web-application.md)
-    + [웹 애플리케이션 추적 옵트아웃](web/using/web-application-tracking-opt-out.md)
-  + HTML 콘텐츠 편집 {#editing-html-content}
-    + [HTML 편집기 시작](web/using/about-campaign-html-editor.md)
-    + [템플릿 관리](web/using/template-management.md)
-    + [콘텐츠 편집기 인터페이스](web/using/content-editor-interface.md)
-    + [콘텐츠 편집](web/using/editing-content.md)
-    + [콘텐츠 편집 모범 사례](web/using/content-editing-best-practices.md)
-    + [랜딩 페이지 만들기](web/using/creating-a-landing-page.md)
-    + [활용 사례: 이메일 게재 만들기](web/using/use-case-creating-an-email-delivery.md)
-  + 웹 양식 {#web-forms}
-    + [웹 양식 시작](web/using/about-web-forms.md)
-    + [웹 양식 템플릿 사용](web/using/using-a-web-form-template.md)
-    + [웹 양식에 필드 추가](web/using/adding-fields-to-a-web-form.md)
-    + [웹 양식의 정적 요소](web/using/static-elements-in-a-web-form.md)
-    + [웹 양식 레이아웃 정의](web/using/defining-web-forms-layout.md)
-    + [양식 렌더링](web/using/form-rendering.md)
-    + [페이지 시퀀싱 정의](web/using/defining-web-forms-page-sequencing.md)
-    + [웹 양식 답변 저장](web/using/web-forms-answers.md)
-    + [웹 양식 게시](web/using/publishing-a-web-form.md)
-    + [웹 양식 속성 정의](web/using/defining-web-forms-properties.md)
-    + [웹 양식 번역](web/using/translating-a-web-form.md)
-    + [활용 사례: 웹 양식](web/using/use-cases-web-forms.md)
-+ 온라인 설문 조사 만들기 {#online-surveys}
-  + [설문 조사 시작](surveys/using/about-surveys.md)
-  + [설문 조사 만들기의 주요 단계](surveys/using/getting-started-with-surveys.md)
-  + [설문 조사 디자인](surveys/using/building-a-survey.md)
-  + [답변 관리](surveys/using/managing-answers.md)
-  + [수집된 데이터 게시, 추적 및 사용](surveys/using/publish-track-and-use-collected-data.md)
-  + [설문 조사 구성](surveys/using/configuring-surveys.md)
-  + [활용 사례: 참조 양식 만들기](surveys/using/use-case-creating-a-refer-a-friend-form.md)
-  + [사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + 오퍼 관리 {#managing-offers}
   + 상호 작용 시작 {#interaction-overview}
     + [상호 작용 및 오퍼 관리](interaction/using/interaction-and-offer-management.md)
@@ -445,7 +406,7 @@ ht-degree: 97%
   + [Campaign 통합 시작](integrations/using/about-campaign-integrations.md)
   + [Adobe 기술 계정 만들기](integrations/using/oauth-technical-account.md)
   + Adobe Experience Cloud 트리거 {#experience-triggers}
-    + [&#x200B; [!DNL Experience Cloud Triggers]로 작업](integrations/using/about-triggers.md)
+    + [ [!DNL Experience Cloud Triggers]로 작업](integrations/using/about-triggers.md)
     + [파이프라인 구성](integrations/using/configuring-pipeline.md)
     + [사용자 정의 구현을 위한 이벤트 구성](integrations/using/events.md)
     + [파이프라인 모니터링](integrations/using/pipeline-monitoring.md)
@@ -458,19 +419,19 @@ ht-degree: 97%
     + [Adobe Analytics 커넥터 시작](integrations/using/gs-aa.md)
     + [Adobe Analytics 커넥터 프로비전](integrations/using/adobe-analytics-provisioning.md)
   + 대상자 공유 {#audience-sharing}
-    + [&#x200B; [!DNL Adobe Experience Cloud]와 대상자 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+    + [ [!DNL Adobe Experience Cloud]와 대상자 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
     + [Adobe에 요청 제출](integrations/using/submitting-request-to-adobe.md)
-    + [&#x200B; [!DNL Adobe Campaign]에서 공유 대상자 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+    + [ [!DNL Adobe Campaign]에서 공유 대상자 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
     + {hide-from-toc}[문제 해결](integrations/using/integrations-troubleshooting.md)
     + [대상자 가져오기 및 내보내기](integrations/using/importing-and-exporting-audiences.md)
   + 자산 공유 {#asset-sharing}
-    + [&#x200B; [!DNL Adobe Experience Cloud]와 에셋 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-    + [&#x200B; [!DNL Assets] 액세스 구성](integrations/using/configuring-access-to-assets.md)
+    + [ [!DNL Adobe Experience Cloud]와 에셋 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+    + [ [!DNL Assets] 액세스 구성](integrations/using/configuring-access-to-assets.md)
     + [공유 에셋 삽입](integrations/using/inserting-a-shared-asset.md)
   + Adobe Experience Manager {#adobe-experience-manager}
     + [통합 구성](integrations/using/configuring-the-integration.md)
   + Adobe Target {#adobe-target}
-    + [&#x200B; [!DNL Adobe Target]과의 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
+    + [ [!DNL Adobe Target]과의 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
 + 소셜 미디어와 통합 {#integrating-with-social-media}
   + [소셜 마케팅 정보](social/using/about-social-marketing.md)
 + 기술 노트 {#technotes}

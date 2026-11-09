@@ -27,9 +27,9 @@ subfeature_v2:
     internal-label: Target integration
   - id: 2e08b477-1993-5928-975d-5f4cabe8fbe0
     internal-label: Asset Sharing
-source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '279'
 ht-degree: 0%
 ---
 # 공유 자산 삽입{#inserting-a-shared-asset}
@@ -44,17 +44,17 @@ Adobe Experience Cloud에서 공유한 Assets을 다음과 같이 이메일 및 
 
 1. 편집 창에서 이미지를 추가할 옵션을 선택합니다.
 
-   * [표준 편집 모드](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=ko#adding-images){target="_blank"}를 사용하는 경우 **[!UICONTROL Image]** > **[!UICONTROL Select a shared asset]**&#x200B;을(를) 선택하십시오.
+   * [표준 편집 모드](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}를 사용하는 경우 **[!UICONTROL Image]** > **[!UICONTROL Select a shared asset]**&#x200B;을(를) 선택하십시오.
 
      ![](assets/dam_insert_image_standard.png)
 
-   * [고급 편집 모드](../../web/using/about-campaign-html-editor.md)(DCE)를 사용하는 경우 이미지 블록으로 이동한 다음 상황별 메뉴를 통해 **[!UICONTROL Select a shared asset]**&#x200B;을(를) 선택합니다.
+   * [고급 편집 모드](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/editing-html-content/about-campaign-html-editor){target="_blank"}(Campaign v8 설명서)(DCE)를 사용하는 경우 이미지 블록으로 이동한 다음 상황별 메뉴를 통해 **[!UICONTROL Select a shared asset]**&#x200B;을(를) 선택합니다.
 
      ![](assets/dam_insert_image_dce.png)
 
      >[!NOTE]
      >
-     >DCE를 사용할 때는 [웹 액세스](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"}(Campaign v8 설명서)에서 Adobe Campaign의 공유 이미지를 삽입할 수 없습니다.
+     >DCE를 사용할 때는 [웹 액세스](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"}(Campaign v8 설명서)에서 Adobe Campaign의 공유 이미지를 삽입할 수 없습니다.
 
 1. 선택 창이 열리면 이미지를 선택한 다음 확인합니다.
 
@@ -64,4 +64,4 @@ Adobe Experience Cloud에서 공유한 Assets을 다음과 같이 이메일 및 
 
 >[!NOTE]
 >
->Adobe Target과의 통합을 사용하는 경우 공유 이미지를 기본 이미지로 사용할 수 있습니다. [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}를 참조하세요(Campaign v8 설명서).
+>Adobe Target과의 통합을 사용하는 경우 공유 이미지를 기본 이미지로 사용할 수 있습니다. [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}를 참조하세요(Campaign v8 설명서).
