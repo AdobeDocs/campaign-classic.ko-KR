@@ -187,7 +187,7 @@ DCE에서 captcha를 추가하는 일반적인 방법은 페이지 콘텐츠 내
 
 1. **[!UICONTROL Script]** 활동을 편집합니다. 콘텐츠는 선택한 captcha 엔진에 따라 다릅니다.
 
-1. 마지막으로 페이지에 개인화된 블록을 추가할 수 있습니다. [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/editing-html-content/editing-content){target="_blank"}(Campaign v8 설명서)를 참조하세요.
+1. 마지막으로 페이지에 개인화된 블록을 추가할 수 있습니다. [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/editing-html-content/editing-content){target="_blank"}(Campaign v8 설명서)를 참조하세요.
 
    ![](assets/scripting-captcha4.png)
 

@@ -108,11 +108,11 @@ Campaign에는 두 가지 유형의 추적이 있습니다.
 
 **웹 애플리케이션 추적**
 
-추적 태그를 사용하여 웹 애플리케이션 페이지에서 방문을 추적하고 측정할 수도 있습니다. 이 기능은 양식 및 랜딩 페이지와 같은 모든 웹 애플리케이션 유형에 사용할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/tracking-a-web-application){target="_blank"}(Campaign v8 설명서)
+추적 태그를 사용하여 웹 애플리케이션 페이지에서 방문을 추적하고 측정할 수도 있습니다. 이 기능은 양식 및 랜딩 페이지와 같은 모든 웹 애플리케이션 유형에 사용할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/web-applications/tracking-a-web-application){target="_blank"}(Campaign v8 설명서)
 
 **웹 애플리케이션 추적 옵트아웃**
 
-웹 애플리케이션 추적 옵트아웃을 사용하면 행동 추적을 옵트아웃한 최종 사용자의 웹 행동 추적을 중지할 수 있습니다. 웹 애플리케이션이나 랜딩 페이지에 배너를 표시하여 사용자가 옵트아웃할 수 있도록 하는 기능을 포함할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/web-application-tracking-opt-out){target="_blank"}(Campaign v8 설명서)
+웹 애플리케이션 추적 옵트아웃을 사용하면 행동 추적을 옵트아웃한 최종 사용자의 웹 행동 추적을 중지할 수 있습니다. 웹 애플리케이션이나 랜딩 페이지에 배너를 표시하여 사용자가 옵트아웃할 수 있도록 하는 기능을 포함할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/web-applications/web-application-tracking-opt-out){target="_blank"}(Campaign v8 설명서)
 
 ## 추적 문제 해결 {#tracking-troubleshooting}
 

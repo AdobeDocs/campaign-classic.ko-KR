@@ -67,7 +67,7 @@ ht-degree: 3%
 
    ![](assets/reporting_custom_js.png)
 
-클라이언트측에서 정상적으로 실행되도록 하려면 참조된 스크립트를 JavaScript에서 작성해야 하며 일반적인 브라우저와 호환되어야 합니다. 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/web-forms-answers){target="_blank"}(Campaign v8 설명서)을 참조하세요.
+클라이언트측에서 정상적으로 실행되도록 하려면 참조된 스크립트를 JavaScript에서 작성해야 하며 일반적인 브라우저와 호환되어야 합니다. 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/web-forms/web-forms-answers){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 ### 스크립트 활동 추가 {#script-activity}
 

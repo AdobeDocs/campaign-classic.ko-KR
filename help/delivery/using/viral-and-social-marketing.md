@@ -108,7 +108,7 @@ Adobe Campaign을 사용하면 바이럴 마케팅을 장려하는 도구를 설
    >
    >이 구성은 조정할 수 있습니다. 이렇게 하려면 **[!UICONTROL Resources > Online > Web applications]** 노드에 저장된 **받는 사람 구독** 웹 응용 프로그램을 수정해야 합니다.
    >
-   >웹 응용 프로그램에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"}(Campaign v8 설명서)을 참조하세요.
+   >웹 응용 프로그램에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
    유효성을 검사하면 확인 메시지가 전송됩니다. 확인 메시지에서 링크를 활성화해야만 제대로 등록됩니다. 이 메시지는 **[!UICONTROL Administration > Campaign management > Technical delivery templates]** 노드에 저장된 **[!UICONTROL Registration confirmation]** 템플릿을 기반으로 만들어집니다.
 

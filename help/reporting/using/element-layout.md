@@ -39,7 +39,7 @@ ht-degree: 1%
 
 [여기](../../reporting/using/creating-a-chart.md#chart-types-and-variants)에 자세히 설명된 다양한 차트 외에도 표시를 조정하고 보고서 페이지에 요소를 추가할 수 있습니다.
 
-컨테이너를 사용할 수 있습니다. 이를 통해 페이지의 여러 요소를 연결하고 열 및/또는 셀에서 해당 레이아웃을 구성할 수 있습니다. 사용 방법은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-layout#creating-containers){target="_blank"}에 자세히 설명되어 있습니다(Campaign v8 설명서).
+컨테이너를 사용할 수 있습니다. 이를 통해 페이지의 여러 요소를 연결하고 열 및/또는 셀에서 해당 레이아웃을 구성할 수 있습니다. 사용 방법은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-layout#creating-containers){target="_blank"}에 자세히 설명되어 있습니다(Campaign v8 설명서).
 
 트리의 루트에서 보고서 레이아웃을 구성하고 각 컨테이너에 대해 보고서 레이아웃을 오버로드할 수 있습니다. 페이지는 열로 정렬됩니다. 컨테이너도 열로 정렬됩니다. 정적 및 그래픽 항목만 셀로 정렬됩니다.
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 
 **[!UICONTROL Title]** 필드를 사용하면 보고서 페이지의 헤더에서 레이블을 개인화할 수 있습니다. 보고서의 **[!UICONTROL Properties]** 창을 통해 창 제목을 구성할 수 있습니다. 자세한 내용은 [머리글 및 바닥글 추가](#adding-a-header-and-a-footer)를 참조하세요.
 
-**[!UICONTROL Display settings]** 옵션을 사용하면 보고서 페이지 내에서 컨트롤 캡션의 위치를 선택하고 페이지의 열 수를 정의할 수 있습니다. 페이지 레이아웃에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-layout#positioning-the-fields-on-the-page){target="_blank"}의 **항목 레이아웃** 섹션(Campaign v8 설명서)을 참조하세요.
+**[!UICONTROL Display settings]** 옵션을 사용하면 보고서 페이지 내에서 컨트롤 캡션의 위치를 선택하고 페이지의 열 수를 정의할 수 있습니다. 페이지 레이아웃에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-layout#positioning-the-fields-on-the-page){target="_blank"}의 **항목 레이아웃** 섹션(Campaign v8 설명서)을 참조하세요.
 
 한 보고서 페이지에서 다른 보고서 페이지로의 탐색을 승인하려면 **[!UICONTROL Browse]** 섹션에서 다양한 옵션을 선택하십시오. **[!UICONTROL Disable next page]** 또는 **[!UICONTROL Disable previous page]** 옵션을 선택하면 보고서 페이지에서 **[!UICONTROL Next]** 및 **[!UICONTROL Previous]** 단추가 사라집니다.
 

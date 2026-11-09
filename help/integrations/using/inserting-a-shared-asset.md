@@ -48,7 +48,7 @@ Adobe Experience Cloud에서 공유한 Assets을 다음과 같이 이메일 및 
 
      ![](assets/dam_insert_image_standard.png)
 
-   * [고급 편집 모드](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/editing-html-content/about-campaign-html-editor){target="_blank"}(Campaign v8 설명서)(DCE)를 사용하는 경우 이미지 블록으로 이동한 다음 상황별 메뉴를 통해 **[!UICONTROL Select a shared asset]**&#x200B;을(를) 선택합니다.
+   * [고급 편집 모드](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/editing-html-content/about-campaign-html-editor){target="_blank"}(Campaign v8 설명서)(DCE)를 사용하는 경우 이미지 블록으로 이동한 다음 상황별 메뉴를 통해 **[!UICONTROL Select a shared asset]**&#x200B;을(를) 선택합니다.
 
      ![](assets/dam_insert_image_dce.png)
 
