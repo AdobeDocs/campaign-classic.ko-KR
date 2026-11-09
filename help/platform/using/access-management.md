@@ -2,7 +2,6 @@
 product: campaign
 title: 사용 권한 시작
 description: Campaign 기능에 대한 액세스 권한을 부여하는 방법 알아보기
-badge: label="v7" type="Informative" tooltip="Campaign Classic v7에만 적용"
 feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
 TQID: 'https://experienceleague.adobe.com/03hVUeg0dRIFz0J20RfxH4EdSmAhe9h2c9BfKB-qJUs'
@@ -34,22 +33,12 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+source-git-commit: 0fdce84d7da1ff42a406ace8f1a180f6a426646a
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 14%
+source-wordcount: '282'
+ht-degree: 9%
 ---
 # 사용 권한 시작{#access-management}
-
-
->[!CAUTION]
->
->Campaign Classic v7.3.1부터 모든 연산자는 [Adobe IMS(Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}를 사용하여 Campaign에 연결해야 합니다.
->
->보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로, Adobe Campaign은 모든 기존 운영자 인증 모드를 로그인/암호 기본 인증에서 Adobe Identity Management System(IMS)으로 마이그레이션할 것을 강력히 권장합니다. [이 페이지](../../technotes/using/migrate-users-to-ims.md)에서 연산자를 마이그레이션하는 방법에 대해 알아보세요.
-> 
->이 마이그레이션 후에는 다음 섹션이 더 이상 적용되지 않습니다.  [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ko){target="_blank"}에서 Adobe IMS를 사용하여 권한을 설정하는 방법에 대해 알아봅니다.
-
 
 Adobe Campaign을 사용하면 다양한 운영자에 할당된 권한을 정의하고 관리할 수 있습니다. 다음은 권한을 부여하거나 거부한 권한 및 제한 세트입니다.
 
@@ -59,15 +48,26 @@ Adobe Campaign을 사용하면 다양한 운영자에 할당된 권한을 정의
 
 >[!NOTE]
 >
->Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 권한에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/permissions/gs-permissions){target=_blank}를 참조하세요.
+>Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 권한 및 폴더에 대한 권한을 정의하는 방법에 대한 자세한 내용은 Campaign v8 설명서를 참조하십시오.
 >
->[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/permissions/gs-permissions){target=_blank}
+>* [사용 권한 시작](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/permissions/gs-permissions){target="_blank"}
+>* [폴더에 권한 추가](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/permissions/folder-permissions){target="_blank"}
+>
+>[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/permissions/gs-permissions){target="_blank"}
 
-폴더에 대한 권한을 정의하는 방법은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/permissions/folder-permissions){target=_blank}를 참조하세요.
+## 인증 모드 {#authentication-mode}
 
-로그인/암호를 사용하는 기본 인증은 Campaign v7에서 계속 사용할 수 있지만, 보안 및 인증 프로세스를 강화하기 위해 Adobe Campaign에서는 기본 인증에서 Adobe Identity Management System(IMS)으로 [최종 사용자 인증 모드를 마이그레이션](../../technotes/using/ac-ims.md)할 것을 강력히 권장합니다. Campaign v8에서는 기본 인증과의 연결이 허용되지 않습니다.
+>[!CAUTION]
+>
+>Campaign Classic v7.3.1부터 모든 연산자는 [Adobe IMS(Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}를 사용하여 Campaign에 연결해야 합니다.
+>
+>로그인/암호를 사용하는 기본 인증은 Campaign v7에서 계속 사용할 수 있습니다. 그러나 보안 및 인증 프로세스를 강화하려면 기존 연산자를 모두 기본 인증에서 Adobe IMS로 마이그레이션하는 것이 좋습니다. Campaign v8에서는 기본 인증과의 연결이 허용되지 않습니다.
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](../../technotes/using/ac-ims.md)
+* 연산자를 마이그레이션하려면 [사용자를 IMS로 마이그레이션](../../technotes/using/migrate-users-to-ims.md)을 참조하세요.
+* 최종 사용자의 인증 모드를 마이그레이션하려면 [최종 사용자 인증 모드 마이그레이션](../../technotes/using/ac-ims.md)을 참조하세요.
+
+이 마이그레이션 후에는 권한이 Adobe IMS로 관리됩니다. 설정 방법은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/permissions/gs-permissions){target="_blank"}를 참조하세요.
+
 
 <!--
 The permissions apply to operator profiles or operator groups.

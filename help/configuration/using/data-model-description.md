@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
+source-git-commit: 77efa1dcdb82a478e93565e84099d568f6a5f5fe
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '2420'
 ht-degree: 2%
 ---
 # Campaign 데이터 모델 설명{#data-model-description}
@@ -222,7 +222,7 @@ sInternalName 게재 또는 시나리오의 내부 이름을 나타내는 고유
 
 ## 시뮬레이션 및 게재 {#simulation-and-delivery}
 
-이 테이블 집합은 **시뮬레이션** 모듈에 연결되어 있으며, 이를 통해 수신자에게 제안을 보내기 전에 카테고리 또는 환경에 속한 오퍼의 분포를 테스트할 수 있습니다. 자세한 내용은 [오퍼 시뮬레이션 정보](../../interaction/using/about-offers-simulation.md)를 참조하세요.
+이 테이블 집합은 **시뮬레이션** 모듈에 연결되어 있으며, 이를 통해 수신자에게 제안을 보내기 전에 카테고리 또는 환경에 속한 오퍼의 분포를 테스트할 수 있습니다. 자세한 내용은 [오퍼 시뮬레이션 정보](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/simulating-offers/about-offers-simulation){target="_blank"}(Campaign v8 설명서)를 참조하십시오.
 
 ![](assets/data-model_simulation.png)
 

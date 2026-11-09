@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: aeb8e44e8183cad6557fe2f27565cad0343777e5
+source-git-commit: 5e2aa587f61d79eab6d356ea5f91bc4e0f1b24c6
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1454'
 ht-degree: 9%
 ---
 # Campaign Classic 기본 제공 패키지 설치{#installing-campaign-standard-packages}
@@ -163,7 +163,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td> 온라인 설문 조사(설문 조사 관리자)<br /> </td> 
-   <td> 프로필 정보 추가 또는 수정, 가입, 가입 해지 또는 대회 참가 양식을 위한 온라인 양식을 만들고 관리합니다. 선택 사항입니다. <a href="../../surveys/using/about-surveys.md">자세히 알아보기</a> <br /> </td> 
+   <td> 프로필 정보 추가 또는 수정, 가입, 가입 해지 또는 대회 참가 양식을 위한 온라인 양식을 만들고 관리합니다. 선택 사항입니다. <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/surveys/about-surveys" target="_blank">자세히 알아보기</a>(Campaign v8 설명서) <br /> </td> 
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 
@@ -173,7 +173,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td> 응답 관리자<br /> </td> 
-   <td> 마케팅 캠페인의 성공 및 수익성을 측정하거나 모든 커뮤니케이션 채널에 대한 제안을 제공합니다.  선택 사항입니다. <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/response-manager/about-response-manager" target="_blank">자세히 알아보기</a>(Campaign v8 설명서) <br /> </td> 
+   <td> 마케팅 캠페인의 성공 및 수익성을 측정하거나 모든 커뮤니케이션 채널에 대한 제안을 제공합니다.  선택 사항입니다. <a href="https://experienceleague.adobe.com/ko/docs/campaign/automation/response-manager/about-response-manager" target="_blank">자세히 알아보기</a>(Campaign v8 설명서) <br /> </td> 
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 

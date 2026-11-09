@@ -8,9 +8,9 @@ user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
+source-git-commit: 77efa1dcdb82a478e93565e84099d568f6a5f5fe
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1353'
 ht-degree: 97%
 ---
 
@@ -357,27 +357,13 @@ ht-degree: 97%
 + 오퍼 관리 {#managing-offers}
   + 상호 작용 시작 {#interaction-overview}
     + [상호 작용 및 오퍼 관리](interaction/using/interaction-and-offer-management.md)
-  + 오퍼 카탈로그 관리 {#managing-an-offer-catalog}
-    + [오퍼 승인 및 활성화](interaction/using/approving-and-activating-an-offer.md)
-    + [오퍼 템플릿 관리](interaction/using/managing-offer-templates.md)
-    + [오퍼 프레젠테이션 관리](interaction/using/managing-offer-presentation.md)
-  + 오퍼 시뮬레이션{#simulating-offers}
-    + [오퍼 시뮬레이션 정보](interaction/using/about-offers-simulation.md)
-    + [실행 설정](interaction/using/execution-settings.md)
-    + [시뮬레이션 범위](interaction/using/simulation-scope.md)
-    + [시뮬레이션 추적](interaction/using/simulation-tracking.md)
   + 고급 매개 변수 {#advanced-parameters}
     + [고급 매개 변수 사용](interaction/using/using-advanced-parameters.md)
     + [추가 데이터](interaction/using/additional-data.md)
-    + [확장 예제](interaction/using/extension-example.md)
     + [테스트 환경 만들기](interaction/using/creating-a-test-environment.md)
     + [표준 엔진 동작 수정](interaction/using/hooks.md)
     + [분산 아키텍처](interaction/using/distributed-architectures.md)
     + [데이터 버퍼 구성](installation/using/interaction-data-buffer.md)
-  + 사용 사례 {#case-study}
-    + [프레젠테이션 규칙](interaction/using/presentation-rules.md)
-    + [인바운드 채널에 대한 오퍼](interaction/using/offers-on-an-inbound-channel.md)
-    + [아웃바운드 채널에 대한 오퍼](interaction/using/offers-on-an-outbound-channel.md)
 + 보고서 디자인 및 공유 {#reporting}
   + 보고 시작 {#reporting-in-adobe-campaign}
     + [보고 모범 사례](reporting/using/best-practices.md)
