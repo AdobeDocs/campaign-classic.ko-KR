@@ -41,9 +41,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 상호 작용에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction){target=_blank}를 참조하세요.
+>Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 상호 작용에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction){target=_blank}를 참조하세요.
 >
->[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction){target="_blank"}
+>[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction){target="_blank"}
 
 이 섹션에서는 Campaign v8 설명서에 설명되지 않은 상호 작용 기능만 다룹니다. [오퍼 시뮬레이션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/simulating-offers/about-offers-simulation){target="_blank"}(Campaign v8 설명서), [오퍼 프레젠테이션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/managing-an-offer-catalog/managing-offer-presentation){target="_blank"}(Campaign v8 설명서), [오퍼 승인](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/managing-an-offer-catalog/approving-and-activating-an-offer){target="_blank"}(Campaign v8 설명서), [오퍼 템플릿](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/managing-an-offer-catalog/managing-offer-templates){target="_blank"}(Campaign v8 설명서) 및 [고급 설정](using-advanced-parameters.md).
 
@@ -55,6 +55,6 @@ ht-degree: 2%
 
 | 유용한 페이지 | 추가 리소스 |
 |---|---|
-| [상호 작용 구현 단계](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction){target="_blank"}(Campaign v8 설명서) | [오퍼 배포 테스트](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/simulating-offers/about-offers-simulation){target="_blank"}(Campaign v8 설명서) |
-| [라이브/디자인 환경](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env){target="_blank"}(Campaign v8 설명서) | [전자 메일에 오퍼 추가](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"}(Campaign v8 설명서) |
-| [오퍼 공간 만들기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"}(Campaign v8 설명서) | [사용 사례: 웹 사이트에 오퍼 추가](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/case-study/offers-on-an-inbound-channel){target="_blank"}(Campaign v8 설명서) |
+| [상호 작용 구현 단계](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction){target="_blank"}(Campaign v8 설명서) | [오퍼 배포 테스트](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/simulating-offers/about-offers-simulation){target="_blank"}(Campaign v8 설명서) |
+| [라이브/디자인 환경](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env){target="_blank"}(Campaign v8 설명서) | [전자 메일에 오퍼 추가](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"}(Campaign v8 설명서) |
+| [오퍼 공간 만들기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"}(Campaign v8 설명서) | [사용 사례: 웹 사이트에 오퍼 추가](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/case-study/offers-on-an-inbound-channel){target="_blank"}(Campaign v8 설명서) |
