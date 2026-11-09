@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 3%
@@ -39,9 +39,11 @@ ht-degree: 3%
 
 상호 작용을 사용하면 오퍼 카탈로그를 만들고 관리하고 여기에 연결된 자격 규칙 및 애플리케이션 테마를 구성할 수 있습니다. 선택한 채널에 따라 다양한 렌더링 기능으로 오퍼 콘텐츠를 개인화할 수 있습니다. 마지막으로 시뮬레이션 모듈을 사용하여 오퍼 표시의 영향을 계산할 수 있습니다.
 
-Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 상호 작용에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction){target=_blank}를 참조하세요.
-
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction){target=_blank}
+>[!NOTE]
+>
+>Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 상호 작용에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction){target=_blank}를 참조하세요.
+>
+>[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction){target=_blank}
 
 이 섹션에서는 Campaign v8 설명서에 설명되어 있지 않은 상호 작용 기능만 다룹니다. [오퍼 시뮬레이션](about-offers-simulation.md), [오퍼 프레젠테이션](managing-offer-presentation.md), [오퍼 승인](approving-and-activating-an-offer.md), [오퍼 템플릿](managing-offer-templates.md) 및 [고급 설정](using-advanced-parameters.md).
 

@@ -39,7 +39,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 5%
@@ -52,9 +52,11 @@ Adobe Experience Cloud는 강력한 솔루션 및 앱의 공통 세트를 사용
 
 Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 앱 서비스와 관련 문서의 전체 목록은 [이 섹션](#experience-cloud-integrations)에서 확인할 수 있습니다.
 
-Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 솔루션과 Campaign 연결에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/integration){target=_blank}를 참조하세요.
-
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/integration){target=_blank}
+>[!NOTE]
+>
+>Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 솔루션과 Campaign 연결에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/integration){target=_blank}를 참조하세요.
+>
+>[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/integration){target=_blank}
 
 >[!CAUTION]
 >

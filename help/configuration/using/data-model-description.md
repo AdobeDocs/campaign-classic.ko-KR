@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
-source-wordcount: '2390'
+source-wordcount: '2404'
 ht-degree: 2%
 ---
 # Campaign 데이터 모델 설명{#data-model-description}
@@ -162,7 +162,7 @@ sInternalName 게재 또는 시나리오의 내부 이름을 나타내는 고유
 
 ## 응답 관리 {#response-management}
 
-이 테이블 집합은 **응답 관리자** 모듈에 연결되어 마케팅 캠페인의 성공 및 수익성을 측정하거나 모든 통신 채널에 대한 제안을 제공할 수 있습니다. 자세한 내용은 [응답 관리자 정보](../../response/using/about-response-manager.md)를 참조하세요.
+이 테이블 집합은 **응답 관리자** 모듈에 연결되어 마케팅 캠페인의 성공 및 수익성을 측정하거나 모든 통신 채널에 대한 제안을 제공할 수 있습니다. 자세한 내용은 [응답 관리자 정보](https://experienceleague.adobe.com/ko/docs/campaign/automation/response-manager/about-response-manager){target="_blank"}(Campaign v8 설명서)를 참조하십시오.
 
 ![](assets/data-model_response.png)
 
@@ -261,7 +261,7 @@ sInternalName 게재 또는 시나리오의 내부 이름을 나타내는 고유
 <!--
 ## Microsites Module {#microsites-module}
 
-This set of tables is linked to the **Web applications** functionality, which allows to create and publish dynamic and interactive web applications with data from the database and content adapted to the rights of the connected user. For more on this, see [About web applications](../../web/using/about-web-applications.md).
+This set of tables is linked to the **Web applications** functionality, which allows to create and publish dynamic and interactive web applications with data from the database and content adapted to the rights of the connected user. For more on this, see [About web applications](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} (Campaign v8 documentation).
 
 ![](assets/data-model_microsites.png)
 

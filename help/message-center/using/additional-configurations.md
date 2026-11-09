@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cce1f22c34cbd13d063850a7ca636a3b0dfc62f6
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 2%
@@ -37,9 +37,11 @@ ht-degree: 2%
 
 이 페이지에서는 Campaign Classic v7의 트랜잭션 메시지에 대한 추가 구성을 다룹니다.
 
-Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 트랜잭션 메시지 이벤트 제거 및 기술 워크플로우에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/transactional-msg-settings){target=_blank}를 참조하세요.
-
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/transactional-msg-settings){target=_blank}
+>[!NOTE]
+>
+>Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 트랜잭션 메시지 이벤트 제거 및 기술 워크플로우에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/transactional-msg-settings){target=_blank}를 참조하세요.
+>
+>[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/transactional-msg-settings){target=_blank}
 
 ## 임계값 모니터링 {#monitoring-thresholds}
 

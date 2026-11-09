@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '983'
 ht-degree: 1%
 ---
 # 새 보고서 만들기{#creating-a-new-report}
@@ -142,7 +142,7 @@ ht-degree: 1%
 * 값, 링크, HTML, 이미지 등 **[!UICONTROL Static elements]**.
 * 구성 요소 레이아웃을 제어할 수 있도록 해 주는 **[!UICONTROL Containers]**.
 
-페이지 및 해당 구성 요소의 구성 모드는 [이 섹션](../../web/using/about-web-forms.md)에 자세히 설명되어 있습니다.
+페이지 및 해당 구성 요소의 구성 모드는 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"}에 자세히 설명되어 있습니다(Campaign v8 설명서).
 
 도구 모음을 사용하여 보고서 페이지에서 컨트롤을 추가하거나 제거하고 해당 순서를 구성할 수 있습니다.
 
@@ -150,7 +150,7 @@ ht-degree: 1%
 
 ### 정적 요소 {#static-elements}
 
-정적 요소를 사용하면 그래픽 요소나 스크립트와 같이 사용자가 상호 작용하지 않는 정보를 보고서에 표시할 수 있습니다. 자세한 내용은 [이 섹션](../../web/using/static-elements-in-a-web-form.md#inserting-html-content)을 참조하세요.
+정적 요소를 사용하면 그래픽 요소나 스크립트와 같이 사용자가 상호 작용하지 않는 정보를 보고서에 표시할 수 있습니다. 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/static-elements-in-a-web-form#inserting-html-content){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 ![](assets/s_advuser_report_page_activity_03.png)
 
@@ -158,7 +158,7 @@ ht-degree: 1%
 
 입력 및 선택 컨트롤을 사용하면 보고서에 표시된 정보를 필터링할 수 있습니다. 이 유형의 필터링을 구현하는 방법에 대한 자세한 내용은 [쿼리의 필터링 옵션](../../reporting/using/collecting-data-to-analyze.md#filtering-options-in-the-queries)을 참조하세요.
 
-입력 필드 및 선택 필드를 만들고 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../web/using/about-web-forms.md)을 참조하세요.
+입력 필드 및 선택 필드를 만들고 구성하는 방법에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 하나 이상의 입력 컨트롤을 보고서에 통합할 수 있습니다. 이 유형의 컨트롤을 사용하면 입력한 값에 따라 표시되는 정보를 필터링할 수 있습니다.
 

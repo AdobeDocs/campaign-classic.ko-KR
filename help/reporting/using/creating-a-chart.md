@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 3%
+source-wordcount: '554'
+ht-degree: 2%
 ---
 # 차트 만들기{#creating-a-chart}
 
@@ -143,7 +143,7 @@ Adobe Campaign은 다양한 유형의 그래픽 표현을 제공합니다. 자�
 
 사용자가 차트를 클릭할 때 동작을 정의할 수 있습니다. **[!UICONTROL Interaction events]** 창을 열고 수행할 작업을 선택합니다.
 
-가능한 상호 작용 형식 및 구성은 [이 섹션](../../web/using/static-elements-in-a-web-form.md#inserting-html-content)에 자세히 설명되어 있습니다.
+가능한 상호 작용 유형 및 구성은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/static-elements-in-a-web-form#inserting-html-content){target="_blank"}에 자세히 설명되어 있습니다(Campaign v8 설명서).
 
 ![](assets/s_ncs_advuser_report_wizard_017.png)
 

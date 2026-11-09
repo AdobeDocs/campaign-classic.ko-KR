@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
+source-git-commit: aeb8e44e8183cad6557fe2f27565cad0343777e5
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1440'
 ht-degree: 9%
 ---
 # Campaign Classic 기본 제공 패키지 설치{#installing-campaign-standard-packages}
@@ -173,7 +173,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td> 응답 관리자<br /> </td> 
-   <td> 마케팅 캠페인의 성공 및 수익성을 측정하거나 모든 커뮤니케이션 채널에 대한 제안을 제공합니다.  선택 사항입니다. <a href="../../response/using/about-response-manager.md">자세히 알아보기</a> <br /> </td> 
+   <td> 마케팅 캠페인의 성공 및 수익성을 측정하거나 모든 커뮤니케이션 채널에 대한 제안을 제공합니다.  선택 사항입니다. <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/response-manager/about-response-manager" target="_blank">자세히 알아보기</a>(Campaign v8 설명서) <br /> </td> 
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 

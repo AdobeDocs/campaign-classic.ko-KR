@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 4%
+source-wordcount: '616'
+ht-degree: 3%
 ---
 # 고급 기능{#advanced-functionalities}
 
@@ -67,7 +67,7 @@ ht-degree: 4%
 
    ![](assets/reporting_custom_js.png)
 
-클라이언트측에서 정상적으로 실행되도록 하려면 참조된 스크립트를 JavaScript에서 작성해야 하며 일반적인 브라우저와 호환되어야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../web/using/web-forms-answers.md)을 참조하십시오.
+클라이언트측에서 정상적으로 실행되도록 하려면 참조된 스크립트를 JavaScript에서 작성해야 하며 일반적인 브라우저와 호환되어야 합니다. 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/web-forms-answers){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 ### 스크립트 활동 추가 {#script-activity}
 

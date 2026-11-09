@@ -37,7 +37,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 3%
@@ -48,7 +48,9 @@ Adobe Campaign을 사용하여 DM 게재를 만들어 개인화된 실제 메시
 
 DM은 인쇄된 오퍼, 카탈로그, 충성도 메시지 또는 디지털 접점을 넘어 브랜드 존재감을 강화하는 개인화된 편지를 전달하는 데 이상적인, 고객과의 확실한 연결을 위한 강력한 채널로 남아 있습니다. [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html?lang=ko){target=_blank}에서 라우팅 파트너를 위한 데이터 준비 및 파일 생성부터 게재 결과 추적에 이르기까지 DM 캠페인을 효과적으로 구성하고 관리하는 방법을 알아봅니다.
 
-Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다.
+>[!NOTE]
+>
+>Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다.
 
 >[!BEGINTABS]
 

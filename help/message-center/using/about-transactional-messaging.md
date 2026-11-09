@@ -18,7 +18,7 @@ feature_v2:
 subfeature_v2:
   - id: d3b34fea-a110-482f-adb2-aae8d686bac8
     internal-label: Transactional messaging
-source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 8%
@@ -31,9 +31,11 @@ ht-degree: 8%
 
 **트랜잭션 메시지**(메시지 센터)는 외부 정보 시스템에서 보낸 이벤트에서 생성된 사용자 지정 트리거 알림을 관리하기 위해 고안된 캠페인 모듈입니다.
 
-Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 트랜잭션 메시지에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional){target=_blank}를 참조하세요.
-
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional){target=_blank}
+>[!NOTE]
+>
+>Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 트랜잭션 메시지에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional){target=_blank}를 참조하세요.
+>
+>[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional){target=_blank}
 
 이 섹션에서는 온-프레미스 및 하이브리드 배포에 대한 트랜잭션 메시지 아키텍처와 제어 및 실행 인스턴스의 구성을 다룹니다.
 

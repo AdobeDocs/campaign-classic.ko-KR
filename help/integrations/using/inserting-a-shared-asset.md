@@ -27,9 +27,9 @@ subfeature_v2:
     internal-label: Target integration
   - id: 2e08b477-1993-5928-975d-5f4cabe8fbe0
     internal-label: Asset Sharing
-source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '279'
 ht-degree: 0%
 ---
 # 공유 자산 삽입{#inserting-a-shared-asset}
@@ -48,7 +48,7 @@ Adobe Experience Cloud에서 공유한 Assets을 다음과 같이 이메일 및 
 
      ![](assets/dam_insert_image_standard.png)
 
-   * [고급 편집 모드](../../web/using/about-campaign-html-editor.md)(DCE)를 사용하는 경우 이미지 블록으로 이동한 다음 상황별 메뉴를 통해 **[!UICONTROL Select a shared asset]**&#x200B;을(를) 선택합니다.
+   * [고급 편집 모드](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/editing-html-content/about-campaign-html-editor){target="_blank"}(Campaign v8 설명서)(DCE)를 사용하는 경우 이미지 블록으로 이동한 다음 상황별 메뉴를 통해 **[!UICONTROL Select a shared asset]**&#x200B;을(를) 선택합니다.
 
      ![](assets/dam_insert_image_dce.png)
 

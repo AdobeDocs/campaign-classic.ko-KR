@@ -37,7 +37,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
@@ -46,9 +46,11 @@ ht-degree: 0%
 
 워크플로우를 사용하여 콘텐츠 관리 콘텐츠를 작성, 편집 및 게시할 수 있습니다.
 
-Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. **콘텐츠 관리** 활동을 구성하는 방법에 대해 알아보려면 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}를 참조하세요.
-
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}
+>[!NOTE]
+>
+>Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. **콘텐츠 관리** 활동을 구성하는 방법에 대해 알아보려면 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}를 참조하세요.
+>
+>[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}
 
 ## 예제 {#examples}
 

@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 8%
+source-wordcount: '410'
+ht-degree: 6%
 ---
 # 액세스 관리 {#access-management}
 
@@ -52,7 +52,7 @@ ht-degree: 8%
 
   1. 각 복제에 대한 이름을 입력합니다. 예: webapp_brand, webapp_brand2 등
 
-  1. 웹 애플리케이션 템플릿을 복제하여 브랜드당 하나의 템플릿을 갖게 하고 속성을 편집하여 특정 계정 사용을 선택하여 연산자를 변경합니다.  [이 페이지](../../web/using/defining-web-forms-properties.md)에서 자세히 알아보십시오.
+  1. 웹 애플리케이션 템플릿을 복제하여 브랜드당 하나의 템플릿을 갖게 하고 속성을 편집하여 특정 계정 사용을 선택하여 연산자를 변경합니다.  자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-properties){target="_blank"}를 참조하세요(Campaign v8 설명서).
 
 ## 보안 그룹 및 관리자
 

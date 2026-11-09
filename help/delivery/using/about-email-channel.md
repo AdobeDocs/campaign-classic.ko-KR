@@ -32,7 +32,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d679815c3415f1d7603ae5fe87e1c587208b6a8f
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%
@@ -43,7 +43,9 @@ Adobe Campaign을 사용하여 이메일 게재를 만들어 개인화된 이메
 
 이메일은 앱 또는 웹 사이트를 넘어 사용자와 소통할 수 있는 가장 강력하고 유연한 채널 중 하나입니다. 개인화된 콘텐츠, 공지 사항 또는 프로모션 메시지를 전달하든, 이메일을 통해 메시지와 대상 모두를 완벽하게 제어할 수 있습니다. [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/emails/email){target=_blank}에서 콘텐츠 사용자 지정, 특정 사용자 세그먼트 타기팅 및 영향과 참여를 극대화하기 위한 풍부한 멀티미디어 요소 통합 등 이메일 채널을 최대한 구성하고 사용하는 방법에 대해 알아봅니다.
 
-Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다.
+>[!NOTE]
+>
+>Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다.
 
 >[!BEGINTABS]
 

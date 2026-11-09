@@ -8,9 +8,9 @@ user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1395'
 ht-degree: 97%
 ---
 
@@ -152,7 +152,6 @@ ht-degree: 97%
     + [새 인스턴스 만들기](installation/using/creating-new-instances.md)
     + [Campaign 옵션 목록](installation/using/configuring-campaign-options.md)
     + {hide-from-toc}[Campaign 제거](installation/using/uninstalling-campaign.md)
-    + [새 글꼴 설치](installation/using/install-fonts.md)
 + 마이그레이션 안내서 {#migrating-to-a-new-version}
   + {hide-from-toc}[Adobe Campaign v7로 마이그레이션](migration/using/about-migration.md)
   + 마이그레이션 절차 {#migration-procedure}
@@ -355,45 +354,6 @@ ht-degree: 97%
   + 메시지 템플릿 {#message-templates}
     + [메시지 템플릿 테스트](message-center/using/testing-message-templates.md)
   + [사용 사례](message-center/using/transactional-email-with-attachments.md)
-+ 웹 콘텐츠 디자인 {#designing-content}
-  + 웹 애플리케이션 {#web-applications}
-    + [웹 애플리케이션 시작](web/using/about-web-applications.md)
-    + [새 웹 애플리케이션 만들기](web/using/creating-a-new-web-application.md)
-    + [웹 애플리케이션 디자인](web/using/designing-a-web-application.md)
-    + [활용 사례: 개요 만들기](web/using/use-cases-creating-overviews.md)
-    + [웹 애플리케이션 번역](web/using/translating-a-web-application.md)
-    + [웹 애플리케이션에서 방문 수 추적](web/using/tracking-a-web-application.md)
-    + [웹 애플리케이션 추적 옵트아웃](web/using/web-application-tracking-opt-out.md)
-  + HTML 콘텐츠 편집 {#editing-html-content}
-    + [HTML 편집기 시작](web/using/about-campaign-html-editor.md)
-    + [템플릿 관리](web/using/template-management.md)
-    + [콘텐츠 편집기 인터페이스](web/using/content-editor-interface.md)
-    + [콘텐츠 편집](web/using/editing-content.md)
-    + [콘텐츠 편집 모범 사례](web/using/content-editing-best-practices.md)
-    + [랜딩 페이지 만들기](web/using/creating-a-landing-page.md)
-    + [활용 사례: 이메일 게재 만들기](web/using/use-case-creating-an-email-delivery.md)
-  + 웹 양식 {#web-forms}
-    + [웹 양식 시작](web/using/about-web-forms.md)
-    + [웹 양식 템플릿 사용](web/using/using-a-web-form-template.md)
-    + [웹 양식에 필드 추가](web/using/adding-fields-to-a-web-form.md)
-    + [웹 양식의 정적 요소](web/using/static-elements-in-a-web-form.md)
-    + [웹 양식 레이아웃 정의](web/using/defining-web-forms-layout.md)
-    + [양식 렌더링](web/using/form-rendering.md)
-    + [페이지 시퀀싱 정의](web/using/defining-web-forms-page-sequencing.md)
-    + [웹 양식 답변 저장](web/using/web-forms-answers.md)
-    + [웹 양식 게시](web/using/publishing-a-web-form.md)
-    + [웹 양식 속성 정의](web/using/defining-web-forms-properties.md)
-    + [웹 양식 번역](web/using/translating-a-web-form.md)
-    + [활용 사례: 웹 양식](web/using/use-cases-web-forms.md)
-+ 온라인 설문 조사 만들기 {#online-surveys}
-  + [설문 조사 시작](surveys/using/about-surveys.md)
-  + [설문 조사 만들기의 주요 단계](surveys/using/getting-started-with-surveys.md)
-  + [설문 조사 디자인](surveys/using/building-a-survey.md)
-  + [답변 관리](surveys/using/managing-answers.md)
-  + [수집된 데이터 게시, 추적 및 사용](surveys/using/publish-track-and-use-collected-data.md)
-  + [설문 조사 구성](surveys/using/configuring-surveys.md)
-  + [활용 사례: 참조 양식 만들기](surveys/using/use-case-creating-a-refer-a-friend-form.md)
-  + [사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + 오퍼 관리 {#managing-offers}
   + 상호 작용 시작 {#interaction-overview}
     + [상호 작용 및 오퍼 관리](interaction/using/interaction-and-offer-management.md)
@@ -418,12 +378,6 @@ ht-degree: 97%
     + [프레젠테이션 규칙](interaction/using/presentation-rules.md)
     + [인바운드 채널에 대한 오퍼](interaction/using/offers-on-an-inbound-channel.md)
     + [아웃바운드 채널에 대한 오퍼](interaction/using/offers-on-an-outbound-channel.md)
-+ 응답 매니저 {#response-manager}
-  + [응답 관리자 시작](response/using/about-response-manager.md)
-  + [응답 관리자 구성](response/using/configure-response-manager.md)
-  + [가설 템플릿](response/using/hypothesis-templates.md)
-  + [가설 만들기](response/using/creating-hypotheses.md)
-  + [가설 추적](response/using/hypothesis-tracking.md)
 + 보고서 디자인 및 공유 {#reporting}
   + 보고 시작 {#reporting-in-adobe-campaign}
     + [보고 모범 사례](reporting/using/best-practices.md)

@@ -36,7 +36,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 2%
@@ -47,7 +47,9 @@ Adobe Campaign을 통해 각 수신자의 프로필과 관심사에 맞는 메�
 
 Personalization을 사용하면 보다 관련성이 높고 매력적인 메시지를 만들 수 있습니다. 수신자 데이터를 사용하여 콘텐츠를 조정하거나, 동적 필드를 추가하거나, 조건에 따라 다른 정보를 표시할 수 있습니다. 게재에서 개인화 기능을 설정하고 사용하는 방법은 [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html?lang=ko){target=_blank}를 참조하세요.
 
-Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다.
+>[!NOTE]
+>
+>Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다.
 
 >[!BEGINTABS]
 
