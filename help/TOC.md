@@ -406,7 +406,7 @@ ht-degree: 97%
   + [Campaign 통합 시작](integrations/using/about-campaign-integrations.md)
   + [Adobe 기술 계정 만들기](integrations/using/oauth-technical-account.md)
   + Adobe Experience Cloud 트리거 {#experience-triggers}
-    + [ [!DNL Experience Cloud Triggers]로 작업](integrations/using/about-triggers.md)
+    + [&#x200B; [!DNL Experience Cloud Triggers]로 작업](integrations/using/about-triggers.md)
     + [파이프라인 구성](integrations/using/configuring-pipeline.md)
     + [사용자 정의 구현을 위한 이벤트 구성](integrations/using/events.md)
     + [파이프라인 모니터링](integrations/using/pipeline-monitoring.md)
@@ -419,19 +419,19 @@ ht-degree: 97%
     + [Adobe Analytics 커넥터 시작](integrations/using/gs-aa.md)
     + [Adobe Analytics 커넥터 프로비전](integrations/using/adobe-analytics-provisioning.md)
   + 대상자 공유 {#audience-sharing}
-    + [ [!DNL Adobe Experience Cloud]와 대상자 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+    + [&#x200B; [!DNL Adobe Experience Cloud]와 대상자 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
     + [Adobe에 요청 제출](integrations/using/submitting-request-to-adobe.md)
-    + [ [!DNL Adobe Campaign]에서 공유 대상자 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+    + [&#x200B; [!DNL Adobe Campaign]에서 공유 대상자 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
     + {hide-from-toc}[문제 해결](integrations/using/integrations-troubleshooting.md)
     + [대상자 가져오기 및 내보내기](integrations/using/importing-and-exporting-audiences.md)
   + 자산 공유 {#asset-sharing}
-    + [ [!DNL Adobe Experience Cloud]와 에셋 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-    + [ [!DNL Assets] 액세스 구성](integrations/using/configuring-access-to-assets.md)
+    + [&#x200B; [!DNL Adobe Experience Cloud]와 에셋 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+    + [&#x200B; [!DNL Assets] 액세스 구성](integrations/using/configuring-access-to-assets.md)
     + [공유 에셋 삽입](integrations/using/inserting-a-shared-asset.md)
   + Adobe Experience Manager {#adobe-experience-manager}
     + [통합 구성](integrations/using/configuring-the-integration.md)
   + Adobe Target {#adobe-target}
-    + [ [!DNL Adobe Target]과의 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
+    + [&#x200B; [!DNL Adobe Target]과의 통합 구성](integrations/using/configuring-the-integration-with-adobe-target.md)
 + 소셜 미디어와 통합 {#integrating-with-social-media}
   + [소셜 마케팅 정보](social/using/about-social-marketing.md)
 + 기술 노트 {#technotes}
