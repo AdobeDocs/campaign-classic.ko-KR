@@ -56,13 +56,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 데이터 모델 모범 사례에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/implement/datamodel-best-practices){target=_blank}를 참조하세요.
+>Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. 데이터 모델 모범 사례에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/implement/datamodel-best-practices){target=_blank}를 참조하세요.
 >
->[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/implement/datamodel-best-practices){target="_blank"}
+>[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/implement/datamodel-best-practices){target="_blank"}
 
 Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}(Campaign v8 설명서) 섹션을 참조하십시오.
 
-Campaign 스키마를 시작하려면 [이 설명서](../../configuration/using/about-schema-reference.md)를 읽어 보십시오. [이 문서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}에서 Adobe Campaign 데이터베이스의 개념 데이터 모델을 확장하기 위해 확장 스키마를 구성하는 방법(Campaign v8 설명서)을 알아봅니다.
+Campaign 스키마를 시작하려면 [이 설명서](../../configuration/using/about-schema-reference.md)를 읽어 보십시오. [이 문서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"}에서 Adobe Campaign 데이터베이스의 개념 데이터 모델을 확장하기 위해 확장 스키마를 구성하는 방법(Campaign v8 설명서)을 알아봅니다.
 
 ## 데이터 모델 아키텍처 {#data-model-architecture}
 
@@ -82,7 +82,7 @@ Adobe Campaign 기본 데이터 모델은 [이 문서](../../configuration/using
 
 >[!NOTE]
 >
->Adobe Campaign Classic을 사용하면 사용자 지정 고객 테이블을 작성할 수 있습니다. 그러나 대부분의 경우 이미 사전 빌드된 추가 테이블 및 기능이 있는 표준 [수신자 테이블](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"}(Campaign v8 설명서)을 활용하는 것이 좋습니다.
+>Adobe Campaign Classic을 사용하면 사용자 지정 고객 테이블을 작성할 수 있습니다. 그러나 대부분의 경우 이미 사전 빌드된 추가 테이블 및 기능이 있는 표준 [수신자 테이블](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"}(Campaign v8 설명서)을 활용하는 것이 좋습니다.
 
 ### 데이터 유형 선택 {#data-types}
 
@@ -169,7 +169,7 @@ Adobe Campaign에서 기본 키를 autoPK로 사용하여 사용자 지정 테�
 
 기본적으로 사용자 지정 시퀀스의 값은 +1,000에서 +2.1BB입니다. 기술적으로 음수 ID를 활성화하여 4BB의 전체 범위를 가져올 수 있습니다. 이 변수는 주의하여 사용해야 하며 음수에서 양수로 교차하면 ID 하나가 손실됩니다. 레코드 0은 일반적으로 생성된 SQL 쿼리에서 Adobe Campaign에서 무시됩니다.
 
-시퀀스 소모에 대한 자세한 내용은 [이 비디오](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html)를 시청하세요.
+시퀀스 소모에 대한 자세한 내용은 [이 비디오](https://helpx.adobe.com/kr/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html)를 시청하세요.
 
 ## 색인 {#indexes}
 
