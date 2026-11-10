@@ -52,7 +52,7 @@ ht-degree: 6%
 
   1. 각 복제에 대한 이름을 입력합니다. 예: webapp_brand, webapp_brand2 등
 
-  1. 웹 애플리케이션 템플릿을 복제하여 브랜드당 하나의 템플릿을 갖게 하고 속성을 편집하여 특정 계정 사용을 선택하여 연산자를 변경합니다.  자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-properties){target="_blank"}를 참조하세요(Campaign v8 설명서).
+  1. 웹 애플리케이션 템플릿을 복제하여 브랜드당 하나의 템플릿을 갖게 하고 속성을 편집하여 특정 계정 사용을 선택하여 연산자를 변경합니다.  자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-properties){target="_blank"}를 참조하세요(Campaign v8 설명서).
 
 ## 보안 그룹 및 관리자
 
@@ -62,7 +62,7 @@ ht-degree: 6%
 
 관리자 그룹(또는 관리자 지정 권한이 있는 운영자)에 연산자를 너무 많이 추가하지 마십시오. 매우 강력한 연산자입니다(모든 SQL 문을 수행하고 서버에서 명령을 실행하는 등의 작업을 수행할 수 있음).
 
-Adobe Campaign은 [명명된 권한](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/permissions/manage-permissions#use-named-rights){target="_blank"}을(를) 통해 다음과 같은 세 가지 높은 수준의 권한을 제공합니다(Campaign v8 설명서).
+Adobe Campaign은 [명명된 권한](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/manage-permissions#use-named-rights){target="_blank"}을(를) 통해 다음과 같은 세 가지 높은 수준의 권한을 제공합니다(Campaign v8 설명서).
 
 * **관리**(관리자): 모든 항목에 액세스할 수 있으며 명명된 모든 권한 검사를 우회하여 모든 작업을 수행할 수 있으므로 PROGRAM EXECUTION(createProcess) 및 SQL 명명된 권한이 포함됩니다
 
