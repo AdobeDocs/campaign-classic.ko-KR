@@ -143,7 +143,7 @@ Adobe Campaign은 다양한 유형의 그래픽 표현을 제공합니다. 자�
 
 사용자가 차트를 클릭할 때 동작을 정의할 수 있습니다. **[!UICONTROL Interaction events]** 창을 열고 수행할 작업을 선택합니다.
 
-가능한 상호 작용 유형 및 구성은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/static-elements-in-a-web-form#inserting-html-content){target="_blank"}에 자세히 설명되어 있습니다(Campaign v8 설명서).
+가능한 상호 작용 유형 및 구성은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/web-forms/static-elements-in-a-web-form#inserting-html-content){target="_blank"}에 자세히 설명되어 있습니다(Campaign v8 설명서).
 
 ![](assets/s_ncs_advuser_report_wizard_017.png)
 

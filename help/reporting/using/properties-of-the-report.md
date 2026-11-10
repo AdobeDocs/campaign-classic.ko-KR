@@ -86,7 +86,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Campaign의 웹 페이지 지역화에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/translating-a-web-form){target="_blank"}(Campaign v8 설명서)을 참조하세요.
+>Campaign의 웹 페이지 지역화에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/web-forms/translating-a-web-form){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
 ## HTML 렌더링 개인화 {#personalizing-html-rendering}
 

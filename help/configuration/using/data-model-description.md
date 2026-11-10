@@ -222,7 +222,7 @@ sInternalName 게재 또는 시나리오의 내부 이름을 나타내는 고유
 
 ## 시뮬레이션 및 게재 {#simulation-and-delivery}
 
-이 테이블 집합은 **시뮬레이션** 모듈에 연결되어 있으며, 이를 통해 수신자에게 제안을 보내기 전에 카테고리 또는 환경에 속한 오퍼의 분포를 테스트할 수 있습니다. 자세한 내용은 [오퍼 시뮬레이션 정보](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/simulating-offers/about-offers-simulation){target="_blank"}(Campaign v8 설명서)를 참조하십시오.
+이 테이블 집합은 **시뮬레이션** 모듈에 연결되어 있으며, 이를 통해 수신자에게 제안을 보내기 전에 카테고리 또는 환경에 속한 오퍼의 분포를 테스트할 수 있습니다. 자세한 내용은 [오퍼 시뮬레이션 정보](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/simulating-offers/about-offers-simulation){target="_blank"}(Campaign v8 설명서)를 참조하십시오.
 
 ![](assets/data-model_simulation.png)
 
@@ -261,7 +261,7 @@ sInternalName 게재 또는 시나리오의 내부 이름을 나타내는 고유
 <!--
 ## Microsites Module {#microsites-module}
 
-This set of tables is linked to the **Web applications** functionality, which allows to create and publish dynamic and interactive web applications with data from the database and content adapted to the rights of the connected user. For more on this, see [About web applications](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} (Campaign v8 documentation).
+This set of tables is linked to the **Web applications** functionality, which allows to create and publish dynamic and interactive web applications with data from the database and content adapted to the rights of the connected user. For more on this, see [About web applications](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} (Campaign v8 documentation).
 
 ![](assets/data-model_microsites.png)
 

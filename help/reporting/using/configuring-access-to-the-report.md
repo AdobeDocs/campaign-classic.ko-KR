@@ -141,7 +141,7 @@ ht-degree: 2%
 
 특정 설정을 사용하면 오류를 제어할 수 있습니다. 보고서의 URL에서 **_uuid** 설정을 찾았습니다. **&amp;_preview** 또는 **&amp;_debug** 설정을 추가할 수 있습니다.
 
-이러한 설정에 대한 자세한 내용은 [웹 양식](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"}(Campaign v8 설명서) 장의 **웹 양식 속성 정의** 섹션을 참조하십시오.
+이러한 설정에 대한 자세한 내용은 [웹 양식](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"}(Campaign v8 설명서) 장의 **웹 양식 속성 정의** 섹션을 참조하십시오.
 
 ## 보고서 게시 {#publishing-the-report}
 

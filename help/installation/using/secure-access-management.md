@@ -52,7 +52,7 @@ ht-degree: 6%
 
   1. 각 복제에 대한 이름을 입력합니다. 예: webapp_brand, webapp_brand2 등
 
-  1. 웹 애플리케이션 템플릿을 복제하여 브랜드당 하나의 템플릿을 갖게 하고 속성을 편집하여 특정 계정 사용을 선택하여 연산자를 변경합니다.  자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-properties){target="_blank"}를 참조하세요(Campaign v8 설명서).
+  1. 웹 애플리케이션 템플릿을 복제하여 브랜드당 하나의 템플릿을 갖게 하고 속성을 편집하여 특정 계정 사용을 선택하여 연산자를 변경합니다.  자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-properties){target="_blank"}를 참조하세요(Campaign v8 설명서).
 
 ## 보안 그룹 및 관리자
 
