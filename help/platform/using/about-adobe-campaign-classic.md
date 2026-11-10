@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Customer engagement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: aeb8e44e8183cad6557fe2f27565cad0343777e5
+source-git-commit: 6a23919f31f7e55d1ae45effeb7a5e958b53226f
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 56%
@@ -59,7 +59,7 @@ Adobe Campaign을 사용하면 대화형 마케팅 캠페인 만들기를 조정
 
 Adobe Campaign 클라이언트 콘솔 및 해당 사용자 인터페이스를 시작하는 방법에 대해 알아보려면 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}를 참조하세요.
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}
 
 >[!TAB 캠페인 시작]
 
@@ -128,8 +128,8 @@ The following capabilities are available. Depending on your license agreement, s
 * [Message Center](../../message-center/using/about-transactional-messaging.md) - send transactional messages by email, SMS or on mobile app,
 * [Social Marketing](../../social/using/about-social-marketing.md) - communicate on social media: Facebook, X (formerly known as Twitter),
 * [Workflow](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (Campaign v8 documentation) / Data Management - automate processes and manage data with workflows,
-* [Web applications](../../web/using/about-web-applications.md) - create web pages and forms,
-* [Survey Manager](../../surveys/using/about-surveys.md) - create online surveys and polls,
+* [Web applications](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} (Campaign v8 documentation) - create web pages and forms,
+* [Survey Manager](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} (Campaign v8 documentation) - create online surveys and polls,
 * [Content Manager](../../delivery/using/about-content-management.md) - manage email content,
 * [Distributed Marketing](https://experienceleague.adobe.com/ko/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target="_blank"} (Campaign v8 documentation) - coordinate campaigns for central/local agencies,
 * [Response Manager](https://experienceleague.adobe.com/ko/docs/campaign/automation/response-manager/about-response-manager){target="_blank"} (Campaign v8 documentation) - manage customer response,

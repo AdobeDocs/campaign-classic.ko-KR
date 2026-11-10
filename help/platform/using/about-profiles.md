@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
+source-git-commit: 6a23919f31f7e55d1ae45effeb7a5e958b53226f
 workflow-type: tm+mt
 source-wordcount: '436'
-ht-degree: 20%
+ht-degree: 22%
 ---
 # 프로필 시작하기{#about-profiles}
 
@@ -68,7 +68,7 @@ Adobe Campaign에서 수신자는 게재(전자 메일, SMS 등)를 보낼 타�
 
 프로필과 프로필을 만들고 편집하는 방법에 대한 자세한 내용은 **[Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}**&#x200B;의 상세 설명서를 참조하십시오.
 
-[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}
+[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/gs-audiences){target="_blank"}
 
 >[!TAB 프로필 만들기 및 편집]
 
@@ -122,7 +122,7 @@ It also gives you access to:
 
 * lists - [Learn more](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target="_blank"} (Campaign v8 documentation)
 * subscription services - [Learn more](../../delivery/using/managing-subscriptions.md)
-* web applications - [Learn more](../../web/using/about-web-applications.md)
+* web applications - [Learn more](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} (Campaign v8 documentation)
 * imports and exports (jobs) - [Learn more](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/import){target="_blank"} (Campaign v8 documentation)
 * targeting workflows - [Learn more](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/introduction/build-a-workflow){target="_blank"} (Campaign v8 documentation)
 
