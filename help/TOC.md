@@ -8,9 +8,9 @@ user-guide-description: Adobe Campaign Classic v7의 제품 설명서입니다.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: 77efa1dcdb82a478e93565e84099d568f6a5f5fe
+source-git-commit: 368b67eeb68b0944be5db674fd6a18914dea86ad
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1350'
 ht-degree: 97%
 ---
 
@@ -388,7 +388,7 @@ ht-degree: 97%
     + [보고서에 대한 액세스 구성](reporting/using/configuring-access-to-the-report.md)
     + [보고서에 대한 작업](reporting/using/actions-on-reports.md)
   + [큐브를 사용한 보고서 디자인](reporting/using/ac-cubes.md)
-+ Adobe Experience Cloud와 통합 {#integrating-with-adobe-experience-cloud}
++ [!DNL Adobe CX Enterprise]과(와) 통합 {#integrating-with-adobe-experience-cloud}
   + [Campaign 통합 시작](integrations/using/about-campaign-integrations.md)
   + [Adobe 기술 계정 만들기](integrations/using/oauth-technical-account.md)
   + Adobe Experience Cloud 트리거 {#experience-triggers}
@@ -405,13 +405,13 @@ ht-degree: 97%
     + [Adobe Analytics 커넥터 시작](integrations/using/gs-aa.md)
     + [Adobe Analytics 커넥터 프로비전](integrations/using/adobe-analytics-provisioning.md)
   + 대상자 공유 {#audience-sharing}
-    + [&#x200B; [!DNL Adobe Experience Cloud]와 대상자 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+    + [&#x200B; [!DNL Adobe CX Enterprise]와 대상자 공유](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
     + [Adobe에 요청 제출](integrations/using/submitting-request-to-adobe.md)
     + [&#x200B; [!DNL Adobe Campaign]에서 공유 대상자 통합 구성](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
     + {hide-from-toc}[문제 해결](integrations/using/integrations-troubleshooting.md)
     + [대상자 가져오기 및 내보내기](integrations/using/importing-and-exporting-audiences.md)
   + 자산 공유 {#asset-sharing}
-    + [&#x200B; [!DNL Adobe Experience Cloud]와 에셋 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+    + [&#x200B; [!DNL Adobe CX Enterprise]와 에셋 공유](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
     + [&#x200B; [!DNL Assets] 액세스 구성](integrations/using/configuring-access-to-assets.md)
     + [공유 에셋 삽입](integrations/using/inserting-a-shared-asset.md)
   + Adobe Experience Manager {#adobe-experience-manager}

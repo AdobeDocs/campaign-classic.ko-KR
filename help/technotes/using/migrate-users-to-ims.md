@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4bc1e76d129c6a6aa15b7e3915232043bd6f4286
+source-git-commit: 1b8805ac952da110858c88fc2c252aece69ad2bf
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '673'
 ht-degree: 2%
 ---
 # 캠페인 운영자를 Adobe Identity Management System(IMS)으로 마이그레이션 {#migrate-users-to-ims}
@@ -52,7 +52,7 @@ Adobe은 이러한 마이그레이션 작업을 지원합니다. 아래 문서�
 
 조직의 운영자가 로그인/암호(예: )를 사용하여 Campaign 클라이언트 콘솔에 연결하는 경우 기본 인증)을 사용하면 영향을 받게 되며 아래에 자세히 설명된 대로 이러한 연산자를 Adobe IMS로 마이그레이션해야 합니다.
 
-[IMS(Adobe Identity Management System)로 마이그레이션](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}은(는) 다른 Adobe Experience Cloud 솔루션 및 앱의 대부분이 이미 IMS에 있으므로 환경을 안전하고 표준화하도록 하는 데 필수적인 보안입니다.
+[IMS(Adobe Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}(으)로 마이그레이션은 다른 [!DNL Adobe CX Enterprise] 솔루션과 앱 대부분이 이미 IMS에 있으므로 환경을 안전하고 표준화하기 위해 반드시 필요한 보안입니다.
 
 이 변경 사항은 Campaign Classic v7.4.1(및 최신 [IMS 마이그레이션 호환 버전](ac-ims.md#ims-versions))부터 적용할 수 있으며 Adobe Campaign v8로 이동하려면 **필수**&#x200B;입니다.
 

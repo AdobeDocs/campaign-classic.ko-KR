@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 1b8805ac952da110858c88fc2c252aece69ad2bf
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '406'
 ht-degree: 8%
 ---
 # Campaign 및 Experience Cloud 트리거 작업{#about-adobe-experience-triggers}
@@ -64,13 +64,13 @@ ht-degree: 8%
 
 ![](assets/triggers_2.png)
 
-[!DNL pipelined] 프로세스가 인증 서비스를 사용하여 Experience Cloud에 로그인하고 개인 키를 보냅니다. 인증 서비스가 토큰을 반환합니다. 토큰을 사용하여 이벤트를 검색할 때 인증합니다.
+[!DNL pipelined] 프로세스가 인증 서비스를 사용하여 [!DNL Adobe CX Enterprise]에 로그인하고 개인 키를 보냅니다. 인증 서비스가 토큰을 반환합니다. 토큰을 사용하여 이벤트를 검색할 때 인증합니다.
 
 ## 필수 구성 요소 {#adobe-io-prerequisites}
 
 이 구현을 시작하기 전에 다음을 확인하십시오.
 
-* 유효한 **조직 식별자**: 조직 ID는 Adobe Experience Cloud 내의 고유 식별자이며, 예를 들어 방문자 ID 서비스 및 IMS SSO(Single Sign-On)에 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)
+* 올바른 **조직 식별자**: 조직 ID는 [!DNL CX Enterprise] 내의 고유 식별자이며, 예를 들어 방문자 ID 서비스 및 IMS SSO(Single Sign-On)에 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)
 * 조직에 대한 **개발자 액세스**. 조직의 시스템 관리자는 트리거와 연결된 Adobe Analytics 제품의 `Analytics - {tenantID}` 제품 프로필에 대한 개발자 액세스 권한을 제공하려면 **단일 제품 프로필에 개발자 추가** 절차(이 페이지의 [설명](https://helpx.adobe.com/kr/enterprise/using/manage-developers.html))를 따라야 합니다.
 
 ## 구현 단계 {#implement}

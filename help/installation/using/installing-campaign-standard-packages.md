@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 5e2aa587f61d79eab6d356ea5f91bc4e0f1b24c6
+source-git-commit: 368b67eeb68b0944be5db674fd6a18914dea86ad
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1453'
 ht-degree: 9%
 ---
 # Campaign Classic 기본 제공 패키지 설치{#installing-campaign-standard-packages}
@@ -223,12 +223,12 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td> Adobe Experience Cloud 공유 대상 통합<br /> </td> 
-   <td> Adobe Experience Cloud 솔루션 및 앱과 대상/세그먼트를 교환하고 공유할 수 있습니다. IMS가 필요합니다. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">자세히 알아보기</a> <br /> </td> 
+   <td> Adobe CX Enterprise 솔루션 및 앱과 대상/세그먼트를 교환하고 공유할 수 있습니다. IMS가 필요합니다. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">자세히 알아보기</a> <br /> </td> 
    <td> 마케팅<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Experience Cloud와 통합<br /> </td> 
-   <td> 다양한 Adobe Experience Cloud 솔루션의 대상/세그먼트를 Adobe Campaign으로 가져오고 내보낼 수 있습니다. 선택 사항입니다. <a href="../../integrations/using/configuring-ims.md#installing-the-package">자세히 알아보기</a> </td> 
+   <td> 다양한 CX Enterprise 솔루션의 대상/세그먼트를 Adobe Campaign으로 가져오고 내보낼 수 있습니다. 선택 사항입니다. <a href="../../integrations/using/configuring-ims.md#installing-the-package">자세히 알아보기</a> </td> 
    <td> 마케팅</td> 
   </tr> 
   <tr> 

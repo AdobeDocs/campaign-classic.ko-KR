@@ -30,9 +30,9 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 1b8805ac952da110858c88fc2c252aece69ad2bf
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '195'
 ht-degree: 2%
 ---
 # Adobe Target과의 통합 구성{#configuring-the-integration-with-adobe-target}
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 이 통합에는 다음이 필요합니다.
 
-* Adobe Experience Cloud 및 Adobe Target 조직
+* [!DNL Adobe CX Enterprise] 및 Adobe Target 조직
 * Adobe Campaign과의 연결을 설정하기 위해 지정된 Adobe Target rawbox
 
 Adobe Campaign에서 이 통합을 구성하려면 아래 단계를 따르십시오.

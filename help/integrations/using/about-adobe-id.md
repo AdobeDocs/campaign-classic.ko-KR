@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4ae19a379120bb39444c3e81392a7dbb0b6da3ba
+source-git-commit: 1b8805ac952da110858c88fc2c252aece69ad2bf
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 16%
+source-wordcount: '192'
+ht-degree: 10%
 ---
 # Adobe ID 정보 {#about-adobe-id}
 
@@ -45,7 +45,7 @@ Adobe IMS(Identity Management System)는 관리자가 애플리케이션 및 서
 
 Campaign 사용자는 [기본 사용자/암호 인증](../../platform/using/access-management-operators.md) 대신 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결할 수 있습니다. 이 구현은 다음과 같은 이점을 제공합니다.
 
-* 모든 Experience Cloud 솔루션에 동일한 ID를 사용할 수 있습니다.
+* 모든 [!DNL Adobe CX Enterprise] 솔루션에 동일한 ID를 사용할 수 있습니다.
 * 서로 다른 통합으로 Adobe Campaign을 사용하는 경우 연결이 유지됩니다.
 * 기본 로그인/암호보다 안전한 암호 관리 정책.
 * 페더레이션 ID 계정 사용(외부 ID 공급자).

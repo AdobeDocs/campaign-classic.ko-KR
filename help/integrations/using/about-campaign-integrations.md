@@ -39,16 +39,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0fdce84d7da1ff42a406ace8f1a180f6a426646a
+source-git-commit: 368b67eeb68b0944be5db674fd6a18914dea86ad
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 5%
+source-wordcount: '790'
+ht-degree: 4%
 ---
 # Adobe Campaign 통합 시작 {#about-campaign-integrations}
 
-Adobe Experience Cloud는 강력한 솔루션 및 앱의 공통 세트를 사용하여 공통 데이터 플랫폼에 구축된 포괄적인 최고급 통합 솔루션 세트입니다.
+[!DNL Adobe CX Enterprise]은(는) 강력한 솔루션과 앱의 공통 세트를 사용하여 공통 데이터 플랫폼에 구축된 포괄적인 최고급 통합 솔루션 세트입니다.
 
-[이 페이지](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/integrations){_blank}에서 Adobe Campaign과 Adobe Experience Cloud 솔루션 간에 사용할 수 있는 기능 통합에 대해 자세히 알아보십시오.
+[이 페이지](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/integrations){_blank}에서 Adobe Campaign과 [!DNL CX Enterprise] 솔루션 간에 사용할 수 있는 기능 통합에 대해 자세히 알아보세요.
 
 Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 앱 서비스와 관련 문서의 전체 목록은 [이 섹션](#experience-cloud-integrations)에서 확인할 수 있습니다.
 
@@ -65,23 +65,23 @@ Adobe Campaign과 통합할 수 있는 Adobe 솔루션 및 앱 서비스와 관�
 
 ## 솔루션 연결 {#working-with-experience-cloud-solutions}
 
-여러 솔루션을 Adobe Experience Cloud에 연결할 수 있습니다. **조직**&#x200B;은(는) 관리자가 그룹과 사용자를 구성하고 Adobe Experience Cloud에서 SSO(Single Sign-On)를 제어할 수 있도록 하는 고객 엔터티입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 역할을 합니다. 대부분의 경우 조직은 회사의 이름입니다. 하지만 회사는 여러 조직을 가질 수 있습니다.
+여러 솔루션을 [!DNL CX Enterprise]에 연결할 수 있습니다. **조직**&#x200B;은(는) 관리자가 그룹과 사용자를 구성하고 [!DNL CX Enterprise]에서 SSO(Single Sign-On)를 제어할 수 있도록 하는 고객 엔터티입니다. 조직은 모든 [!DNL CX Enterprise] 제품 및 솔루션을 포괄하는 로그인 회사와 같은 역할을 합니다. 대부분의 경우 조직은 회사의 이름입니다. 하지만 회사는 여러 조직을 가질 수 있습니다.
 
-조직 관리 및 Adobe Experience Cloud 계정 연결에 대한 자세한 내용은 [Adobe Experience Cloud 도움말 포털](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations){_blank}을 참조하세요.
+[!DNL CX Enterprise] 계정에 대한 조직 관리 및 연결은 [Adobe Experience Cloud 도움말 포털](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations){_blank}에 자세히 설명되어 있습니다.
 
 ## ID 및 쿠키 관리 {#id-and-cookies}
 
-Adobe Campaign을 설치하거나 기존 설치를 Adobe Experience Cloud와 통합할 때 [Adobe Experience Cloud ID 서비스](https://experienceleague.adobe.com/ko/docs/id-service/using/home){_blank}가 활성화됩니다. 이 서비스는 추적 기능으로 Adobe Campaign이 가장 먼저 사용하는 영구 쿠키를 대체합니다.
+Adobe Campaign을 설치하거나 기존 설치를 [!DNL CX Enterprise]과(와) 통합할 때 [Adobe Experience Cloud ID 서비스](https://experienceleague.adobe.com/ko/docs/id-service/using/home){_blank}가 활성화됩니다. 이 서비스는 추적 기능으로 Adobe Campaign이 가장 먼저 사용하는 영구 쿠키를 대체합니다.
 
-Adobe Experience Cloud ID 서비스(ID 서비스)는 Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다.
+Adobe Experience Cloud ID 서비스(ID 서비스)는 [!DNL CX Enterprise]의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다.
 
 추적 로그를 생성하는 수신자에게 고유 방문자 ID가 할당됩니다. 이 ID는 **[!UICONTROL nms:trackingLogRcp]** 테이블의 **[!UICONTROL Requester UUID (@sourceID)]** 필드에 저장됩니다. **방문자 ID 서비스가 구현되기 전에 있었던 수신자의 추적 데이터를 더 이상 사용할 수 없습니다**.
 
-그러면 동일한 CNAME을 사용하는 다른 Adobe Experience Cloud 솔루션에서 ID를 인식합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/id-service/using/reference/analytics-reference/cname){_blank}.
+그러면 ID는 동일한 CNAME을 가진 다른 [!DNL CX Enterprise] 솔루션에서 인식됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/id-service/using/reference/analytics-reference/cname){_blank}.
 
-## Experience Cloud 통합 {#experience-cloud-integrations}
+## [!DNL CX Enterprise] 통합 {#experience-cloud-integrations}
 
-다음 표는 사용 가능한 Experience Cloud 통합 설명서에 대한 액세스를 제공합니다.
+다음 표는 사용 가능한 [!DNL CX Enterprise] 통합 문서에 대한 액세스를 제공합니다.
 
 <table> 
  <thead> 
@@ -97,7 +97,7 @@ Adobe Experience Cloud ID 서비스(ID 서비스)는 Experience Cloud의 모든 
   </tr> 
   <tr> 
    <td> <strong>Adobe IMS(Identity Management System) - Adobe ID</strong><br /> </td> 
-   <td> 다른 Adobe Experience Cloud 솔루션과 동일한 Adobe ID을 사용하여 Adobe Campaign에 연결하도록 Adobe IMS를 구성합니다.<br /> Adobe Experience Cloud 통합에 연결된 특정 기능을 사용하려면 Adobe ID을 사용하여 로그인해야 합니다.<br /> <p>Adobe Campaign을 사용한 Adobe ID 구현에 대해 <a href="../../integrations/using/about-adobe-id.md">자세히 알아보세요</a>.</p><br /> </td> 
+   <td> 다른 CX Enterprise 솔루션과 동일한 Adobe ID을 사용하여 Adobe Campaign에 연결하도록 Adobe IMS를 구성합니다.<br /> CX Enterprise 통합에 연결된 특정 기능을 사용하려면 Adobe ID을 사용하여 로그인해야 합니다.<br /> <p>Adobe Campaign을 사용한 Adobe ID 구현에 대해 <a href="../../integrations/using/about-adobe-id.md">자세히 알아보세요</a>.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Experience Manager</strong><br /> </td> 
@@ -109,11 +109,11 @@ Adobe Experience Cloud ID 서비스(ID 서비스)는 Experience Cloud의 모든 
   </tr> 
   <tr> 
    <td><strong>Adobe Audience Manager</strong><br /> </td> 
-   <td> 사용하는 Adobe Experience Cloud 솔루션과 앱 간에 대상자를 공유하도록 이 통합을 구성하십시오.<br /> <p>Adobe Campaign - Adobe Audience Manager 통합에 대해 <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">자세히 알아보기</a>.</p><br /> </td> 
+   <td> 사용하는 CX Enterprise 솔루션과 앱 간에 대상자를 공유하도록 이 통합을 구성하십시오.<br /> <p>Adobe Campaign - Adobe Audience Manager 통합에 대해 <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">자세히 알아보기</a>.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Assets</strong><br /> </td> 
-   <td> Adobe Experience Cloud 라이브러리의 자산을 Adobe Campaign에서 만든 전자 메일 및 랜딩 페이지에 삽입하도록 이 통합을 구성합니다.<br /> <p>Adobe Campaign - Assets 통합에 대해 <a href="../../integrations/using/configuring-access-to-assets.md#integrating-with-experience-cloud-assets">자세히 알아보기</a></p><br /> </td> 
+   <td> CX Enterprise 라이브러리의 자산을 Adobe Campaign에서 만든 전자 메일 및 랜딩 페이지에 삽입하도록 이 통합을 구성합니다.<br /> <p>Adobe Campaign - Assets 통합에 대해 <a href="../../integrations/using/configuring-access-to-assets.md#integrating-with-experience-cloud-assets">자세히 알아보기</a></p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AEM Assets</strong><br /> </td> 
