@@ -19,9 +19,9 @@ subfeature_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 1b8805ac952da110858c88fc2c252aece69ad2bf
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '476'
 ht-degree: 6%
 ---
 # Adobe Identity Management 시스템(IMS)으로 마이그레이션 {#migrate-to-ims}
@@ -37,7 +37,7 @@ ht-degree: 6%
 
 ## 마이그레이션 단계 {#ims-steps}
 
-[IMS(Adobe Identity Management System)로 마이그레이션](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}은(는) 다른 Adobe Experience Cloud 솔루션 및 앱의 대부분이 이미 IMS에 있으므로 환경을 안전하고 표준화하도록 하는 데 필수적인 보안입니다.
+[IMS(Adobe Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}(으)로 마이그레이션은 다른 [!DNL Adobe CX Enterprise] 솔루션과 앱 대부분이 이미 IMS에 있으므로 환경을 안전하고 표준화하기 위해 반드시 필요한 보안입니다.
 
 Adobe은 이러한 마이그레이션 작업을 지원합니다. 자세한 컨텍스트와 단계별 지침은 아래 문서에서 확인할 수 있습니다.
 

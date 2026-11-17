@@ -29,9 +29,9 @@ subfeature_v2:
     internal-label: Target integration
   - id: a14877cc-63b1-41d9-bf0b-5f97cadd0417
     internal-label: Configuration guidelines
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 1b8805ac952da110858c88fc2c252aece69ad2bf
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '360'
 ht-degree: 12%
 ---
 # IMS 구성{#configuring-ims}
@@ -43,12 +43,12 @@ ht-degree: 12%
 
 ## 필수 구성 요소 {#prerequisites}
 
-* Adobe Experience Cloud 조직 이름과 ID가 있어야 합니다. 조직 ID를 찾으려면 [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko){_blank}를 참조하세요.
-* Experience Cloud에서 사용자를 추가해야 합니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ko){_blank}를 참조하십시오.
+* [!DNL Adobe CX Enterprise] 조직 이름과 ID가 있어야 합니다. 조직 ID를 찾으려면 [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko){_blank}를 참조하세요.
+* [!DNL CX Enterprise]에서 사용자를 추가해야 합니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html){_blank}를 참조하십시오.
 
 >[!NOTE]
 >
->사용자가 Adobe Campaign과 동기화할 Adobe Experience Cloud 그룹에 연결되어 있는지 확인합니다. [자세히 알아보기](#configuring-the-external-account).
+>사용자가 Adobe Campaign과 동기화할 [!DNL CX Enterprise] 그룹에 연결되어 있는지 확인하십시오. [자세히 알아보기](#configuring-the-external-account).
 
 ## 콘솔 업데이트 {#updating-the-console}
 
@@ -68,7 +68,7 @@ ht-degree: 12%
 
 다음 정보를 입력합니다.
 
-* 사용된 IMS 서버의 연결 정보(ID 및 암호). 이 정보는 Adobe 고객 지원 센터에서 제공합니다. 자세한 내용은 [Adobe Experience Cloud 관리자를 위한 FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html?lang=ko)를 참조하십시오.
+* 사용된 IMS 서버의 연결 정보(ID 및 암호). 이 정보는 Adobe 고객 지원 센터에서 제공합니다. 자세한 내용은 [Adobe Experience Cloud 관리자를 위한 FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html)를 참조하십시오.
 
   **[!UICONTROL Callback server]** 주소는 **https**&#x200B;에 지정해야 합니다. 이 필드는 Adobe Campaign 인스턴스의 액세스 URL에 해당합니다.
 

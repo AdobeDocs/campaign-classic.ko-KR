@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
+source-git-commit: 1b8805ac952da110858c88fc2c252aece69ad2bf
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 3%
+source-wordcount: '124'
+ht-degree: 4%
 ---
 # 문제 해결{#troubleshooting}
 
@@ -55,7 +55,7 @@ ht-degree: 3%
 
 * **외부 계정**
 
-  **[!UICONTROL Administration > Platform > External accounts]**&#x200B;에서 다음 외부 SFTP 계정이 올바르게 구성되었는지 확인하십시오. 컨설턴트가 Adobe Experience Cloud에서 SFTP 서버를 구성해야 합니다.
+  **[!UICONTROL Administration > Platform > External accounts]**&#x200B;에서 다음 외부 SFTP 계정이 올바르게 구성되었는지 확인하십시오. 컨설턴트가 [!DNL Adobe CX Enterprise]에서 언급된 SFTP 서버를 구성해야 합니다.
 
   * **[!UICONTROL importSharedAudience]** : 대상자 가져오기 전용 SFTP 계정
   * **[!UICONTROL exportSharedAudience]** : 대상자 내보내기 전용 SFTP 계정입니다.

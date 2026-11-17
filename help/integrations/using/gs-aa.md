@@ -35,9 +35,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 1b8805ac952da110858c88fc2c252aece69ad2bf
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '206'
 ht-degree: 12%
 ---
 # Adobe Campaign 및 Adobe Analytics 작업 {#adobe-analytics-connector-gs}
@@ -55,11 +55,11 @@ Adobe Campaign-Adobe Analytics 커넥터 작업을 시작하기 전에 다음 �
 * Web Analytics 커넥터 추가 기능은 전용 패키지를 통해 환경에 설치해야 합니다.
 
   * 하이브리드 및 온-프레미스 구현의 경우 이 [페이지](adobe-analytics-provisioning.md)에서 자세히 설명하는 프로비저닝 단계를 따라야 합니다.
-  * Adobe Experience Cloud 서비스 사용자는 Adobe에 문의하여 Campaign을 Adobe Experience Cloud 서비스 및 솔루션에 연결합니다.
+  * Campaign을 [!DNL Adobe CX Enterprise] 서비스 및 솔루션과 연결하려면 Managed Cloud Services 사용자의 경우 Adobe에 문의하십시오.
 
 
 ## 구성 및 사용 {#adobe-analytics-connector-usage}
 
 이 통합을 사용하려면 [이 페이지](oauth-technical-account.md)에 자세히 설명된 대로 Adobe 기술 계정을 만들어야 합니다.
 
-[Adobe Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}에서 Adobe Analytics 및 Adobe Campaign을 사용하여 작업하는 방법을 알아보세요.
+[Adobe Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}에서 Adobe Analytics 및 Adobe Campaign을 사용하여 작업하는 방법을 알아보세요.

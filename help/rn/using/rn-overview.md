@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: f079b19ac78b331499a6f3cf5fcc21e55827998c
-workflow-type: ht
-source-wordcount: '1204'
-ht-degree: 100%
+source-git-commit: 1b8805ac952da110858c88fc2c252aece69ad2bf
+workflow-type: tm+mt
+source-wordcount: '1202'
+ht-degree: 98%
 ---
 # 릴리스 업데이트 {#rn-overview}
 
@@ -198,4 +198,4 @@ Adobe 팀이 사용자의 조직에 업그레이드 여정을 안내해 드리�
 * [사용되지 않거나 제거된 기능](../../rn/using/deprecated-features.md)
 * [빌드 업그레이드 FAQ](../../platform/using/faq-build-upgrade.md)
 
-새로운 Experience Cloud 솔루션 릴리스에 대한 정보를 받으려면 [Adobe 주요 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html)를 구독하세요.
+새로운 [!DNL Adobe CX Enterprise] 솔루션 릴리스에 대한 정보를 받으려면 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html)를 구독하세요.

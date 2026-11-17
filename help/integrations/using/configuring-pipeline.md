@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 1b8805ac952da110858c88fc2c252aece69ad2bf
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '842'
 ht-degree: 1%
 ---
 # 파이프라인 구성 {#configuring-pipeline}
@@ -56,11 +56,11 @@ ht-degree: 1%
 이 구성을 시작하기 전에 다음을 확인하십시오.
 
 * Adobe Developer 프로젝트
-* 올바른 조직 ID - 조직 ID를 찾으려면 [이 페이지](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}를 참조하세요.
+* 올바른 조직 ID - 조직 ID를 찾으려면 [이 페이지](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}를 참조하세요.
 * 조직에 대한 개발자 액세스 권한
 * Adobe Analytics의 유효한 트리거 구성
 
-파이프라인이 Adobe Experience Cloud에서 호스팅되므로 인증이 필요합니다. Adobe Developer 프로젝트를 통해에 지원되는 인증을 사용합니다.
+파이프라인이 [!DNL Adobe CX Enterprise]에서 호스팅되므로 인증이 필요합니다. Adobe Developer 프로젝트를 통해에 지원되는 인증을 사용합니다.
 
 ## 1단계: Adobe Developer 프로젝트 만들기/업데이트 {#creating-adobe-io-project}
 

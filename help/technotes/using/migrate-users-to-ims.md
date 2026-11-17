@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4bc1e76d129c6a6aa15b7e3915232043bd6f4286
+source-git-commit: 1b8805ac952da110858c88fc2c252aece69ad2bf
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '673'
 ht-degree: 2%
 ---
 # 캠페인 운영자를 Adobe Identity Management System(IMS)으로 마이그레이션 {#migrate-users-to-ims}
@@ -52,7 +52,7 @@ Adobe은 이러한 마이그레이션 작업을 지원합니다. 아래 문서�
 
 조직의 운영자가 로그인/암호(예: )를 사용하여 Campaign 클라이언트 콘솔에 연결하는 경우 기본 인증)을 사용하면 영향을 받게 되며 아래에 자세히 설명된 대로 이러한 연산자를 Adobe IMS로 마이그레이션해야 합니다.
 
-[IMS(Adobe Identity Management System)로 마이그레이션](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}은(는) 다른 Adobe Experience Cloud 솔루션 및 앱의 대부분이 이미 IMS에 있으므로 환경을 안전하고 표준화하도록 하는 데 필수적인 보안입니다.
+[IMS(Adobe Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}(으)로 마이그레이션은 다른 [!DNL Adobe CX Enterprise] 솔루션과 앱 대부분이 이미 IMS에 있으므로 환경을 안전하고 표준화하기 위해 반드시 필요한 보안입니다.
 
 이 변경 사항은 Campaign Classic v7.4.1(및 최신 [IMS 마이그레이션 호환 버전](ac-ims.md#ims-versions))부터 적용할 수 있으며 Adobe Campaign v8로 이동하려면 **필수**&#x200B;입니다.
 
@@ -62,7 +62,7 @@ Adobe은 이러한 마이그레이션 작업을 지원합니다. 아래 문서�
 >
 >사용자를 IMS로 마이그레이션한 후에는 Adobe Admin Console의 제품 프로필에 이름에 &quot;admin&quot;이라는 단어가 포함되어 있는지 확인하십시오(예: &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot; 등). 는 Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 자동으로 부여합니다. Campaign 컨트롤 패널은 Campaign 인스턴스를 크게 변경할 수 있는 셀프서비스 도구입니다.
 >
->제품 프로필 이름 지정 규칙을 주의 깊게 검토하여 승인된 사용자만 Campaign 컨트롤 패널에 액세스할 수 있도록 합니다. [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko){target="_blank"}에서 Campaign 컨트롤 패널 권한 관리에 대해 자세히 알아보세요.
+>제품 프로필 이름 지정 규칙을 주의 깊게 검토하여 승인된 사용자만 Campaign 컨트롤 패널에 액세스할 수 있도록 합니다. [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}에서 Campaign 컨트롤 패널 권한 관리에 대해 자세히 알아보세요.
 
 
 ## 하이브리드 및 온-프레미스 환경을 마이그레이션하는 방법 {#ims-migration-procedure-on-prem}
@@ -72,8 +72,8 @@ Adobe은 이러한 마이그레이션 작업을 지원합니다. 아래 문서�
 1. 환경을 Campaign v7.4.1(또는 [IMS 마이그레이션 호환 버전](#ims-versions))로 업그레이드하십시오.
 1. 업그레이드 후에도 기본 사용자 또는 IMS와 같은 두 가지 방법을 사용하여 새 사용자를 만들 수 있습니다.
 1. 내부 Campaign 관리자는 [이 섹션](../../integrations/using/configuring-ims.md)에 자세히 설명된 대로 Adobe IMS를 구성해야 합니다.
-1. 그런 다음 Campaign 클라이언트 콘솔의 모든 기본 사용자에게 고유한 이메일을 추가합니다. 이 단계는 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims#ims-migration-id){target="_blank"}에 자세히 설명되어 있습니다(Campaign v8 설명서).
-1. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/manage-permissions.html?lang=ko){target="_blank"}에 자세히 설명된 대로 Adobe Admin Console에서 사용자 및 제품 프로필을 만듭니다.
+1. 그런 다음 Campaign 클라이언트 콘솔의 모든 기본 사용자에게 고유한 이메일을 추가합니다. 이 단계는 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims#ims-migration-id){target="_blank"}에 자세히 설명되어 있습니다(Campaign v8 설명서).
+1. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/manage-permissions.html){target="_blank"}에 자세히 설명된 대로 Adobe Admin Console에서 사용자 및 제품 프로필을 만듭니다.
 1. 모든 연산자에 대해 **Adobe ID과 연결** 옵션을 사용하도록 설정하십시오.
 1. [이 페이지](../../integrations/using/implementing-ims.md)에 자세히 설명된 대로 연결에 Adobe IMS를 구현합니다.
 
@@ -81,7 +81,7 @@ Adobe은 이러한 마이그레이션 작업을 지원합니다. 아래 문서�
 
 ## 자주 묻는 질문 {#ims-migration-faq}
 
-마이그레이션에 대한 일반적인 질문(마이그레이션 후 사용자 만들기, 기본 사용자를 위한 이메일 추가, IMS를 통해 로그인, 가동 중지, 이미 IMS를 사용하는 조직, 운영자의 인증 유형 보기)에 대한 답변은 [Campaign v8 기술 정보](https://experienceleague.adobe.com/ko/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims#ims-migration-faq){target=_blank}(Campaign v8 설명서)를 참조하십시오.
+마이그레이션에 대한 일반적인 질문(마이그레이션 후 사용자 만들기, 기본 사용자를 위한 이메일 추가, IMS를 통해 로그인, 가동 중지, 이미 IMS를 사용하는 조직, 운영자의 인증 유형 보기)에 대한 답변은 [Campaign v8 기술 정보](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims#ims-migration-faq){target=_blank}(Campaign v8 설명서)를 참조하십시오.
 
 >[!MORELIKETHIS]
 >

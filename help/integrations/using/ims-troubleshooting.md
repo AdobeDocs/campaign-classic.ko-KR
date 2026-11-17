@@ -33,9 +33,9 @@ subfeature_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 0fdce84d7da1ff42a406ace8f1a180f6a426646a
+source-git-commit: 368b67eeb68b0944be5db674fd6a18914dea86ad
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '486'
 ht-degree: 5%
 ---
 # IMS 문제 해결{#ims-troubleshooting}
@@ -45,9 +45,9 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. Adobe ID으로 로그인 및 로그인 문제 해결에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/connect){target=_blank}를 참조하세요.
+>Campaign v7에서 v8로 전환하는 과정의 일부로 Campaign Classic 설명서 세트가 간소화 및 재구성되었습니다. 이제 일반적인 기능은 Campaign v8 설명서 세트에서만 사용할 수 있습니다. Adobe ID으로 로그인 및 로그인 문제 해결에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect){target=_blank}를 참조하세요.
 >
->[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/connect){target="_blank"}
+>[![이미지](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect){target="_blank"}
 
 **외부 계정**
 
@@ -62,9 +62,9 @@ ht-degree: 5%
 
 외부 계정에 **제품 컨텍스트** 필드가 있는 경우 해당 값이 **dma_campaign_classic**(으)로 설정되어 있는지 확인하십시오.
 
-제품 컨텍스트가 Campaign과 Experience Cloud에 대해 동일한지 확인합니다.
+제품 컨텍스트가 Campaign과 [!DNL Adobe CX Enterprise]에 대해 동일한지 확인하십시오.
 
-예를 들어 **제품 컨텍스트**&#x200B;가 나타나지 않으면 Campaign과 Experience Cloud에서 기본 제품 컨텍스트는 **dma_campaign**&#x200B;이어야 합니다. **제품 컨텍스트** 필드가 나타나면 Campaign과 Experience Cloud 모두에서 기본 제품 컨텍스트는 **dma_campaign_classic**&#x200B;이어야 합니다.
+예를 들어 **제품 컨텍스트**&#x200B;가 나타나지 않으면 기본 제품 컨텍스트는 Campaign과 [!DNL CX Enterprise]에서 모두 **dma_campaign**&#x200B;이어야 합니다. **제품 컨텍스트** 필드가 나타나면 Campaign과 [!DNL CX Enterprise] 모두에서 기본 제품 컨텍스트는 **dma_campaign_classic**&#x200B;이어야 합니다.
 
 **[!UICONTROL IMS Server URL]**
 

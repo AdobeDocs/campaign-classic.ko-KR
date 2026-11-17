@@ -40,10 +40,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 1b8805ac952da110858c88fc2c252aece69ad2bf
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 7%
+source-wordcount: '196'
+ht-degree: 8%
 ---
 # Campaign 커넥터 {#about-connectors}
 
@@ -57,8 +57,8 @@ Adobe Campaign은 외부 애플리케이션과 통신하고, 데이터베이스 
 
 다음과 같은 여러 다른 시스템과 Campaign을 통합할 수도 있습니다.
 
-* Adobe Experience Cloud 솔루션: Adobe Experience Manager, Adobe Target, Adobe Audience Manager, Experience Cloud 트리거 등 [자세히 알아보기](../../integrations/using/about-campaign-integrations.md)
-* SSO(Single Sign-On)용 IMS(Adobe Identity Management System)를 사용하여 Campaign 인스턴스에 대한 액세스 보안을 유지하고 다른 Adobe Experience Cloud 솔루션과 동일한 Adobe ID을 사용하여 Adobe Campaign에 연결합니다. [자세히 알아보기](../../integrations/using/about-adobe-id.md).
+* [!DNL Adobe CX Enterprise] 솔루션: Adobe Experience Manager, Adobe Target, Adobe Audience Manager, Experience Cloud 트리거 등 [자세히 알아보기](../../integrations/using/about-campaign-integrations.md)
+* SSO(Single Sign-On)용 IMS(Adobe Identity Management System)를 사용하여 Campaign 인스턴스에 안전하게 액세스하고 다른 [!DNL CX Enterprise] 솔루션과 동일한 Adobe ID을 사용하여 Adobe Campaign에 연결합니다. [자세히 알아보기](../../integrations/using/about-adobe-id.md).
 * 액세스 관리를 통합하는 LDAP 디렉토리입니다. [자세히 알아보기](../../installation/using/connecting-through-ldap.md).
 
 >[!NOTE]
