@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 1b8805ac952da110858c88fc2c252aece69ad2bf
+source-git-commit: e737155048b50f18207ab7d2f3dfd4a4b0d48557
 workflow-type: tm+mt
 source-wordcount: '1202'
 ht-degree: 98%
@@ -81,7 +81,7 @@ Adobe Campaign은 정기적으로 업데이트됩니다. 이렇게 정기적으�
 
 호스팅된 고객은 별도의 조치 없이 안정적인 최신 빌드의 업그레이드를 자동으로 사용할 수 있습니다. 자세한 내용은 [연간 업그레이드 섹션](#yearly-upgrade)을 참조하십시오. 이전 빌드에서 마이그레이션하는 경우 먼저 이 빌드로 업그레이드하는 것이 좋습니다.
 
-## 핫픽스 {#hotflixes}
+## 핫픽스 {#hotfixes}
 
 예외적인 경우 Adobe는 표준 릴리스에서 수정 사항이 제공되기 전에 문제를 해결하기 위해 고객별 핫픽스를 제공할 수 있습니다. 핫픽스 요청은 사례별로 평가되며 표준 릴리스 주기에 포함되지 않습니다.
 
